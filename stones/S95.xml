@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S95.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 95</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S95">
+          <msIdentifier>
+            <idno>S95</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="STAT">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>145</height>
+                    <depth>34</depth>
+                    <width>32</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_19 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>68</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Jia Ruskaja Eugenia</forename>
+              <surname>Borissenko</surname>
+            </persName>
+            <birth when="1902-01-06"/>
+            <death when="1970-04-19"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_1 #m_IC #t_P">
+        <ab>ЙИА РУСКАЯ</ab>
+        <ab>ЕУГЕНИА</ab>
+        <ab>БОРИССЕНКО</ab>
+        <ab/>
+        <ab>6.И.1902</ab>
+        <ab>19.ИВ.1970</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_1 #m_IC #t_PC">
+        <ab>FONDATRICE DELL'ACCADEMIA</ab>
+        <ab>NAZIONALE DI DANZA</ab>
+        <ab/>
+        <ab>DEDICÓ ALL'ARTE COREUTICA</ab>
+        <ab>CON SLANCIO ED ABNEGAZIONE</ab>
+        <ab>TUTTA SE STESSA.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

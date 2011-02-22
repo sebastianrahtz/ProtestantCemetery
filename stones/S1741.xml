@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1741.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1741</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1741">
+          <msIdentifier>
+            <idno>S1741</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>202</height>
+                    <depth>29</depth>
+                    <width>89</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_T"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Harrie</forename>
+              <surname>Masse</surname>
+            </persName>
+            <death when="1877"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+        <ab>HARRIE MASSE</ab>
+        <ab>BORN IN LONDON</ab>
+        <ab>DIED IN ROME</ab>
+        <ab>ON THE 16TH IUNE</ab>
+        <ab>1877</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

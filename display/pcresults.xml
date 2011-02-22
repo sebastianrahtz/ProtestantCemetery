@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI.2   xmlns:exist="http://exist.sourceforge.net/NS/exist" >
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery query results</title>
+            <author>Sebastian Rahtz</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>June 2002</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>OUCS</authority>
+            <address>
+               <email>help@oucs.ox.ac.uk</email>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Created from scratch by Sebastian Rahtz, <date>November
+            14th 2000</date></p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change>
+            <date>$Date$</date>
+            <respStmt>
+               <name>$Author$</name>
+            </respStmt>
+            <item>$Revision$</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+<body>
+<exist:request xmlns:exist="http://exist.sourceforge.net/NS/exist">
+    <display indent='true' howmany='999' start='1'/>
+</exist:request>
+</body>
+   </text>
+</TEI.2>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1922.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1922</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1922">
+          <msIdentifier>
+            <idno>S1922</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>270</height>
+                    <depth>44</depth>
+                    <width>135</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>3</num>
+                <ptr target="#i_121 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_123 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Hans</forename>
+              <surname>von Mareés</surname>
+            </persName>
+            <death when="1887"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_S #c_1 #m_IC #t_P">
+        <ab>HANS VON MARE'ES</ab>
+        <ab>1837 - 1887</ab>
+      </div>
+      <div type="inscription"  decls="#f_E #c_1 #m_IC #t_P">
+        <ab>ARTUR VOLKMANN 1888.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

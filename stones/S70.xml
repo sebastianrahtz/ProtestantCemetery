@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S70.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 70</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S70">
+          <msIdentifier>
+            <idno>S70</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PED">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>110</height>
+                    <depth>37</depth>
+                    <width>50</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_35 #st_B #f_E"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_55 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_45 #st_B #f_N"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_N"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Jacob</forename>
+              <surname>Six</surname>
+            </persName>
+            <death when="1786-12-15"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_2 #m_I #t_P">
+        <ab>IACOBO SIX</ab>
+        <ab>INDOLE INGENIO</ab>
+        <ab>DOCTRINA</ab>
+        <ab>VIRTUTE INSIGNI</ab>
+        <ab>INTEMPESTIVA</ab>
+        <ab>MORTE EREPTO</ab>
+        <ab>HOC DESIDERII SUI</ab>
+        <ab>MONUMENTUM</ab>
+        <ab>POSUIT</ab>
+        <ab>I.T.S</ab>
+        <ab>DECEM. 1786</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

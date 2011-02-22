@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2460.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2460</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2460">
+          <msIdentifier>
+            <idno>S2460</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>40</height>
+                    <depth>6</depth>
+                    <width>88</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_124 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Vladimiro</forename>
+              <surname>Sokolninsky</surname>
+            </persName>
+            <death when="1943"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Lidia Schirkiewitch</forename>
+              <surname>Sokolninsky</surname>
+            </persName>
+            <death when="1972"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
+        <ab>PRINCIPE</ab>
+        <ab>VLADIMIRO</ab>
+        <ab>DRUTSKOY SOKOLNINSKY</ab>
+        <ab>5.VII.1880</ab>
+        <ab>15.IV.1943</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_2 #m_I #t_S">
+        <ab>PRINCIPESSA</ab>
+        <ab>LYDIA</ab>
+        <ab>DRUTSKOY SOKOLNINSKY</ab>
+        <ab>NATA SCHIRKIEWITCH</ab>
+        <ab>21.XII.1888 - 11.VI.1972</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

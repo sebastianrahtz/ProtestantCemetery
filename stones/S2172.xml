@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2172.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2172</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2172">
+          <msIdentifier>
+            <idno>S2172</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PED">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>152</height>
+                    <depth>86</depth>
+                    <width>98</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_45 #st_B #f_E"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_45 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_86 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Enrico</forename>
+              <surname>Coleman</surname>
+            </persName>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
+        <ab>ENRICO COLEMAN</ab>
+        <ab>PITTORE PRINCIPE</ab>
+        <ab>DELLA CAMPAGNA</ab>
+        <ab>ROMANA</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_N #c_3 #m_I #t_P">
+        <ab>LA FAMIGLIA</ab>
+        <ab>GLI AMICI</ab>
+        <ab>MMDCLXV A V C</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

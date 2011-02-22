@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1692.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1692</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1692">
+          <msIdentifier>
+            <idno>S1692</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>200</height>
+                    <depth>10</depth>
+                    <width>100</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_114 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Lili</forename>
+              <surname>von Dehn</surname>
+            </persName>
+            <death when="1963"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_T #c_1 #m_IF #t_P">
+        <ab>LILI VON DEHN</ab>
+        <ab>NÉE SELIM-BEK SMOLSKI</ab>
+        <ab>* 9-VIII-1888</ab>
+        <ab>+ 8-X-1983</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

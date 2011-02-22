@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1897.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1897</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1897">
+          <msIdentifier>
+            <idno>S1897</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>132</height>
+                    <depth>48</depth>
+                    <width>68</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Anne Sophia</forename>
+              <surname>Glennie</surname>
+            </persName>
+            <death when="1890"/>
+            <nationality key="UK"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Arthur</forename>
+              <surname>Glennie</surname>
+            </persName>
+            <death when="1890"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>JESUS MERCY</ab>
+        <ab>ARTHUR GLENNIE</ab>
+        <ab>DIED 28TH JANUARY 1890.</ab>
+        <ab>AGED 87 YEARS.</ab>
+        <ab>ANNE SOPHIA GLENNIE</ab>
+        <ab>DIED 30TH JULY 1890.</ab>
+        <ab>AGED 58 YEARS.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

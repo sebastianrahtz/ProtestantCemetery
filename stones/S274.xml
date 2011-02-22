@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S274.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 274</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S274">
+          <msIdentifier>
+            <idno>S274</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>152</height>
+                    <depth>55</depth>
+                    <width>68</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_142 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_142 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>63</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Arthur Edward</forename>
+              <surname>Aitken</surname>
+            </persName>
+            <birth when="1861-05-25">
+              <placeName>
+                <settlement>london </settlement>
+                <country>England</country>
+              </placeName>
+            </birth>
+            <death when="1924-03-29"/>
+            <nationality key="UK"/>
+            <occupation>"brigadier general"</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_IC #t_P">
+        <ab>IN LOVING MEMORY</ab>
+        <ab>OF</ab>
+        <ab>ARTHUR EDWARD AITKEN</ab>
+        <ab>BRIGADIER GENERAL I.A.</ab>
+        <ab/>
+        <ab>BORN LONDON MAY 25. 1861</ab>
+        <ab>DIED ROME MARCH 29. 1924</ab>
+        <ab/>
+        <ab rend="Alignr">IN CRUCE SALUS</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

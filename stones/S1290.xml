@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1290.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1290</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1290">
+          <msIdentifier>
+            <idno>S1290</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>200</height>
+                    <depth>33</depth>
+                    <width>100</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Flora</forename>
+              <surname>Buchsbaum</surname>
+            </persName>
+            <death when="1944"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Michele</forename>
+              <surname>Tanzi</surname>
+            </persName>
+            <death when="1958"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_1 #m_IC #t_P">
+        <ab>FLORA BUCHSBAUM</ab>
+        <ab>NATA WEIL</ab>
+        <ab>*31.8.1870 +19.7.1944</ab>
+        <ab>GENERALE MICHELE TANZI</ab>
+        <ab>*1.9.1894 +29.8.1958</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1700.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1700</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1700">
+          <msIdentifier>
+            <idno>S1700</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="COL">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>227</height>
+                    <dim type="diameter">40</dim>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_109 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">round</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Antonio</forename>
+              <surname>Cloetta</surname>
+            </persName>
+            <death when="1875"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_2 #m_I #t_P">
+        <ab>AD ANTONIO GLOETTA</ab>
+        <ab>DI ANNI 70</ab>
+        <ab>MORTO IL 19 NOVEMBRE 1875</ab>
+        <ab>J NIPOTI</ab>
+        <ab>ANTONIO GIACOMO ANDREA</ab>
+        <ab>P.P</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

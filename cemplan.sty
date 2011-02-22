@@ -1,0 +1,54 @@
+\ProvidesPackage{cemplan}
+\usepackage{times}
+\RequirePackage[bookmarks=false,colorlinks=true]{hyperref}
+\newif\ifStNumber
+\StNumberfalse
+\DeclareOption{number}{\StNumbertrue}
+\DeclareOption{nonumber}{\StNumberfalse}
+\ProcessOptions
+\pagestyle{empty}
+\advance\oddsidemargin by -1in
+\advance\oddsidemargin by -.9in
+\headsep0pt
+\topmargin-1in
+\parindent=0em
+\headheight0pt
+\def\CemBB|#1 #2 #3 #4|{%
+   \def\CemXMin{#1}%
+   \def\CemYMin{#2}%
+   \def\CemWidth{#3}%
+   \def\CemHeight{#4}%
+   \pdfpagewidth=#3bp
+   \pdfpageheight=#4bp
+}
+\def\Zero{0}
+\setlength{\unitlength}{1bp}
+\def\ShowNum#1#2#3#4{%number, nationality, width, height
+\def\@foo{#1}%
+\ifx\@foo\Zero
+\else
+ \setbox0=\vbox to #4bp{\vfill\hbox to #3bp{\hfill~\hfill}\vfill}%
+ \@tempdima\ht0
+ \advance\@tempdima by 1pt
+ \setbox1=\hbox{\tiny\makebox[\wd0][c]{\raisebox{\the\@tempdima}[\z@]{#1}}}%
+ \wd1\z@\box1
+ \kern-\CemXMin bp\raisebox{-\CemYMin
+   bp}[\z@][\z@]{\href{cem.pdf\#S#1}{\box0}}%
+\fi
+}
+
+
+\def\Stone#1#2#3#4#5#6#7#8{%
+ \def\completepdfpolygon{#8}#7%
+    \put(#3,#4){\ShowNum{#1}{#2}{#5}{#6}}}
+
+\def\pdfpolygon#1{\pdfliteral{q #1 \completepdfpolygon}}
+
+\newenvironment{pdfpicture}
+ {%
+\begin{picture}(\CemWidth,\CemHeight)%(\CemXMin,\CemYMin)
+ \put(1000,250){{\fontsize{45pt}{45pt}\selectfont Protestant Cemetery,
+     Rome 1985}}
+ \pdfliteral{q 1 0 0 1 .2 w  -\CemXMin\space -\CemYMin\space cm }}
+ {\pdfliteral{ Q}\end{picture}}
+\endinput

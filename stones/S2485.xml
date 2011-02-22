@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2485.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2485</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2485">
+          <msIdentifier>
+            <idno>S2485</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>75</height>
+                    <depth>4</depth>
+                    <width>75</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_142 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Anna</forename>
+              <surname>McElrath</surname>
+            </persName>
+            <death when="1930"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
+        <ab>IN</ab>
+        <ab>LOVING</ab>
+        <ab>MEMORY</ab>
+        <ab>OF</ab>
+        <ab>ANNA MC.ELRATH</ab>
+        <ab>OF WORCESTER,MASS.,U.S.A.</ab>
+        <ab>+</ab>
+        <ab>OCTOBER</ab>
+        <ab>28TH</ab>
+        <ab>1930</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

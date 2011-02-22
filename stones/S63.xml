@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S63.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 63</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S63">
+          <msIdentifier>
+            <idno>S63</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>190</height>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_79 #st_C #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>44</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Asmus Iacob</forename>
+              <surname>Carstens</surname>
+            </persName>
+            <birth when="1754-05-10">
+              <placeName>
+                <settlement>St Iurgen bei Schleswig </settlement>
+                <country>Germany</country>
+              </placeName>
+            </birth>
+            <death when="1798-05-25">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="DE"/>
+            <occupation>artist "der Erneurer der Deutschen Kunst</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_S #c_2 #m_RM #t_P">
+        <ab>CARSTENS</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_T #c_3 #m_I #t_P">
+        <ab>ASMUS IACOB</ab>
+        <ab>CARSTENS</ab>
+        <ab>GEBOREN ZU ST IURGEN</ab>
+        <ab>BEI SCHLESWIG</ab>
+        <ab>DEN 10 MAI 1754</ab>
+        <ab>GESTORBEN ZU ROM</ab>
+        <ab>DEN 25 MAI 1798</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_N #c_3 #m_IF #t_PC">
+        <ab>DEM ERNEUERER DER DEUTSCHEN KUNST</ab>
+        <ab>IN DEN JAHREN DER</ab>
+        <ab>WIEDERGEBURT DEUTSCHLANDS VON</ab>
+        <ab>SEINERN VEREHRERN ERRICHTET</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

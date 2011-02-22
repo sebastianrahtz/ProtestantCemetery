@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1441.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1441</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1441">
+          <msIdentifier>
+            <idno>S1441</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="COL">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>170</height>
+                    <depth>98</depth>
+                    <width>98</width>
+                    <dim type="diameter">86</dim>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_30 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>*</num>
+                <ptr target="#i_999 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Karl</forename>
+              <surname>von Pidoll</surname>
+            </persName>
+            <death when="1901"/>
+            <nationality key="AT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_IC #t_P">
+        <ab>KARL FREIHERR VON PIDOLL ZU QUINTENBACH</ab>
+        <ab>GEB.ZU WIEN 7 JAN.1847 GEST.IN ROM 17 FEBR.1901</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S210.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 210</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S210">
+          <msIdentifier>
+            <idno>S210</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>107</height>
+                    <depth>20</depth>
+                    <width>65</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_20 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>49</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Johanna T.A.</forename>
+              <surname>Schonfeldt</surname>
+            </persName>
+            <birth when="1859-05-07"/>
+            <death when="1908-12-06"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
+        <ab>IOANNA THERESA AGNES SCHÖNFELDT</ab>
+        <ab>GEBOREN DEN 7 MAI 1859</ab>
+        <ab>GESTORBEN DEN 6 DECEMBER 1908</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

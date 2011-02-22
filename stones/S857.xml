@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S857.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 857</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S857">
+          <msIdentifier>
+            <idno>S857</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="BUILD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>290</height>
+                    <depth>198</depth>
+                    <width>105</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>x</num>
+                <ptr target="#i_140 #st_A #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Theophile Linder</forename>
+              <surname>de Bald</surname>
+            </persName>
+            <death when="1880"/>
+            <nationality key="FR"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="fr" decls="#f_E #c_3 #m_I #t_P">
+        <ab>THEOPHILE LINDER</ab>
+        <ab>DE BAIE</ab>
+      </div>
+      <div type="inscription"  xml:lang="fr" decls="#f_E #c_3 #m_I #t_PC">
+        <ab>BANQUIER A ROME DÉCÉDÉ LE 28 JANVIER 1880</ab>
+        <ab>NÉ 1838</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

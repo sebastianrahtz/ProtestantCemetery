@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1744.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1744</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1744">
+          <msIdentifier>
+            <idno>S1744</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>146</height>
+                    <depth>16</depth>
+                    <width>60</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_29 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Carl Ludwig Adolph</forename>
+              <surname>von Kapff</surname>
+            </persName>
+            <death when="1871"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Luise</forename>
+              <surname>von Kapff</surname>
+            </persName>
+            <death when="1877"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>HIER RUHT</ab>
+        <ab>LUISE VON KAPFF</ab>
+        <ab>GEB: STORK</ab>
+        <ab>AUS BREMEN.</ab>
+        <ab>GEB: IN ELBERFELD</ab>
+        <ab>1 APRIL 1812</ab>
+        <ab>GEST: 31 MAERZ 1877</ab>
+        <ab>IN ROM</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_T #c_1 #m_IF #t_P">
+        <ab>HIER RUHT</ab>
+        <ab>CARL LUDWIG ADOLPH VON KAPFF</ab>
+        <ab>GEB: DEN 6TEN SEPTBR: 1840 ZU BREMEN</ab>
+        <ab>GEST: DEN 19TEN APRIL 1871 ZU ROM</ab>
+        <ab>------</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

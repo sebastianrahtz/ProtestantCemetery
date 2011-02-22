@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1325.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1325</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1325">
+          <msIdentifier>
+            <idno>S1325</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CHEST">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>139</height>
+                    <depth>51</depth>
+                    <width>72</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Konstantin"</forename>
+              <surname>Grigoroviq"</surname>
+            </persName>
+            <death when="1855"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_T #c_3 #m_I #t_P #s_CY">
+        <ab>ЗДѢС' ПОГРЕБЕН"</ab>
+        <ab>РУССКИЙ ЦХУДОЖНИК"</ab>
+        <ab>КОНСТАНТИН" ГРИГОРОВИЯ".</ab>
+        <ab>РОД: Б" С.ПЕТЕРБУРГѢ 1823, УМЕР"  РИМѢ 1855 Г.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

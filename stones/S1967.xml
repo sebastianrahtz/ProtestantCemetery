@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1967.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1967</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1967">
+          <msIdentifier>
+            <idno>S1967</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>22</height>
+                    <depth>4</depth>
+                    <width>51</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Julius</forename>
+              <surname>Ullmann</surname>
+            </persName>
+            <death when="1969"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Helene</forename>
+              <surname>Ullmann</surname>
+            </persName>
+            <death when="1970"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_IC #t_P">
+        <ab>JULIUS ULLMANN</ab>
+        <ab>*16.XII.1878 +12.XII.1969</ab>
+        <ab>------------</ab>
+        <ab>HELENE ULLMANN</ab>
+        <ab>GEB. SHWABE</ab>
+        <ab>*18.VIII.1883 +30.V.1970</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

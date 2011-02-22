@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1009.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1009</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1009">
+          <msIdentifier>
+            <idno>S1009</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>165</height>
+                    <depth>9</depth>
+                    <width>72</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Dmitrij</forename>
+              <surname>Koval'skij</surname>
+            </persName>
+            <death when="1877"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_T #c_4 #m_IF #t_P #s_CY">
+        <ab>Упокой Господи</ab>
+        <ab>дусу раба тжего!</ab>
+        <ab/>
+        <ab>ДМИТРИЙ КОВАЛ'СКИЙ</ab>
+        <ab>сконяалсЯ 12 Апрѣлйа 1877 года.</ab>
+        <ab>45 лѣт" от" роду.</ab>
+        <ab/>
+        <ab>Неиспожѣбимы пути</ab>
+        <ab>Тжои Господи.</ab>
+        <ab rend="Alignl">
+          <note xml:lang="en"> last two lines dubious</note>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

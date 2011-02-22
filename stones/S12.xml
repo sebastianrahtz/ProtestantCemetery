@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S12.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 12</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S12">
+          <msIdentifier>
+            <idno>S12</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>80</height>
+                    <depth>23</depth>
+                    <width>50</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_129 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="faces">west side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Johan</forename>
+              <surname>Beck-Friis</surname>
+            </persName>
+            <nationality key="SE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_W #c_1 #m_IC #t_P">
+        <ab>H.EXC.BARON</ab>
+        <ab rend="Alignr">JOHAN</ab>
+        <ab rend="Alignr">BECK-FRIIS</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_W #c_1 #m_IC #t_PC">
+        <ab>BENEMERENTE</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

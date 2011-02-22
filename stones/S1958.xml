@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1958.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1958</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1958">
+          <msIdentifier>
+            <idno>S1958</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>40</height>
+                    <depth>28</depth>
+                    <width>48</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Mary Aylwin</forename>
+              <surname>Cotton</surname>
+            </persName>
+            <death when="1984"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
+        <ab>DR MOLLY COTTON</ab>
+        <ab>O.B.E. F.S.A.</ab>
+        <ab>MARY AYLWIN COTTON</ab>
+        <ab>NÉE MARSHALL</ab>
+        <ab>*1. 8. 1902 +31. 5. 1984</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

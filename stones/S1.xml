@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1">
+          <msIdentifier>
+            <idno>S1</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>79</height>
+                    <depth>54</depth>
+                    <width>71</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_164 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">east side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>79</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Francis d'Arcy Godolphin</forename>
+              <surname>Osborne</surname>
+            </persName>
+            <birth when="1884-09-16">
+              <placeName>
+                <settlement>London </settlement>
+                <country>England</country>
+              </placeName>
+            </birth>
+            <death when="1964-03-20">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="UK"/>
+            <occupation>diplomat</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_E #c_2 #m_IF #t_P">
+        <ab>FRANCIS D'ARCY GODOLPHIN</ab>
+        <ab>OSBORNE</ab>
+        <ab>K.C.M.G. K.ST.J. K.C.S.G.</ab>
+        <ab>12TH. AND LAST DUKE OF LEEDS.</ab>
+        <ab>MINISTER TO THE HOLY SEE</ab>
+        <ab>1936--1947</ab>
+        <ab>LONDON 16.9.1884</ab>
+        <ab>ROME 20.3.1964</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

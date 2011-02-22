@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2183.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2183</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2183">
+          <msIdentifier>
+            <idno>S2183</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>188</height>
+                    <depth>9</depth>
+                    <width>86</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_86 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Julius</forename>
+              <surname>Zielke</surname>
+            </persName>
+            <death when="1907"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
+        <ab>IVLIVS ZIELKE</ab>
+        <ab>MALER</ab>
+        <ab>GEB.8.11.1826</ab>
+        <ab>GEST.23.2.1907</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

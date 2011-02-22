@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2491.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2491</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2491">
+          <msIdentifier>
+            <idno>S2491</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>185</height>
+                    <depth>21</depth>
+                    <width>85</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Frank Leslie</forename>
+              <surname>Timings</surname>
+            </persName>
+            <death when="1928"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_PC">
+        <ab>.BLESSED ARE THE PVRE IN HEART.</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+        <ab>IN FRAGRANT MEMORY</ab>
+        <ab>FRANK LESLIE TIMINGS</ab>
+        <ab>BORN JVNE 27 1904 DIED JVNE 21 1928</ab>
+        <ab>OF HANDSWORTH BIRMINGHAM ENGLAND</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

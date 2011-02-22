@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xsp:page
+    language="Perl"
+    xmlns:xsp="http://apache.org/xsp/core/v1"
+    xmlns:web="http://axkit.org/NS/xsp/webutils/v1"
+    xmlns:f="http://axkit.org/NS/xsp/perform/v1"    
+    xmlns:param="http://axkit.org/NS/xsp/param/v1"
+>
+<xsp:structure><![CDATA[
+use RPC::XML;
+use RPC::XML::Client;
+use Term::ReadLine;
+use MIME::Base64;
+use Getopt::Long;
+my $HITS;
+my $MESSAGE;
+my $URL = "http://localhost:8080/exist/xmlrpc";
+my $PRETTY = 1;
+my $CLIENTS = 5;
+my $QUERY_COUNT=5;
+my $HOWMANY = 10;
+my $NEXT_RECORD = 1;
+my @RESULT_SET = undef;
+my $COLLECTION = "/";
+my $resp;
+my $client = new RPC::XML::Client $URL;
+my $query;
+
+sub query {
+ my($query) = @_;
+ my $start = 1;
+ my $howmany = 20;
+ my $pretty = 1;
+ my $client = new RPC::XML::Client "http://localhost:8080/exist/xmlrpc";
+ my $req = RPC::XML::request->new('query', $query, "UTF-8", 
+      RPC::XML::int->new($howmany),
+      RPC::XML::int->new($start),
+      RPC::XML::int->new($pretty));
+
+  $resp = $client->send_request($req);
+
+  if(ref($resp)) {
+     return decode_base64($resp->value);
+										 } else {
+     return "error occured: " . $resp . "\n";
+}
+]]></xsp:structure>
+<xsp:logic><![CDATA[
+# my $QUERY=$cgi->param('query');
+ $query = "document(*)//ab[&='God']";
+]]>
+</xsp:logic>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>eXist Querying</title>
+            <author>Sebastian Rahtz</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>June 2002</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>OUCS</authority>
+            <address>
+               <email>advisory@oucs.ox.ac.uk</email>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+<p>This is the master version of an original document,
+created by converting an HTML file to TEI XML on 2001/09/06.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change>
+            <date>$Date$</date>
+            <respStmt>
+               <name>$Author$</name>
+            </respStmt>
+            <item>$Revision$</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+<p>Incoming query: [<xsp:expr>$cgi->param('query')</xsp:expr>]</p>
+<p>Start:
+     <xsp:logic>
+    my $result=query($query);
+    <xsp:expr>$result</xsp:expr>
+    </xsp:logic>
+     </p>
+      </body>
+   </text>
+</TEI.2>
+</xsp:page>

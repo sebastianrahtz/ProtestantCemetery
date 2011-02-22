@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S132.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 132</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S132">
+          <msIdentifier>
+            <idno>S132</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>120</height>
+                    <depth>18</depth>
+                    <width>61</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_121 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>44</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Thomas Richard</forename>
+              <surname>Spence</surname>
+            </persName>
+            <death when="1827-10-25"><placeName><settlement>Rome </settlement><country>Italy</country></placeName>
+             Cause: illness</death>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+        <ab>SACRED TO THE MEMORY</ab>
+        <ab>OF THE</ab>
+        <ab>REVEREND THOMAS RICHARD SPENCE</ab>
+        <ab>ELDEST SON OF THE LATE THOMAS</ab>
+        <ab>RICHARD SPENCE OF HANOVER</ab>
+        <ab>SQUARE LONDON ESQUIRE, WHO</ab>
+        <ab>DIED IN THIS CITY THE XXV. DAY</ab>
+        <ab>OF OCTOBER MDCCCXXVII</ab>
+        <ab>AGED XXXXIV YEARS</ab>
+        <ab>AFTER THE PAINFUL ILLNESS BORNE</ab>
+        <ab>WITH TRUE CHRISTIAN RESIGNATION</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

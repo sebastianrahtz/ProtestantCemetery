@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1450.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1450</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1450">
+          <msIdentifier>
+            <idno>S1450</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="BUILD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>345</height>
+                    <depth>250</depth>
+                    <width>255</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_E"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Clara</forename>
+              <surname>Kirk</surname>
+            </persName>
+            <death when="1936"/>
+            <nationality key="UK"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Alexander Comstock</forename>
+              <surname>Kirk</surname>
+            </persName>
+            <death when="1979"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
+        <ab>CLARA KIRK</ab>
+        <ab>NÉE COMSTOCK</ab>
+        <ab>AUGUST 18,1853 - NOVEMBER 22,1936</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IC #t_S">
+        <ab>ALEXANDER COMSTOCK KIRK</ab>
+        <ab>NOVEMBER 26,1888 - MARCH 23,1979</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1590.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1590</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1590">
+          <msIdentifier>
+            <idno>S1590</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>210</height>
+                    <depth>38</depth>
+                    <width>77</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_79 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_121 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Friedrich Wilhelm</forename>
+              <surname>Branco</surname>
+            </persName>
+            <death when="1870"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
+        <ab>FRIEDRICH.WILHELM.BRANCO</ab>
+        <ab>KOENIGL.PREVSS.GENERAL.ARZT.A.D.</ab>
+        <ab>GEB.ZV.BIRNBAVM</ab>
+        <ab>D.XXV.JANVAR. MDCCIIIC</ab>
+        <ab>GEST.ZV.ROM.DEN.XIX</ab>
+        <ab>NOVEMBER.MDCCCLXX</ab>
+        <ab/>
+        <ab>AVF WIEDERSEHN</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

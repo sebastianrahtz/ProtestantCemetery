@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S44.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 44</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S44">
+          <msIdentifier>
+            <idno>S44</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PED">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>76</height>
+                    <depth>25</depth>
+                    <width>44</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_4 #st_B #f_N"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_35 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_999 #st_A #f_N"/>
+              </decoNote>
+              <decoNote type="faces">west side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>0</sex>
+            <persName>
+              <forename>G.</forename>
+              <surname>C.R.</surname>
+            </persName>
+            <death when="1802-06-18"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_N #c_3 #m_I #t_P">
+        <ab>G</ab>
+        <ab>C. R.</ab>
+        <ab>XVIII GIVN<hi rend="sup">O̱</hi>
+            </ab>
+        <ab>A.MDCCCII.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1724.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1724</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1724">
+          <msIdentifier>
+            <idno>S1724</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>190</height>
+                    <depth>91</depth>
+                    <width>91</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Charlotte</forename>
+              <surname>von Meding</surname>
+            </persName>
+            <death when="1876"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>CHARLOTTE VON MEDING</ab>
+        <ab/>
+        <ab>GEBOREN ZU STENDAL DEN 28. DEC. 1829.</ab>
+        <ab>GESTORBEN ZU. ROM DEN 21 APRIL. 1876.</ab>
+        <ab/>
+        <ab>GOTT IST DIE LIEBE UND WER IN DER LIEBE</ab>
+        <ab>BLEIBET DER BLEIBET IN GOTT UND GOTT IN IHM</ab>
+        <ab rend="Alignr">I Joh.4.V.16</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

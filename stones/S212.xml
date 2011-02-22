@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S212.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 212</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S212">
+          <msIdentifier>
+            <idno>S212</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>320</height>
+                    <depth>48</depth>
+                    <width>101</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_C #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>27</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Moritz August</forename>
+              <surname>von St. George</surname>
+            </persName>
+            <birth when="1813-12-09">
+              <placeName>
+                <settlement>frankfurth </settlement>
+                <country>Germany</country>
+              </placeName>
+            </birth>
+            <death when="1840-02-19">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+        <ab>HIER RUHET</ab>
+        <ab>MORITZ AUGUST</ab>
+        <ab>VON ST. GEORGE.</ab>
+        <ab>GEBOREN ZU FRANKFURTH AM MAIN</ab>
+        <ab rend="Alignl">
+          <note>sic Frankfurth</note>
+        </ab>
+        <ab>DEN IX. DECEMBER MDCCCXIII</ab>
+        <ab>GESTORBEN ZU ROM</ab>
+        <ab>DEN XVIIII FEBRUAR MDCCCXL</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

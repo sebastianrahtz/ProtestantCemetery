@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2366.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2366</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2366">
+          <msIdentifier>
+            <idno>S2366</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="OSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>105</height>
+                    <width>220</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Giulio</forename>
+              <surname>Nast-Kolb</surname>
+            </persName>
+            <death when="1877"/>
+            <nationality/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Rolf</forename>
+              <surname>Nast-Kolb</surname>
+            </persName>
+            <death when="1913"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_T #c_1 #m_RM #t_P">
+        <ab>NAST - KOLB</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_2 #m_IM #t_P">
+        <ab>GIULIO NAST-COLB</ab>
+        <ab>19 IANUAR 1873 - 19 IUNI 1877</ab>
+        <ab rend="Alignl">
+          <note>situated left on the side of the big vault.</note>
+        </ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_2 #m_IM #t_S">
+        <ab>ROLF NAST - KOLB</ab>
+        <ab>18 AUGUST 1912 - 3 NOVEMBER 1913</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

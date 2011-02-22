@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S90.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 90</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S90">
+          <msIdentifier>
+            <idno>S90</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>35</height>
+                    <depth>9</depth>
+                    <width>50</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>E.P.B.</forename>
+              <surname>Phillips</surname>
+            </persName>
+            <nationality key="UK"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Anny</forename>
+              <surname>Phillips</surname>
+            </persName>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+        <ab>E.P.B.PHILLIPS</ab>
+        <ab>AND</ab>
+        <ab>ANNY BORN McLEAN</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

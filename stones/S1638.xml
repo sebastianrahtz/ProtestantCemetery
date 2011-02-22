@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1638.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1638</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1638">
+          <msIdentifier>
+            <idno>S1638</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="URN">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>120</height>
+                    <depth>47</depth>
+                    <width>58</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_164 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Gustav</forename>
+              <surname>Bretschneider</surname>
+            </persName>
+            <death when="1876"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Clara</forename>
+              <surname>Bretschneider</surname>
+            </persName>
+            <death when="1922"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_RS #t_P">
+        <ab>CLARA BRETSCHNEIDER</ab>
+        <ab>GEB. 7 JULI 1844 - GEST. 3 AUG. 1922</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>HIER RUHT IN FRIEDEN</ab>
+        <ab>UNSER TEUERER GATTE UND VATER</ab>
+        <ab>GUSTAV BRETSCHNEIDER</ab>
+        <ab>GEB: 23 FEBRUAR 1825 IN BEUTHEN A/O</ab>
+        <ab>GEST: 8 MÄRZ 1876 IN ROM.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

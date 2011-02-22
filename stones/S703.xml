@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S703.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 703</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S703">
+          <msIdentifier>
+            <idno>S703</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>85</height>
+                    <depth>41</depth>
+                    <width>32</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_45 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Alfred</forename>
+              <surname>Mehnert</surname>
+            </persName>
+            <death when="1954"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_W #c_3 #m_I #t_P">
+        <ab>ALFRED</ab>
+        <ab>MEHNERT</ab>
+        <ab>*1876</ab>
+        <ab>+1954</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_I #t_PC">
+        <ab>FAMILIE</ab>
+        <ab>ARBEIT</ab>
+        <ab>MENSCHEN=</ab>
+        <ab>LIEBE.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

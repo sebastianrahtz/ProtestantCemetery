@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S715.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 715</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S715">
+          <msIdentifier>
+            <idno>S715</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>152</height>
+                    <depth>13</depth>
+                    <width>72</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Olao</forename>
+              <surname>Kellerman</surname>
+            </persName>
+            <death when="1837"/>
+            <nationality key="DK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_2 #m_I #t_P">
+        <ab>OLAO.KELLERMANN</ab>
+        <ab>DANO</ab>
+        <ab>DE.INSCRIPTIONIBVS.LATINIS</ab>
+        <ab>BENE.MERITO</ab>
+        <ab>SI.FATA.SIVISSENT.MELIVS.MERITVRO</ab>
+        <ab>AMICI</ab>
+        <ab>OBIIT.K.SEPT.MDCCCXXXVII</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

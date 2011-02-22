@@ -1,0 +1,119 @@
+\AtBeginDocument{\small\makeindex\def\chaptermark#1{}\def\sectionmark#1{}}
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\RequirePackage{mlnames}
+\RequirePackage{unicode}
+\RequirePackage{ucharacters}
+\RequirePackage{times}
+\RequirePackage{url}
+\let\XURL\url
+\RequirePackage[pdfstartview=FitBH,pdfview=FitBH,implicit=true,colorlinks,bookmarks=true]{hyperref}[1999/07/08]
+\RequirePackage{makeidx}
+\RequirePackage{textcomp}
+\RequirePackage{array}
+\RequirePackage{longtable}
+\RequirePackage{fancyhdr}
+\paperwidth210mm
+\paperheight297mm
+\LTpre2pt
+\baselineskip10pt
+\LTpost2pt
+\def\arraybackslash{\let\\=\@arraycr}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\textwidth18.5cm
+\textheight26cm
+\parindent=0em
+\oddsidemargin=-.21in
+\evensidemargin=-.21in
+\advance\topmargin by -2.4cm
+\tabcolsep=0.02in
+\pagestyle{fancy}
+\cfoot{\thepage}
+\rfoot{}
+\lfoot{}
+\def\Surname{}
+\fancyhead[CE,CO]{}
+\fancyhead[LE,RO]{\SNAT{} (\SNATFULL)}
+\fancyhead[RE,LO]{\SDAT}
+\def\SNAT{}
+\def\SDAT{}
+\def\SNATFULL{}
+\def\Personindex#1#2{%
+ %\index{#2!#1}%
+}
+\def\ReadBookmarks{%
+  \begingroup
+    \escapechar=`\\%
+    \let\escapechar\@gobble %
+    \def\@@BOOKMARK [##1][##2]##3##4##5{\calc@bm@number{##5}}%
+    \@input{\jobname.out}%
+    \ifx\WriteBookmarks\relax
+      \global\let\WriteBookmarks\relax
+    \fi
+    \def\@@BOOKMARK[##1][##2]##3##4##5{%
+      \def\Hy@temp{##4}%
+      \pdfoutline goto
+        name{##3}%
+        count ##2\check@bm@number{##3}{%
+          \expandafter\strip@prefix\meaning\Hy@temp
+        }%
+   }%
+   {%
+    \def\WriteBookmarks{0}%
+    \@input{\jobname.out}%
+   }%
+   %{\escapechar\m@ne\InputIfFileExists{\jobname.out}{}{}}%
+   \ifx\WriteBookmarks\relax\else
+     \if@filesw\immediate\openout\@outlinefile=\jobname.out
+      \ifHy@typexml
+       \immediate\write\@outlinefile{<relaxxml>\relax}%
+      \fi
+     \fi
+   \fi
+   \endgroup
+}
+
+\def\XMLlabel#1{% label name
+\ifx\XMLid\@empty
+\else
+  \@bsphack
+  \protected@write\@mainaux{}%
+    {\string\newlabel{#1}{{}{\thepage}{}{#1}{}}}%
+  \@esphack
+  \hyper@@anchor{#1}{\relax}%
+  \global\let\XMLid\@empty
+\fi
+}
+\def\Cyrillic{\fontencoding{OT2}\fontfamily{mnt}\selectfont}
+\def\Entity#1{\csname Entity #1\endcsname}
+\def\Gloss{\fontencoding{T1}\fontfamily{\sfdefault}\selectfont}
+\def\Gothic{\fontfamily{pzc}\selectfont}
+\def\Greek{\fontfamily{lexgreek}\selectfont}
+\def\Natcode#1{}%\index{#1!\Surname}}
+\def\Raised#1{\raisebox{1pt}{{\fontsize{5}{6pt}\selectfont#1}}}
+\def\Romanize{\fontencoding{T1}\selectfont}
+\UnicodeCharacter{389}{\reflectbox{C}}
+\def\supppdf{supp-pdf}
+\let\XMLInputIfFileExists\InputIfFileExists
+\def\InputIfFileExists#1#2#3{%
+ {\def\@tempa{#1}\ifx\@tempa\supppdf\else
+   \XMLInputIfFileExists{#1}{#2}{#3}\fi}}
+
+\endinput
+
+\def\WriteBookmarks{0}
+
+\def\@wrindex#1{\@@wrindex#1||\\}
+\def\@@wrindex#1|#2|#3\\{%
+ \ifx\\#2\\
+   \protected@write\@indexfile{}%
+      {\string\indexentry{#1|hyperpage}{\thestone}}%
+ \else
+   \protected@write\@indexfile{}%
+      {\string\indexentry{#1|#2}{\thestone}}%
+ \fi
+ \endgroup
+ \@esphack
+}
+

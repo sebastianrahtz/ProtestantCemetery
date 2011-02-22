@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2345.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2345</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2345">
+          <msIdentifier>
+            <idno>S2345</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>172</height>
+                    <depth>170</depth>
+                    <width>80</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Aleksandr"</forename>
+              <surname>Kasatkin"</surname>
+            </persName>
+            <death when="1917"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_2 #m_IC #t_P #s_CY">
+        <ab>АЛЕКСАНДР" КАСАТКИН"</ab>
+        <ab>ТИТУЛЯРНЫЙ СОВѢТНИК".</ab>
+        <ab>РОДИЛСЯ 31 АВГ. 1883Г.</ab>
+        <ab>  --------</ab>
+        <ab>   12 СЕНТ.</ab>
+        <ab>СКОНЯАЛСЯ 23 МАЯ 1917Г.</ab>
+        <ab>   ---------</ab>
+        <ab>   5 ИЙУНЯ</ab>
+      </div>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_2 #m_IC #t_PC #s_CY">
+        <ab>УПОКОЙ, ГОСПОДИ, РАБА ТВОЕГО!</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

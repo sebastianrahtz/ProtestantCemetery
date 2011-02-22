@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1776.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1776</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1776">
+          <msIdentifier>
+            <idno>S1776</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>190</height>
+                    <depth>21</depth>
+                    <width>52</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>3</num>
+                <ptr target="#i_86 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_121 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Franciscus</forename>
+              <surname>Boll</surname>
+            </persName>
+            <death when="1879"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_1 #m_I #t_P">
+        <ab>FRANCISCVS BOLL</ab>
+        <ab>RERVM STVDIIS</ab>
+        <ab>DEDITVS</ab>
+        <ab>VITAM VIXIT</ab>
+        <ab>BREVEM</ab>
+        <ab>ET FELICEM</ab>
+        <ab>MARGARITA</ab>
+        <ab>POSVIT</ab>
+        <ab>1849 - 1879</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

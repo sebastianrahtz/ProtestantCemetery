@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1350.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1350</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1350">
+          <msIdentifier>
+            <idno>S1350</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>94</height>
+                    <depth>30</depth>
+                    <width>72</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_71 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_114 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Niklaus</forename>
+              <surname>Strunke</surname>
+            </persName>
+            <death when="1966"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_T #c_2 #m_IF #t_P">
+        <ab>GLEZNOTÁJS</ab>
+        <ab>NIKLĀVS</ab>
+        <ab>STRUNKE</ab>
+        <ab>* 6.X.1894</ab>
+        <ab>+ 13.X.1966</ab>
+        <ab>ROMĀ</ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_2 #m_IF #t_PC">
+        <ab>M@~AKSLA</ab>
+        <ab>IR</ab>
+        <ab>M@=UЖ@=IGA</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

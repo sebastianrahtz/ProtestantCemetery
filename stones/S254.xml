@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S254.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 254</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S254">
+          <msIdentifier>
+            <idno>S254</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>100</height>
+                    <depth>28</depth>
+                    <width>78</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>1</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Alice</forename>
+              <surname>Geale</surname>
+            </persName>
+            <birth when="1842-09-14">
+              <placeName>
+                <settlement>paris </settlement>
+                <country>France</country>
+              </placeName>
+            </birth>
+            <death when="1844-01-27">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
+        <ab>ALICE</ab>
+        <ab>THE INFANT DAVGHTER OF</ab>
+        <ab>HAMILTON GEALE ESQRE</ab>
+        <ab>AND ELIZABETH HIS WIFE</ab>
+        <ab>BORN IN PARIS 14TH SEPTEMBER 1842</ab>
+        <ab>DIED IN ROME IANUARY 27TH 1844</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

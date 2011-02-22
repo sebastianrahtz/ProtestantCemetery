@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1762.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1762</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1762">
+          <msIdentifier>
+            <idno>S1762</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>215</height>
+                    <depth>54</depth>
+                    <width>70</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_117 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Clara</forename>
+              <surname>von Ammon</surname>
+            </persName>
+            <death when="1879"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_ #m_I #t_P">
+        <ab>ICH ABER HERR HOFFE AUF DICH</ab>
+        <ab>UND SPRECHE: DU BIST MEIN GOTT</ab>
+        <ab>PSALM.XXXI:15</ab>
+        <ab>------</ab>
+        <ab>CLARA VON AMMON</ab>
+        <ab>GEB: DELIUS AUS COELN</ab>
+        <ab>GEB: ZU MINDEN 18 MAERZ 1811</ab>
+        <ab>GEST: ZU ROM. 4 MAERZ 1879</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

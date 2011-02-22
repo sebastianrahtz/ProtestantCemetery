@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S58.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 58</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S58">
+          <msIdentifier>
+            <idno>S58</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>113</height>
+                    <width>59</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>1</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Louisa</forename>
+              <surname>Slane</surname>
+            </persName>
+            <birth when="1817-12-18">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </birth>
+            <death when="1819-05-17"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_4 #m_I #t_P">
+        <ab>HERE LIES THE BODY OF LOUISA</ab>
+        <ab>[..] DAUGHTER OF LOWELL AND ELISA SLANE</ab>
+        <ab rend="Alignl">
+          <note>Elisa Slane is a dubious reading</note>
+        </ab>
+        <ab>BORN AT ROME DEC 18th 1817</ab>
+        <ab>DIED MAY 17th 1819</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

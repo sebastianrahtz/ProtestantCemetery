@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S122.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 122</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S122">
+          <msIdentifier>
+            <idno>S122</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PED">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>149</height>
+                    <depth>63</depth>
+                    <width>79</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_121 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_125 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_127 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>58</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Henry</forename>
+              <surname>Brewster</surname>
+            </persName>
+            <birth when="1850"/>
+            <death when="1908"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_S #c_3 #m_IC #t_P">
+        <ab>HENRY</ab>
+        <ab>BREWSTER</ab>
+        <ab>MDCCCL</ab>
+        <ab>MDCCCCVIII</ab>
+        <ab>RIP</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

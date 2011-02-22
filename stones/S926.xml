@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S926.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 926</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S926">
+          <msIdentifier>
+            <idno>S926</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="COPE">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>200</height>
+                    <depth>60</depth>
+                    <width>100</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>4</num>
+                <ptr target="#i_138 #st_A #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Anna</forename>
+              <surname>Boynton</surname>
+            </persName>
+            <death when="1874"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>SACRED</ab>
+        <ab>TO</ab>
+        <ab>ANNA BOYNTON</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_E #c_2 #m_IF #t_P">
+        <ab>BORN IN NEW-YORK AUG. 21ST 1841</ab>
+        <ab>DIED AT ROME NOV. 18TH 1874</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_W #c_2 #m_IF #t_P">
+        <ab>IN MEMORY OF ANNA BOYNTON</ab>
+        <ab>DAUGHTER OF JOSHUA BROOKES AND WIFE OF RAY BOYNTON</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

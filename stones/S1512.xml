@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1512.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1512</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1512">
+          <msIdentifier>
+            <idno>S1512</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CHEST">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>230</height>
+                    <depth>55</depth>
+                    <width>100</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_13 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_T"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Iacobus Franciscus</forename>
+              <surname>Turner</surname>
+            </persName>
+            <death when="1893"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="la" decls="#f_T #c_2 #m_RS #t_P">
+        <ab rend="Alignl">
+          <note>writings around edges</note>
+        </ab>
+        <ab rend="Alignl">
+          <note> west</note>
+        </ab>
+        <ab>FRANCISCI:TVRNER:S:T:P:EPISCOPI:GRAFTONENSIS:ET:ARMIDALENSIS</ab>
+        <ab rend="Alignl">
+          <note> south</note>
+        </ab>
+        <ab>QUI:AB:HAC:LVCE:MIGRAVIT:AD</ab>
+        <ab rend="Alignl">
+          <note> east</note>
+        </ab>
+        <ab>MISERICORDIAM:DEI:XXVII:DIE:MENSIS:APRILIS:MDCCCXCIII:R:I:P:</ab>
+        <ab>+HIC:IACET:CORPVS:IACOBI</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

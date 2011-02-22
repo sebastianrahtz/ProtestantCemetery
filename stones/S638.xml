@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S638.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 638</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S638">
+          <msIdentifier>
+            <idno>S638</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>154</height>
+                    <depth>50</depth>
+                    <width>90</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_115 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Johanna</forename>
+              <surname>Monsch</surname>
+            </persName>
+            <death when="1943"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Alvin</forename>
+              <surname>Monsch</surname>
+            </persName>
+            <death when="1945"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_IC #t_P">
+        <ab>HIER RUHT IN FRIEDEN</ab>
+        <ab>UNSERE GELIEBTE MUTTER</ab>
+        <ab>JOHANNA MONSCH</ab>
+        <ab>GEB. WISSMANN</ab>
+        <ab>STUTTGART 27 JULI 1870</ab>
+        <ab>ROM 23 MA"RZ 1943</ab>
+        <ab>DIE LIEBE HO"RET NIMMER AUF</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_IC #t_S">
+        <ab>ALVIN MONSCH</ab>
+        <ab>NEAPEL 17 SEPT. 1899</ab>
+        <ab>ROM 7 JAN. 1945</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

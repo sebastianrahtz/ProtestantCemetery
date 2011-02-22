@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2196.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2196</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2196">
+          <msIdentifier>
+            <idno>S2196</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>85</height>
+                    <depth>100</depth>
+                    <width>22</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>3</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Federico</forename>
+              <surname>Schumacher</surname>
+            </persName>
+            <death when="1928"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Maria</forename>
+              <surname>Schumacher</surname>
+            </persName>
+            <death when="1950"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Renata Antonia</forename>
+              <surname>Schumacher</surname>
+            </persName>
+            <death when="1979"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_1 #m_IC #t_P">
+        <ab>FEDERICO</ab>
+        <ab>SCHUMACHER</ab>
+        <ab>* 30.V.1857</ab>
+        <ab>+ 26.VIII.1928</ab>
+        <ab>--------------</ab>
+        <ab rend="Alignl">MARIA</ab>
+        <ab rend="Alignl">SCHUMACHER</ab>
+        <ab rend="Alignl">NATA SCHMITZ</ab>
+        <ab rend="Alignl">* 26.VIII.1872 + 27.IX.1950</ab>
+        <ab rend="Alignl">--------------</ab>
+        <ab rend="Alignr">RENATA ANTONIA</ab>
+        <ab rend="Alignr">SCHUMACHER</ab>
+        <ab rend="Alignr">NATA MERCURI</ab>
+        <ab rend="Alignr">* 25.XII.1911 + 8.VIII.1979</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

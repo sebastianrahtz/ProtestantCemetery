@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1836.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1836</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1836">
+          <msIdentifier>
+            <idno>S1836</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>180</height>
+                    <depth>7</depth>
+                    <width>80</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Leon</forename>
+              <surname>Tillner</surname>
+            </persName>
+            <death when="1904"/>
+            <nationality key="LV"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Marceline</forename>
+              <surname>Tillner</surname>
+            </persName>
+            <death when="1912"/>
+            <nationality key="FR"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="fr" decls="#f_S #c_2 #m_IF #t_S">
+        <ab>COMME ELLE LA DÉSIRÉ</ab>
+        <ab>ICI REPOSE, PRÈS DE SON MARI,</ab>
+        <ab>MARCELINE LENTZ, VEUVE TILLNER</ab>
+        <ab>DÉCÉDÉE A TIVOLI, LE 18 AÔUT 1912</ab>
+        <ab>-------</ab>
+        <ab>PRIEZ POUR ELLE</ab>
+      </div>
+      <div type="inscription"  xml:lang="fr" decls="#f_T #c_2 #m_IF #t_P">
+        <ab>DOCTEUR LEON TILLNER</ab>
+        <ab>CONSEILLER D'ETAT ACTUEL</ab>
+        <ab>DE S.M. L'EMPEREUR DE RUSSIE</ab>
+        <ab>NË A RIGA</ab>
+        <ab>MORT A ROME IL 13 FEVRIER 1904</ab>
+        <ab>AGE DE 86 ANS</ab>
+        <ab>IL A PASSE EN FAISANT LE BIEN</ab>
+        <ab>ET SON AME EST IMMORTELLE</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

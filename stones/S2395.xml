@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2395.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2395</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2395">
+          <msIdentifier>
+            <idno>S2395</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>147</height>
+                    <width>58</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Sophie</forename>
+              <surname>Schroder</surname>
+            </persName>
+            <death when="1915"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Dorothea</forename>
+              <surname>Schroder</surname>
+            </persName>
+            <death when="1928"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_IF #t_P">
+        <ab>HIER RUHT IN GOTT</ab>
+        <ab>SOPHIE SCHRÖDER</ab>
+        <ab>GEB.6.JANUAR 1862.</ab>
+        <ab>GEST.3.DEZEMBER 1915.</ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_3 #m_IC #t_S">
+        <ab>DOROTHEA SCHRODER</ab>
+        <ab>1855 - 1928</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

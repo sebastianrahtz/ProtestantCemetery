@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2232.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2232</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2232">
+          <msIdentifier>
+            <idno>S2232</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>110</height>
+                    <depth>9</depth>
+                    <width>200</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_114 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Georg</forename>
+              <surname>Schumacher</surname>
+            </persName>
+            <death when="1914"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Augusta</forename>
+              <surname>Schumacher</surname>
+            </persName>
+            <death when="1927"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
+        <ab>HIER RUHT IN FRIEDEN</ab>
+        <ab>UNSER LIEBER GUTTER GATTE U.VATER</ab>
+        <ab>GEORG SCHUMACHER</ab>
+        <ab>K.U.K. ÖSTER.UNGAR.GENERAL CONSUL</ab>
+        <ab>GEBOREN IN REINHEIM DEN 2.IANUAR 1845.</ab>
+        <ab>GESTORBEN IN ROM DEN 19.FEBRUAR 1914.</ab>
+        <ab>IHM FOLGTE SEINE GATTIN, UNSERE LIEBE MUTTER</ab>
+        <ab rend="Alignl">* ROM 2 SEPT.1851 AUGUSTA SCHUMACHER GEB.ADE + 21 FEB. 1927</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

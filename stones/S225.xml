@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S225.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 225</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S225">
+          <msIdentifier>
+            <idno>S225</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>139</height>
+                    <depth>23</depth>
+                    <width>88</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_19 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_88 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>3</num>
+                <ptr target="#i_121 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_C #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_163 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>80</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Mari'</forename>
+              <surname>Trubeckaja</surname>
+            </persName>
+            <birth when="1869-03-01"/>
+            <death when="1949-06-29"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <age>2</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Demetrio</forename>
+              <surname>Troubtskoy</surname>
+            </persName>
+            <birth when="1840-01-30">
+              <placeName>
+                <settlement>berlin </settlement>
+                <country>Germany</country>
+              </placeName>
+            </birth>
+            <death when="1842-11-23"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_T #c_3 #m_I #t_P #s_CY">
+        <ab>КНЙАГИНЯ</ab>
+        <ab>МАРИЯ АЛЕКСАНДРОВНА</ab>
+        <ab>ТРУБЕЦКАЯ</ab>
+        <ab>РОЖД. КН. ДОЛГОРУКАЯ</ab>
+        <ab>РОД. 1 МАРТА 1869 Г.</ab>
+        <ab>СКОНЯ. 29 ИЙУНЯ 1949 Г.</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_3 #m_I #t_PC">
+        <ab>D.O.M</ab>
+        <ab>VENNE A ROMA</ab>
+        <ab>SALI AL CIELO</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_3 #m_I #t_S">
+        <ab>IL PRINCIPE DEMETRIO TROUBTSKOY</ab>
+        <ab>NATO IL 30. GENNAIO 1840</ab>
+        <ab>A BERLINO</ab>
+        <ab>PASSATO A MEGLIOR VITA</ab>
+        <ab>IL 23. NOVEMBRE 1842</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

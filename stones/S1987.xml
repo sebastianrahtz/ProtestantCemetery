@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1987.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1987</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1987">
+          <msIdentifier>
+            <idno>S1987</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>120</height>
+                    <depth>10</depth>
+                    <width>72</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_53 #st_B #f_N"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_129 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_129 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>William Appleton</forename>
+              <surname>Potter</surname>
+            </persName>
+            <death when="1909"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+        <ab>IN</ab>
+        <ab>LOVING MEMORY OF</ab>
+        <ab>WILLIAM APPLETON POTTER</ab>
+        <ab>BORN IN SCHENECTADY,N.Y.</ab>
+        <ab>DECEMBER 8.1842</ab>
+        <ab>DIED IN ROME.</ab>
+        <ab>FEBRUARY 20.1909.</ab>
+        <ab>EIGTH SON OF THE</ab>
+        <ab>RT.REV.ALONZO POTTER. D.D.</ab>
+        <ab>BISHOP OF PENNSYLVANIA</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

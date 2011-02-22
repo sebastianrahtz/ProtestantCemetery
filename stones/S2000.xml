@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2000.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2000</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2000">
+          <msIdentifier>
+            <idno>S2000</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>140</height>
+                    <depth>21</depth>
+                    <width>60</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_135 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Johanna</forename>
+              <surname>von Tideboehl</surname>
+            </persName>
+            <death when="1926"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_1 #m_I #t_P">
+        <ab>JOHANNA</ab>
+        <ab>VON</ab>
+        <ab>TIDEBOEHL</ab>
+        <ab>GEB.RIGA LIVLAND</ab>
+        <ab>31TEN DEZ. 1857</ab>
+        <ab>GEST. 28TEN SEPT. 1926</ab>
+        <ab>I PETRI,I VERS 3.4</ab>
+        <ab/>
+        <ab>DEINE EDLE KUNST,</ab>
+        <ab>TRUG DEN DER DICH HÖRTE</ab>
+        <ab>ZU REINEN HÖHEN</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

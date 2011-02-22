@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1697.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1697</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1697">
+          <msIdentifier>
+            <idno>S1697</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>80</height>
+                    <depth>10</depth>
+                    <width>50</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Alfredo</forename>
+              <surname>Bretschneider</surname>
+            </persName>
+            <death when="1917"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Dora</forename>
+              <surname>Bretschneider</surname>
+            </persName>
+            <death when="1968"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_T #c_1 #m_IF #t_P">
+        <ab>ALFREDO BRETSCHNEIDER</ab>
+        <ab>* 26.VII.1870 + 19.XII.1917</ab>
+        <ab>DORA BRETSCHNEIDER</ab>
+        <ab>GEB. ENCKE</ab>
+        <ab>* 2.XI.1877  + 21.V.1968</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

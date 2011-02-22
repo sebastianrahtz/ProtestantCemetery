@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S653.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 653</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S653">
+          <msIdentifier>
+            <idno>S653</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="BUILD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>3</num>
+                  <dimensions unit="cm">
+                    <height>245</height>
+                    <depth>94</depth>
+                    <width>94</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_30 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_79 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_99 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Hans Henrik</forename>
+              <surname>von Essen</surname>
+            </persName>
+            <death when="1923"/>
+            <nationality key="SE"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Toinon</forename>
+              <surname>von Essen</surname>
+            </persName>
+            <death when="1964"/>
+            <nationality key="SE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="sv" decls="#f_S #c_1 #m_IF #t_P">
+        <ab>FRIHERRE HANS HENRIK VON ESSEN</ab>
+        <ab>* 21.I.1873 + 31.I.1923</ab>
+      </div>
+      <div type="inscription"  xml:lang="sv" decls="#f_T #c_1 #m_IF #t_S">
+        <ab>FRIHERRINNAN</ab>
+        <ab>TOINON VON ESSEN</ab>
+        <ab>* 1O.4.1876 - 15.6.1964</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_T #c_1 #m_IF #t_SC">
+        <ab>REQUIESCAT IN PACE</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1380.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1380</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1380">
+          <msIdentifier>
+            <idno>S1380</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>40</height>
+                    <depth>28</depth>
+                    <width>48</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Alexandre</forename>
+              <surname>Sacharoff</surname>
+            </persName>
+            <death when="1963"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Clotilde</forename>
+              <surname>Sacharoff</surname>
+            </persName>
+            <death when="1974"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_2 #m_IC #t_P">
+        <ab>ALEXANDRE SACHAROFF</ab>
+        <ab>* 13.V.1884 + 25.IX.1963</ab>
+        <ab>CLOTILDE SACHAROFF</ab>
+        <ab>NATA VON DER PLANITZ</ab>
+        <ab>* 5.XI.1892 + 11.I.1974</ab>
+        <ab>POETI DELLA DANZA</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

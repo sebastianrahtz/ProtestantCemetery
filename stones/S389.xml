@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S389.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 389</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S389">
+          <msIdentifier>
+            <idno>S389</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>155</height>
+                    <depth>20</depth>
+                    <width>82</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>3</num>
+                <ptr target="#i_121 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>42</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Helen</forename>
+              <surname>Newton</surname>
+            </persName>
+            <birth when="1809">
+              <placeName>
+                <settlement>london </settlement>
+                <country>England</country>
+              </placeName>
+            </birth>
+            <death when="1851-03-29"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+        <ab>SACRED</ab>
+        <ab/>
+        <ab>TO THE MEMORY OF</ab>
+        <ab>HELEN ANNA</ab>
+        <ab>THE BELOVED WIFE OF</ab>
+        <ab>WILLIAM HENRY NEWTON ESQ.RE</ab>
+        <ab>OF CONNAUGHT SQUARE HYDE PARK LONDON</ab>
+        <ab>SHE DIED AT ROME THE 29th MARCH 1851</ab>
+        <ab>AGED 42 YEARS</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

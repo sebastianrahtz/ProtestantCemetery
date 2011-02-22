@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9012.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 9012</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S9012">
+          <msIdentifier>
+            <idno>S9012</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+              <note>west of 382</note>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>147</height>
+                    <depth>18</depth>
+                    <width>81</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>3</num>
+                <ptr target="#i_121 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>45</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Carl Friedrich</forename>
+              <surname>von Gueldenstubbe</surname>
+            </persName>
+            <birth when="1816"/>
+            <death when="1862"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_I #t_S">
+        <ab>CARL FRIEDRICH</ab>
+        <ab>VON</ab>
+        <ab>GVELDEN STVBBE</ab>
+        <ab>LAND MARSCHALL DER RITTERSCHAFT</ab>
+        <ab>DER INSEL OESEL</ab>
+        <ab>GEB. XXVI AVGVST AVF DER INSEL OESEL</ab>
+        <ab>IN RUSSLAND MDCCCXVI</ab>
+        <ab>GEST. XXII MAERZ ZV ROM</ab>
+        <ab>MDCCCLXII</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

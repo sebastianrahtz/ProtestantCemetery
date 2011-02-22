@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S315.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 315</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S315">
+          <msIdentifier>
+            <idno>S315</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PED">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>225</height>
+                    <depth>71</depth>
+                    <width>73</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_109 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>15</age>
+            <sex>1</sex>
+            <persName>
+              <forename>George Francis</forename>
+              <surname>Parker</surname>
+            </persName>
+            <birth when="1829">
+              <placeName>
+                <settlement>troy.n.y </settlement>
+                <country>USA</country>
+              </placeName>
+            </birth>
+            <death when="1844-12-20"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+        <ab>GEORGE FRANCIS PARKER.</ab>
+        <ab>SON OF</ab>
+        <ab>CHARLES PARKER.ESQ.</ab>
+        <ab>BORN AT</ab>
+        <ab>TROY.N.Y.</ab>
+        <ab>UNITED STATES OF AMERICA.</ab>
+        <ab>DIED AT</ab>
+        <ab>ROME</ab>
+        <ab>DEC.20.1844.</ab>
+        <ab>AET 15.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

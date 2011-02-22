@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S57.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 57</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S57">
+          <msIdentifier>
+            <idno>S57</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>79</height>
+                    <depth>54</depth>
+                    <width>71</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_35 #st_B #f_E"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_55 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="faces">north side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>31</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Edward</forename>
+              <surname>Stevens</surname>
+            </persName>
+            <birth when="1744"/>
+            <death when="1775-06-27"/>
+            <nationality key="UK"/>
+            <occupation>"architect"</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_N #c_2 #m_I #t_P">
+        <ab>TO PERPETUATE THE MEMORY</ab>
+        <ab>OF Mr. EDWARD STEVENS</ab>
+        <ab>ARCHITECT</ab>
+        <ab>A WORTHY MAN</ab>
+        <ab>AND AN INGENIOUS ARTIST</ab>
+        <ab>THIS MONUMENT IS ERECTED</ab>
+        <ab>HE DIED JUNE 27.th 1775</ab>
+        <ab>AGED 31 YEARS</ab>
+        <ab>AND LIES HERE INTERRD</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

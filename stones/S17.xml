@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S17.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 17</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S17">
+          <msIdentifier>
+            <idno>S17</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PED">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>83</height>
+                    <depth>38</depth>
+                    <width>48</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_35 #st_B #f_E"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_55 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>53</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Jacob</forename>
+              <surname>More</surname>
+            </persName>
+            <birth when="1740"/>
+            <death when="1793-10-01"/>
+            <nationality key="UK"/>
+            <occupation>painter</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+        <ab>SACRED TO THE</ab>
+        <ab>MEMORY OF</ab>
+        <ab>M<hi rend="sup">Ṛ</hi> JACOB MORE</ab>
+        <ab>LADSCAPE PAINTER</ab>
+        <ab>DIED OCTOB 1ST.1793</ab>
+        <ab>AGED 53</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_3 #m_I #t_PC">
+        <ab>SACRVM SIT ROMAN</ab>
+        <ab>[...]</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_N #c_3 #m_I #t_P">
+        <ab>D.O.M.</ab>
+        <ab>MEMORIA SACRVM</ab>
+        <ab>JACOBI MORE</ab>
+        <ab>PICTORIS ANGLICANI</ab>
+        <ab>OBIIT 1.OCTR. MDCCXCIII</ab>
+        <ab>AETATIS AN. LIII</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_N #c_3 #m_I #t_M">
+        <ab>SCOTO RESTAVRATVM 1816</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

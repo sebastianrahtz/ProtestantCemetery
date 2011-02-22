@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S19.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 19</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S19">
+          <msIdentifier>
+            <idno>S19</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CHEST">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>200</height>
+                    <depth>100</depth>
+                    <width>76</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>*</num>
+                <ptr target="#i_86 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>23</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Ioannus Rodulphus Sinner</forename>
+              <surname>de Worb</surname>
+            </persName>
+            <birth when="1888">
+              <placeName>
+                <settlement>Berne </settlement>
+                <country>Switzerland</country>
+              </placeName>
+            </birth>
+            <death when="1811-04-08"/>
+            <nationality key="CH"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
+        <ab>IOANNI.RODVLPHO.SINNER.DE.WORB.PATRITIO.BERNENSI.</ab>
+        <ab>VIX.ANN.XXIII.[..].VII.D.VIII.OBIIT.VIII.IDVS.APRIL.MDCCCXI.</ab>
+        <ab>PARENTES.INFELICISSIMI.FILIO.DULCISSIMO.PONI.CVRARVNT</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_N #c_2 #m_I #t_PC">
+        <ab>D. O. M.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

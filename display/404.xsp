@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>        
+<xsp:page
+    language="Perl"
+    xmlns:xsp="http://apache.org/xsp/core/v1"
+    xmlns:esql="http://apache.org/xsp/SQL/v2"
+>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>OUCS Page Not Found (404)</title>
+            <author>Sebastian Rahtz</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>OUCS</authority>
+            <address>
+               <email>advisory@oucs.ox.ac.uk</email>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is The Master.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+        <change>
+            <date>$Date$</date>
+            <respStmt>
+               <name>$Author$</name>
+            </respStmt>
+            <item>$Revision$</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+     <body>
+<p>The page from Oxford University Computing Services which you
+requested as [<xsp:expr>$ENV{'REDIRECT_URL'}</xsp:expr>] on
+<xsp:expr>scalar localtime</xsp:expr> cannot be found. You may have
+mistyped the URL, or it may no longer exist. We suggest that you:
+<list type="ordered">
+<item>Locate the item through our  <xref url="/">home page</xref>, or </item>
+<item>Use our <xref url="http://wwwsearch.ox.ac.uk/cgi-bin/oxunit?oucs">Search</xref>
+facility to find what you need, or</item>
+<item>Look at the table below which lists URLs supported in the past.</item>
+</list>
+</p>
+<p>
+<table rend="frame">
+<row role="label">
+<cell>Old URL</cell><cell>Equivalent today</cell>
+</row>
+<row><cell>http://info.ox.ac.uk/OUCS</cell><cell><xptr url="/"/></cell></row>
+<row><cell>http://info.ox.ac.uk/oucs</cell><cell><xptr url="/"/></cell></row>
+<row><cell>/oucsweb</cell><cell><xptr url="/web"/></cell></row>
+<row><cell>/IP</cell><cell><xptr url="/network"/></cell></row>
+<row><cell>/http</cell><cell><xptr url="/web"/></cell></row>
+<row><cell>/register</cell><cell><xptr url="/registration"/></cell></row>
+<row><cell>/courses/ecdl</cell><cell><xptr url="/ecdl"/></cell></row>
+<row><cell>/documentation/P11.html</cell><cell><xptr url="/email/herald/"/></cell></row>
+<row><cell>/documentation/P12.html</cell><cell><xptr url="/email/wing/"/></cell></row>
+<row><cell>/documentation/P13.html</cell><cell><xptr url="/email/transition/"/></cell></row>
+</table>
+</p>
+
+<p>The URLs we are currently redirecting are as follows:
+<table rend="frame">
+<row><cell>/ats</cell><cell><xptr url="/typesetting/"/></cell></row>
+<row><cell>/cdr</cell><cell><xptr url="/cdwriting/"/></cell></row>
+<row><cell>/hcdt</cell><cell><xptr url="/acdt/"/></cell></row>
+<row><cell>/larc/scanners.html </cell><cell><xptr url="/scanning/"/></cell></row>
+<row><cell>/micros/commail/novell.html </cell><cell><xptr url="/novell/"/></cell></row>
+<row><cell>/micros/maintupg</cell><cell><xptr url="/maintenance/"/></cell></row>
+<row><cell>/micros/oss/mac</cell><cell><xptr url="/macintosh/"/></cell></row>
+<row><cell>/micros/oss/win2k</cell><cell><xptr url="/windows/winnt/"/></cell></row>
+<row><cell>/micros/oss/winnt</cell><cell><xptr url="/windows/winnt/"/></cell></row>
+<row><cell>/micros/pcbuy</cell><cell><xptr url="/pcbuy/"/></cell></row>
+<row><cell>/micros/prevent/viruses</cell><cell><xptr url="/viruses/"/></cell></row>
+<row><cell>/micros/software</cell><cell><xptr url="/software/"/></cell></row>
+<row><cell>/micros/troubles</cell><cell><xptr url="/troubles/"/></cell></row>
+<row><cell>/network/dhcp.html </cell><cell><xptr url="/network/dhcp/"/></cell></row>
+<row><cell>/network/dns.html </cell><cell><xptr url="/network/dns/"/></cell></row>
+<row><cell>/network/netconnect.html </cell><cell><xptr url="/network/connect/"/></cell></row>
+<row><cell>/network/netschem.html </cell><cell><xptr url="/network/lan/"/></cell></row>
+<row><cell>/network/wins.html </cell><cell><xptr url="/network/wins/"/></cell></row>
+<row><cell>/proxies</cell><cell><xptr url="/cache/"/></cell></row>
+<row><cell>/services/cdcopying.html </cell><cell><xptr url="/cdcopying/"/></cell></row>
+<row><cell>/services/medsup.html </cell><cell><xptr url="/mediaconversion/"/></cell></row>
+<row><cell>/training/ecdl</cell><cell><xptr url="/ecdl/"/></cell></row>
+<row><cell>/services/n3.html </cell><cell><xptr url="/network/dns/"/></cell></row>
+<row><cell>/services/n4.html </cell><cell><xptr url="/network/dhcp/"/></cell></row>
+<row><cell>/services/n5.html </cell><cell><xptr url="/network/servers/"/></cell></row>
+<row><cell>/services/networks.html </cell><cell><xptr url="/network/"/></cell></row>
+<row><cell>/email/overquota.html </cell><cell><xptr url="/registration/overquota.html"/></cell></row>
+<row><cell>/documentation/leaflets/(L.*) </cell><cell><xptr url="/documentation"/></cell></row>
+<row><cell>/email/clientconfig.html </cell><cell><xptr url="/email/config"/></cell></row>
+<row><cell>/email/herald/HeraldFAQ.html </cell><cell><xptr url="/email/herald"/></cell></row>
+<row><cell>/email/overquota.html </cell><cell><xptr url="/registration/overquota.html"/></cell></row>
+<row><cell>/email/secure.html </cell><cell><xptr url="/email/secure"/></cell></row>
+<row><cell>/email/which.html </cell><cell><xptr url="/email/newusers"/></cell></row>
+<row><cell>/gethelp</cell><cell><xptr url="/help"/></cell></row>
+<row><cell>/humanities/jtap</cell><cell><xptr url="http://info.ox.ac.uk/jtap"/></cell></row>
+<row><cell>/humbul</cell><cell><xptr url="http://www.humbul.ac.uk"/></cell></row>
+<row><cell>/itnews</cell><cell><xptr url="http://www.ox.ac.uk/it/news"/></cell></row>
+<row><cell>/majordomo</cell><cell><xptr url="/email/maillists"/></cell></row>
+<row><cell>/proxies/cache_statistics.html </cell><cell><xptr url="http://logs.wwwcache.ox.ac.uk/"/></cell></row>
+  </table>
+ </p>
+</body>
+</text>
+</TEI.2>
+</xsp:page>

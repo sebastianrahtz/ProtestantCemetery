@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S88.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 88</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S88">
+          <msIdentifier>
+            <idno>S88</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>61</height>
+                    <depth>8</depth>
+                    <width>35</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>3</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Ian</forename>
+              <surname>Angus</surname>
+            </persName>
+            <birth when="1953">
+              <placeName>
+                <settlement/>
+                <country>Australia</country>
+              </placeName>
+            </birth>
+            <death when="1956-05-24">
+             Cause: drowned</death>
+            <nationality key="AU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+        <ab>IAN ANGUS</ab>
+        <ab>AN AUSTRALIAN</ab>
+        <ab>BOY OF 3 1/2 YEARS</ab>
+        <ab>DROWNED</ab>
+        <ab>24.5.1956</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

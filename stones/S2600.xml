@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2600.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2600</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2600">
+          <msIdentifier>
+            <idno>S2600</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>155</height>
+                    <width>80</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Vasilij Danoliviq</forename>
+              <surname>Danilov</surname>
+            </persName>
+            <death when="1945"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_T #c_3 #m_I #t_P #s_CY">
+        <ab>Здес'</ab>
+        <ab>поцхоронен красноармеец</ab>
+        <ab>ДАНИЛОВ</ab>
+        <ab>Василий Даниложия</ab>
+        <ab>Верний сын Сожетского Народа</ab>
+        <ab>уяастник партизанской бор'бы ж Италии</ab>
+        <ab>родилсЯ ж 1919 г. ж Калуге /СССР/</ab>
+        <ab>трагияески погиб 6 ЯнбарЯ 1945 г.</ab>
+        <ab rend="Alignl">
+          <note xml:lang="en"> Sic "'nbar'"</note>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

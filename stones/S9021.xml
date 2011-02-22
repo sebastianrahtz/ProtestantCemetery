@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9021.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 9021</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S9021">
+          <msIdentifier>
+            <idno>S9021</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+              <note>south of 532</note>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>200</height>
+                    <depth>39</depth>
+                    <width>100</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_77 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>0.9</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Lidia</forename>
+              <surname>Conti</surname>
+            </persName>
+            <birth when="1908"/>
+            <death when="1909"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_3 #m_RM #t_P">
+        <ab>LIDIA CONTI</ab>
+        <ab>NATA IL 10 NOVEMBRE 1908</ab>
+        <ab>MORTA IL 31 AGOSTO 1909</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

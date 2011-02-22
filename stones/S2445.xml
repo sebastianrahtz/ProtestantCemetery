@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2445.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2445</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2445">
+          <msIdentifier>
+            <idno>S2445</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>131</height>
+                    <depth>10</depth>
+                    <width>54</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>William</forename>
+              <surname>Fenwick</surname>
+            </persName>
+            <death when="1914"/>
+            <nationality key="UK"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Anne Mary Murray</forename>
+              <surname>Fenwick</surname>
+            </persName>
+            <death when="1945"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>WILLIAM FENWICK M.D.</ab>
+        <ab>DIED IN ROME</ab>
+        <ab>OCTOBER 25 1914</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_S">
+        <ab>ANNE MARY FENWICK</ab>
+        <ab>BORN MURREY</ab>
+        <ab>DIED MARCH 5 1945</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S255.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 255</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S255">
+          <msIdentifier>
+            <idno>S255</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>282</height>
+                    <depth>60</depth>
+                    <width>165</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_19 #st_C #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_95 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>66</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Mathilde</forename>
+              <surname>Dachroeden</surname>
+            </persName>
+            <birth when="1830-08-08">
+              <placeName>
+                <settlement>Ottmachau </settlement>
+                <country>Germany</country>
+              </placeName>
+            </birth>
+            <death when="1897-04-25"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_4 #m_IC #t_P">
+        <ab>ICH BIN ZU GERING ALLER</ab>
+        <ab>BARMHERZIGKEIT UND TREUE</ab>
+        <ab>DIE DU AN DEINEM KNECHTE</ab>
+        <ab>GETHAN HAST 1 MOS: XXXII/X</ab>
+        <ab>MATHILDE</ab>
+        <ab>FREIIN V. HUMBOLDT DACHROEDEN</ab>
+        <ab>*OTTMACHAU VIII AUG. MDCCCXXX</ab>
+        <ab>+ROM XXV APRIL MDCCCLXXXXVII</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

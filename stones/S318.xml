@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S318.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 318</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S318">
+          <msIdentifier>
+            <idno>S318</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>206</height>
+                    <depth>27</depth>
+                    <width>57</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_4 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_66 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>17</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Maria</forename>
+              <surname>di Bollvillez</surname>
+            </persName>
+            <birth when="1828-05-04"/>
+            <death when="1845-11-27"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
+        <ab>Maria di Bollvillez</ab>
+        <ab>nobili russia genere</ab>
+        <ab>nata Ivdie maii 1828</ab>
+        <ab>XXVII die Novbris 1845</ab>
+        <ab>obiit</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_3 #m_I #t_PC">
+        <ab>ei rapto lilio</ab>
+        <ab>caelum advolat</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

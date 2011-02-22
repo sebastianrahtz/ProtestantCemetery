@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S4.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 4</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S4">
+          <msIdentifier>
+            <idno>S4</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLW">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>148</height>
+                    <width>96</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_79 #st_C #f_E"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_E"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_121 #st_B #f_E"/>
+              </decoNote>
+              <decoNote type="faces">east side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>John</forename>
+              <surname>Keats</surname>
+            </persName>
+            <death when="1821"/>
+            <nationality key="UK"/>
+            <occupation>poet</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_E #c_1 #m_IC #t_P">
+        <ab rend="Alignl">
+          <emph>K-eats! if thy cherished name be "writ in water"</emph>
+        </ab>
+        <ab rend="Alignl">
+          <emph>E-ach drop has fallen from some mourner's cheek;</emph>
+        </ab>
+        <ab rend="Alignl">
+          <emph>A-sacred tribute; such as heroes seek,</emph>
+        </ab>
+        <ab rend="Alignl">
+          <emph>T-hough oft in vain - for dazzling deeds of slaughter</emph>
+        </ab>
+        <ab rend="Alignl">
+          <emph>S-leep on! Not honoured less for Epitaph so meek!</emph>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

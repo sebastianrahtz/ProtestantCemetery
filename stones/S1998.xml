@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1998.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1998</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1998">
+          <msIdentifier>
+            <idno>S1998</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>198</height>
+                    <depth>8</depth>
+                    <width>73</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Lucie</forename>
+              <surname>Ceconi</surname>
+            </persName>
+            <death when="1950"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Marianne Ceconi</forename>
+              <surname>Fain</surname>
+            </persName>
+            <death when="1961"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>William Hugh</forename>
+              <surname>Fain</surname>
+            </persName>
+            <death when="1961"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_T #c_2 #m_RS #t_P">
+        <ab>LUCIE CECONI</ab>
+        <ab>BERLIN  ROMA</ab>
+        <ab>1874  1950</ab>
+        <ab/>
+        <ab>...SIE WAR NICHT FAUL</ab>
+      </div>
+      <div type="inscription"  decls="#f_T #c_2 #m_RS #t_S">
+        <ab>WILLIAM HUGH FAIN</ab>
+        <ab>NEW YORK  PARIS</ab>
+        <ab>JULY 15.1917 APRIL 23.1961</ab>
+        <ab/>
+        <ab>MARIANNE CECONI FAIN</ab>
+        <ab>MUNICH   PARIS</ab>
+        <ab>APRIL 18.1909 MARCH 22.1961</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

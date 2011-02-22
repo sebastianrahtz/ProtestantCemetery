@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S101.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 101</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S101">
+          <msIdentifier>
+            <idno>S101</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>112</height>
+                    <depth>57</depth>
+                    <dim type="diameter">7</dim>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_45 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>6</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Joseph</forename>
+              <surname>Story</surname>
+            </persName>
+            <birth when="1847-05-03">
+              <placeName>
+                <settlement>Boston </settlement>
+                <country>USA</country>
+              </placeName>
+            </birth>
+            <death when="1853-11-23">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Maud</forename>
+              <surname>Story</surname>
+            </persName>
+            <death when="1889-02"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+        <ab>JOSEPH STORY</ab>
+        <ab>ONLY SON OF</ab>
+        <ab>WILLILAM W. AND EMELYN STORY</ab>
+        <ab>BORN MAY 3rd 1847</ab>
+        <ab>AT BOSTON U.S.A</ab>
+        <ab>DIED NOV. 23rd 1853</ab>
+        <ab>AT ROME</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IF #t_S">
+        <ab>MAUD INFANT DAUGHTER</ab>
+        <ab>OF MAUD AND WALDO STORY</ab>
+        <ab>4 5 FEBRURY 1889</ab>
+        <ab rend="Alignl">
+          <note>"Februry" [sic]</note>
+        </ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_PC">
+        <ab>HE WHO KEEPETH THEE WILL NOT SLUMBER</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_E #c_2 #m_I #t_PC">
+        <ab>IN THEY PRESENCE IS FULLNESS OF JOY PS. CXXI</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_N #c_3 #m_I #t_PC">
+        <ab>GO THY WAY: THY SON LIVETH ST JOHN IV 5O</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_W #c_2 #m_I #t_PC">
+        <ab>IN THY LIGHT WE SHALL SEE LIGHT PS. XXXI</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

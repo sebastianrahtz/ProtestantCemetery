@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2569.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2569</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2569">
+          <msIdentifier>
+            <idno>S2569</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>35</height>
+                    <width>51</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Boris</forename>
+              <surname>Kalatchoff</surname>
+            </persName>
+            <death when="1926"/>
+            <nationality key="FR"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Zenaide</forename>
+              <surname>Kalatchoff</surname>
+            </persName>
+            <death when="1959"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="fr" decls="#f_S #c_3 #m_IF #t_P">
+        <ab>BORIS KALATCHOFF</ab>
+        <ab>*OREMBOURG 28. 1. 1888</ab>
+        <ab>+ROME 21. 12. 1926</ab>
+      </div>
+      <div type="inscription"  xml:lang="fr" decls="#f_R #c_3 #m_IF #t_S">
+        <ab>ZENAIDE DE COLIGNY</ab>
+        <ab>VEUVE KALATOCHOFF</ab>
+        <ab>*ST. PETERSBOURG 26. 12. 1889</ab>
+        <ab>+ROME 6.4.1959</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

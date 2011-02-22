@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1123.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1123</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1123">
+          <msIdentifier>
+            <idno>S1123</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>165</height>
+                    <depth>8</depth>
+                    <width>69</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Elizabeth Padelford</forename>
+              <surname>Leonard</surname>
+            </persName>
+            <death when="1895"/>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Lillie Arnord</forename>
+              <surname>Leonard</surname>
+            </persName>
+            <death when="1928"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>"THEY REST FROM THEIR</ab>
+        <ab>LABOURS - "</ab>
+        <ab/>
+        <ab>ELIZABETH PADELFORD LEONARD</ab>
+        <ab>BORN IN PROVIDENCE R.I. APRIL 19 1815</ab>
+        <ab>ENTERED INTO REST NOVEMBER 2ND 1895</ab>
+        <ab>"I AM WITH YOU ALWAY"</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_IF #t_S">
+        <ab>LILLIE ARNOLD-LEONARD</ab>
+        <ab>BORN SEPTEMBER 14TH 1852</ab>
+        <ab>DIED DECEMBER 28TH 1928</ab>
+        <ab>"THOU ART WITH ME"</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

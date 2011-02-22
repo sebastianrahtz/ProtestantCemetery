@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S8.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 8</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S8">
+          <msIdentifier>
+            <idno>S8</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PED">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>114</height>
+                    <depth>80</depth>
+                    <width>80</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_125 #st_B #f_E"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_125 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_127 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>76</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Friedrich</forename>
+              <surname>Stahl</surname>
+            </persName>
+            <birth when="1863-12-27">
+              <placeName>
+                <settlement>Munich </settlement>
+                <country>Germany</country>
+              </placeName>
+            </birth>
+            <death when="1940-07-12">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="DE"/>
+            <occupation>painter,"Deutsche Maler"</occupation>
+          </person>
+          <person>
+            <age>78</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Amelia</forename>
+              <surname>Stahl-Whitman</surname>
+            </persName>
+            <birth when="1866-04">
+              <placeName>
+                <settlement>Fitchburg Mass. </settlement>
+                <country>USA</country>
+              </placeName>
+            </birth>
+            <death when="1944-04-16">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_N #c_2 #m_I #t_P">
+        <ab>HIER RUHT</ab>
+        <ab>DER DEUTSCHE MALER</ab>
+        <ab>FRIEDRICH STAHL</ab>
+        <ab>GEBOREN IN MÜNCHEN</ab>
+        <ab>AM 27. DEZEMBER 1863</ab>
+        <ab>GESTORBEN IN ROM AM</ab>
+        <ab>12. JULI 1940</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_I #t_S">
+        <ab>UNDE SEINE FRAU</ab>
+        <ab>AMELIA STAHL-</ab>
+        <ab>WHITMAN</ab>
+        <ab>GEBOREN IN FITCHBURG</ab>
+        <ab>MASS. U.S.A.. IM APRIL 1866</ab>
+        <ab>GESTORBEN IN ROM AM</ab>
+        <ab>16 APRIL 1944</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

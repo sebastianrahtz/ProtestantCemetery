@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S850.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 850</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S850">
+          <msIdentifier>
+            <idno>S850</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>200</height>
+                    <depth>39</depth>
+                    <width>84</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Vladimir" M.</forename>
+              <surname>Naumov"</surname>
+            </persName>
+            <death when="1838"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_4 #m_I #t_P #s_CY">
+        <ab>ЗДѢС'</ab>
+        <ab>ПОГРЕБЕНО ТѢЛО</ab>
+        <ab>ВЛАДИМИРА МИЦХАИЛОВИЯА</ab>
+        <ab>НАУМОВА</ab>
+        <ab>СКОНЯАВЬАГОСЯ  РИМѢ</ab>
+        <ab>И/ЬИИИ МАРТА 1838 ГОДА</ab>
+        <ab>НА 26 ГОДУ ОТ" РОЖЕНИЯ</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

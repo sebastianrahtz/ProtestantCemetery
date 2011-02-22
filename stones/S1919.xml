@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1919.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1919</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1919">
+          <msIdentifier>
+            <idno>S1919</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>247</height>
+                    <depth>24</depth>
+                    <width>96</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>6</num>
+                <ptr target="#i_114 #st_A #f_N"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Eduard</forename>
+              <surname>Behles</surname>
+            </persName>
+            <death when="1904"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
+        <ab>EDUARD BEHLES</ab>
+        <ab>GEB. AM 4 MAI 1875</ab>
+        <ab>IN DER SCHOENSTEN BLUETHE</ab>
+        <ab>SENIOR JAHRE</ab>
+        <ab>AM 22 MAI 1904</ab>
+        <ab>IN EIN BESSERES JENSITS</ab>
+        <ab>ABERUFEN</ab>
+        <ab>SEINE ELTERN UND GESCHWISTER</ab>
+        <ab>IM TIEFSTEN SCHERMZ LASSEND</ab>
+        <ab>---------------</ab>
+        <ab rend="Alignr">MEINE SEELE IST STILLE</ab>
+        <ab rend="Alignr">ZU GOTTT,</ab>
+        <ab rend="Alignr">DER MIRHILFT</ab>
+        <ab rend="Alignr">PS. 60 V.2.</ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_2 #m_IC #t_S">
+        <ab>ALBERTO EPPLER</ab>
+        <ab>1913</ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_2 #m_IC #t_S">
+        <ab>ANTOINETTE</ab>
+        <ab>BEHLES</ab>
+        <ab>1.7.1868 . 12.9.1947</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

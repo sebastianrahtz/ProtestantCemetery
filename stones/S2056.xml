@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2056.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2056</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2056">
+          <msIdentifier>
+            <idno>S2056</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>40</height>
+                    <depth>30</depth>
+                    <width>50</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Mathilde</forename>
+              <surname>Weissman</surname>
+            </persName>
+            <death when="1908"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Rut</forename>
+              <surname>Pfannmuller</surname>
+            </persName>
+            <death when="1979"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_IC #t_P">
+        <ab>MATHILDE WEISSMANN</ab>
+        <ab>GEB. SAWERTHAL</ab>
+        <ab>* 22.II.1846 + 22.VII.1908</ab>
+        <ab/>
+        <ab>RUT P-FANNMÜLLER</ab>
+        <ab>* 9.II.1964 + 17.I.1979</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

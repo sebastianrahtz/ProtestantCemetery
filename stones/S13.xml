@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S13.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 13</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S13">
+          <msIdentifier>
+            <idno>S13</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>78</height>
+                    <depth>23</depth>
+                    <width>35</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_129 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="faces">west side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>72</age>
+            <sex>1</sex>
+            <persName>
+              <forename>David</forename>
+              <surname>Randall-McIver</surname>
+            </persName>
+            <birth when="1873-10-31">
+              <placeName>
+                <settlement>London </settlement>
+                <country>England</country>
+              </placeName>
+            </birth>
+            <death when="1945-04-30">
+              <placeName>
+                <settlement>New York </settlement>
+                <country>USA</country>
+              </placeName>
+            </death>
+            <nationality key="UK"/>
+            <occupation>archaeologist</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="la" decls="#f_W #c_1 #m_IC #t_P">
+        <ab rend="Alignr">DAVID</ab>
+        <ab rend="Alignr">RANDALL</ab>
+        <ab rend="Alignr">MACIVER</ab>
+        <ab/>
+        <ab>BENEMERENTE</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_N #c_1 #m_IC #t_P">
+        <ab>LONDON 1873</ab>
+        <ab>NEW YORK 1945</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

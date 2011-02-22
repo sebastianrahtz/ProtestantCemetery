@@ -1,0 +1,555 @@
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>The Protestant Cemetery, Rome</title>
+            <author>Sebastian Rahtz</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>May 2002</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+               <p>sebastian.rahtz@oucs.ox.ac.uk</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is the master version of an original document.</p>
+         </sourceDesc>
+      </fileDesc>
+<encodingDesc>
+<classDecl>
+<taxonomy xml:id="Material">
+<category xml:id="M_ST"><catDesc>stone</catDesc> </category>
+<category xml:id="M_ME"><catDesc>metal</catDesc> </category>
+<category xml:id="M_"><catDesc>(unrecorded)</catDesc> </category>
+    </taxonomy>
+
+ <taxonomy xml:id="Face">
+<category xml:id="f_I"><catDesc>inside</catDesc></category>
+<category xml:id="f_E"><catDesc>east side</catDesc></category>
+<category xml:id="f_W"><catDesc>west side</catDesc></category>
+<category xml:id="f_T"><catDesc>top</catDesc></category>
+<category xml:id="f_N"><catDesc>north side</catDesc></category>
+<category xml:id="f_S"><catDesc>south side</catDesc></category>
+<category xml:id="f_R"><catDesc>round</catDesc></category>
+<category xml:id="f_X"><catDesc>all over</catDesc></category>
+<category xml:id="f_"><catDesc>(unrecorded)</catDesc></category>
+    </taxonomy>
+ <taxonomy xml:id="Zone">
+<category xml:id="z_A"><catDesc>Parte Antica</catDesc></category>
+<category xml:id="z_V"><catDesc>Zona Vecchia</catDesc></category>
+<category xml:id="z_P"><catDesc>Zona Prima</catDesc></category>
+<category xml:id="z_S"><catDesc>Zona Seconda</catDesc></category>
+<category xml:id="z_T"><catDesc>Zona Terza</catDesc></category>
+    </taxonomy>
+ <taxonomy xml:id="Type">
+<category xml:id="t_P"><catDesc>primary inscription</catDesc></category>
+<category xml:id="t_S"><catDesc>secondary inscription</catDesc></category>
+<category xml:id="t_G"><catDesc>graffito</catDesc></category>
+<category xml:id="t_M"><catDesc>mason's mark</catDesc></category>
+<category xml:id="t_PC"><catDesc>primary comment</catDesc></category>
+<category xml:id="t_SC"><catDesc>secondary comment</catDesc></category>
+<category xml:id="t_"><catDesc>(unrecorded)</catDesc></category>
+    </taxonomy>
+ <taxonomy xml:id="Status">
+<category xml:id="st_A"><catDesc>dominant</catDesc></category>
+<category xml:id="st_B"><catDesc>major</catDesc></category>
+<category xml:id="st_C"><catDesc>minor</catDesc></category>
+<category xml:id="st_D"><catDesc>incidental</catDesc></category>
+    </taxonomy>
+ <taxonomy xml:id="Condition">
+<category xml:id="c_1"><catDesc>excellent</catDesc></category>
+<category xml:id="c_2"><catDesc>good</catDesc></category>
+<category xml:id="c_3"><catDesc>reasonable</catDesc></category>
+<category xml:id="c_4"><catDesc>bad</catDesc></category>
+<category xml:id="c_5"><catDesc>very poor</catDesc></category>
+<category xml:id="c_"><catDesc>(unrecorded)</catDesc></category>
+    </taxonomy>
+ <taxonomy xml:id="Method">
+<category xml:id="m_I"><catDesc>incised</catDesc></category>
+<category xml:id="m_IC"><catDesc>incised and coloured</catDesc></category>
+<category xml:id="m_IM"><catDesc>incised in metal</catDesc></category>
+<category xml:id="m_RM"><catDesc>raised metal</catDesc></category>
+<category xml:id="m_RS"><catDesc>raised stone</catDesc></category>
+<category xml:id="m_IF"><catDesc>incised and filled</catDesc></category>
+<category xml:id="m_"><catDesc>(unrecorded)</catDesc></category>
+    </taxonomy>
+ <taxonomy xml:id="Form">
+<category xml:id="ARCH"><catDesc>Arch</catDesc></category>
+<category xml:id="BASE"><catDesc>Base</catDesc></category>
+<category xml:id="BATH"><catDesc>Bath-shape</catDesc></category>
+<category xml:id="BLOCK"><catDesc>Block</catDesc></category>
+<category xml:id="BOOK"><catDesc>Book</catDesc></category>
+<category xml:id="BROKE"><catDesc>Broken</catDesc></category>
+<category xml:id="BUILD"><catDesc>Building</catDesc></category>
+<category xml:id="BUST"><catDesc>Bust</catDesc></category>
+<category xml:id="CHES"><catDesc>Chest</catDesc></category>
+<category xml:id="CHEST"><catDesc>Chest</catDesc></category>
+<category xml:id="COL"><catDesc>Column</catDesc></category>
+<category xml:id="COLB"><catDesc>Broken</catDesc></category>
+<category xml:id="COPE"><catDesc>Coped</catDesc></category>
+<category xml:id="CROSS"><catDesc>Cross</catDesc></category>
+<category xml:id="CUSH"><catDesc>Cushion</catDesc></category>
+<category xml:id="FOOT"><catDesc>Footstone</catDesc></category>
+<category xml:id="HEAD"><catDesc>Headstone</catDesc></category>
+<category xml:id="KERB"><catDesc>Kerb</catDesc></category>
+<category xml:id="LAMP"><catDesc>Lamp</catDesc></category>
+<category xml:id="LEDG"><catDesc>Ledger</catDesc></category>
+<category xml:id="OBEL"><catDesc>Obelisk</catDesc></category>
+<category xml:id="OSS"><catDesc>Ossuary</catDesc></category>
+<category xml:id="OTHER"><catDesc>unique</catDesc></category>
+<category xml:id="PED"><catDesc>Pedestal</catDesc></category>
+<category xml:id="PLB"><catDesc>Plaque on base</catDesc></category>
+<category xml:id="PLG"><catDesc>Plaque in ground</catDesc></category>
+<category xml:id="PLW"><catDesc>Plaque on wall</catDesc></category>
+<category xml:id="ROCK"><catDesc>Rocks</catDesc></category>
+<category xml:id="SCRLL"><catDesc>Scroll</catDesc></category>
+<category xml:id="STAT"><catDesc>Statue</catDesc></category>
+<category xml:id="TREE"><catDesc>Tree</catDesc></category>
+<category xml:id="URN"><catDesc>Urn</catDesc></category>
+<category xml:id="VASE"><catDesc>Urn</catDesc></category>
+<category xml:id="WRETH"><catDesc>Wreath</catDesc></category>
+    </taxonomy>
+ <taxonomy xml:id="Country">
+<category xml:id="AD"><catDesc>Andorra</catDesc></category>
+<category xml:id="AE"><catDesc>United Arab Emirates</catDesc></category>
+<category xml:id="AF"><catDesc>Afghanistan</catDesc></category>
+<category xml:id="AG"><catDesc>Antigua &amp; Barbuda</catDesc></category>
+<category xml:id="AI"><catDesc>Anguilla</catDesc></category>
+<category xml:id="AL"><catDesc>Albania</catDesc></category>
+<category xml:id="AM"><catDesc>Armenia</catDesc></category>
+<category xml:id="AN"><catDesc>Netherlands Antilles</catDesc></category>
+<category xml:id="AO"><catDesc>Angola</catDesc></category>
+<category xml:id="AQ"><catDesc>Antarctica</catDesc></category>
+<category xml:id="AR"><catDesc>Argentina</catDesc></category>
+<category xml:id="AS"><catDesc>American Samoa</catDesc></category>
+<category xml:id="AT"><catDesc>Austria</catDesc></category>
+<category xml:id="AU"><catDesc>Australia</catDesc></category>
+<category xml:id="AW"><catDesc>Aruba</catDesc></category>
+<category xml:id="AZ"><catDesc>Azerbaijan</catDesc></category>
+<category xml:id="BA"><catDesc>Bosnia and Herzegovina</catDesc></category>
+<category xml:id="BB"><catDesc>Barbados</catDesc></category>
+<category xml:id="BD"><catDesc>Bangladesh</catDesc></category>
+<category xml:id="BE"><catDesc>Belgium</catDesc></category>
+<category xml:id="BF"><catDesc>Burkina Faso</catDesc></category>
+<category xml:id="BG"><catDesc>Bulgaria</catDesc></category>
+<category xml:id="BH"><catDesc>Bahrain</catDesc></category>
+<category xml:id="BI"><catDesc>Burundi</catDesc></category>
+<category xml:id="BJ"><catDesc>Benin</catDesc></category>
+<category xml:id="BM"><catDesc>Bermuda</catDesc></category>
+<category xml:id="BN"><catDesc>Brunei Darussalam</catDesc></category>
+<category xml:id="BO"><catDesc>Bolivia</catDesc></category>
+<category xml:id="BR"><catDesc>Brazil</catDesc></category>
+<category xml:id="BS"><catDesc>The Bahamas</catDesc></category>
+<category xml:id="BT"><catDesc>Bhutan</catDesc></category>
+<category xml:id="BW"><catDesc>Botswana</catDesc></category>
+<category xml:id="BY"><catDesc>Belarus</catDesc></category>
+<category xml:id="BZ"><catDesc>Belize</catDesc></category>
+<category xml:id="CA"><catDesc>Canada</catDesc></category>
+<category xml:id="CC"><catDesc>Cocos (Keeling) Islands</catDesc></category>
+<category xml:id="CD"><catDesc>Democratic Rep. of the Congo</catDesc></category>
+<category xml:id="CF"><catDesc>Central African Republic</catDesc></category>
+<category xml:id="CG"><catDesc>Congo</catDesc></category>
+<category xml:id="CH"><catDesc>Switzerland</catDesc></category>
+<category xml:id="CI"><catDesc>Cote D'Ivoire</catDesc></category>
+<category xml:id="CK"><catDesc>Cook Islands</catDesc></category>
+<category xml:id="CL"><catDesc>Chile</catDesc></category>
+<category xml:id="CM"><catDesc>Cameroon</catDesc></category>
+<category xml:id="CN"><catDesc>China</catDesc></category>
+<category xml:id="CO"><catDesc>Colombia</catDesc></category>
+<category xml:id="CR"><catDesc>Costa Rica</catDesc></category>
+<category xml:id="CS"><catDesc>Serbia &amp; Montenegro</catDesc></category>
+<category xml:id="CU"><catDesc>Cuba</catDesc></category>
+<category xml:id="CV"><catDesc>Cape Verde</catDesc></category>
+<category xml:id="CX"><catDesc>Christmas Island</catDesc></category>
+<category xml:id="CY"><catDesc>Cyprus</catDesc></category>
+<category xml:id="CZ"><catDesc>Czech Republic</catDesc></category>
+<category xml:id="DE"><catDesc>Germany</catDesc></category>
+<category xml:id="DJ"><catDesc>Djibouti</catDesc></category>
+<category xml:id="DK"><catDesc>Denmark</catDesc></category>
+<category xml:id="DM"><catDesc>Dominica</catDesc></category>
+<category xml:id="DO"><catDesc>Dominican Republic</catDesc></category>
+<category xml:id="DZ"><catDesc>Algeria</catDesc></category>
+<category xml:id="EC"><catDesc>Ecuador</catDesc></category>
+<category xml:id="EE"><catDesc>Estonia</catDesc></category>
+<category xml:id="EG"><catDesc>Egypt</catDesc></category>
+<category xml:id="EH"><catDesc>Sahara</catDesc></category>
+<category xml:id="EH"><catDesc>Western Sahara</catDesc></category>
+<category xml:id="ER"><catDesc>Eritrea</catDesc></category>
+<category xml:id="ES"><catDesc>Spain</catDesc></category>
+<category xml:id="ET"><catDesc>Ethiopia</catDesc></category>
+<category xml:id="EU"><catDesc>European Union</catDesc></category>
+<category xml:id="FI"><catDesc>Finland</catDesc></category>
+<category xml:id="FJ"><catDesc>Fiji</catDesc></category>
+<category xml:id="FK"><catDesc>Falkland Islands (Malvinas)</catDesc></category>
+<category xml:id="FM"><catDesc>Federated States of Micronesia</catDesc></category>
+<category xml:id="FO"><catDesc>Faroe Islands</catDesc></category>
+<category xml:id="FR"><catDesc>France</catDesc></category>
+<category xml:id="GA"><catDesc>Gabon</catDesc></category>
+<category xml:id="GD"><catDesc>Grenada</catDesc></category>
+<category xml:id="GE"><catDesc>Georgia</catDesc></category>
+<category xml:id="GF"><catDesc>French Guiana</catDesc></category>
+<category xml:id="GG"><catDesc>Guerney</catDesc></category>
+<category xml:id="GH"><catDesc>Ghana</catDesc></category>
+<category xml:id="GI"><catDesc>Gibraltar</catDesc></category>
+<category xml:id="GL"><catDesc>Greenland</catDesc></category>
+<category xml:id="GM"><catDesc>the Gambia</catDesc></category>
+<category xml:id="GN"><catDesc>Guinea</catDesc></category>
+<category xml:id="GP"><catDesc>Equatorial Guinea</catDesc></category>
+<category xml:id="GP"><catDesc>Guadeloupe</catDesc></category>
+<category xml:id="GQ"><catDesc>Equatorial Guinea</catDesc></category>
+<category xml:id="GR"><catDesc>Greece</catDesc></category>
+<category xml:id="GT"><catDesc>Guatemala</catDesc></category>
+<category xml:id="GU"><catDesc>Guam</catDesc></category>
+<category xml:id="GW"><catDesc>Guinea-Bissau</catDesc></category>
+<category xml:id="GY"><catDesc>Guyana</catDesc></category>
+<category xml:id="HK"><catDesc>(China) Hong Kong</catDesc></category>
+<category xml:id="HN"><catDesc>Honduras</catDesc></category>
+<category xml:id="HR"><catDesc>Croatia</catDesc></category>
+<category xml:id="HT"><catDesc>Haiti</catDesc></category>
+<category xml:id="HU"><catDesc>Hungary</catDesc></category>
+<category xml:id="ID"><catDesc>Indonesia</catDesc></category>
+<category xml:id="IE"><catDesc>Ireland</catDesc></category>
+<category xml:id="IL"><catDesc>Israel</catDesc></category>
+<category xml:id="IN"><catDesc>India</catDesc></category>
+<category xml:id="IQ"><catDesc>Iraq</catDesc></category>
+<category xml:id="IR"><catDesc>Islamic Republic of Iran</catDesc></category>
+<category xml:id="IS"><catDesc>Iceland</catDesc></category>
+<category xml:id="IT"><catDesc>Italy</catDesc></category>
+<category xml:id="JE"><catDesc>Jersey</catDesc></category>
+<category xml:id="JM"><catDesc>Jamaica</catDesc></category>
+<category xml:id="JP"><catDesc>Japan</catDesc></category>
+<category xml:id="KE"><catDesc>Kenya</catDesc></category>
+<category xml:id="KG"><catDesc>Kyrgyzstan</catDesc></category>
+<category xml:id="KH"><catDesc>Cambodia</catDesc></category>
+<category xml:id="KI"><catDesc>Kiribati</catDesc></category>
+<category xml:id="KM"><catDesc>Comoros</catDesc></category>
+<category xml:id="KN"><catDesc>Saint Kitts and Nevis</catDesc></category>
+<category xml:id="KP"><catDesc>Demo. People's Rep. of Korea</catDesc></category>
+<category xml:id="KR"><catDesc>(South) Republic of Korea</catDesc></category>
+<category xml:id="KW"><catDesc>Kuwait</catDesc></category>
+<category xml:id="KY"><catDesc>Cayman Islands</catDesc></category>
+<category xml:id="LA"><catDesc>Lao People's Democratic Republic</catDesc></category>
+<category xml:id="LB"><catDesc>Lebanon</catDesc></category>
+<category xml:id="LC"><catDesc>Saint Lucia</catDesc></category>
+<category xml:id="LI"><catDesc>Liechtenstein</catDesc></category>
+<category xml:id="LK"><catDesc>Sri Lanka</catDesc></category>
+<category xml:id="LR"><catDesc>Liberia</catDesc></category>
+<category xml:id="LS"><catDesc>Lesotho</catDesc></category>
+<category xml:id="LT"><catDesc>Lithuania</catDesc></category>
+<category xml:id="LU"><catDesc>Luxembourg</catDesc></category>
+<category xml:id="LV"><catDesc>Latvia</catDesc></category>
+<category xml:id="LY"><catDesc>Libyan Arab Jamahiriya</catDesc></category>
+<category xml:id="MA"><catDesc>Morocco</catDesc></category>
+<category xml:id="MC"><catDesc>Monaco</catDesc></category>
+<category xml:id="MD"><catDesc>Republic of Moldova</catDesc></category>
+<category xml:id="MG"><catDesc>Madagascar</catDesc></category>
+<category xml:id="MH"><catDesc>Marshall Islands</catDesc></category>
+<category xml:id="MK"><catDesc>TFYR Macedonia</catDesc></category>
+<category xml:id="ML"><catDesc>Mali</catDesc></category>
+<category xml:id="MN"><catDesc>Mongolia</catDesc></category>
+<category xml:id="MO"><catDesc>China) Macao</catDesc></category>
+<category xml:id="MP"><catDesc>Northern Mariana Islands</catDesc></category>
+<category xml:id="MQ"><catDesc>Martinique</catDesc></category>
+<category xml:id="MR"><catDesc>Mauritania</catDesc></category>
+<category xml:id="MS"><catDesc>Montserrat</catDesc></category>
+<category xml:id="MT"><catDesc>Malta</catDesc></category>
+<category xml:id="MU"><catDesc>Mauritius</catDesc></category>
+<category xml:id="MV"><catDesc>Maldives</catDesc></category>
+<category xml:id="MW"><catDesc>Malawi</catDesc></category>
+<category xml:id="MX"><catDesc>Mexico</catDesc></category>
+<category xml:id="MY"><catDesc>Malaysia</catDesc></category>
+<category xml:id="MZ"><catDesc>Mozambique</catDesc></category>
+<category xml:id="NA"><catDesc>Namibia</catDesc></category>
+<category xml:id="NC"><catDesc>New Caledonia</catDesc></category>
+<category xml:id="NE"><catDesc>Niger</catDesc></category>
+<category xml:id="NF"><catDesc>Norfolk Island</catDesc></category>
+<category xml:id="NG"><catDesc>Nigeria</catDesc></category>
+<category xml:id="NI"><catDesc>Nicaragua</catDesc></category>
+<category xml:id="NL"><catDesc>Holland (see Netherlands)</catDesc></category>
+<category xml:id="NL"><catDesc>Netherlands</catDesc></category>
+<category xml:id="NO"><catDesc>Norway</catDesc></category>
+<category xml:id="NP"><catDesc>Nepal</catDesc></category>
+<category xml:id="NR"><catDesc>Nauru</catDesc></category>
+<category xml:id="NU"><catDesc>Niue</catDesc></category>
+<category xml:id="NZ"><catDesc>New Zealand</catDesc></category>
+<category xml:id="OM"><catDesc>Oman</catDesc></category>
+<category xml:id="PA"><catDesc>Panama</catDesc></category>
+<category xml:id="PE"><catDesc>Peru</catDesc></category>
+<category xml:id="PF"><catDesc>French Polynesia</catDesc></category>
+<category xml:id="PG"><catDesc>Papua New Guinea</catDesc></category>
+<category xml:id="PH"><catDesc>Philippines</catDesc></category>
+<category xml:id="PK"><catDesc>Pakistan</catDesc></category>
+<category xml:id="PL"><catDesc>Poland</catDesc></category>
+<category xml:id="PM"><catDesc>Saint Pierre and Miquelon</catDesc></category>
+<category xml:id="PN"><catDesc>Pitcairn Island</catDesc></category>
+<category xml:id="PR"><catDesc>Puerto Rico</catDesc></category>
+<category xml:id="PS"><catDesc>Palestinian Territory</catDesc></category>
+<category xml:id="PT"><catDesc>Portugal</catDesc></category>
+<category xml:id="PW"><catDesc>Palau</catDesc></category>
+<category xml:id="PY"><catDesc>Paraguay</catDesc></category>
+<category xml:id="RE"><catDesc>Reunion</catDesc></category>
+<category xml:id="RO"><catDesc>Romania</catDesc></category>
+<category xml:id="RU"><catDesc>Russia (Russian Federation)</catDesc></category>
+<category xml:id="RW"><catDesc>Rwanda</catDesc></category>
+<category xml:id="SA"><catDesc>Saudi Arabia</catDesc></category>
+<category xml:id="SB"><catDesc>Solomon Islands</catDesc></category>
+<category xml:id="SC"><catDesc>Seychelles</catDesc></category>
+<category xml:id="SD"><catDesc>Sudan</catDesc></category>
+<category xml:id="SE"><catDesc>Sweden</catDesc></category>
+<category xml:id="SG"><catDesc>Singapore</catDesc></category>
+<category xml:id="SH"><catDesc>Saint Helena</catDesc></category>
+<category xml:id="SI"><catDesc>Slovenia</catDesc></category>
+<category xml:id="SJ"><catDesc>Svalbard and Jan Mayen Islands</catDesc></category>
+<category xml:id="SK"><catDesc>Slovakia</catDesc></category>
+<category xml:id="SL"><catDesc>Sierra Leone</catDesc></category>
+<category xml:id="SM"><catDesc>San Marino</catDesc></category>
+<category xml:id="SN"><catDesc>Senegal</catDesc></category>
+<category xml:id="SO"><catDesc>Somalia</catDesc></category>
+<category xml:id="SR"><catDesc>Suriname</catDesc></category>
+<category xml:id="ST"><catDesc>Sao Tome and Principe</catDesc></category>
+<category xml:id="SV"><catDesc>El Salvador</catDesc></category>
+<category xml:id="SY"><catDesc>Syrian Arab Republic</catDesc></category>
+<category xml:id="SZ"><catDesc>Swaziland</catDesc></category>
+<category xml:id="TC"><catDesc>Turks and Caicos Islands</catDesc></category>
+<category xml:id="TD"><catDesc>Chad</catDesc></category>
+<category xml:id="TG"><catDesc>Togo</catDesc></category>
+<category xml:id="TH"><catDesc>Thailand</catDesc></category>
+<category xml:id="TJ"><catDesc>Tajikistan</catDesc></category>
+<category xml:id="TK"><catDesc>Tokelau</catDesc></category>
+<category xml:id="TL"><catDesc>Timor-Leste (East Timor)</catDesc></category>
+<category xml:id="TM"><catDesc>Turkmenistan</catDesc></category>
+<category xml:id="TN"><catDesc>Tunisia</catDesc></category>
+<category xml:id="TO"><catDesc>Tonga</catDesc></category>
+<category xml:id="TR"><catDesc>Turkey</catDesc></category>
+<category xml:id="TT"><catDesc>Trinidad &amp; Tobago</catDesc></category>
+<category xml:id="TV"><catDesc>Tuvalu</catDesc></category>
+<category xml:id="TW"><catDesc>Taiwan</catDesc></category>
+<category xml:id="TZ"><catDesc>United Republic of Tanzania</catDesc></category>
+<category xml:id="UA"><catDesc>Ukraine</catDesc></category>
+<category xml:id="UG"><catDesc>Uganda</catDesc></category>
+<category xml:id="UK"><catDesc>United Kingdom</catDesc></category>
+<category xml:id="US"><catDesc>United States</catDesc></category>
+<category xml:id="UY"><catDesc>Uruguay</catDesc></category>
+<category xml:id="UZ"><catDesc>Uzbekistan</catDesc></category>
+<category xml:id="VA"><catDesc>Holy See (Vatican City State)</catDesc></category>
+<category xml:id="VA"><catDesc>Vatican City State (Holy See)</catDesc></category>
+<category xml:id="VC"><catDesc>Saint Vincent and the Grenadines</catDesc></category>
+<category xml:id="VE"><catDesc>Venezuela</catDesc></category>
+<category xml:id="VG"><catDesc>British Virgin Islands</catDesc></category>
+<category xml:id="VI"><catDesc>U.S. Virgin Islands</catDesc></category>
+<category xml:id="VN"><catDesc>Viet Nam</catDesc></category>
+<category xml:id="VU"><catDesc>Vanuatu</catDesc></category>
+<category xml:id="WF"><catDesc>Wallis and Futuna</catDesc></category>
+<category xml:id="WS"><catDesc>Samoa</catDesc></category>
+<category xml:id="YE"><catDesc>Yemen</catDesc></category>
+<category xml:id="YT"><catDesc>Mayotte</catDesc></category>
+<category xml:id="ZA"><catDesc>South Africa</catDesc></category>
+<category xml:id="ZM"><catDesc>Zambia</catDesc></category>
+<category xml:id="ZW"><catDesc>Zimbabwe </catDesc></category>
+    </taxonomy>
+ <taxonomy xml:id="Feature">
+<category xml:id="i_1"><catDesc n="5 3">altar</catDesc></category>
+<category xml:id="i_2"><catDesc n="3 9">anchor</catDesc></category>
+<category xml:id="i_3"><catDesc n="3 9">anchor w. chain - REMOVED MERGED WITH 2 (ANCHOR)</catDesc></category>
+<category xml:id="i_4"><catDesc n="3">angel</catDesc></category>
+<category xml:id="i_5"><catDesc n="5">arch</catDesc></category>
+<category xml:id="i_6"><catDesc n="5">archimandritical items - REMOVED - USE BISHOPS</catDesc></category>
+<category xml:id="i_7"><catDesc n="5">arms - REMOVED</catDesc></category>
+<category xml:id="i_8"><catDesc n="6">arrows</catDesc></category>
+<category xml:id="i_9"><catDesc n="6">palette and brushes</catDesc></category>
+<category xml:id="i_10"><catDesc n="6">baby - REMOVED</catDesc></category>
+<category xml:id="i_11"><catDesc n="6">bird, unknown - REMOVED</catDesc></category>
+<category xml:id="i_12"><catDesc n="1">bird in bush</catDesc></category>
+<category xml:id="i_13"><catDesc n="3 6">bishop's accoutrements</catDesc></category>
+<category xml:id="i_14"><catDesc n="3 6">book</catDesc></category>
+<category xml:id="i_15"><catDesc n="3 6">bow-top Roman pedestal/altar - REMOVED</catDesc></category>
+<category xml:id="i_16"><catDesc n="5">column, broken</catDesc></category>
+<category xml:id="i_17"><catDesc n="5">lyre, broken REMOVED - USE LYRE</catDesc></category>
+<category xml:id="i_18"><catDesc n="5">bull's head - REMOVED</catDesc></category>
+<category xml:id="i_19"><catDesc n="7">bust</catDesc></category>
+<category xml:id="i_20"><catDesc n="1">butterfly</catDesc></category>
+<category xml:id="i_21"><catDesc n="8">caduceus</catDesc></category>
+<category xml:id="i_22"><catDesc n="4">celtic rope work</catDesc></category>
+<category xml:id="i_23"><catDesc n="3 6">chalice</catDesc></category>
+<category xml:id="i_24"><catDesc n="3">chi rho</catDesc></category>
+<category xml:id="i_25"><catDesc n="6">children's toys</catDesc></category>
+<category xml:id="i_26"><catDesc n="3">Christ</catDesc></category>
+<category xml:id="i_27"><catDesc n="3">classical scene - REMOVED</catDesc></category>
+<category xml:id="i_28"><catDesc n="2">clover</catDesc></category>
+<category xml:id="i_29"><catDesc n="6">coat of arms</catDesc></category>
+<category xml:id="i_30"><catDesc n="5">column</catDesc></category>
+<category xml:id="i_31"><catDesc n="6">compass</catDesc></category>
+<category xml:id="i_32"><catDesc n="6">crest REMOVED - USE COAT OF ARMS</catDesc></category>
+<category xml:id="i_33"><catDesc n="6">crown</catDesc></category>
+<category xml:id="i_34"><catDesc n="6">dagger</catDesc></category>
+<category xml:id="i_35"><catDesc n="3 8">disc</catDesc></category>
+<category xml:id="i_36"><catDesc n="1">dog</catDesc></category>
+<category xml:id="i_37"><catDesc n="1">dolphin</catDesc></category>
+<category xml:id="i_38"><catDesc n="3 9">door</catDesc></category>
+<category xml:id="i_39"><catDesc n="3 1">dove</catDesc></category>
+<category xml:id="i_40"><catDesc n="3 1">draped urn - REMOVED</catDesc></category>
+<category xml:id="i_41"><catDesc n="1 3">evangelical animals</catDesc></category>
+<category xml:id="i_42"><catDesc n="7">family - REMOVED</catDesc></category>
+<category xml:id="i_43"><catDesc n="7">figure</catDesc></category>
+<category xml:id="i_44"><catDesc n="3 1">fish</catDesc></category>
+<category xml:id="i_45"><catDesc n="2">floral, unknown</catDesc></category>
+<category xml:id="i_46"><catDesc n="2">flower - REMOVED</catDesc></category>
+<category xml:id="i_47"><catDesc n="3">fravashi</catDesc></category>
+<category xml:id="i_48"><catDesc n="3">frieze of mourning figures - REMOVED</catDesc></category>
+<category xml:id="i_49"><catDesc n="10">griffin</catDesc></category>
+<category xml:id="i_50"><catDesc n="10">hammer and chisels - REMOVED</catDesc></category>
+<category xml:id="i_51"><catDesc n="10">hapsburg eagle - REMOVED</catDesc></category>
+<category xml:id="i_52"><catDesc n="10">harp - REMOVED</catDesc></category>
+<category xml:id="i_53"><catDesc n="3">hourglass with wings</catDesc></category>
+<category xml:id="i_54"><catDesc n="3">icon</catDesc></category>
+<category xml:id="i_55"><catDesc n="3 6">jug</catDesc></category>
+<category xml:id="i_56"><catDesc n="3">lamb</catDesc></category>
+<category xml:id="i_57"><catDesc n="3 2">lily</catDesc></category>
+<category xml:id="i_58"><catDesc n="3 6">lyre</catDesc></category>
+<category xml:id="i_59"><catDesc n="3">cross, Maltese</catDesc></category>
+<category xml:id="i_60"><catDesc n="2">maple</catDesc></category>
+<category xml:id="i_61"><catDesc n="6">mask</catDesc></category>
+<category xml:id="i_62"><catDesc n="6">mason's tools</catDesc></category>
+<category xml:id="i_63"><catDesc n="6">medal</catDesc></category>
+<category xml:id="i_64"><catDesc n="6">military accoutrements</catDesc></category>
+<category xml:id="i_65"><catDesc n="6">doors - REMOVED</catDesc></category>
+<category xml:id="i_66"><catDesc n="8 4">mosaic</catDesc></category>
+<category xml:id="i_67"><catDesc n="8 4">mourning scene - REMOVED</catDesc></category>
+<category xml:id="i_68"><catDesc n="11">music</catDesc></category>
+<category xml:id="i_69"><catDesc n="6">musical instrument</catDesc></category>
+<category xml:id="i_70"><catDesc n="6">oar</catDesc></category>
+<category xml:id="i_71"><catDesc n="9">tictactoe board</catDesc></category>
+<category xml:id="i_72"><catDesc n="1">owl</catDesc></category>
+<category xml:id="i_73"><catDesc n="1">palette - REMOVED, USE PALETTE AND BRUSHES</catDesc></category>
+<category xml:id="i_74"><catDesc n="2">palm</catDesc></category>
+<category xml:id="i_75"><catDesc n="3 1">peacock</catDesc></category>
+<category xml:id="i_76"><catDesc n="3 10">phoenix</catDesc></category>
+<category xml:id="i_77"><catDesc n="7">photograph</catDesc></category>
+<category xml:id="i_78"><catDesc n="7">pitcher - REMOVED</catDesc></category>
+<category xml:id="i_79"><catDesc n="7">portrait</catDesc></category>
+<category xml:id="i_80"><catDesc n="3 7">praying hands</catDesc></category>
+<category xml:id="i_81"><catDesc n="3 7">psyche - REMOVED</catDesc></category>
+<category xml:id="i_82"><catDesc n="8">putto</catDesc></category>
+<category xml:id="i_83"><catDesc n="8">ribbons - REMOVED</catDesc></category>
+<category xml:id="i_84"><catDesc n="8 3 9">sarcophagus</catDesc></category>
+<category xml:id="i_85"><catDesc n="2">rose</catDesc></category>
+<category xml:id="i_86"><catDesc n="4">rosette</catDesc></category>
+<category xml:id="i_87"><catDesc n="9">scroll</catDesc></category>
+<category xml:id="i_88"><catDesc n="1">serpent</catDesc></category>
+<category xml:id="i_89"><catDesc n="1">shells</catDesc></category>
+<category xml:id="i_90"><catDesc n="1">shepherd - REMOVED (ALL PARTS OF SCENES)</catDesc></category>
+<category xml:id="i_91"><catDesc n="3 6">sickle</catDesc></category>
+<category xml:id="i_92"><catDesc n="1">skull</catDesc></category>
+<category xml:id="i_93"><catDesc n="1">star, six-sided at peak - REMOVED</catDesc></category>
+<category xml:id="i_94"><catDesc n="1">skull and cross bones</catDesc></category>
+<category xml:id="i_95"><catDesc n="3">soul</catDesc></category>
+<category xml:id="i_96"><catDesc n="10">sphinx</catDesc></category>
+<category xml:id="i_97"><catDesc n="3 9">star</catDesc></category>
+<category xml:id="i_98"><catDesc n="3">star of David</catDesc></category>
+<category xml:id="i_99"><catDesc n="7">statue, of deceased</catDesc></category>
+<category xml:id="i_100"><catDesc n="3 7">statue, male (not deceased)</catDesc></category>
+<category xml:id="i_101"><catDesc n="7">statue, female (not deceased)</catDesc></category>
+<category xml:id="i_102"><catDesc n="9">sun</catDesc></category>
+<category xml:id="i_103"><catDesc n="9">swag - REMOVED</catDesc></category>
+<category xml:id="i_104"><catDesc n="3 8">swastika</catDesc></category>
+<category xml:id="i_105"><catDesc n="2">thistle</catDesc></category>
+<category xml:id="i_106"><catDesc n="3 6">torch</catDesc></category>
+<category xml:id="i_107"><catDesc n="2">tree</catDesc></category>
+<category xml:id="i_108"><catDesc n="3 4">triangle</catDesc></category>
+<category xml:id="i_109"><catDesc n="3 9">urn</catDesc></category>
+<category xml:id="i_110"><catDesc n="3 9">violin - REMOVED, USE MUSICAL INST. (69)</catDesc></category>
+<category xml:id="i_111"><catDesc n="3 8">wings</catDesc></category>
+<category xml:id="i_112"><catDesc n="3 2">wreath</catDesc></category>
+<category xml:id="i_113"><catDesc n="3">cross, plain</catDesc></category>
+<category xml:id="i_114"><catDesc n="3">star and + symbols (birth and death)</catDesc></category>
+<category xml:id="i_115"><catDesc n="3">alpha and omega</catDesc></category>
+<category xml:id="i_116"><catDesc n="3">IHS</catDesc></category>
+<category xml:id="i_117"><catDesc n="3 2">olive</catDesc></category>
+<category xml:id="i_118"><catDesc n="6">lamp</catDesc></category>
+<category xml:id="i_119"><catDesc n="6">trumpet - REMOVED, USE MUSICAL INST. (69)</catDesc></category>
+<category xml:id="i_120"><catDesc n="8 2">acanthus</catDesc></category>
+<category xml:id="i_121"><catDesc n="9 2">lotus</catDesc></category>
+<category xml:id="i_122"><catDesc n="2">vines</catDesc></category>
+<category xml:id="i_123"><catDesc n="3">cross, Greek</catDesc></category>
+<category xml:id="i_124"><catDesc n="3">cross, Orthodox</catDesc></category>
+<category xml:id="i_125"><catDesc n="3 8">wreath, victors</catDesc></category>
+<category xml:id="i_126"><catDesc n="7">statuary, broken</catDesc></category>
+<category xml:id="i_127"><catDesc n="4">meander</catDesc></category>
+<category xml:id="i_128"><catDesc n="2">pine</catDesc></category>
+<category xml:id="i_129"><catDesc n="4">garlands</catDesc></category>
+<category xml:id="i_130"><catDesc n="2">wheat</catDesc></category>
+<category xml:id="i_131"><catDesc n="2">poppy</catDesc></category>
+<category xml:id="i_132"><catDesc n="3 2">flower, falling</catDesc></category>
+<category xml:id="i_133"><catDesc n="3 2">ivy</catDesc></category>
+<category xml:id="i_134"><catDesc n="2">oak</catDesc></category>
+<category xml:id="i_135"><catDesc n="2">laurel</catDesc></category>
+<category xml:id="i_136"><catDesc n="5">capital</catDesc></category>
+<category xml:id="i_137"><catDesc n="9">boat</catDesc></category>
+<category xml:id="i_138"><catDesc n="3 4">trefoil</catDesc></category>
+<category xml:id="i_139"><catDesc n="3">heart</catDesc></category>
+<category xml:id="i_140"><catDesc n="4">quatrefoil</catDesc></category>
+<category xml:id="i_141"><catDesc n="4">cornucopia - REMOVED</catDesc></category>
+<category xml:id="i_142"><catDesc n="3">cross, Celtic</catDesc></category>
+<category xml:id="i_143"><catDesc n="6">sword</catDesc></category>
+<category xml:id="i_144"><catDesc n="6">scythe - REMOVED</catDesc></category>
+<category xml:id="i_145"><catDesc n="6">medical staff</catDesc></category>
+<category xml:id="i_146"><catDesc n="4">leaf stop</catDesc></category>
+<category xml:id="i_147"><catDesc n="9">vase</catDesc></category>
+<category xml:id="i_148"><catDesc n="9">garland - REMOVED</catDesc></category>
+<category xml:id="i_149"><catDesc n="1">toad</catDesc></category>
+<category xml:id="i_150"><catDesc n="1">lizard</catDesc></category>
+<category xml:id="i_151"><catDesc n="1">dragonfly</catDesc></category>
+<category xml:id="i_152"><catDesc n="1">insect, unknown</catDesc></category>
+<category xml:id="i_153"><catDesc n="8 1">ox skull</catDesc></category>
+<category xml:id="i_154"><catDesc n="2">shamrock</catDesc></category>
+<category xml:id="i_155"><catDesc n="9">rope</catDesc></category>
+<category xml:id="i_156"><catDesc n="3">tree of life</catDesc></category>
+<category xml:id="i_157"><catDesc n="3 1">eagle</catDesc></category>
+<category xml:id="i_158"><catDesc n="3 1">pomegranate - REMOVED</catDesc></category>
+<category xml:id="i_159"><catDesc n="6">cushion</catDesc></category>
+<category xml:id="i_160"><catDesc n="8">Romulus and Remus</catDesc></category>
+<category xml:id="i_161"><catDesc n="8">flame -REMOVED</catDesc></category>
+<category xml:id="i_162"><catDesc n="3">cross with dots in corners</catDesc></category>
+<category xml:id="i_163"><catDesc n="11">clouds</catDesc></category>
+<category xml:id="i_164"><catDesc n="3">cross, St Georges</catDesc></category>
+<category xml:id="i_165"><catDesc n="2">holly</catDesc></category>
+<category xml:id="i_166"><catDesc n="1">mouse</catDesc></category>
+<category xml:id="i_167"><catDesc n="6">sculptor's tools</catDesc></category>
+<category xml:id="i_168"><catDesc n="1">sparrow</catDesc></category>
+<category xml:id="i_999"><catDesc n="11">extra---see notes</catDesc></category>
+    </taxonomy>
+<taxonomy xml:id="Script">
+<category xml:id="s_GR"><catDesc>Greek</catDesc></category>
+<category xml:id="s_RM"><catDesc>Roman</catDesc></category>
+<category xml:id="s_CY"><catDesc>Cyrillic</catDesc></category>
+</taxonomy>
+   </classDecl>
+  </encodingDesc>
+      <profileDesc>
+	<langUsage>
+	  <language ident="bg">Bulgarian</language>
+	  <language ident="cs">Czech</language>
+	  <language ident="da">Danish</language>
+	  <language ident="de">German</language>
+	  <language ident="el">Greek</language>
+	  <language ident="en">English</language>
+	  <language ident="fr">French</language>
+	  <language ident="it">Italian</language>
+	  <language ident="ja">Japanese</language>
+	  <language ident="la">Latin</language>
+	  <language ident="nl">Dutch</language>
+	  <language ident="no">Norwegian</language>
+	  <language ident="ru">Russian</language>
+	  <language ident="sh">Serbian</language>
+	  <language ident="sv">Swedish</language>
+	</langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>$Date$.</date>
+	    <name>$Author$</name>
+	    <p>$Revision$</p>
+         </change>
+      </revisionDesc>
+    </teiHeader>

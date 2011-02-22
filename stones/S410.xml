@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S410.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 410</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S410">
+          <msIdentifier>
+            <idno>S410</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>162</height>
+                    <depth>162</depth>
+                    <width>96</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Nikolaos</forename>
+              <surname>Mpazios</surname>
+            </persName>
+            <death when="1952"/>
+            <nationality key="GR"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Gewrgios</forename>
+              <surname>Sabbanhs</surname>
+            </persName>
+            <death when="1952"/>
+            <nationality key="GR"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="el" decls="#f_T #c_2 #m_I #t_P #s_GR">
+        <ab rend="Alignl">ΓΕΩΡΓΙΟΣ ΣΑΒΒΑΝΗΣ</ab>
+        <ab rend="Alignl">* ΚΕΡΚΥΡΑ 22 ΙΟΥΝΙΟΥ 1903.</ab>
+        <ab rend="Alignl">+ ΡΩΜΗ 31 ΙΑΝΟΥΑΡΙΟΥ 1952.</ab>
+        <ab>--------</ab>
+        <ab>ΝΙΚΟΛΑΥΣ ΜΠΑΣΙΟΣ</ab>
+        <ab rend="Alignl">* ΚΑΛΑΠΠΥΤΑΙΣ 2 ΜΑΙΟΥ 1863.</ab>
+        <ab rend="Alignl">+ ΡΩΜΗ 20 ΙΟΥΛΙΟΥ 1935.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

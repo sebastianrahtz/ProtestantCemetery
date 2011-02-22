@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1477.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1477</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1477">
+          <msIdentifier>
+            <idno>S1477</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>270</height>
+                    <depth>87</depth>
+                    <width>98</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_22 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_86 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_142 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>John Harvey Johnson</forename>
+              <surname>Baillie</surname>
+            </persName>
+            <death when="1891"/>
+            <nationality key="UK"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Richard Houghton</forename>
+              <surname>Baillie</surname>
+            </persName>
+            <death when="1897"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+        <ab>IN MEMORY</ab>
+        <ab>OF</ab>
+        <ab>RICHARD HOUGHTON BAILLIE</ab>
+        <ab>BORN 25 DEC 1852: DIED 9 APRIL 1907</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_E #c_4 #m_I #t_S">
+        <ab>ALSO IN MEMORY OF</ab>
+        <ab>JOHN HARVEY JOHNSON BAILLIE</ab>
+        <ab>BORN 30 APRIL 1854</ab>
+        <ab>LOST AT SEA 11 FEB: 1897</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

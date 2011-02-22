@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S770.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 770</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S770">
+          <msIdentifier>
+            <idno>S770</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>164</height>
+                    <depth>45</depth>
+                    <width>83</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>X</num>
+                <ptr target="#i_134 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Hugh</forename>
+              <surname>Caldwell</surname>
+            </persName>
+            <death when="1882"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+        <ab>HUGH CALDWELL</ab>
+        <ab>COLONEL IN H.M.BENGAL ARMY</ab>
+        <ab>BORN SEPTEMBER 3rd 1785</ab>
+        <ab>DIED AT ROME FEBRUARY 21ST 1882</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

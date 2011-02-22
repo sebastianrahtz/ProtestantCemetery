@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1163.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1163</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1163">
+          <msIdentifier>
+            <idno>S1163</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CHEST">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>167</height>
+                    <depth>70</depth>
+                    <width>70</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_115 #st_B #f_N"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Augustus Muhlenburg</forename>
+              <surname>Swift</surname>
+            </persName>
+            <death when="1884"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_E #c_3 #m_IF #t_P">
+        <ab>AUGUSTUS MUHLENBERG SWIFT</ab>
+        <ab>BORN IN LONDON MAY 27.1851</ab>
+        <ab>DIED IN ROME MARCH 27.1884</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_W #c_3 #m_ #t_PC">
+        <ab>SI SUMPERSO PENNAS MEAS DILUCULO:</ab>
+        <ab>ET HABITAVERO IN EXTREMIS MARIS;</ab>
+        <ab>ETENIM ILLUC MANUS TUA DEDUCET ME:</ab>
+        <ab>ET TENEBIT ME DEXTERA TUA.</ab>
+        <ab rend="Alignr">
+          <emph>Psalm 139.v.89</emph>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

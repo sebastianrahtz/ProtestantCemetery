@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S546.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 546</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S546">
+          <msIdentifier>
+            <idno>S546</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>42</height>
+                    <depth>15</depth>
+                    <width>80</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_123 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Alma</forename>
+              <surname>von Lorch</surname>
+            </persName>
+            <death when="1925"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Hans Hilchen</forename>
+              <surname>von Lorch</surname>
+            </persName>
+            <death when="1926"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_1 #m_IC #t_P">
+        <ab>ALMA VON LORCH</ab>
+        <ab>GEB. VON CRANACH</ab>
+        <ab>WESEL 15.II.1857 - ROMA 4.IX.1925</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_1 #m_IC #t_S">
+        <ab>HANS HILCHEN VON LORCH</ab>
+        <ab>K.P.RITTMEISTER AD.</ab>
+        <ab>BONN 7.III.1844 - ROM 24.IV.1926</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

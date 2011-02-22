@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S433.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 433</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S433">
+          <msIdentifier>
+            <idno>S433</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>133</height>
+                    <depth>18</depth>
+                    <width>80</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>George Thomas</forename>
+              <surname>Ingle</surname>
+            </persName>
+            <death when="1898"/>
+            <nationality key="UK"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Matilde Sarah</forename>
+              <surname>Ingle</surname>
+            </persName>
+            <death when="1914"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+        <ab>IN MEMORY OF</ab>
+        <ab>GEORGE THOMAS INGLE</ab>
+        <ab>DIED MARCH 15TH 1898</ab>
+        <ab>AND HIS BELOVED WIFE</ab>
+        <ab>MATILDE SARAH INGLE</ab>
+        <ab>DIED MARCH 12TH 1914</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

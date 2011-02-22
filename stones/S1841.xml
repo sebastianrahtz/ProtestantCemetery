@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1841.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1841</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1841">
+          <msIdentifier>
+            <idno>S1841</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="COPE">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>190</height>
+                    <depth>30</depth>
+                    <width>88</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_T"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Katherine</forename>
+              <surname>Hill</surname>
+            </persName>
+            <death when="1885"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_E #c_3 #m_IF #t_P">
+        <ab>IN MEMORY OF</ab>
+        <ab>KATHERINE HILL</ab>
+        <ab>ELDEST DAUGHTER OF EDWIN HILL</ab>
+        <ab>OF THE INLAND REVENUE DEPARTMENT LONDON</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_W #c_3 #m_IF #t_S">
+        <ab>BORN 6TH OCTOBER 1823.</ab>
+        <ab>DIED 27TH JANUARY 1885.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

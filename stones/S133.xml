@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S133.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 133</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S133">
+          <msIdentifier>
+            <idno>S133</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CHEST">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>119</height>
+                    <width>119</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>57</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Antonio</forename>
+              <surname>Cippico</surname>
+            </persName>
+            <birth when="1877-03-20">
+              <placeName>
+                <settlement>Zara</settlement>
+                <country>Italy</country>
+              </placeName>
+            </birth>
+            <death when="1935-01-17">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="IT"/>
+            <occupation>diplomat</occupation>
+          </person>
+          <person>
+            <age>79</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Aldo Marino</forename>
+              <surname>Cippico</surname>
+            </persName>
+            <birth when="1905-11-01">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </birth>
+            <death when="1985-04-10">
+              <placeName>
+                <settlement>Paris </settlement>
+                <country>France</country>
+              </placeName>
+            </death>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_T #c_1 #m_RM #t_P">
+        <ab>ANTONIO</ab>
+        <ab>CIPPICO</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_2 #m_I #t_P">
+        <ab rend="Alignr">CONTE ANTONIO CIPPICO</ab>
+        <ab rend="Alignr">SENATORE DEL REGNO</ab>
+        <ab rend="Alignr">ZARA 20.III.1877-ROMA 17.I.1935</ab>
+        <ab rend="Alignl">CONTE ALDO MARINO CIPPICO</ab>
+        <ab rend="Alignl">ROMA 1.XI.1905 - PARIGI 10.IV.1985</ab>
+        <ab>WEDGWOOD</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1910.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1910</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1910">
+          <msIdentifier>
+            <idno>S1910</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>156</height>
+                    <depth>48</depth>
+                    <width>63</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Sarah</forename>
+              <surname>Taber</surname>
+            </persName>
+            <death when="1888"/>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Susan</forename>
+              <surname>Taber borgialli</surname>
+            </persName>
+            <death when="1914"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+        <ab>SARAH TABER</ab>
+        <ab>BORN IN NEW-YORK</ab>
+        <ab>DIED IN ROME APRIL 13TH 1888</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_IF #t_S">
+        <ab>SUSAN TABER BORGIAZZI</ab>
+        <ab>BORN IN NEW YORK</ab>
+        <ab>DIED IN ROME FEBRUARY 13 1914</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

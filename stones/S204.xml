@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S204.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 204</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S204">
+          <msIdentifier>
+            <idno>S204</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>131</height>
+                    <depth>15</depth>
+                    <width>84</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_121 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>34</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Edward</forename>
+              <surname>Jones</surname>
+            </persName>
+            <birth>
+              <placeName>
+                <settlement>new york </settlement>
+                <country>USA</country>
+              </placeName>
+            </birth>
+            <death when="1839-01-05">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <age>21</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Joshua E</forename>
+              <surname>Jones</surname>
+            </persName>
+            <death when="--01-10"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+        <ab>SACRED TO THE MEMORY</ab>
+        <ab>OF EDWARD R JONES OF</ab>
+        <ab>NEW YORK</ab>
+        <ab>WHO DEPATED THIS LIFE AT ROME</ab>
+        <ab>ON THE 5 DAY OF JANUARY 1839</ab>
+        <ab>IN THE THIRTY FOURTH YEAR OF HIS AGE</ab>
+        <ab>--------------------</ab>
+        <ab>ALSO SACRED TO THE MEMORY OF</ab>
+        <ab>HIS SON JOSHUA E JONES</ab>
+        <ab>WHO DIED ON THE 10 OF JANUARY</ab>
+        <ab>AGED 21 YEARS</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

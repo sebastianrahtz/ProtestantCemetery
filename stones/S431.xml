@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S431.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 431</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S431">
+          <msIdentifier>
+            <idno>S431</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>160</height>
+                    <depth>30</depth>
+                    <width>110</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Laura</forename>
+              <surname>Bulgari</surname>
+            </persName>
+            <death when="1966"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Kunstantines</forename>
+              <surname>Boulgarhs</surname>
+            </persName>
+            <death when="1973"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_2 #m_RM #t_P">
+        <ab>LAURA BULGARI</ab>
+        <ab>NATA GULIENETTI</ab>
+        <ab>* 8 MAGGIO 1892 + 29 NOVEMBRE 1966</ab>
+      </div>
+      <div type="inscription"  xml:lang="el" decls="#f_T #c_2 #m_RM #t_S #s_GR">
+        <ab>ΚΟΝΣΤΑΝΤΙΝΟΣ</ab>
+        <ab>ΒΟΥΛΓΑΡΗΣ</ab>
+        <ab>* 5 ΜΑΡΤΙΟΥ 1889 + 17 ΜΑΡΤΙΟΥ 1973</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

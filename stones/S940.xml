@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S940.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 940</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S940">
+          <msIdentifier>
+            <idno>S940</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>106</height>
+                    <depth>8</depth>
+                    <width>86</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_79 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Runa</forename>
+              <surname>Torgen</surname>
+            </persName>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Francesco</forename>
+              <surname>Piraino</surname>
+            </persName>
+            <death when="1933"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Ottilia</forename>
+              <surname>Torgen</surname>
+            </persName>
+            <death when="1941"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_4 #m_I #t_P">
+        <ab rend="Alignl">FRANCESCO</ab>
+        <ab rend="Alignl">PIRAINO</ab>
+        <ab rend="Alignl">TEN. COL. CAV. UFF.</ab>
+        <ab rend="Alignl">22 NOV. 1933</ab>
+        <ab rend="Alignr">RUNA</ab>
+        <ab rend="Alignr">TORGEN</ab>
+        <ab rend="Alignr">VED. PIRAINO</ab>
+        <ab>OTTILIA TORGEN</ab>
+        <ab>MORTA IN ROMA IL 9 MAGGIO 1941</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2596.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2596</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2596">
+          <msIdentifier>
+            <idno>S2596</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>190</height>
+                    <width>81</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Sarah</forename>
+              <surname>Narischkin</surname>
+            </persName>
+            <death when="1944"/>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Basil</forename>
+              <surname>Narischkin</surname>
+            </persName>
+            <death when="1964"/>
+            <nationality key="CH"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+        <ab>SARAH NARISCHKIN</ab>
+        <ab>PHILADELPHIA, PA 10.III.1882</ab>
+        <ab>PADOVA 10.V.1944</ab>
+        <ab>BORN LEVICK</ab>
+      </div>
+      <div type="inscription"  decls="#f_T #c_3 #m_IF #t_S">
+        <ab>BASIL NARISCHKIN</ab>
+        <ab>LAUSANNE 21.IX.1885</ab>
+        <ab>ROMA 27.II.1964</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

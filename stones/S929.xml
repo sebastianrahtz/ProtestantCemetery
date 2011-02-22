@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S929.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 929</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S929">
+          <msIdentifier>
+            <idno>S929</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>141</height>
+                    <depth>8</depth>
+                    <width>57</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Eberhard</forename>
+              <surname>Ege</surname>
+            </persName>
+            <death when="1932"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Hedwig</forename>
+              <surname>Ege</surname>
+            </persName>
+            <death when="1937"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+        <ab>JESAIAS 54.10</ab>
+        <ab/>
+        <ab>EBERHARD EGE</ab>
+        <ab>MALER</ab>
+        <ab>*17.VIII.1868 STUTTGART-+2.VI.1932 ROME</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_I #t_S">
+        <ab>HEDWIG EGE GEB.V.STOCKHAUSEN</ab>
+        <ab>*5.V.1863 LUCHOW - + 9.VIII.1937 MÜNCHEN</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

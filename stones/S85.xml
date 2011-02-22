@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S85.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 85</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S85">
+          <msIdentifier>
+            <idno>S85</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>162</height>
+                    <depth>9</depth>
+                    <width>67</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_86 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_125 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_164 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>William Rutherford</forename>
+              <surname>Mead</surname>
+            </persName>
+            <death when="1928-06-20"/>
+            <nationality key="UK"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Olga Kilenyi</forename>
+              <surname>Mead</surname>
+            </persName>
+            <death when="1936-04-18"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
+        <ab>WILLIAM</ab>
+        <ab>RUTHERFORD</ab>
+        <ab>MEAD</ab>
+        <ab>DIED JUNE 20, 1928</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_I #t_S">
+        <ab>OLGA KILENYI</ab>
+        <ab>MEAD</ab>
+        <ab>DIED APRIL 18, 1936</ab>
+      </div>
+      <div type="inscription"  decls="#f_N #c_1 #m_I #t_PC">
+        <ab>W. R. MEAD</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

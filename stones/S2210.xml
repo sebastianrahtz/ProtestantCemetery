@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2210.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2210</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2210">
+          <msIdentifier>
+            <idno>S2210</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>108</height>
+                    <depth>50</depth>
+                    <width>135</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Sara</forename>
+              <surname>Rutter</surname>
+            </persName>
+            <death when="1918"/>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Louis Bettilion</forename>
+              <surname>Rutter</surname>
+            </persName>
+            <death when="1928"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_S #c_2 #m_RS #t_P">
+        <ab>RUTTER-FRICK</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_W #c_3 #m_I #t_S">
+        <ab>LOUIS BETTILION</ab>
+        <ab>RUTTER</ab>
+        <ab>BORN OHIO U.S.A.</ab>
+        <ab>FEBRUARY 19TH 1853</ab>
+        <ab>DIED ROME</ab>
+        <ab>JANUARY 23.1928</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_E #c_2 #m_I #t_P">
+        <ab>SARA RUTTER</ab>
+        <ab>WIDOW OF JAGOB FRICK</ab>
+        <ab>WOOSTER,OHIO</ab>
+        <ab>BORN</ab>
+        <ab>WAYNESBURG,OHIO,U.S.A.</ab>
+        <ab>JULY 18TH 1846</ab>
+        <ab>DIED</ab>
+        <ab>ROME,APRIL 10TH 1918.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

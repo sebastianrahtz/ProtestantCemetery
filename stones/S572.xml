@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S572.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 572</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S572">
+          <msIdentifier>
+            <idno>S572</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>40</height>
+                    <depth>2</depth>
+                    <width>45</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_53 #st_B #f_N"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_109 #st_C #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_129 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_129 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Simon</forename>
+              <surname>Herrmann</surname>
+            </persName>
+            <death when="1933"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_R #c_4 #m_I #t_P">
+        <ab>SIMON</ab>
+        <ab>HERRMANN</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+        <ab>SIMON</ab>
+        <ab>HERRMANN</ab>
+        <ab>GEB 13 MAERZ 1868</ab>
+        <ab>ZU MANNHEIM</ab>
+        <ab>GEST 16 MAERZ 1933</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S234.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 234</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S234">
+          <msIdentifier>
+            <idno>S234</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>80</height>
+                    <depth>10</depth>
+                    <width>40</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>79</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Rudolf</forename>
+              <surname>Blau</surname>
+            </persName>
+            <birth when="1952-10-26">
+              <placeName>
+                <settlement>vienna </settlement>
+                <country>Austria</country>
+              </placeName>
+            </birth>
+            <death when="1952-10-25">
+              <placeName>
+                <settlement>new york </settlement>
+                <country>USA</country>
+              </placeName>
+            </death>
+            <nationality key="AT"/>
+          </person>
+          <person>
+            <age>73</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Gerda Johanna</forename>
+              <surname>Blau</surname>
+            </persName>
+            <birth when="1910-07-31">
+              <placeName>
+                <settlement>vienna </settlement>
+                <country>Austria</country>
+              </placeName>
+            </birth>
+            <death when="1983-05-03">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="AT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_S #c_1 #m_IC #t_P">
+        <ab>RUDOLF BLAU</ab>
+        <ab>VIENNA 26.VIII.1873</ab>
+        <ab>NEW YORK 25.X.1952</ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_1 #m_IC #t_S">
+        <ab>GERDA JOHANNA</ab>
+        <ab>BLAU</ab>
+        <ab>VIENNA 31.VII.1910</ab>
+        <ab>ROMA 3.V.1983</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

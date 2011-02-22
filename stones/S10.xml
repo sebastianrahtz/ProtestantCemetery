@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S10.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 10</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S10">
+          <msIdentifier>
+            <idno>S10</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="COL">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>106</height>
+                    <dim type="diameter">45</dim>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_30 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>1</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Fridericus Constantinus Gustavus</forename>
+              <surname>Humboldt</surname>
+            </persName>
+            <birth when="1806-01-07">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </birth>
+            <death when="1807-11-12"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="la" decls="#f_N #c_1 #m_IF #t_P">
+        <ab>FRIDERICO.</ab>
+        <ab>CONSTANTINO.GVSTAVO.</ab>
+        <ab>QVI.VIXIT.A.I.M.X.D.V.</ab>
+        <ab>INFANTI.SVAVISSIMO.</ab>
+        <ab>PARENTES.</ab>
+        <ab>GVILIELMVS.DE.HVMBOLDT.ET.</ab>
+        <ab>CAROLINA.DE.DACHEROEDEN.</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_1 #m_I #t_P">
+        <ab>NAT.ROMAE VII.ID.JAN.</ab>
+        <ab>AN.CHR.MDCCCVI.</ab>
+        <ab>VIVERE IBIDEM DESIIT PR.ID.NOV.</ab>
+        <ab>MDCCCVII.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S375.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 375</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S375">
+          <msIdentifier>
+            <idno>S375</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CHEST">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>189</height>
+                    <depth>73</depth>
+                    <width>100</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_29 #st_B #f_N"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>4</num>
+                <ptr target="#i_88 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>5</num>
+                <ptr target="#i_89 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>*</num>
+                <ptr target="#i_89 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>*</num>
+                <ptr target="#i_133 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>4</num>
+                <ptr target="#i_123 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_123 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>6</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Augustus</forename>
+              <surname>Villers</surname>
+            </persName>
+            <birth when="1810-07-10"/>
+            <death when="1817-05-24"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_4 #m_I #t_P">
+        <ab>AUGUSTUS JOHN CHILD VILLIERS</ab>
+        <ab>BORN JULY 10TH 1810</ab>
+        <ab>DIED MAY 24TH 1817</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_3 #m_I #t_PC">
+        <ab>FIDEI COTICULA CRUX</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

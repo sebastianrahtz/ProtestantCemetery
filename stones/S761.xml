@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S761.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 761</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S761">
+          <msIdentifier>
+            <idno>S761</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="COL">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>176</height>
+                    <width>35</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_16 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Hildegard</forename>
+              <surname>Rowska</surname>
+            </persName>
+            <death when="1869"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_RM #t_P">
+        <ab>HIER RUHET IN GOTT</ab>
+        <ab>HILDEGARD VON DOLEGA KOZH ROWSKA</ab>
+        <ab>GEB DEN 9 MAI 1844</ab>
+        <ab>IN HERRNHUT IN SACHSEN</ab>
+        <ab>GEST DEN 27T MAI 1869 IN MESSINA</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

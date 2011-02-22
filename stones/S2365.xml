@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2365.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2365</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2365">
+          <msIdentifier>
+            <idno>S2365</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>135</height>
+                    <width>46</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename/>
+              <surname/>
+            </persName>
+            <death when="1929"/>
+            <nationality key="BG"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="bg" decls="#f_S #c_2 #m_IF #t_P">
+        <ab rend="Alignl">
+          <note> unknown script and language</note>
+        </ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_2 #m_IF #t_PC">
+        <ab>PURA.E.SEMPLICE.FU.LA.BREVE.SUA.VITA</ab>
+        <ab>LUNGA.LA.SOFFERENZA.GRANDE.LA.FEDE</ab>
+        <ab>ASSUNTA.ALLA.GLORIA.DEGLI.ANGELI</ab>
+        <ab>SERENAMENTE.SI.SPENSE</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

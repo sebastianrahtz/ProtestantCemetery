@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9059.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 9059</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S9059">
+          <msIdentifier>
+            <idno>S9059</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+              <note>east of 492</note>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>86</height>
+                    <depth>20</depth>
+                    <width>61</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>73</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Ibrahim Nakkas</forename>
+              <surname>Naccache</surname>
+            </persName>
+            <birth when="1914"/>
+            <death when="1985"/>
+            <nationality key="TR"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="fr" decls="#f_S #c_1 #m_IC #t_P">
+        <ab>IBRAHIM</ab>
+        <ab>NAKKAS NACCACHE</ab>
+        <ab>MERSIN-TURQUIE 22.V.1914</ab>
+        <ab>ROME 15.II.1985</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_1 #m_IC #t_PC">
+        <ab>KENNST DU DAS LAND, WO</ab>
+        <ab>DIE ZITRONEN BLÜHN...</ab>
+        <ab rend="Alignr">GOETHE</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

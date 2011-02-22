@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S11.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 11</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S11">
+          <msIdentifier>
+            <idno>S11</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLW">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>35</height>
+                    <width>38</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_29 #st_B #f_N"/>
+              </decoNote>
+              <decoNote type="faces">north side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>79</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Elizabeth Douglas</forename>
+              <surname>van Buren</surname>
+            </persName>
+            <birth when="1881-10-18">
+              <placeName>
+                <settlement>London </settlement>
+                <country>England</country>
+              </placeName>
+            </birth>
+            <death when="1961-09-05">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="UK"/>
+            <occupation>"Archaeologist"</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_N #c_2 #m_IF #t_P">
+        <ab>ELIZABETH</ab>
+        <ab>DOUGLAS</ab>
+        <ab>VAN BUREN</ab>
+        <ab>
+          <emph>Archaeologist</emph>
+        </ab>
+        <ab>BORN IN LONDON 18 OCTOBER A.D. 1881</ab>
+        <ab>DIED IN ROME 5 SEPTEMBER A.D. 1961</ab>
+        <ab>
+          <emph>Beloved wife of Albert William Van Buren</emph>
+        </ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_N #c_2 #m_IF #t_PC">
+        <ab>REQVIESCAT.IN.PACE</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

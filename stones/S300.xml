@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S300.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 300</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S300">
+          <msIdentifier>
+            <idno>S300</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>40</height>
+                    <depth>25</depth>
+                    <width>50</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>80</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Walter Simpson</forename>
+              <surname>Forbes</surname>
+            </persName>
+            <birth when="1892-10-12"/>
+            <death when="1973-08-30"/>
+            <nationality/>
+          </person>
+          <person>
+            <age>73</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Marina Francesca</forename>
+              <surname>Forbes</surname>
+            </persName>
+            <birth when="1904-10-11"/>
+            <death when="1978-02-05"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_S #c_1 #m_IF #t_P">
+        <ab>WALTER SIPSON FURBES</ab>
+        <ab>M.B.E.</ab>
+        <ab>*12.X.1892 +30.VIII.1973</ab>
+        <ab>MARINA FRANCESCA FORBES</ab>
+        <ab>NÉE MAZZOTTI</ab>
+        <ab>*11.X.1904 +5.II.1978</ab>
+        <ab>R.I.P.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

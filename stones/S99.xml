@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S99.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 99</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S99">
+          <msIdentifier>
+            <idno>S99</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="STAT">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>152</height>
+                    <depth>182</depth>
+                    <width>132</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_4 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_95 #st_A #f_E"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_95 #st_A #f_W"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_121 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_121 #st_A #f_N"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_125 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_129 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>74</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Emelyn</forename>
+              <surname>Story</surname>
+            </persName>
+            <birth when="1820-10">
+              <placeName>
+                <settlement>Boston, </settlement>
+                <country>USA</country>
+              </placeName>
+            </birth>
+            <death when="1895-07-01">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <age>78</age>
+            <sex>1</sex>
+            <persName>
+              <forename>W.W.</forename>
+              <surname>Story</surname>
+            </persName>
+            <death when="1895-10-07">
+              <placeName>
+                <settlement>Vallombrosa</settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>EMELYN STORY</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_W #c_2 #m_IF #t_P">
+        <ab>BORN</ab>
+        <ab>BOSTON</ab>
+        <ab>U.S.A</ab>
+        <ab>OCT 1820</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_E #c_2 #m_IF #t_P">
+        <ab>DIED</ab>
+        <ab>ROMA</ab>
+        <ab>JAN 7 1895</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_E #c_2 #m_IF #t_S">
+        <ab>THIS MONUMENT</ab>
+        <ab>THE LAST WORK OF W.W.STORY.</ab>
+        <ab>EXECUTED IN MEMORY OF HIS BELOVED WIFE   ROMA 1895</ab>
+        <ab>HE DIED AT VALLOMBROSA OCTOBER 7TH 1895</ab>
+        <ab>AGED 78 YEARS</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

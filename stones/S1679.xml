@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1679.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1679</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1679">
+          <msIdentifier>
+            <idno>S1679</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>183</height>
+                    <depth>47</depth>
+                    <width>64</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Věra Nikoaaevna</forename>
+              <surname>Skrypicyna</surname>
+            </persName>
+            <death when="1874"/>
+            <nationality key="RU"/>
+          </person>
+          <person>
+            <sex>0</sex>
+            <persName>
+              <forename/>
+              <surname>de Skriptzine</surname>
+            </persName>
+            <death when="1874"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_3 #m_IF #t_P #s_CY">
+        <ab>ВЕРА НИКОААЕВНА СКРЫПИЦЫНА</ab>
+        <ab>РОЖД ГОАЕНИЬЯЕВА - КУТУЗОВА</ab>
+        <ab>СКОНЯАААЦ'  РИМЕ 3го АПРЕАЯ 1874 Г</ab>
+        <ab>НА 72омо ГОДУ.</ab>
+        <ab rend="Alignl">
+          <note xml:lang="en"> omo should be omu</note>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

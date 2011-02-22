@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S332.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 332</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S332">
+          <msIdentifier>
+            <idno>S332</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CHEST">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>144</height>
+                    <depth>45</depth>
+                    <width>70</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_142 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>33</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Edward</forename>
+              <surname>Evans</surname>
+            </persName>
+            <birth when="1824">
+              <placeName>
+                <settlement>llandudno </settlement>
+                <country>North wales</country>
+              </placeName>
+            </birth>
+            <death when="1857-04-21"/>
+            <nationality key="UK"/>
+            <occupation>priest</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+        <ab>SACRED TO THE MEMORY</ab>
+        <ab>OF THE REV.D EDWARD. T. EVANS. M.A</ab>
+        <ab>INCUMBENT OF LLANDUDNO</ab>
+        <ab>NORTH WALES</ab>
+        <ab>WHO DIED AT ROME</ab>
+        <ab>APRIL 21 1857</ab>
+        <ab>AGED. 33.</ab>
+        <ab/>
+        <ab>GOD IS LOVE</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

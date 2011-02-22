@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S145.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 145</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S145">
+          <msIdentifier>
+            <idno>S145</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CHEST">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>120</height>
+                    <depth>170</depth>
+                    <width>186</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_35 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_35 #st_B #f_E"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>29</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Charlotte Albinia</forename>
+              <surname>Stopford</surname>
+            </persName>
+            <death when="1828-02-29"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+        <ab>SACRED</ab>
+        <ab>TO THE MEMORY OF</ab>
+        <ab>LADY CHARLOTTE ALBINIA STOPFORD</ab>
+        <ab>WIFE OF</ab>
+        <ab>JAMES THOMAS VISCOUNT STOPFORD</ab>
+        <ab>WHO DEPARTED THIS LIFE ON THE 29th DAY OF FEBRUARY 1828</ab>
+        <ab>IN THE 29th YEAR OF HER AGE</ab>
+        <ab>"But God hath delivered my soul from the place of hell</ab>
+        <ab>for he shall receive me" 49th Psalm 15th v.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

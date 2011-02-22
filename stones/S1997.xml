@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1997.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1997</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1997">
+          <msIdentifier>
+            <idno>S1997</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>3</num>
+                  <dimensions unit="cm">
+                    <height>125</height>
+                    <depth>26</depth>
+                    <width>50</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Magdalena</forename>
+              <surname>Guericke</surname>
+            </persName>
+            <death when="1912"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>MAGDALENA GUERICKE</ab>
+        <ab>GEB.24 JAN.1840 IN HALLE</ab>
+        <ab>GEST.5 JAN.1912 IN ROM.</ab>
+        <ab/>
+        <ab>O SELIG WER VOM LAUFE MATT</ab>
+        <ab>DIE GOTTESSTADT, DIE DROBEN IST,</ab>
+        <ab>GEFUNDEN HAT.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S314.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 314</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S314">
+          <msIdentifier>
+            <idno>S314</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>146</height>
+                    <depth>13</depth>
+                    <width>65</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_88 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_121 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>34</age>
+            <sex>1</sex>
+            <persName>
+              <forename>John Francis</forename>
+              <surname>Boardman</surname>
+            </persName>
+            <birth when="1812">
+              <placeName>
+                <settlement>new york </settlement>
+                <country>USA</country>
+              </placeName>
+            </birth>
+            <death when="1846-11-20"/>
+            <nationality key="US"/>
+            <occupation>"physician"</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+        <ab>JOHN FRANCIS BOARDMAN</ab>
+        <ab>PROFESSION PHYSICIAN</ab>
+        <ab>A NATIVE OF THE CITY OF</ab>
+        <ab>NEW YORK</ab>
+        <ab>DIED XX NOVEMBER MDCCCXLVI</ab>
+        <ab>AGED XXXIV YEARS</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

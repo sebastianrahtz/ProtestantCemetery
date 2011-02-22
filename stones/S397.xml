@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S397.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 397</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S397">
+          <msIdentifier>
+            <idno>S397</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CHEST">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>176</height>
+                    <depth>144</depth>
+                    <width>90</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_106 #st_B #f_N"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_106 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_128 #st_A #f_N"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_128 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Barbara</forename>
+              <surname>Yelverton</surname>
+            </persName>
+            <birth when="1810-05-20">
+              <placeName>
+                <settlement>Brandon Warwickshire </settlement>
+                <country>England</country>
+              </placeName>
+            </birth>
+            <death when="1858-11-18">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>SACRED</ab>
+        <ab>TO THE MEMORY OF</ab>
+        <ab>BARBARA YELVERTON</ab>
+        <ab>BARONESS GREY DE RUTHYN</ab>
+        <ab>MARCHIONESS OF HASTINGS</ab>
+        <ab>BORN AT BRANDON WARWICKSHIRE</ab>
+        <ab>20 MAY 1810</ab>
+        <ab>DIED AT ROME 18 NOVEMBER</ab>
+        <ab>1858</ab>
+        <ab rend="Alignl">
+          <note> another line lost, indicated by lead studs</note>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

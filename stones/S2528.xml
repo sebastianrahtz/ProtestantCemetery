@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2528.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2528</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2528">
+          <msIdentifier>
+            <idno>S2528</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>142</height>
+                    <depth>10</depth>
+                    <width>70</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Amina Khanoum</forename>
+              <surname>de Vajda</surname>
+            </persName>
+            <death when="1962"/>
+            <nationality/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Andrew</forename>
+              <surname>de Vajda</surname>
+            </persName>
+            <death when="1981"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_S #c_2 #m_IF #t_P">
+        <ab>AMINA KHANOUM <emph>de</emph> VAJDA</ab>
+        <ab><emph>née</emph> ASSEFF ADJIEFF</ab>
+        <ab>HASSAFIURT DAGHESTAN 14.III.1909</ab>
+        <ab rend="Alignr">ROME 21.V.1962</ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_2 #m_IF #t_S">
+        <ab>ANDREW <emph>de</emph> VAJDA</ab>
+        <ab rend="Alignr">SZEGED 15.VII.1893</ab>
+        <ab>ROME 29.X.1981</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

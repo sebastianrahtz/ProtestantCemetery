@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S106.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 106</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S106">
+          <msIdentifier>
+            <idno>S106</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="STAT">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>145</height>
+                    <depth>76</depth>
+                    <width>77</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_126 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>26</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Belinda</forename>
+              <surname>Lee</surname>
+            </persName>
+            <birth when="1935"/>
+            <death when="1961"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_N #c_3 #m_RM #t_P">
+        <ab>BELINDA LEE</ab>
+        <ab>1935--1961</ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_2 #m_RM #t_PC">
+        <ab>BELINDA</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

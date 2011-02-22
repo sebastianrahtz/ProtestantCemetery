@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1801.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1801</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1801">
+          <msIdentifier>
+            <idno>S1801</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CHEST">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>186</height>
+                    <depth>95</depth>
+                    <width>85</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_79 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_E"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>*</num>
+                <ptr target="#i_129 #st_A #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>x</num>
+                <ptr target="#i_135 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Gottfried</forename>
+              <surname>Semper</surname>
+            </persName>
+            <death when="1879"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_T #c_2 #m_I #t_P">
+        <ab>GOTTFREID SEMPER</ab>
+        <ab>
+          <emph>geb d. 30. NOVEMBER</emph>
+        </ab>
+        <ab>1803</ab>
+        <ab>
+          <emph>zu HAMBURG</emph>
+        </ab>
+        <ab>
+          <emph>gestorben d.15 MAI</emph>
+        </ab>
+        <ab>1879</ab>
+        <ab>
+          <emph>zu ROM</emph>
+        </ab>
+      </div>
+      <div type="inscription"  decls="#f_W #c_2 #m_IF #t_PC">
+        <ab>LONDON ZUERICH WIEN-ROM</ab>
+        <ab>1850--1855 1855--1870 1870--1879.</ab>
+      </div>
+      <div type="inscription"  decls="#f_E #c_2 #m_IF #t_PC">
+        <ab>HAMBURG  PARIS  ROM-ATHEN</ab>
+        <ab>1803--1823. 1829--1830. 1830--1833.</ab>
+      </div>
+      <div type="inscription"  decls="#f_N #c_2 #m_IF #t_P">
+        <ab>DRESDEN</ab>
+        <ab>1834--1849</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

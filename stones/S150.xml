@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S150.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 150</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S150">
+          <msIdentifier>
+            <idno>S150</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>31</height>
+                    <depth>4</depth>
+                    <width>57</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>59</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Assia</forename>
+              <surname>Tannenbaum</surname>
+            </persName>
+            <birth when="1890"/>
+            <death when="1949"/>
+            <nationality key="SI"/>
+          </person>
+          <person>
+            <age>72</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Felice</forename>
+              <surname>Tannenbaum</surname>
+            </persName>
+            <birth when="1882"/>
+            <death when="1954"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>ASSIA TANNENBAUM</ab>
+        <ab>GEB.SOLOVEICIC</ab>
+        <ab>1890--1949</ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_2 #m_IF #t_S">
+        <ab>FELICE TANNENBAUM</ab>
+        <ab>1882--1954</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

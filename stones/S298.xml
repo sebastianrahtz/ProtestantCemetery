@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S298.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 298</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S298">
+          <msIdentifier>
+            <idno>S298</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>126</height>
+                    <depth>21</depth>
+                    <width>75</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>3</num>
+                <ptr target="#i_121 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>54</age>
+            <sex>1</sex>
+            <persName>
+              <forename>John</forename>
+              <surname>King</surname>
+            </persName>
+            <birth when="1791">
+              <placeName>
+                <settlement>new york </settlement>
+                <country>USA</country>
+              </placeName>
+            </birth>
+            <death when="1845-02-04"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+        <ab>SACR[..]</ab>
+        <ab>TO THE MEMORY OF</ab>
+        <ab>JOHN KING ESQ.RE</ab>
+        <ab>OF NEW YORK</ab>
+        <ab>U.S.A.</ab>
+        <ab>WHO DIED AT ROME</ab>
+        <ab>ON THE IV FEBRUARY</ab>
+        <ab>MDCCCXLV</ab>
+        <ab>AGED LIV YEARS</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

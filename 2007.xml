@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Protestant Cemetery 2007</title>
+      </titleStmt>
+      <publicationStmt>
+        <p><!-- supply publication information-->
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p><!-- supply information about the source --></p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div/>
+      <titlePage>
+        <docTitle>
+          <titlePart/>
+        </docTitle>
+      </titlePage>
+    </front>
+
+    <body>
+      <div>
+	<head>Cemetery data handling</head>
+	<p>There is a great deal of data available to the project,
+	from a set of disparate sources, shown
+	schematically here:
+	<graphic width="5in" url="pc2007.png"/></p>
+	
+	<list>
+	  <item>The archaeological survey of monuments and graves carried out
+	  in the 1980s, updated in 1996 and again in 2002. This records
+	  each of the monuments in categorized  terms (ie by a taxonomy of
+	  monument types, decorations, lettering methods, condition of
+	  monument etc), as text (ie the
+	  complete text of all inscriptions), and as prosopography (a summary
+	  of the personal data contained in the inscriptions). This is
+	  complemented by a digitized version of the cemetery outline plan.
+	  The data items from this collection are shaded green on the schema
+	  above. Identification of items is through an arbitary number
+	  managed by the outline plan.</item>
+	  <item>The cemetery's administrative record of burials and monuments
+	  (shaded in blue on the schema), primarily related to
+	  locations within the cemetery bounds. Graves and their
+	  monuments are located by row position with an area.</item>
+	  <item>The records of successive series of partial conservation
+	  exercises, starting in the early 1980s and culminating in the present
+	  project (shaded yellow on the schema).</item>
+	  <item>Photographic records, most notably those of the Biblioteca
+	  Herziana.</item>
+	  <item>The immense amount of biographical information
+	  generally available about the people buried in the cemetery.</item>
+	</list>
+	
+	<p>The major problem with all the data records is that there
+	is no unified way to refer to an object in the cemetery. There
+	is no one-to-one relationship between a burial (the act of digging
+	a hole and putting in the coffin of a named person), the erection
+	of a monument (perhaps consisting of several parts, changing
+	or being added to over time), and the prosopographic existence
+	of the person commemorated on a monument. This is primarily because
+	the cemetery no longer offers a permanent resting place, but
+	re-uses the graves in the majority of the area. Monuments can be moved
+	amalgamated, and changed (ie new inscriptions added)
+	and graves can be extended or closed. The result is that we
+	have allocated an important phase in the project to data
+	management and integration.</p>
+	
+      </div>
+      
+      <div>
+	<head>Project workpackages</head>
+
+	<p><graphic width="5in" url="pc2007-plan.jpg"/></p>
+
+	<div>
+	  <head>System Design</head>
+	  <p>Before any other work is started, the initial priority is
+	  to establish the parameters of the project; both in terms of
+	  which data sources are to be amalgamated to form a single
+	  new database, and in terms of which outputs are to be
+	  generated. At the least, the new system will be supporting:
+	  <list type="ordered">
+	  <item> the detailed scholarly record of the monuments and their
+	  condition;</item>
+	  <item> the administrative functions of the cemetery; and </item>
+	  <item>a public-facing search and contribution site based mainly on
+	  personal names.</item>
+	  </list>
+	  For all of these purposes, modelling of 
+	  time and spatial dimensions is essential.</p>
+
+	  <p>The archaeological records are currently held in an
+	  archival format of XML files against a customization of the
+	  Text Encoding Initiative (<ptr
+	  target="http://www.tei-c.org/"/>), including polygon data
+	  making up the outline plan.</p>
+
+	  <p>The target system will deliver XML data via web services 
+	  for both textual and geolocating data, to offer maximum
+	  flexibility for public and internal querying, update and
+	  annotation. Several different web-based interfaces will be
+	  created for use by the different stakeholders, but this is
+	  not specified within the scope of the current project.</p>
+
+	  <p>The new system will be set up so that new monuments added
+	  to the cemetery will be included as they put in place,
+	  rather than waiting for future surveys.</p>
+
+	  <p><hi>Task leader:</hi> Sebastian Rahtz</p>
+	  <p><hi>Task deliverables:</hi>
+	  <list>
+	    <item>dataflow diagrams covering all cemetery
+	    material</item>
+	    <item>comprehensive scheme for object
+	    identification</item>
+	    <item>specification of web-based systems</item>
+	  </list>
+	  </p>
+
+	</div>
+	<div>
+	  <head>Database alignment</head>
+	  <p>After agreement on the overall design, existing data
+	  sources need to be examined to find the points of
+	  intersection. This will form the basis of creating a unified
+	  database by setting the rules by which records will be
+	  considered to point the same object. The system will have
+	  two primary identifiers, a grid-based location of objects
+	  (both monuments and burials), and an absolute numbering
+	  system for monumental groups.</p>
+
+	  <p><hi>Task leader:</hi> Sebastian Rahtz</p>
+	  <p><hi>Task deliverables:</hi>
+	  <list>
+	    <item>implementation of identification scheme</item>
+	    <item>migration procedures specification</item>
+	  </list>
+	  </p>
+	</div>
+	<div>
+	  <head>Database merging</head>
+	  <p>The target of this work package is to complete
+	  the record alignment process in all databases, and transfer
+	  the information to a common system.	  </p>
+	  <p><hi>Task leader:</hi> Sebastian Rahtz</p>
+	  <p><hi>Task deliverables:</hi>
+	  <list>
+	    <item>internal consistent database containing all information</item>
+	  </list>
+	  </p>
+	</div>
+	<div>
+	  <head>Additional surveying</head>
+	  <p>The current cemetery plan is essentially schematic, rather than
+	  giving a detailed survey of each grave, and defines a
+	  set of coordinates outlining each monument. This example
+	  shows the detail provided:</p>
+	  <p><graphic width="5in" url="plansample.jpg"/></p>
+	  <p>This work package will bring the plan up to date, by
+	  locating new graves within the same system, and aligning the
+	  arbitrary cemetery grid with absolute coordinates. The plan
+	  will then continue to be maintained as a polygon associated
+	  with  each monument group.</p>
+	  <p>This work package will produce a report on the
+	  feasibility of a new survey of the cemetery in the
+	  future.</p>
+
+	  <p><hi>Task leader:</hi> Nicholas Stanley-Price</p>
+	  <p><hi>Task deliverables:</hi>
+	  <list>
+	    <item>digital plan in DXF or SVG format, 
+	    correlated with latitude/longitude</item>
+	    <item>feasibility report on new survey</item>
+	  </list>
+	  </p>
+
+	</div>
+
+	<div>
+	  <head>Identificatory photography</head>
+	  <p>Although many of the more dramatic or important monuments
+	  have been photographed many times, there is no formal record
+	  of each monument, and most of the existing photographs have
+	  not been digitized. This workpackage will deliver at least
+	  one digital photograph of each monument, and will produce a
+	  report on the feasibility of digitizing the existing
+	  photographic collection.</p>
+	  <p><hi>Task leader:</hi> Christine Payling</p>
+	  <p><hi>Task deliverables:</hi>
+	  <list>
+	    <item>at least one digital image for each monument, tied
+	    to database</item>
+	    <item>feasibility report on digitizing older photographs</item>
+	  </list>
+	  </p>
+
+	</div>
+
+	<div>
+	  <head>Conservation survey</head>
+	  <p>One of the main aims of this project is to assess the
+	  work needed to bring the stone monuments in the cemetery
+	  into a state where ongoing planned maintenance is
+	  sustainable. This requires a preliminary re-assessment of
+	  all stones and their location (the presence of many trees in
+	  the cemetery is a considerable issue), and correlating this
+	  with the archaeological data (material, size etc) to draw up
+	  a scheme of work.</p>
+	  <p><hi>Task leader:</hi> Nicholas Stanley-Price</p>
+	  <p><hi>Task deliverables:</hi>
+	  <list>
+	    <item>consistent summary report on all monuments</item>
+	    <item>detailed recommendations for full conservation exercise</item>
+	  </list>
+	  </p>
+
+	</div>
+	<div>
+	  <head>Monument record checking</head>
+	  <p>This workpackage will check the archaeological survey of
+	  the 1980s. Each record will be checked against the stone,
+	  and enhanced where needed; this will particularly apply to 
+	  aspects of the record which may affect conservation work, eg
+	  material type, lettering type, and monument type.</p>
+	  <p><hi>Task leader:</hi> Christine Payling</p>
+	  <p><hi>Task deliverables:</hi>
+	  <list>
+	    <item>each monument visited at least once and record
+	    checked</item>
+	  </list>
+	  </p>
+
+
+	</div>
+	<div>
+	  <head>Monument record adding</head>
+	  <p>Some 500-600 monuments added to the cemetery in the last
+	  20 years have been surveyed, but not yet
+	  digitized or merged into the main record. This workpackage
+	  involves digitizing these records, and checking for 
+	  monuments added since 2002.</p>
+	  <p><hi>Task leader:</hi> Sebastian Rahtz</p>
+	  <p><hi>Task deliverables:</hi>
+	  <list>
+	    <item>all monuments and graves added since 1996 added to
+	    database to same standard as 1984 survey</item>
+	  </list>
+	  </p>
+
+	</div>
+      </div>
+      </body>
+  </text>
+</TEI>

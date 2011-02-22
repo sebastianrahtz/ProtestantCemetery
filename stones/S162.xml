@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S162.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 162</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S162">
+          <msIdentifier>
+            <idno>S162</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>188</height>
+                    <depth>15</depth>
+                    <width>90</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_29 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>4</num>
+                <ptr target="#i_97 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>64</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Albert</forename>
+              <surname>de Keyserling</surname>
+            </persName>
+            <birth when="1843-02-14">
+              <placeName>
+                <settlement>Kabillen</settlement>
+                <country>?</country>
+              </placeName>
+            </birth>
+            <death when="1907-12-11"/>
+            <nationality key="FR"/>
+          </person>
+          <person>
+            <age>76</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Emma Caterina</forename>
+              <surname>de Hahn</surname>
+            </persName>
+            <birth when="1872-07-16">
+              <placeName>
+                <settlement>Lobbroggin</settlement>
+                <country>Lithuania</country>
+              </placeName>
+            </birth>
+            <death when="1948-07-18">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="LT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="fr" decls="#f_T #c_2 #m_I #t_">
+        <ab>COMPTE ALBERT DE KEYSERLING</ab>
+        <ab>SEIGNER DE SUTTEN ET KAHNHOF EN COURLANDE</ab>
+        <ab>NÉ A KABILLEN LE 14 FÉVRIER 1843</ab>
+        <ab>MORT A ROME LE 11 DECEMBRE 1907</ab>
+        <ab/>
+        <ab rend="Alignl">"VOICI,MES SOUFFRANCES MEMES SONT DEVENUES</ab>
+        <ab rend="Alignl">MON SALUT,TU AS PRIS PLAISIR A RETIRER</ab>
+        <ab rend="Alignl">MON ÂME DE LA FOSSE DU NÉANT, CAR TU</ab>
+        <ab rend="Alignl">AS JETÉ DERRIÉRE TOI TOUS MES PÉCHÉS."</ab>
+        <ab rend="Alignr">ESAI XXXVIII.17.</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_2 #m_I #t_S">
+        <ab>BARONESSA</ab>
+        <ab>EMMA CATERINA DE HAHN</ab>
+        <ab>*LOBBROGGIN LETTONIA 16.7.1872</ab>
+        <ab>+ROMA 18.7.1948</ab>
+        <ab>ERUDITA.PIETOSA.MUNIFICA</ab>
+        <ab>AMÓ L'ITALIA FU CITTADINA DI ROMA</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S316.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 316</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S316">
+          <msIdentifier>
+            <idno>S316</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>200</height>
+                    <depth>10</depth>
+                    <width>100</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_33 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_29 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_55 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_123 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>105</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Sofija Alekseevna</forename>
+              <surname>Raeuskaja</surname>
+            </persName>
+            <birth when="1769-08-25"/>
+            <death when="1844-12-16"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_T #c_1 #m_RM #t_P #s_CY">
+        <ab>ЗДѢС'</ab>
+        <ab>ПОГРЕБЕНО ТѢЛО</ab>
+        <ab>ВДОВЫ ГЕНЕРАЛА ОТ" КАВАЛЕРИИ</ab>
+        <ab>СОФ'И АЛЕКЦѢЕВНЫ</ab>
+        <ab>РАЕВСКИЙ</ab>
+        <ab>УРОЖДЕННОЙ КОНСТАНТИНОВОЙ</ab>
+        <ab/>
+        <ab>РОДИЛАС'</ab>
+        <ab>АВГУ:25.1769</ab>
+        <ab/>
+        <ab>СЦОНЯАЛАС'</ab>
+        <ab>ДЕКА:16.1844</ab>
+      </div>
+      <div type="inscription"  xml:lang="ru" decls="#f_T #c_2 #m_IC #t_PC">
+        <ab rend="Alignl">
+          <note xml:lang="en"> Check OCS inscription...</note>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

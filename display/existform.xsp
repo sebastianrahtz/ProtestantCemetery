@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xsp:page
+    language="Perl"
+    xmlns:xsp="http://apache.org/xsp/core/v1"
+    xmlns:web="http://axkit.org/NS/xsp/webutils/v1"
+    xmlns:f="http://axkit.org/NS/xsp/perform/v1"
+>
+<xsp:structure>
+</xsp:structure>
+<xsp:logic><![CDATA[
+
+sub load_collection {
+ my($ctxt,$value)=@_;
+ return $value || "tei",
+ "TEI Guidelines" =>   "tei", 
+ "Protestant Cemetery" =>   "cem", 
+ "Demo files" => "demo",
+;
+}
+
+sub load_context {
+ my($ctxt,$value)=@_;
+ return $value || "TEI.2",
+ "Gravestone" =>   "TEI.2", 
+ "Header" => "teiHeader",
+ "Person" => "person"
+ "Inscription" =>   "div", 
+ "Line" => "ab",
+;
+}
+
+sub load_query {
+ my($ctxt,$value)=@_;
+ return $value || "ab",
+ "Line" => "ab",
+ "Inscription" =>   "div", 
+ "Person" => "person",
+ "Header" => "teiHeader",
+ "Gravestone" =>   "TEI.2", 
+;
+}
+
+
+sub submit_send {
+ my($ctxt,$value)=@_;
+ $_=$ctxt->{Form}{query};
+ s/\[/\@5B/g;
+ s/\]/\@5D/g;
+ s/\'/\@22/g;
+ s/\"/\@22/g;
+ return "exist.xml?query=collection(\@22" . $ctxt->{Form}{collection}
+ . "\@22)//" . $_ . "&howmany=" . $ctxt->{Form}{howmany};
+}
+]]>
+</xsp:logic>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>eXist Querying</title>
+            <author>Sebastian Rahtz</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>June 2002</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>OUCS</authority>
+            <address>
+               <email>advisory@oucs.ox.ac.uk</email>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+<p>This is the master version of an original document,
+created by converting an HTML file to TEI XML on 2001/09/06.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change>
+            <date>$Date$</date>
+            <respStmt>
+               <name>$Author$</name>
+            </respStmt>
+            <item>$Revision$</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+<f:form name="exist">
+Collection: <f:single-select name="collection"/><lb/>
+How many results:
+     <f:textfield name="howmany" maxlength="10" width="10">
+	  <f:default>999</f:default>
+     </f:textfield><lb/>
+Xpath Query:<lb/>
+<f:textfield name="query" maxlength="60" width="60"/><lb/>
+<f:submit name="send" value="Submit"/>
+<f:cancel name="forget" value="Cancel"/>
+</f:form>
+      </body>
+   </text>
+</TEI.2>
+</xsp:page>

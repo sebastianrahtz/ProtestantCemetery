@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1222.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1222</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1222">
+          <msIdentifier>
+            <idno>S1222</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>153</height>
+                    <depth>10</depth>
+                    <width>92</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_122 #st_A #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>4</num>
+                <ptr target="#i_140 #st_A #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>4</num>
+                <ptr target="#i_138 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Johan Leonard</forename>
+              <surname>van Crefeld</surname>
+            </persName>
+            <death when="1853"/>
+            <nationality/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="nl" decls="#f_T #c_3 #m_I #t_P">
+        <ab>
+          <hi rend="gothic">Johan Leonard</hi>
+        </ab>
+        <ab>
+          <hi rend="gothic">Bevsges</hi>
+        </ab>
+        <ab>
+          <hi rend="gothic">van Crefeld</hi>
+        </ab>
+        <ab>
+          <hi rend="gothic">geb: te Rotterdam</hi>
+        </ab>
+        <ab>
+          <hi rend="gothic">17. September 1801</hi>
+        </ab>
+        <ab>
+          <hi rend="gothic">gest: te Rome</hi>
+        </ab>
+        <ab>
+          <hi rend="gothic">15. april 1853</hi>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

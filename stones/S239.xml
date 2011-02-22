@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S239.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 239</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S239">
+          <msIdentifier>
+            <idno>S239</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CHEST">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>139</height>
+                    <depth>89</depth>
+                    <width>170</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_35 #st_A #f_W"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_35 #st_A #f_E"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>4</num>
+                <ptr target="#i_121 #st_A #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>37</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Henry</forename>
+              <surname>Jardine</surname>
+            </persName>
+            <birth when="1803">
+              <placeName>
+                <settlement>mid lothian </settlement>
+                <country>Scotland</country>
+              </placeName>
+            </birth>
+            <death when="1840-01-11">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+        <ab>SACRED TO THE MEMORY OF</ab>
+        <ab>HENRY JARDINE ESQR</ab>
+        <ab>OF THE COUNTY OF MID LOTHIAN IN</ab>
+        <ab>SCOTLAND</ab>
+        <ab>ON THE 11TH OF JANUARY 1840</ab>
+        <ab>HE TERMINATED AT ROME HIS EARTHLY PILGRIMAGE</ab>
+        <ab>AGED 37 YEARS</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

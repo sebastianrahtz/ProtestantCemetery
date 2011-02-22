@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S250.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 250</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S250">
+          <msIdentifier>
+            <idno>S250</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>117</height>
+                    <width>70</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_115 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>F. Eleonora Harker</forename>
+              <surname>Capocci</surname>
+            </persName>
+            <death when="1900-02-02"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_1 #m_IF #t_P">
+        <ab>ALLA CARA MEMORIA</ab>
+        <ab>DI</ab>
+        <ab>F. ELEONORA HARKER CAPOCCI</ab>
+        <ab>MORTA IL 2 FEBBRAIO 1900</ab>
+        <ab>SUO MARITO INCONSOLABILE</ab>
+        <ab>Q. M. P.</ab>
+        <ab>BEATI I MORTI CHE MUOIONO NEL SIGNORE</ab>
+        <ab rend="Alignr">APOC. XIV.13</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

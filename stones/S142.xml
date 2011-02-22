@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S142.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 142</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S142">
+          <msIdentifier>
+            <idno>S142</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>104</height>
+                    <depth>10</depth>
+                    <width>45</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>64</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Herbert John</forename>
+              <surname>Pereira</surname>
+            </persName>
+            <birth when="1888-02-15">
+              <placeName>
+                <settlement>London </settlement>
+                <country>England</country>
+              </placeName>
+            </birth>
+            <death when="1952-08-12">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
+        <ab>HERBERT JOHN</ab>
+        <ab>PEREIRA</ab>
+        <ab/>
+        <ab>LONDON 15 FEBRUARY 1888</ab>
+        <ab>ROME 12 AUGUST 1952</ab>
+        <ab/>
+        <ab>R.I.P.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

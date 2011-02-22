@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S401.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 401</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S401">
+          <msIdentifier>
+            <idno>S401</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>104</height>
+                    <depth>31</depth>
+                    <width>59</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_86 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>29</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Sophia</forename>
+              <surname>Howard</surname>
+            </persName>
+            <birth when="1823">
+              <placeName>
+                <settlement>baltimore </settlement>
+                <country>USA</country>
+              </placeName>
+            </birth>
+            <death when="1852-05-23">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <age>0</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Jessie Howard</forename>
+              <surname>Tyson</surname>
+            </persName>
+            <birth when="1862-11-27">
+              <placeName>
+                <settlement>nice </settlement>
+                <country>France</country>
+              </placeName>
+            </birth>
+            <death when="1863-02-24">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Itlay</country>
+              </placeName>
+            </death>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>IN A FOREIGN LAND THESE TWO</ab>
+        <ab>SLEEP TOGETHER</ab>
+        <ab/>
+        <ab>SOPHIA HOWARD</ab>
+        <ab>BORN AT BALTIMORE</ab>
+        <ab>UNITED STATES OF AMERICA</ab>
+        <ab>DIED AT ROME</ab>
+        <ab>MAY XXIII MDCCCLII</ab>
+        <ab>AGED XXIX</ab>
+        <ab>JESSIE HOWARD TYSON</ab>
+        <ab>BORN AT NICE NOVR 27TH.1862</ab>
+        <ab>DIED AT ROME FEBY 24TH.1863</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

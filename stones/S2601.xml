@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2601.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2601</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2601">
+          <msIdentifier>
+            <idno>S2601</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>152</height>
+                    <width>52</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_2 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_114 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_139 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Else</forename>
+              <surname>Immelen</surname>
+            </persName>
+            <death when="1955"/>
+            <nationality/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Ernesto</forename>
+              <surname>Immelen</surname>
+            </persName>
+            <death when="1970"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_T #c_2 #m_I #t_P">
+        <ab>ELSE JOHANNE</ab>
+        <ab>IMMELEN</ab>
+        <ab>NEE TROENSEGAARD</ab>
+        <ab>* 14.V.1895 - + 5.V.1955</ab>
+      </div>
+      <div type="inscription"  decls="#f_T #c_2 #m_IF #t_S">
+        <ab>IN MEMORIAM</ab>
+        <ab>ERNESTO LORENZO</ab>
+        <ab>IMMELEN</ab>
+        <ab>ROMA 30.X.1888</ab>
+        <ab>SMARDEN 5.I.1970</ab>
+        <ab>R.I.P.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

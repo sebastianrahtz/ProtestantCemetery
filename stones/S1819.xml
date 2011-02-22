@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1819.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1819</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1819">
+          <msIdentifier>
+            <idno>S1819</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>167</height>
+                    <depth>28</depth>
+                    <width>80</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_115 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>*</num>
+                <ptr target="#i_121 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Adolph</forename>
+              <surname>Kluegmann</surname>
+            </persName>
+            <death when="1880"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_IF #t_P">
+        <ab>HIER RUHET</ab>
+        <ab>DR. ADOLF KLUEGMANN.</ab>
+        <ab>GEB: IN LUEBECK D: XII MAI. MDCCCXXXVII</ab>
+        <ab>GEST: IN ROM D: XXVII NOV. MDCCCLXXX</ab>
+        <ab>----------</ab>
+        <ab>DIE LIEBE HOERET NIMMER AUF</ab>
+        <ab rend="Alignr">1 COR: XIII VII.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

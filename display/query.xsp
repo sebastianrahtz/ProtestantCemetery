@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xsp:page
+    language="Perl"
+    xmlns:xsp="http://apache.org/xsp/core/v1"
+    xmlns:web="http://axkit.org/NS/xsp/webutils/v1"
+    xmlns:f="http://axkit.org/NS/xsp/perform/v1"
+>
+<xsp:structure>
+use File::Copy;
+</xsp:structure>
+<xsp:logic><![CDATA[
+
+sub validate_uploadfile {
+ my ($ctxt, $filename, $fh, $size, $type, $info)=@_;
+ if (-f "/tmp/$filename")
+   { die "sorry, filename $filename already uploaded"; }
+ else
+   { copy($fh,"/tmp/$filename");
+    die "Uploaded $filename";}
+}
+
+sub load_collection {
+ my($ctxt,$value)=@_;
+ return $value || "plays",
+ "Shakespeare Plays" => "plays",
+ "TEI Guidelines" =>   "tei", 
+ "Protestant Cemetery" =>   "cem", 
+ "OUCS Web Pages" =>   "oucs", 
+;
+}
+
+sub load_delivery {
+ my($ctxt,$value)=@_;
+ return $value || "formatted",
+ "Formatted" =>   "formatted", 
+ "Raw XML" =>   "raw", 
+ "Both" => "both",
+;
+}
+
+sub load_context {
+ my($ctxt,$value)=@_;
+ return $value || "TEI.2",
+ "Whole document" =>   "TEI.2", 
+ "Header" => "teiHeader",
+ "Stone Description (cemetery only)" => "stoneDescription",
+ "Person (cemetery only)" => "person",
+ "Section (normal) or Inscription (cemetery) " =>   "div", 
+ "Line (cemetery only)" => "ab",
+ "Paragraph" => "p",
+;
+}
+
+sub load_element {
+ my($ctxt,$value)=@_;
+ return $value || "p",
+ "Line (cemetery only)" => "ab",
+ "Paragraph" => "p",
+ "Whole document" =>   "TEI.2", 
+ "Header" => "teiHeader",
+ "Stone Description (cemetery only)" => "stoneDescription",
+ "Person (cemetery only)" => "person",
+ "Section (normal) or Inscription (cemetery) " =>   "div", 
+;
+}
+
+
+sub submit_upload {
+ my($ctxt,$value)=@_;
+}
+
+sub submit_send {
+ my($ctxt,$value)=@_;
+ my $collection=$ctxt->{Form}{collection};
+ my $fullquery= $ctxt->{Form}{fullquery};
+ my $context=$ctxt->{Form}{context};
+ my $resultfile='results.xml';
+ if ($collection eq 'cem') { $resultfile='pcresults.xml'; }
+ my $SEP="//";
+ my $QUERY =  $context . "_5B//" .    $ctxt->{Form}{element} . "_5B" . $_   . "_5D_5D";
+ if (!$fullquery eq '') { 
+   $_=$ctxt->{Form}{fullquery};
+   s/\[/_5B/g;
+   s/\]/_5D/g;
+   s/\'/_22/g;
+   s/\"/_22/g;
+   $QUERY=$_; 
+   $SEP="";
+    }
+ else {
+   $_=$ctxt->{Form}{query};
+   s/\[/_5B/g;
+   s/\]/_5D/g;
+   s/\'/_22/g;
+   s/\"/_22/g;
+  if ($collection eq 'tei' && $context eq 'div') { $context='div1'; }
+  if ($context eq 'TEI.2') { $SEP="/";}
+  }
+
+ return $resultfile . "?query=collection(_22" . $collection. "_22)" . $SEP 
+  . $QUERY 
+  . "&delivery=".   $ctxt->{Form}{delivery} 
+  . "&howmany=".   $ctxt->{Form}{howmany} 
+;
+}
+]]>
+</xsp:logic>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XML Structured search using eXist</title>
+            <author>Sebastian Rahtz</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>June 2002</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>OUCS</authority>
+            <address>
+               <email>advisory@oucs.ox.ac.uk</email>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+<p>This is the master version of an original document,
+created by converting an HTML file to TEI XML on 2001/09/06.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change>
+            <date>$Date$</date>
+            <respStmt>
+               <name>$Author$</name>
+            </respStmt>
+            <item>$Revision$</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+<f:form name="exist">
+<p>Collection: <f:single-select name="collection"/></p>
+<p>Query context:
+<f:single-select name="context"/>,
+element:
+<f:single-select name="element"/>
+and test
+<f:textfield name="query" maxlength="60" width="60"/>
+     </p>
+
+<p>Alternatively, give the full eXist XPath query
+yourself (you don't need the collection name):
+<f:textfield name="fullquery" maxlength="150" width="100"/>
+     </p>
+<p>Delivered <f:single-select name="delivery"/></p>
+
+<p>How many results at a time:
+     <f:textfield name="howmany" maxlength="10" width="10">
+	  <f:default>999</f:default>
+     </f:textfield></p>
+
+<p><f:submit name="send" value="Submit"/>
+<f:cancel name="forget" value="Cancel"/>
+     </p>
+</f:form>
+
+<!--
+
+<f:form name="exist2" enctype="multipart/form-data" method="post">
+
+<p>UPLOAD FILE: <f:file-upload accept="text/xml" name="uploadfile"/></p>
+
+<p><f:submit name="upload" value="Send"/></p>
+
+</f:form>
+-->
+      </body>
+   </text>
+</TEI.2>
+</xsp:page>

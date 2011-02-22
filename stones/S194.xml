@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S194.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 194</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S194">
+          <msIdentifier>
+            <idno>S194</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>142</height>
+                    <depth>5</depth>
+                    <width>75</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_29 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_123 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>18</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Prasevija [</forename>
+              <surname>Vjazemskaja</surname>
+            </persName>
+            <birth when="1817-02-21">
+              <placeName>
+                <settlement>moscow </settlement>
+                <country>Ru</country>
+              </placeName>
+            </birth>
+            <death when="1835-03-01">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_T #c_4 #m_I #t_P #s_CY">
+        <ab>ЗДѢС'</ab>
+        <ab>ПОГРЕБЕНО ТѢЛО</ab>
+        <ab>КНЙАЖНЫ</ab>
+        <ab>ПРАСКЕВИИ ПЕТРОВНЫ ВЯЗЕМСКОЙ</ab>
+        <ab/>
+        <ab>РОДИЛАЦ'  МОСКВѢ 21 ФЕВРАЛЯ / [..] МАРТА 1817 ГОДА</ab>
+        <ab>СКОНЯАЛАС'  РИМѢ 11/25 МАРТА 1835 ГОДА</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

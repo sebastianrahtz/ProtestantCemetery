@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S783.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 783</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S783">
+          <msIdentifier>
+            <idno>S783</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>112</height>
+                    <depth>8</depth>
+                    <width>60</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Mary Williams</forename>
+              <surname>Hambel</surname>
+            </persName>
+            <death when="1918"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+        <ab>MARY WILLIAMS HAMBEL</ab>
+        <ab>WIDOW OF PAUL HAFNER</ab>
+        <ab>OF NEWCASTLE INDIANA U.S.A.</ab>
+        <ab>DIED IN ROME</ab>
+        <ab>MARCH 3--1918</ab>
+        <ab>AGED 60 YEARS</ab>
+        <ab>R.I.P.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

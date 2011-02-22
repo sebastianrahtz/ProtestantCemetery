@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S440.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 440</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S440">
+          <msIdentifier>
+            <idno>S440</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>200</height>
+                    <depth>61</depth>
+                    <width>67</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>3</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Marthe Ernesta</forename>
+              <surname>Joyce</surname>
+            </persName>
+            <death when="1949"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Lilian Cavalcanti</forename>
+              <surname>di Verbicaro</surname>
+            </persName>
+            <death when="1970"/>
+            <nationality key="EG"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_N #c_3 #m_IF #t_P #s_CY">
+        <ab>МЛАДЕНЕЦ"</ab>
+        <ab>ГРАФ" ГРИГОРИИ ГРИГОРИЕВИЯ"</ab>
+        <ab>СТРОГАНОВ"</ab>
+        <ab/>
+        <ab/>
+        <ab/>
+        <ab>РОДИЛСЯ  ЖЕНЕВѢ 9 МАЯ 1857 ГОДА</ab>
+        <ab/>
+        <ab>СКОНЯАЛСЯ  РИМѢ 13 ФЕВРАЛЯ 1859 ГОДА</ab>
+        <ab rend="Alignl">
+          <note xml:lang="en"> Stone record for this exists???</note>
+        </ab>
+      </div>
+      <div type="inscription"  decls="#f_N #c_3 #m_IF #t_PC">
+        <ab>* GENOVA 3.VI.1873 + ROMA 26.V.1949</ab>
+        <ab>MARTHE ERNESTA JOYCE</ab>
+        <ab>NEE CHARRUY</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_3 #m_IF #t_S">
+        <ab>MAY ELOISA GIANNUZZI SAVELLI</ab>
+        <ab>NÉE JOYCE</ab>
+        <ab>* ALESSANDRIA D'EGITTO 18.X.1896 + ROMA 5.VII.1969</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_3 #m_IF #t_S">
+        <ab>LILIAN CAVALCANTI</ab>
+        <ab>DI VERBICARO</ab>
+        <ab>NÉE JOYCE</ab>
+        <ab>* ALESS. D'EGITTO 2.IX.1898</ab>
+        <ab>+ ROMA 26.I.1970</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

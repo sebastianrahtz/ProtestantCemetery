@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S906.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 906</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S906">
+          <msIdentifier>
+            <idno>S906</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>140</height>
+                    <depth>38</depth>
+                    <width>80</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_45 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Tarou</forename>
+              <surname>Kawase</surname>
+            </persName>
+            <death when="1874"/>
+            <nationality key="JP"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ja" decls="#f_S #c_3 #m_I #t_P">
+        <ab rend="Alignl">
+          <note> Inscription in ?Japanese (or Chinese)</note>
+        </ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_N #c_3 #m_IF #t_P">
+        <ab>TAROU KAWASE</ab>
+        <ab>HE WAS BORN 14TH MARCH 1874</ab>
+        <ab>AND</ab>
+        <ab>DIED AT ROME</ab>
+        <ab>9 MAY OF THE SAME YEAR</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

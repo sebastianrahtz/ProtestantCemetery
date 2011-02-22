@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S643.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 643</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S643">
+          <msIdentifier>
+            <idno>S643</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>165</height>
+                    <depth>19</depth>
+                    <width>100</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_45 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_89 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Giovanni</forename>
+              <surname>Ginobbi</surname>
+            </persName>
+            <death when="1871"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Palmira</forename>
+              <surname>Ginobbi</surname>
+            </persName>
+            <death when="1871"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
+        <ab>PALMIRA GINOBBI NATA DE-SANTIS</ab>
+        <ab>MORTA IL I AGOSTO 1871</ab>
+        <ab>E GIOVANNI FIGLIO DI LEI</ab>
+        <ab>MORTO IL 13 NOVEMBRE 1871</ab>
+        <ab>QUI RIPOSANO</ab>
+        <ab>--------------</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_3 #m_I #t_PC">
+        <ab>GIACOMO GINOBBI CONSORTE E PADRE</ab>
+        <ab>QUESTA MEMORIA POSE</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

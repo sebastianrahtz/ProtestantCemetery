@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S290.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 290</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S290">
+          <msIdentifier>
+            <idno>S290</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>190</height>
+                    <width>90</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>89</age>
+            <sex>1</sex>
+            <persName>
+              <forename>William H.</forename>
+              <surname>Herriman</surname>
+            </persName>
+            <birth when="1829-02-07">
+              <placeName>
+                <settlement>new york </settlement>
+                <country>USA</country>
+              </placeName>
+            </birth>
+            <death when="1918-07-26">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_3 #m_RS #t_P">
+        <ab>WILLIAM H. HERRIMAN</ab>
+        <ab>OF</ab>
+        <ab>NEW YORK CITY U.S.A.</ab>
+        <ab>BORN 7TH FEBRUARY 1829</ab>
+        <ab>DIED IN ROME</ab>
+        <ab>26TH JULY 1918</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

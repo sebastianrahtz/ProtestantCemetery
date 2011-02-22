@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 9</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S9">
+          <msIdentifier>
+            <idno>S9</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PED">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>230</height>
+                    <depth>110</depth>
+                    <width>145</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_C #f_N"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_N"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>38</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Elisa</forename>
+              <surname>Temple</surname>
+            </persName>
+            <birth when="1771">
+              <placeName>
+                <settlement>Mass. </settlement>
+                <country>USA</country>
+              </placeName>
+            </birth>
+            <death when="1809-11-01"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
+        <ab>QVIETI AETERNAE</ab>
+        <ab>ELISAE GEORGII WATSONI F.MASSACHVSETTENSIS</ab>
+        <ab>FOEMINAE SANCTISSIMAE</ab>
+        <ab>FORMA VIRTVTEQVE INSIGNIS</ab>
+        <ab>AMORE IN MARITVM PIETATE IN LIBEROS</ab>
+        <ab>OFFICIO IN AMICOS IN OMNES BENEVOLENTIA</ab>
+        <ab>EXIMIAE</ab>
+        <ab>VIXIT AN.XXXVIII.M.VIII.D.XIII</ab>
+        <ab>OBIIT PR.NON.NOV.AN.M.DCCC.VIIII.</ab>
+        <ab>GRENVILLIUS TEMPLE EQVES BARONETTVS</ab>
+        <ab>VXORI DVLCISSIMAE ET INCOMPARABILI</ab>
+        <ab>QVAM VIVAM VNICE AMAVIT MORTUAM ACERBE LVGET</ab>
+        <ab>H.M.CVM LACRVMIS P.</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_N #c_2 #m_I #t_M">
+        <ab rend="Alignl">G.GOTHE. FEC.ROMAE.MDCCCX</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

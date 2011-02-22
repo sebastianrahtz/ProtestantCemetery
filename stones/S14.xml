@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S14.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 14</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S14">
+          <msIdentifier>
+            <idno>S14</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>79</height>
+                    <depth>28</depth>
+                    <width>35</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_79 #st_B #f_W"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_82 #st_B #f_N"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_102 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Clara W.</forename>
+              <surname>Benedict</surname>
+            </persName>
+            <death when="1923">
+              <placeName>
+                <settlement>Venice </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Clara</forename>
+              <surname>Benedict</surname>
+            </persName>
+            <death when="1961">
+              <placeName>
+                <settlement>Luzern </settlement>
+                <country>Switzerland</country>
+              </placeName>
+            </death>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_W #c_1 #m_IC #t_P">
+        <ab>CLARA W BENEDICT</ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_1 #m_IC #t_P">
+        <ab>VENICE 1923</ab>
+      </div>
+      <div type="inscription"  decls="#f_W #c_1 #m_IC #t_S">
+        <ab>CLARA BENEDICT</ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_1 #m_IC #t_S">
+        <ab>LUZERN 1961</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_W #c_1 #m_IC #t_PC">
+        <ab>BENEMERENTE</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

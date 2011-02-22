@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xsp:page
+    language="Perl"
+    xmlns:xsp="http://apache.org/xsp/core/v1"
+    xmlns:web="http://axkit.org/NS/xsp/webutils/v1"
+    xmlns:f="http://axkit.org/NS/xsp/perform/v1"
+>
+<xsp:structure>
+use File::Copy;
+use SOAP::Lite;
+</xsp:structure>
+<xsp:logic>
+my $doc;
+my $parent;
+my $collectionName;
+my $name;
+my $docHits;
+my $collection;
+ </xsp:logic>
+
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XML Structured search using eXist</title>
+            <author>Sebastian Rahtz</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>June 2002</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>OUCS</authority>
+            <address>
+               <email>advisory@oucs.ox.ac.uk</email>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+<p>This is the master version of an original document,
+created by converting an HTML file to TEI XML on 2001/09/06.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change>
+            <date>$Date$</date>
+            <respStmt>
+               <name>$Author$</name>
+            </respStmt>
+            <item>$Revision$</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+<table>
+<xsp:logic><![CDATA[
+my $service = SOAP::Lite->service("http://localhost:8080/exist/services/Query?WSDL");
+
+my $query = "//SPEAKER";
+
+my $result = $service->query($query);
+
+my $resultSetId = $result->{'resultSetId'};
+my $hits = $result->{'hits'};
+my $queryTime = $result->{'queryTime'};
+my @collections = @{$result->{'collections'}};
+
+# print hits by collection and document
+foreach $collection (@collections) {
+  $collectionName = $collection->{"collectionName"};
+  my @docs = @{$collection->{'documents'}};
+  foreach $doc (@docs) {
+    $name = $doc->{'documentName'};
+    $docHits = $doc->{'hitCount'};
+]]>
+   <row>
+       <cell><xsp:expr>$name</xsp:expr></cell>
+        <cell><xsp:expr>$docHits</xsp:expr></cell>
+      </row>
+   }
+#print "found $hits hits in $queryTime ms.\n";
+
+}
+     </xsp:logic>
+    </table>
+      </body>
+   </text>
+</TEI.2>
+</xsp:page>

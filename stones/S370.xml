@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S370.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 370</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S370">
+          <msIdentifier>
+            <idno>S370</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>80</height>
+                    <depth>4</depth>
+                    <width>85</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>64</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Matilda</forename>
+              <surname>Wratislaw</surname>
+            </persName>
+            <birth when="1832"/>
+            <death when="1896-07-15"/>
+            <nationality key="UK"/>
+            <occupation>"painter"</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+        <ab>MATILDA EMILY WRATISLAW</ab>
+        <ab>PAINTER</ab>
+        <ab>DIED 15TH JULY 1896</ab>
+        <ab>AGED 64 YEARS</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

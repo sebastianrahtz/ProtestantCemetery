@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S480.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 480</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S480">
+          <msIdentifier>
+            <idno>S480</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>115</height>
+                    <depth>13</depth>
+                    <width>65</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Irma Anne</forename>
+              <surname>Richter</surname>
+            </persName>
+            <death when="1956"/>
+            <nationality key="FR"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Gisela Marie Augusta</forename>
+              <surname>Richter</surname>
+            </persName>
+            <death when="1972"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+        <ab>IRMA ANNE RICHTER</ab>
+        <ab>ARTIST AND ART HISTORIAN</ab>
+        <ab>BORN IN PARIS JANUARY 16 1881</ab>
+        <ab>DIED IN ROME FEBRUARY 8 1956</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IF #t_S">
+        <ab>GISELA MARIE AUGUSTA</ab>
+        <ab>RICHTER</ab>
+        <ab>CLASSICAL ARCHEOLOGIST</ab>
+        <ab>BORN IN LONDON AUGUST 15 1882</ab>
+        <ab>DIED IN ROME DECEMBER 24 1972</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_N #c_1 #m_IF #t_P">
+        <ab>RICHTER</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S428.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 428</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S428">
+          <msIdentifier>
+            <idno>S428</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>160</height>
+                    <depth>30</depth>
+                    <width>110</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_114 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Elenh</forename>
+              <surname>Boulgarhs</surname>
+            </persName>
+            <death when="1940"/>
+            <nationality key="GR"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="el" decls="#f_T #c_2 #m_RS #t_P #s_GR">
+        <ab rend="Alignl">ΟΥ ΕΑΝ ΑΠΟΘΑΝΗΣ ΑΠΟΘΑΝΟΥΜΑΙ ΚΑΚΕΙ</ab>
+        <ab rend="Alignl">ΤΑΥΗΣΟΜΑΙ   ΡΟΥΘ 1,17</ab>
+        <ab rend="Alignl">ΟΥΚ ΑΥΗΣΩ ΥΜΑΣ ΟΡΥΑΝΟΥΣ ΕΡΨΟΜΑΙ ΠΡΟΣ</ab>
+        <ab rend="Alignl">ΥΜΑΣ ... ΚΑΙ Ο ΚΟΣΜΟΣ ΜΕ ΟΥΚΕΤΙ ΘΕΩΡΕΙ</ab>
+        <ab rend="Alignl">ΥΜΕΙΣ ΔΕ ΘΕΩΡΕΙΤΕ ΜΕ.</ab>
+        <ab rend="Alignr">ΙΩΑΝΝΗΣ 14, 18, 19.</ab>
+        <ab>ΕΛΕΝΗ ΒΟΥΛΓΑΡΗΣ</ab>
+        <ab>ΤΟ ΓΕΝ. ΜΠΑΣΙΟΣ</ab>
+        <ab/>
+        <ab>* ΚΕΡΚΥΡΑ 18 ΜΑΙΟΥ 1869</ab>
+        <ab>+ ΥΡΑΣΚΑΤΗ 2 ΑΥΓΟΥΣΤΟΥ 1940</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

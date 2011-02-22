@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S687.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 687</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S687">
+          <msIdentifier>
+            <idno>S687</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>102</height>
+                    <depth>9</depth>
+                    <width>52</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Pauline Rosalie</forename>
+              <surname>Reinberg</surname>
+            </persName>
+            <death when="1958"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Ugo</forename>
+              <surname>Belli</surname>
+            </persName>
+            <death when="1979"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_1 #m_IC #t_P">
+        <ab>PAULINE ROSALIE REINBERG</ab>
+        <ab>GEB.KURG</ab>
+        <ab>25.V.1874 21.VII.1958</ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_1 #m_IC #t_S">
+        <ab>UGO BELLI</ab>
+        <ab>26.IX.1900 25.XI.1979</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

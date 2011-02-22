@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S339.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 339</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S339">
+          <msIdentifier>
+            <idno>S339</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="COL">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>34</height>
+                    <depth>140</depth>
+                    <width>170</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_109 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_125 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Edvard</forename>
+              <surname>Muller</surname>
+            </persName>
+            <nationality key="DE"/>
+            <occupation>sculptor "bildhauer"</occupation>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Gustav</forename>
+              <surname>Muller</surname>
+            </persName>
+            <nationality key="DE"/>
+            <occupation>painter "maler"</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
+        <ab>EDUARD MULLER  GUSTAV MULLER</ab>
+        <ab>BILDHAUER   MALER</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_N #c_2 #m_IF #t_PC">
+        <ab>WIE IM LEBEN UNZERTRENN LIGH</ab>
+        <ab>TREU UND EINIG</ab>
+        <ab>SIND DIE ZWILLING S BRÜDER</ab>
+        <ab>AUGH IM TOD VEREINT</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

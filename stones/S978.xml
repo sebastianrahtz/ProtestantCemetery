@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S978.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 978</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S978">
+          <msIdentifier>
+            <idno>S978</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>210</height>
+                    <depth>26</depth>
+                    <width>79</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_109 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>*</num>
+                <ptr target="#i_121 #st_A #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Orsolina Morell</forename>
+              <surname>Singer</surname>
+            </persName>
+            <death when="1894"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Pietro</forename>
+              <surname>Singer</surname>
+            </persName>
+            <death when="1897"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Raffaele Brancoli</forename>
+              <surname>Busdraghi</surname>
+            </persName>
+            <death when="1980"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_2 #m_IC #t_P">
+        <ab>ORSOLINA MORELL SINGER</ab>
+        <ab>MDCCCXXXVI - MDCCCXCIV</ab>
+        <ab/>
+        <ab>PIETRO SINGER</ab>
+        <ab>MDCCCXXVII - MDCCCXCVII</ab>
+        <ab>--------</ab>
+        <ab>BEATI I MORTI CHE MUOIONO</ab>
+        <ab rend="Alignl">  NEL SIGNORE</ab>
+        <ab rend="Alignr">APOC.XIV.VERS.XIII.</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_2 #m_IC #t_S">
+        <ab>DOTT. ING. RAFFAELE BRANCOLI BUSDRAGHI</ab>
+        <ab/>
+        <ab>PATRIZIO DI LUCCA</ab>
+        <ab/>
+        <ab>* 26.I.1896 + 2.IX.1980</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

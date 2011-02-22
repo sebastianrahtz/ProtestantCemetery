@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2303.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2303</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2303">
+          <msIdentifier>
+            <idno>S2303</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="COL">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>157</height>
+                    <dim type="diameter">28</dim>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_16 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Stefano</forename>
+              <surname>Cezarescu</surname>
+            </persName>
+            <nationality key="RO"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
+        <ab>STEFANO CEZARESCU</ab>
+        <ab>COLONELLO DI S.M.AIUTANTIE DI CAMPO</ab>
+        <ab>DI S.M.IL RE DI ROMANIA</ab>
+        <ab>OFFRI ALLA PATRIA IL FORTE BRACCIO</ab>
+        <ab>E LA SUA BALDA GIOVENTÚ</ab>
+        <ab>NELLA ROMA DEGLI AVI</ab>
+        <ab>CERCÓ E VOLLE LA SUA ETERNA PACE</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2011.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2011</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2011">
+          <msIdentifier>
+            <idno>S2011</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>153</height>
+                    <depth>80</depth>
+                    <width>35</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_79 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Dwight</forename>
+              <surname>Benton</surname>
+            </persName>
+            <death when="1903"/>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Elizabeth Pearl</forename>
+              <surname>Haggott</surname>
+            </persName>
+            <death when="1913"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_RM #t_P">
+        <ab>IN</ab>
+        <ab>LOVING MEMORY</ab>
+        <ab>OF</ab>
+        <ab>DWIGHT BENTON</ab>
+        <ab>NORWICH N.Y.1834</ab>
+        <ab>ROME.1903</ab>
+        <ab>AND OF HIS BELOVED WIFE</ab>
+        <ab>ELIZABETH PEARL</ab>
+        <ab>HAGGOTT</ab>
+        <ab>FRANKLIN O.1840 ROME 1913</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_RM #t_PC">
+        <ab rend="Alignl">
+          <note> on a metal medallion</note>
+        </ab>
+        <ab>TO DWIGHT BENTON FROM THOSE WHO LOVE HIM</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

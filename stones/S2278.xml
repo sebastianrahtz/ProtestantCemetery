@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2278.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2278</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2278">
+          <msIdentifier>
+            <idno>S2278</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>187</height>
+                    <depth>200</depth>
+                    <width>100</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_120 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_999 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Hugo</forename>
+              <surname>Schneider</surname>
+            </persName>
+            <death when="1922"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+        <ab>HVGO SCHNEIDER</ab>
+        <ab>ZUM GEDACHTNIS</ab>
+        <ab>GEB.16.JANUAR 1874</ab>
+        <ab>IN NIMPTSCH (SCHLESIEN)</ab>
+        <ab>GEST.13.FEBRUAR 1922 IN ROM</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_T #c_3 #m_I #t_PC">
+        <ab>ICH HEBE MEINE AUGEN AUF ZU</ab>
+        <ab>DEN BERGEN, VON WELCHEN MIR</ab>
+        <ab>HILFE KOMMT PS.121.1</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

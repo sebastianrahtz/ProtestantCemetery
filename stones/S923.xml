@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S923.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 923</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S923">
+          <msIdentifier>
+            <idno>S923</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>197</height>
+                    <depth>60</depth>
+                    <width>96</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Jessie Emma</forename>
+              <surname>Smallwood</surname>
+            </persName>
+            <death when="1880"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_2 #m_RS #t_P">
+        <ab>
+          <hi rend="gothic">Jessie Emma Smallwood</hi>
+        </ab>
+        <ab>
+          <hi rend="gothic">Died at Rapallo Dec.12.1880</hi>
+        </ab>
+        <ab/>
+        <ab>
+          <hi rend="gothic">But though He cause grief</hi>
+        </ab>
+        <ab>
+          <hi rend="gothic">yet will he have compassion</hi>
+        </ab>
+        <ab rend="Alignr">
+          <hi rend="gothic">Lam.III 32</hi>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

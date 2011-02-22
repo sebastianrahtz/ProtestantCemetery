@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S854.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 854</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S854">
+          <msIdentifier>
+            <idno>S854</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>176</height>
+                    <depth>34</depth>
+                    <width>99</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_30 #st_B #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Christine</forename>
+              <surname>Aguet</surname>
+            </persName>
+            <death when="1944"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Louis Gabriel</forename>
+              <surname>Aguet</surname>
+            </persName>
+            <death when="1955"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_2 #m_IC #t_P">
+        <ab>CHRISTINE AGVET</ab>
+        <ab>NÉE MACK</ab>
+        <ab>1892 - 1944</ab>
+        <ab>LOVIS GABRIEL</ab>
+        <ab>AGVET</ab>
+        <ab>1879 1955</ab>
+        <ab rend="Alignr">OR FATTOSI SERA, GESÚ DISSE:</ab>
+        <ab rend="Alignr">PASSIAMO ALL'ALTRA RIVA</ab>
+        <ab rend="Alignr">S.MARCO,IV 35</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

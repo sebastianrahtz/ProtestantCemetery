@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S267.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 267</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S267">
+          <msIdentifier>
+            <idno>S267</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>60</height>
+                    <width>70</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_114 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>75</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Dorothy Brunton</forename>
+              <surname>Noel</surname>
+            </persName>
+            <birth when="1873-03-03">
+              <placeName>
+                <settlement>london </settlement>
+                <country>England</country>
+              </placeName>
+            </birth>
+            <death when="1948-05-12">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+        <ab>DOROTHY</ab>
+        <ab>BORN BRUNTON</ab>
+        <ab>WIFE OF BARHAM M. NOEL</ab>
+        <ab>* LONDON 3RD MARCH 1873</ab>
+        <ab>+ ROME 12TH MAY 1948</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+        <ab>IN LOVING MEMORY</ab>
+        <ab>R.I.P</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

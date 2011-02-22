@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S334.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 334</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S334">
+          <msIdentifier>
+            <idno>S334</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>170</height>
+                    <depth>68</depth>
+                    <width>68</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>0</sex>
+            <persName>
+              <forename/>
+              <surname/>
+            </persName>
+            <nationality key="RU"/>
+          </person>
+          <person>
+            <age>25</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Elizaveta</forename>
+              <surname>L'vova</surname>
+            </persName>
+            <birth when="1821-12-08"/>
+            <death when="1846-04-19"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_4 #m_I #t_P #s_CY">
+        <ab>ЗДѢС' ПОЯИЕТ" ПРАЦХ"</ab>
+        <ab>ЕЛИСАБЕТЫ Л'ВОВОЙ</ab>
+        <ab>РОДИЛАС' 1821 = ГОДА ДЕКА. 8 = Д.</ab>
+        <ab>СКОНЯАЛАС' 1846 = ГОДА АПРѢ 19 = Д.</ab>
+        <ab>ДОЯ' ЛЕОНИДА И [...] Л'ВОВЫЯ</ab>
+      </div>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_3 #m_I #t_PC">
+        <ab rend="Alignl">
+          <note xml:lang="en"> a Slavonic inscription which is not transribed</note>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

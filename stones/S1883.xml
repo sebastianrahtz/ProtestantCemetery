@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1883.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1883</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1883">
+          <msIdentifier>
+            <idno>S1883</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>149</height>
+                    <depth>17</depth>
+                    <width>77</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_164 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Alexander</forename>
+              <surname>Reid</surname>
+            </persName>
+            <death when="1886"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>IN MEMORY OF</ab>
+        <ab>ALEXANDER REID</ab>
+        <ab>FORMERLY OF DEMERARA W.INDIES</ab>
+        <ab>BORN AT DUNFERMLINE,SCOTLAND</ab>
+        <ab>6TH SEPT.1820.</ab>
+        <ab>DIED AT ROME</ab>
+        <ab>29TH MARCH 1886.</ab>
+        <ab/>
+        <ab rend="Alignl">"TO LIVE IN HEARTS WE LEAVE BEHIND</ab>
+        <ab rend="Alignl">IS NOT TO DIE."</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

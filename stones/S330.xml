@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S330.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 330</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S330">
+          <msIdentifier>
+            <idno>S330</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>180</height>
+                    <depth>10</depth>
+                    <width>67</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_79 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>68</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Tyge</forename>
+              <surname>Bendix</surname>
+            </persName>
+            <birth when="1894-03-05">
+              <placeName>
+                <settlement>copenhagen </settlement>
+                <country>Denmark</country>
+              </placeName>
+            </birth>
+            <death when="1962-10-10">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="DK"/>
+            <occupation>painter "maleren"</occupation>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="da " decls="#f_S #c_2 #m_I #t_P">
+        <ab>MALEREN</ab>
+        <ab>TYGE BENDIX</ab>
+        <ab>KØBENHAVN 5 3 1894</ab>
+        <ab>ROM 10 10 1962</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2342.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2342</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2342">
+          <msIdentifier>
+            <idno>S2342</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>154</height>
+                    <depth>40</depth>
+                    <width>74</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_114 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Ol'ga</forename>
+              <surname>Umnova</surname>
+            </persName>
+            <death when="1917"/>
+            <nationality key="RU"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Sofija</forename>
+              <surname>Dimitrieva</surname>
+            </persName>
+            <death when="1922"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_T #c_4 #m_IF #t_P #s_CY">
+        <ab>ОЛ'ГА КОНСТАНТИНОВНА</ab>
+        <ab>УМНОВА</ab>
+        <ab/>
+        <ab>СКОНЯАЛАС'  РИМѢ</ab>
+        <ab> 11 ЙАНВАРЯ 1917 [.]ОДА</ab>
+      </div>
+      <div type="inscription"  xml:lang="ru" decls="#f_T #c_4 #m_IF #t_PC #s_CY">
+        <ab>МОГИТЕС' О НЕЙ!</ab>
+        <ab>НОТЕ:АППЕНДЕД ТО 2342.1</ab>
+      </div>
+      <div type="inscription"  xml:lang="ru" decls="#f_T #c_3 #m_I #t_S #s_CY">
+        <ab>СОФИЯ</ab>
+        <ab>КОНСТАНТИНОВНА</ab>
+        <ab>ДИМИТРИЕВА</ab>
+        <ab>+ 1922г.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

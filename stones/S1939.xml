@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1939.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1939</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1939">
+          <msIdentifier>
+            <idno>S1939</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>130</height>
+                    <depth>40</depth>
+                    <width>60</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_115 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Alberto Hermanin</forename>
+              <surname>de Reichenfeld</surname>
+            </persName>
+            <death when="1890"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Berta Hermanin</forename>
+              <surname>de Reichenfeld</surname>
+            </persName>
+            <death when="1892"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_3 #m_IF #t_P">
+        <ab>ALBERTO HERMANIN DI REICHFELD</ab>
+        <ab>BARI 26 APRILE 1874</ab>
+        <ab>ROMA 23 GENNAIO 1890</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_2 #m_I #t_S">
+        <ab>BERTHA</ab>
+        <ab>HERMANIN DE REICHENFELD</ab>
+        <ab>MESSINA 15 MARZO 1876 - ROMA 6 OTTOBRE 1892</ab>
+        <ab>PREGA PER NOI</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

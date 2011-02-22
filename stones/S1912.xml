@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1912.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1912</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1912">
+          <msIdentifier>
+            <idno>S1912</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>163</height>
+                    <depth>36</depth>
+                    <width>69</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Richard</forename>
+              <surname>Gibbings</surname>
+            </persName>
+            <death when="1888"/>
+            <nationality key="IE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_4 #m_IF #t_P">
+        <ab>IN MEMORY OF</ab>
+        <ab>REV.D RICHARD GIBBINGS D.D.</ab>
+        <ab>CANON OF KILDARE AND FORMERLY</ab>
+        <ab>FOR 15 YEARS PROFESSOR OF ECCLESIASTICAL</ab>
+        <ab>HISTORY IN TRINITY COLLEGE, DUBLIN.</ab>
+        <ab>BORN 27TH DECEMBER 1813</ab>
+        <ab>DIED 14TH MARCH 1888</ab>
+        <ab/>
+        <ab rend="Alignl">THE STEPS OF A GOOD MAN ARE ORDERED</ab>
+        <ab rend="Alignl">BY THE LORD.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

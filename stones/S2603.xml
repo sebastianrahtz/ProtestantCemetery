@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2603.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2603</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2603">
+          <msIdentifier>
+            <idno>S2603</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>140</height>
+                    <width>55</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_116 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Edna</forename>
+              <surname>Tozzi</surname>
+            </persName>
+            <death when="1950"/>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Josephine</forename>
+              <surname>Wallace</surname>
+            </persName>
+            <death when="1923"/>
+            <nationality key="US"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Lamberto</forename>
+              <surname>Tozzi wallace</surname>
+            </persName>
+            <death when="1966"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+        <ab>JOSEPHINE NAGLEE</ab>
+        <ab>WALLACE</ab>
+        <ab>PHILADELPHIA, PA, 1850</ab>
+        <ab>ROME 1923</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_2 #m_IF #t_S">
+        <ab>EDNA WALLACE</ab>
+        <ab>TOZZI</ab>
+        <ab>PHILADELPHIA, PA, 1877</ab>
+        <ab>ROME 1950</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_2 #m_IF #t_S">
+        <ab>COLONNELLO</ab>
+        <ab>LAMBERTO</ab>
+        <ab>TOZZI WALLACE</ab>
+        <ab>FERRARA 1871</ab>
+        <ab>ROMA 1966</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

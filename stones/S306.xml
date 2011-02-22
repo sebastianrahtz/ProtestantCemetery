@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S306.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 306</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S306">
+          <msIdentifier>
+            <idno>S306</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>139</height>
+                    <depth>62</depth>
+                    <width>74</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_24 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Janet</forename>
+              <surname>Evans</surname>
+            </persName>
+            <death when="1897-12-30"/>
+            <nationality key="UK"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>James</forename>
+              <surname>Evans</surname>
+            </persName>
+            <birth>
+              <placeName>
+                <settlement>milford haven </settlement>
+                <country>Wales</country>
+              </placeName>
+            </birth>
+            <death when="1928-10-29"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_IC #t_P">
+        <ab>IN LOVING MEMORY OF</ab>
+        <ab/>
+        <ab>JANET EVANS</ab>
+        <ab>WHO DIED 30TH DEC 1897</ab>
+        <ab>AND OF HER HUSBAND</ab>
+        <ab/>
+        <ab>JAMES EVANS</ab>
+        <ab>OF MILFORD HAVEN</ab>
+        <ab>WHO DIED 29TH OCTOBER 1928</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S164.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 164</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S164">
+          <msIdentifier>
+            <idno>S164</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>196</height>
+                    <depth>23</depth>
+                    <width>96</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_115 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>69</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Florence</forename>
+              <surname>Eaton</surname>
+            </persName>
+            <birth when="1888-07-05">
+              <placeName>
+                <settlement>Pugwash N.S. </settlement>
+                <country>Canada</country>
+              </placeName>
+            </birth>
+            <death when="1958-04-13">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="CA"/>
+          </person>
+          <person>
+            <age>55</age>
+            <sex>1</sex>
+            <persName>
+              <forename>John Truman</forename>
+              <surname>Webb</surname>
+            </persName>
+            <birth when="1909-03-16"/>
+            <death when="1964-04-07"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_2 #m_IC #t_P">
+        <ab>FLORENCE EATON</ab>
+        <ab>WIDOW KAYE</ab>
+        <ab>Α PUGWASH N.S. CANADA</ab>
+        <ab>JULY 5 1888</ab>
+        <ab>iΩ ROMA APRIL 13,1958</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_2 #m_IC #t_S">
+        <ab>JOHN TRUMAN WEBB</ab>
+        <ab>MARCH 16,1909 APRIL 7,1964</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S266.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 266</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S266">
+          <msIdentifier>
+            <idno>S266</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>176</height>
+                    <depth>24</depth>
+                    <width>82</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_29 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>*</num>
+                <ptr target="#i_120 #st_A #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>3</num>
+                <ptr target="#i_121 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>71</age>
+            <sex>1</sex>
+            <persName>
+              <forename>William</forename>
+              <surname>Manchester</surname>
+            </persName>
+            <birth when="1771-10-21"/>
+            <death when="1843-03-18"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+        <ab>WILLIAM 5TH DUKE OF MANCHESTER</ab>
+        <ab>BORN OCT 21ST 1771 DIED 18TH MARCH 1843</ab>
+      </div>
+      <div type="inscription"  decls="#f_E #c_3 #m_I #t_M">
+        <ab>W. THEED</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

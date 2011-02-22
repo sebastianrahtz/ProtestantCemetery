@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S309.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 309</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S309">
+          <msIdentifier>
+            <idno>S309</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>190</height>
+                    <depth>13</depth>
+                    <width>89</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>38</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Reginald Robert</forename>
+              <surname>Stanhope-Wright</surname>
+            </persName>
+            <birth when="1910-07-09">
+              <placeName>
+                <settlement>long melford,suffolk </settlement>
+                <country>England</country>
+              </placeName>
+            </birth>
+            <death when="1949-06-22">
+              <placeName>
+                <settlement>florence </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_1 #m_RM #t_P">
+        <ab>REGINALD ROBERT</ab>
+        <ab>STANHOPE-WRIGHT</ab>
+        <ab>BORN IN</ab>
+        <ab>LONG MELFORD,SUFFOLK,ENGLAND 9TH JULY 1910</ab>
+        <ab>DIED IN</ab>
+        <ab>FLORENCE.ITALY 22ND JUNE 1949</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

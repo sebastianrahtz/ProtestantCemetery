@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1876.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1876</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1876">
+          <msIdentifier>
+            <idno>S1876</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>139</height>
+                    <depth>30</depth>
+                    <width>59</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Josephine</forename>
+              <surname>von Arnim</surname>
+            </persName>
+            <death when="1899"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
+        <ab>FRAU JOSEPHINE VON ARNIM</ab>
+        <ab>GEB. 5 JANUAR 1839</ab>
+        <ab>GEST. 13 JANUAR 1899.</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_4 #m_IC #t_PC">
+        <ab>ALLA MEMORIA</ab>
+        <ab>DELLA</ab>
+        <ab>BA[....]ESSA D'ARNIM</ab>
+        <ab>GIULIA MARCELLIANI</ab>
+        <ab>1899</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

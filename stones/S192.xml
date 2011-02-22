@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S192.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 192</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S192">
+          <msIdentifier>
+            <idno>S192</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>193</height>
+                    <depth>22</depth>
+                    <width>100</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>61</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Katherine Lodi-fe'</forename>
+              <surname>Abbot</surname>
+            </persName>
+            <birth when="1889-10-19">
+              <placeName>
+                <settlement>salonica </settlement>
+                <country>Greece</country>
+              </placeName>
+            </birth>
+            <death when="1950-12-16"/>
+            <nationality key="UK"/>
+          </person>
+          <person>
+            <age>90</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Romano</forename>
+              <surname>Lodi-fe'</surname>
+            </persName>
+            <birth when="1881-08-11">
+              <placeName>
+                <settlement>ostiglia </settlement>
+                <country>Italy</country>
+              </placeName>
+            </birth>
+            <death when="1971-12-25">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_2 #m_IC #t_P">
+        <ab>KATHERINE LODI-FE' ABBOTT</ab>
+        <ab>BORN SALONICA 19th OCT. 1889</ab>
+        <ab>DIED ROME 16th DEC. 1950</ab>
+        <ab rend="Alignr">"I AM THE RESURRECTION</ab>
+        <ab rend="Alignr">AND THE LIFE"</ab>
+        <ab rend="Alignr">(ST.JOHN,II.25)</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_2 #m_IC #t_S">
+        <ab>S.E.</ab>
+        <ab>ROMANO LODI-FE'</ab>
+        <ab>MINISTRO PLENIPOTENZIARIO</ab>
+        <ab>OSTIGLIA 11.VIII.1881</ab>
+        <ab>ROMA 25.XII.1971</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

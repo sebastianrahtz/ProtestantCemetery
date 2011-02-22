@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S928.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 928</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S928">
+          <msIdentifier>
+            <idno>S928</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="COL">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>3</num>
+                  <dimensions unit="cm">
+                    <height>155</height>
+                    <dim type="diameter">28</dim>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_16 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_36 #st_A #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_29 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Maria Adry Koenig</forename>
+              <surname>Baschi</surname>
+            </persName>
+            <death when="1955"/>
+            <nationality/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Columbo</forename>
+              <surname>Baschi</surname>
+            </persName>
+            <death when="1964"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_S #c_1 #m_RM #t_P">
+        <ab>MARIA ADRY KOENIG</ab>
+        <ab>FRANCISCI BASCHI</ab>
+        <ab>BOECOURT 27 XII 1897</ab>
+        <ab>ROMA 28 VI 1955</ab>
+        <ab>COLOMBO</ab>
+        <ab>FRANCISCI BASCHI</ab>
+        <ab>TODI 17 XII 1892</ab>
+        <ab>VELLETRI 21 III 1964</ab>
+      </div>
+      <div type="inscription"  xml:lang="fr" decls="#f_S #c_2 #m_I #t_PC">
+        <ab>LES MORTS QU`ON AIME</ab>
+        <ab>NE SONT PAS MORTS</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_2 #m_I #t_SC">
+        <ab>UND WENN DIR KEINER BLIEBE</ab>
+        <ab>SO BLEIBST DU DENNOCH TREU</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

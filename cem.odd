@@ -1,0 +1,230 @@
+<TEI 
+ xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:rng="http://relaxng.org/ns/structure/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Protestant Cemetery TEI Extensions</title>
+            <author>Sebastian Rahtz</author>
+         </titleStmt>
+         <publicationStmt>
+	   <p></p>
+	 </publicationStmt>
+         <sourceDesc>
+            <p>derived from old DTD extension files for P4 by
+	    Sebastian Rahtz</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+<text>
+<body>
+
+<p>The Protestant Cemetery TEI schema consists of a subset of the TEI. </p>
+
+<schemaSpec ident="teicem" source="http://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">
+  <moduleRef key="corpus"/>
+  <moduleRef key="transcr"/>
+  <moduleRef key="core"/>
+  <moduleRef key="figures"/>
+  <moduleRef key="header"/>
+  <moduleRef key="linking"/>
+  <moduleRef key="namesdates"/>
+  <moduleRef key="tei"/>
+  <moduleRef key="msdescription"/>
+  <moduleRef key="textstructure"/>
+
+
+            <elementSpec ident="condition" mode="change">
+		<valList mode="add" type="closed">
+		  <valItem ident="excellent"/>
+		  <valItem ident="good"/>
+		  <valItem ident="reasonable"/>
+		  <valItem ident="bad"/>
+		  <valItem ident="very poor"/>
+		  <valItem ident="unrecorded"/>
+		</valList>
+
+	    </elementSpec>
+
+            <elementSpec ident="objectDesc" mode="change">
+	      <attList>
+		<attDef ident="form" mode="change">
+		  <valList mode="add" type="closed">
+		    <valItem ident="ARCH">
+		      <gloss>Arch</gloss>
+		    </valItem>
+		    <valItem ident="BASE">
+		      <gloss>Base</gloss>
+		    </valItem>
+		    <valItem ident="BATH">
+		      <gloss>Bath-shape</gloss>
+		    </valItem>
+		    <valItem ident="BLOCK">
+		      <gloss>Block</gloss>
+		    </valItem>
+		    <valItem ident="BOOK">
+		      <gloss>Book</gloss>
+		    </valItem>
+		    <valItem ident="BROKE">
+		      <gloss>Broken</gloss>
+		    </valItem>
+		    <valItem ident="BUILD">
+		      <gloss>Building</gloss>
+		    </valItem>
+		    <valItem ident="BUST">
+		      <gloss>Bust</gloss>
+		    </valItem>
+		    <valItem ident="CHES">
+		      <gloss>Chest</gloss>
+		    </valItem>
+		    <valItem ident="CHEST">
+		      <gloss>Chest</gloss>
+		    </valItem>
+		    <valItem ident="COL">
+		      <gloss>Column</gloss>
+		    </valItem>
+		    <valItem ident="COLB">
+		      <gloss>Broken</gloss>
+		    </valItem>
+		    <valItem ident="COPE">
+		      <gloss>Coped</gloss>
+		    </valItem>
+		    <valItem ident="CROSS">
+		      <gloss>Cross</gloss>
+		    </valItem>
+		    <valItem ident="CUSH">
+		      <gloss>Cushion</gloss>
+		    </valItem>
+		    <valItem ident="FOOT">
+		      <gloss>Footstone</gloss>
+		    </valItem>
+		    <valItem ident="HEAD">
+		      <gloss>Headstone</gloss>
+		    </valItem>
+		    <valItem ident="KERB">
+		      <gloss>Kerb</gloss>
+		    </valItem>
+		    <valItem ident="LAMP">
+		      <gloss>Lamp</gloss>
+		    </valItem>
+		    <valItem ident="LEDG">
+		      <gloss>Ledger</gloss>
+		    </valItem>
+		    <valItem ident="OBEL">
+		      <gloss>Obelisk</gloss>
+		    </valItem>
+		    <valItem ident="OSS">
+		      <gloss>Ossuary</gloss>
+		    </valItem>
+		    <valItem ident="OTHER">
+		      <gloss>unique</gloss>
+		    </valItem>
+		    <valItem ident="PED">
+		      <gloss>Pedestal</gloss>
+		    </valItem>
+		    <valItem ident="PLB">
+		      <gloss>Plaque on base</gloss>
+		    </valItem>
+		    <valItem ident="PLG">
+		      <gloss>Plaque in ground</gloss>
+		    </valItem>
+		    <valItem ident="PLW">
+		      <gloss>Plaque on wall</gloss>
+		    </valItem>
+		    <valItem ident="ROCK">
+		      <gloss>Rocks</gloss>
+		    </valItem>
+		    <valItem ident="SCRLL">
+		      <gloss>Scroll</gloss>
+		    </valItem>
+		    <valItem ident="STAT">
+		      <gloss>Statue</gloss>
+		    </valItem>
+		    <valItem ident="TREE">
+		      <gloss>Tree</gloss>
+		    </valItem>
+		    <valItem ident="URN">
+		      <gloss>Urn</gloss>
+		    </valItem>
+		    <valItem ident="VASE">
+		      <gloss>Urn</gloss>
+		    </valItem>
+		    <valItem ident="WRETH">
+		      <gloss>Wreath</gloss>
+		    </valItem>
+		    <valItem ident="unknown"/>
+		  </valList>
+		</attDef>
+		<attDef ident="xml:lang" mode="delete"/>
+		<attDef ident="rend" mode="delete"/>
+		<attDef ident="xml:base" mode="delete"/>
+	      </attList>
+            </elementSpec>
+	    <elementSpec module="analysis" ident="phr" mode="delete"/>
+	    <elementSpec module="core" ident="add" mode="delete"/>
+	    <elementSpec module="core" ident="analytic" mode="delete"/>
+	    <elementSpec module="core" ident="cb" mode="delete"/>
+	    <elementSpec module="core" ident="cit" mode="delete"/>
+	    <elementSpec module="core" ident="corr" mode="delete"/>
+	    <elementSpec module="core" ident="dateRange" mode="delete"/>
+	    <elementSpec module="core" ident="del" mode="delete"/>
+	    <elementSpec module="core" ident="distinct" mode="delete"/>
+	    <elementSpec module="core" ident="expan" mode="delete"/>
+	    <elementSpec module="core" ident="foreign" mode="delete"/>
+	    <elementSpec module="core" ident="gap" mode="delete"/>
+	    <elementSpec module="core" ident="gloss" mode="delete"/>
+	    <elementSpec module="core" ident="headItem" mode="delete"/>
+	    <elementSpec module="core" ident="headLabel" mode="delete"/>
+	    <elementSpec module="core" ident="index" mode="delete"/>
+	    <elementSpec module="core" ident="l" mode="delete"/>
+	    <elementSpec module="core" ident="lg" mode="delete"/>
+	    <elementSpec module="core" ident="meeting" mode="delete"/>
+	    <elementSpec module="core" ident="mentioned" mode="delete"/>
+	    <elementSpec module="core" ident="milestone" mode="delete"/>
+	    <elementSpec module="core" ident="orig" mode="delete"/>
+	    <elementSpec module="core" ident="pb" mode="delete"/>
+	    <elementSpec module="core" ident="postBox" mode="delete"/>
+	    <elementSpec module="core" ident="postCode" mode="delete"/>
+	    <elementSpec module="core" ident="reg" mode="delete"/>
+	    <elementSpec module="core" ident="series" mode="delete"/>
+	    <elementSpec module="core" ident="sic" mode="delete"/>
+	    <elementSpec module="core" ident="sp" mode="delete"/>
+	    <elementSpec module="core" ident="speaker" mode="delete"/>
+	    <elementSpec module="core" ident="stage" mode="delete"/>
+	    <elementSpec module="core" ident="street" mode="delete"/>
+	    <elementSpec module="core" ident="time" mode="delete"/>
+	    <elementSpec module="core" ident="timeRange" mode="delete"/>
+	    <elementSpec module="core" ident="unclear" mode="delete"/>
+	    <elementSpec module="figures" ident="formula" mode="delete"/>
+	    <elementSpec module="linking" ident="alt" mode="delete"/>
+	    <elementSpec module="linking" ident="altGrp" mode="delete"/>
+	    <elementSpec module="linking" ident="join" mode="delete"/>
+	    <elementSpec module="linking" ident="joinGrp" mode="delete"/>
+	    <elementSpec module="linking" ident="link" mode="delete"/>
+	    <elementSpec module="linking" ident="linkGrp" mode="delete"/>
+	    <elementSpec module="linking" ident="seg" mode="delete"/>
+	    <elementSpec module="linking" ident="timeline" mode="delete"/>
+	    <elementSpec module="linking" ident="when" mode="delete"/>
+	    <elementSpec module="textstructure" ident="argument" mode="delete"/>
+	    <elementSpec module="textstructure" ident="byline" mode="delete"/>
+	    <elementSpec module="textstructure" ident="closer" mode="delete"/>
+	    <elementSpec module="textstructure" ident="dateline" mode="delete"/>
+	    <elementSpec module="textstructure" ident="div0" mode="delete"/>
+	    <elementSpec module="textstructure" ident="div1" mode="delete"/>
+	    <elementSpec module="textstructure" ident="div2" mode="delete"/>
+	    <elementSpec module="textstructure" ident="div3" mode="delete"/>
+	    <elementSpec module="textstructure" ident="div4" mode="delete"/>
+	    <elementSpec module="textstructure" ident="div5" mode="delete"/>
+	    <elementSpec module="textstructure" ident="div6" mode="delete"/>
+	    <elementSpec module="textstructure" ident="div7" mode="delete"/>
+	    <elementSpec module="textstructure" ident="epigraph" mode="delete"/>
+	    <elementSpec module="textstructure" ident="imprimatur" mode="delete"/>
+	    <elementSpec module="textstructure" ident="opener" mode="delete"/>
+	    <elementSpec module="textstructure" ident="salute" mode="delete"/>
+	    <elementSpec module="textstructure" ident="signed" mode="delete"/>
+	    <elementSpec module="textstructure" ident="trailer" mode="delete"/>
+	  </schemaSpec>
+
+</body>
+</text>
+</TEI>

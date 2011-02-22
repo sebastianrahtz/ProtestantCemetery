@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S957.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 957</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S957">
+          <msIdentifier>
+            <idno>S957</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="HEAD">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>88</height>
+                    <depth>11</depth>
+                    <width>72</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>3</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Enrico Carlo</forename>
+              <surname>Sartorio</surname>
+            </persName>
+            <death when="1965"/>
+            <nationality/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Ester</forename>
+              <surname>Chiolo</surname>
+            </persName>
+            <death when="1980"/>
+            <nationality/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Lidia</forename>
+              <surname>Sartorio</surname>
+            </persName>
+            <death when="1984"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  decls="#f_S #c_1 #m_IC #t_P">
+        <ab>REV. ENRICO CARLO SARTORIO</ab>
+        <ab>* 12.XI.1884 + 22.II.1965</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_1 #m_IC #t_S">
+        <ab>ESTER CHIOLO NATA CHIERA</ab>
+        <ab>* 1.III.1904 + 12.V.1980</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_1 #m_IC #t_S">
+        <ab>LIDIA SARTORIO NATA CHIERA</ab>
+        <ab>* 26.IV.1890 + 30.XII.1984</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S52.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 52</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S52">
+          <msIdentifier>
+            <idno>S52</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>148</height>
+                    <width>78</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>41</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Friedrich</forename>
+              <surname>Gundlach</surname>
+            </persName>
+            <birth when="1880">
+              <placeName>
+                <settlement>Mecklenburg Strelitz </settlement>
+                <country>?</country>
+              </placeName>
+            </birth>
+            <death when="1821-08-25">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_T #c_4 #m_IC #t_P">
+        <ab>BARON</ab>
+        <ab>FRIEDRICH GUNDLACH</ab>
+        <ab>AUS</ab>
+        <ab>MECKLENBURG STRELITZ</ab>
+        <ab>GESTORBEN ZU ROM</ab>
+        <ab>DEN 2[5?] AUGUST 1821</ab>
+        <ab>IM 41 LEBENSIAHRE</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

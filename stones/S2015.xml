@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2015.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2015</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2015">
+          <msIdentifier>
+            <idno>S2015</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="LEDG">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>196</height>
+                    <depth>20</depth>
+                    <width>97</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="faces">top</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Greta Andersson</forename>
+              <surname>Vuolo</surname>
+            </persName>
+            <death when="1950"/>
+            <nationality key="SE"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Raffaele</forename>
+              <surname>Vuolo</surname>
+            </persName>
+            <death when="1964"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_2 #m_IC #t_P">
+        <ab>GRETA ANDERSSON VUOLO</ab>
+        <ab>* HALSINGBORG 9 OTTOBRE 1891</ab>
+        <ab>+ ROMA. 31 DICEMBRE 1950</ab>
+        <ab/>
+        <ab>RAFFAELE VUOLO</ab>
+        <ab>+ ROMA. 24 APRILE 1964</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

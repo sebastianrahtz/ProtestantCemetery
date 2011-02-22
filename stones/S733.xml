@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S733.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 733</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S733">
+          <msIdentifier>
+            <idno>S733</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>144</height>
+                    <depth>10</depth>
+                    <width>52</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Enrico</forename>
+              <surname>Cardinali</surname>
+            </persName>
+            <death when="1894"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Carolina</forename>
+              <surname>Cardinali</surname>
+            </persName>
+            <death when="1917"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>ALLA CARA MEMORIA</ab>
+        <ab>DELL'AVVOCATO ENRICO CARDINALI</ab>
+        <ab>DI ANNI 59 NATO A BORGOTARO</ab>
+        <ab>MORTO A ROMA IL 3 MARZO 1894.</ab>
+        <ab>E CAROLINA SUA MOGLE</ab>
+        <ab>FIGLIA UNICA DI</ab>
+        <ab>DOUGLAS HADOW CRAWFORD</ab>
+        <ab>OF THE INDIAN CIVIL SERVICE</ab>
+        <ab>MORTA IL 30 APRILE 1917</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
+        <ab rend="Alignl">"ASPETTIAMO IL SIGNORE</ab>
+        <ab rend="Alignl">GESU CHRISTO"</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

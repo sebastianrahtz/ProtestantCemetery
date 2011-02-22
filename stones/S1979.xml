@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1979.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1979</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1979">
+          <msIdentifier>
+            <idno>S1979</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>40</height>
+                    <depth>28</depth>
+                    <width>48</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_114 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Eleanor</forename>
+              <surname>Packard</surname>
+            </persName>
+            <death when="1972"/>
+            <nationality key="UK"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Nathaniel Reynolds</forename>
+              <surname>Packard</surname>
+            </persName>
+            <death when="1976"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
+        <ab>ELEANOR PACKARD</ab>
+        <ab>NÉE CRYAN</ab>
+        <ab>*4. 1X. 1905 +4. V. 1972</ab>
+        <ab>NATHANIEL REYNOLDS</ab>
+        <ab>PACKARD</ab>
+        <ab>*23. X11. 1903 +15. X. 1976</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

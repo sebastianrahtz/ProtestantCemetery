@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1613.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1613</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1613">
+          <msIdentifier>
+            <idno>S1613</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>165</height>
+                    <depth>61</depth>
+                    <width>61</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Mary</forename>
+              <surname>Bayly</surname>
+            </persName>
+            <death when="1902"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+        <ab>IN LOVING MEMORY</ab>
+        <ab>OF OUR DEAR MOTHER</ab>
+        <ab>MARY</ab>
+        <ab/>
+        <ab>WIDOW OF GENERAL ABINGDON BAYLY</ab>
+        <ab>ROYAL ARTILLERY</ab>
+        <ab>BORN JULY 16TH 1835</ab>
+        <ab>FELL ASLEEP DEC 20TH 1902.</ab>
+        <ab/>
+        <ab rend="Alignl">"BLESSED ARE THE PURE IN HEART,</ab>
+        <ab rend="Alignl">FOR THEY SHALL SEE GOD."</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

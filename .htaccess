@@ -1,0 +1,136 @@
+PerlSetVar AxUAStyleMap "netscape => Mozilla/4.77,\
+  netscape => Opera 5, \
+  netscape => Mozilla/4.5, \
+  netscape => Mozilla/4.7 \(Macintosh, \
+  netscape => Mozilla/4.75, \
+  netscape => Mozilla/4.76, \
+  netscape => Mozilla/4.78, \
+  netscape => Mozilla/4.79, \
+  text => Lynx, \
+  screen=>"
+
+<Files "*.xml*">
+AxResetProcessors
+
+ <AxMediaType screen>
+  <AxStyleName "#default">
+    AxAddRootProcessor text/xsl /stylesheets/teihtml-oucs.xsl TEI.2 
+    AxAddRootProcessor text/xsl /stylesheets/docbook/html/docbook.xsl article
+  </AxStyleName>
+
+  <AxStyleName netscape>
+    AxAddRootProcessor text/xsl /stylesheets/teihtml-oucs.xsl TEI.2 
+  </AxStyleName>
+
+  <AxStyleName screen>
+    AxAddRootProcessor text/xsl /stylesheets/teihtml-oucs.xsl TEI.2 
+    AxAddRootProcessor text/xsl /stylesheets/docbook/html/docbook.xsl article
+  </AxStyleName>
+
+  <AxStyleName printable>
+    AxAddRootProcessor text/xsl /stylesheets/teihtml-oucs-printable.xsl TEI.2 
+  </AxStyleName>
+
+  <AxStyleName text>
+    AxAddRootProcessor text/xsl /stylesheets/teihtml-oucs-text.xsl TEI.2 
+  </AxStyleName>
+
+  <AxStyleName css>
+    AxAddRootProcessor text/xsl /stylesheets/teihtml-oucs-css.xsl TEI.2 
+  </AxStyleName>
+
+  <AxStyleName raw>
+    AxAddRootProcessor text/xsl /stylesheets/teihtml-oucs-raw.xsl TEI.2 
+  </AxStyleName>
+
+  <AxStyleName .pdf>
+    AxAddRootProcessor text/xsl /stylesheets/tei-oucs.xsl TEI.2 
+    AxAddProcessor text/xslfo NULL
+  </AxStyleName>
+ </AxMediaType>
+</Files>
+
+<Files "*.xsp">
+ AxResetProcessors
+ <AxMediaType screen>
+
+   <AxStyleName "#default">
+    AxAddProcessor application/x-xsp NULL 
+    AxAddProcessor text/xsl /stylesheets/teihtml-oucs.xsl
+   </AxStyleName>
+
+   <AxStyleName raw>
+    AxAddProcessor application/x-xsp NULL 
+    AxAddProcessor text/xsl /stylesheets/teihtml-oucs-raw.xsl 
+   </AxStyleName>
+
+   <AxStyleName xsp>
+    AxAddProcessor application/x-xsp NULL 
+   </AxStyleName>
+
+   <AxStyleName netscape>
+    AxAddProcessor application/x-xsp NULL 
+    AxAddProcessor text/xsl /stylesheets/teihtml-oucs.xsl
+   </AxStyleName>
+
+   <AxStyleName screen>
+    AxAddProcessor application/x-xsp NULL 
+    AxAddProcessor text/xsl /stylesheets/teihtml-oucs.xsl
+   </AxStyleName>
+
+   <AxStyleName printable>
+    AxAddProcessor application/x-xsp NULL 
+    AxAddProcessor text/xsl /stylesheets/teihtml-oucs-printable.xsl
+   </AxStyleName>
+
+   <AxStyleName text>
+    AxAddProcessor application/x-xsp NULL 
+    AxAddProcessor text/xsl /stylesheets/teihtml-oucs-text.xsl 
+   </AxStyleName>
+
+   <AxStyleName css>
+    AxAddProcessor application/x-xsp NULL 
+    AxAddProcessor text/xsl /stylesheets/teihtml-oucs-css.xsl
+   </AxStyleName>
+
+   <AxStyleName .pdf>
+    AxResetProcessors
+    AxAddProcessor application/x-xsp NULL 
+    AxAddProcessor text/xsl /stylesheets/tei-oucs.xsl
+    AxAddProcessor text/xslfo NULL
+   </AxStyleName>
+
+ </AxMediaType>
+
+</Files>
+
+<Files "pcresults.xml">
+AxNoCache On
+AxResetProcessors
+ <AxMediaType screen>
+  <AxStyleName raw>
+    AxAddProcessor text/xsl exist2pctei.xsl
+  </AxStyleName>
+  <AxStyleName screen>
+ AxAddProcessor text/xsl exist2pctei.xsl
+ AxAddProcessor text/xsl teihtml-cemresults.xsl 
+  </AxStyleName>
+</AxMediaType>
+
+</Files>
+
+<Files "results.xml">
+AxNoCache On
+AxResetProcessors
+ <AxMediaType screen>
+  <AxStyleName raw>
+    AxAddProcessor text/xsl exist2tei.xsl
+  </AxStyleName>
+  <AxStyleName screen>
+ AxAddProcessor text/xsl exist2tei.xsl
+ AxAddProcessor text/xsl teihtml-exist.xsl 
+  </AxStyleName>
+</AxMediaType>
+
+</Files>
+

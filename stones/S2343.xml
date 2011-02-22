@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2343.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2343</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2343">
+          <msIdentifier>
+            <idno>S2343</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>173</height>
+                    <depth>35</depth>
+                    <width>85</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Elena</forename>
+              <surname>Stal'fon' gol'xtein</surname>
+            </persName>
+            <death when="1941"/>
+            <nationality key="RU"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Aleksěj</forename>
+              <surname>Stal'fon' gol'xtein</surname>
+            </persName>
+            <death when="1948"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_3 #m_IC #t_P #s_CY">
+        <ab>БАРОН" АЛЕКСѢЙ ИВАНОВИЯ"</ab>
+        <ab>СТАЛ' - ФОН' - ГОА'ЬТЕЙ@~Н</ab>
+        <ab>*24 МАРТА 1859 г. + 28 АПРѢЛЯ 1941г</ab>
+        <ab rend="Alignl">
+          <note xml:lang="en"> GOA' sic for GOL'.</note>
+        </ab>
+      </div>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_3 #m_IC #t_S #s_CY">
+        <ab>БАРОНЕССА ЕЛЕНА АЛЕКСѢЕВНА</ab>
+        <ab>СТАЛ' ФОН" ГОЛ'ЬТЕЙН"</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

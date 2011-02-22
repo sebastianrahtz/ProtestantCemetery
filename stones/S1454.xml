@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1454.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1454</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1454">
+          <msIdentifier>
+            <idno>S1454</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="STAT">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>158</height>
+                    <depth>34</depth>
+                    <width>41</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_19 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Fritz</forename>
+              <surname>Schulze</surname>
+            </persName>
+            <death when="1914"/>
+            <nationality key="DE"/>
+          </person>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Mararethe</forename>
+              <surname>Schulze</surname>
+            </persName>
+            <death when="1929"/>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+        <ab>BILDHAUER</ab>
+        <ab>FRITZ SCHULZE</ab>
+        <ab>AUS RENDSBURG</ab>
+        <ab>1858</ab>
+        <ab>1915</ab>
+      </div>
+      <div type="inscription"  xml:lang="de" decls="#f_S #c_3 #m_I #t_S">
+        <ab>MARGARETHE SCHULZE</ab>
+        <ab>GEB WEDECKE</ab>
+        <ab>1852</ab>
+        <ab>1929</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

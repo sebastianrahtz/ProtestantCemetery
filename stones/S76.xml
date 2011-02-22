@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S76.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 76</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S76">
+          <msIdentifier>
+            <idno>S76</idno>
+            <altIdentifier>
+              <idno type="zone">Parte Antica</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="COL">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>130</height>
+                    <dim type="diameter">40</dim>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_30 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>9</age>
+            <sex>1</sex>
+            <persName>
+              <forename>Gulielmus</forename>
+              <surname>Humboldt</surname>
+            </persName>
+            <birth when="1794-05-01">
+              <placeName>
+                <settlement>Jena </settlement>
+                <country>?Germany</country>
+              </placeName>
+            </birth>
+            <death when="1803-09-01">
+              <placeName>
+                <settlement>Aricia </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="DE"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="la" decls="#f_S #c_2 #m_IF #t_P">
+        <ab>CIRCVLARIS.AREA</ab>
+        <ab>TERMINIS.CINCTA.P.CIXXX</ab>
+        <ab>IN.CVIVS.MEDITVLLIO.TVMVLVS.EST</ab>
+        <ab>GVLIELMI.IVNIORIS.AB.HVMBOLDT</ab>
+        <ab>LOCVS.SEPVLTVRAE.PVBLICE.DATVS</ab>
+        <ab>GVLIELMO AB.HVMBOLDT</ab>
+        <ab>REGIS.BORVSSORVM</ab>
+        <ab>AD.SVMMVM.PONTIFICEM ORATORI</ab>
+        <ab>POSTERISQVE.EIVS</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_R #c_2 #m_IF #t_P">
+        <ab>NAT.JENAE III.NON MAI</ab>
+        <ab>AN. CHR. MDCCVIC</ab>
+        <ab>OBIIT ARICIAE XVIII KAL. SEPT.</ab>
+        <ab>MDCCCIII</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

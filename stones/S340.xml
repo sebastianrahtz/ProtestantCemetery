@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S340.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 340</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S340">
+          <msIdentifier>
+            <idno>S340</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="PLB">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>66</height>
+                    <width>100</width>
+                    <dim type="diameter">70</dim>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>57</age>
+            <sex>2</sex>
+            <persName>
+              <forename>Jane</forename>
+              <surname>Carter</surname>
+            </persName>
+            <birth when="1894-02-17"/>
+            <death when="1951-03-26">
+              <placeName>
+                <settlement>Rome </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+        <ab>TO THE LOVING MEMORY OF MY BELOVED SISTER.</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+        <ab>JANE ADELAIDE CARTER</ab>
+        <ab>BORN 17TH FEBRUARY 1894</ab>
+        <ab>PASSED AWAY ROME 26TH MARCH 1951</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_IF #t_PC">
+        <ab rend="Alignl">SOME MAY THINK WE FORGET,</ab>
+        <ab rend="Alignl">WHEN AT TIMES THEY SEE US SMILE,</ab>
+        <ab rend="Alignl">BUT THEY LITTLE KNOW THE HEARTACHE</ab>
+        <ab rend="Alignl">THAT IS HIDDEN ALL THE WHILE.</ab>
+        <ab>JOHN &amp; DAD.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

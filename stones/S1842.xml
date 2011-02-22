@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1842.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1842</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1842">
+          <msIdentifier>
+            <idno>S1842</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>170</height>
+                    <depth>40</depth>
+                    <width>44</width>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Balcarres Dalrymple Wardlaw</forename>
+              <surname>Ramsay</surname>
+            </persName>
+            <death when="1885"/>
+            <nationality key="UK"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Anne Margaret</forename>
+              <surname>Ramsay</surname>
+            </persName>
+            <death when="1888"/>
+            <nationality key="UK"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+        <ab>IN LOVING MEMORY OF</ab>
+        <ab>LT COLONEL BALCARRES DALRYMPLE</ab>
+        <ab>WARDLAW RAMSAY</ab>
+        <ab>DIED AT ROME 26TH JANUARY 1885</ab>
+        <ab>AGED 62</ab>
+        <ab>"THE LORD GAVE AND THE LORD HATH TAKEN AWAY</ab>
+        <ab>BLESSED BE THE NAME OF THE LORD"</ab>
+      </div>
+      <div type="inscription"  xml:lang="en" decls="#f_N #c_3 #m_IF #t_S">
+        <ab>ALSO IN MEMORY</ab>
+        <ab>ANNE MARGARET</ab>
+        <ab>WIDOW OF LT COLONEL RAMSAY</ab>
+        <ab>AND DAUGHTER OF EDWARD COLLINS ESQ</ab>
+        <ab>OF MAIZE HILL GREENWICH</ab>
+        <ab>WHO DIED 7TH NOVEMBER 1888</ab>
+        <ab>AGED 74</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S259.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 259</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S259">
+          <msIdentifier>
+            <idno>S259</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Vecchia</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>174</height>
+                    <depth>65</depth>
+                    <width>80</width>
+                  </dimensions>
+                </extent>
+                <condition>excellent</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_142 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_142 #st_C #f_S"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <age>71</age>
+            <sex>1</sex>
+            <persName>
+              <forename>William Hills</forename>
+              <surname>Sheldon</surname>
+            </persName>
+            <birth when="1882-12-04">
+              <placeName>
+                <settlement>auburn new york </settlement>
+                <country>USA</country>
+              </placeName>
+            </birth>
+            <death when="1954-09-07">
+              <placeName>
+                <settlement>anticoli corrado </settlement>
+                <country>Italy</country>
+              </placeName>
+            </death>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+        <ab>WILLIAM HILLS</ab>
+        <ab>SHELDON</ab>
+        <ab>BORN AUBURN NEW YORK 4.DEC.1882</ab>
+        <ab>DIED ANTICOLI CORRADO 7.SEPT.1954</ab>
+        <ab>--------------</ab>
+        <ab>IN LOVING MEMORY</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

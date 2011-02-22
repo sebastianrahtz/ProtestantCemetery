@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1192.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1192</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1192">
+          <msIdentifier>
+            <idno>S1192</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="STAT">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>195</height>
+                    <depth>65</depth>
+                    <width>84</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_4 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_A #f_T"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_45 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Theodosia Armstrong</forename>
+              <surname>Greer</surname>
+            </persName>
+            <death when="1905"/>
+            <nationality key="US"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+        <ab>IN LOVING MEMORY</ab>
+        <ab>OF</ab>
+        <ab>THEODOSIA ARMSTRONG GREER</ab>
+        <ab>BORN IN MAYSVILLE KENTUCKY U.S.A.</ab>
+        <ab>JULY 15TH 1827</ab>
+        <ab>DIED IN BAGNAIA.ITALY</ab>
+        <ab>AUGUST 19TH 1905</ab>
+        <ab>ERECTED IN TOKEN OF ETERNAL GRATITUDE</ab>
+        <ab>BY HER NIECE</ab>
+        <ab>AND INCONSOLABLE ADOPTED DAUGHTER</ab>
+        <ab>HÉLÉNE A.G. ALLLEN</ab>
+      </div>
+      <div type="inscription"  xml:lang="la" decls="#f_T #c_3 #m_I #t_PC">
+        <ab>REQUIESCANT</ab>
+        <ab>IN PACE</ab>
+        <ab rend="Alignl">
+          <note> on book</note>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

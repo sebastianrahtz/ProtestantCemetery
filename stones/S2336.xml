@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2336.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 2336</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S2336">
+          <msIdentifier>
+            <idno>S2336</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Terza</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>3</num>
+                  <dimensions unit="cm">
+                    <height>210</height>
+                    <depth>82</depth>
+                    <width>100</width>
+                  </dimensions>
+                </extent>
+                <condition>bad</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_24 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_124 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="faces">south side</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Vera</forename>
+              <surname>Rubinxtetjh"</surname>
+            </persName>
+            <death when="1909"/>
+            <nationality key="RU"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Adelaide</forename>
+              <surname>Rebesoff</surname>
+            </persName>
+            <death when="1965"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_4 #m_IC #t_P #s_CY">
+        <ab>ВЕРА АЛЕКСАНДРОВНА</ab>
+        <ab>РУБИНЬТЕЙН"</ab>
+        <ab>18[.]1 - 1909</ab>
+        <ab rend="Alignl">
+          <note xml:lang="en">the date is probably 1841</note>
+        </ab>
+      </div>
+      <div type="inscription"  decls="#f_S #c_3 #m_IC #t_S">
+        <ab>ADELAIDE REBESOFF</ab>
+        <ab>* 2.10.1875 +28.1.1965</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

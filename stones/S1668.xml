@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1668.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 1668</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S1668">
+          <msIdentifier>
+            <idno>S1668</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Seconda</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="COL">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>1</num>
+                  <dimensions unit="cm">
+                    <height>130</height>
+                    <dim type="diameter">35</dim>
+                  </dimensions>
+                </extent>
+                <condition>reasonable</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_112 #st_B #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_B #f_T"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Umberto</forename>
+              <surname>Boni</surname>
+            </persName>
+            <death when="1872"/>
+            <nationality key="IT"/>
+          </person>
+          <person>
+            <sex>2</sex>
+            <persName>
+              <forename>Matilde</forename>
+              <surname>Boni</surname>
+            </persName>
+            <death when="1883"/>
+            <nationality key="IT"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
+        <ab>UMBERTO</ab>
+        <ab>DI AGUILLE ED EMILIA BONI</ab>
+        <ab>POCHI MESI PEREGRINO</ab>
+        <ab>SULLA TERRA</ab>
+        <ab>E AL CIELO RIPRESE IL VOLO</ab>
+        <ab>IL DI 4 LUGLIO 1872</ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_N #c_3 #m_I #t_S">
+        <ab>MATILDE</ab>
+        <ab>SUA SORELLA</ab>
+        <ab>NELLA STESSA ERA</ab>
+        <ab>A LUI STUNI</ab>
+        <ab>IL 17 FEBRARO 1883</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

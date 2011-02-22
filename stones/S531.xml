@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S531.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stone 531</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished. Not to be reproduced</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc facs="#Plot_S531">
+          <msIdentifier>
+            <idno>S531</idno>
+            <altIdentifier>
+              <idno type="zone">Zona Prima</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="CROSS">
+              <supportDesc>
+                <support>
+                  <material>stone</material>
+                </support>
+                <extent>
+                  <num>2</num>
+                  <dimensions unit="cm">
+                    <height>238</height>
+                    <depth>45</depth>
+                    <width>75</width>
+                  </dimensions>
+                </extent>
+                <condition>good</condition>
+              </supportDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote type="feature">
+                <num>5</num>
+                <ptr target="#i_66 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_94 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>1</num>
+                <ptr target="#i_113 #st_C #f_X"/>
+              </decoNote>
+              <decoNote type="feature">
+                <num>2</num>
+                <ptr target="#i_121 #st_A #f_S"/>
+              </decoNote>
+              <decoNote type="faces"/>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <sex>1</sex>
+            <persName>
+              <forename>Anton"</forename>
+              <surname>Ivanov"</surname>
+            </persName>
+            <death when="1863"/>
+            <nationality key="RU"/>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_4 #m_I #t_P #s_CY">
+        <ab>ДРУГУ МОЕМУ</ab>
+        <ab>АНТОНУ ИВАНОВИЯУ</ab>
+        <ab>ИВАНОВУ</ab>
+        <ab/>
+        <ab>СКОНЯАВЬЕМУЦЯ  РИМЕ 24 НОЯБРЯ 1863 ГОДА</ab>
+      </div>
+      <div type="inscription"  xml:lang="ru" decls="#f_S #c_4 #m_I #t_PC">
+        <ab rend="Alignl">
+          <note xml:lang="en"> OCS ?</note>
+        </ab>
+      </div>
+      <div type="inscription"  xml:lang="it" decls="#f_N #c_3 #m_I #t_P">
+        <ab>AL MIO AMICO</ab>
+        <ab>ANTONIO IVANOFF</ab>
+        <ab>PITTORE RUSSO</ab>
+        <ab>MORTO IL 6 DECEMBRE 1863</ab>
+      </div>
+    </body>
+  </text>
+</TEI>
