@@ -1,0 +1,22 @@
+#!/bin/sh
+# A1 is 594 x 841 mm, A0 841 x 1,189 mm
+# 21 rows x 18 columns = 378 pictures
+# for A1 about 40mm x 33mm per picture = 113x94 pixels
+# for A0 about 56mm x 40mm per picture = 159x113 pixels
+# Those are at 72 pixels to the inch, of course
+# 661 x 470 would be 300 dpi worth.
+rm -f montage.jpg
+TOT=`ls *jpg *png | wc -l`
+echo $TOT photos to do
+
+#my pictures are 3008x2000, so we might try
+#for 51mm x 34mm = 145 x 96 pixels , approx 600 x 400
+
+montage -label %f \
+	-shadow \
+	-tile 23x \
+	-geometry "600x400+1+1>" \
+	*jpg *png \
+	-title "Protestant Cemetery, Rome" \
+	montage.jpg
+
