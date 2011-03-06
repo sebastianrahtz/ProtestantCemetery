@@ -23,7 +23,7 @@
 	style='fill: none;'
 	viewBox="19.904121 0.0 3194.056566 1145.158275">
       <xsl:call-template name="outline"/>
-      <xsl:for-each select="key('FORMS','STAT')">
+      <xsl:for-each select="key('FORMS','CROSS')">
 	<xsl:apply-templates select="ancestor::TEI"/>
       </xsl:for-each>
     </svg>
