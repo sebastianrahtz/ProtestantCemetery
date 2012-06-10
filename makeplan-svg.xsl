@@ -7,6 +7,7 @@
     version="2.0"                
 >
   
+  <xsl:key name="ALL" match="TEI" use="1"/>
   <xsl:key name="SVG" match="svg:g" use="@id"/>
 
   <xsl:key name="ZONES" match="zone" use="@xml:id"/>  
@@ -23,8 +24,11 @@
 	style='fill: none;'
 	viewBox="19.904121 0.0 3194.056566 1145.158275">
       <xsl:call-template name="outline"/>
-      <xsl:for-each select="key('FORMS','CROSS')">
-	<xsl:apply-templates select="ancestor::TEI"/>
+      <!--<xsl:for-each select="key('FORMS','CROSS')">
+	<xsl:apply-templates select="ancestor-or-self::TEI"/>
+      </xsl:for-each>-->
+      <xsl:for-each select="key('ALL',1)">
+	<xsl:apply-templates select="ancestor-or-self::TEI"/>
       </xsl:for-each>
     </svg>
   </xsl:template>
