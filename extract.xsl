@@ -18,7 +18,7 @@
   <xsl:value-of select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
   <xsl:text>","</xsl:text>
   <xsl:number/>
-  <xsl:text>",</xsl:text>
+  <xsl:text>","</xsl:text>
   <xsl:value-of select="persName/forename"/>
   <xsl:text>","</xsl:text>
   <xsl:value-of select="persName/surname"/>
@@ -37,21 +37,20 @@
   <xsl:for-each select="document('places.xml')">
     <xsl:choose>
       <xsl:when test="key('P',$p)">
-	<xsl:for-each select="key('P',$p)">
-	  <xsl:value-of select="feature[1]/identifier"/>
-	  <xsl:text>","</xsl:text>
-	  <xsl:value-of select="substring-before(feature[1]/centroid,',')"/>
-	  <xsl:text>","</xsl:text>
-	  <xsl:value-of select="substring-after(feature[1]/centroid,',')"/>
+	<xsl:for-each select="key('P',$p)/feature[1]">
+	  <xsl:value-of select="identifier"/>
 	  <xsl:text>",</xsl:text>
+	  <xsl:value-of select="substring-before(centroid,',')"/>
+	  <xsl:text>,</xsl:text>
+	  <xsl:value-of select="substring-after(centroid,',')"/>
 	</xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:text>","","</xsl:text>
+	<xsl:text>,,</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:for-each>
-  <xsl:text>","</xsl:text>
+  <xsl:text>,"</xsl:text>
   <xsl:value-of select="normalize-space(birth/placeName/country)"/>
   <xsl:text>","</xsl:text>
   <xsl:value-of select="nationality/@key"/>
