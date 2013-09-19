@@ -178,7 +178,7 @@
 	select="./teiHeader//msDesc/physDesc/decoDesc"/>
     <xsl:for-each
 	select="id(concat('Plot_',$id))/graphic[not(starts-with(@url,'film:'))]">
-      <p><img src="{@url}"/></p>
+      <div><img height="300" src="{@url}"/></div>
     </xsl:for-each>
   </xsl:template>
 
@@ -219,10 +219,11 @@
   <xsl:template match="decoDesc">
     <xsl:apply-templates select="p"/>
     <xsl:text>&#10;</xsl:text>
-    <xsl:for-each select="decoNote[@type='feature']">
-      <xsl:call-template name="splitDecl">
-        <xsl:with-param name="decl" select="translate(ptr/@target,'#','')"/>
-      </xsl:call-template>
+    <xsl:for-each select="decoNote[@type='feature']/ptr">
+      <xsl:for-each select="tokenize(@target,' ')">
+        <xsl:sequence select="tei:showDecl(substring(.,2))"/>
+      </xsl:for-each>
+      <br/>
     </xsl:for-each>
   </xsl:template>
 
@@ -235,9 +236,9 @@
         </strong>
       </td>
       <td width="20%">
-        <xsl:call-template name="splitDecl">
-	  <xsl:with-param name="decl" select="translate(@decls,'#','')"/>
-        </xsl:call-template>
+        <xsl:for-each select="tokenize(@decls,' ')">
+	  <xsl:sequence select="tei:showDecl(substring(.,2))"/>
+	</xsl:for-each>
         <xsl:value-of select="key('LANGS',$l)"/>
       </td>
       <td width="75%">
@@ -279,29 +280,21 @@
       </td>
     </tr>
   </xsl:template>
-  <xsl:template name="splitDecl">
+
+  <xsl:function name="tei:showDecl">
     <xsl:param name="decl"/>
-    <xsl:choose>
-      <xsl:when test="contains($decl,' ')">
-	<xsl:variable name="this" select="substring-before($decl,' ')"/>
+    <xsl:variable name="thing">
+      <xsl:for-each select="$TOP">
 	<i>
-	  <xsl:value-of select="key('CATS',$this)/../@xml:id"/>
+	  <xsl:value-of  select="key('CATS',$decl)/../@xml:id"/>
 	</i>
 	<xsl:text>: </xsl:text>
-	<xsl:value-of select="key('CATS',$this)/catDesc"/>
-	<xsl:text>, </xsl:text>
-	<xsl:call-template name="splitDecl">
-	  <xsl:with-param name="decl" select="substring-after($decl,' ')"/>
-	</xsl:call-template>
-      </xsl:when>
-      <xsl:otherwise>
-	<i>
-	<xsl:value-of  select="key('CATS',$decl)/../@xml:id"/></i>
-	<xsl:text>: </xsl:text>
 	<xsl:value-of select="key('CATS',$decl)/catDesc"/>.
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:copy-of select="$thing"/>
+  </xsl:function>
+
   <xsl:template match="death">
     <xsl:variable name="myYear">
       <xsl:value-of select="substring-before(@when,'-')"/>
