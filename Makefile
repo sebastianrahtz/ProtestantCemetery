@@ -42,4 +42,5 @@ cemall.xml: cem.xml
 	xmllint --xinclude cem.xml > cemall.xml
 
 clean:
-	-rm *.idx *.log *.fo *.fmt *.aux *.pdf *.out *.html *.dvi *.texxml
+	rm -f *.idx *.log *.fo *.fmt *.aux *.pdf *.out *.html *.dvi *.texxml
+	rm cemall.xml

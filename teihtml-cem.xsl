@@ -2,25 +2,19 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns="http://www.w3.org/1999/xhtml" 
 		xmlns:xi="http://www.w3.org/2001/XInclude"
-		exclude-result-prefixes="xi"
+		exclude-result-prefixes="xi tei"
 		xpath-default-namespace="http://www.tei-c.org/ns/1.0" 
+		xmlns:tei="http://www.tei-c.org/ns/1.0" 
 		version="2.0">
   <xsl:import href="/usr/share/xml/tei/stylesheet/html/html.xsl"/>
   <xsl:param name="cellAlign">center</xsl:param>
   <xsl:param name="autoToc"/>
   <xsl:template name="logoPicture"/>
   <xsl:param name="cssFile">cem.css</xsl:param>
-  <xsl:param name="feedbackURL">pcYears.html</xsl:param>
-  <xsl:template name="feedbackWords">Catalogue by Year</xsl:template>
-  <xsl:param name="homeLabel">Protestant Cemetery Catalogue</xsl:param>
-  <xsl:param name="homeURL">pcCountries.html</xsl:param>
-  <xsl:param name="homeWords">Catalogue by Country</xsl:param>
   <xsl:param name="institution">Protestant Cemetery catalogue</xsl:param>
   <xsl:param name="department"/>
   <xsl:param name="parentURL">index.html</xsl:param>
   <xsl:param name="parentWords">Protestant Cemetery, Rome</xsl:param>
-  <xsl:param name="searchURL">pcNames.html</xsl:param>
-  <xsl:template name="searchWords">Catalogue by Name</xsl:template>
   <xsl:param name="topNavigationPanel"/>
   <xsl:param name="bottomNavigationPanel"/>
   <xsl:param name="alignNavigationPanel">right</xsl:param>
@@ -29,6 +23,7 @@
   <xsl:key name="nats" match="person" use="nationality/@key"/>
   <xsl:key name="CATS" match="category" use="@xml:id"/>
   <xsl:key name="LANGS" match="language" use="@xml:id"/>
+  <xsl:variable name="TOP" select="/"/>
   <xsl:template match="teiCorpus">
     <html>
       <xsl:call-template name="addLangAtt"/>
@@ -37,6 +32,45 @@
           <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title/text()"/>
         </title>
         <link rel="stylesheet" type="text/css" href="{$cssFile}"/>
+	<link type="text/css" rel="stylesheet" href="DataTables-1.9.4/media/css/demo_table.css"/>
+	<link type="text/css" rel="stylesheet" href="DataTables-1.9.4/media/css/demo_table_jui.css"/>
+	<link type="text/css" rel="stylesheet" href="DataTables-1.9.4/media/css/demo_page.css"/>
+	<script src="jquery-1.10.2.min.js" type="text/javascript"/>
+	<script src="DataTables-1.9.4/media/js/jquery.dataTables.min.js" type="text/javascript"/>
+	<script type="text/javascript">
+	  var fuzzyNum = function (x) {
+	  return +x.replace(/[^\d\.\-]/g, "");
+	  }; 
+	  
+	  jQuery.fn.dataTableExt.oSort['prettynumbers-asc'] = function(x, y) {
+	  return fuzzyNum(x) - fuzzyNum(y);
+	  };   
+	  jQuery.fn.dataTableExt.oSort['prettynumbers-desc'] = function(x, y) {
+	  return fuzzyNum(y) - fuzzyNum(x);
+	  };
+	  $(document).ready(function() {
+	  $('table.stones').dataTable( {
+	  "sPaginationType": "full_numbers",
+	  "bPaginate": true,
+	  "bLengthChange": true,
+	  "bFilter": true,
+	  "bSort": true,
+	  "bInfo": true,
+	  "aoColumns": [ { "sType": [ "prettynumbers" ] }, null,null,null,null ],
+	  "bScrollCollapse": true,
+	  "bAutoWidth": false,
+	  "bJQueryUI": true,
+	  "sDom": 'flprtip',
+	  "aoColumnDefs": [
+	  { "sWidth": "10%", "aTargets": [ 0 ] },
+	  { "sWidth": "15%", "aTargets": [ 1 ] },
+	  { "sWidth": "30%", "aTargets": [ 2 ] },
+	  { "sWidth": "15%", "aTargets": [ 3 ] },
+	  { "sWidth": "25%", "aTargets": [ 4 ] }
+	  ]  
+	  } );
+	  });
+	</script>
       </head>
       <body>
         <xsl:call-template name="bodyHook"/>
@@ -46,25 +80,45 @@
             <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
           </xsl:with-param>
         </xsl:call-template>
+	<div>
+	<table class="stones" id="stones">
+	  <thead>
+	    <tr>
+	      <th>Gravestone</th>
+	      <th>Form</th>
+	      <th>Person</th>
+	      <th>Date of death</th>
+	      <th>Nationality</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	<xsl:for-each
+	    select="TEI/teiHeader/profileDesc/particDesc/listPerson/person">
+	  <xsl:sort select="persName/surname"/>
+	  <xsl:sort select="death/@when"/>
+	  <xsl:variable name="id" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
+	  <tr>
+	    <td>	<a href="{$id}.html"><xsl:value-of select="substring($id,2)"/></a></td>
+	    <td>	<xsl:value-of select="xi:lookup(ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/objectDesc/@form)"/></td>
+	    <td>	<xsl:value-of select="persName/surname"/>, 	<xsl:value-of select="persName/forename"/></td>
+	    <td>	<xsl:value-of select="death/@when"/></td>
+	    <td>	<xsl:value-of select="xi:lookup(nationality/@key)"/></td>
+	  </tr>
+	</xsl:for-each>
+	  </tbody>
+	</table>
+	</div>
         <xsl:call-template name="stdfooter"/>
       </body>
     </html>
     <xsl:apply-templates select="TEI"/>
-    <table>
-    <xsl:for-each
-	select="TEI/teiHeader/profileDesc/particDesc/listPerson/person">
-      <xsl:sort select="persName/surname"/>
-      <xsl:sort select="death/@when"/>
-      <xsl:variable name="id" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
-	<tr>
-	  <td>	<a href="{$id}.html"><xsl:value-of select="$id"/></a></td>
-	  <td>	<xsl:value-of select="death/@when"/></td>
-	  <td>	<xsl:value-of select="xi:types(ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/objectDesc/@form)"/></td>
-	  <td>	<xsl:value-of select="nationality/@key"/></td>
-	  <td>	<xsl:value-of select="persName/surname"/>, 	<xsl:value-of select="persName/forename"/></td>
-	</tr>
-    </xsl:for-each>
-      </table>
+  </xsl:template>
+
+  <xsl:template name="stdfooter">
+    <div class="footer">
+    <hr/>
+      <p>Generated on <xsl:sequence select="tei:generateDate(.)"/></p>
+    </div>
   </xsl:template>
   <xsl:template match="TEI">
     <xsl:result-document href="{teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno}.html" method="xhtml">
@@ -76,7 +130,8 @@
   <xsl:template name="doDivBody">
     <xsl:param name="Depth">0</xsl:param>
     <xsl:param name="nav">false</xsl:param>
-    <xsl:variable name="z" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdenifier/idno"/>
+    <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
+    <xsl:variable name="z" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno"/>
     <xsl:variable name="f" select=".//objectDesc/@form"/>
     <xsl:variable name="m" select=".//material"/>
     <xsl:variable name="n" select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
@@ -119,7 +174,12 @@
         <xsl:apply-templates select="text/body/div"/>
       </table>
     </xsl:if>
-    <xsl:apply-templates select="./teiHeader//msDesc/physDesc/decoDesc"/>
+    <xsl:apply-templates
+	select="./teiHeader//msDesc/physDesc/decoDesc"/>
+    <xsl:for-each
+	select="id(concat('Plot_',$id))/graphic[not(starts-with(@url,'film:'))]">
+      <p><img src="{@url}"/></p>
+    </xsl:for-each>
   </xsl:template>
 
   <xsl:template match="person">
@@ -255,45 +315,10 @@
     <xsl:apply-templates select="@when"/>
   </xsl:template>
 
-  <xsl:function name="xi:types">
+  <xsl:function name="xi:lookup">
     <xsl:param name="code"/>
-    <xsl:choose>
-<xsl:when test="$code='ARCH'">Arch</xsl:when>
-<xsl:when test="$code='BASE'">Base</xsl:when>
-<xsl:when test="$code='BATH'">Bath-shape</xsl:when>
-<xsl:when test="$code='BLOCK'">Block</xsl:when>
-<xsl:when test="$code='BOOK'">Book</xsl:when>
-<xsl:when test="$code='BROKE'">Broken</xsl:when>
-<xsl:when test="$code='BUILD'">Building</xsl:when>
-<xsl:when test="$code='BUST'">Bust</xsl:when>
-<xsl:when test="$code='CHES'">Chest</xsl:when>
-<xsl:when test="$code='CHEST'">Chest</xsl:when>
-<xsl:when test="$code='COL'">Column</xsl:when>
-<xsl:when test="$code='COLB'">Broken</xsl:when>
-<xsl:when test="$code='COPE'">Coped</xsl:when>
-<xsl:when test="$code='CROSS'">Cross</xsl:when>
-<xsl:when test="$code='CUSH'">Cushion</xsl:when>
-<xsl:when test="$code='FOOT'">Footstone</xsl:when>
-<xsl:when test="$code='HEAD'">Headstone</xsl:when>
-<xsl:when test="$code='KERB'">Kerb</xsl:when>
-<xsl:when test="$code='LAMP'">Lamp</xsl:when>
-<xsl:when test="$code='LEDG'">Ledger</xsl:when>
-<xsl:when test="$code='OBEL'">Obelisk</xsl:when>
-<xsl:when test="$code='OSS'">Ossuary</xsl:when>
-<xsl:when test="$code='OTHER'">unique</xsl:when>
-<xsl:when test="$code='PED'">Pedestal</xsl:when>
-<xsl:when test="$code='PLB'">Plaque on base</xsl:when>
-<xsl:when test="$code='PLG'">Plaque in ground</xsl:when>
-<xsl:when test="$code='PLW'">Plaque on wall</xsl:when>
-<xsl:when test="$code='ROCK'">Rocks</xsl:when>
-<xsl:when test="$code='SCRLL'">Scroll</xsl:when>
-<xsl:when test="$code='STAT'">Statue</xsl:when>
-<xsl:when test="$code='TREE'">Tree</xsl:when>
-<xsl:when test="$code='URN'">Urn</xsl:when>
-<xsl:when test="$code='VASE'">Urn</xsl:when>
-<xsl:when test="$code='WRETH'">Wreath</xsl:when>
-<xsl:when test="$code='unknown'">Unknown</xsl:when>
-</xsl:choose>
+    <xsl:value-of select="$TOP/teiCorpus/teiHeader/encodingDesc/classDecl/taxonomy/category[@xml:id=$code]/catDesc"/>
+  </xsl:function>
 
-</xsl:function>
+
 </xsl:stylesheet>
