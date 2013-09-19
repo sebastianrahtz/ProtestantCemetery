@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0">
-  <xsl:import href="/usr/share/xml/tei/stylesheet/xhtml2/tei.xsl"/>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+		xmlns="http://www.w3.org/1999/xhtml" 
+		xmlns:xi="http://www.w3.org/2001/XInclude"
+		exclude-result-prefixes="xi"
+		xpath-default-namespace="http://www.tei-c.org/ns/1.0" 
+		version="2.0">
+  <xsl:import href="/usr/share/xml/tei/stylesheet/html/html.xsl"/>
   <xsl:param name="cellAlign">center</xsl:param>
   <xsl:param name="autoToc"/>
   <xsl:template name="logoPicture"/>
@@ -45,172 +50,36 @@
       </body>
     </html>
     <xsl:apply-templates select="TEI"/>
-    <xsl:call-template name="sort-by-year"/>
-    <xsl:call-template name="sort-by-name"/>
-    <xsl:call-template name="sort-by-nationality"/>
+    <table>
+    <xsl:for-each
+	select="TEI/teiHeader/profileDesc/particDesc/listPerson/person">
+      <xsl:sort select="persName/surname"/>
+      <xsl:sort select="death/@when"/>
+      <xsl:variable name="id" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
+	<tr>
+	  <td>	<a href="{$id}.html"><xsl:value-of select="$id"/></a></td>
+	  <td>	<xsl:value-of select="death/@when"/></td>
+	  <td>	<xsl:value-of select="xi:types(ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/objectDesc/@form)"/></td>
+	  <td>	<xsl:value-of select="nationality/@key"/></td>
+	  <td>	<xsl:value-of select="persName/surname"/>, 	<xsl:value-of select="persName/forename"/></td>
+	</tr>
+    </xsl:for-each>
+      </table>
   </xsl:template>
   <xsl:template match="TEI">
     <xsl:result-document href="{teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno}.html" method="xhtml">
       <xsl:call-template name="writeDiv"/>
     </xsl:result-document>
   </xsl:template>
-  <xsl:template name="sort-by-nationality">
-    <xsl:variable name="orig" select="."/>
-    <xsl:result-document href="pcCountries.html" method="xhtml">
-      <html>
-        <head>
-          <title>Protestant Cemetery country index</title>
-          <link rel="stylesheet" type="text/css" href="cem.css"/>
-        </head>
-        <body>
-          <h1>Protestant Cemetery name index</h1>
-          <xsl:variable name="sorted">
-            <xsl:for-each select="TEI/teiHeader/profileDesc/particDesc/listPerson/person">
-              <xsl:sort select="nationality/@key"/>
-              <xsl:sort select="substring-before(death/@when,'-')"/>
-              <xsl:sort select="persName/surname"/>
-              <stoned xmlns="http://www.tei-c.org/ns/1.0" id="{ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno}" snm="{persName/surname}" fnm="{persName/foreName}" yr="{substring-before(death/@when,'-')}" nat="{nationality/@key}"/>
-            </xsl:for-each>
-          </xsl:variable>
-          <ul>
-            <xsl:for-each select="$sorted/stoned">
-              <xsl:variable name="y" select="@nat"/>
 
-              <xsl:variable name="country">
-                <xsl:choose>
-                  <xsl:when test="$y = ''">none</xsl:when>
-                  <xsl:otherwise>
-		    <xsl:for-each select="$orig">
-		      <xsl:value-of select="key('CATS',$y)/catDesc"/>
-		    </xsl:for-each>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:if test="not(preceding-sibling::stoned[$y=@nat])">
-                <h2>
-                  <a name="Country-{$y}"/>
-                  <xsl:value-of select="$country"/>
-                </h2>
-                <table>
-                  <xsl:apply-templates select="." mode="summary"/>
-                  <xsl:apply-templates select="following-sibling::stoned[$y=@nat]" mode="summary"/>
-                </table>
-              </xsl:if>
-            </xsl:for-each>
-          </ul>
-        </body>
-      </html>
-    </xsl:result-document>
-  </xsl:template>
-  <xsl:template name="sort-by-name">
-    <xsl:result-document href="pcNames.html" method="xhtml">
-      <html>
-        <head>
-          <title>Protestant Cemetery name index</title>
-          <link rel="stylesheet" type="text/css" href="cem.css"/>
-        </head>
-        <body>
-          <h1>Protestant Cemetery name index</h1>
-          <xsl:variable name="sorted">
-            <xsl:for-each select="TEI/teiHeader/profileDesc/particDesc/listPerson/person">
-              <xsl:sort select="persName/surname"/>
-              <xsl:sort select="substring-before(death/@when,'-')"/>
-              <stoned xmlns="http://www.tei-c.org/ns/1.0" id="{ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno}" snm="{persName/surname}" fnm="{persName/foreName}" yr="{substring-before(death/@when,'-')}" nat="{nationality/@key}"/>
-            </xsl:for-each>
-          </xsl:variable>
-          <xsl:for-each select="$sorted/stoned">
-            <xsl:variable name="y" select="@snm"/>
-            <xsl:if test="not(preceding-sibling::stoned[$y=@snm])">
-              <h2>
-                <a name="Name-{$y}"/>
-                <xsl:value-of select="$y"/>
-              </h2>
-              <table>
-                <xsl:apply-templates select="." mode="summary"/>
-                <xsl:apply-templates select="following-sibling::stoned[$y=@snm]" mode="summary"/>
-              </table>
-            </xsl:if>
-          </xsl:for-each>
-        </body>
-      </html>
-    </xsl:result-document>
-  </xsl:template>
-  <xsl:template name="sort-by-year">
-    <xsl:result-document href="pcYears.html" method="xhtml">
-      <html>
-        <head>
-          <title>Protestant Cemetery year index</title>
-          <link rel="stylesheet" type="text/css" href="cem.css"/>
-        </head>
-        <body>
-          <h1>Protestant Cemetery year index</h1>
-          <xsl:variable name="sorted">
-            <xsl:for-each select="TEI/teiHeader/profileDesc/particDesc/listPerson/person">
-              <xsl:sort select="substring-before(death/@when,'-')"/>
-              <xsl:sort select="persName/surname"/>
-              <xsl:sort select="persName/foreName"/>
-              <stoned xmlns="http://www.tei-c.org/ns/1.0" id="{ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno}" snm="{persName/surname}" fnm="{persName/foreName}" yr="{substring-before(death/@when,'-')}" nat="{nationality/@key}"/>
-            </xsl:for-each>
-          </xsl:variable>
-          <xsl:for-each select="$sorted/stoned">
-            <xsl:variable name="y" select="@yr"/>
-            <xsl:if test="not(preceding-sibling::stoned[$y=@yr])">
-              <h2>
-                <a name="Year-{$y}"/>
-                <xsl:value-of select="$y"/>
-              </h2>
-              <table>
-                <xsl:apply-templates select="." mode="summary"/>
-                <xsl:apply-templates select="following-sibling::stoned[$y=@yr]" mode="summary"/>
-              </table>
-            </xsl:if>
-          </xsl:for-each>
-        </body>
-      </html>
-    </xsl:result-document>
-  </xsl:template>
-  <xsl:template match="stoned" mode="summary">
-    <xsl:variable name="y" select="@nat"/>
-    <tr valign="top">
-      <td/>
-      <td>
-        <xsl:value-of select="@fnm"/>
-      </td>
-      <td>
-        <xsl:value-of select="@snm"/>
-      </td>
-      <td>
-        <xsl:value-of select="@yr"/>
-      </td>
-      <td>
-        <xsl:value-of select="key('CATS',$y)"/>
-      </td>
-      <td>
-        <a href="{@id}.html">#<xsl:value-of select="@id"/></a>
-      </td>
-    </tr>
-  </xsl:template>
-  <xsl:template match="person" mode="summary">
-</xsl:template>
-  <xsl:template match="person" mode="special">
-    <xsl:choose>
-      <xsl:when test="not(preceding-sibling::person)">
-        <xsl:apply-templates select=".."/>
-      </xsl:when>
-      <xsl:otherwise>
-        <p>See also <xsl:value-of select="persName/foreName"/>
- <xsl:text> </xsl:text><xsl:value-of select="persName/surname"/>
- <xsl:apply-templates select=".." mode="xref"/></p>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
+
   <xsl:template name="doDivBody">
     <xsl:param name="Depth">0</xsl:param>
-    <xsl:param name="Country" select="'XXX'"/>
+    <xsl:param name="nav">false</xsl:param>
     <xsl:variable name="z" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdenifier/idno"/>
     <xsl:variable name="f" select=".//objectDesc/@form"/>
     <xsl:variable name="m" select=".//material"/>
-    <xsl:variable name="n" select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@code"/>
+    <xsl:variable name="n" select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
     <xsl:variable name="p1">
       <xsl:value-of select="teiHeader/profileDesc/particDesc/listPerson/person[1]/persName/surname"/>
     </xsl:variable>
@@ -268,9 +137,7 @@
    </td>
   </xsl:template>
   <xsl:template match="nationality">
-    <a href="pcCountries.html#Country-{@key}">
       <xsl:value-of select="key('CATS',@key)"/>
-    </a>
   </xsl:template>
   <xsl:template match="persName">
     <xsl:text>[</xsl:text>
@@ -284,11 +151,9 @@
       <xsl:apply-templates select="surname"/>
     </xsl:variable>
     <xsl:text> </xsl:text>
-    <a href="pcNames.html#Name-{$myName}">
       <span class="snm">
 	<xsl:value-of select="$myName"/>
       </span>
-    </a>
 </xsl:template>
 
   <xsl:template match="decoDesc">
@@ -381,13 +246,54 @@
     <xsl:variable name="myYear">
       <xsl:value-of select="substring-before(@when,'-')"/>
     </xsl:variable>
-    <a href="pcYears.html#Year-{$myYear}">
       <span class="yr">
         <xsl:apply-templates select="@when"/>
       </span>
-    </a>
+
   </xsl:template>
   <xsl:template match="birth">
     <xsl:apply-templates select="@when"/>
   </xsl:template>
+
+  <xsl:function name="xi:types">
+    <xsl:param name="code"/>
+    <xsl:choose>
+<xsl:when test="$code='ARCH'">Arch</xsl:when>
+<xsl:when test="$code='BASE'">Base</xsl:when>
+<xsl:when test="$code='BATH'">Bath-shape</xsl:when>
+<xsl:when test="$code='BLOCK'">Block</xsl:when>
+<xsl:when test="$code='BOOK'">Book</xsl:when>
+<xsl:when test="$code='BROKE'">Broken</xsl:when>
+<xsl:when test="$code='BUILD'">Building</xsl:when>
+<xsl:when test="$code='BUST'">Bust</xsl:when>
+<xsl:when test="$code='CHES'">Chest</xsl:when>
+<xsl:when test="$code='CHEST'">Chest</xsl:when>
+<xsl:when test="$code='COL'">Column</xsl:when>
+<xsl:when test="$code='COLB'">Broken</xsl:when>
+<xsl:when test="$code='COPE'">Coped</xsl:when>
+<xsl:when test="$code='CROSS'">Cross</xsl:when>
+<xsl:when test="$code='CUSH'">Cushion</xsl:when>
+<xsl:when test="$code='FOOT'">Footstone</xsl:when>
+<xsl:when test="$code='HEAD'">Headstone</xsl:when>
+<xsl:when test="$code='KERB'">Kerb</xsl:when>
+<xsl:when test="$code='LAMP'">Lamp</xsl:when>
+<xsl:when test="$code='LEDG'">Ledger</xsl:when>
+<xsl:when test="$code='OBEL'">Obelisk</xsl:when>
+<xsl:when test="$code='OSS'">Ossuary</xsl:when>
+<xsl:when test="$code='OTHER'">unique</xsl:when>
+<xsl:when test="$code='PED'">Pedestal</xsl:when>
+<xsl:when test="$code='PLB'">Plaque on base</xsl:when>
+<xsl:when test="$code='PLG'">Plaque in ground</xsl:when>
+<xsl:when test="$code='PLW'">Plaque on wall</xsl:when>
+<xsl:when test="$code='ROCK'">Rocks</xsl:when>
+<xsl:when test="$code='SCRLL'">Scroll</xsl:when>
+<xsl:when test="$code='STAT'">Statue</xsl:when>
+<xsl:when test="$code='TREE'">Tree</xsl:when>
+<xsl:when test="$code='URN'">Urn</xsl:when>
+<xsl:when test="$code='VASE'">Urn</xsl:when>
+<xsl:when test="$code='WRETH'">Wreath</xsl:when>
+<xsl:when test="$code='unknown'">Unknown</xsl:when>
+</xsl:choose>
+
+</xsl:function>
 </xsl:stylesheet>

@@ -1,17 +1,14 @@
 all:	typeset web plan 
 
-dtd:
-	maketeidtd --ext=cem-tei --result=teicem.dtd  --base="prose" --tagsets="corpus transcr names.dates figures linking"
-
 typeset:
 	xsltproc -o cem.texxml typeset-bynum.xsl cem.xml
 	pdfxmltex cem.texxml
 	pdfxmltex cem.texxml
 
-web:
-	xsltproc teihtml-cem.xsl cem.xml
+web: cemall.xml
+	saxon -o:index.html cemall.xml teihtml-cem.xsl
 
-plan:
+plan: cemall.xml
 	xsltproc -o plan.texxml makeplan.xsl cem.xml
 	pdflatex plan.texxml
 
@@ -37,6 +34,12 @@ zoneplans:
 	pdflatex zone_T.texxml
 	pdflatex zone_S.texxml
 	pdflatex zone_V.texxml
+
+schema:
+	teitorelaxng cem.odd teicem.rng
+
+cemall.xml: cem.xml
+	xmllint --xinclude cem.xml > cemall.xml
 
 clean:
 	-rm *.idx *.log *.fo *.fmt *.aux *.pdf *.out *.html *.dvi *.texxml
