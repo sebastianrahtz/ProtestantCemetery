@@ -203,7 +203,7 @@
       <xsl:otherwise>male</xsl:otherwise>
     </xsl:choose>
     <xsl:text>] </xsl:text>
-    <xsl:apply-templates select="foreName"/>
+    <xsl:apply-templates select="forename"/>
     <xsl:variable name="myName">
       <xsl:apply-templates select="surname"/>
     </xsl:variable>
@@ -214,14 +214,19 @@
 </xsl:template>
 
   <xsl:template match="decoDesc">
-    <xsl:apply-templates select="p"/>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:apply-templates select="summary"/>
     <xsl:for-each select="decoNote[@type='feature']/ptr">
       <xsl:for-each select="tokenize(@target,' ')">
         <xsl:sequence select="tei:showDecl(substring(.,2))"/>
       </xsl:for-each>
       <br/>
     </xsl:for-each>
+  </xsl:template>
+
+  <xsl:template match="summary">
+    <div>
+      <xsl:apply-templates/>
+    </div>
   </xsl:template>
 
   <xsl:template match="div">
