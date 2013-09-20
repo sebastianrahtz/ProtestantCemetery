@@ -149,11 +149,8 @@
 	  <xsl:value-of select="key('CATS',$f)/catDesc"/>
 	  <xsl:text>;  </xsl:text>
 	  <xsl:value-of select="$m"/>.
-	  <xsl:value-of select=".//height"/>
-	  <xsl:text> x </xsl:text>
-	  <xsl:value-of select=".//width"/>	
-	  <xsl:text> x </xsl:text>
-	  <xsl:value-of select=".//depth"/>
+	  <xsl:value-of select="(.//height,.//width,.//depth)"
+			separator=" x "/>
 	</td>
         <xsl:apply-templates select="teiHeader/profileDesc/particDesc/listPerson/person[1]"/>
       </tr>
