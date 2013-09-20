@@ -25,7 +25,7 @@
   <xsl:key name="LANGS" match="language" use="@xml:id"/>
   <xsl:variable name="TOP" select="/"/>
   <xsl:template match="teiCorpus">
-    <html>
+    <html xmlns="http://www.w3.org/1999/xhtml">
       <xsl:call-template name="addLangAtt"/>
       <head>
         <title>
