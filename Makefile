@@ -1,4 +1,4 @@
-all:	typeset web plan 
+all:	types	et web plan 
 
 typeset:
 	xsltproc -o cem.texxml typeset-bynum.xsl cem.xml
@@ -7,6 +7,7 @@ typeset:
 
 web: cemall.xml
 	saxon -o:index.html cemall.xml teihtml-cem.xsl
+	saxon cemall.xml makeplan-svg.xsl > cemplan.svg
 
 plan: cemall.xml
 	xsltproc -o plan.texxml makeplan.xsl cem.xml
