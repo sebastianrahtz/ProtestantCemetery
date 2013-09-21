@@ -52,37 +52,6 @@
 
   </head>
   <body>
-    <div id="map">
-      <svg  
-	  xmlns="http://www.w3.org/2000/svg" 
-	  xmlns:xlink="http://www.w3.org/1999/xlink"
-	  id="ProtestantCemetery" 
-	  style='fill: none;'
-	  viewBox="19.904121 0.0 3194.056566 1145.158275">
-	<g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
-	  <xsl:call-template name="outline"/>
-	  <xsl:for-each select="key('ALL',1)">
-	    <xsl:apply-templates select="ancestor-or-self::TEI"/>
-	  </xsl:for-each>
-	</g>
-      </svg>
-    </div>
-      <div class="buttons">
-        <button class="zoom-in">Zoom In</button>
-        <button class="zoom-out">Zoom Out</button>
-        <input type="range" class="zoom-range"/>
-        <button class="reset">Reset</button>
-      </div>
-  </body>
-</html>
-  </xsl:template>
-  
-  <xsl:template name="outline">
-    <xsl:for-each select="document('plan.svg')/svg:svg">
-      <xsl:copy-of select="svg:style"/>
-      <xsl:copy-of select="svg:g[@id='S0']"/>
-    </xsl:for-each>
-  </xsl:template>
   
   <xsl:template match="TEI">
     <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>

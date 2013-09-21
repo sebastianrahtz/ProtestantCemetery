@@ -1,0 +1,147 @@
+\XMLelement{cemetery}{}
+  { \documentclass{article}
+    \RequirePackage{cem}
+    \title{The Protestant Cemetery Catalogue}
+    \author{edited by Sebastian Rahtz}
+    \date{June 2002}
+    \begin{document}
+    \maketitle
+  }
+  {\end{document}}
+
+\XMLelement{gravestone}{
+ \XMLattribute{id}{\SID}{}
+ \XMLattribute{nat}{\SNAT}{}
+ \XMLattribute{natfull}{\SNATFULL}{}
+ \XMLattribute{date}{\SDAT}{}
+ \XMLattribute{name}{\SNAM}{}
+  }
+ {\let\reserved@a\relax\par\rule{7in}{1pt}\par
+ \hypertarget{\SID}{}
+ \begin{longtable}{>{\bfseries}P{0.35in}P{2in}P{2.4in}P{2.16in}l}}
+ {\end{longtable}}
+
+\XMLelement{inscrips}{}
+ {\par\begin{longtable}
+  {@{\hspace{0.19in}}P{0.15in}P{1.81in}>{\fontfamily{mntx}\fontsize{7}{8pt}\selectfont}P{4.5in}l}}
+ {\end{longtable}\par}
+
+\XMLelement{textdagger}{}
+  {\textdagger}
+  {}
+
+\XMLelement{times}{}
+  {\times}
+  {}
+
+\XMLelement{math}{}
+  {$}
+  {$}
+
+\XMLelement{Natcode}{}
+  {}
+  {}
+
+\XMLelement{Natfull}{}
+  {}
+  {}
+\XMLelement{b}{}
+  {\xmlgrab}
+  {\b{#1}}
+\XMLelement{d}{}
+  {\xmlgrab}
+  {\d{#1}}
+\XMLelement{i}{}
+   {\itshape}
+   {}
+\XMLelement{emph}{}
+   {\itshape}
+   {}
+\XMLelement{fnm}{}
+  {\xmlgrab}
+  {\def\Forename{#1}#1 }
+\XMLelement{gloss}{}
+  {\xmlgrab}
+  {\Gloss{#1}}
+\XMLelement{par}{}
+  {}
+  {\par}
+\XMLelement{Person}{}
+  {}
+  {}
+\XMLelement{Raised}{}
+  {\xmlgrab}
+  {\Raised{#1}}
+\XMLelement{snm}{}
+  {\xmlgrab}
+  {{\scshape #1}\gdef\Surname{#1}}
+
+\XMLelement{tabbed}{}
+  {\xmlgrab}
+  {\makebox[2in][l]{#1}}
+\XMLelement{textbf}{}
+  {\bfseries}
+  {}
+\XMLelement{texttt}{}
+  {\ttfamily}
+  {}
+%
+\XMLelement{Section}{}
+  {\xmlgrab}
+  {\cleardoublepage
+   \section{#1}}
+\XMLelement{scriptcy}{}
+  {\Cyrillic}
+  {}
+\XMLelement{scriptgr}{}
+  {\Greek}
+  {}
+\XMLelement{scriptrm}{}
+  {\Romanize}
+  {}
+\XMLelement{line}
+  {\XMLattribute{align}{\linealign}{center}}
+  {\xmlgrab}
+  {\csname \linealign line\endcsname{#1}}
+%\gdef\temp{\newline}\aftergroup\temp}
+
+\XMLelement{newline}{}
+  {}
+  {\gdef\temp{\newline}\aftergroup\temp}
+
+\XMLelement{ent}{}
+  {\xmlgrab}
+  {\Entity{#1}}
+\XMLelement{hspace}{}
+  {\xmlgrab}
+  {\hspace{#1}}
+\XMLelement{natcode}{}
+  {\xmlgrab}
+  {\Natcode{#1}}
+\XMLelement{natfull}{}
+  {\xmlgrab}
+  {\Natfull{#1}}
+\XMLelement{m}{}
+  {}
+  {}
+
+\XMLelement{row}
+ {}
+ {\xmlgrab}
+ {\gdef\temp{#1\\}
+ \aftergroup\temp}
+
+\XMLelement{cell}
+ {}
+ {\xmlgrab} 
+ {\gdef\temp{#1\tabcellsep}\aftergroup\temp}
+
+\XMLelement{stone}
+ {}
+ {\xmlgrab} 
+ {
+   \textbf{#1}
+   \gdef\temp{\tabcellsep}\aftergroup\temp
+  }
+\endinput
+

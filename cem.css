@@ -9,20 +9,19 @@ h1 {
 	font-size 18pt; }
 
 h2 {
- color: blue; 
- font-family: sans-serif;
-	}
+    color: blue; 
+    font-family: sans-serif;
+}
 h3 {    
-	color: blue; 
-	font-family: sans-serif;
-	font-style: italic; 
-	border-style: dashed;
-	border-width: medium; 
-	text-align: center;
-	}
+    color: blue; 
+    font-family: sans-serif;
+    font-style: italic; 
+    border-style: dashed;
+    border-width: medium; 
+    text-align: center;
+}
 a  {color: red;}
 li a {color: green;}
-
 
 .snm { color: red }
 
@@ -32,4 +31,7 @@ li a {color: green;}
 	margin: 2em;
 }
 
-/* */
+.panzoom-parent { border: 2px solid #333; }
+.panzoom-parent .panzoom { border: 2px dashed #666; }
+.buttons { margin: 40px 0 0; }
+
