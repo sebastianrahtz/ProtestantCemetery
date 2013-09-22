@@ -2,8 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" exclude-result-prefixes="xi tei svg xlink" xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0">
   <xsl:import href="/usr/share/xml/tei/stylesheet/html5/html5.xsl"/>
   <xsl:param name="cellAlign">center</xsl:param>
-  <xsl:param name="autoToc"/>
-  <xsl:template name="logoPicture"/>
+  <xsl:param name="cssFile">cem.css</xsl:param>
   <xsl:param name="institution"/>
   <xsl:param name="department"/>
   <xsl:param name="parentURL">index.html</xsl:param>
@@ -14,6 +13,7 @@
   <xsl:param name="linkPanel">true</xsl:param>
   <xsl:template name="copyrightStatement">British School at Rome</xsl:template>
   <xsl:variable name="TOP" select="/"/>
+  <xsl:template name="logoPicture"/>
   <xsl:template match="teiCorpus">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <xsl:call-template name="addLangAtt"/>
@@ -25,13 +25,13 @@
         <link type="text/css" rel="stylesheet" href="DataTables-1.9.4/media/css/demo_table.css"/>
         <link type="text/css" rel="stylesheet" href="DataTables-1.9.4/media/css/demo_table_jui.css"/>
         <link type="text/css" rel="stylesheet" href="DataTables-1.9.4/media/css/demo_page.css"/>
-        <script src="jquery-1.10.2.min.js" type="text/javascript"/>
-        <script src="DataTables-1.9.4/media/js/jquery.dataTables.min.js" type="text/javascript"/>
-        <script src="jquery.panzoom.min.js" type="text/javascript"/>
+        <script src="jquery-1.10.2.min.js" type="text/javascript"><xsl:comment>brk</xsl:comment></script>
+        <script src="DataTables-1.9.4/media/js/jquery.dataTables.min.js" type="text/javascript"><xsl:comment>brk</xsl:comment></script>
+        <script src="jquery.panzoom.min.js" type="text/javascript"><xsl:comment>brk</xsl:comment></script>
 	<!--
-	    <script src="jquery.mousewheel.js" type="text/javascript"/>
+	    <script src="jquery.mousewheel.js" type="text/javascript"><xsl:comment>brk</xsl:comment></script>
 	-->
-        <script type="text/javascript" src="cem.js"/>
+        <script type="text/javascript" src="cem.js"><xsl:comment>brk</xsl:comment></script>
       </head>
       <body>
         <xsl:call-template name="bodyHook"/>
@@ -41,8 +41,9 @@
             <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
           </xsl:with-param>
         </xsl:call-template>
+	<xsl:call-template name="menu"/>
 	<section>
-        <h1>Catalogue of people</h1>
+        <h1 id="cat">Catalogue of people</h1>
           <table class="stones" id="stones">
             <thead>
               <tr>
@@ -69,9 +70,9 @@
                   </td>
                   <td>
                     <xsl:variable name="myName">
-                      <xsl:apply-templates select="persName/surname"/>
+                      <xsl:value-of select="persName/surname"/>
                       <xsl:text>, </xsl:text>
-                      <xsl:apply-templates select="persName/forename"/>
+                      <xsl:value-of select="persName/forename"/>
                     </xsl:variable>
                     <xsl:value-of select="if ($myName=', ') then        '[unknown]' else $myName "/>
                   </td>
@@ -88,7 +89,7 @@
 	</section>
 
 	<section>
-        <h1>Cemetery Plan</h1>
+        <h1 id="plan">Cemetery Plan</h1>
         <div id="map">
           <svg xmlns="http://www.w3.org/2000/svg" 
 	       xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -103,7 +104,7 @@
                 <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
                 <g xmlns="http://www.w3.org/2000/svg" id="{$id}">
                   <a xmlns="http://www.w3.org/2000/svg" xlink:href="{$id}.html">
-                    <polygon xmlns="http://www.w3.org/2000/svg">
+                    <polygon xmlns="http://www.w3.org/2000/svg" style="fill:F5FCFF">
                       <xsl:for-each select="id(concat('Plot_',$id))">
                         <xsl:copy-of select="@points"/>
                       </xsl:for-each>
@@ -134,6 +135,9 @@
           <button class="reset">Reset</button>
         </div>
 	</section>
+	<section>
+	  <h1 id="summary">Summary by nationality and date</h1>
+	</section>
         <xsl:call-template name="stdfooter"/>
       </body>
     </html>
@@ -143,22 +147,26 @@
   <xsl:template name="stdfooter">
     <div class="footer">
       <hr/>
+      <xsl:call-template name="menu"/>
+      <p>Prepared by Sebastian Rahtz, University of Oxford IT Services</p>
       <p>Generated on <xsl:sequence select="tei:generateDate(.)"/></p>
     </div>
   </xsl:template>
   <xsl:template match="TEI">
-    <xsl:result-document href="{teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno}.html" method="xhtml">
-      <xsl:call-template name="writeDiv"/>
+    <xsl:result-document
+	href="{teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno}.html"
+	method="xhtml">
+	<xsl:call-template name="writeDiv"/>
     </xsl:result-document>
   </xsl:template>
   <xsl:template name="doDivBody">
     <xsl:param name="Depth">0</xsl:param>
     <xsl:param name="nav">false</xsl:param>
     <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
-    <xsl:variable name="z" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno"/>
-    <xsl:variable name="f" select=".//objectDesc/@form"/>
-    <xsl:variable name="m" select=".//material"/>
-    <xsl:variable name="n" select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
+    <xsl:variable name="z"  select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno"/>
+    <xsl:variable name="f"  select=".//objectDesc/@form"/>
+    <xsl:variable name="m"  select=".//material"/>
+    <xsl:variable name="n"  select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
     <table>
       <tr valign="top">
         <td>
@@ -185,7 +193,7 @@
         <xsl:apply-templates select="text/body/div"/>
       </table>
     </xsl:if>
-    <xsl:apply-templates select="./teiHeader//msDesc/physDesc/decoDesc"/>
+    <xsl:apply-templates select="teiHeader//msDesc/physDesc/decoDesc"/>
     <xsl:for-each select="id(concat('Plot_',$id))/graphic[not(starts-with(@url,'film:'))]">
       <div>
         <img height="300" src="{@url}"/>
@@ -218,9 +226,9 @@
     </xsl:choose>
     <xsl:text>] </xsl:text>
     <xsl:variable name="myName">
-      <xsl:apply-templates select="forename"/>
+      <xsl:value-of select="forename"/>
       <xsl:text> </xsl:text>
-      <xsl:apply-templates select="surname"/>
+      <xsl:value-of select="surname"/>
     </xsl:variable>
     <span class="name">
       <xsl:value-of select="if ($myName=' ') then '[unknown]' else $myName "/>
@@ -312,4 +320,17 @@
   <xsl:template match="birth">
     <xsl:apply-templates select="@when"/>
   </xsl:template>
+
+  <xsl:template name="menu">
+    <nav>
+      <span class="toc"><a href="index.html#cat">Catalogue</a></span>
+      <span class="toc"><a href="index.html#plan">Map</a></span>
+      <span class="toc"><a href="index.html#summaries">Summaries</a></span>
+      <span class="toc"><a
+			    href="http://www.cemeteryrome.it/index.html">Cemetery
+      web site</a></span>
+    </nav>
+  </xsl:template>
+
+
 </xsl:stylesheet>
