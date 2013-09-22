@@ -323,7 +323,7 @@
 
   <xsl:template name="menu">
     <nav>
-      <span class="toc"><a href="index.html#cat">Catalogue</a></span>
+      <span class="toc"><a href="index.html#cat">Catalogue of people</a></span>
       <span class="toc"><a href="index.html#plan">Map</a></span>
       <span class="toc"><a href="index.html#summaries">Summaries</a></span>
       <span class="toc"><a
