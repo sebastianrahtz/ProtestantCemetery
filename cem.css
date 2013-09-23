@@ -48,8 +48,8 @@ span.toc a {
 
 table.inscrip {
     background: #F5FCFF; 
-    padding: 1pt;
-    margin: 1pt;
+    padding: 2pt;
+    margin: 2pt;
 }
 
 
@@ -58,9 +58,9 @@ td.num {
     }
 
 div.displaystone {
+    margin-top: 30px;
     float: right;
     width: 47%;
-    border: solid green 1pt;
 }
 
 div.cat {
@@ -69,8 +69,35 @@ div.cat {
 }
 
 div.map {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
     clear: both; 
 }
+
 div.footer {
     clear: both;
+}
+
+#main {
+    padding-left: 10px;
+    background-color: white;
+    border: solid green 1pt;
+}
+
+span.numlink, span.numlink2, span.numlink3 {
+    text-decoration: underline;
+}
+td {
+    vertical-align: top;
+}
+div.tabs {
+    background-color: white;
+}
+
+h1.maintitle {
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("banner.jpg") ;
 }

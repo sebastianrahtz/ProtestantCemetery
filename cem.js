@@ -6,6 +6,21 @@ $(document).ready(function() {
         $zoomRange: $section.find(".zoom-range"),
         $reset: $section.find(".reset")});
     $( "#tabs" ).tabs();
+    $( "span.numlink" ).click(function() {
+	$("#stonebycat").load($(this).text() + ".html #main");
+    });
+    $( "span.numlink2" ).click(function() {
+	$("#stonebynat").load($(this).text() + ".html #main");
+    });
+    $( "span.numlink3" ).click(function() {
+	$("#stonebyyr").load($(this).text() + ".html #main");
+    });
+    $('table.simplestones').dataTable( {
+	"bPaginate": true,
+	"bLengthChange": true,
+	"bFilter": true,
+	"bSort": true});
+
     $('table.stones').dataTable( {
 	"sPaginationType": "full_numbers",
 	"bPaginate": true,

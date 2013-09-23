@@ -21,11 +21,11 @@
         <title>
           <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title/text()"/>
         </title>
-        <link rel="stylesheet" type="text/css" href="cem.css"/>
 	<link rel="stylesheet" type="text/css" href="jquery-ui-1.10.3.custom.css"/>
         <link type="text/css" rel="stylesheet" href="DataTables-1.9.4/media/css/demo_table.css"/>
         <link type="text/css" rel="stylesheet" href="DataTables-1.9.4/media/css/demo_table_jui.css"/>
         <link type="text/css" rel="stylesheet" href="DataTables-1.9.4/media/css/demo_page.css"/>
+        <link rel="stylesheet" type="text/css" href="cem.css"/>
         <script src="jquery-1.10.2.min.js" type="text/javascript">
           <xsl:comment>brk</xsl:comment>
         </script>
@@ -64,7 +64,13 @@
                 <a href="#map">Map of cemetery</a>
               </li>
               <li>
-                <a href="#summary">Summary</a>
+                <a href="#summarybynat">Summary by country</a>
+              </li>
+              <li>
+                <a href="#summarybyyr">Summary by year</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
               </li>
             </ul>
             <div id="cat">
@@ -72,7 +78,7 @@
               <table class="stones" id="stones">
                 <thead>
                   <tr>
-                    <th>Gravestone</th>
+                    <th>Grave</th>
                     <th>Form</th>
                     <th>Person</th>
                     <th>Date of death</th>
@@ -86,9 +92,9 @@
                     <xsl:variable name="id" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
                     <tr>
                       <td>
-                        <a href="{$id}.html">
-                          <xsl:value-of select="substring($id,2)"/>
-                        </a>
+                        <span class="numlink">
+                          <xsl:value-of select="$id"/>
+                        </span>
                       </td>
                       <td>
                         <xsl:value-of select="id(ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/objectDesc/@form)/catDesc"/>
@@ -118,6 +124,9 @@
 	  </div>
 
 	  <div id="map">
+            <div class="displaystone" id="stonebymap">
+	      <p></p>
+	    </div>
 	    <div class="map">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ProtestantCemetery" style="fill: none;" viewBox="19.904121 43.0 3194.056566 1102.158275">
                 <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
@@ -157,13 +166,97 @@
               <input type="range" class="zoom-range"/>
               <button class="reset">Reset</button>
             </div>
-            <div class="displaystone" id="stonebymap">
-	      <p></p>
-	    </div>
 
 	  </div>
 
-	  <div id="summary">
+	  <div id="summarybynat">
+	    <div class="cat">
+
+              <table class="simplestones">
+                <thead>
+                  <tr>
+                    <th>Country</th>
+                    <th>Count</th>
+                    <th>Stones</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+		<xsl:for-each-group
+		    select="TEI/teiHeader/profileDesc/particDesc/listPerson/person"
+		    group-by="id(nationality/@key)/catDesc">
+		    <xsl:sort select="id(nationality/@key)/catDesc"/>
+		  <tr>
+		    <td>
+		      <xsl:value-of select="current-grouping-key()"/>
+		    </td>
+		    <td>
+		      <xsl:value-of select="count(current-group())"/>
+		    </td>
+		    <td>
+		      <xsl:for-each select="current-group()">
+			<xsl:variable name="id" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
+			<span class="numlink2">
+			  <xsl:value-of select="$id"/>
+			</span>
+			<xsl:text> </xsl:text>
+		      </xsl:for-each>
+		    </td>
+		  </tr>
+		</xsl:for-each-group>
+		</tbody>
+	      </table>
+
+	    </div>
+	      <div class="displaystone" id="stonebynat">
+		<p></p>
+	      </div>
+	  </div>
+	  <div id="summarybyyr">
+	    <div class="cat">
+
+              <table class="simplestones">
+                <thead>
+                  <tr>
+                    <th>Year</th>
+                    <th>Count</th>
+                    <th>Stones</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+		<xsl:for-each-group
+		    select="TEI/teiHeader/profileDesc/particDesc/listPerson/person"
+		    group-by="substring(death/@when,1,4)">
+		    <xsl:sort select="substring(death/@when,1,4)"/>
+		  <tr>
+		    <td>
+		      <xsl:value-of select="current-grouping-key()"/>
+		    </td>
+		    <td>
+		      <xsl:value-of select="count(current-group())"/>
+		    </td>
+		    <td>
+		      <xsl:for-each select="current-group()">
+			<xsl:variable name="id" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
+			<span class="numlink3">
+			  <xsl:value-of select="$id"/>
+			</span>
+			<xsl:text> </xsl:text>
+		      </xsl:for-each>
+		    </td>
+		  </tr>
+		</xsl:for-each-group>
+		</tbody>
+	      </table>
+
+	    </div>
+
+	      <div class="displaystone" id="stonebyyr">
+		<p></p>
+	      </div>
+	  </div>
+	  <div id="about">
               <p>coming soon</p>
 	  </div>
 	</div>
