@@ -10,8 +10,8 @@ cemall.xml: cem.xml
 	xmllint --xinclude cem.xml > cemall.xml
 
 dist:
-	zip -r pc *.html *.css *.js DataTables-1.9.4
+	zip -r pc *.html *.css *.js DataTables-1.9.4 webpictures
 
 clean:
 	rm -f *.idx *.log *.fo *.fmt *.aux *.pdf *.out *.html *.dvi *.texxml
-	rm -f cemall.xml
+	rm -f cemall.xml pc.zip

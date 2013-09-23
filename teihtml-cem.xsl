@@ -196,7 +196,7 @@
     <xsl:apply-templates select="teiHeader//msDesc/physDesc/decoDesc"/>
     <xsl:for-each select="id(concat('Plot_',$id))/graphic[not(starts-with(@url,'film:'))]">
       <div>
-        <img height="300" src="{@url}"/>
+        <img height="300" src="{replace(@url,'pictures/','webpictures/')}"/>
       </div>
     </xsl:for-each>
   </xsl:template>
