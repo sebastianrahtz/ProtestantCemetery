@@ -265,6 +265,9 @@
 	$( "g.gstone" ).click(function() {
 	    $("#stonebymap").load($(this).attr('id') + ".html #main");
 	});
+	$( "span.maplink" ).click(function() {
+	alert("show " + $this.text() + " on map");
+	});
 	</script>
         <xsl:call-template name="stdfooter"/>
       </body>
@@ -294,7 +297,10 @@
     <xsl:variable name="n" select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
     <div id="main">
       <p><xsl:value-of select="$z"/><xsl:text>;  	</xsl:text><xsl:value-of select="id($f)/catDesc"/><xsl:text>;  </xsl:text><xsl:value-of select="$m"/>.
-	  <xsl:value-of select="(.//height,.//width,.//depth)" separator=" x "/></p>
+	  <xsl:value-of select="(.//height,.//width,.//depth)"
+			separator=" x "/>
+      <span class="maplink"><xsl:value-of select="$id"/></span>
+      </p>
       <hr/>
       <table class="people">
         <xsl:apply-templates select="teiHeader/profileDesc/particDesc/listPerson/person"/>
