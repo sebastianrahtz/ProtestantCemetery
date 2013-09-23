@@ -5,6 +5,7 @@ $(document).ready(function() {
         $zoomOut: $section.find(".zoom-out"),
         $zoomRange: $section.find(".zoom-range"),
         $reset: $section.find(".reset")});
+    $( "#tabs" ).tabs();
     $('table.stones').dataTable( {
 	"sPaginationType": "full_numbers",
 	"bPaginate": true,
