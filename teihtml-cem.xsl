@@ -44,6 +44,8 @@
 	<xsl:call-template name="menu"/>
 	<section>
         <h1 id="cat">Catalogue of people</h1>
+	<div class="display" >
+	<div class="cat">
           <table class="stones" id="stones">
             <thead>
               <tr>
@@ -86,11 +88,16 @@
               </xsl:for-each>
             </tbody>
           </table>
+	</div>
+	  <div  class="displaystone" id="thisstone">
+	    &#160;
+	  </div>
+	</div>
 	</section>
 
 	<section>
+        <div id="map" class="map">
         <h1 id="plan">Cemetery Plan</h1>
-        <div id="map">
           <svg xmlns="http://www.w3.org/2000/svg" 
 	       xmlns:xlink="http://www.w3.org/1999/xlink" 
 	       id="ProtestantCemetery" style="fill: none;" 
@@ -102,8 +109,7 @@
 	      </xsl:for-each>
               <xsl:for-each select="/teiCorpus/TEI">
                 <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
-                <g xmlns="http://www.w3.org/2000/svg" id="{$id}">
-                  <a xmlns="http://www.w3.org/2000/svg" xlink:href="{$id}.html">
+                <g class="gstone" xmlns="http://www.w3.org/2000/svg" id="{$id}">
                     <polygon xmlns="http://www.w3.org/2000/svg" style="fill:F5FCFF">
                       <xsl:for-each select="id(concat('Plot_',$id))">
                         <xsl:copy-of select="@points"/>
@@ -122,7 +128,6 @@
                       </xsl:for-each>
 		      -->
                     </polygon>
-                  </a>
                 </g>
               </xsl:for-each>
             </g>
@@ -138,6 +143,11 @@
 	<section>
 	  <h1 id="summary">Summary by nationality and date</h1>
 	</section>
+        <script type="text/javascript" >	  
+	$( "g.gstone" ).click(function() {
+	    $("#thisstone").load($(this).attr('id') + ".html #main");
+	});
+	</script>
         <xsl:call-template name="stdfooter"/>
       </body>
     </html>
@@ -166,29 +176,20 @@
     <xsl:variable name="z"  select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno"/>
     <xsl:variable name="f"  select=".//objectDesc/@form"/>
     <xsl:variable name="m"  select=".//material"/>
-    <xsl:variable name="n"  select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
-    <table>
-      <tr valign="top">
-        <td>
-          <xsl:value-of select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
-        </td>
-        <td><xsl:value-of select="$z"/><xsl:text>;  	</xsl:text><xsl:value-of select="id($f)/catDesc"/><xsl:text>;  </xsl:text><xsl:value-of select="$m"/>.
-	  <xsl:value-of select="(.//height,.//width,.//depth)" separator=" x "/></td>
-        <xsl:apply-templates select="teiHeader/profileDesc/particDesc/listPerson/person[1]"/>
-      </tr>
-      <xsl:if test="count(teiHeader/profileDesc/particDesc/listPerson/person) &gt; 1">
-        <xsl:for-each select="teiHeader/profileDesc/particDesc/listPerson/person">
-          <xsl:if test="position() &gt; 1">
-            <tr>
-              <td/>
-              <td/>
-              <xsl:apply-templates select="."/>
-            </tr>
-          </xsl:if>
-        </xsl:for-each>
-      </xsl:if>
+    <xsl:variable name="n"
+		  select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
+    <div id="main">
+    <p>
+      <xsl:value-of select="$z"/><xsl:text>;  	</xsl:text><xsl:value-of select="id($f)/catDesc"/><xsl:text>;  </xsl:text><xsl:value-of select="$m"/>.
+	  <xsl:value-of select="(.//height,.//width,.//depth)"
+			separator=" x "/>
+    </p>
+    <hr/>
+    <table class="people">
+      <xsl:apply-templates select="teiHeader/profileDesc/particDesc/listPerson/person"/>
     </table>
     <xsl:if test="count(text/body/div)&gt;0">
+      <hr/>
       <table>
         <xsl:apply-templates select="text/body/div"/>
       </table>
@@ -199,8 +200,10 @@
         <img height="300" src="{replace(@url,'pictures/','webpictures/')}"/>
       </div>
     </xsl:for-each>
+    </div>
   </xsl:template>
   <xsl:template match="person">
+    <tr>
     <td>
       <xsl:apply-templates select="persName"/>
     </td>
@@ -213,6 +216,7 @@
       <xsl:text> </xsl:text>
       <xsl:apply-templates select="occupation"/>
    </td>
+    </tr>
   </xsl:template>
   <xsl:template match="nationality">
     <xsl:value-of select="id(@key)"/>
@@ -251,24 +255,28 @@
   <xsl:template match="div">
     <xsl:variable name="l" select="@lang"/>
     <tr valign="top">
-      <td width="5%">
+      <td class="num">
         <strong>
           <xsl:number/>
         </strong>
       </td>
-      <td width="20%">
+      <td>
         <xsl:for-each select="tokenize(@decls,' ')">
           <xsl:sequence select="tei:showDecl(substring(.,2))"/>
         </xsl:for-each>
         <xsl:value-of select="id($l)"/>
       </td>
-      <td width="75%">
+    </tr>
+    <tr>
+      <td>&#160;</td>
+      <td>
         <table class="inscrip">
           <xsl:apply-templates/>
         </table>
       </td>
     </tr>
   </xsl:template>
+
   <xsl:template match="ab">
     <tr>
       <td>

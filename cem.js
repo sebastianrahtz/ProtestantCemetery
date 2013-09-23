@@ -18,14 +18,24 @@ $(document).ready(function() {
 	"bJQueryUI": true,
 	"sDom": 'flprtip',
 	"aoColumnDefs": [
-	    { "sWidth": "10%", "aTargets": [ 0 ] },
-	    { "sWidth": "15%", "aTargets": [ 1 ] },
-	    { "sWidth": "30%", "aTargets": [ 2 ] },
-	    { "sWidth": "15%", "aTargets": [ 3 ] },
-	    { "sWidth": "25%", "aTargets": [ 4 ] }
+	    { "sWidth": "5%", "aTargets": [ 0 ] },
+	    { "sWidth": "8%", "aTargets": [ 1 ] },
+	    { "sWidth": "15%", "aTargets": [ 2 ] },
+	    { "sWidth": "8%", "aTargets": [ 3 ] },
+	    { "sWidth": "12%", "aTargets": [ 4 ] }
 	]  
     } );    
 });
+
+//showstone () {
+//    $("#thisstone").load("b.html"); 
+//}); 
+
+//    $('.mydiv').click(function(){
+//    window.open(' /chatwindow/?user='+$(this).attr('id').replace('mydiv-',''), '_blank', 'width=300,height=400');
+//    return false;
+//    });
+
 var fuzzyNum = function (x) {
     return +x.replace(/[^\d\.\-]/g, "");
 }; 
