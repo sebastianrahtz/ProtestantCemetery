@@ -5,6 +5,11 @@ $(document).ready(function() {
         $zoomOut: $section.find(".zoom-out"),
         $zoomRange: $section.find(".zoom-range"),
         $reset: $section.find(".reset")});
+    $panzoom.panzoom("option", {
+	increment: 0.4,
+	minScale: 1,
+	maxScale: 19,
+    });
     $( "#tabs" ).tabs();
     $( "span.numlink" ).click(function() {
 	$("#stonebycat").load($(this).text() + ".html #main");
@@ -41,6 +46,15 @@ $(document).ready(function() {
 	    { "sWidth": "12%", "aTargets": [ 4 ] }
 	]  
     } );    
+});
+var CurrentStone="S1";
+
+$(document).on("click", "span.maplink", function(){
+    var p = $('#' + CurrentStone).children('polygon');
+    p.css('fill','F5FCFF');
+    CurrentStone = $(this).text();
+    var p = $('#' + CurrentStone).children('polygon');
+    p.css('fill','red');
 });
 
 //showstone () {

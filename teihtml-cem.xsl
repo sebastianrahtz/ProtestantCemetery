@@ -268,10 +268,12 @@
         </section>
         <script type="text/javascript">	  
 	$( "g.gstone" ).click(function() {
-	    $("#stonebymap").load($(this).attr('id') + ".html #main");
-	});
-	$( "span.maplink" ).click(function() {
-	alert("show " + $this.text() + " on map");
+	var p = $('#' + CurrentStone).children('polygon');
+	p.css('fill','F5FCFF');
+	CurrentStone = $(this).attr('id');
+	var p = $('#' + CurrentStone).children('polygon');
+	p.css('fill','red');	
+	$("#stonebymap").load(CurrentStone + ".html #main");
 	});
 	</script>
         <xsl:call-template name="stdfooter"/>
