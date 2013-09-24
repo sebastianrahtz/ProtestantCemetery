@@ -38,6 +38,9 @@
         <script src="jquery.panzoom.min.js" type="text/javascript">
           <xsl:comment>brk</xsl:comment>
         </script>
+        <script src="jquery.svg.min.js" type="text/javascript">
+          <xsl:comment>brk</xsl:comment>
+        </script>
         <!--
 	    <script src="jquery.mousewheel.js" type="text/javascript"><xsl:comment>brk</xsl:comment></script>
 	-->
@@ -136,29 +139,17 @@
                     <xsl:copy-of select="svg:style"/>
                     <xsl:copy-of select="svg:g[@id='S0']"/>
                   </xsl:for-each>
-		  <!--<circle cx="0" cy="0" id="locatorcircle" r="50" fill-opacity="0.1" fill="green"/>-->
+		  <circle cx="-100" cy="-100" id="locatorcircle" r="100" fill-opacity="0.2" fill="green"/>
                   <xsl:for-each select="/teiCorpus/TEI">
                     <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
-                    <g xmlns="http://www.w3.org/2000/svg" class="gstone" id="{$id}">
-                      <polygon xmlns="http://www.w3.org/2000/svg" style="fill:F5FCFF">
-                        <xsl:for-each select="id(concat('Plot_',$id))">
-                          <xsl:copy-of select="@points"/>
-                        </xsl:for-each>
-                        <!--   
-			   <xsl:for-each select="teiHeader//person[1]//death">
-			   <xsl:variable name="code">
-			   <xsl:text>decade_</xsl:text>
-			   <xsl:value-of select="substring(ancestor::teiHeader//person[1]//death/@when,1,3)"/>
-			   </xsl:variable>
-			   <xsl:attribute name="style">
-                          <xsl:text>fill:rgb(</xsl:text>
-                          <xsl:value-of select="document('colorsrgb.xml')/colorcodes/color[@id=$code]"/>
-                          <xsl:text>)</xsl:text>
-                        </xsl:attribute>
-                      </xsl:for-each>
-		      -->
-                      </polygon>
-                    </g>
+		    <xsl:for-each select="id(concat('Plot_',$id))">
+		      <g xmlns="http://www.w3.org/2000/svg" class="gstone" id="{$id}">
+			<rect x="{@ulx}"  y="{@uly}" width="{@ulx - @lrx}" height="{@uly - @lry}"/>
+			<polygon xmlns="http://www.w3.org/2000/svg" style="fill:F5FCFF">
+			  <xsl:copy-of select="@points"/>
+			</polygon>
+		      </g>
+		    </xsl:for-each>
                   </xsl:for-each>
                 </g>
               </svg>
@@ -267,16 +258,6 @@
 	  </div>
 	</div>
         </section>
-        <script type="text/javascript">	  
-	$( "g.gstone" ).click(function() {
-	var p = $('#' + CurrentStone).children('polygon');
-	p.css('fill','F5FCFF');
-	CurrentStone = $(this).attr('id');
-	var p = $('#' + CurrentStone).children('polygon');
-	p.css('fill','red');	
-	$("#stonebymap").load(CurrentStone + ".html #main");
-	});
-	</script>
         <xsl:call-template name="stdfooter"/>
       </body>
     </html>

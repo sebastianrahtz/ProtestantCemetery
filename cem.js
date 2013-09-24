@@ -46,27 +46,43 @@ $(document).ready(function() {
 	    { "sWidth": "12%", "aTargets": [ 4 ] }
 	]  
     } );    
+
+    $('svg').load(function() {
+	$( "g.gstone" ).click(function() {
+	    colourstone($(this).attr('id'));
+	});
+    });
 });
-var CurrentStone="S1";
 
 $(document).on("click", "span.maplink", function(){
-    var p = $('#' + CurrentStone).children('polygon');
-    p.css('fill','F5FCFF');
-    CurrentStone = $(this).text();
-    var g = $('#' + CurrentStone);
-    //    $('#locatorcircle').cx=g.cx
-    var p = g.children('polygon');
-    p.css('fill','red');
+    colourstone($(this).text());
+    $( "#tabs" ).tabs( "option", "active", 1 );
 });
 
-//showstone () {
-//    $("#thisstone").load("b.html"); 
-//}); 
+var CurrentStone="S1";
 
-//    $('.mydiv').click(function(){
-//    window.open(' /chatwindow/?user='+$(this).attr('id').replace('mydiv-',''), '_blank', 'width=300,height=400');
-//    return false;
-//    });
+function colourstone(one) {
+    var g = $('#' + CurrentStone);
+    var p = g.children('polygon');
+    p.css('fill','F5FCFF');
+    CurrentStone = one ;
+    g = $('#' + CurrentStone);
+    p = g.children('polygon');
+    var r= g.children('rect')[0];
+    p.css('fill','red');	
+    var c=$("#locatorcircle")[0];
+    c.setAttribute("cx",r.getAttribute("x"));
+    c.setAttribute("cy",r.getAttribute("y"));
+    $("#stonebymap").load(CurrentStone + ".html #main");
+//    var newx1 =r.getAttribute("x") - 500;
+//    var newy1 =r.getAttribute("y") - 500;
+//    var newx2 =r.getAttribute("x") + 500;
+//    var newy2 =r.getAttribute("y") + 500;
+//    var newVB = newx1 + " "+ newy1 + " " + newx2 + " "+ newy2;
+//    $("#ProtestantCemetery")[0].setAttribute("viewBox",newVB);
+
+}
+
 
 var fuzzyNum = function (x) {
     return +x.replace(/[^\d\.\-]/g, "");
