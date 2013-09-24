@@ -53,7 +53,9 @@ $(document).on("click", "span.maplink", function(){
     var p = $('#' + CurrentStone).children('polygon');
     p.css('fill','F5FCFF');
     CurrentStone = $(this).text();
-    var p = $('#' + CurrentStone).children('polygon');
+    var g = $('#' + CurrentStone);
+    //    $('#locatorcircle').cx=g.cx
+    var p = g.children('polygon');
     p.css('fill','red');
 });
 

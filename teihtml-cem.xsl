@@ -136,6 +136,7 @@
                     <xsl:copy-of select="svg:style"/>
                     <xsl:copy-of select="svg:g[@id='S0']"/>
                   </xsl:for-each>
+		  <!--<circle cx="0" cy="0" id="locatorcircle" r="50" fill-opacity="0.1" fill="green"/>-->
                   <xsl:for-each select="/teiCorpus/TEI">
                     <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
                     <g xmlns="http://www.w3.org/2000/svg" class="gstone" id="{$id}">
