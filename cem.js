@@ -79,7 +79,7 @@ function colourstone(one) {
 //    var newx2 =r.getAttribute("x") + 500;
 //    var newy2 =r.getAttribute("y") + 500;
 //    var newVB = newx1 + " "+ newy1 + " " + newx2 + " "+ newy2;
-//    $("#ProtestantCemetery")[0].setAttribute("viewBox",newVB);
+//    $("#ProtestantCemetery")[0].setAttribute('style','fill:solid; -webkit-transform: translate(' + newx1 +','+newy1+') matrix(5,0,0,5,0,0)');
 
 }
 
