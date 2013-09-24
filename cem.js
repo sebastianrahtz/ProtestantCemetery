@@ -74,13 +74,17 @@ function colourstone(one) {
     c.setAttribute("cx",r.getAttribute("x"));
     c.setAttribute("cy",r.getAttribute("y"));
     $("#stonebymap").load(CurrentStone + ".html #main");
-//    var newx1 =r.getAttribute("x") - 500;
-//    var newy1 =r.getAttribute("y") - 500;
-//    var newx2 =r.getAttribute("x") + 500;
-//    var newy2 =r.getAttribute("y") + 500;
-//    var newVB = newx1 + " "+ newy1 + " " + newx2 + " "+ newy2;
-//    $("#ProtestantCemetery")[0].setAttribute('style','fill:solid; -webkit-transform: translate(' + newx1 +','+newy1+') matrix(5,0,0,5,0,0)');
-
+    var pos=g.position();
+    //console.log(pos);
+    // var newx1 =r.getAttribute("x") - 500;
+    // var newy1 =r.getAttribute("y") - 500;
+    // var newx2 =r.getAttribute("x") + 500;
+    // var newy2 =r.getAttribute("y") + 500;
+    // var newVB = newx1 + " "+ newy1 + " " + newx2 + " "+ newy2;
+    // var wherex = -pos.left + 700;
+    // var wherey=-pos.top;
+    // $("#ProtestantCemetery")[0].setAttribute('style','fill:none; -webkit-transform: matrix(4,0,0,4,'+wherex+','+wherey+')');
+    
 }
 
 
