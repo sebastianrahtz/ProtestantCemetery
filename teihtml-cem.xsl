@@ -127,6 +127,7 @@
             <div class="displaystone" id="stonebymap">
 	      <p></p>
 	    </div>
+	    <div class="cat">
 	    <div class="map">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ProtestantCemetery" style="fill: none;" viewBox="19.904121 43.0 3194.056566 1102.158275">
                 <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
@@ -166,7 +167,7 @@
               <input type="range" class="zoom-range"/>
               <button class="reset">Reset</button>
             </div>
-
+	    </div>
 	  </div>
 
 	  <div id="summarybynat">
