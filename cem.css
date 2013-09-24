@@ -103,7 +103,10 @@ h1.maintitle {
 }
 
 span.maplink:before {
-    content: " See on map ";
+    content: " See "
+}
+span.maplink:after {
+    content: " on map ";
 }
 span.maplink {
     margin-left: 6px;

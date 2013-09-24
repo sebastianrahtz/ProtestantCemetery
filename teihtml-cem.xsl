@@ -44,6 +44,7 @@
         <script type="text/javascript" src="cem.js">
           <xsl:comment>brk</xsl:comment>
         </script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
       </head>
       <body>
         <xsl:call-template name="bodyHook"/>
@@ -258,7 +259,10 @@
 	      </div>
 	  </div>
 	  <div id="about">
-              <p>coming soon</p>
+	    <xsl:for-each select="TEI[@type='doc']/text/body/div">
+	      <h1><xsl:call-template name="header"/></h1>
+	      <xsl:apply-templates/>
+	    </xsl:for-each>
 	  </div>
 	</div>
         </section>
@@ -273,7 +277,7 @@
         <xsl:call-template name="stdfooter"/>
       </body>
     </html>
-    <xsl:apply-templates select="TEI"/>
+    <xsl:apply-templates select="TEI[not(@type='doc')]"/>
   </xsl:template>
   <xsl:template name="stdfooter">
     <div class="footer">
@@ -283,7 +287,7 @@
       <p>Generated on <xsl:sequence select="tei:generateDate(.)"/></p>
     </div>
   </xsl:template>
-  <xsl:template match="TEI">
+  <xsl:template match="TEI[not(@type='doc')]">
     <xsl:result-document href="{teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno}.html" method="xhtml">
       <xsl:call-template name="writeDiv"/>
     </xsl:result-document>
@@ -291,6 +295,14 @@
   <xsl:template name="doDivBody">
     <xsl:param name="Depth">0</xsl:param>
     <xsl:param name="nav">false</xsl:param>
+    <xsl:choose>
+<xsl:when  test="ancestor::TEI/@type='doc'">
+	    <xsl:call-template name="divContents">
+	      <xsl:with-param name="Depth" select="$Depth"/>
+	      <xsl:with-param name="nav" select="$nav"/>
+	    </xsl:call-template>
+</xsl:when>
+<xsl:otherwise>
     <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
     <xsl:variable name="z" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno"/>
     <xsl:variable name="f" select=".//objectDesc/@form"/>
@@ -319,6 +331,8 @@
         </div>
       </xsl:for-each>
     </div>
+</xsl:otherwise>
+</xsl:choose>
   </xsl:template>
   <xsl:template match="person">
     <tr>
@@ -370,7 +384,8 @@
       <xsl:apply-templates/>
     </div>
   </xsl:template>
-  <xsl:template match="div">
+
+  <xsl:template match="div[@type='inscription']">
     <xsl:variable name="l" select="@lang"/>
     <tr valign="top">
       <td class="num">
@@ -394,6 +409,7 @@
       </td>
     </tr>
   </xsl:template>
+
   <xsl:template match="ab">
     <tr>
       <td>
@@ -453,4 +469,5 @@
       </span>
     </nav>
   </xsl:template>
+
 </xsl:stylesheet>
