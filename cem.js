@@ -20,7 +20,13 @@ $(document).ready(function() {
 	"bPaginate": true,
 	"bLengthChange": true,
 	"bFilter": true,
-	"bSort": true});
+	"bSort": true,
+	"aoColumnDefs": [
+	    { "sWidth": "10%", "aTargets": [ 0 ] },
+	    { "sWidth": "10%", "aTargets": [ 1 ] },
+	    { "sWidth": "80%", "aTargets": [ 2 ] }
+	]  
+});
 
     $('table.stones').dataTable( {
 	"sPaginationType": "full_numbers",
@@ -31,15 +37,14 @@ $(document).ready(function() {
 	"bInfo": true,
 	"aoColumns": [ { "sType": [ "prettynumbers" ] }, null,null,null,null ],
 	"bScrollCollapse": true,
-	"bAutoWidth": false,
 	"bJQueryUI": true,
 	"sDom": 'flprtip',
 	"aoColumnDefs": [
-	    { "sWidth": "5%", "aTargets": [ 0 ] },
-	    { "sWidth": "8%", "aTargets": [ 1 ] },
-	    { "sWidth": "15%", "aTargets": [ 2 ] },
-	    { "sWidth": "8%", "aTargets": [ 3 ] },
-	    { "sWidth": "12%", "aTargets": [ 4 ] }
+	    { "sWidth": "10%", "aTargets": [ 0 ] },
+	    { "sWidth": "20%", "aTargets": [ 1 ] },
+	    { "sWidth": "30%", "aTargets": [ 2 ] },
+	    { "sWidth": "15%", "aTargets": [ 3 ] },
+	    { "sWidth": "20%", "aTargets": [ 4 ] }
 	]  
     } );    
 

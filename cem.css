@@ -58,19 +58,19 @@ td.num {
     }
 
 div.displaystone {
-    margin-top: 30px;
     float: right;
     width: 47%;
 }
 
-div.cat {
-    width: 47%;
-    float: left;
+div.cat { 
+    width: 100%;
 }
 
 div.map {
     padding: 0px;
+    width: 95%;
     margin: 0px;
+    border: solid red 1pt;
     background-color: white;
     clear: both; 
 }
@@ -91,11 +91,9 @@ span.numlink, span.numlink2, span.numlink3 {
 td {
     vertical-align: top;
 }
-div.tabs {
+div.maindisplay {
     width: 47%;
     float: left;
-    background-color: white;
-    
 }
 
 h1.maintitle {
