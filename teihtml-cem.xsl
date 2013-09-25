@@ -65,9 +65,6 @@
                 <a href="#cat">Catalogue of people</a>
               </li>
               <li>
-                <a href="#map">Map of cemetery</a>
-              </li>
-              <li>
                 <a href="#summarybynat">Summary by country</a>
               </li>
               <li>
@@ -127,41 +124,6 @@
 	    </div>
 	  </div>
 
-	  <div id="map">
-            <div class="displaystone" id="stonebymap">
-	      <p></p>
-	    </div>
-	    <div class="cat">
-	    <div class="map">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ProtestantCemetery" style="fill: none;" viewBox="19.904121 43.0 3194.056566 1102.158275">
-                <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
-                  <xsl:for-each select="document('plan.svg')/svg:svg">
-                    <xsl:copy-of select="svg:style"/>
-                    <xsl:copy-of select="svg:g[@id='S0']"/>
-                  </xsl:for-each>
-		  <circle cx="-100" cy="-100" id="locatorcircle" r="100" fill-opacity="0.2" fill="green"/>
-                  <xsl:for-each select="/teiCorpus/TEI">
-                    <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
-		    <xsl:for-each select="id(concat('Plot_',$id))">
-		      <g xmlns="http://www.w3.org/2000/svg" class="gstone" id="{$id}">
-			<rect x="{@ulx}"  y="{@uly}" width="{@ulx - @lrx}" height="{@uly - @lry}"/>
-			<polygon xmlns="http://www.w3.org/2000/svg" style="fill:F5FCFF">
-			  <xsl:copy-of select="@points"/>
-			</polygon>
-		      </g>
-		    </xsl:for-each>
-                  </xsl:for-each>
-                </g>
-              </svg>
-            </div>
-            <div class="buttons">
-              <button class="zoom-in">Zoom In</button>
-              <button class="zoom-out">Zoom Out</button>
-              <input type="range" class="zoom-range"/>
-              <button class="reset">Reset</button>
-            </div>
-	    </div>
-	  </div>
 
 	  <div id="summarybynat">
 	    <div class="cat">
@@ -257,6 +219,39 @@
 	    </xsl:for-each>
 	  </div>
 	</div>
+
+	  <div id="map">
+	    <div class="map">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ProtestantCemetery" style="fill: none;" viewBox="19.904121 43.0 3194.056566 1102.158275">
+                <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+                  <xsl:for-each select="document('plan.svg')/svg:svg">
+                    <xsl:copy-of select="svg:style"/>
+                    <xsl:copy-of select="svg:g[@id='S0']"/>
+                  </xsl:for-each>
+		  <circle cx="-100" cy="-100" id="locatorcircle" r="100" fill-opacity="0.2" fill="green"/>
+                  <xsl:for-each select="/teiCorpus/TEI">
+                    <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
+		    <xsl:for-each select="id(concat('Plot_',$id))">
+		      <g xmlns="http://www.w3.org/2000/svg" class="gstone" id="{$id}">
+			<rect x="{@ulx}"  y="{@uly}" width="{@ulx - @lrx}" height="{@uly - @lry}"/>
+			<polygon xmlns="http://www.w3.org/2000/svg" style="fill:F5FCFF">
+			  <xsl:copy-of select="@points"/>
+			</polygon>
+		      </g>
+		    </xsl:for-each>
+                  </xsl:for-each>
+                </g>
+              </svg>
+            </div>
+            <div class="buttons">
+              <button class="zoom-in">Zoom In</button>
+              <button class="zoom-out">Zoom Out</button>
+              <input type="range" class="zoom-range"/>
+              <button class="reset">Reset</button>
+            </div>
+	    </div>
+
+
         </section>
         <xsl:call-template name="stdfooter"/>
       </body>
