@@ -82,6 +82,7 @@
                         <th>Person</th>
                         <th>Date of death</th>
                         <th>Nationality</th>
+			<th></th>
                       </tr>
                     </thead>
                     <tbody>
@@ -112,6 +113,9 @@
                           <td>
                             <xsl:value-of select="id(nationality/@key)/catDesc"/>
                           </td>
+			  <td>
+			    <a href="{$id}.html">¶</a>
+			  </td>
                         </tr>
                       </xsl:for-each>
                     </tbody>
@@ -262,13 +266,20 @@
         <xsl:variable name="z" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno"/>
         <xsl:variable name="f" select=".//objectDesc/@form"/>
         <xsl:variable name="m" select=".//material"/>
-        <xsl:variable name="n" select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
+        <xsl:variable name="n"
+		      select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
+	<h1>The Protestant Cemetery, Rome</h1>
         <div id="main">
-          <p><xsl:value-of select="$id"/>: 
-      <xsl:value-of select="$z"/><xsl:text>;  	
-      </xsl:text><xsl:value-of select="id($f)/catDesc"/><xsl:text>;  
-      </xsl:text><xsl:value-of select="$m"/>.
-      <xsl:value-of select="(.//height,.//width,.//depth)" separator=" x "/></p>
+          <p>
+	    <xsl:value-of select="$id"/>
+	    <xsl:text>: </xsl:text>
+	    <xsl:value-of select="$z"/>
+	    <xsl:text>: </xsl:text>
+	    <xsl:value-of select="id($f)/catDesc"/>
+	    <xsl:text>; </xsl:text>
+	    <xsl:value-of select="$m"/>.
+	    <xsl:value-of select="(.//height,.//width,.//depth)"  separator=" x "/>
+	  </p>
           <hr/>
           <table class="people">
             <xsl:apply-templates select="teiHeader/profileDesc/particDesc/listPerson/person"/>
