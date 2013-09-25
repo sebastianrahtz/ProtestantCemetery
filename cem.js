@@ -12,13 +12,9 @@ $(document).ready(function() {
     });
     $( "#tabs" ).tabs();
     $( "span.numlink" ).click(function() {
-	$("#stonebycat").load($(this).text() + ".html #main");
-    });
-    $( "span.numlink2" ).click(function() {
-	$("#stonebynat").load($(this).text() + ".html #main");
-    });
-    $( "span.numlink3" ).click(function() {
-	$("#stonebyyr").load($(this).text() + ".html #main");
+	$("#stone").load($(this).text() + ".html #main");
+	colourstone($(this).text());
+
     });
     $('table.simplestones').dataTable( {
 	"bPaginate": true,
@@ -50,14 +46,11 @@ $(document).ready(function() {
     $('svg').load(function() {
 	$( "g.gstone" ).click(function() {
 	    colourstone($(this).attr('id'));
+	    $("#stone").load(CurrentStone + ".html #main");
 	});
     });
 });
 
-$(document).on("click", "span.maplink", function(){
-    colourstone($(this).text());
-//    $( "#tabs" ).tabs( "option", "active", 1 );
-});
 
 var CurrentStone="S1";
 
@@ -73,9 +66,6 @@ function colourstone(one) {
     var c=$("#locatorcircle")[0];
     c.setAttribute("cx",r.getAttribute("x"));
     c.setAttribute("cy",r.getAttribute("y"));
-    $("#stonebycat").load(CurrentStone + ".html #main");
-    $("#stonebynat").load(CurrentStone + ".html #main");
-    $("#stonebyyr").load(CurrentStone + ".html #main");
     var pos=g.position();
     //console.log(pos);
     // var newx1 =r.getAttribute("x") - 500;

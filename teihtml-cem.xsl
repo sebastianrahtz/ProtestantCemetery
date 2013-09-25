@@ -59,6 +59,7 @@
         </xsl:call-template>
 
         <section>
+	  <div class="sidebyside">
           <div id="tabs">
             <ul>
               <li>
@@ -119,9 +120,6 @@
                 </tbody>
               </table>
             </div>
-            <div class="displaystone" id="stonebycat">
-	      <p></p>
-	    </div>
 	  </div>
 
 
@@ -152,7 +150,7 @@
 		    <td>
 		      <xsl:for-each select="current-group()">
 			<xsl:variable name="id" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
-			<span class="numlink2">
+			<span class="numlink">
 			  <xsl:value-of select="$id"/>
 			</span>
 			<xsl:text> </xsl:text>
@@ -164,9 +162,6 @@
 	      </table>
 
 	    </div>
-	      <div class="displaystone" id="stonebynat">
-		<p></p>
-	      </div>
 	  </div>
 	  <div id="summarybyyr">
 	    <div class="cat">
@@ -195,7 +190,7 @@
 		    <td>
 		      <xsl:for-each select="current-group()">
 			<xsl:variable name="id" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
-			<span class="numlink3">
+			<span class="numlink">
 			  <xsl:value-of select="$id"/>
 			</span>
 			<xsl:text> </xsl:text>
@@ -207,10 +202,6 @@
 	      </table>
 
 	    </div>
-
-	      <div class="displaystone" id="stonebyyr">
-		<p></p>
-	      </div>
 	  </div>
 	  <div id="about">
 	    <xsl:for-each select="TEI[@type='doc']/text/body/div">
@@ -220,6 +211,11 @@
 	  </div>
 	</div>
 
+	<div class="displaystone" id="stone">
+	  <p></p>
+	</div>
+
+</div>
 	  <div id="map">
 	    <div class="map">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ProtestantCemetery" style="fill: none;" viewBox="19.904121 43.0 3194.056566 1102.158275">
@@ -233,7 +229,7 @@
                     <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
 		    <xsl:for-each select="id(concat('Plot_',$id))">
 		      <g xmlns="http://www.w3.org/2000/svg" class="gstone" id="{$id}">
-			<rect x="{@ulx}"  y="{@uly}" width="{@ulx - @lrx}" height="{@uly - @lry}"/>
+			<rect x="{@ulx}"  y="{@uly}" width="0" height="0"/>
 			<polygon xmlns="http://www.w3.org/2000/svg" style="fill:F5FCFF">
 			  <xsl:copy-of select="@points"/>
 			</polygon>
@@ -288,10 +284,11 @@
     <xsl:variable name="m" select=".//material"/>
     <xsl:variable name="n" select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
     <div id="main">
-      <p><xsl:value-of select="$z"/><xsl:text>;  	</xsl:text><xsl:value-of select="id($f)/catDesc"/><xsl:text>;  </xsl:text><xsl:value-of select="$m"/>.
-	  <xsl:value-of select="(.//height,.//width,.//depth)"
-			separator=" x "/>
-      <span class="maplink"><xsl:value-of select="$id"/></span>
+      <p><xsl:value-of select="$id"/>: 
+      <xsl:value-of select="$z"/><xsl:text>;  	
+      </xsl:text><xsl:value-of select="id($f)/catDesc"/><xsl:text>;  
+      </xsl:text><xsl:value-of select="$m"/>.
+      <xsl:value-of select="(.//height,.//width,.//depth)" separator=" x "/>
       </p>
       <hr/>
       <table class="people">

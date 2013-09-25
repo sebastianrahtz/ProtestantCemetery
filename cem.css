@@ -92,7 +92,10 @@ td {
     vertical-align: top;
 }
 div.tabs {
+    width: 47%;
+    float: left;
     background-color: white;
+    
 }
 
 h1.maintitle {
@@ -102,13 +105,3 @@ h1.maintitle {
     background-image: url("banner.jpg") ;
 }
 
-span.maplink:before {
-    content: " See "
-}
-span.maplink:after {
-    content: " on map ";
-}
-span.maplink {
-    margin-left: 6px;
-    background-color: #E7FFD4;
-}
