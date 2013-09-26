@@ -214,9 +214,16 @@
                   <xsl:for-each select="/teiCorpus/TEI">
                     <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
                     <xsl:for-each select="id(concat('Plot_',$id))">
-                      <g xmlns="http://www.w3.org/2000/svg" class="gstone" id="{$id}">
+                      <g xmlns="http://www.w3.org/2000/svg"
+			 class="stone" id="{$id}">
                         <rect x="{@ulx}" y="{@uly}" width="0" height="0"/>
-                        <polygon class="stone" xmlns="http://www.w3.org/2000/svg">
+                        <polygon class="{if
+								   (graphic[starts-with(@url,'pictures')])
+								   then
+								   'gstone withpic'
+								   else
+								   'gstone'}"
+				 xmlns="http://www.w3.org/2000/svg">
                           <xsl:copy-of select="@points"/>
                         </polygon>
                       </g>

@@ -5,16 +5,16 @@ body {  background: white;
 
 h1 {
 	margin-top: 18pt; 
-	font-family: sans-serif; 
+	font-family: serif; 
 	font-size: 2em; }
 
 h2 {
     color: blue; 
-    font-family: sans-serif;
+    font-family: serif;
 }
 h3 {    
     color: blue; 
-    font-family: sans-serif;
+    font-family: serif;
     font-style: italic; 
     border-style: dashed;
     border-width: medium; 
@@ -135,14 +135,18 @@ svg {
 } 
  text { font-size: 50%; font-family: Courier; font-weight: normal; }
 
- g    { 
+g    { 
      stroke:black; fill:none; stroke-width: 1px; 
  }
 
- polygon.stone {
+polygon.gstone {
      fill:#F5FCFF;
 }
- rect.invisible {
+
+polygon.withpic {
+    stroke-width: 3px;
+}
+rect.invisible {
     stroke: black; 
     fill: none;
  }
