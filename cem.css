@@ -6,7 +6,7 @@ body {  background: white;
 h1 {
 	margin-top: 18pt; 
 	font-family: sans-serif; 
-	font-size 18pt; }
+	font-size: 2em; }
 
 h2 {
     color: blue; 
@@ -54,45 +54,64 @@ table.inscrip {
     margin: 2pt;
 }
 
+table#stones {
+    clear: both;
+}
+
+table.simplestones {
+    width: 100%;
+}
+
+table.stones th, table.simplestones th { cursor: pointer }
 
 td.num {
     width: 15px;
     }
 
-div.displaystone {
+div#stone {
+    background-color: #eee;
     float: right;
+    margin-bottom: 20px;
+    padding: 10px;
     width: 47%;
 }
 
-div.cat { 
-    width: 100%;
+div#cat { 
+    width: 90%;
 }
 
 div.map {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;     
+    margin-bottom: 0px;
     padding: 0px;
-    width: 95%;
-    margin: 0px;
-    border: solid red 1pt;
+    width: 97%;
+    border: solid blue 1pt;
     background-color: white;
-    height: 4in;
+    height: auto;
     clear: both; 
 }
 div.buttons{
-
+    float: left;
+    clear: both;
 }
 div.footer {
-    margin-top: 50px;
     clear: both;
+    float: left;
+    margin-top: 50px;
+    width: 100%;
 }
 
 #main {
     padding-left: 10px;
     background-color: white;
-    border: solid green 1pt;
+    border: solid #ccc 1pt;
 }
 
 span.numlink, span.numlink2, span.numlink3 {
     text-decoration: underline;
+    cursor: pointer;
 }
 td {
     vertical-align: top;
@@ -100,6 +119,9 @@ td {
 div.maindisplay {
     width: 47%;
     float: left;
+    clear: both;
+    margin-bottom: 50px;
+    min-height: 500px;
 }
 
 h1.maintitle {
@@ -108,4 +130,22 @@ h1.maintitle {
     background-position: right;
     background-image: url("banner.jpg") ;
 }
+svg {
+    padding: 0px;
+    margin: 12px;
+} 
+ text { font-size: 50%; font-family: Courier; font-weight: normal; }
 
+ g    { 
+     stroke:black; fill:none; stroke-width: 1px; 
+ }
+
+ polygon.stone {
+     fill:#F5FCFF;
+}
+ rect.invisible {
+    stroke: black; 
+    fill: none;
+ }
+
+ .outline { }

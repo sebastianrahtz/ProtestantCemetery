@@ -10,18 +10,22 @@ $(document).ready(function() {
 	minScale: 1,
 	maxScale: 19,
     });
-    $( "#tabs" ).tabs();
+    $( "#tabs" ).tabs({ 
+	    select: function(event, ui) { fnAdjustColumnSizing(); }
+	});
     $( "span.numlink" ).click(function() {
 	$("#stone").load($(this).text() + ".html #main");
 	colourstone($(this).text());
 
     });
     $('table.simplestones').dataTable( {
+	"sPaginationType": "full_numbers",
 	"bPaginate": true,
 	"bLengthChange": true,
 	"bFilter": true,
 	"bSort": true,
-	"aoColumnDefs": [
+	"bJQueryUI": true,
+      	"aoColumnDefs": [
 	    { "sWidth": "10%", "aTargets": [ 0 ] },
 	    { "sWidth": "10%", "aTargets": [ 1 ] },
 	    { "sWidth": "80%", "aTargets": [ 2 ] }
@@ -63,7 +67,7 @@ var CurrentStone="S1";
 function colourstone(one) {
     var g = $('#' + CurrentStone);
     var p = g.children('polygon');
-    p.css('fill','F5FCFF');
+    p.css('fill','#F5FCFF');
     CurrentStone = one ;
     g = $('#' + CurrentStone);
     p = g.children('polygon');

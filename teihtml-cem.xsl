@@ -199,13 +199,13 @@
 	    </div>
 	  </div>
 	  <div class="displaystone" id="stone">
-	    <p/>
+	    <p>Click on the table entries or map to display stone details here.</p>
 	  </div>
 
           <div id="map" class="map">
 	    <div>
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ProtestantCemetery" style="fill: none;" viewBox="19.904121 43.0 3194.056566 1102.158275">
-                <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+                <g id="map-matrix">
                   <xsl:for-each select="document('plan.svg')/svg:svg">
                     <xsl:copy-of select="svg:style"/>
                     <xsl:copy-of select="svg:g[@id='S0']"/>
@@ -216,7 +216,7 @@
                     <xsl:for-each select="id(concat('Plot_',$id))">
                       <g xmlns="http://www.w3.org/2000/svg" class="gstone" id="{$id}">
                         <rect x="{@ulx}" y="{@uly}" width="0" height="0"/>
-                        <polygon xmlns="http://www.w3.org/2000/svg" style="fill:F5FCFF">
+                        <polygon class="stone" xmlns="http://www.w3.org/2000/svg">
                           <xsl:copy-of select="@points"/>
                         </polygon>
                       </g>
