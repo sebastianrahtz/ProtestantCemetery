@@ -51,11 +51,11 @@
       <body>
         <xsl:call-template name="bodyHook"/>
         <xsl:call-template name="bodyJavascriptHook"/>
-        <xsl:call-template name="stdheader">
-          <xsl:with-param name="title">
+	<xsl:call-template name="stdheader">
+	  <xsl:with-param name="title">
             <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
-          </xsl:with-param>
-        </xsl:call-template>
+	  </xsl:with-param>
+	</xsl:call-template>
         <section>
 	  <div class="maindisplay">
             <div id="tabs">
@@ -275,7 +275,6 @@
         <xsl:variable name="m" select=".//material"/>
         <xsl:variable name="n"
 		      select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
-	<h1>The Protestant Cemetery, Rome</h1>
         <div id="main">
           <p>
 	    <xsl:value-of select="$id"/>
@@ -440,4 +439,12 @@
       </span>
     </nav>
   </xsl:template>
+
+  <xsl:template name="stdheader">
+      <xsl:param name="title">(no title)</xsl:param>
+      <div id="header">
+	<h1 class="maintitle"><xsl:copy-of select="$title"/></h1>
+      </div>
+  </xsl:template>
+
 </xsl:stylesheet>
