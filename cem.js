@@ -53,7 +53,7 @@ $(document).ready(function() {
 	]  
     } );    
 
-    $('svg').load(function() {
+    $('#ProtestantCemetery').load(function() {
 	$( "g.stone" ).click(function() {
 	    colourstone($(this).attr('id'));
 	    $("#stone").load(CurrentStone + ".html #main");
