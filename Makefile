@@ -1,7 +1,7 @@
 all:	web
 
 web: cemall.xml
-	saxon -o:index.html cemall.xml teihtml-cem.xsl
+	teitohtml --profile=pc --profiledir=`pwd`/profiles cemall.xml index.html
 
 schema:
 	teitorelaxng cem.odd teicem.rng
