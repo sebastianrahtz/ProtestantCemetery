@@ -466,9 +466,11 @@
 
   <xsl:template name="stdheader">
       <xsl:param name="title">(no title)</xsl:param>
-      <div id="header">
-	<h1 class="maintitle"><xsl:copy-of select="$title"/></h1>
-      </div>
+      <xsl:if test="not($outputTarget='epub3')">
+	<div id="header">
+	  <h1 class="maintitle"><xsl:copy-of select="$title"/></h1>
+	</div>
+      </xsl:if>
   </xsl:template>
 
   <xsl:template name="includeJavascript"/>

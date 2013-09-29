@@ -37,10 +37,12 @@
     /Users/rahtz/TEI/ProtestantCemetery/jquery.dataTables.min.js
   </xsl:param>
 
+  <xsl:param name="extraGraphicsFiles">banner.jpg</xsl:param>
+
   <xsl:function name="tei:generateSimpleTitle">
     <xsl:param name="context"/>
-    <xsl:for-each select="$TOP">
-          <xsl:apply-templates select="ancestor-or-self::tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type='subordinate')]" mode="simple"/>
+    <xsl:for-each select="$context">
+      <xsl:apply-templates select="ancestor-or-self::teiCorpus/teiHeader/fileDesc/titleStmt/title" mode="simple"/>
     </xsl:for-each>
   </xsl:function>
 
@@ -64,8 +66,8 @@
   </xsl:template>
 
   <xsl:template name="mainTOC"/>
-
-  <xsl:template match="tei:graphic[starts-with(@url,'film:')]"
+ 
+  <xsl:template match="graphic[starts-with(@url,'film:')]"
 		mode="preflight" priority="99">
   </xsl:template>
 
