@@ -4,7 +4,7 @@ web: cemall.xml
 	teitohtml --profile=pc --profiledir=`pwd`/profiles cemall.xml index.html
 
 epub: cemall.xml
-	teitoepub3 --profile=pc --profiledir=`pwd`/profiles cemall.xml cem.epub
+	teitoepub3 --coverimage=`pwd`/profiles/pc/epub3/cover.jpg --profiledir=`pwd`/profiles --profile=pc cemall.xml cem.epub
 
 schema:
 	teitorelaxng cem.odd teicem.rng
