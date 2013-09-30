@@ -72,4 +72,37 @@
   </xsl:template>
 
 
+  <xsl:template name="pcCorpus">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <xsl:call-template name="addLangAtt"/>
+      <head>
+        <title>
+          <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title/text()"/>
+        </title>
+	<xsl:call-template name="includeCSS"/>
+	<xsl:call-template name="make-javascript"/>
+      </head>
+      <body>
+        <xsl:call-template name="bodyHook"/>
+        <xsl:call-template name="bodyJavascriptHook"/>
+	<xsl:call-template name="stdheader">
+	  <xsl:with-param name="title">
+            <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
+	  </xsl:with-param>
+	</xsl:call-template>
+        <section>
+	  <xsl:call-template name="make-display"/>
+	  <div id="stone">
+	    <iframe width="500" height="500" id="stonecontainer" src="S1.html">
+	    </iframe>
+	  </div>
+	  <xsl:call-template name="make-map"/>
+        </section>
+        <xsl:call-template name="stdfooter"/>
+      </body>
+    </html>
+    <xsl:apply-templates select="TEI[not(@type='doc')]"/>
+  </xsl:template>
+
+
 </xsl:stylesheet>
