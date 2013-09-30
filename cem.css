@@ -1,6 +1,6 @@
 /* cem.css */
 body {  background: white; 
-	margin: 1em;
+	margin: 2px;
 	}
 
 #header {
@@ -85,10 +85,11 @@ td.aligncenter {
 }
 div#stone {
     background-color: #eee;
-    float: right;
-    margin-bottom: 20px;
-    padding: 10px;
-    width: 47%;
+    float: left;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding: 2px;
+    width: 48%;
 }
 
 div#cat { 
@@ -101,7 +102,7 @@ div.map {
     margin-top: 0px;     
     margin-bottom: 0px;
     padding: 0px;
-    width: 97%;
+    width: 96%;
     background-color: white;
     height: 4in;
     clear: both; 
@@ -123,7 +124,7 @@ div.footer {
     border: solid #ccc 1pt;
 }
 
-span.numlink, span.numlink2, span.numlink3 {
+span.numlink, span.numlinkiframe {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -131,7 +132,7 @@ td {
     vertical-align: top;
 }
 div.maindisplay {
-    width: 47%;
+    width: 48%;
     float: left;
     clear: both;
     margin-bottom: 50px;
@@ -143,7 +144,7 @@ svg {
     padding: 0px;
     margin: 12px;
 } 
- text { font-size: 50%; font-family: Courier; font-weight: normal; }
+text { font-size: 50%; font-family: Courier; font-weight: normal; }
 
 g    { 
      stroke:black; fill:none; stroke-width: 1px; 
