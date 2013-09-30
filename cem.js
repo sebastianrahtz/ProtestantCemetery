@@ -16,8 +16,13 @@ $(document).ready(function() {
     $( "span.numlink" ).click(function() {
 	$("#stone").load($(this).text() + ".html #main");
 	colourstone($(this).text());
-
     });
+
+    $( "span.numlinkiframe" ).click(function() {
+	$("#stonecontainer").attr('src',$(this).text() + ".html");
+	colourstone($(this).text());
+    });
+
     $('table.simplestones').dataTable( {
 	"sPaginationType": "full_numbers",
 	"bPaginate": true,
