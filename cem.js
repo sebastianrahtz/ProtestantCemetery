@@ -47,7 +47,7 @@ function colourstone(one) {
     CurrentStone = one ;
     g = $('#' + CurrentStone);
     p = g.children('polygon');
-    var r= g.children('rect')[0];
+    var r= g.children('text')[0];
     p.css('fill','red');	
     var c=$("#locatorcircle")[0];
     c.setAttribute("cx",r.getAttribute("x"));

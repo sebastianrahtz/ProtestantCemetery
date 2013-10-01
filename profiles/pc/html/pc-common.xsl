@@ -255,7 +255,7 @@ $(document).ready(function() {
               <xsl:variable name="c" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='tomb']"/>
               <xsl:for-each select="id(concat('Plot_',$id))">
                 <g xmlns="http://www.w3.org/2000/svg" class="stone" id="{$id}">
-                  <rect x="{@ulx}" y="{@uly}" width="0" height="0"/>
+                  <text x="{@ulx -2}" y="{@uly -2}"><xsl:value-of select="$id"/></text>
                   <polygon xmlns="http://www.w3.org/2000/svg"
 			   class="{if            ($c!='' or graphic[starts-with(@url,'pictures')])            then            'gstone withpic'            else            'gstone'}">
                     <xsl:copy-of select="@points"/>
