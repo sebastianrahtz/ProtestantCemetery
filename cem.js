@@ -44,16 +44,16 @@ $(document).ready(function() {
 	"bFilter": true,
 	"bSort": true,
 	"bInfo": true,
-	"aoColumns": [ { "sType": [ "prettynumbers" ] }, null,null,null,null ],
 	"bScrollCollapse": true,
 	"bJQueryUI": true,
 	"sDom": 'flprtip',
 	"aoColumnDefs": [
-	    { "sWidth": "10%", "aTargets": [ 0 ] },
+	    { "sWidth": "8%", "aTargets": [ 0 ] },
+	    { "sWidth": "8%", "aTargets": [ 0 ] },
 	    { "sWidth": "20%", "aTargets": [ 1 ] },
 	    { "sWidth": "30%", "aTargets": [ 2 ] },
 	    { "sWidth": "10%", "aTargets": [ 3 ] },
-	    { "sWidth": "20%", "aTargets": [ 4 ] },
+	    { "sWidth": "14%", "aTargets": [ 4 ] },
 	    { "sWidth": "5%", "aTargets": [ 5 ] }
 	]  
     } );    

@@ -77,7 +77,8 @@
           <table class="stones" id="stones">
             <thead>
               <tr>
-                <th>Grave</th>
+                <th>Stone</th>
+                <th>Tomb</th>
                 <th>Form</th>
                 <th>Person</th>
                 <th>Date of death</th>
@@ -90,12 +91,14 @@
                 <xsl:sort select="persName/surname"/>
                 <xsl:sort select="death/@when"/>
                 <xsl:variable name="id" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
+		<xsl:variable name="c" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='tomb']"/>
                 <tr>
-                  <td>
-                    <span class="{if ($outputTarget='epub3') then
+                  <td class="{if ($outputTarget='epub3') then
 				 'numlinkiframe' else 'numlink'}">
                       <xsl:value-of select="$id"/>
-                    </span>
+                  </td>
+		  <td>
+                      <xsl:value-of select="$c"/>
                   </td>
                   <td>
                     <xsl:value-of select="id(ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/objectDesc/@form)/catDesc"/>
@@ -213,10 +216,12 @@
             <circle cx="-100" cy="-100" id="locatorcircle" r="100" fill-opacity="0.2" fill="green"/>
             <xsl:for-each select="/teiCorpus/TEI">
               <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
+              <xsl:variable name="c" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='tomb']"/>
               <xsl:for-each select="id(concat('Plot_',$id))">
                 <g xmlns="http://www.w3.org/2000/svg" class="stone" id="{$id}">
                   <rect x="{@ulx}" y="{@uly}" width="0" height="0"/>
-                  <polygon xmlns="http://www.w3.org/2000/svg" class="{if            (graphic[starts-with(@url,'pictures')])            then            'gstone withpic'            else            'gstone'}">
+                  <polygon xmlns="http://www.w3.org/2000/svg"
+			   class="{if            ($c!='' or graphic[starts-with(@url,'pictures')])            then            'gstone withpic'            else            'gstone'}">
                     <xsl:copy-of select="@points"/>
                   </polygon>
                 </g>
@@ -290,7 +295,8 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="id" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
-        <xsl:variable name="z" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno"/>
+        <xsl:variable name="z" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='zone']"/>
+        <xsl:variable name="c" select="teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='tomb']"/>
         <xsl:variable name="f" select=".//objectDesc/@form"/>
         <xsl:variable name="m" select=".//material"/>
         <xsl:variable name="n" select="teiHeader/profileDesc/particDesc/listPerson/person[1]/nationality/@key"/>
@@ -308,11 +314,14 @@
             </table>
           </xsl:if>
           <xsl:apply-templates select="teiHeader//msDesc/physDesc/decoDesc"/>
-          <xsl:for-each select="id(concat('Plot_',$id))/graphic[not(starts-with(@url,'film:'))]">
-            <div>
+	  <div class="pictures">
+	    <xsl:for-each select="id(concat('Plot_',$id))/graphic[not(starts-with(@url,'film:'))]">
               <img height="300" src="{@url}"/>
-            </div>
-          </xsl:for-each>
+	    </xsl:for-each>
+	    <xsl:if test="$c!=''">
+              <img height="300" src="http://www.cemeteryrome.it/infopoint/ShowFoto.asp?NTomba={$c}"/>
+	    </xsl:if>
+	  </div>
         </div>
       </xsl:otherwise>
     </xsl:choose>
