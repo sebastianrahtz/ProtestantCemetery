@@ -77,6 +77,7 @@
           <table class="stones" id="stones">
             <thead>
               <tr>
+		<th>View</th>
                 <th>Stone</th>
                 <th>Tomb</th>
                 <th>Form</th>
@@ -93,8 +94,13 @@
                 <xsl:variable name="id" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
 		<xsl:variable name="c" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='tomb']"/>
                 <tr>
-                  <td class="{if ($outputTarget='epub3') then
+		  <td>
+		    <span title="{$id}" class="{if ($outputTarget='epub3') then
 				 'numlinkiframe' else 'numlink'}">
+		      <xsl:text>&#x27A8;</xsl:text>
+		    </span>
+		  </td>
+                  <td>
                       <xsl:value-of select="$id"/>
                   </td>
 		  <td>

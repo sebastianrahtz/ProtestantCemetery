@@ -14,7 +14,8 @@ $(document).ready(function() {
 	    select: function(event, ui) { fnAdjustColumnSizing(); }
 	});
     $( "span.numlink" ).click(function() {
-	$("#stone").load($(this).text() + ".html #main");
+	alert("see " + $(this).attr('title)'));
+	$("#stone").load($(this).attr('title)') + ".html #main");
 	colourstone($(this).text());
     });
 
