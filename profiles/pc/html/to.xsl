@@ -4,6 +4,7 @@
   <xsl:import href="pc-common.xsl"/>
   <xsl:param name="cellAlign">center</xsl:param>
   <xsl:param name="cssFile">cem.css</xsl:param>
+  <xsl:param name="cssPrintFile"/>
   <xsl:param name="cssSecondaryFile">jquery-ui-1.10.3.custom.css</xsl:param>
   <xsl:param name="institution"/>
   <xsl:param name="department"/>

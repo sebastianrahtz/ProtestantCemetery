@@ -1,6 +1,13 @@
 /* cem.css */
 body {  background: white; 
-	margin: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	}
+
+
+body.doc {  background: white; 
+	margin-left: 50px;
+	margin-right: 50px;
 	}
 
 #header {
@@ -8,7 +15,7 @@ body {  background: white;
 	background-size:100%;
 	background-repeat: no-repeat;
 	height: 280px;
-	margin: 20px 0 20px 0;
+	margin: 0px 0 20px 0;
 }
 h1.maintitle {
         color: #feffed;
@@ -57,17 +64,42 @@ span.toc a {
 
 table.inscrip {
     background: #F5FCFF; 
+    width: 100%;
     padding: 2pt;
     margin: 2pt;
 }
-
-table#stones {
-    clear: both;
+/* ---------------------- */
+div.maindisplay {
+    width: 48%;
+    float:left;
+    margin-bottom: 50px;
+    min-height: 500px;
+}
+div#stone {
+    background-color: #eee;
+    float:left;
+    margin-bottom: 2px;
+    margin-left: 6px;
+    padding: 2px;
+    width: 49%;
 }
 
-table.simplestones {
-    width: 100%;
+div#cat { 
+    width: 99%;
 }
+
+div.map {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;     
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 96%;
+    background-color: white;
+    height: 4in;
+    clear: both; 
+}
+/* ---------------------- */
 
 table.stones th, table.simplestones th { cursor: pointer }
 
@@ -82,30 +114,6 @@ td.alignleft {
 }
 td.aligncenter {
     text-align: center;
-}
-div#stone {
-    background-color: #eee;
-    float: left;
-    margin-bottom: 2px;
-    margin-left: 2px;
-    padding: 2px;
-    width: 48%;
-}
-
-div#cat { 
-    width: 90%;
-}
-
-div.map {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;     
-    margin-bottom: 0px;
-    padding: 0px;
-    width: 96%;
-    background-color: white;
-    height: 4in;
-    clear: both; 
 }
 div.buttons{
     float: left;
@@ -131,13 +139,6 @@ span.numlink, span.numlinkiframe {
 td {
     vertical-align: top;
 }
-div.maindisplay {
-    width: 48%;
-    float: left;
-    clear: both;
-    margin-bottom: 50px;
-    min-height: 500px;
-}
 
 
 svg {
@@ -158,7 +159,6 @@ polygon.withpic {
     stroke: blue;
 }
 rect.invisible {
-    stroke: black; 
     fill: none;
  }
 
@@ -293,7 +293,7 @@ table.display thead th div.DataTables_sort_wrapper span {
 }
 
 .dataTables_length {
-	width: 40%;
+	width: 30%;
 	float: left;
 }
 
@@ -309,7 +309,7 @@ table.display thead th div.DataTables_sort_wrapper span {
 }
 
 .dataTables_paginate {
-	float: right;
+
 	text-align: right;
 }
 

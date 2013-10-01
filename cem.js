@@ -13,9 +13,10 @@ $(document).ready(function() {
     $( "#tabs" ).tabs({ 
 	    select: function(event, ui) { fnAdjustColumnSizing(); }
 	});
-    $( "span.numlink" ).click(function() {
-	$("#stone").load($(this).text() + ".html #main");
+
+    $(document).on("click","span.numlink",function(e){
 	colourstone($(this).text());
+	$("#stone").load($(this).text() + ".html #main");
     });
 
     $( "span.numlinkiframe" ).click(function() {
@@ -23,49 +24,17 @@ $(document).ready(function() {
 	colourstone($(this).text());
     });
 
-    $('table.simplestones').dataTable( {
-	"sPaginationType": "full_numbers",
-	"bPaginate": true,
-	"bLengthChange": true,
-	"bFilter": true,
-	"bSort": true,
-	"bJQueryUI": true,
-      	"aoColumnDefs": [
-	    { "sWidth": "10%", "aTargets": [ 0 ] },
-	    { "sWidth": "10%", "aTargets": [ 1 ] },
-	    { "sWidth": "80%", "aTargets": [ 2 ] }
-	]  
-});
-
-    $('table.stones').dataTable( {
-	"sPaginationType": "full_numbers",
-	"bPaginate": true,
-	"bLengthChange": true,
-	"bFilter": true,
-	"bSort": true,
-	"bInfo": true,
-	"aaSorting": [ ],
-	"bScrollCollapse": true,
-	"bJQueryUI": true,
-	"sDom": 'flprtip',
-	"aoColumns": [ { "sType": [ "prettynumbers" ] }, null,null,null,null,null ],
-	"aoColumnDefs": [
-	    { "sWidth": "8%", "aTargets": [ 0 ] },
-	    { "sWidth": "8%", "aTargets": [ 1 ] },
-	    { "sWidth": "20%", "aTargets": [ 2 ] },
-	    { "sWidth": "30%", "aTargets": [ 3 ] },
-	    { "sWidth": "10%", "aTargets": [ 4 ] },
-	    { "sWidth": "14%", "aTargets": [ 5 ] },
-	    { "sWidth": "5%", "aTargets": [ 6 ] }
-	]  
-    } );    
-
-    $('#ProtestantCemetery').load(function() {
-	$( "g.stone" ).click(function() {
+    $(document).on("click","g.stone",function(e){
 	    colourstone($(this).attr('id'));
 	    $("#stone").load(CurrentStone + ".html #main");
-	});
     });
+
+//    $('#ProtestantCemetery').load(function() {
+//	$( "g.stone" ).click(function() {
+//	    colourstone($(this).attr('id'));
+//	    $("#stone").load(CurrentStone + ".html #main");
+//	});
+//    });
 });
 
 
