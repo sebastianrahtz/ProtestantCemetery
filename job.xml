@@ -3,7 +3,7 @@
   <macrodef name="doall">
     <attribute name="name"/>
     <sequential>
-      <xslt force="yes" style="getdeco.xsl" in="stones/@{name}.xml" out="stones/@{name}.new">
+      <xslt force="yes" style="update.xsl" in="stones/@{name}.xml" out="stones/@{name}.new">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
       </xslt>
     </sequential>

@@ -9,6 +9,9 @@ epub: cemall.xml
 schema:
 	teitorelaxng cem.odd teicem.rng
 
+update:
+	ant -lib /usr/share/saxon/saxon9he.jar -f job.xml
+
 cemall.xml: cem.xml
 	xmllint --xinclude cem.xml | sed 's/"pictures\//"webpictures\//' > cemall.xml
 
