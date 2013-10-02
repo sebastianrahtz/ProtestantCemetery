@@ -351,11 +351,14 @@ $(document).ready(function() {
           </xsl:if>
           <xsl:apply-templates select="teiHeader//msDesc/physDesc/decoDesc"/>
 	  <div class="pictures">
-	    <xsl:for-each select="id(concat('Plot_',$id))/graphic[not(starts-with(@url,'film:'))]">
+	    <xsl:for-each
+		select="id(concat('Plot_',$id))/graphic[not(starts-with(@url,'film:'))]">
+	      <span><xsl:value-of select="substring(@url,13,4)"/>:</span>
               <img height="300" src="{@url}"/>
 	    </xsl:for-each>
 	    <xsl:if test="$c!=''">
-              <img height="300" src="http://www.cemeteryrome.it/infopoint/ShowFoto.asp?NTomba={$c}"/>
+	      <br/><span>(cem)</span>
+              <img height="300" src="http://www.cemeteryrome.it/infopoint/ShowFoto.asp?NTomba={$c}"/><br/>
 	    </xsl:if>
 	  </div>
         </div>
