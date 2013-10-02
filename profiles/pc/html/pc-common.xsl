@@ -357,7 +357,7 @@ $(document).ready(function() {
               <img height="300" src="{@url}"/>
 	    </xsl:for-each>
 	    <xsl:if test="$c!=''">
-	      <br/><span>(cem)</span>
+	      <br/><span>2012</span>
               <img height="300" src="http://www.cemeteryrome.it/infopoint/ShowFoto.asp?NTomba={$c}"/><br/>
 	    </xsl:if>
 	  </div>
