@@ -38,7 +38,7 @@
 	  <div id="cat">
 	    <xsl:call-template name="make-display"/>
 	    <div class="displaystone" id="stone">
-	      <p>Click on the table entries or map to display stone details here.</p>
+	      <p></p>
 	    </div>
 	  </div>
           <xsl:call-template name="make-map"/>

@@ -12,6 +12,9 @@ schema:
 update:
 	ant -lib /usr/share/saxon/saxon9he.jar -f job.xml
 
+matches: cemall.xml
+	saxon cemall.xml listtohtml.xsl > matches.html
+
 cemall.xml: cem.xml
 	xmllint --xinclude cem.xml | sed 's/"pictures\//"webpictures\//' > cemall.xml
 
