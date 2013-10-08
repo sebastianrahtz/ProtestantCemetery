@@ -1,74 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S750.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S750.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 750</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S750">
-          <msIdentifier>
-            <idno>S750</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="WRETH">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>72</height>
-                    <depth>20</depth>
-                    <width>74</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Rather bigger w. carved on stone more top than south. Very simple (like the ones used for funerals) name in the middle.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Annie</forename>
-              <surname>von Rabe</surname>
-            </persName>
-            <death when="1912"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 750</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S750">
+               <msIdentifier>
+                  <idno>S750</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="WRETH">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>72</height>
+                              <depth>20</depth>
+                              <width>74</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Rather bigger w. carved on stone more top than south. Very simple (like the ones used for funerals) name in the middle.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Annie</forename>
+                     <surname>von Rabe</surname>
+                  </persName>
+                  <death when="1912"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
-        <ab>ANNIE VON RABE</ab>
-        <ab>BORN CRAWFORD</ab>
-        <ab>+DEC [18..] 1912</ab>
-        <ab>ROME</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S750"
+               ulx="1872.183239"
+               uly="352.57588"
+               lrx="1879.791297"
+               lry="359.880997"
+               points="1872.183239,352.82567300000005 1879.552134,352.57588 1879.791297,359.631204 1872.422403,359.880997 1872.183239,352.82567300000005 1879.552134,352.57588 1879.791297,359.631204 1872.422403,359.880997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
+            <ab>ANNIE VON RABE</ab>
+            <ab>BORN CRAWFORD</ab>
+            <ab>+DEC [18..] 1912</ab>
+            <ab>ROME</ab>
+         </div>
+      </body>
   </text>
 </TEI>

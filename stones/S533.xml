@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S533.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S533.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 533</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S533">
-          <msIdentifier>
-            <idno>S533</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2232</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>222</height>
-                    <depth>31</depth>
-                    <width>154</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>G.A.</forename>
-              <surname>Hoskins</surname>
-            </persName>
-            <death when="1863"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 533</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S533">
+               <msIdentifier>
+                  <idno>S533</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2232</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>222</height>
+                              <depth>31</depth>
+                              <width>154</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>G.A.</forename>
+                     <surname>Hoskins</surname>
+                  </persName>
+                  <death when="1863"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_IF #t_P">
-        <ab>SACRED TO</ab>
-        <ab>THE MEMORY OF</ab>
-        <ab>G A HOSKINS ESQ</ab>
-        <ab>OF 10 GLOUCESTER SQUARE LONDON</ab>
-        <ab rend="Alignl">
-          <note> the tail of the Q goes the wrong way</note>
-        </ab>
-        <ab>DIED AT ROME NOVR 21 1863</ab>
-        <ab>AGED 56 YEARS</ab>
-        <ab>I KNOW THAT MY REDEEMER LIVETH</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S533"
+               ulx="2015.898323"
+               uly="243.52409699999998"
+               lrx="2037.778283"
+               lry="267.40889200000004"
+               points="2015.898323,244.83389499999998 2036.331167,243.52409699999998 2037.778283,266.09909400000004 2017.345438,267.40889200000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_IF #t_P">
+            <ab>SACRED TO</ab>
+            <ab>THE MEMORY OF</ab>
+            <ab>G A HOSKINS ESQ</ab>
+            <ab>OF 10 GLOUCESTER SQUARE LONDON</ab>
+            <ab rend="Alignl">
+               <note> the tail of the Q goes the wrong way</note>
+            </ab>
+            <ab>DIED AT ROME NOVR 21 1863</ab>
+            <ab>AGED 56 YEARS</ab>
+            <ab>I KNOW THAT MY REDEEMER LIVETH</ab>
+         </div>
+      </body>
   </text>
 </TEI>

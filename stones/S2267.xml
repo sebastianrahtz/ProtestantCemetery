@@ -1,102 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2267.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2267.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2267</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2267">
-          <msIdentifier>
-            <idno>S2267</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">417</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>77</height>
-                    <depth>8</depth>
-                    <width>56</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Fritz</forename>
-              <surname>Baum</surname>
-            </persName>
-            <death when="1916"/>
-            <nationality key="PL"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Anna Caroline Luise</forename>
-              <surname>Baum</surname>
-            </persName>
-            <death when="1938"/>
-            <nationality key="PL"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2267</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2267">
+               <msIdentifier>
+                  <idno>S2267</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">417</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>77</height>
+                              <depth>8</depth>
+                              <width>56</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Fritz</forename>
+                     <surname>Baum</surname>
+                  </persName>
+                  <death when="1916"/>
+                  <nationality key="PL"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anna Caroline Luise</forename>
+                     <surname>Baum</surname>
+                  </persName>
+                  <death when="1938"/>
+                  <nationality key="PL"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>HIER RUHT</ab>
-        <ab>IN GOTT</ab>
-        <ab>MEIN LIEBER MANN</ab>
-        <ab>DR. MED. FRITZ BAUM</ab>
-        <ab>GEB. ZU DANZIG 14 MAI 1859</ab>
-        <ab>GEST. AM FUSSE DES GRAN SASSO</ab>
-        <ab>DEN 19 FEBRUAR 1916</ab>
-        <ab/>
-        <ab>DURCH NACHT ZUM LICHT</ab>
-        <ab/>
-        <ab>UND SEINE EHEFRAU</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_S">
-        <ab>ANNA CAROLINE LUISE BAUM</ab>
-        <ab>GEB. BEHRENDT</ab>
-        <ab>GEB. ZU DANZIG 16 NOV.1867</ab>
-        <ab>GEST. AM ROM 29 APRIL 1938</ab>
-      </div>
-      <div type="inscription" decls="#f_T #c_1 #m_IC #t_S">
-        <ab>DR. JOHANNES GEHLEN</ab>
-        <ab>ROM 15 MÄRZ 1901 ROM 28 JUNI 1986</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2267"
+               ulx="2611.873956"
+               uly="581.887922"
+               lrx="2619.030909"
+               lry="584.445759"
+               points="2611.901046,581.887922 2619.030909,581.965806 2619.003819,584.445759 2611.873956,584.367876 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>HIER RUHT</ab>
+            <ab>IN GOTT</ab>
+            <ab>MEIN LIEBER MANN</ab>
+            <ab>DR. MED. FRITZ BAUM</ab>
+            <ab>GEB. ZU DANZIG 14 MAI 1859</ab>
+            <ab>GEST. AM FUSSE DES GRAN SASSO</ab>
+            <ab>DEN 19 FEBRUAR 1916</ab>
+            <ab/>
+            <ab>DURCH NACHT ZUM LICHT</ab>
+            <ab/>
+            <ab>UND SEINE EHEFRAU</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_S">
+            <ab>ANNA CAROLINE LUISE BAUM</ab>
+            <ab>GEB. BEHRENDT</ab>
+            <ab>GEB. ZU DANZIG 16 NOV.1867</ab>
+            <ab>GEST. AM ROM 29 APRIL 1938</ab>
+         </div>
+         <div type="inscription" decls="#f_T #c_1 #m_IC #t_S">
+            <ab>DR. JOHANNES GEHLEN</ab>
+            <ab>ROM 15 MÄRZ 1901 ROM 28 JUNI 1986</ab>
+         </div>
+      </body>
   </text>
 </TEI>

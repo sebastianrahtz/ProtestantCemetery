@@ -1,65 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1539.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1539.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1539</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1539">
-          <msIdentifier>
-            <idno>S1539</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>36</height>
-                    <depth>5</depth>
-                    <width>57</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>J D</forename>
-              <surname>C</surname>
-            </persName>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1539</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1539">
+               <msIdentifier>
+                  <idno>S1539</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>36</height>
+                              <depth>5</depth>
+                              <width>57</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>J D</forename>
+                     <surname>C</surname>
+                  </persName>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_RM #t_P">
-        <ab>JDC</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1539"
+               ulx="2194.920922"
+               uly="310.03104599999995"
+               lrx="2200.927739"
+               lry="313.324833"
+               points="2194.920922,310.418217 2200.734154,310.03104599999995 2200.927739,312.93766200000005 2195.114507,313.324833 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_RM #t_P">
+            <ab>JDC</ab>
+         </div>
+      </body>
   </text>
 </TEI>

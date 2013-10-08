@@ -1,90 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S182.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S182.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 182</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S182">
-          <msIdentifier>
-            <idno>S182</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1763</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>126</height>
-                    <depth>12</depth>
-                    <width>62</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>21</age>
-            <sex>1</sex>
-            <persName>
-              <forename>William Henry</forename>
-              <surname>Elliot</surname>
-            </persName>
-            <birth>
-              <placeName>
-                <settlement>New York</settlement>
-                <country>USA</country>
-              </placeName>
-            </birth>
-            <death when="1833-01-15">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 182</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S182">
+               <msIdentifier>
+                  <idno>S182</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1763</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>126</height>
+                              <depth>12</depth>
+                              <width>62</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>21</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>William Henry</forename>
+                     <surname>Elliot</surname>
+                  </persName>
+                  <birth>
+                     <placeName>
+                        <settlement>New York</settlement>
+                        <country>USA</country>
+                     </placeName>
+                  </birth>
+                  <death when="1833-01-15">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>WILLIAM HENRY ELLIOT</ab>
-        <ab>OF NEW-YORK.</ab>
-        <ab>WHO DIED AT ROME, THE 15.TH DAY OF JANUARY 1833,</ab>
-        <ab>AGED XXI YEARS</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>I AM THE RESURRECTION AND THE LIFE:HE THAT BELIEVETH</ab>
-        <ab>IN ME, THOUGH HE WERE DEAD, YET SHALL HE LIVE.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S182"
+               ulx="1088.472596"
+               uly="323.810016"
+               lrx="1103.065361"
+               lry="329.33625600000005"
+               points="1103.065361,324.157429 1088.620515,323.810016 1088.472596,328.988843 1102.917442,329.33625600000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>WILLIAM HENRY ELLIOT</ab>
+            <ab>OF NEW-YORK.</ab>
+            <ab>WHO DIED AT ROME, THE 15.TH DAY OF JANUARY 1833,</ab>
+            <ab>AGED XXI YEARS</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>I AM THE RESURRECTION AND THE LIFE:HE THAT BELIEVETH</ab>
+            <ab>IN ME, THOUGH HE WERE DEAD, YET SHALL HE LIVE.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

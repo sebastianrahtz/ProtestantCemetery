@@ -1,92 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S146.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S146.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 146</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S146">
-          <msIdentifier>
-            <idno>S146</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1782</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>167</height>
-                    <depth>56</depth>
-                    <width>114</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_30 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>32</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Frances Mary Ann</forename>
-              <surname>Ingram</surname>
-            </persName>
-            <death when="1840-01-16">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 146</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S146">
+               <msIdentifier>
+                  <idno>S146</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1782</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>167</height>
+                              <depth>56</depth>
+                              <width>114</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_30 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>32</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Frances Mary Ann</forename>
+                     <surname>Ingram</surname>
+                  </persName>
+                  <death when="1840-01-16">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>FRANCES MARY ANN</ab>
-        <ab>FOURTH DAUGHTER OF</ab>
-        <ab>JOHN AND FRANCES INGRAM</ab>
-        <ab>WHO DIED AT ROME</ab>
-        <ab>ON THE XVIth DAY OF JANUARY</ab>
-        <ab>IN THE YEAR OF LORD</ab>
-        <ab>MDCCCXL</ab>
-        <ab>AGED THIRTY TWO YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S146"
+               ulx="992.250487"
+               uly="283.83810200000005"
+               lrx="1004.083857"
+               lry="291.368163"
+               points="1004.083857,284.11768400000005 992.457657,283.83810200000005 992.250487,291.088391 1003.876704,291.368163 ">
+            <graphic url="film:_H/26235"/>
+            <graphic url="film:K/36"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>FRANCES MARY ANN</ab>
+            <ab>FOURTH DAUGHTER OF</ab>
+            <ab>JOHN AND FRANCES INGRAM</ab>
+            <ab>WHO DIED AT ROME</ab>
+            <ab>ON THE XVIth DAY OF JANUARY</ab>
+            <ab>IN THE YEAR OF LORD</ab>
+            <ab>MDCCCXL</ab>
+            <ab>AGED THIRTY TWO YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

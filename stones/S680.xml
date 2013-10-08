@@ -1,94 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S680.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S680.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 680</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S680">
-          <msIdentifier>
-            <idno>S680</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2177</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COPE">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>122</height>
-                    <depth>47</depth>
-                    <width>56</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_45 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Iohn George</forename>
-              <surname>Pakenham</surname>
-            </persName>
-            <death when="1864"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 680</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S680">
+               <msIdentifier>
+                  <idno>S680</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2177</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COPE">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>122</height>
+                              <depth>47</depth>
+                              <width>56</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_45 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Iohn George</forename>
+                     <surname>Pakenham</surname>
+                  </persName>
+                  <death when="1864"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>IOhN GEORGE PAKENhAM</ab>
-        <ab>BORN</ab>
-        <ab>APRIL 27</ab>
-        <ab>DIED</ab>
-        <ab>JUNE 4</ab>
-        <ab>1864</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_IF #t_PC">
-        <ab>+ SUFFER LITTLE ChILDREN TO COME UNTO</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_PC">
-        <ab>ME AND FORBID ThEM</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IF #t_PC">
-        <ab>NOT FOR OF SUCh IS THE KINGDON OF GOD</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_N #c_2 #m_IF #t_PC">
-        <ab>+ S LUKE XVIII v 16 +</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S680"
+               ulx="1734.951743"
+               uly="334.010228"
+               lrx="1742.049033"
+               lry="349.791332"
+               points="1735.165902,334.010228 1742.049033,334.104196 1741.834874,349.791332 1734.951743,349.697365 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>IOhN GEORGE PAKENhAM</ab>
+            <ab>BORN</ab>
+            <ab>APRIL 27</ab>
+            <ab>DIED</ab>
+            <ab>JUNE 4</ab>
+            <ab>1864</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_IF #t_PC">
+            <ab>+ SUFFER LITTLE ChILDREN TO COME UNTO</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_PC">
+            <ab>ME AND FORBID ThEM</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IF #t_PC">
+            <ab>NOT FOR OF SUCh IS THE KINGDON OF GOD</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_N #c_2 #m_IF #t_PC">
+            <ab>+ S LUKE XVIII v 16 +</ab>
+         </div>
+      </body>
   </text>
 </TEI>

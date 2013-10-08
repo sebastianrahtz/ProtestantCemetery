@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2044.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2044.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2044</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2044">
-          <msIdentifier>
-            <idno>S2044</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1976</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>170</height>
-                    <depth>60</depth>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_116 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Edward</forename>
-              <surname>Sing</surname>
-            </persName>
-            <death when="1909"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2044</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2044">
+               <msIdentifier>
+                  <idno>S2044</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1976</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>170</height>
+                              <depth>60</depth>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_116 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Edward</forename>
+                     <surname>Sing</surname>
+                  </persName>
+                  <death when="1909"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>EDWARD SING</ab>
-        <ab/>
-        <ab>BORN IN NEW YORK JAN. 1ST 1831</ab>
-        <ab>DIED AT PISA FEB. 9TH 1909</ab>
-        <ab/>
-        <ab>I BELIEVE IN THE RESURRECTION OF THE BODY.</ab>
-        <ab>AND IN THE LIFE EVERLASTING.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2044"
+               ulx="2871.842245"
+               uly="242.750768"
+               lrx="2881.429928"
+               lry="248.05572600000005"
+               points="2871.842245,242.87596399999995 2881.361807,242.750768 2881.429928,247.93052999999998 2871.910367,248.05572600000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>EDWARD SING</ab>
+            <ab/>
+            <ab>BORN IN NEW YORK JAN. 1ST 1831</ab>
+            <ab>DIED AT PISA FEB. 9TH 1909</ab>
+            <ab/>
+            <ab>I BELIEVE IN THE RESURRECTION OF THE BODY.</ab>
+            <ab>AND IN THE LIFE EVERLASTING.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

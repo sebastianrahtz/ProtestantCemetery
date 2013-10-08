@@ -1,77 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1285.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1285.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1285</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1285">
-          <msIdentifier>
-            <idno>S1285</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">901</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>36</height>
-                    <depth>4</depth>
-                    <width>39</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ethel</forename>
-              <surname>Noakes</surname>
-            </persName>
-            <death when="1960"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1285</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1285">
+               <msIdentifier>
+                  <idno>S1285</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">901</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>36</height>
+                              <depth>4</depth>
+                              <width>39</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ethel</forename>
+                     <surname>Noakes</surname>
+                  </persName>
+                  <death when="1960"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>ETHEL NOAKES</ab>
-        <ab>BORN, BRADFORD, ENGL.</ab>
-        <ab>29 MAY 1878</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>8 FEBRUARY 1960</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1285"
+               ulx="1895.798002"
+               uly="620.698291"
+               lrx="1901.445785"
+               lry="624.620363"
+               points="1895.798002,620.698291 1901.445785,620.698291 1901.445785,624.620363 1895.798002,624.620363 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>ETHEL NOAKES</ab>
+            <ab>BORN, BRADFORD, ENGL.</ab>
+            <ab>29 MAY 1878</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>8 FEBRUARY 1960</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,92 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S683.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S683.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 683</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S683">
-          <msIdentifier>
-            <idno>S683</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1196</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>121</height>
-                    <depth>43</depth>
-                    <width>44</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_30 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Clara Geier</forename>
-              <surname>Schoener</surname>
-            </persName>
-            <death when="1920"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Reinhold</forename>
-              <surname>Schoener</surname>
-            </persName>
-            <death when="1936"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 683</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S683">
+               <msIdentifier>
+                  <idno>S683</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1196</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>121</height>
+                              <depth>43</depth>
+                              <width>44</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_30 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Clara Geier</forename>
+                     <surname>Schoener</surname>
+                  </persName>
+                  <death when="1920"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Reinhold</forename>
+                     <surname>Schoener</surname>
+                  </persName>
+                  <death when="1936"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_RM #t_P">
-        <ab>E.SOMNIO.IN.SOMNVM</ab>
-        <ab>OSSA.ET.CINERIS.CONIVGVM</ab>
-        <ab>SCHOENER</ab>
-        <ab>REINHOLDI.SAXOBORVSSI - 1849–1936</ab>
-        <ab>CLARAE.GEIER.ASSIANAE - 1838–1920</ab>
-        <ab>HOSPITVM.ROMAE.IAM.INDE.AB.ANNO 1882</ab>
-        <ab>CONDITI.A.FILIO.HENRICO.CVM.LACRYMIS</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_R #c_2 #m_RM #t_PC">
-        <ab>CINERES</ab>
-        <ab>SICVT.CORDA</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S683"
+               ulx="1697.677911"
+               uly="342.34282499999995"
+               lrx="1702.120852"
+               lry="346.72225000000003"
+               points="1697.677911,344.51640399999997 1697.953316,343.445748 1698.564879,342.680155 1699.5774,342.34282499999995 1701.015179,342.495357 1701.630792,343.137751 1702.120852,344.39320599999996 1701.784695,345.77185899999995 1700.893677,346.56971899999996 1699.516648,346.72225000000003 1698.200372,346.04759 1697.831814,345.252664 ">
+            <graphic url="film:AN/28"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_RM #t_P">
+            <ab>E.SOMNIO.IN.SOMNVM</ab>
+            <ab>OSSA.ET.CINERIS.CONIVGVM</ab>
+            <ab>SCHOENER</ab>
+            <ab>REINHOLDI.SAXOBORVSSI - 1849–1936</ab>
+            <ab>CLARAE.GEIER.ASSIANAE - 1838–1920</ab>
+            <ab>HOSPITVM.ROMAE.IAM.INDE.AB.ANNO 1882</ab>
+            <ab>CONDITI.A.FILIO.HENRICO.CVM.LACRYMIS</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_R #c_2 #m_RM #t_PC">
+            <ab>CINERES</ab>
+            <ab>SICVT.CORDA</ab>
+         </div>
+      </body>
   </text>
 </TEI>

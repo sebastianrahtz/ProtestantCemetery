@@ -1,97 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S69.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S69.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 69</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S69">
-          <msIdentifier>
-            <idno>S69</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">147</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>108</height>
-                    <depth>47</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 86)</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_35 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>77</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Rouard</forename>
-              <surname>Easter</surname>
-            </persName>
-            <birth when="1739"/>
-            <death when="1818-05">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 69</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S69">
+               <msIdentifier>
+                  <idno>S69</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">147</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>108</height>
+                              <depth>47</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 86)</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_35 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>77</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Rouard</forename>
+                     <surname>Easter</surname>
+                  </persName>
+                  <birth when="1739"/>
+                  <death when="1818-05">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
-        <ab>TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>ROUARD EASTER</ab>
-        <ab>DEPARTED THIS LIFE AT ROME</ab>
-        <ab>ON THE [..] OF MAY 1818</ab>
-        <ab>AGED 77 YEARS</ab>
-        <ab rend="Alignl">
-          <hi>--- maybe 37?</hi>
-        </ab>
-        <ab>HIS [........] AND FAITHFUL</ab>
-        <ab>ATTENDANCE FOR 13 YEARS</ab>
-        <ab>GENTEEL MANNERS AND</ab>
-        <ab>IRREPARABLE LOSS AGGRAVATE</ab>
-        <ab>THE GRIEF OF HIS UNTIMELY</ab>
-        <ab>DEATH AND LAST SUFFERINGS</ab>
-        <ab>TO</ab>
-        <ab>CONDE DE FUNGHAL</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S69"
+               ulx="475.754654"
+               uly="717.99418"
+               lrx="486.525059"
+               lry="728.7772640000001"
+               points="481.313209,717.99418 475.754654,723.680298 480.966314,728.7772640000001 486.525059,723.091128 ">
+            <graphic url="film:_H/26315"/>
+            <graphic url="film:S/22"/>
+            <graphic url="film:Y/24">
+               <desc>lettering</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
+            <ab>TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>ROUARD EASTER</ab>
+            <ab>DEPARTED THIS LIFE AT ROME</ab>
+            <ab>ON THE [..] OF MAY 1818</ab>
+            <ab>AGED 77 YEARS</ab>
+            <ab rend="Alignl">
+               <hi>--- maybe 37?</hi>
+            </ab>
+            <ab>HIS [........] AND FAITHFUL</ab>
+            <ab>ATTENDANCE FOR 13 YEARS</ab>
+            <ab>GENTEEL MANNERS AND</ab>
+            <ab>IRREPARABLE LOSS AGGRAVATE</ab>
+            <ab>THE GRIEF OF HIS UNTIMELY</ab>
+            <ab>DEATH AND LAST SUFFERINGS</ab>
+            <ab>TO</ab>
+            <ab>CONDE DE FUNGHAL</ab>
+         </div>
+      </body>
   </text>
 </TEI>

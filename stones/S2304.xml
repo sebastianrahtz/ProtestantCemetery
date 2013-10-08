@@ -1,84 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2304.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2304.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2304</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2304">
-          <msIdentifier>
-            <idno>S2304</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>111</height>
-                    <depth>12</depth>
-                    <width>56</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Christine</forename>
-              <surname>de Goll</surname>
-            </persName>
-            <death when="1935"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2304</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2304">
+               <msIdentifier>
+                  <idno>S2304</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>111</height>
+                              <depth>12</depth>
+                              <width>56</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Christine</forename>
+                     <surname>de Goll</surname>
+                  </persName>
+                  <death when="1935"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
-        <ab>DIED</ab>
-        <ab>AT</ab>
-        <ab>ROME</ab>
-        <ab>10TH JAN</ab>
-        <ab>1835</ab>
-        <ab>CHRISTINE</ab>
-        <ab>DAUGHTER OF THE LATE</ab>
-        <ab>JACQUES EMILE AND MARY A. DE GOLL</ab>
-        <ab>OF</ab>
-        <ab>NEW</ab>
-        <ab>YORK</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2304"
+               ulx="2660.493299"
+               uly="642.597309"
+               lrx="2666.430316"
+               lry="653.210553"
+               points="2662.770887,642.597309 2664.356748,642.597485 2664.356499,644.833954 2666.430316,644.834184 2666.430108,646.704685 2664.396955,646.70446 2664.396233,653.210553 2662.688383,653.210364 2662.648443,646.704266 2660.493299,646.704027 2660.493493,644.955515 2662.770625,644.955767 2662.770887,642.597309 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
+            <ab>DIED</ab>
+            <ab>AT</ab>
+            <ab>ROME</ab>
+            <ab>10TH JAN</ab>
+            <ab>1835</ab>
+            <ab>CHRISTINE</ab>
+            <ab>DAUGHTER OF THE LATE</ab>
+            <ab>JACQUES EMILE AND MARY A. DE GOLL</ab>
+            <ab>OF</ab>
+            <ab>NEW</ab>
+            <ab>YORK</ab>
+         </div>
+      </body>
   </text>
 </TEI>

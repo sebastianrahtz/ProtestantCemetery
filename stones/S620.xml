@@ -1,80 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S620.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S620.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 620</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S620">
-          <msIdentifier>
-            <idno>S620</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>195</height>
-                    <depth>33</depth>
-                    <width>102</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Agnes</forename>
-              <surname>Fremantle</surname>
-            </persName>
-            <death when="1864"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 620</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S620">
+               <msIdentifier>
+                  <idno>S620</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>195</height>
+                              <depth>33</depth>
+                              <width>102</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Agnes</forename>
+                     <surname>Fremantle</surname>
+                  </persName>
+                  <death when="1864"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>AGNES</ab>
-        <ab>WIDOW OF</ab>
-        <ab>MAJOR GENERAL JOHN FREMANTLE C.B.</ab>
-        <ab>LATE OF THE</ab>
-        <ab>COLDSTREAM GUARDS</ab>
-        <ab>BORN</ab>
-        <ab>29 DECEMBER 1802</ab>
-        <ab>DIED AT ROME</ab>
-        <ab>20 FEBRUARY 1864</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S620"
+               ulx="1793.544569"
+               uly="291.42688899999996"
+               lrx="1803.362411"
+               lry="295.55892000000006"
+               points="1793.597927,291.42688899999996 1803.362411,291.55708200000004 1803.309053,295.55892000000006 1793.544569,295.428727 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>AGNES</ab>
+            <ab>WIDOW OF</ab>
+            <ab>MAJOR GENERAL JOHN FREMANTLE C.B.</ab>
+            <ab>LATE OF THE</ab>
+            <ab>COLDSTREAM GUARDS</ab>
+            <ab>BORN</ab>
+            <ab>29 DECEMBER 1802</ab>
+            <ab>DIED AT ROME</ab>
+            <ab>20 FEBRUARY 1864</ab>
+         </div>
+      </body>
   </text>
 </TEI>

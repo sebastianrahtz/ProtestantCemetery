@@ -1,96 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2139.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2139.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2139</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2139">
-          <msIdentifier>
-            <idno>S2139</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1927</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>173</height>
-                    <depth>46</depth>
-                    <width>62</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_86 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_86 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Louis</forename>
-              <surname>Salomonsohn</surname>
-            </persName>
-            <death when="1908"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2139</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2139">
+               <msIdentifier>
+                  <idno>S2139</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1927</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>173</height>
+                              <depth>46</depth>
+                              <width>62</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_86 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_86 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Louis</forename>
+                     <surname>Salomonsohn</surname>
+                  </persName>
+                  <death when="1908"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>LOVIS SALOMONSOHN</ab>
-        <ab>GEB. 17–01–1833</ab>
-        <ab>GEST. 19–09–1908</ab>
-        <ab/>
-        <ab>OB.VNSTERBLICHKEIT DER</ab>
-        <ab>SEELE LOOS[.]ICH MAC ES</ab>
-        <ab>NICHT ENTSCHEIDEN WAS</ab>
-        <ab>RUHET IN DER ZVKVNFT SHOOS,</ab>
-        <ab>NICHT FREVDEN MEHRT ES,</ab>
-        <ab>WEHRT NICHT LEIDEN.</ab>
-        <ab>---</ab>
-        <ab>EIN MENSCHENLOOS WARD MIR</ab>
-        <ab>BESCHIEDEN. ICH LEBTE,</ab>
-        <ab>LIEBTE, LITT HIENIEDEN</ab>
-        <ab>VND RVHE JETZT IM EW'GEN</ab>
-        <ab>FRIEDEN.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2139"
+               ulx="2694.213629"
+               uly="365.485222"
+               lrx="2702.556737"
+               lry="380.790484"
+               points="2694.296525,365.485222 2702.556737,365.53009199999997 2702.473842,380.790484 2694.213629,380.74561500000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>LOVIS SALOMONSOHN</ab>
+            <ab>GEB. 17–01–1833</ab>
+            <ab>GEST. 19–09–1908</ab>
+            <ab/>
+            <ab>OB.VNSTERBLICHKEIT DER</ab>
+            <ab>SEELE LOOS[.]ICH MAC ES</ab>
+            <ab>NICHT ENTSCHEIDEN WAS</ab>
+            <ab>RUHET IN DER ZVKVNFT SHOOS,</ab>
+            <ab>NICHT FREVDEN MEHRT ES,</ab>
+            <ab>WEHRT NICHT LEIDEN.</ab>
+            <ab>---</ab>
+            <ab>EIN MENSCHENLOOS WARD MIR</ab>
+            <ab>BESCHIEDEN. ICH LEBTE,</ab>
+            <ab>LIEBTE, LITT HIENIEDEN</ab>
+            <ab>VND RVHE JETZT IM EW'GEN</ab>
+            <ab>FRIEDEN.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

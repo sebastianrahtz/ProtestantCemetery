@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S834.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S834.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 834</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S834">
-          <msIdentifier>
-            <idno>S834</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1144</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>70</height>
-                    <depth>35</depth>
-                    <width>41</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_115 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Alice</forename>
-              <surname>Pine</surname>
-            </persName>
-            <death when="1940"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 834</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S834">
+               <msIdentifier>
+                  <idno>S834</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1144</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>70</height>
+                              <depth>35</depth>
+                              <width>41</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_115 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Alice</forename>
+                     <surname>Pine</surname>
+                  </persName>
+                  <death when="1940"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>ALICE</ab>
-        <ab>PINE</ab>
-        <ab>FISKHILL. N.Y,U.S.A.</ab>
-        <ab>MAY 24.1848</ab>
-        <ab>ROME FEBR.7.1940</ab>
-        <ab>R.I.P.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S834"
+               ulx="1433.403748"
+               uly="418.242565"
+               lrx="1439.67875"
+               lry="423.419442"
+               points="1433.403748,418.242565 1439.67875,418.242565 1439.67875,423.419442 1433.403748,423.419442 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>ALICE</ab>
+            <ab>PINE</ab>
+            <ab>FISKHILL. N.Y,U.S.A.</ab>
+            <ab>MAY 24.1848</ab>
+            <ab>ROME FEBR.7.1940</ab>
+            <ab>R.I.P.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

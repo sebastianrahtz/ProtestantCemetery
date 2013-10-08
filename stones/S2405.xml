@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2405.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2405.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2405</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2405">
-          <msIdentifier>
-            <idno>S2405</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>153</height>
-                    <width>48</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>JUrij Alekseeviq</forename>
-              <surname>Pavlovski</surname>
-            </persName>
-            <death when="1961"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Nadeйda Nikolaevna</forename>
-              <surname>Pavlovskaja</surname>
-            </persName>
-            <death when="1984"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2405</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2405">
+               <msIdentifier>
+                  <idno>S2405</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>153</height>
+                              <width>48</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>JUrij Alekseeviq</forename>
+                     <surname>Pavlovski</surname>
+                  </persName>
+                  <death when="1961"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Nadeйda Nikolaevna</forename>
+                     <surname>Pavlovskaja</surname>
+                  </persName>
+                  <death when="1984"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_IC #t_P #s_CY">
-        <ab>ЙУрий Алексеежия Пажложский</ab>
-        <ab>(Giorgio Pavlovsky)</ab>
-        <ab>род. Петербург 23/10-И-1887 + Рим 15/2-ВИИИ-1961</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_1 #m_IC #t_S #s_CY">
-        <ab>НАДЕЖДА НИКОЛАЕВНА ПАВЛОВСКАЯ</ab>
-        <ab>РОЖД ГАРКОВЕНКО</ab>
-        <ab>NADEZHDA PAVLOVSKY</ab>
-        <ab>NATA GARKOVENKO</ab>
-        <ab>РОД. ТАЬКЕНТ 30.ИЬ.1899 +РИМ 26.ЬИИ.1984</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2405"
+               ulx="3090.195419"
+               uly="215.67135299999995"
+               lrx="3095.594856"
+               lry="220.93295899999998"
+               points="3090.195419,215.75336500000003 3095.515002,215.67135299999995 3095.594856,220.85094800000002 3090.275273,220.93295899999998 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_IC #t_P #s_CY">
+            <ab>ЙУрий Алексеежия Пажложский</ab>
+            <ab>(Giorgio Pavlovsky)</ab>
+            <ab>род. Петербург 23/10-И-1887 + Рим 15/2-ВИИИ-1961</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_1 #m_IC #t_S #s_CY">
+            <ab>НАДЕЖДА НИКОЛАЕВНА ПАВЛОВСКАЯ</ab>
+            <ab>РОЖД ГАРКОВЕНКО</ab>
+            <ab>NADEZHDA PAVLOVSKY</ab>
+            <ab>NATA GARKOVENKO</ab>
+            <ab>РОД. ТАЬКЕНТ 30.ИЬ.1899 +РИМ 26.ЬИИ.1984</ab>
+         </div>
+      </body>
   </text>
 </TEI>

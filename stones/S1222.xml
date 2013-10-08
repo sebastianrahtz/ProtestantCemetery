@@ -1,98 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1222.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1222.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1222</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1222">
-          <msIdentifier>
-            <idno>S1222</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>153</height>
-                    <depth>10</depth>
-                    <width>92</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_122 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_140 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_138 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Johan Leonard</forename>
-              <surname>van Crefeld</surname>
-            </persName>
-            <death when="1853"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1222</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1222">
+               <msIdentifier>
+                  <idno>S1222</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>153</height>
+                              <depth>10</depth>
+                              <width>92</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_122 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_140 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_138 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Johan Leonard</forename>
+                     <surname>van Crefeld</surname>
+                  </persName>
+                  <death when="1853"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="nl" decls="#f_T #c_3 #m_I #t_P">
-        <ab>
-          <hi rend="gothic">Johan Leonard</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">Bevsges</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">van Crefeld</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">geb: te Rotterdam</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">17. September 1801</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">gest: te Rome</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">15. april 1853</hi>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1222"
+               ulx="1499.339089"
+               uly="585.870297"
+               lrx="1507.510402"
+               lry="605.04393"
+               points="1499.825668,585.870297 1507.510402,586.067341 1507.023823,605.04393 1499.339089,604.846886 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="nl" decls="#f_T #c_3 #m_I #t_P">
+            <ab>
+               <hi rend="gothic">Johan Leonard</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">Bevsges</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">van Crefeld</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">geb: te Rotterdam</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">17. September 1801</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">gest: te Rome</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">15. april 1853</hi>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

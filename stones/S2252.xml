@@ -1,92 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2252.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2252.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2252</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2252">
-          <msIdentifier>
-            <idno>S2252</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>180</height>
-                    <depth>20</depth>
-                    <width>84</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_1 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_37 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_30 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Josephine Evangeline</forename>
-              <surname>Plowden</surname>
-            </persName>
-            <death when="1924"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2252</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2252">
+               <msIdentifier>
+                  <idno>S2252</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>180</height>
+                              <depth>20</depth>
+                              <width>84</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_1 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_37 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_30 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Josephine Evangeline</forename>
+                     <surname>Plowden</surname>
+                  </persName>
+                  <death when="1924"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
-        <ab>SACRED TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>JOSEPHINE EVANGELINE PLOWDEN</ab>
-        <ab>BORN SENIOR</ab>
-        <ab>THE BELOVED WIFE OF</ab>
-        <ab>CHARLES WILLIAM PLOWDEN</ab>
-        <ab>BORN 1ST OF MARCH 1853</ab>
-        <ab>DIED IN ROME 10TH OF MAY 1924</ab>
-        <ab/>
-        <ab>INTO THY HANDS OH LORD</ab>
-        <ab>I COMMEND MY SPIRIT</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2252"
+               ulx="2826.874933"
+               uly="589.398263"
+               lrx="2833.837906"
+               lry="607.321935"
+               points="2827.643522,589.398263 2833.837906,589.667943 2833.069316,607.321935 2826.874933,607.0522550000001 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
+            <ab>SACRED TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>JOSEPHINE EVANGELINE PLOWDEN</ab>
+            <ab>BORN SENIOR</ab>
+            <ab>THE BELOVED WIFE OF</ab>
+            <ab>CHARLES WILLIAM PLOWDEN</ab>
+            <ab>BORN 1ST OF MARCH 1853</ab>
+            <ab>DIED IN ROME 10TH OF MAY 1924</ab>
+            <ab/>
+            <ab>INTO THY HANDS OH LORD</ab>
+            <ab>I COMMEND MY SPIRIT</ab>
+         </div>
+      </body>
   </text>
 </TEI>

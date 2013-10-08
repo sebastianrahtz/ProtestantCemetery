@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9062.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9062.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9062</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9062">
-          <msIdentifier>
-            <idno>S9062</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-              <note>east of 2515 replaces 2516</note>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">268</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>97</height>
-                    <depth>18</depth>
-                    <width>82</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>75</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Edoardo</forename>
-              <surname>Capolino</surname>
-            </persName>
-            <birth when="1909"/>
-            <death when="1985"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9062</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9062">
+               <msIdentifier>
+                  <idno>S9062</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                     <note>east of 2515 replaces 2516</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">268</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>97</height>
+                              <depth>18</depth>
+                              <width>82</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>75</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Edoardo</forename>
+                     <surname>Capolino</surname>
+                  </persName>
+                  <birth when="1909"/>
+                  <death when="1985"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>ALLA CARA MEMORIA</ab>
-        <ab>DI</ab>
-        <ab>EDOARDO CAPOLINO</ab>
-        <ab>3.8.1909–31.1.1985</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_S">
-        <ab>E DI SUA MOGLIE</ab>
-        <ab>MURIEL CAPOLINO</ab>
-        <ab>NATA LEVOR</ab>
-        <ab>2.6.1910 - 25.7.1986</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9062"
+               ulx="2963.599204"
+               uly="396.337987"
+               lrx="2971.44118"
+               lry="400.18152999999995"
+               points="2963.600864,396.337987 2971.44118,396.341374 2971.439521,400.18152999999995 2963.599204,400.178142 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>ALLA CARA MEMORIA</ab>
+            <ab>DI</ab>
+            <ab>EDOARDO CAPOLINO</ab>
+            <ab>3.8.1909–31.1.1985</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_S">
+            <ab>E DI SUA MOGLIE</ab>
+            <ab>MURIEL CAPOLINO</ab>
+            <ab>NATA LEVOR</ab>
+            <ab>2.6.1910 - 25.7.1986</ab>
+         </div>
+      </body>
   </text>
 </TEI>

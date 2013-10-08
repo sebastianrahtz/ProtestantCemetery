@@ -1,96 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2536.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2536.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2536</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2536">
-          <msIdentifier>
-            <idno>S2536</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">667</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>132</height>
-                    <depth>30</depth>
-                    <width>59</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Annie</forename>
-              <surname>Woodruff</surname>
-            </persName>
-            <death when="1933"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Elizabeth Sampson</forename>
-              <surname>Woodruff</surname>
-            </persName>
-            <death when="1971"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2536</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2536">
+               <msIdentifier>
+                  <idno>S2536</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">667</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>132</height>
+                              <depth>30</depth>
+                              <width>59</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Annie</forename>
+                     <surname>Woodruff</surname>
+                  </persName>
+                  <death when="1933"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elizabeth Sampson</forename>
+                     <surname>Woodruff</surname>
+                  </persName>
+                  <death when="1971"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_RS #t_P">
-        <ab>ANNIE SAMPSON WOODRUFF</ab>
-        <ab>WIDOW OF</ab>
-        <ab>THOMAS MAYHEW WOODRUFF</ab>
-        <ab>UNITED STATES ARMY</ab>
-        <ab>CINCINNATI - OHIO JANUARY 17, 1855</ab>
-        <ab>ROME APRIL 9, 1933</ab>
-        <ab>ELIZABETH SAMPSON</ab>
-        <ab>WOODRUFF</ab>
-        <ab>CINCINNATI - OHIO MAY 9, 1885</ab>
-        <ab>ROME JULY 8, 1971</ab>
-        <ab/>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2536"
+               ulx="3023.763095"
+               uly="472.463753"
+               lrx="3031.255987"
+               lry="477.776466"
+               points="3023.898253,472.463753 3031.255987,472.658044 3031.120828,477.776466 3023.763095,477.582176 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_RS #t_P">
+            <ab>ANNIE SAMPSON WOODRUFF</ab>
+            <ab>WIDOW OF</ab>
+            <ab>THOMAS MAYHEW WOODRUFF</ab>
+            <ab>UNITED STATES ARMY</ab>
+            <ab>CINCINNATI - OHIO JANUARY 17, 1855</ab>
+            <ab>ROME APRIL 9, 1933</ab>
+            <ab>ELIZABETH SAMPSON</ab>
+            <ab>WOODRUFF</ab>
+            <ab>CINCINNATI - OHIO MAY 9, 1885</ab>
+            <ab>ROME JULY 8, 1971</ab>
+            <ab/>
+         </div>
+      </body>
   </text>
 </TEI>

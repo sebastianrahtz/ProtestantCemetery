@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1298.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1298.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1298</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1298">
-          <msIdentifier>
-            <idno>S1298</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>100</height>
-                    <depth>20</depth>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_86 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Natalie</forename>
-              <surname>de Kochius</surname>
-            </persName>
-            <death when="1853"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1298</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1298">
+               <msIdentifier>
+                  <idno>S1298</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>100</height>
+                              <depth>20</depth>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_86 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Natalie</forename>
+                     <surname>de Kochius</surname>
+                  </persName>
+                  <death when="1853"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_IF #t_P #s_CY">
-        <ab>НАТАЛИЯ КОЦХИУС"</ab>
-        <ab>УРОЖДЕННАЯ КАЙДАНОВА</ab>
-        <ab>СКОНИАЛС' В' РИМѢ</ab>
-        <ab>НОЯБРЯ ЬВИ ДНЯ</ab>
-        <ab>МДЦЦЦЛИИИ ГОДА.</ab>
-        <ab>МОЛИТЕС' ЗА НЕЕ</ab>
-        <ab>---------</ab>
-        <ab>NATHALIE DE KOCHIUS</ab>
-        <ab>NÉE KAÏDANOFF</ab>
-        <ab>DÉCÉDÉE À ROME</ab>
-        <ab>LE 16 NOVEMBRE 1853</ab>
-        <ab>PRÍEZ POUR ELLE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1298"
+               ulx="1582.60339"
+               uly="617.246868"
+               lrx="1590.503148"
+               lry="621.281388"
+               points="1582.659817,617.246868 1590.503148,617.359722 1590.446721,621.281388 1582.60339,621.168534 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_IF #t_P #s_CY">
+            <ab>НАТАЛИЯ КОЦХИУС"</ab>
+            <ab>УРОЖДЕННАЯ КАЙДАНОВА</ab>
+            <ab>СКОНИАЛС' В' РИМѢ</ab>
+            <ab>НОЯБРЯ ЬВИ ДНЯ</ab>
+            <ab>МДЦЦЦЛИИИ ГОДА.</ab>
+            <ab>МОЛИТЕС' ЗА НЕЕ</ab>
+            <ab>---------</ab>
+            <ab>NATHALIE DE KOCHIUS</ab>
+            <ab>NÉE KAÏDANOFF</ab>
+            <ab>DÉCÉDÉE À ROME</ab>
+            <ab>LE 16 NOVEMBRE 1853</ab>
+            <ab>PRÍEZ POUR ELLE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

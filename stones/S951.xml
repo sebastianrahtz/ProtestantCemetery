@@ -1,84 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S951.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S951.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 951</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S951">
-          <msIdentifier>
-            <idno>S951</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2085</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>120</height>
-                    <depth>22</depth>
-                    <width>76</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Nic Gustavus</forename>
-              <surname>Palin</surname>
-            </persName>
-            <death when="1842"/>
-            <nationality key="SE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 951</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S951">
+               <msIdentifier>
+                  <idno>S951</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2085</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>120</height>
+                              <depth>22</depth>
+                              <width>76</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Nic Gustavus</forename>
+                     <surname>Palin</surname>
+                  </persName>
+                  <death when="1842"/>
+                  <nationality key="SE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_I #t_P">
-        <ab>H.S.E</ab>
-        <ab>NIC. GVSTAVVS. PALIN.</ab>
-        <ab>NOB. SVECVS. EQVES. AVRATVS</ab>
-        <ab>S.R.M. SVECANAE</ab>
-        <ab>QVONDAM. LEGATVS. AD</ab>
-        <ab>FVLGIDAM. PORTAM. OTTOMANAM</ab>
-        <ab>NATVS. HOLMIAE. CIƅIƅCCLXV</ab>
-        <ab/>
-        <ab>-------</ab>
-        <ab>OBIIT. ROMAE</ab>
-        <ab>GRASSATORIS. GLADIO. DOMI. IVGVLATVS</ab>
-        <ab>XVII. KAL. APR.</ab>
-        <ab>CIƅIƅCCCXLII</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_N #c_2 #m_I #t_PC">
-        <ab>[....]</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S951"
+               ulx="1348.669726"
+               uly="440.92851199999996"
+               lrx="1356.747784"
+               lry="444.348748"
+               points="1348.759732,440.92851199999996 1356.747784,441.15352800000005 1356.657778,444.348748 1348.669726,444.123733 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_I #t_P">
+            <ab>H.S.E</ab>
+            <ab>NIC. GVSTAVVS. PALIN.</ab>
+            <ab>NOB. SVECVS. EQVES. AVRATVS</ab>
+            <ab>S.R.M. SVECANAE</ab>
+            <ab>QVONDAM. LEGATVS. AD</ab>
+            <ab>FVLGIDAM. PORTAM. OTTOMANAM</ab>
+            <ab>NATVS. HOLMIAE. CIƅIƅCCLXV</ab>
+            <ab/>
+            <ab>-------</ab>
+            <ab>OBIIT. ROMAE</ab>
+            <ab>GRASSATORIS. GLADIO. DOMI. IVGVLATVS</ab>
+            <ab>XVII. KAL. APR.</ab>
+            <ab>CIƅIƅCCCXLII</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_N #c_2 #m_I #t_PC">
+            <ab>[....]</ab>
+         </div>
+      </body>
   </text>
 </TEI>

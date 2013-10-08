@@ -1,83 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1755.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1755.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1755</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1755">
-          <msIdentifier>
-            <idno>S1755</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>240</height>
-                    <depth>20</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>On the S face there are two columns and two pinnacles. The actual face is devided up like a Gothic stained glass window.</summary>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_30 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Sarah</forename>
-              <surname>de La poer beresford</surname>
-            </persName>
-            <death when="1898"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1755</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1755">
+               <msIdentifier>
+                  <idno>S1755</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>240</height>
+                              <depth>20</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>On the S face there are two columns and two pinnacles. The actual face is devided up like a Gothic stained glass window.</summary>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_30 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Sarah</forename>
+                     <surname>de La poer beresford</surname>
+                  </persName>
+                  <death when="1898"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>IN BELOVED MEMORY</ab>
-        <ab>OF</ab>
-        <ab>SARAH DE LA POER BERESFORD</ab>
-        <ab>FELL ASLEEP</ab>
-        <ab>JANUARY 3D 1898</ab>
-        <ab>THOU SHALL COME TO THY GRAVE</ab>
-        <ab>IN A FULL AGE LIKE AS A SHOCK</ab>
-        <ab>OF CORN COMETH IN ITS SEASON</ab>
-        <ab rend="Alignr">JOB. V.26</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1755"
+               ulx="2485.23801"
+               uly="468.83516"
+               lrx="2494.285434"
+               lry="473.37024199999996"
+               points="2485.23801,469.492431 2493.994357,468.83516 2494.285434,472.71297100000004 2485.529086,473.37024199999996 ">
+            <graphic url="film:Z/32"/>
+            <graphic url="film:Z/33">
+               <desc>detail</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>IN BELOVED MEMORY</ab>
+            <ab>OF</ab>
+            <ab>SARAH DE LA POER BERESFORD</ab>
+            <ab>FELL ASLEEP</ab>
+            <ab>JANUARY 3D 1898</ab>
+            <ab>THOU SHALL COME TO THY GRAVE</ab>
+            <ab>IN A FULL AGE LIKE AS A SHOCK</ab>
+            <ab>OF CORN COMETH IN ITS SEASON</ab>
+            <ab rend="Alignr">JOB. V.26</ab>
+         </div>
+      </body>
   </text>
 </TEI>

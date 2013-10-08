@@ -1,87 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S602.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S602.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 602</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S602">
-          <msIdentifier>
-            <idno>S602</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1481</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>56</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_109 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_E"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_129 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Fanny</forename>
-              <surname>Birkenruth</surname>
-            </persName>
-            <death when="1912"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 602</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S602">
+               <msIdentifier>
+                  <idno>S602</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1481</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>56</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_109 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_E"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_129 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Fanny</forename>
+                     <surname>Birkenruth</surname>
+                  </persName>
+                  <death when="1912"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>FANNY BIRKENRUTH</ab>
-        <ab/>
-        <ab>*21.3.1841 +6.5.1912</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S602"
+               ulx="1534.812533"
+               uly="295.10890700000004"
+               lrx="1543.059952"
+               lry="301.77597000000003"
+               points="1534.896139,295.10890700000004 1543.059952,295.212905 1542.976346,301.77597000000003 1534.812533,301.671972 ">
+            <graphic url="film:AM/26"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>FANNY BIRKENRUTH</ab>
+            <ab/>
+            <ab>*21.3.1841 +6.5.1912</ab>
+         </div>
+      </body>
   </text>
 </TEI>

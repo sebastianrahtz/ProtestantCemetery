@@ -1,80 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S220.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S220.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 220</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S220">
-          <msIdentifier>
-            <idno>S220</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>100</height>
-                    <width>62</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>S. Marie</forename>
-              <surname>Reno</surname>
-            </persName>
-            <birth>
-              <placeName>
-                <settlement>New York</settlement>
-                <country>USA</country>
-              </placeName>
-            </birth>
-            <death when="1915-10-30"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 220</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S220">
+               <msIdentifier>
+                  <idno>S220</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>100</height>
+                              <width>62</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>S. Marie</forename>
+                     <surname>Reno</surname>
+                  </persName>
+                  <birth>
+                     <placeName>
+                        <settlement>New York</settlement>
+                        <country>USA</country>
+                     </placeName>
+                  </birth>
+                  <death when="1915-10-30"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab rend="Alignl">SACRED TO THE MEMORY</ab>
-        <ab rend="Alignl">OF S. MARIE RENO WHO</ab>
-        <ab rend="Alignl">DIED SUDDENLY IN ROME</ab>
-        <ab rend="Alignl">OCTOBER 30 1915 FAR AWAY</ab>
-        <ab rend="Alignl">FROM HER HOME AND HER</ab>
-        <ab rend="Alignl">BELOVED FAMILY IN NEW</ab>
-        <ab rend="Alignl">YORK U.S.A. LEAVING AN</ab>
-        <ab rend="Alignl">ACHING VOID WHICH NEVER</ab>
-        <ab rend="Alignl">MORE UPON EARTH CAN</ab>
-        <ab rend="Alignl">BE FILLED</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S220"
+               ulx="1301.751006"
+               uly="358.481897"
+               lrx="1307.619686"
+               lry="366.731082"
+               points="1307.619686,358.61740399999996 1301.982792,358.481897 1301.751006,366.59538399999997 1307.387918,366.731082 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab rend="Alignl">SACRED TO THE MEMORY</ab>
+            <ab rend="Alignl">OF S. MARIE RENO WHO</ab>
+            <ab rend="Alignl">DIED SUDDENLY IN ROME</ab>
+            <ab rend="Alignl">OCTOBER 30 1915 FAR AWAY</ab>
+            <ab rend="Alignl">FROM HER HOME AND HER</ab>
+            <ab rend="Alignl">BELOVED FAMILY IN NEW</ab>
+            <ab rend="Alignl">YORK U.S.A. LEAVING AN</ab>
+            <ab rend="Alignl">ACHING VOID WHICH NEVER</ab>
+            <ab rend="Alignl">MORE UPON EARTH CAN</ab>
+            <ab rend="Alignl">BE FILLED</ab>
+         </div>
+      </body>
   </text>
 </TEI>

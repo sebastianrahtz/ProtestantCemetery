@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1487.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1487.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1487</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1487">
-          <msIdentifier>
-            <idno>S1487</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>165</height>
-                    <depth>58</depth>
-                    <width>58</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Sophia M.</forename>
-              <surname>Piotti</surname>
-            </persName>
-            <death when="1865"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1487</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1487">
+               <msIdentifier>
+                  <idno>S1487</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>165</height>
+                              <depth>58</depth>
+                              <width>58</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Sophia M.</forename>
+                     <surname>Piotti</surname>
+                  </persName>
+                  <death when="1865"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>LET COME WHAT WILL COME,</ab>
-        <ab>GOD'S WILL BE WELL COME.</ab>
-        <ab/>
-        <ab>SOPHIA M. PIOTTI</ab>
-        <ab>WIFE OF IGNATIUS PIOTTI M.D.ROME.</ab>
-        <ab>SECOND DAUGHTER OF EDWARD AND</ab>
-        <ab>HENRIETTA DANIELL</ab>
-        <ab>OF NEWPORT.PAGNELL.</ab>
-        <ab>BORN APRIL 30TH 1831</ab>
-        <ab>DIED OCTOBER 25TH 1865</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1487"
+               ulx="2289.079627"
+               uly="234.79631900000004"
+               lrx="2297.080505"
+               lry="242.099153"
+               points="2289.079627,235.45706099999995 2296.488116,234.79631900000004 2297.080505,241.43841099999997 2289.672017,242.099153 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>LET COME WHAT WILL COME,</ab>
+            <ab>GOD'S WILL BE WELL COME.</ab>
+            <ab/>
+            <ab>SOPHIA M. PIOTTI</ab>
+            <ab>WIFE OF IGNATIUS PIOTTI M.D.ROME.</ab>
+            <ab>SECOND DAUGHTER OF EDWARD AND</ab>
+            <ab>HENRIETTA DANIELL</ab>
+            <ab>OF NEWPORT.PAGNELL.</ab>
+            <ab>BORN APRIL 30TH 1831</ab>
+            <ab>DIED OCTOBER 25TH 1865</ab>
+         </div>
+      </body>
   </text>
 </TEI>

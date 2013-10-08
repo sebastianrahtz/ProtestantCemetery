@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1359.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1359.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1359</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1359">
-          <msIdentifier>
-            <idno>S1359</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">459</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>15</depth>
-                    <width>85</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Dorothy Jennie</forename>
-              <surname>Fife</surname>
-            </persName>
-            <death when="1969"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Einar</forename>
-              <surname>Fife</surname>
-            </persName>
-            <death when="1981"/>
-            <nationality key="NO"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1359</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1359">
+               <msIdentifier>
+                  <idno>S1359</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">459</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>15</depth>
+                              <width>85</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Dorothy Jennie</forename>
+                     <surname>Fife</surname>
+                  </persName>
+                  <death when="1969"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Einar</forename>
+                     <surname>Fife</surname>
+                  </persName>
+                  <death when="1981"/>
+                  <nationality key="NO"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>BELOVED</ab>
-        <ab>DOROTHY JENNIE FIFE</ab>
-        <ab>NÉE GILLER</ab>
-        <ab>22.II.1895 - 25.2.1969</ab>
-        <ab/>
-        <ab>EINAR FIFE</ab>
-        <ab>CONSOLE DI NORVEGIA</ab>
-        <ab>15.12.1889 - 9.1.1981</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1359"
+               ulx="2103.824672"
+               uly="649.564737"
+               lrx="2112.923878"
+               lry="670.273275"
+               points="2103.824672,649.564737 2112.923878,649.564737 2112.923878,670.273275 2103.824672,670.273275 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>BELOVED</ab>
+            <ab>DOROTHY JENNIE FIFE</ab>
+            <ab>NÉE GILLER</ab>
+            <ab>22.II.1895 - 25.2.1969</ab>
+            <ab/>
+            <ab>EINAR FIFE</ab>
+            <ab>CONSOLE DI NORVEGIA</ab>
+            <ab>15.12.1889 - 9.1.1981</ab>
+         </div>
+      </body>
   </text>
 </TEI>

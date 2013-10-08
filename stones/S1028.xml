@@ -1,95 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1028.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1028.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1028</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1028">
-          <msIdentifier>
-            <idno>S1028</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">925</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="STAT">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>175</height>
-                    <depth>35</depth>
-                    <width>35</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Child angel holding a cross on his right side, the cross goes from his feet to his shoulder.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_9 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Harald</forename>
-              <surname>Jerichau</surname>
-            </persName>
-            <death when="1878"/>
-            <nationality key="DK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Marie</forename>
-              <surname>Jerichau</surname>
-            </persName>
-            <death when="1876"/>
-            <nationality key="DK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1028</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1028">
+               <msIdentifier>
+                  <idno>S1028</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">925</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="STAT">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>175</height>
+                              <depth>35</depth>
+                              <width>35</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Child angel holding a cross on his right side, the cross goes from his feet to his shoulder.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_9 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Harald</forename>
+                     <surname>Jerichau</surname>
+                  </persName>
+                  <death when="1878"/>
+                  <nationality key="DK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Marie</forename>
+                     <surname>Jerichau</surname>
+                  </persName>
+                  <death when="1876"/>
+                  <nationality key="DK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="da " decls="#f_S #c_2 #m_IC #t_P">
-        <ab>MAND OG HUSTRU</ab>
-        <ab>HARALD OG MARIE JERICHAU</ab>
-        <ab>FODT I KJÖBENHAVN	FODT I HIRSCHBERG</ab>
-        <ab>1851 1851</ab>
-        <ab>DOD I ROM DOD I NEAPEL</ab>
-        <ab> 1878 1876</ab>
-        <ab/>
-        <ab>HVILE I EVIG FORENING</ab>
-        <ab>"THI DET ER GAMEN"</ab>
-        <ab>"NAAR Я OG AMEN"</ab>
-        <ab>"ER KJERLIGHED."</ab>
-        <ab/>
-        <ab>+ 6.Marts</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1028"
+               ulx="2022.819189"
+               uly="511.65081399999997"
+               lrx="2027.747108"
+               lry="516.978295"
+               points="2022.819189,511.65081399999997 2027.747108,511.65081399999997 2027.747108,516.978295 2022.819189,516.978295 ">
+            <graphic url="film:_H/26254"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="da " decls="#f_S #c_2 #m_IC #t_P">
+            <ab>MAND OG HUSTRU</ab>
+            <ab>HARALD OG MARIE JERICHAU</ab>
+            <ab>FODT I KJÖBENHAVN	FODT I HIRSCHBERG</ab>
+            <ab>1851 1851</ab>
+            <ab>DOD I ROM DOD I NEAPEL</ab>
+            <ab> 1878 1876</ab>
+            <ab/>
+            <ab>HVILE I EVIG FORENING</ab>
+            <ab>"THI DET ER GAMEN"</ab>
+            <ab>"NAAR Я OG AMEN"</ab>
+            <ab>"ER KJERLIGHED."</ab>
+            <ab/>
+            <ab>+ 6.Marts</ab>
+         </div>
+      </body>
   </text>
 </TEI>

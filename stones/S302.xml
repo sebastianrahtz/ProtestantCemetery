@@ -1,80 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S302.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S302.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 302</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S302">
-          <msIdentifier>
-            <idno>S302</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1604</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>139</height>
-                    <depth>5</depth>
-                    <width>73</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>33</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Emma</forename>
-              <surname>Wichfeld</surname>
-            </persName>
-            <birth when="1814-03-02"/>
-            <death when="1847-12-11"/>
-            <nationality key="DK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 302</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S302">
+               <msIdentifier>
+                  <idno>S302</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1604</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>139</height>
+                              <depth>5</depth>
+                              <width>73</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>33</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Emma</forename>
+                     <surname>Wichfeld</surname>
+                  </persName>
+                  <birth when="1814-03-02"/>
+                  <death when="1847-12-11"/>
+                  <nationality key="DK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_T #c_3 #m_I #t_P">
-        <ab>EMMA M.F.E. WICHFELD</ab>
-        <ab>F. FRIIS</ab>
-        <ab>F.D. 2. MARZ 1814.</ab>
-        <ab>D.D. 11 DECEMBER 1847.</ab>
-        <ab>FROM OG SAND VAR HVN ELSKET AF ALLE.</ab>
-        <ab>HVN SAVNES SMERTELIGT LUGE AF DE EFTERLADTE.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S302"
+               ulx="949.326447"
+               uly="461.77362000000005"
+               lrx="957.050427"
+               lry="473.345194"
+               points="957.050427,461.95161900000005 949.651894,461.77362000000005 949.326447,473.167195 956.72498,473.345194 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_T #c_3 #m_I #t_P">
+            <ab>EMMA M.F.E. WICHFELD</ab>
+            <ab>F. FRIIS</ab>
+            <ab>F.D. 2. MARZ 1814.</ab>
+            <ab>D.D. 11 DECEMBER 1847.</ab>
+            <ab>FROM OG SAND VAR HVN ELSKET AF ALLE.</ab>
+            <ab>HVN SAVNES SMERTELIGT LUGE AF DE EFTERLADTE.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

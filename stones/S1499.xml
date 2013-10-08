@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1499.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1499.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1499</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1499">
-          <msIdentifier>
-            <idno>S1499</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2519</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>130</height>
-                    <depth>5</depth>
-                    <width>81</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_133 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Katharine Mary Anne</forename>
-              <surname>Birch</surname>
-            </persName>
-            <death when="1868"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1499</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1499">
+               <msIdentifier>
+                  <idno>S1499</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2519</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>130</height>
+                              <depth>5</depth>
+                              <width>81</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_133 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Katharine Mary Anne</forename>
+                     <surname>Birch</surname>
+                  </persName>
+                  <death when="1868"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>TO THE MEMORY OF</ab>
-        <ab>KATHARINE MARY ANNE BIRCH</ab>
-        <ab>ELDEST DAUGHTER OF</ab>
-        <ab>WYRLEY BIRCH ESQ.</ab>
-        <ab>OF WRETHAMHALL CO. NORFOLK</ab>
-        <ab>SHE DIED AT ROME JAN 3.D 1868</ab>
-        <ab>BLESSED ARE THE DEAD THAT DIE IN THE LORD</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1499"
+               ulx="2426.653298"
+               uly="220.05524200000002"
+               lrx="2435.266926"
+               lry="233.644763"
+               points="2426.653298,220.74903800000004 2434.058764,220.05524200000002 2435.266926,232.950967 2427.86146,233.644763 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>TO THE MEMORY OF</ab>
+            <ab>KATHARINE MARY ANNE BIRCH</ab>
+            <ab>ELDEST DAUGHTER OF</ab>
+            <ab>WYRLEY BIRCH ESQ.</ab>
+            <ab>OF WRETHAMHALL CO. NORFOLK</ab>
+            <ab>SHE DIED AT ROME JAN 3.D 1868</ab>
+            <ab>BLESSED ARE THE DEAD THAT DIE IN THE LORD</ab>
+         </div>
+      </body>
   </text>
 </TEI>

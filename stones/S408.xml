@@ -1,82 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S408.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S408.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 408</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S408">
-          <msIdentifier>
-            <idno>S408</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1477</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>82</height>
-                    <depth>5</depth>
-                    <width>62</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>68</age>
-            <sex>1</sex>
-            <persName>
-              <forename>George</forename>
-              <surname>Todd</surname>
-            </persName>
-            <birth when="1844-08-05">
-              <placeName>
-                <settlement>Greenock</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1912-12-25"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 408</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S408">
+               <msIdentifier>
+                  <idno>S408</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1477</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>82</height>
+                              <depth>5</depth>
+                              <width>62</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>68</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>George</forename>
+                     <surname>Todd</surname>
+                  </persName>
+                  <birth when="1844-08-05">
+                     <placeName>
+                        <settlement>Greenock</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1912-12-25"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>IN</ab>
-        <ab>LOVING MEMORY OF</ab>
-        <ab>GEORGE TODD I.S.O.</ab>
-        <ab>OF LONDON</ab>
-        <ab>WHOSE ASHES REST HERE.</ab>
-        <ab>BORN AT GREENOCK. AUG 5. 1844</ab>
-        <ab>DIED AT ROME. DEC 25. 1912</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S408"
+               ulx="1051.093181"
+               uly="573.736809"
+               lrx="1060.322208"
+               lry="576.37381"
+               points="1060.322208,573.957128 1051.162244,573.736809 1051.093181,576.153509 1060.253336,576.37381 ">
+            <graphic url="film:J/18"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>IN</ab>
+            <ab>LOVING MEMORY OF</ab>
+            <ab>GEORGE TODD I.S.O.</ab>
+            <ab>OF LONDON</ab>
+            <ab>WHOSE ASHES REST HERE.</ab>
+            <ab>BORN AT GREENOCK. AUG 5. 1844</ab>
+            <ab>DIED AT ROME. DEC 25. 1912</ab>
+         </div>
+      </body>
   </text>
 </TEI>

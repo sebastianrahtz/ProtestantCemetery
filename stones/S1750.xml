@@ -1,74 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1750.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1750.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1750</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1750">
-          <msIdentifier>
-            <idno>S1750</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2385</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COPE">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>180</height>
-                    <depth>17</depth>
-                    <width>66</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Fanny</forename>
-              <surname>Kemp</surname>
-            </persName>
-            <death when="1890"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1750</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1750">
+               <msIdentifier>
+                  <idno>S1750</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2385</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COPE">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>180</height>
+                              <depth>17</depth>
+                              <width>66</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Fanny</forename>
+                     <surname>Kemp</surname>
+                  </persName>
+                  <death when="1890"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RS #t_P">
-        <ab>HERE RESTS THE BODY OF FANNY KEMP</ab>
-        <ab>WHO DIED MARCH 3D 1890 IN PACE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1750"
+               ulx="2539.346464"
+               uly="462.90257199999996"
+               lrx="2550.499793"
+               lry="484.523007"
+               points="2539.346464,463.799713 2548.45972,462.90257199999996 2550.499793,483.625866 2541.386537,484.523007 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RS #t_P">
+            <ab>HERE RESTS THE BODY OF FANNY KEMP</ab>
+            <ab>WHO DIED MARCH 3D 1890 IN PACE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

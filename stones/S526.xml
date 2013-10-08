@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S526.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S526.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 526</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S526">
-          <msIdentifier>
-            <idno>S526</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2256</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>143</height>
-                    <depth>23</depth>
-                    <width>78</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Louise</forename>
-              <surname>Stuart</surname>
-            </persName>
-            <death when="1893"/>
-            <nationality key="SE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 526</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S526">
+               <msIdentifier>
+                  <idno>S526</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2256</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>143</height>
+                              <depth>23</depth>
+                              <width>78</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Louise</forename>
+                     <surname>Stuart</surname>
+                  </persName>
+                  <death when="1893"/>
+                  <nationality key="SE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="sv" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>FRU LOUISE STUART</ab>
-        <ab/>
-        <ab>FÖD I STOCKHOLM DEN 21 JUNI 1819.</ab>
-        <ab>DÖD I ROM DEN 4 FEB. 1893</ab>
-        <ab/>
-        <ab>SALIGE ÄRO DE RENHJERTADE,</ab>
-        <ab>TY DE SKOLA SE GUD.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S526"
+               ulx="2082.441364"
+               uly="204.70602399999996"
+               lrx="2091.34799"
+               lry="208.17259"
+               points="2082.441364,205.205285 2091.178429,204.70602399999996 2091.34799,207.67332899999997 2082.610924,208.17259 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="sv" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>FRU LOUISE STUART</ab>
+            <ab/>
+            <ab>FÖD I STOCKHOLM DEN 21 JUNI 1819.</ab>
+            <ab>DÖD I ROM DEN 4 FEB. 1893</ab>
+            <ab/>
+            <ab>SALIGE ÄRO DE RENHJERTADE,</ab>
+            <ab>TY DE SKOLA SE GUD.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

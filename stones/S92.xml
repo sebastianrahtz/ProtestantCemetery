@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S92.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S92.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 92</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S92">
-          <msIdentifier>
-            <idno>S92</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1805</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>158</height>
-                    <width>74</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>35</age>
-            <sex>1</sex>
-            <persName>
-              <forename>George Peter</forename>
-              <surname>Browne</surname>
-            </persName>
-            <birth when="1794">
-              <placeName>
-                <settlement>Mayo</settlement>
-                <country>Ireland</country>
-              </placeName>
-            </birth>
-            <death when="1829-03-18"/>
-            <nationality key="IE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 92</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S92">
+               <msIdentifier>
+                  <idno>S92</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1805</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>158</height>
+                              <width>74</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>35</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>George Peter</forename>
+                     <surname>Browne</surname>
+                  </persName>
+                  <birth when="1794">
+                     <placeName>
+                        <settlement>Mayo</settlement>
+                        <country>Ireland</country>
+                     </placeName>
+                  </birth>
+                  <death when="1829-03-18"/>
+                  <nationality key="IE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IC #t_P">
-        <ab>Underneath</ab>
-        <ab>lie the mortal remains of</ab>
-        <ab>GEORGE PETER BROWNE,</ab>
-        <ab>formerly of CASTLE MACGARRETT,</ab>
-        <ab>in the County of MAYO, IRELAND,</ab>
-        <ab>who died at Rome</ab>
-        <ab>on the 18th of March 1829,</ab>
-        <ab>in the 35th year of his age.</ab>
-        <ab>----------------</ab>
-        <ab>
-          <emph>Non omnis moriar</emph>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S92"
+               ulx="988.703167"
+               uly="251.627653"
+               lrx="997.954687"
+               lry="267.37586799999997"
+               points="997.954687,251.83957599999997 989.146925,251.627653 988.703167,267.164134 997.51091,267.37586799999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IC #t_P">
+            <ab>Underneath</ab>
+            <ab>lie the mortal remains of</ab>
+            <ab>GEORGE PETER BROWNE,</ab>
+            <ab>formerly of CASTLE MACGARRETT,</ab>
+            <ab>in the County of MAYO, IRELAND,</ab>
+            <ab>who died at Rome</ab>
+            <ab>on the 18th of March 1829,</ab>
+            <ab>in the 35th year of his age.</ab>
+            <ab>----------------</ab>
+            <ab>
+               <emph>Non omnis moriar</emph>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

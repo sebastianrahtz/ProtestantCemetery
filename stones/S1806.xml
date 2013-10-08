@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1806.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1806.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1806</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1806">
-          <msIdentifier>
-            <idno>S1806</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>120</height>
-                    <depth>8</depth>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>very poor</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Giorgio</forename>
-              <surname>Janett</surname>
-            </persName>
-            <death when="1906"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1806</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1806">
+               <msIdentifier>
+                  <idno>S1806</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>120</height>
+                              <depth>8</depth>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>very poor</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Giorgio</forename>
+                     <surname>Janett</surname>
+                  </persName>
+                  <death when="1906"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
-        <ab>Alla memoria di</ab>
-        <ab>GIORGIO JANETT</ab>
-        <ab>nato a Pisa</ab>
-        <ab>il 25 Maggio 1882</ab>
-        <ab>napito nel fior</ab>
-        <ab>degli anni</ab>
-        <ab>all affeto</ab>
-        <ab>dei suoi cari</ab>
-        <ab>il 2 dicembre 1906</ab>
-      </div>
-      <div type="inscription" decls="#f_S #c_5 #m_I #t_S">
-        <ab rend="Alignl">
-          <note> unreadable plaque at base of cross</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1806"
+               ulx="2529.422017"
+               uly="495.428367"
+               lrx="2533.400955"
+               lry="501.046293"
+               points="2529.422017,495.663546 2533.052242,495.428367 2533.400955,500.811114 2529.77073,501.046293 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
+            <ab>Alla memoria di</ab>
+            <ab>GIORGIO JANETT</ab>
+            <ab>nato a Pisa</ab>
+            <ab>il 25 Maggio 1882</ab>
+            <ab>napito nel fior</ab>
+            <ab>degli anni</ab>
+            <ab>all affeto</ab>
+            <ab>dei suoi cari</ab>
+            <ab>il 2 dicembre 1906</ab>
+         </div>
+         <div type="inscription" decls="#f_S #c_5 #m_I #t_S">
+            <ab rend="Alignl">
+               <note> unreadable plaque at base of cross</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,93 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1893.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1893.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1893</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1893">
-          <msIdentifier>
-            <idno>S1893</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2289</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>59</depth>
-                    <width>85</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Lauchlan</forename>
-              <surname>Aitken</surname>
-            </persName>
-            <death when="1886"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Fanny</forename>
-              <surname>Aitken</surname>
-            </persName>
-            <death when="1892"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1893</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1893">
+               <msIdentifier>
+                  <idno>S1893</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2289</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>59</depth>
+                              <width>85</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Lauchlan</forename>
+                     <surname>Aitken</surname>
+                  </persName>
+                  <death when="1886"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Fanny</forename>
+                     <surname>Aitken</surname>
+                  </persName>
+                  <death when="1892"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>LAUCHLAN AITKEN M.D.</ab>
-        <ab>EDINBURGH</ab>
-        <ab>BORN AT GARTCOWS FALKIRK</ab>
-        <ab>MARCH 18TH 1844.</ab>
-        <ab>DIED AT ROME DEC.19TH 1886.</ab>
-        <ab>ALSO OF HIS WIFE</ab>
-        <ab>FANNY BOUCH</ab>
-        <ab>ELDEST DAUGHTER OF SIR THOMAS BOUCH C.E.</ab>
-        <ab>BORN AT EDINBURGH 27TH DECEMBER 1853</ab>
-        <ab>DIED AT ROME 31ST MAY 1882</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1893"
+               ulx="2261.607008"
+               uly="605.335945"
+               lrx="2270.382506"
+               lry="611.886719"
+               points="2261.607008,605.878011 2269.994162,605.335945 2270.382506,611.344653 2261.995352,611.886719 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>LAUCHLAN AITKEN M.D.</ab>
+            <ab>EDINBURGH</ab>
+            <ab>BORN AT GARTCOWS FALKIRK</ab>
+            <ab>MARCH 18TH 1844.</ab>
+            <ab>DIED AT ROME DEC.19TH 1886.</ab>
+            <ab>ALSO OF HIS WIFE</ab>
+            <ab>FANNY BOUCH</ab>
+            <ab>ELDEST DAUGHTER OF SIR THOMAS BOUCH C.E.</ab>
+            <ab>BORN AT EDINBURGH 27TH DECEMBER 1853</ab>
+            <ab>DIED AT ROME 31ST MAY 1882</ab>
+         </div>
+      </body>
   </text>
 </TEI>

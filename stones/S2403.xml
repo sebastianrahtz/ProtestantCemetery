@@ -1,76 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2403.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2403.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2403</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2403">
-          <msIdentifier>
-            <idno>S2403</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>40</height>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Sophie</forename>
-              <surname>Arnold</surname>
-            </persName>
-            <death when="1931"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Natalie</forename>
-              <surname>La Stella</surname>
-            </persName>
-            <death when="1961"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2403</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2403">
+               <msIdentifier>
+                  <idno>S2403</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>40</height>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Sophie</forename>
+                     <surname>Arnold</surname>
+                  </persName>
+                  <death when="1931"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Natalie</forename>
+                     <surname>La Stella</surname>
+                  </persName>
+                  <death when="1961"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>SOPHIE ARNOLD</ab>
-        <ab>* 2.IV.1865 + 26.VIII.1931</ab>
-        <ab>------</ab>
-        <ab>NATALIA</ab>
-        <ab>ARNOLD LA STELLA</ab>
-        <ab>* 19.IV.1906 + 24.VII.1961</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2403"
+               ulx="3066.172302"
+               uly="214.21803899999998"
+               lrx="3073.8533"
+               lry="219.17234700000006"
+               points="3066.295527,214.21803899999998 3073.8533,214.41375000000005 3073.730075,219.17234700000006 3066.172302,218.97663699999998 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>SOPHIE ARNOLD</ab>
+            <ab>* 2.IV.1865 + 26.VIII.1931</ab>
+            <ab>------</ab>
+            <ab>NATALIA</ab>
+            <ab>ARNOLD LA STELLA</ab>
+            <ab>* 19.IV.1906 + 24.VII.1961</ab>
+         </div>
+      </body>
   </text>
 </TEI>

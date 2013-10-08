@@ -1,75 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S516.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S516.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 516</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S516">
-          <msIdentifier>
-            <idno>S516</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2249</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>137</height>
-                    <depth>39</depth>
-                    <width>72</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Georg Rudolph</forename>
-              <surname>Koerner</surname>
-            </persName>
-            <death when="1860"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 516</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S516">
+               <msIdentifier>
+                  <idno>S516</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2249</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>137</height>
+                              <depth>39</depth>
+                              <width>72</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Georg Rudolph</forename>
+                     <surname>Koerner</surname>
+                  </persName>
+                  <death when="1860"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_4 #m_IC #t_P">
-        <ab>HIER RUHET</ab>
-        <ab>GEORG RUDOLPH KOERNER</ab>
-        <ab>MALER,</ab>
-        <ab>GEB: AM 30 JUNI 1837</ab>
-        <ab>ZU FRANKFURT</ab>
-        <ab>GEST: AM 27 AUGUST 1860</ab>
-        <ab>ZU OLEVANO</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S516"
+               ulx="1901.305593"
+               uly="223.25852499999996"
+               lrx="1908.553875"
+               lry="227.49340400000006"
+               points="1901.305593,223.53351699999996 1908.400391,223.25852499999996 1908.553875,227.21841200000006 1901.459077,227.49340400000006 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_4 #m_IC #t_P">
+            <ab>HIER RUHET</ab>
+            <ab>GEORG RUDOLPH KOERNER</ab>
+            <ab>MALER,</ab>
+            <ab>GEB: AM 30 JUNI 1837</ab>
+            <ab>ZU FRANKFURT</ab>
+            <ab>GEST: AM 27 AUGUST 1860</ab>
+            <ab>ZU OLEVANO</ab>
+         </div>
+      </body>
   </text>
 </TEI>

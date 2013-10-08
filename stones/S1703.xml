@@ -1,87 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1703.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1703.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1703</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1703">
-          <msIdentifier>
-            <idno>S1703</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2415</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>160</height>
-                    <depth>30</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_127 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Albert Rud Max</forename>
-              <surname>Dressel</surname>
-            </persName>
-            <death when="1875"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1703</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1703">
+               <msIdentifier>
+                  <idno>S1703</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2415</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>160</height>
+                              <depth>30</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_127 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Albert Rud Max</forename>
+                     <surname>Dressel</surname>
+                  </persName>
+                  <death when="1875"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_I #t_P">
-        <ab>HIER RVHT IN FRIEDEN</ab>
-        <ab>ALBERT RVD. MAX.</ab>
-        <ab>DRESSEL</ab>
-        <ab>GEB. ZV NEVHALDENSLEBEN</ab>
-        <ab>9 IVLI 1808</ab>
-        <ab>GESTORBEN IN ROM</ab>
-        <ab>8 NOVEMBER 1875</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1703"
+               ulx="2407.294292"
+               uly="426.151031"
+               lrx="2416.557678"
+               lry="428.96777299999997"
+               points="2407.294292,426.76771399999996 2416.408824,426.151031 2416.557678,428.35109 2407.443146,428.96777299999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_I #t_P">
+            <ab>HIER RVHT IN FRIEDEN</ab>
+            <ab>ALBERT RVD. MAX.</ab>
+            <ab>DRESSEL</ab>
+            <ab>GEB. ZV NEVHALDENSLEBEN</ab>
+            <ab>9 IVLI 1808</ab>
+            <ab>GESTORBEN IN ROM</ab>
+            <ab>8 NOVEMBER 1875</ab>
+         </div>
+      </body>
   </text>
 </TEI>

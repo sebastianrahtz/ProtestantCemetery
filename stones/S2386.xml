@@ -1,87 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2386.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2386.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2386</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2386">
-          <msIdentifier>
-            <idno>S2386</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>143</height>
-                    <depth>10</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Alessandro</forename>
-              <surname>Sanine</surname>
-            </persName>
-            <death when="1956"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2386</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2386">
+               <msIdentifier>
+                  <idno>S2386</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>143</height>
+                              <depth>10</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Alessandro</forename>
+                     <surname>Sanine</surname>
+                  </persName>
+                  <death when="1956"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_IF #t_P #s_CY">
-        <ab>А.А.САНИН</ab>
-        <ab>ALLESANDRO SANINE</ab>
-        <ab>MOSCA 16.4.1869-ROMA 8.5.1956</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_1 #m_IF #t_PC #s_CY">
-        <ab>ТЕАТР...ЕТО ТАКАЯ КАФЕДРА, С КОТОРОЙ МОЖНО</ab>
-        <ab>МНОГО СКАЗАТ' МИРУ ДОБРА... ГОГОЛБ</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> SIC</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2386"
+               ulx="3026.613958"
+               uly="184.972845"
+               lrx="3034.071238"
+               lry="188.14315599999998"
+               points="3026.651488,184.972845 3034.071238,185.06326 3034.033707,188.14315599999998 3026.613958,188.05274099999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_IF #t_P #s_CY">
+            <ab>А.А.САНИН</ab>
+            <ab>ALLESANDRO SANINE</ab>
+            <ab>MOSCA 16.4.1869-ROMA 8.5.1956</ab>
+         </div>
+         <div type="inscription"
+              xml:lang="ru"
+              decls="#f_T #c_1 #m_IF #t_PC #s_CY">
+            <ab>ТЕАТР...ЕТО ТАКАЯ КАФЕДРА, С КОТОРОЙ МОЖНО</ab>
+            <ab>МНОГО СКАЗАТ' МИРУ ДОБРА... ГОГОЛБ</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> SIC</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

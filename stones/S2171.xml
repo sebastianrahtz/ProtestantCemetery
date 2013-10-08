@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2171.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2171.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2171</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2171">
-          <msIdentifier>
-            <idno>S2171</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>138</height>
-                    <depth>25</depth>
-                    <width>61</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ella</forename>
-              <surname>Festing</surname>
-            </persName>
-            <death when="1920"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2171</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2171">
+               <msIdentifier>
+                  <idno>S2171</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>138</height>
+                              <depth>25</depth>
+                              <width>61</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ella</forename>
+                     <surname>Festing</surname>
+                  </persName>
+                  <death when="1920"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>IN LOVING MEMORY</ab>
-        <ab>OF</ab>
-        <ab>ELLA FESTING</ab>
-        <ab>BORN 1834</ab>
-        <ab>DIED IN ROME FEB.18TH 1920.</ab>
-        <ab rend="Alignr">"YEA THOUGH I WALK THROUGH</ab>
-        <ab rend="Alignr">THE VALLEY OF THE SHADOW OF</ab>
-        <ab rend="Alignr">DEATH.I WILL FEAR NO EVIL</ab>
-        <ab rend="Alignr">FOR THOU ART WITH ME"</ab>
-        <ab rend="Alignr">PS.XXIII.4.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2171"
+               ulx="2783.158925"
+               uly="469.39924099999996"
+               lrx="2789.234596"
+               lry="475.164043"
+               points="2783.316707,469.39924099999996 2789.234596,469.56603900000005 2789.076814,475.164043 2783.158925,474.997245 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>IN LOVING MEMORY</ab>
+            <ab>OF</ab>
+            <ab>ELLA FESTING</ab>
+            <ab>BORN 1834</ab>
+            <ab>DIED IN ROME FEB.18TH 1920.</ab>
+            <ab rend="Alignr">"YEA THOUGH I WALK THROUGH</ab>
+            <ab rend="Alignr">THE VALLEY OF THE SHADOW OF</ab>
+            <ab rend="Alignr">DEATH.I WILL FEAR NO EVIL</ab>
+            <ab rend="Alignr">FOR THOU ART WITH ME"</ab>
+            <ab rend="Alignr">PS.XXIII.4.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,113 +1,125 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2430.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2430.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2430</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2430">
-          <msIdentifier>
-            <idno>S2430</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">376</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>110</height>
-                    <depth>57</depth>
-                    <width>57</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_W"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ellen</forename>
-              <surname>Baker</surname>
-            </persName>
-            <death when="1938"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Francis Brackstone</forename>
-              <surname>Baker</surname>
-            </persName>
-            <death when="1981"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2430</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2430">
+               <msIdentifier>
+                  <idno>S2430</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">376</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>110</height>
+                              <depth>57</depth>
+                              <width>57</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_W"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ellen</forename>
+                     <surname>Baker</surname>
+                  </persName>
+                  <death when="1938"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Francis Brackstone</forename>
+                     <surname>Baker</surname>
+                  </persName>
+                  <death when="1981"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>IN LOVING</ab>
-        <ab>MEMORY</ab>
-        <ab/>
-        <ab>OF</ab>
-        <ab>ELLEN BAKER</ab>
-        <ab>BORN CORR</ab>
-        <ab/>
-        <ab>* LOCHEE-SCOTLAND, 13TH JULY 1868</ab>
-        <ab>+ ROME, 14TH AUGUST,1938</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_IC #t_S">
-        <ab>IN LOVING</ab>
-        <ab>MEMORY</ab>
-        <ab>OF</ab>
-        <ab/>
-        <ab>FRANCIS BRACKSTONE</ab>
-        <ab>BAKER</ab>
-        <ab/>
-        <ab>* PORTLAND-OREGON-U.S.A,20TH FEB.1896</ab>
-        <ab>+ LONDON-ENGLAND,14TH NOV.1981</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2430"
+               ulx="3124.739107"
+               uly="268.084475"
+               lrx="3130.781856"
+               lry="272.59494300000006"
+               points="3124.761689,268.084475 3130.781856,268.114819 3130.759274,272.59494300000006 3124.739107,272.56460000000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>IN LOVING</ab>
+            <ab>MEMORY</ab>
+            <ab/>
+            <ab>OF</ab>
+            <ab>ELLEN BAKER</ab>
+            <ab>BORN CORR</ab>
+            <ab/>
+            <ab>* LOCHEE-SCOTLAND, 13TH JULY 1868</ab>
+            <ab>+ ROME, 14TH AUGUST,1938</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_IC #t_S">
+            <ab>IN LOVING</ab>
+            <ab>MEMORY</ab>
+            <ab>OF</ab>
+            <ab/>
+            <ab>FRANCIS BRACKSTONE</ab>
+            <ab>BAKER</ab>
+            <ab/>
+            <ab>* PORTLAND-OREGON-U.S.A,20TH FEB.1896</ab>
+            <ab>+ LONDON-ENGLAND,14TH NOV.1981</ab>
+         </div>
+      </body>
   </text>
 </TEI>

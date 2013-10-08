@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1349.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1349.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1349</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1349">
-          <msIdentifier>
-            <idno>S1349</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>7</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Gwendoline Carol A.</forename>
-              <surname>Lopez</surname>
-            </persName>
-            <death when="1966"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Annette Elizabeth</forename>
-              <surname>Tute</surname>
-            </persName>
-            <death when="1966"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1349</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1349">
+               <msIdentifier>
+                  <idno>S1349</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>7</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Gwendoline Carol A.</forename>
+                     <surname>Lopez</surname>
+                  </persName>
+                  <death when="1966"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Annette Elizabeth</forename>
+                     <surname>Tute</surname>
+                  </persName>
+                  <death when="1966"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>GWENDOLINE CAROL AKHURST</ab>
-        <ab>LOPEZ</ab>
-        <ab>NÉE COOMBE</ab>
-        <ab>SEPTEMBER 20, 1919</ab>
-        <ab>OCTOBER 4, 1966</ab>
-        <ab>--------</ab>
-        <ab>ANNETTE ELIZABETH</ab>
-        <ab>TUTE</ab>
-        <ab>NÉE NEIL</ab>
-        <ab>MARCH 17, 1925</ab>
-        <ab>OCTOBER 4, 1966</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1349"
+               ulx="1968.748531"
+               uly="649.72162"
+               lrx="1976.749557"
+               lry="667.606266"
+               points="1968.748531,649.72162 1976.749557,649.72162 1976.749557,667.606266 1968.748531,667.606266 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>GWENDOLINE CAROL AKHURST</ab>
+            <ab>LOPEZ</ab>
+            <ab>NÉE COOMBE</ab>
+            <ab>SEPTEMBER 20, 1919</ab>
+            <ab>OCTOBER 4, 1966</ab>
+            <ab>--------</ab>
+            <ab>ANNETTE ELIZABETH</ab>
+            <ab>TUTE</ab>
+            <ab>NÉE NEIL</ab>
+            <ab>MARCH 17, 1925</ab>
+            <ab>OCTOBER 4, 1966</ab>
+         </div>
+      </body>
   </text>
 </TEI>

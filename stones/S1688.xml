@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1688.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1688.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1688</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1688">
-          <msIdentifier>
-            <idno>S1688</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2442</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>75</height>
-                    <depth>75</depth>
-                    <width>85</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Nurina Alexina</forename>
-              <surname>Hill</surname>
-            </persName>
-            <death when="1895"/>
-            <nationality key="IN"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1688</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1688">
+               <msIdentifier>
+                  <idno>S1688</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2442</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>75</height>
+                              <depth>75</depth>
+                              <width>85</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Nurina Alexina</forename>
+                     <surname>Hill</surname>
+                  </persName>
+                  <death when="1895"/>
+                  <nationality key="IN"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>IN LOVING MEMORY</ab>
-        <ab>OF</ab>
-        <ab>NURINA ALEXINA (NINA) HILL</ab>
-        <ab>FOURTH DAUGHTER</ab>
-        <ab>OF THE LATE JAMES HILL ESQR OF CALCUTTA</ab>
-        <ab>BORN 20TH FEBRUARY 1835</ab>
-        <ab>DIED 29TH MARCH 1895.</ab>
-        <ab/>
-        <ab rend="Alignl">"BLESSED ARE THE DEAD WHICH DIE IN THE LORD</ab>
-        <ab rend="Alignl">THEIR WORKS DO FOLLOW THEM"</ab>
-        <ab rend="Alignr">REV.X1V.13.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1688"
+               ulx="2555.499283"
+               uly="383.87304100000006"
+               lrx="2564.075635"
+               lry="390.989775"
+               points="2555.499283,384.43356400000005 2563.623282,383.87304100000006 2564.075635,390.429251 2555.951634,390.989775 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>IN LOVING MEMORY</ab>
+            <ab>OF</ab>
+            <ab>NURINA ALEXINA (NINA) HILL</ab>
+            <ab>FOURTH DAUGHTER</ab>
+            <ab>OF THE LATE JAMES HILL ESQR OF CALCUTTA</ab>
+            <ab>BORN 20TH FEBRUARY 1835</ab>
+            <ab>DIED 29TH MARCH 1895.</ab>
+            <ab/>
+            <ab rend="Alignl">"BLESSED ARE THE DEAD WHICH DIE IN THE LORD</ab>
+            <ab rend="Alignl">THEIR WORKS DO FOLLOW THEM"</ab>
+            <ab rend="Alignr">REV.X1V.13.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

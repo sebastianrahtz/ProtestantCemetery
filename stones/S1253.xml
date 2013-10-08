@@ -1,100 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1253.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1253.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1253</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1253">
-          <msIdentifier>
-            <idno>S1253</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">603</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>151</height>
-                    <depth>45</depth>
-                    <width>96</width>
-                  </dimensions>
-                </extent>
-                <condition>unrecorded</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>George Nicholas</forename>
-              <surname>Vansittart</surname>
-            </persName>
-            <death when="1889"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Emily Christina</forename>
-              <surname>Vansittart</surname>
-            </persName>
-            <death when="1915"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1253</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1253">
+               <msIdentifier>
+                  <idno>S1253</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">603</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>151</height>
+                              <depth>45</depth>
+                              <width>96</width>
+                           </dimensions>
+                        </extent>
+                        <condition>unrecorded</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>George Nicholas</forename>
+                     <surname>Vansittart</surname>
+                  </persName>
+                  <death when="1889"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Emily Christina</forename>
+                     <surname>Vansittart</surname>
+                  </persName>
+                  <death when="1915"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_IF #t_P">
-        <ab>IN MEMORY OF</ab>
-        <ab>GEORGE NICHOLAS VANSITTART</ab>
-        <ab>WHO DIED AT ROME, MAY 12TH 1889</ab>
-        <ab>AGED 74</ab>
-        <ab/>
-        <ab>"BLESSED ARE THE PURE IN HEART:</ab>
-        <ab>FOR THEY SHALL SEE GOD."</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_S">
-        <ab>AND OF HIS</ab>
-        <ab>DAUGHTER</ab>
-        <ab>EMILY CHRISTINA VANSITTART</ab>
-        <ab>BORN MAY 11. 1854</ab>
-        <ab>DIED FEBRUARY 5. 1915</ab>
-        <ab>SHE BEING DEAD YET SPEAKETH.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1253"
+               ulx="1897.366831"
+               uly="594.028205"
+               lrx="1905.838505"
+               lry="600.617286"
+               points="1897.366831,594.028205 1905.838505,594.028205 1905.838505,600.617286 1897.366831,600.617286 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_IF #t_P">
+            <ab>IN MEMORY OF</ab>
+            <ab>GEORGE NICHOLAS VANSITTART</ab>
+            <ab>WHO DIED AT ROME, MAY 12TH 1889</ab>
+            <ab>AGED 74</ab>
+            <ab/>
+            <ab>"BLESSED ARE THE PURE IN HEART:</ab>
+            <ab>FOR THEY SHALL SEE GOD."</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_S">
+            <ab>AND OF HIS</ab>
+            <ab>DAUGHTER</ab>
+            <ab>EMILY CHRISTINA VANSITTART</ab>
+            <ab>BORN MAY 11. 1854</ab>
+            <ab>DIED FEBRUARY 5. 1915</ab>
+            <ab>SHE BEING DEAD YET SPEAKETH.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

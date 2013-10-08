@@ -1,84 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2063.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2063.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2063</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2063">
-          <msIdentifier>
-            <idno>S2063</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1176</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>60</height>
-                    <depth>12</depth>
-                    <width>85</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Carlo</forename>
-              <surname>Berlenda</surname>
-            </persName>
-            <death when="1922"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Anna Albedil</forename>
-              <surname>Berlenda</surname>
-            </persName>
-            <death when="1937"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2063</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2063">
+               <msIdentifier>
+                  <idno>S2063</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1176</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>60</height>
+                              <depth>12</depth>
+                              <width>85</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Carlo</forename>
+                     <surname>Berlenda</surname>
+                  </persName>
+                  <death when="1922"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anna Albedil</forename>
+                     <surname>Berlenda</surname>
+                  </persName>
+                  <death when="1937"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_ #c_3 #m_IF #t_S">
-        <ab>CARLO BERLENDA</ab>
-        <ab>NOVARA MDCCCLXIII - ROMA MCMXXII</ab>
-        <ab>SCIETIAE.RERVM.AMATOR.IVSTITAE.PACIS</ab>
-        <ab/>
-        <ab>ANNA ALBEDIL BERLENDA</ab>
-        <ab>FIDISSIMA.UXOR - IN MUSICIS PERITA</ab>
-        <ab>POLOTSK MDCCCLII - ROMA MCMXXXVII</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2063"
+               ulx="2667.530444"
+               uly="246.67900999999995"
+               lrx="2674.177849"
+               lry="251.66974200000004"
+               points="2667.530444,246.77001299999995 2674.110081,246.67900999999995 2674.177849,251.57873900000004 2667.598212,251.66974200000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_ #c_3 #m_IF #t_S">
+            <ab>CARLO BERLENDA</ab>
+            <ab>NOVARA MDCCCLXIII - ROMA MCMXXII</ab>
+            <ab>SCIETIAE.RERVM.AMATOR.IVSTITAE.PACIS</ab>
+            <ab/>
+            <ab>ANNA ALBEDIL BERLENDA</ab>
+            <ab>FIDISSIMA.UXOR - IN MUSICIS PERITA</ab>
+            <ab>POLOTSK MDCCCLII - ROMA MCMXXXVII</ab>
+         </div>
+      </body>
   </text>
 </TEI>

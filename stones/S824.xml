@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S824.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S824.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 824</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S824">
-          <msIdentifier>
-            <idno>S824</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1410</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>95</height>
-                    <depth>42</depth>
-                    <width>52</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_30 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Francesca</forename>
-              <surname>Petermann</surname>
-            </persName>
-            <death when="1919"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 824</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S824">
+               <msIdentifier>
+                  <idno>S824</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1410</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>95</height>
+                              <depth>42</depth>
+                              <width>52</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_30 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Francesca</forename>
+                     <surname>Petermann</surname>
+                  </persName>
+                  <death when="1919"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_IC #t_P">
-        <ab>A</ab>
-        <ab>FRANCESCA</ab>
-        <ab>PETERMANN</ab>
-        <ab/>
-        <ab>PER XXV ANNI</ab>
-        <ab>GUIDA SAPIENTE E CARA</ab>
-        <ab>A MAESTRE</ab>
-        <ab>DI GIARDINI INFANTILI</ab>
-        <ab>LE ALUNNE</ab>
-        <ab>GLI AMICI GLI AMMIRATORI</ab>
-        <ab>(ROMA MCMXIX)</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_E #c_3 #m_I #t_P">
-        <ab>XXVII</ab>
-        <ab>FEBBRAIO</ab>
-        <ab>MCMXIX</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S824"
+               ulx="1337.317852"
+               uly="391.376669"
+               lrx="1342.990961"
+               lry="397.184852"
+               points="1337.317852,391.376669 1342.990961,391.376669 1342.990961,397.184852 1337.317852,397.184852 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_IC #t_P">
+            <ab>A</ab>
+            <ab>FRANCESCA</ab>
+            <ab>PETERMANN</ab>
+            <ab/>
+            <ab>PER XXV ANNI</ab>
+            <ab>GUIDA SAPIENTE E CARA</ab>
+            <ab>A MAESTRE</ab>
+            <ab>DI GIARDINI INFANTILI</ab>
+            <ab>LE ALUNNE</ab>
+            <ab>GLI AMICI GLI AMMIRATORI</ab>
+            <ab>(ROMA MCMXIX)</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_E #c_3 #m_I #t_P">
+            <ab>XXVII</ab>
+            <ab>FEBBRAIO</ab>
+            <ab>MCMXIX</ab>
+         </div>
+      </body>
   </text>
 </TEI>

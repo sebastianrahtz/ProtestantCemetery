@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2246.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2246.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2246</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2246">
-          <msIdentifier>
-            <idno>S2246</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">30</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>154</height>
-                    <depth>33</depth>
-                    <width>78</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John Edward</forename>
-              <surname>Plummer</surname>
-            </persName>
-            <death when="1921"/>
-            <nationality key="BZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2246</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2246">
+               <msIdentifier>
+                  <idno>S2246</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>154</height>
+                              <depth>33</depth>
+                              <width>78</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John Edward</forename>
+                     <surname>Plummer</surname>
+                  </persName>
+                  <death when="1921"/>
+                  <nationality key="BZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>IN LOVING MEMORY</ab>
-        <ab>OF</ab>
-        <ab>JOHN EDWARD PLUMMER</ab>
-        <ab>OF BELIZE BRITISH HONDRUAS</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>MARCH 23RD 1921</ab>
-        <ab>AGED 76 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2246"
+               ulx="2798.445271"
+               uly="552.580344"
+               lrx="2807.428073"
+               lry="572.153008"
+               points="2798.905129,552.580344 2807.428073,552.782682 2806.968214,572.153008 2798.445271,571.950671 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>IN LOVING MEMORY</ab>
+            <ab>OF</ab>
+            <ab>JOHN EDWARD PLUMMER</ab>
+            <ab>OF BELIZE BRITISH HONDRUAS</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>MARCH 23RD 1921</ab>
+            <ab>AGED 76 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

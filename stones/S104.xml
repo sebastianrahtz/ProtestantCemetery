@@ -1,88 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S104.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S104.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 104</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S104">
-          <msIdentifier>
-            <idno>S104</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1412</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>130</height>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>29</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Percy Bysshe</forename>
-              <surname>Shelley</surname>
-            </persName>
-            <birth when="1792-08-04"/>
-            <death when="1822-07-08">
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 104</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S104">
+               <msIdentifier>
+                  <idno>S104</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1412</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>130</height>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>29</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Percy Bysshe</forename>
+                     <surname>Shelley</surname>
+                  </persName>
+                  <birth when="1792-08-04"/>
+                  <death when="1822-07-08">
              Cause: Drowning</death>
-            <nationality key="UK"/>
-            <occupation>poet</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+                  <nationality key="UK"/>
+                  <occupation>poet</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>PERCY BYSSHE SHELLEY</ab>
-        <ab/>
-        <ab>COR CORDIUM</ab>
-        <ab/>
-        <ab>NATUS IV AUG. MDCCXCII</ab>
-        <ab/>
-        <ab>OBIIT VIII JUL. MDCCCXXII</ab>
-        <ab/>
-        <ab>
-          <emph>Nothing of him that doth fade,</emph>
-        </ab>
-        <ab>
-          <emph>But doth suffer a sea=change</emph>
-        </ab>
-        <ab>
-          <emph>Into something rich and strange</emph>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S104"
+               ulx="1179.794936"
+               uly="203.70804699999997"
+               lrx="1189.701821"
+               lry="217.74719000000005"
+               points="1189.701821,203.93693299999995 1180.189445,203.70804699999997 1179.794936,217.518322 1189.307501,217.74719000000005 ">
+            <graphic url="film:_H/26487"/>
+            <graphic url="film:AD/15"/>
+            <graphic url="pictures/2007_0123.jpg"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>PERCY BYSSHE SHELLEY</ab>
+            <ab/>
+            <ab>COR CORDIUM</ab>
+            <ab/>
+            <ab>NATUS IV AUG. MDCCXCII</ab>
+            <ab/>
+            <ab>OBIIT VIII JUL. MDCCCXXII</ab>
+            <ab/>
+            <ab>
+               <emph>Nothing of him that doth fade,</emph>
+            </ab>
+            <ab>
+               <emph>But doth suffer a sea=change</emph>
+            </ab>
+            <ab>
+               <emph>Into something rich and strange</emph>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

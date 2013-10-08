@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S817.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S817.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 817</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S817">
-          <msIdentifier>
-            <idno>S817</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>196</height>
-                    <depth>28</depth>
-                    <width>84</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_109 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_121 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Louisa</forename>
-              <surname>Ramsay</surname>
-            </persName>
-            <death when="1857"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 817</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S817">
+               <msIdentifier>
+                  <idno>S817</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>196</height>
+                              <depth>28</depth>
+                              <width>84</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_109 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_121 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Louisa</forename>
+                     <surname>Ramsay</surname>
+                  </persName>
+                  <death when="1857"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>LOUISA</ab>
-        <ab>ELDEST DAUGHTER OF</ab>
-        <ab>ANDREW SANDIFORD RAMSAY ESQ.</ab>
-        <ab>AND MARIA THEODOSIA HIS WIFE</ab>
-        <ab>BORN IN OXFORDSHIRE FEB. [..] 1816</ab>
-        <ab>DIED AT ROME JUNE 10. 1837</ab>
-        <ab>AGED 21 YEARS.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S817"
+               ulx="1427.146169"
+               uly="383.40730099999996"
+               lrx="1437.806447"
+               lry="402.39539"
+               points="1427.817452,383.40730099999996 1437.806447,383.76726499999995 1437.135163,402.39539 1427.146169,402.03542600000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>LOUISA</ab>
+            <ab>ELDEST DAUGHTER OF</ab>
+            <ab>ANDREW SANDIFORD RAMSAY ESQ.</ab>
+            <ab>AND MARIA THEODOSIA HIS WIFE</ab>
+            <ab>BORN IN OXFORDSHIRE FEB. [..] 1816</ab>
+            <ab>DIED AT ROME JUNE 10. 1837</ab>
+            <ab>AGED 21 YEARS.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

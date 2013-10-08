@@ -1,72 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S759.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S759.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 759</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S759">
-          <msIdentifier>
-            <idno>S759</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>80</height>
-                    <depth>5</depth>
-                    <width>56</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Marie</forename>
-              <surname>de Watteville</surname>
-            </persName>
-            <death when="1891"/>
-            <nationality key="FR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 759</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S759">
+               <msIdentifier>
+                  <idno>S759</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>80</height>
+                              <depth>5</depth>
+                              <width>56</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Marie</forename>
+                     <surname>de Watteville</surname>
+                  </persName>
+                  <death when="1891"/>
+                  <nationality key="FR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>ICI</ab>
-        <ab>REPOSE EN PAIX</ab>
-        <ab>MARIE DE WATTEVILLE</ab>
-        <ab>DÉCÉDÉE A ROME</ab>
-        <ab>LE 3 AVRIL 1891</ab>
-        <ab>Á</ab>
-        <ab>L'AGE DE 79 ANS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S759"
+               ulx="2009.192093"
+               uly="350.00192200000004"
+               lrx="2016.821821"
+               lry="363.548582"
+               points="2009.292025,350.00192200000004 2016.821821,350.05769899999996 2016.721888,363.548582 2009.192093,363.492806 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>ICI</ab>
+            <ab>REPOSE EN PAIX</ab>
+            <ab>MARIE DE WATTEVILLE</ab>
+            <ab>DÉCÉDÉE A ROME</ab>
+            <ab>LE 3 AVRIL 1891</ab>
+            <ab>Á</ab>
+            <ab>L'AGE DE 79 ANS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

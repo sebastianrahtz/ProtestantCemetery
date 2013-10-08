@@ -1,89 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S768.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S768.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 768</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S768">
-          <msIdentifier>
-            <idno>S768</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>203</height>
-                    <depth>10</depth>
-                    <width>99</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_29 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>72</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Kraft</forename>
-              <surname>Hohenlohe-Oeringen</surname>
-            </persName>
-            <birth when="1892-03-16"/>
-            <death when="1965-11-02"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <age>66</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Nina</forename>
-              <surname>Hohenlohe-Oeringen</surname>
-            </persName>
-            <birth when="1898-11-20"/>
-            <death when="1965-08-27"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 768</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S768">
+               <msIdentifier>
+                  <idno>S768</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>203</height>
+                              <depth>10</depth>
+                              <width>99</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_29 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>72</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Kraft</forename>
+                     <surname>Hohenlohe-Oeringen</surname>
+                  </persName>
+                  <birth when="1892-03-16"/>
+                  <death when="1965-11-02"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <age>66</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Nina</forename>
+                     <surname>Hohenlohe-Oeringen</surname>
+                  </persName>
+                  <birth when="1898-11-20"/>
+                  <death when="1965-08-27"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>KRAFT</ab>
-        <ab>PRINZ ZU HOHENLOHE-OEHRINGEN</ab>
-        <ab>DRESDEN 16.III.1892	 ROM 2.IX.1965</ab>
-        <ab>NINA</ab>
-        <ab>PRINZESSIN ZU HOHENLOHE-OEHRINGEN</ab>
-        <ab>GEB. CHISCHINE</ab>
-        <ab>MOSKAU 20.XI.1898	ROM 27.VIII.1965</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S768"
+               ulx="2134.902522"
+               uly="343.57004600000005"
+               lrx="2145.615889"
+               lry="363.599384"
+               points="2135.105809,343.57004600000005 2145.615889,343.67729099999997 2145.412602,363.599384 2134.902522,363.49213899999995 ">
+            <graphic url="film:AM/34"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>KRAFT</ab>
+            <ab>PRINZ ZU HOHENLOHE-OEHRINGEN</ab>
+            <ab>DRESDEN 16.III.1892	 ROM 2.IX.1965</ab>
+            <ab>NINA</ab>
+            <ab>PRINZESSIN ZU HOHENLOHE-OEHRINGEN</ab>
+            <ab>GEB. CHISCHINE</ab>
+            <ab>MOSKAU 20.XI.1898	ROM 27.VIII.1965</ab>
+         </div>
+      </body>
   </text>
 </TEI>

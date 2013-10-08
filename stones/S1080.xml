@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1080.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1080.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1080</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1080">
-          <msIdentifier>
-            <idno>S1080</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1484</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>117</height>
-                    <depth>21</depth>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Thomas Wakefield</forename>
-              <surname>Simpson</surname>
-            </persName>
-            <death when="1908"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Katherine Frankland</forename>
-              <surname>Simpson</surname>
-            </persName>
-            <death when="1913"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1080</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1080">
+               <msIdentifier>
+                  <idno>S1080</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1484</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>117</height>
+                              <depth>21</depth>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Thomas Wakefield</forename>
+                     <surname>Simpson</surname>
+                  </persName>
+                  <death when="1908"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Katherine Frankland</forename>
+                     <surname>Simpson</surname>
+                  </persName>
+                  <death when="1913"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_IF #t_P">
-        <ab>THOMAS WAKEFIELD SIMPSON</ab>
-        <ab>LATE OF WHITBY, ENGLAND</ab>
-        <ab>WHO DIED IN ROME FEBRUARY 14TH 1908</ab>
-        <ab>AGED 57</ab>
-        <ab/>
-        <ab rend="Alignl">"EVEN THE WEARIEST RIVER</ab>
-        <ab rend="Alignl">WINDS SOMEWHERE SAFE TO SEA"</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_RM #t_S">
-        <ab>ALSO</ab>
-        <ab>KATHERINE (NÉE FRANKLAND)</ab>
-        <ab>WHO DIED AT GENOVA</ab>
-        <ab>SEPT. 25TH 1913</ab>
-        <ab>AGED 65.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1080"
+               ulx="1366.606791"
+               uly="499.93035699999996"
+               lrx="1374.997573"
+               lry="503.126846"
+               points="1366.606791,499.93035699999996 1374.997573,499.93035699999996 1374.997573,503.126846 1366.606791,503.126846 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_IF #t_P">
+            <ab>THOMAS WAKEFIELD SIMPSON</ab>
+            <ab>LATE OF WHITBY, ENGLAND</ab>
+            <ab>WHO DIED IN ROME FEBRUARY 14TH 1908</ab>
+            <ab>AGED 57</ab>
+            <ab/>
+            <ab rend="Alignl">"EVEN THE WEARIEST RIVER</ab>
+            <ab rend="Alignl">WINDS SOMEWHERE SAFE TO SEA"</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_RM #t_S">
+            <ab>ALSO</ab>
+            <ab>KATHERINE (NÉE FRANKLAND)</ab>
+            <ab>WHO DIED AT GENOVA</ab>
+            <ab>SEPT. 25TH 1913</ab>
+            <ab>AGED 65.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

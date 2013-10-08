@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1823.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1823.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1823</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1823">
-          <msIdentifier>
-            <idno>S1823</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">488</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>24</height>
-                    <depth>14</depth>
-                    <width>88</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Annetta Tugnoli</forename>
-              <surname>Wittig</surname>
-            </persName>
-            <death when="1949"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Ciro</forename>
-              <surname>Tugnoli</surname>
-            </persName>
-            <death when="1979"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1823</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1823">
+               <msIdentifier>
+                  <idno>S1823</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">488</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>24</height>
+                              <depth>14</depth>
+                              <width>88</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Annetta Tugnoli</forename>
+                     <surname>Wittig</surname>
+                  </persName>
+                  <death when="1949"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Ciro</forename>
+                     <surname>Tugnoli</surname>
+                  </persName>
+                  <death when="1979"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>ANNETTA TUGNOLI WITTIG</ab>
-        <ab>*19.8.1908 +2.10.1949</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1823"
+               ulx="2382.775439"
+               uly="543.759505"
+               lrx="2388.968318"
+               lry="546.526122"
+               points="2382.775439,544.276493 2388.774448,543.759505 2388.968318,546.009133 2382.96931,546.526122 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>ANNETTA TUGNOLI WITTIG</ab>
+            <ab>*19.8.1908 +2.10.1949</ab>
+         </div>
+      </body>
   </text>
 </TEI>

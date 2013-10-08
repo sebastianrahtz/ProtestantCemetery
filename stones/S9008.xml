@@ -1,91 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9008.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9008.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9008</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9008">
-          <msIdentifier>
-            <idno>S9008</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-              <note>east of 420</note>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1486</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>167</height>
-                    <depth>18</depth>
-                    <width>94</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>S face. Circular classical scene of a kneeling female figure with drapes clothing, holding a bunch of poppies and resting on an altar.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_35 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_96 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>44</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Harriet Liotard</forename>
-              <surname>Johnson</surname>
-            </persName>
-            <birth when="1849"/>
-            <death when="1893"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9008</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9008">
+               <msIdentifier>
+                  <idno>S9008</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                     <note>east of 420</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1486</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>167</height>
+                              <depth>18</depth>
+                              <width>94</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>S face. Circular classical scene of a kneeling female figure with drapes clothing, holding a bunch of poppies and resting on an altar.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_35 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_96 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>44</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Harriet Liotard</forename>
+                     <surname>Johnson</surname>
+                  </persName>
+                  <birth when="1849"/>
+                  <death when="1893"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>HARRIET LIOTARD JOHNSON</ab>
-        <ab>BORN IN LONDON JAN.13 1849</ab>
-        <ab>DIED IN ROME JAN.29 1893</ab>
-        <ab>H.C.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9008"
+               ulx="1272.667453"
+               uly="578.376753"
+               lrx="1283.355147"
+               lry="582.774074"
+               points="1283.355147,578.631168 1272.785747,578.376753 1272.667453,582.519849 1283.236835,582.774074 ">
+            <graphic url="film:_H/26273"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>HARRIET LIOTARD JOHNSON</ab>
+            <ab>BORN IN LONDON JAN.13 1849</ab>
+            <ab>DIED IN ROME JAN.29 1893</ab>
+            <ab>H.C.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

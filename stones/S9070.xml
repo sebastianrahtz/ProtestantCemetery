@@ -1,71 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9070.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9070.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9070</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9070">
-          <msIdentifier>
-            <idno>S9070</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-              <note>replaces 94,95</note>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>73</height>
-                    <depth>10</depth>
-                    <width>57</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>64</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Mira</forename>
-              <surname>Fattori</surname>
-            </persName>
-            <birth when="1920"/>
-            <death when="1984"/>
-            <nationality key="CS"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9070</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9070">
+               <msIdentifier>
+                  <idno>S9070</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                     <note>replaces 94,95</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>73</height>
+                              <depth>10</depth>
+                              <width>57</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>64</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Mira</forename>
+                     <surname>Fattori</surname>
+                  </persName>
+                  <birth when="1920"/>
+                  <death when="1984"/>
+                  <nationality key="CS"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>MIRA FATTORI</ab>
-        <ab>NATA SVARCENBERG</ab>
-        <ab>3 APRILE 1920 - 28 DICEMBRE 1984</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9070"
+               ulx="1012.913343"
+               uly="239.158866"
+               lrx="1022.34139"
+               lry="244.73713799999996"
+               points="1021.433812,239.158866 1012.913343,242.49228100000005 1013.820939,244.73713799999996 1022.34139,241.40353300000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>MIRA FATTORI</ab>
+            <ab>NATA SVARCENBERG</ab>
+            <ab>3 APRILE 1920 - 28 DICEMBRE 1984</ab>
+         </div>
+      </body>
   </text>
 </TEI>

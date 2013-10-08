@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S970.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S970.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 970</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S970">
-          <msIdentifier>
-            <idno>S970</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1580</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>142</height>
-                    <depth>30</depth>
-                    <width>55</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Charles</forename>
-              <surname>Hollway</surname>
-            </persName>
-            <death when="1896"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 970</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S970">
+               <msIdentifier>
+                  <idno>S970</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1580</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>142</height>
+                              <depth>30</depth>
+                              <width>55</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Charles</forename>
+                     <surname>Hollway</surname>
+                  </persName>
+                  <death when="1896"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>IN LOVING MEMORY</ab>
-        <ab>OF</ab>
-        <ab>LIEUT-COLONEL CHARLES HOLLWAY</ab>
-        <ab/>
-        <ab>LATE 91ST (ARGYLL AND SUTHERLAND) HIGHLANDERS</ab>
-        <ab>BORN 10TH APRIL 1839</ab>
-        <ab>DIED IN ROME 24TH MARCH 1896</ab>
-        <ab/>
-        <ab>LOVE IS OF GOD AND EVERYONE THAT LOVETH</ab>
-        <ab rend="Alignl">   IS BORN OF GOD</ab>
-        <ab rend="Alignr">
-          <emph>1.John.IIII.7.</emph>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S970"
+               ulx="1544.944198"
+               uly="473.95889"
+               lrx="1553.468166"
+               lry="481.284176"
+               points="1544.944198,473.95889 1553.468166,473.95889 1553.468166,481.284176 1544.944198,481.284176 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>IN LOVING MEMORY</ab>
+            <ab>OF</ab>
+            <ab>LIEUT-COLONEL CHARLES HOLLWAY</ab>
+            <ab/>
+            <ab>LATE 91ST (ARGYLL AND SUTHERLAND) HIGHLANDERS</ab>
+            <ab>BORN 10TH APRIL 1839</ab>
+            <ab>DIED IN ROME 24TH MARCH 1896</ab>
+            <ab/>
+            <ab>LOVE IS OF GOD AND EVERYONE THAT LOVETH</ab>
+            <ab rend="Alignl">   IS BORN OF GOD</ab>
+            <ab rend="Alignr">
+               <emph>1.John.IIII.7.</emph>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

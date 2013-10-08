@@ -1,75 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2054.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2054.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2054</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2054">
-          <msIdentifier>
-            <idno>S2054</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1969</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="URN">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>125</height>
-                    <depth>60</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Substantial `terracotta' urn, the lid can be taken off, it has small square pictures with a lion and a face repeated around the upper part of the urn.</summary>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Philura</forename>
-              <surname>Wright</surname>
-            </persName>
-            <death when="1910"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2054</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2054">
+               <msIdentifier>
+                  <idno>S2054</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1969</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="URN">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>125</height>
+                              <depth>60</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Substantial `terracotta' urn, the lid can be taken off, it has small square pictures with a lion and a face repeated around the upper part of the urn.</summary>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Philura</forename>
+                     <surname>Wright</surname>
+                  </persName>
+                  <death when="1910"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>PHILURA WRIGHT</ab>
-        <ab/>
-        <ab>1832 LEBANON BOSTON ROMA 1910</ab>
-        <ab/>
-        <ab>IAM.NON.ESTIS.HOSPITES.ET.ADVENAE.</ab>
-        <ab>SED.CIVIS.SANCTORVM.ET.DOMESTICI.DEI.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2054"
+               ulx="2749.309523"
+               uly="248.93636400000003"
+               lrx="2755.506946"
+               lry="255.83000200000004"
+               points="2749.346787,248.93636400000003 2755.506946,248.969826 2755.469681,255.83000200000004 2749.309523,255.79654000000005 ">
+            <graphic url="film:AE/25"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>PHILURA WRIGHT</ab>
+            <ab/>
+            <ab>1832 LEBANON BOSTON ROMA 1910</ab>
+            <ab/>
+            <ab>IAM.NON.ESTIS.HOSPITES.ET.ADVENAE.</ab>
+            <ab>SED.CIVIS.SANCTORVM.ET.DOMESTICI.DEI.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

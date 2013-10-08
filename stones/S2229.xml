@@ -1,78 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2229.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2229.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2229</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2229">
-          <msIdentifier>
-            <idno>S2229</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>194</height>
-                    <depth>11</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Harriette Gott</forename>
-              <surname>Palanca</surname>
-            </persName>
-            <death when="1909"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2229</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2229">
+               <msIdentifier>
+                  <idno>S2229</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>194</height>
+                              <depth>11</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Harriette Gott</forename>
+                     <surname>Palanca</surname>
+                  </persName>
+                  <death when="1909"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>IN MEMORIA</ab>
-        <ab>DI</ab>
-        <ab>HARRIETTE GOTT PALANCA</ab>
-        <ab>MORTA A DI 27 GENNAIO 1909</ab>
-        <ab>NEL FIORE DELLA VITA</ab>
-        <ab>IL MARITO INCONSOLABILE</ab>
-        <ab>POSE</ab>
-        <ab rend="Alignr">GESU LE DISSÈ. IO SONO</ab>
-        <ab rend="Alignr">LA RESURREZIONE E LA VITA</ab>
-        <ab rend="Alignr">CHIUNQUE CREDE IN ME,</ab>
-        <ab rend="Alignr">BENCHE SIA MORTO.</ab>
-        <ab rend="Alignr">VIVRÀ!</ab>
-        <ab rend="Alignr">EV.DI.GIOV.XI.25</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2229"
+               ulx="2600.462458"
+               uly="517.5399180000001"
+               lrx="2608.38834"
+               lry="536.329522"
+               points="2600.950602,517.5399180000001 2608.38834,517.735175 2607.900197,536.329522 2600.462458,536.134264 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>IN MEMORIA</ab>
+            <ab>DI</ab>
+            <ab>HARRIETTE GOTT PALANCA</ab>
+            <ab>MORTA A DI 27 GENNAIO 1909</ab>
+            <ab>NEL FIORE DELLA VITA</ab>
+            <ab>IL MARITO INCONSOLABILE</ab>
+            <ab>POSE</ab>
+            <ab rend="Alignr">GESU LE DISSÈ. IO SONO</ab>
+            <ab rend="Alignr">LA RESURREZIONE E LA VITA</ab>
+            <ab rend="Alignr">CHIUNQUE CREDE IN ME,</ab>
+            <ab rend="Alignr">BENCHE SIA MORTO.</ab>
+            <ab rend="Alignr">VIVRÀ!</ab>
+            <ab rend="Alignr">EV.DI.GIOV.XI.25</ab>
+         </div>
+      </body>
   </text>
 </TEI>

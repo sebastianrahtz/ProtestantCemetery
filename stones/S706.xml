@@ -1,87 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S706.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S706.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 706</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S706">
-          <msIdentifier>
-            <idno>S706</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2172</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="BUILD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>530</height>
-                    <depth>113</depth>
-                    <width>113</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Pointed stone tower with attached columns, on top of a rather big pedestal, a cross on top.</summary>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Henrietta</forename>
-              <surname>Hunt</surname>
-            </persName>
-            <death when="1834"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 706</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S706">
+               <msIdentifier>
+                  <idno>S706</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2172</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="BUILD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>530</height>
+                              <depth>113</depth>
+                              <width>113</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Pointed stone tower with attached columns, on top of a rather big pedestal, a cross on top.</summary>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Henrietta</forename>
+                     <surname>Hunt</surname>
+                  </persName>
+                  <death when="1834"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_IM #t_P">
-        <ab>SUBTUS.REQUIESCIT.IN.PACE</ab>
-        <ab>EXPECTANS.ADVENTUM.DOMINI</ab>
-        <ab>QUICQUID.MORTALE.FUIT</ab>
-        <ab>HENRIETTAE</ab>
-        <ab>THOMAE.HOLDSWORTH.HUNT</ab>
-        <ab>DE.COMITATU.DEVONIAE.APUD.ANGLOS.ARMIGERI</ab>
-        <ab>FILIAE.UNICAE</ab>
-        <ab>AD.RIPAM.DURII.HAUD.LONGE.A.PORTU.CALENSI</ab>
-        <ab>NATA.XIII.CAL.IUN.ANNO.SALUTIS.MDCCCV</ab>
-        <ab>POST.VITAM.EXIMIIS.VIRTUTIBUS.ORNATAM</ab>
-        <ab>PATRIS.EHEU.VIDUATI.FRATRUM.QUE</ab>
-        <ab>DIV.SOLAMEN.NUNC.DESIDERIUM</ab>
-        <ab>ROMAE.EXTREMUM.DIEM.OBIIT</ab>
-        <ab>IV.NON.APRIL.ANNO.SALUTIS.MDCCCXXXIV</ab>
-        <ab>PATER.MOERENS.FILIAE.MERENT.PONI.CURAVIT</ab>
-      </div>
-      <div type="inscription" xml:lang="el" decls="#f_S #c_3 #m_IM #t_PC #s_GR">
-        <ab>ΜΗ.ΚΛΑΙΕΤΕ.ΟΥΚ.ΑΠΕΘΑΝΕΝ.ΑΛΛΑ.ΚΑΘΕΥΔΕΙ</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S706"
+               ulx="1368.117787"
+               uly="327.766806"
+               lrx="1379.4477"
+               lry="339.877524"
+               points="1368.40489,327.766806 1379.4477,328.03451099999995 1379.160596,339.877524 1368.117787,339.609819 ">
+            <graphic url="film:AM/31"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_IM #t_P">
+            <ab>SUBTUS.REQUIESCIT.IN.PACE</ab>
+            <ab>EXPECTANS.ADVENTUM.DOMINI</ab>
+            <ab>QUICQUID.MORTALE.FUIT</ab>
+            <ab>HENRIETTAE</ab>
+            <ab>THOMAE.HOLDSWORTH.HUNT</ab>
+            <ab>DE.COMITATU.DEVONIAE.APUD.ANGLOS.ARMIGERI</ab>
+            <ab>FILIAE.UNICAE</ab>
+            <ab>AD.RIPAM.DURII.HAUD.LONGE.A.PORTU.CALENSI</ab>
+            <ab>NATA.XIII.CAL.IUN.ANNO.SALUTIS.MDCCCV</ab>
+            <ab>POST.VITAM.EXIMIIS.VIRTUTIBUS.ORNATAM</ab>
+            <ab>PATRIS.EHEU.VIDUATI.FRATRUM.QUE</ab>
+            <ab>DIV.SOLAMEN.NUNC.DESIDERIUM</ab>
+            <ab>ROMAE.EXTREMUM.DIEM.OBIIT</ab>
+            <ab>IV.NON.APRIL.ANNO.SALUTIS.MDCCCXXXIV</ab>
+            <ab>PATER.MOERENS.FILIAE.MERENT.PONI.CURAVIT</ab>
+         </div>
+         <div type="inscription"
+              xml:lang="el"
+              decls="#f_S #c_3 #m_IM #t_PC #s_GR">
+            <ab>ΜΗ.ΚΛΑΙΕΤΕ.ΟΥΚ.ΑΠΕΘΑΝΕΝ.ΑΛΛΑ.ΚΑΘΕΥΔΕΙ</ab>
+         </div>
+      </body>
   </text>
 </TEI>

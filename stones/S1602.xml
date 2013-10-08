@@ -1,69 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1602.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1602.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1602</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1602">
-          <msIdentifier>
-            <idno>S1602</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>100</height>
-                    <depth>4</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Viktor" Ivanoviq"</forename>
-              <surname>Jakuxkin"</surname>
-            </persName>
-            <death when="1872"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1602</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1602">
+               <msIdentifier>
+                  <idno>S1602</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>100</height>
+                              <depth>4</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Viktor" Ivanoviq"</forename>
+                     <surname>Jakuxkin"</surname>
+                  </persName>
+                  <death when="1872"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_IF #t_P #s_CY">
-        <ab>ВИКТОР" ИВАНОВИЯ"</ab>
-        <ab>ЙАКУЬКИН."</ab>
-        <ab>РОД: 28 АПР: 1829.</ab>
-        <ab>УМЕР" 18 ЙАНВ: 1872.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1602"
+               ulx="2176.325355"
+               uly="367.166113"
+               lrx="2182.645547"
+               lry="377.03374699999995"
+               points="2176.325355,367.51041899999996 2182.07529,367.166113 2182.645547,376.689441 2176.895613,377.03374699999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_IF #t_P #s_CY">
+            <ab>ВИКТОР" ИВАНОВИЯ"</ab>
+            <ab>ЙАКУЬКИН."</ab>
+            <ab>РОД: 28 АПР: 1829.</ab>
+            <ab>УМЕР" 18 ЙАНВ: 1872.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

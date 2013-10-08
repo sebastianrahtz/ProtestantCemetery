@@ -1,80 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S857.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S857.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 857</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S857">
-          <msIdentifier>
-            <idno>S857</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="BUILD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>290</height>
-                    <depth>198</depth>
-                    <width>105</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>4 corners, the upper edge under the roof is carved Hollow, 3 stone columns put together at each of the as many small arches.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>x</num>
-                <ptr target="#i_140 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Theophile Linder</forename>
-              <surname>de Bald</surname>
-            </persName>
-            <death when="1880"/>
-            <nationality key="FR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 857</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S857">
+               <msIdentifier>
+                  <idno>S857</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="BUILD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>290</height>
+                              <depth>198</depth>
+                              <width>105</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>4 corners, the upper edge under the roof is carved Hollow, 3 stone columns put together at each of the as many small arches.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>x</num>
+                        <ptr target="#i_140 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Theophile Linder</forename>
+                     <surname>de Bald</surname>
+                  </persName>
+                  <death when="1880"/>
+                  <nationality key="FR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_E #c_3 #m_I #t_P">
-        <ab>THEOPHILE LINDER</ab>
-        <ab>DE BAIE</ab>
-      </div>
-      <div type="inscription" xml:lang="fr" decls="#f_E #c_3 #m_I #t_PC">
-        <ab>BANQUIER A ROME DÉCÉDÉ LE 28 JANVIER 1880</ab>
-        <ab>NÉ 1838</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S857"
+               ulx="1736.861842"
+               uly="422.94881699999996"
+               lrx="1747.615262"
+               lry="443.749812"
+               points="1737.741329,422.94881699999996 1747.615262,423.37503000000004 1746.735775,443.749812 1736.861842,443.32359900000006 ">
+            <graphic url="film:_H/26215"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_E #c_3 #m_I #t_P">
+            <ab>THEOPHILE LINDER</ab>
+            <ab>DE BAIE</ab>
+         </div>
+         <div type="inscription" xml:lang="fr" decls="#f_E #c_3 #m_I #t_PC">
+            <ab>BANQUIER A ROME DÉCÉDÉ LE 28 JANVIER 1880</ab>
+            <ab>NÉ 1838</ab>
+         </div>
+      </body>
   </text>
 </TEI>

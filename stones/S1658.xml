@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1658.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1658.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1658</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1658">
-          <msIdentifier>
-            <idno>S1658</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">738</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>145</height>
-                    <depth>26</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_164 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Clara</forename>
-              <surname>Lee</surname>
-            </persName>
-            <death when="1872"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1658</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1658">
+               <msIdentifier>
+                  <idno>S1658</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">738</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>145</height>
+                              <depth>26</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_164 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Clara</forename>
+                     <surname>Lee</surname>
+                  </persName>
+                  <death when="1872"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>CLARA LEE</ab>
-        <ab>DIED MARCH 4TH 1872</ab>
-        <ab>AGED 21 YEARS</ab>
-        <ab>DAUGHTER OF</ab>
-        <ab>HENRY,AND ELIZABETH PERKINS LEE</ab>
-        <ab>OF BOSTON</ab>
-        <ab>UNITED STATES OF AMERICA</ab>
-        <ab/>
-        <ab>THE LORD GAVE,AND THE LORD HATH</ab>
-        <ab>TAKEN AWAY BLESSED THE NAME</ab>
-        <ab>OF THE LORD.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1658"
+               ulx="2192.119978"
+               uly="392.300693"
+               lrx="2199.328465"
+               lry="395.40627900000004"
+               points="2192.119978,392.89523099999997 2199.115041,392.300693 2199.328465,394.811741 2192.333402,395.40627900000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>CLARA LEE</ab>
+            <ab>DIED MARCH 4TH 1872</ab>
+            <ab>AGED 21 YEARS</ab>
+            <ab>DAUGHTER OF</ab>
+            <ab>HENRY,AND ELIZABETH PERKINS LEE</ab>
+            <ab>OF BOSTON</ab>
+            <ab>UNITED STATES OF AMERICA</ab>
+            <ab/>
+            <ab>THE LORD GAVE,AND THE LORD HATH</ab>
+            <ab>TAKEN AWAY BLESSED THE NAME</ab>
+            <ab>OF THE LORD.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

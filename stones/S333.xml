@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S333.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S333.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 333</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S333">
-          <msIdentifier>
-            <idno>S333</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1684</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>100</height>
-                    <depth>22</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>15</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Sarah</forename>
-              <surname>Miles</surname>
-            </persName>
-            <birth when="1845-11">
-              <placeName>
-                <settlement>Boston</settlement>
-                <country>USA</country>
-              </placeName>
-            </birth>
-            <death when="1861-04-13"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 333</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S333">
+               <msIdentifier>
+                  <idno>S333</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1684</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>100</height>
+                              <depth>22</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>15</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Sarah</forename>
+                     <surname>Miles</surname>
+                  </persName>
+                  <birth when="1845-11">
+                     <placeName>
+                        <settlement>Boston</settlement>
+                        <country>USA</country>
+                     </placeName>
+                  </birth>
+                  <death when="1861-04-13"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>SARAH. H. MILES</ab>
-        <ab>DAUGHTER OF</ab>
-        <ab>REV. HENRY. A. MILES. D.D.</ab>
-        <ab>OF BOSTON U.S.A.</ab>
-        <ab>DIED IN ROME APRIL 13TH 1861</ab>
-        <ab>AGED XV YEARS VI MONTHS.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S333"
+               ulx="1172.371122"
+               uly="497.16589999999997"
+               lrx="1180.36455"
+               lry="501.19017299999996"
+               points="1172.858526,497.16589999999997 1180.36455,497.16589999999997 1180.36455,501.19017299999996 1172.371122,501.19017299999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>SARAH. H. MILES</ab>
+            <ab>DAUGHTER OF</ab>
+            <ab>REV. HENRY. A. MILES. D.D.</ab>
+            <ab>OF BOSTON U.S.A.</ab>
+            <ab>DIED IN ROME APRIL 13TH 1861</ab>
+            <ab>AGED XV YEARS VI MONTHS.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

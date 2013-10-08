@@ -1,68 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9077.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9077.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9077</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9077">
-          <msIdentifier>
-            <idno>S9077</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-              <note>east of 273</note>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm"/>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>70</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Beatrice</forename>
-              <surname>Pini</surname>
-            </persName>
-            <birth when="1915"/>
-            <death when="1986"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9077</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9077">
+               <msIdentifier>
+                  <idno>S9077</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                     <note>east of 273</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm"/>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>70</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Beatrice</forename>
+                     <surname>Pini</surname>
+                  </persName>
+                  <birth when="1915"/>
+                  <death when="1986"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>BEATRICE PINI</ab>
-        <ab>NATA LIFSHITZ</ab>
-        <ab>NEW YORK 18.8.1915</ab>
-        <ab>ROMA 11.2.1986</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9077"
+               ulx="1296.142625"
+               uly="411.37686599999995"
+               lrx="1303.992049"
+               lry="415.01586299999997"
+               points="1303.992049,411.56343300000003 1296.241105,411.37686599999995 1296.142625,414.829469 1303.893361,415.01586299999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>BEATRICE PINI</ab>
+            <ab>NATA LIFSHITZ</ab>
+            <ab>NEW YORK 18.8.1915</ab>
+            <ab>ROMA 11.2.1986</ab>
+         </div>
+      </body>
   </text>
 </TEI>

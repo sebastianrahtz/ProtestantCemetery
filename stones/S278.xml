@@ -1,87 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S278.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S278.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 278</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S278">
-          <msIdentifier>
-            <idno>S278</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1715</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>157</height>
-                    <depth>185</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_30 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>78</age>
-            <sex>1</sex>
-            <persName>
-              <forename>William Gordon</forename>
-              <surname>Coesvelt</surname>
-            </persName>
-            <birth when="1766">
-              <placeName>
-                <settlement>St.Leonards Essex</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1844-03-08"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 278</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S278">
+               <msIdentifier>
+                  <idno>S278</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1715</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>157</height>
+                              <depth>185</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_30 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>78</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>William Gordon</forename>
+                     <surname>Coesvelt</surname>
+                  </persName>
+                  <birth when="1766">
+                     <placeName>
+                        <settlement>St.Leonards Essex</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1844-03-08"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>WILLIAM GORDON COESVELT</ab>
-        <ab>OF ST. LEONARDS IN THE COUNTY</ab>
-        <ab>OF ESSEX ESQ.RE</ab>
-        <ab>WHO DIED AT ROME THE</ab>
-        <ab>8.TH OF MARCH 1844</ab>
-        <ab>AGED 78 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S278"
+               ulx="1232.184712"
+               uly="441.004808"
+               lrx="1243.830549"
+               lry="460.138381"
+               points="1243.830549,441.91614000000004 1234.008994,441.004808 1232.184712,459.227811 1242.006197,460.138381 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>WILLIAM GORDON COESVELT</ab>
+            <ab>OF ST. LEONARDS IN THE COUNTY</ab>
+            <ab>OF ESSEX ESQ.RE</ab>
+            <ab>WHO DIED AT ROME THE</ab>
+            <ab>8.TH OF MARCH 1844</ab>
+            <ab>AGED 78 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

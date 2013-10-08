@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1971.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1971.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1971</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1971">
-          <msIdentifier>
-            <idno>S1971</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">419</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>40</height>
-                    <depth>28</depth>
-                    <width>48</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Douglas Braithwaite</forename>
-              <surname>Alcock</surname>
-            </persName>
-            <death when="1970"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Jane Stephen</forename>
-              <surname>Alcock</surname>
-            </persName>
-            <death when="1982"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1971</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1971">
+               <msIdentifier>
+                  <idno>S1971</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">419</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>40</height>
+                              <depth>28</depth>
+                              <width>48</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Douglas Braithwaite</forename>
+                     <surname>Alcock</surname>
+                  </persName>
+                  <death when="1970"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Jane Stephen</forename>
+                     <surname>Alcock</surname>
+                  </persName>
+                  <death when="1982"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>DOUGLAS BRAITHWAITE</ab>
-        <ab>ALCOCK</ab>
-        <ab>* 7.III.1908 + 14.X.1970</ab>
-        <ab>JANE STEPHEN ALCOCK</ab>
-        <ab>NÉE KEMP</ab>
-        <ab>* 10.X.1911 + 15.IX.1982</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1971"
+               ulx="2378.773569"
+               uly="690.133378"
+               lrx="2383.809226"
+               lry="693.7062490000001"
+               points="2378.814361,690.133378 2383.809226,690.1913440000001 2383.768435,693.7062490000001 2378.773569,693.648283 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>DOUGLAS BRAITHWAITE</ab>
+            <ab>ALCOCK</ab>
+            <ab>* 7.III.1908 + 14.X.1970</ab>
+            <ab>JANE STEPHEN ALCOCK</ab>
+            <ab>NÉE KEMP</ab>
+            <ab>* 10.X.1911 + 15.IX.1982</ab>
+         </div>
+      </body>
   </text>
 </TEI>

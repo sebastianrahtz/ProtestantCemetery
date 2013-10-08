@@ -1,80 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S730.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S730.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 730</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S730">
-          <msIdentifier>
-            <idno>S730</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2156</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>113</height>
-                    <depth>11</depth>
-                    <width>63</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_45 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Jules Pierre Louis</forename>
-              <surname>Tardif</surname>
-            </persName>
-            <death when="1834"/>
-            <nationality key="FR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 730</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S730">
+               <msIdentifier>
+                  <idno>S730</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2156</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>113</height>
+                              <depth>11</depth>
+                              <width>63</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_45 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Jules Pierre Louis</forename>
+                     <surname>Tardif</surname>
+                  </persName>
+                  <death when="1834"/>
+                  <nationality key="FR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_S #c_3 #m_I #t_P">
-        <ab>A LA MEMOIRE DE</ab>
-        <ab>JULES PIERRE LOUIS TARDIE</ab>
-        <ab>FILS DE JULES ALEXANDRE TARDIE ET DE</ab>
-        <ab>ANGELIQUE MARIE TARIN</ab>
-        <ab>FRERE D'ALEXANDRE D'ELISABETH ET DE ZOE</ab>
-        <ab>NÉ A CHOLET, EN FRANCE LE 20</ab>
-        <ab>OCTOBRE 1815. MORTA A ROME</ab>
-        <ab>LE 23 NOVEMBRE 1834.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S730"
+               ulx="1590.953766"
+               uly="359.634582"
+               lrx="1602.748945"
+               lry="378.343924"
+               points="1591.051247,359.634582 1602.748945,359.77578500000004 1602.748945,363.23524799999996 1601.774137,363.23524799999996 1601.286733,375.872879 1599.629559,377.496709 1598.069866,378.273323 1595.535364,378.343924 1593.293305,377.21430399999997 1592.221016,375.37867000000006 1592.415978,362.95284300000003 1590.953766,362.95284300000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_S #c_3 #m_I #t_P">
+            <ab>A LA MEMOIRE DE</ab>
+            <ab>JULES PIERRE LOUIS TARDIE</ab>
+            <ab>FILS DE JULES ALEXANDRE TARDIE ET DE</ab>
+            <ab>ANGELIQUE MARIE TARIN</ab>
+            <ab>FRERE D'ALEXANDRE D'ELISABETH ET DE ZOE</ab>
+            <ab>NÉ A CHOLET, EN FRANCE LE 20</ab>
+            <ab>OCTOBRE 1815. MORTA A ROME</ab>
+            <ab>LE 23 NOVEMBRE 1834.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

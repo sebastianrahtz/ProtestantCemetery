@@ -1,87 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1748.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1748.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1748</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1748">
-          <msIdentifier>
-            <idno>S1748</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1902</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>190</height>
-                    <depth>11</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Benjamin</forename>
-              <surname>Gott</surname>
-            </persName>
-            <death when="1878"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Mary</forename>
-              <surname>Gott</surname>
-            </persName>
-            <death when="1891"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1748</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1748">
+               <msIdentifier>
+                  <idno>S1748</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1902</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>190</height>
+                              <depth>11</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Benjamin</forename>
+                     <surname>Gott</surname>
+                  </persName>
+                  <death when="1878"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Mary</forename>
+                     <surname>Gott</surname>
+                  </persName>
+                  <death when="1891"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>IN MEMORY</ab>
-        <ab>OF BENJAMEN GOTT AGED 50</ab>
-        <ab>WHO DIED FEBRUARY 9 1878</ab>
-        <ab>AND OF HIS WIFE</ab>
-        <ab>MARY GOTT AGED 62</ab>
-        <ab>DECEASED AUGUST 30 1891</ab>
-        <ab rend="Alignr">THOU ART WITH ME</ab>
-        <ab rend="Alignr">THY ROD AND THY STAFF</ab>
-        <ab rend="Alignr">THEY COMFORT ME</ab>
-        <ab rend="Alignr">PS XXIII.4</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1748"
+               ulx="2549.525151"
+               uly="436.42076399999996"
+               lrx="2561.96876"
+               lry="456.20077200000003"
+               points="2549.525151,437.32391500000006 2560.401221,436.42076399999996 2561.96876,455.29762000000005 2551.092691,456.20077200000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>IN MEMORY</ab>
+            <ab>OF BENJAMEN GOTT AGED 50</ab>
+            <ab>WHO DIED FEBRUARY 9 1878</ab>
+            <ab>AND OF HIS WIFE</ab>
+            <ab>MARY GOTT AGED 62</ab>
+            <ab>DECEASED AUGUST 30 1891</ab>
+            <ab rend="Alignr">THOU ART WITH ME</ab>
+            <ab rend="Alignr">THY ROD AND THY STAFF</ab>
+            <ab rend="Alignr">THEY COMFORT ME</ab>
+            <ab rend="Alignr">PS XXIII.4</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,73 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S358.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S358.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 358</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S358">
-          <msIdentifier>
-            <idno>S358</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>112</height>
-                    <depth>10</depth>
-                    <width>78</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Aleksandr"</forename>
-              <surname>Roйdestvenskij</surname>
-            </persName>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 358</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S358">
+               <msIdentifier>
+                  <idno>S358</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>112</height>
+                              <depth>10</depth>
+                              <width>78</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Aleksandr"</forename>
+                     <surname>Roйdestvenskij</surname>
+                  </persName>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_I #t_P #s_CY">
-        <ab>ПОД" СИМ" КАМНЕМ"</ab>
-        <ab>ПОКОИТСЯ ТѢЛО ГЫВЬАГО ПРИ</ab>
-        <ab>ИМПЕРАТОРСКОЙ Российской</ab>
-        <ab>МИССИИ [?]алÓМ[?]ИКА</ab>
-        <ab>АЛЕКСАНДРА РОЖДЕСТВСНКАГО</ab>
-        <ab>СКОНЯА@~ВСАГОСЯ</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> last line not transliterated at all</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S358"
+               ulx="991.748123"
+               uly="516.692953"
+               lrx="1000.960206"
+               lry="531.060389"
+               points="1000.960206,516.9048760000001 992.152444,516.692953 991.748123,530.848465 1000.555884,531.060389 ">
+            <graphic url="film:T/27"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_I #t_P #s_CY">
+            <ab>ПОД" СИМ" КАМНЕМ"</ab>
+            <ab>ПОКОИТСЯ ТѢЛО ГЫВЬАГО ПРИ</ab>
+            <ab>ИМПЕРАТОРСКОЙ Российской</ab>
+            <ab>МИССИИ [?]алÓМ[?]ИКА</ab>
+            <ab>АЛЕКСАНДРА РОЖДЕСТВСНКАГО</ab>
+            <ab>СКОНЯА@~ВСАГОСЯ</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> last line not transliterated at all</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

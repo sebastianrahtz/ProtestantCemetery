@@ -1,69 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9043.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9043.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9043</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9043">
-          <msIdentifier>
-            <idno>S9043</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-              <note>south of 2437</note>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>20</height>
-                    <depth>7</depth>
-                    <width>37</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Adelaide Augusta</forename>
-              <surname>Dehio</surname>
-            </persName>
-            <death when="1949"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9043</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9043">
+               <msIdentifier>
+                  <idno>S9043</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                     <note>south of 2437</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>20</height>
+                              <depth>7</depth>
+                              <width>37</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Adelaide Augusta</forename>
+                     <surname>Dehio</surname>
+                  </persName>
+                  <death when="1949"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_T #c_2 #m_IC #t_S">
-        <ab>ADELAIDE AUGUSTA</ab>
-        <ab>DEHIO</ab>
-        <ab>+24.8.1949</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9043"
+               ulx="3033.998692"
+               uly="270.77250300000003"
+               lrx="3038.487775"
+               lry="272.338657"
+               points="3034.007669,270.77250300000003 3038.487775,270.79862 3038.478797,272.338657 3033.998692,272.312539 3034.007669,270.77250300000003 3038.487775,270.79862 3038.478797,272.338657 3033.998692,272.312539 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_T #c_2 #m_IC #t_S">
+            <ab>ADELAIDE AUGUSTA</ab>
+            <ab>DEHIO</ab>
+            <ab>+24.8.1949</ab>
+         </div>
+      </body>
   </text>
 </TEI>

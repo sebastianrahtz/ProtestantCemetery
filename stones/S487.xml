@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S487.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S487.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 487</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S487">
-          <msIdentifier>
-            <idno>S487</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>114</height>
-                    <depth>20</depth>
-                    <width>66</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_131 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Richard</forename>
-              <surname>Bartram</surname>
-            </persName>
-            <death when="1826"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 487</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S487">
+               <msIdentifier>
+                  <idno>S487</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>114</height>
+                              <depth>20</depth>
+                              <width>66</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_131 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Richard</forename>
+                     <surname>Bartram</surname>
+                  </persName>
+                  <death when="1826"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>HERE LIE THE REMAINS OF</ab>
-        <ab>RICHARD BARTRAM MERCHANT</ab>
-        <ab>WHO DIED IN THE HOPE OF</ab>
-        <ab>A BLESSED IMMORTALITY</ab>
-        <ab>ON THE 24 OF FEBRUARY 1826</ab>
-        <ab>WAS IN HIS 76 YEAR</ab>
-        <ab>HE THE ONLY SON OF CAPTAIN</ab>
-        <ab>RICHARD BARTRAM OF GREAT YARMOUTH</ab>
-        <ab>IN THE COUNTY OF NORFOLK BY WHOM HE WAS</ab>
-        <ab>SETTLED EARLY IN LIFE AT</ab>
-        <ab>CIVITA VECCHIA</ab>
-        <ab>HAVING NO CHILDREN HIS NEPHEW CUBITT ENGALL</ab>
-        <ab>BARTRAM BECAME THE OBJECT OF HIS CARE</ab>
-        <ab>AND BOUNTY WHO CONSCIOUS OF THE RESPECT</ab>
-        <ab>DUE TO HIS BENEVOLENT RELATION GRATEFULLY</ab>
-        <ab>DEDICATES THIS MONUMENT</ab>
-        <ab>TO HIS MEMORY</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S487"
+               ulx="1476.983524"
+               uly="236.87566300000003"
+               lrx="1487.062376"
+               lry="240.97553500000004"
+               points="1476.983524,236.87566300000003 1487.062376,236.87566300000003 1487.062376,240.97553500000004 1476.983524,240.97553500000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>HERE LIE THE REMAINS OF</ab>
+            <ab>RICHARD BARTRAM MERCHANT</ab>
+            <ab>WHO DIED IN THE HOPE OF</ab>
+            <ab>A BLESSED IMMORTALITY</ab>
+            <ab>ON THE 24 OF FEBRUARY 1826</ab>
+            <ab>WAS IN HIS 76 YEAR</ab>
+            <ab>HE THE ONLY SON OF CAPTAIN</ab>
+            <ab>RICHARD BARTRAM OF GREAT YARMOUTH</ab>
+            <ab>IN THE COUNTY OF NORFOLK BY WHOM HE WAS</ab>
+            <ab>SETTLED EARLY IN LIFE AT</ab>
+            <ab>CIVITA VECCHIA</ab>
+            <ab>HAVING NO CHILDREN HIS NEPHEW CUBITT ENGALL</ab>
+            <ab>BARTRAM BECAME THE OBJECT OF HIS CARE</ab>
+            <ab>AND BOUNTY WHO CONSCIOUS OF THE RESPECT</ab>
+            <ab>DUE TO HIS BENEVOLENT RELATION GRATEFULLY</ab>
+            <ab>DEDICATES THIS MONUMENT</ab>
+            <ab>TO HIS MEMORY</ab>
+         </div>
+      </body>
   </text>
 </TEI>

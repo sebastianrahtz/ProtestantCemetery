@@ -1,77 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1594.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1594.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1594</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1594">
-          <msIdentifier>
-            <idno>S1594</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2477</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>103</height>
-                    <width>30</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_16 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Edouard</forename>
-              <surname>Montandon</surname>
-            </persName>
-            <death when="1872"/>
-            <nationality key="CH"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1594</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1594">
+               <msIdentifier>
+                  <idno>S1594</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2477</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>103</height>
+                              <width>30</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_16 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Edouard</forename>
+                     <surname>Montandon</surname>
+                  </persName>
+                  <death when="1872"/>
+                  <nationality key="CH"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_R #c_3 #m_RM #t_P">
-        <ab>F.o EDOUARD MONTANDON</ab>
-        <ab>NÉ EN SUISSE LE 20 AVRIL 1836</ab>
-        <ab>MORT LE 21 JUIN 1872</ab>
-        <ab>-----.-----</ab>
-        <ab>DIEU EST LE SOUTIEN DE LA VEUVE</ab>
-        <ab>ET LE PÈRE DES ORPHIENS.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1594"
+               ulx="2268.713657"
+               uly="339.14109800000006"
+               lrx="2274.334889"
+               lry="344.927915"
+               points="2268.713657,339.54378799999995 2273.918313,339.14109800000006 2274.334889,344.525226 2269.130232,344.927915 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_R #c_3 #m_RM #t_P">
+            <ab>F.o EDOUARD MONTANDON</ab>
+            <ab>NÉ EN SUISSE LE 20 AVRIL 1836</ab>
+            <ab>MORT LE 21 JUIN 1872</ab>
+            <ab>-----.-----</ab>
+            <ab>DIEU EST LE SOUTIEN DE LA VEUVE</ab>
+            <ab>ET LE PÈRE DES ORPHIENS.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

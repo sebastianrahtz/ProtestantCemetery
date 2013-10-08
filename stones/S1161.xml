@@ -1,97 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1161.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1161.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1161</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1161">
-          <msIdentifier>
-            <idno>S1161</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1280</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>204</height>
-                    <depth>33</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_45 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_121 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>George Boardman</forename>
-              <surname>Taylor</surname>
-            </persName>
-            <death when="1907"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1161</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1161">
+               <msIdentifier>
+                  <idno>S1161</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1280</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>204</height>
+                              <depth>33</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_45 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_121 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>George Boardman</forename>
+                     <surname>Taylor</surname>
+                  </persName>
+                  <death when="1907"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_IF #t_P">
-        <ab>IN LOVING MEMORY</ab>
-        <ab>OF</ab>
-        <ab>GEORGE BOARDMAN TAYLOR D.D.</ab>
-        <ab>FAITHFUL MINISTER OF JESUS CHRIST</ab>
-        <ab>  --------</ab>
-        <ab>"THEN SHALL THE RIGHTEOUS SHINE</ab>
-        <ab>FORTH AS THE SUN IN THE KINGDOM</ab>
-        <ab>  OF THEIR FATHER"</ab>
-        <ab>  --------</ab>
-        <ab>"ESEMPIO DEI FEDELI IN PAROLA,</ab>
-        <ab>IN CONVERSAZIONE, IN CAPITA,</ab>
-        <ab>IN SPIRITO, IN FEDE, IN PURITÀ"</ab>
-        <ab/>
-        <ab rend="Alignl">RICHMOND,VIRGINIA</ab>
-        <ab> 1832</ab>
-        <ab>     ROMA,ITALIA</ab>
-        <ab rend="Alignr">     1907</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1161"
+               ulx="1975.804174"
+               uly="565.991114"
+               lrx="1984.727704"
+               lry="570.119912"
+               points="1975.804174,565.991114 1984.727704,565.991114 1984.727704,570.119912 1975.804174,570.119912 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_IF #t_P">
+            <ab>IN LOVING MEMORY</ab>
+            <ab>OF</ab>
+            <ab>GEORGE BOARDMAN TAYLOR D.D.</ab>
+            <ab>FAITHFUL MINISTER OF JESUS CHRIST</ab>
+            <ab>  --------</ab>
+            <ab>"THEN SHALL THE RIGHTEOUS SHINE</ab>
+            <ab>FORTH AS THE SUN IN THE KINGDOM</ab>
+            <ab>  OF THEIR FATHER"</ab>
+            <ab>  --------</ab>
+            <ab>"ESEMPIO DEI FEDELI IN PAROLA,</ab>
+            <ab>IN CONVERSAZIONE, IN CAPITA,</ab>
+            <ab>IN SPIRITO, IN FEDE, IN PURITÀ"</ab>
+            <ab/>
+            <ab rend="Alignl">RICHMOND,VIRGINIA</ab>
+            <ab> 1832</ab>
+            <ab>     ROMA,ITALIA</ab>
+            <ab rend="Alignr">     1907</ab>
+         </div>
+      </body>
   </text>
 </TEI>

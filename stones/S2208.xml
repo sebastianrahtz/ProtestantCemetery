@@ -1,95 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2208.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2208.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2208</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2208">
-          <msIdentifier>
-            <idno>S2208</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="STAT">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>110</height>
-                    <depth>50</depth>
-                    <width>56</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Small child angel with some pines in its left hand, the arm is bended against his body. It has a short robe and the head is bended in a sad expression. small standing stone putto. In his left hand is a bunch of flowers, in his right, which is outstreched downwards, are a few flowers.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_82 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Erika</forename>
-              <surname>Haussmann</surname>
-            </persName>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Erwin</forename>
-              <surname>Haussmann</surname>
-            </persName>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Hedwig</forename>
-              <surname>Haussmann</surname>
-            </persName>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2208</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2208">
+               <msIdentifier>
+                  <idno>S2208</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="STAT">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>110</height>
+                              <depth>50</depth>
+                              <width>56</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Small child angel with some pines in its left hand, the arm is bended against his body. It has a short robe and the head is bended in a sad expression. small standing stone putto. In his left hand is a bunch of flowers, in his right, which is outstreched downwards, are a few flowers.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_82 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Erika</forename>
+                     <surname>Haussmann</surname>
+                  </persName>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Erwin</forename>
+                     <surname>Haussmann</surname>
+                  </persName>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Hedwig</forename>
+                     <surname>Haussmann</surname>
+                  </persName>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_4 #m_I #t_P">
-        <ab>ERIKA HAUSSMANN</ab>
-        <ab>UND</ab>
-        <ab>ERWIN HAUSSMANN</ab>
-        <ab>UND</ab>
-        <ab>IHRE MUTTER</ab>
-        <ab>HEDWIG HAUSSMANN.GEB.HOLUB</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2208"
+               ulx="2825.372275"
+               uly="503.61246900000003"
+               lrx="2831.057348"
+               lry="509.297543"
+               points="2825.457774,503.61246900000003 2831.057348,503.69796900000006 2830.971848,509.297543 2825.372275,509.212044 ">
+            <graphic url="film:_H/26259"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_4 #m_I #t_P">
+            <ab>ERIKA HAUSSMANN</ab>
+            <ab>UND</ab>
+            <ab>ERWIN HAUSSMANN</ab>
+            <ab>UND</ab>
+            <ab>IHRE MUTTER</ab>
+            <ab>HEDWIG HAUSSMANN.GEB.HOLUB</ab>
+         </div>
+      </body>
   </text>
 </TEI>

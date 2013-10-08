@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1716.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1716.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1716</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1716">
-          <msIdentifier>
-            <idno>S1716</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2406</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>180</height>
-                    <depth>47</depth>
-                    <width>67</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_116 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Caroline</forename>
-              <surname>Wheeler</surname>
-            </persName>
-            <death when="1875"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1716</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1716">
+               <msIdentifier>
+                  <idno>S1716</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2406</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>180</height>
+                              <depth>47</depth>
+                              <width>67</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_116 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Caroline</forename>
+                     <surname>Wheeler</surname>
+                  </persName>
+                  <death when="1875"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>CAROLINE WHEELER</ab>
-        <ab>WIDOW OF WILLIAM LOWE WHEELER</ab>
-        <ab>LATE OF NORTHFLEET KENT</ab>
-        <ab>DIED SUDDENLY AT ROME DECEMBER 14TH 1875</ab>
-        <ab>AGED 69 YEARS</ab>
-        <ab/>
-        <ab rend="Alignl">BLESSED BE THE LORD GOD AND BLESSED BE THE NAME</ab>
-        <ab rend="Alignl">OF HIS MAJESTY FOREVER</ab>
-        <ab rend="Alignl">AND ALL THE EARTH SHALL BE FILLED WITH HIS MAJESTY</ab>
-        <ab rend="Alignl">amen amen</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1716"
+               ulx="2232.686025"
+               uly="440.88789299999996"
+               lrx="2242.787855"
+               lry="447.543146"
+               points="2232.686025,441.85796200000004 2242.208708,440.88789299999996 2242.787855,446.573076 2233.265172,447.543146 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>CAROLINE WHEELER</ab>
+            <ab>WIDOW OF WILLIAM LOWE WHEELER</ab>
+            <ab>LATE OF NORTHFLEET KENT</ab>
+            <ab>DIED SUDDENLY AT ROME DECEMBER 14TH 1875</ab>
+            <ab>AGED 69 YEARS</ab>
+            <ab/>
+            <ab rend="Alignl">BLESSED BE THE LORD GOD AND BLESSED BE THE NAME</ab>
+            <ab rend="Alignl">OF HIS MAJESTY FOREVER</ab>
+            <ab rend="Alignl">AND ALL THE EARTH SHALL BE FILLED WITH HIS MAJESTY</ab>
+            <ab rend="Alignl">amen amen</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,97 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2089.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2089.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2089</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2089">
-          <msIdentifier>
-            <idno>S2089</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1220</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>173</height>
-                    <depth>59</depth>
-                    <width>30</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Edward William</forename>
-              <surname>Knocker</surname>
-            </persName>
-            <death when="1933"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Gratiana</forename>
-              <surname>Knocker</surname>
-            </persName>
-            <death when="1934"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2089</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2089">
+               <msIdentifier>
+                  <idno>S2089</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1220</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>173</height>
+                              <depth>59</depth>
+                              <width>30</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Edward William</forename>
+                     <surname>Knocker</surname>
+                  </persName>
+                  <death when="1933"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Gratiana</forename>
+                     <surname>Knocker</surname>
+                  </persName>
+                  <death when="1934"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>IN EVERLASTING</ab>
-        <ab>MEMORY OF</ab>
-        <ab>EDWARD WILLIAM LONGWORTH</ab>
-        <ab>KNOCKER</ab>
-        <ab>3 SEP 1872 6 MAY 1933</ab>
-        <ab/>
-        <ab>AND OF HIS WIFE</ab>
-        <ab>GRATIANA KNOCKER</ab>
-        <ab>9 MAY 1857 - 24 NOV. 1934</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_RS #t_PC">
-        <ab>LOVE ONE ANOTHER</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2089"
+               ulx="2800.137467"
+               uly="304.284543"
+               lrx="2808.434077"
+               lry="309.107969"
+               points="2800.173986,304.284543 2808.434077,304.34791600000005 2808.397558,309.107969 2800.137467,309.04459599999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>IN EVERLASTING</ab>
+            <ab>MEMORY OF</ab>
+            <ab>EDWARD WILLIAM LONGWORTH</ab>
+            <ab>KNOCKER</ab>
+            <ab>3 SEP 1872 6 MAY 1933</ab>
+            <ab/>
+            <ab>AND OF HIS WIFE</ab>
+            <ab>GRATIANA KNOCKER</ab>
+            <ab>9 MAY 1857 - 24 NOV. 1934</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_RS #t_PC">
+            <ab>LOVE ONE ANOTHER</ab>
+         </div>
+      </body>
   </text>
 </TEI>

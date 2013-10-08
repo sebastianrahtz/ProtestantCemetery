@@ -1,75 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1246.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1246.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1246</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1246">
-          <msIdentifier>
-            <idno>S1246</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>210</height>
-                    <depth>15</depth>
-                    <width>95</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Elisabeta</forename>
-              <surname>Xeremeteva</surname>
-            </persName>
-            <death when="1891"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1246</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1246">
+               <msIdentifier>
+                  <idno>S1246</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>210</height>
+                              <depth>15</depth>
+                              <width>95</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elisabeta</forename>
+                     <surname>Xeremeteva</surname>
+                  </persName>
+                  <death when="1891"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IF #t_P #s_CY">
-        <ab>ДА БУДЕТ" ВОЛЯ ТВОЯ:</ab>
-        <ab/>
-        <ab>ЕЛИЗАВЕТА ЬЕРЕМЕТЕВА</ab>
-        <ab>РОЖДЕННАЯ МАРТЫНОВА</ab>
-        <ab>РОДИЛАС' 7 ИЙЛЯ 1812 ГОДА</ab>
-        <ab>СКОНЯЦЛАС' И ФЕВРАЛЯ 1891 ГОДА</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1246"
+               ulx="1813.106451"
+               uly="592.459377"
+               lrx="1823.470332"
+               lry="613.459425"
+               points="1813.748267,592.459377 1823.470332,592.760836 1822.828515,613.459425 1813.106451,613.157966 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IF #t_P #s_CY">
+            <ab>ДА БУДЕТ" ВОЛЯ ТВОЯ:</ab>
+            <ab/>
+            <ab>ЕЛИЗАВЕТА ЬЕРЕМЕТЕВА</ab>
+            <ab>РОЖДЕННАЯ МАРТЫНОВА</ab>
+            <ab>РОДИЛАС' 7 ИЙЛЯ 1812 ГОДА</ab>
+            <ab>СКОНЯЦЛАС' И ФЕВРАЛЯ 1891 ГОДА</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,90 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S125.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S125.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 125</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S125">
-          <msIdentifier>
-            <idno>S125</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>140</height>
-                    <depth>35</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_85 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_N"/>
-              </decoNote>
-              <decoNote type="faces">north side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>1</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Anna Maria</forename>
-              <surname>Honoria</surname>
-            </persName>
-            <birth when="1826-07-25">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </birth>
-            <death when="1827-03-05"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 125</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S125">
+               <msIdentifier>
+                  <idno>S125</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>140</height>
+                              <depth>35</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_85 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_N"/>
+                     </decoNote>
+                     <decoNote type="faces">north side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>1</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anna Maria</forename>
+                     <surname>Honoria</surname>
+                  </persName>
+                  <birth when="1826-07-25">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </birth>
+                  <death when="1827-03-05"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_N #c_3 #m_I #t_P">
-        <ab>ANNA MARIA HONORIA,</ab>
-        <ab>DAUGHTER OF GEORGE RENNIE,</ab>
-        <ab>AND JANE HIS WIFE, OF THE</ab>
-        <ab>COUNTY OF HADDINGTON, SCOTLAND</ab>
-        <ab>BORN AT ROME XXVTH JULY 1826,</ab>
-        <ab>DIED 5TH MARCH 1827.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S125"
+               ulx="1237.444946"
+               uly="270.73039600000004"
+               lrx="1244.550302"
+               lry="272.971462"
+               points="1244.550302,270.89981 1237.503989,270.73039600000004 1237.444946,272.80203000000006 1244.491069,272.971462 ">
+            <graphic url="film:AE/1"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_N #c_3 #m_I #t_P">
+            <ab>ANNA MARIA HONORIA,</ab>
+            <ab>DAUGHTER OF GEORGE RENNIE,</ab>
+            <ab>AND JANE HIS WIFE, OF THE</ab>
+            <ab>COUNTY OF HADDINGTON, SCOTLAND</ab>
+            <ab>BORN AT ROME XXVTH JULY 1826,</ab>
+            <ab>DIED 5TH MARCH 1827.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

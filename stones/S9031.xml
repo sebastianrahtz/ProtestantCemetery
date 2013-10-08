@@ -1,78 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9031.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9031.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9031</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9031">
-          <msIdentifier>
-            <idno>S9031</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-              <note>west of 2443</note>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">565</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>240</height>
-                    <depth>100</depth>
-                    <width>200</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">east side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>38</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Allen</forename>
-              <surname>Wallace</surname>
-            </persName>
-            <birth when="1876"/>
-            <death when="1914"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9031</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9031">
+               <msIdentifier>
+                  <idno>S9031</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                     <note>west of 2443</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">565</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>240</height>
+                              <depth>100</depth>
+                              <width>200</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">east side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>38</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Allen</forename>
+                     <surname>Wallace</surname>
+                  </persName>
+                  <birth when="1876"/>
+                  <death when="1914"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_RM #t_P">
-        <ab>ALLEN WALLACE</ab>
-        <ab>BORN NEWYORK FEBRUARY 13TH 1876</ab>
-        <ab>DIED BAGNAIA ITALY JUNE 23RD 1914</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9031"
+               ulx="2927.338649"
+               uly="261.82607600000006"
+               lrx="2935.938286"
+               lry="278.51375499999995"
+               points="2927.679712,261.82607600000006 2935.938286,261.99660700000004 2935.597224,278.51375499999995 2927.338649,278.34322399999996 ">
+            <graphic url="film:_H/26467"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_RM #t_P">
+            <ab>ALLEN WALLACE</ab>
+            <ab>BORN NEWYORK FEBRUARY 13TH 1876</ab>
+            <ab>DIED BAGNAIA ITALY JUNE 23RD 1914</ab>
+         </div>
+      </body>
   </text>
 </TEI>

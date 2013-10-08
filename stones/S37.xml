@@ -1,81 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S37.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S37.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 37</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S37">
-          <msIdentifier>
-            <idno>S37</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">157</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>132</height>
-                    <width>86</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 46)</summary>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>31</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Friedrich Franz</forename>
-              <surname>D'Orville</surname>
-            </persName>
-            <birth when="1789-11-16">
-              <placeName>
-                <settlement>Offenbach</settlement>
-                <country>Germany</country>
-              </placeName>
-            </birth>
-            <death when="1821-01-08"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 37</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S37">
+               <msIdentifier>
+                  <idno>S37</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">157</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>132</height>
+                              <width>86</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 46)</summary>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>31</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Friedrich Franz</forename>
+                     <surname>D'Orville</surname>
+                  </persName>
+                  <birth when="1789-11-16">
+                     <placeName>
+                        <settlement>Offenbach</settlement>
+                        <country>Germany</country>
+                     </placeName>
+                  </birth>
+                  <death when="1821-01-08"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_4 #m_IC #t_P">
-        <ab>FRIEDRICH FRANZ</ab>
-        <ab>D'ORVILLE</ab>
-        <ab>GEB. ZU OFFENBACH</ab>
-        <ab>DEN 16 NOV 1789</ab>
-        <ab>GEST ZU ROM</ab>
-        <ab>DEN 8 JANUAR 1821</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S37"
+               ulx="256.399247"
+               uly="973.257018"
+               lrx="277.554409"
+               lry="1003.51914"
+               points="267.526494,973.257018 256.399247,977.556144 266.427162,1003.51914 277.554409,999.220014 ">
+            <graphic url="film:_H/26305"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_4 #m_IC #t_P">
+            <ab>FRIEDRICH FRANZ</ab>
+            <ab>D'ORVILLE</ab>
+            <ab>GEB. ZU OFFENBACH</ab>
+            <ab>DEN 16 NOV 1789</ab>
+            <ab>GEST ZU ROM</ab>
+            <ab>DEN 8 JANUAR 1821</ab>
+         </div>
+      </body>
   </text>
 </TEI>

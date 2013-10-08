@@ -1,93 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1756.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1756.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1756</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1756">
-          <msIdentifier>
-            <idno>S1756</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1611</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>190</height>
-                    <depth>120</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>On the N and S faces the serpents are coiled, with their tails in the mouths, encircling the cross and the chi-rho.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_74 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_88 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_88 #st_B #f_N"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_129 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Thora Maria</forename>
-              <surname>Muffelmann</surname>
-            </persName>
-            <death when="1893"/>
-            <nationality key="DK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1756</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1756">
+               <msIdentifier>
+                  <idno>S1756</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1611</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>190</height>
+                              <depth>120</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>On the N and S faces the serpents are coiled, with their tails in the mouths, encircling the cross and the chi-rho.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_74 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_88 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_88 #st_B #f_N"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_129 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Thora Maria</forename>
+                     <surname>Muffelmann</surname>
+                  </persName>
+                  <death when="1893"/>
+                  <nationality key="DK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="da " decls="#f_T #c_2 #m_I #t_P">
-        <ab>THORA.MARIA MUFFELMANN.F:ECKERT</ab>
-        <ab>FØDT.I.KJØBENHAVN</ab>
-        <ab>DEN XVI.AVG MDCCCXXVII.OG.DOD.I.RIM</ab>
-        <ab>DEN.XXVIII.NOV.MDCCCXCIII</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1756"
+               ulx="2474.240894"
+               uly="469.88493000000005"
+               lrx="2484.190227"
+               lry="491.37060099999997"
+               points="2474.240894,470.63925200000006 2482.233703,469.88493000000005 2484.190227,490.61627899999996 2476.197418,491.37060099999997 ">
+            <graphic url="film:AM/7"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="da " decls="#f_T #c_2 #m_I #t_P">
+            <ab>THORA.MARIA MUFFELMANN.F:ECKERT</ab>
+            <ab>FØDT.I.KJØBENHAVN</ab>
+            <ab>DEN XVI.AVG MDCCCXXVII.OG.DOD.I.RIM</ab>
+            <ab>DEN.XXVIII.NOV.MDCCCXCIII</ab>
+         </div>
+      </body>
   </text>
 </TEI>

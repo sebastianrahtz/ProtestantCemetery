@@ -1,76 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2319.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2319.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2319</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2319">
-          <msIdentifier>
-            <idno>S2319</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>181</height>
-                    <depth>9</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Věra Aleksandrovna</forename>
-              <surname>Somova</surname>
-            </persName>
-            <death when="1920"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2319</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2319">
+               <msIdentifier>
+                  <idno>S2319</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>181</height>
+                              <depth>9</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Věra Aleksandrovna</forename>
+                     <surname>Somova</surname>
+                  </persName>
+                  <death when="1920"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_P #s_CY">
-        <ab>УПОКОЙ, БОЖЕ, УСОПЬУЙУ РАБУ ТВОЙУ ВѢРУ</ab>
-        <ab/>
-        <ab>ВѢРА АЛЕКСАНДРОВНА</ab>
-        <ab>СОМОВА</ab>
-        <ab>РОЖДЕННАЯ РОДИОНОВА</ab>
-        <ab>РОД. 29 СЕНТ. 1862 Г.</ab>
-        <ab>СКОНЯАЛАС' 20 ФЕВР. 1920 Г.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2319"
+               ulx="2700.269915"
+               uly="669.265515"
+               lrx="2707.726238"
+               lry="687.006052"
+               points="2700.441285,669.265515 2707.726238,669.336168 2707.554867,687.006052 2700.269915,686.9354000000001 ">
+            <graphic url="film:B/27"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_P #s_CY">
+            <ab>УПОКОЙ, БОЖЕ, УСОПЬУЙУ РАБУ ТВОЙУ ВѢРУ</ab>
+            <ab/>
+            <ab>ВѢРА АЛЕКСАНДРОВНА</ab>
+            <ab>СОМОВА</ab>
+            <ab>РОЖДЕННАЯ РОДИОНОВА</ab>
+            <ab>РОД. 29 СЕНТ. 1862 Г.</ab>
+            <ab>СКОНЯАЛАС' 20 ФЕВР. 1920 Г.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

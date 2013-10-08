@@ -1,104 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1863.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1863.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1863</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1863">
-          <msIdentifier>
-            <idno>S1863</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">618</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>84</height>
-                    <depth>2</depth>
-                    <width>58</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>On the S face of the head stone is the figure of a woman, very elegantly executed. She is standing in wating and has a dove in each hand.</summary>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_39 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_C #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Helene</forename>
-              <surname>Zelezny</surname>
-            </persName>
-            <death when="1974"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John</forename>
-              <surname>Zelezny</surname>
-            </persName>
-            <death when="1957"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1863</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1863">
+               <msIdentifier>
+                  <idno>S1863</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">618</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>84</height>
+                              <depth>2</depth>
+                              <width>58</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>On the S face of the head stone is the figure of a woman, very elegantly executed. She is standing in wating and has a dove in each hand.</summary>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_39 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_C #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Helene</forename>
+                     <surname>Zelezny</surname>
+                  </persName>
+                  <death when="1974"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Zelezny</surname>
+                  </persName>
+                  <death when="1957"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>JOHN ZELEZNY</ab>
-        <ab>OBSTL. IN DER ÓSTER. ARMEE BIS NOV. 1918</ab>
-        <ab>GEFÜHL VOLLER GEIGER UND GATTE</ab>
-        <ab>25. SEPT. 1874 - 7 JULI 1957</ab>
-        <ab/>
-        <ab>BIDHAUERIN</ab>
-        <ab>HELENE ZELEZNY</ab>
-        <ab>GEB. SCHOLZ</ab>
-        <ab>50. JAURE GLÜCKLICH IN ROM GELEBT</ab>
-        <ab>16. AUG. 1882 - 18. FEB. 1974</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_S">
-        <ab>KEIN WESEN KANN ZU NICHTS ZERFALLEN</ab>
-        <ab>DAS EWIGE REGT SICH FORT IN ALLEM</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1863"
+               ulx="2432.353395"
+               uly="569.714244"
+               lrx="2440.315743"
+               lry="580.193165"
+               points="2432.353395,570.318672 2439.47803,569.714244 2440.315743,579.588738 2433.191109,580.193165 ">
+            <graphic url="film:I/11"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>JOHN ZELEZNY</ab>
+            <ab>OBSTL. IN DER ÓSTER. ARMEE BIS NOV. 1918</ab>
+            <ab>GEFÜHL VOLLER GEIGER UND GATTE</ab>
+            <ab>25. SEPT. 1874 - 7 JULI 1957</ab>
+            <ab/>
+            <ab>BIDHAUERIN</ab>
+            <ab>HELENE ZELEZNY</ab>
+            <ab>GEB. SCHOLZ</ab>
+            <ab>50. JAURE GLÜCKLICH IN ROM GELEBT</ab>
+            <ab>16. AUG. 1882 - 18. FEB. 1974</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_S">
+            <ab>KEIN WESEN KANN ZU NICHTS ZERFALLEN</ab>
+            <ab>DAS EWIGE REGT SICH FORT IN ALLEM</ab>
+         </div>
+      </body>
   </text>
 </TEI>

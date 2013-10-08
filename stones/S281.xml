@@ -1,123 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S281.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S281.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 281</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S281">
-          <msIdentifier>
-            <idno>S281</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">417</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>140</height>
-                    <depth>23</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>the statement in the inscription is no longer true</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_127 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>37</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Ann</forename>
-              <surname>Batchelar</surname>
-            </persName>
-            <birth when="1807"/>
-            <death when="1844-04-11">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <age>61</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Anne Bythia</forename>
-              <surname>Nicolls</surname>
-            </persName>
-            <birth when="1783"/>
-            <death when="1844-04-02">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 281</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S281">
+               <msIdentifier>
+                  <idno>S281</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">417</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>140</height>
+                              <depth>23</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>the statement in the inscription is no longer true</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_127 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>37</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ann</forename>
+                     <surname>Batchelar</surname>
+                  </persName>
+                  <birth when="1807"/>
+                  <death when="1844-04-11">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <age>61</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anne Bythia</forename>
+                     <surname>Nicolls</surname>
+                  </persName>
+                  <birth when="1783"/>
+                  <death when="1844-04-02">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF ANNE BYTHIA</ab>
-        <ab>THE WIFE OF</ab>
-        <ab>LT. GENERAL SIR JASPER NICOLLS K.C.B.</ab>
-        <ab>WHO DIED AT ROME</ab>
-        <ab>ON THE 2.D APRIL 1844</ab>
-        <ab>AGED 61 YEARS</ab>
-        <ab>AS MISTRESS, FRIEND, SISTER,</ab>
-        <ab>DAUGHTER, MOTHER, AND WIFE,</ab>
-        <ab>HER CONDUCT THROUGH LIFE</ab>
-        <ab>WAS MOST EXEMPLARY</ab>
-        <ab>AND SHE NEVER CAUSED PAIN</ab>
-        <ab>BUT BY HER DEATH.</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_N #c_3 #m_I #t_S">
-        <ab>IN THE ADJOINING GRAVE</ab>
-        <ab>ON THE RIGHT OF HER MISTRESS</ab>
-        <ab>LIE THE REMAINS OF</ab>
-        <ab>ANN BATCHELAR (SPINSTER)</ab>
-        <ab>FOR 12 YEARS HER FAITHFUL</ab>
-        <ab>AND ATTACHED SERVANT</ab>
-        <ab>WHO DIED AT ROME</ab>
-        <ab>11TH APRIL 1844 AGED 37 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S281"
+               ulx="1195.785713"
+               uly="438.32773899999995"
+               lrx="1203.243725"
+               lry="442.653181"
+               points="1203.243725,439.228844 1196.257887,438.32773899999995 1195.785713,441.751316 1202.771622,442.653181 ">
+            <graphic url="film:AC/24"/>
+            <graphic url="film:J/13"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF ANNE BYTHIA</ab>
+            <ab>THE WIFE OF</ab>
+            <ab>LT. GENERAL SIR JASPER NICOLLS K.C.B.</ab>
+            <ab>WHO DIED AT ROME</ab>
+            <ab>ON THE 2.D APRIL 1844</ab>
+            <ab>AGED 61 YEARS</ab>
+            <ab>AS MISTRESS, FRIEND, SISTER,</ab>
+            <ab>DAUGHTER, MOTHER, AND WIFE,</ab>
+            <ab>HER CONDUCT THROUGH LIFE</ab>
+            <ab>WAS MOST EXEMPLARY</ab>
+            <ab>AND SHE NEVER CAUSED PAIN</ab>
+            <ab>BUT BY HER DEATH.</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_N #c_3 #m_I #t_S">
+            <ab>IN THE ADJOINING GRAVE</ab>
+            <ab>ON THE RIGHT OF HER MISTRESS</ab>
+            <ab>LIE THE REMAINS OF</ab>
+            <ab>ANN BATCHELAR (SPINSTER)</ab>
+            <ab>FOR 12 YEARS HER FAITHFUL</ab>
+            <ab>AND ATTACHED SERVANT</ab>
+            <ab>WHO DIED AT ROME</ab>
+            <ab>11TH APRIL 1844 AGED 37 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

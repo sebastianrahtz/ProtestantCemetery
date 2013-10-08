@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S378.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S378.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 378</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S378">
-          <msIdentifier>
-            <idno>S378</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>140</height>
-                    <depth>40</depth>
-                    <width>56</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_123 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>26</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Doreen</forename>
-              <surname>Costa</surname>
-            </persName>
-            <birth when="1931-10-01">
-              <placeName>
-                <settlement>Birmingham</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1958-02-03">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 378</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S378">
+               <msIdentifier>
+                  <idno>S378</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>140</height>
+                              <depth>40</depth>
+                              <width>56</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_123 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>26</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Doreen</forename>
+                     <surname>Costa</surname>
+                  </persName>
+                  <birth when="1931-10-01">
+                     <placeName>
+                        <settlement>Birmingham</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1958-02-03">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>DOREEN NEW COSTA</ab>
-        <ab>BIRMINGHAM 1.X.1931 - ROME 3.II.1958</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_PC">
-        <ab>LOVE FOR EVER</ab>
-        <ab>+</ab>
-        <ab>DAD MUM SERGIO</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S378"
+               ulx="1288.736734"
+               uly="527.980193"
+               lrx="1292.555643"
+               lry="538.422468"
+               points="1293.809819,521.18531 1289.229724,521.074969 1289.131054,524.52759 1293.711131,524.63774 1292.555643,528.065004 1289.032573,527.980193 1288.736734,538.337847 1292.259787,538.422468 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>DOREEN NEW COSTA</ab>
+            <ab>BIRMINGHAM 1.X.1931 - ROME 3.II.1958</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_PC">
+            <ab>LOVE FOR EVER</ab>
+            <ab>+</ab>
+            <ab>DAD MUM SERGIO</ab>
+         </div>
+      </body>
   </text>
 </TEI>

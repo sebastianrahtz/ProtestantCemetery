@@ -1,94 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2566.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2566.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2566</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2566">
-          <msIdentifier>
-            <idno>S2566</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">945</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>92</height>
-                    <width>48</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>C.N.</forename>
-              <surname>Miliutin</surname>
-            </persName>
-            <death when="1929"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>E.N.</forename>
-              <surname>Miljutina</surname>
-            </persName>
-            <death when="1941"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2566</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2566">
+               <msIdentifier>
+                  <idno>S2566</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">945</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>92</height>
+                              <width>48</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>C.N.</forename>
+                     <surname>Miliutin</surname>
+                  </persName>
+                  <death when="1929"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>E.N.</forename>
+                     <surname>Miljutina</surname>
+                  </persName>
+                  <death when="1941"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_I #t_P #s_CY">
-        <ab>МИЛИУТИН</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_I #t_P #s_CY">
-        <ab>Ц.Н.МИЛЙУТИНА</ab>
-        <ab>1867–1929</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_I #t_S #s_CY">
-        <ab>Е.Н.МИЛЙУТИНА</ab>
-        <ab>1869</ab>
-        <ab>1941</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2566"
+               ulx="3023.267413"
+               uly="525.854676"
+               lrx="3027.304087"
+               lry="528.191075"
+               points="3023.273939,525.854676 3027.304087,525.865989 3027.29756,528.191075 3023.267413,528.179761 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_I #t_P #s_CY">
+            <ab>МИЛИУТИН</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_I #t_P #s_CY">
+            <ab>Ц.Н.МИЛЙУТИНА</ab>
+            <ab>1867–1929</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_I #t_S #s_CY">
+            <ab>Е.Н.МИЛЙУТИНА</ab>
+            <ab>1869</ab>
+            <ab>1941</ab>
+         </div>
+      </body>
   </text>
 </TEI>

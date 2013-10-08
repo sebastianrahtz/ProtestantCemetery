@@ -1,86 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2541.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2541.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2541</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2541">
-          <msIdentifier>
-            <idno>S2541</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">904</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>150</height>
-                    <dim type="diameter">20</dim>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_16 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_39 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>*</num>
-                <ptr target="#i_133 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Kanagaratnam</forename>
-              <surname>Williams</surname>
-            </persName>
-            <death when="1960"/>
-            <nationality key="LK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2541</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2541">
+               <msIdentifier>
+                  <idno>S2541</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">904</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>150</height>
+                              <dim type="diameter">20</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_16 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_39 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>*</num>
+                        <ptr target="#i_133 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Kanagaratnam</forename>
+                     <surname>Williams</surname>
+                  </persName>
+                  <death when="1960"/>
+                  <nationality key="LK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>SACRED TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>KANAGARATNAM WILLIAMS</ab>
-        <ab>CEYLON AND LATE OF FAO, ROME</ab>
-        <ab>*29.12.1911 +6.1.1960</ab>
-        <ab>WITH ALL MY LOVE</ab>
-        <ab rend="Alignr">GLADYS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2541"
+               ulx="2918.37995"
+               uly="467.669092"
+               lrx="2926.110723"
+               lry="472.865308"
+               points="2918.430791,467.669092 2926.110723,467.745353 2926.059883,472.865308 2918.37995,472.789046 ">
+            <graphic url="film:AE/10"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>SACRED TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>KANAGARATNAM WILLIAMS</ab>
+            <ab>CEYLON AND LATE OF FAO, ROME</ab>
+            <ab>*29.12.1911 +6.1.1960</ab>
+            <ab>WITH ALL MY LOVE</ab>
+            <ab rend="Alignr">GLADYS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

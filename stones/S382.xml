@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S382.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S382.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 382</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S382">
-          <msIdentifier>
-            <idno>S382</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>147</height>
-                    <depth>170</depth>
-                    <width>78</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_121 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>51</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Alexander G.A.</forename>
-              <surname>von Gueldenstubbe</surname>
-            </persName>
-            <birth when="1786-12-20">
-              <placeName>
-                <settlement>Koickuell</settlement>
-                <country>Germany</country>
-              </placeName>
-            </birth>
-            <death when="1838-08-17">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="DE"/>
-            <occupation>politician</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 382</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S382">
+               <msIdentifier>
+                  <idno>S382</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>147</height>
+                              <depth>170</depth>
+                              <width>78</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_121 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>51</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Alexander G.A.</forename>
+                     <surname>von Gueldenstubbe</surname>
+                  </persName>
+                  <birth when="1786-12-20">
+                     <placeName>
+                        <settlement>Koickuell</settlement>
+                        <country>Germany</country>
+                     </placeName>
+                  </birth>
+                  <death when="1838-08-17">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="DE"/>
+                  <occupation>politician</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
-        <ab>ALEXANDER GEORG ANTON</ab>
-        <ab>VON</ab>
-        <ab>GUELDENSTUBBE</ab>
-        <ab>LANDRATH UND CONSISTORIAL PRAESIDENT</ab>
-        <ab>DER PROVINZ OESELL</ab>
-        <ab>GEBOREN IN KOICKUELL AUF DER INSEL OESELL</ab>
-        <ab>AM XX DECEMBER MDCCLXXXVI</ab>
-        <ab>GESTORBEN ZU ROM AM XVII AUGUST</ab>
-        <ab>MDCCCXXXVIII</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S382"
+               ulx="1241.415745"
+               uly="550.675626"
+               lrx="1251.35937"
+               lry="553.675016"
+               points="1251.35937,550.912889 1241.494602,550.675626 1241.415745,553.437754 1251.280513,553.675016 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+            <ab>ALEXANDER GEORG ANTON</ab>
+            <ab>VON</ab>
+            <ab>GUELDENSTUBBE</ab>
+            <ab>LANDRATH UND CONSISTORIAL PRAESIDENT</ab>
+            <ab>DER PROVINZ OESELL</ab>
+            <ab>GEBOREN IN KOICKUELL AUF DER INSEL OESELL</ab>
+            <ab>AM XX DECEMBER MDCCLXXXVI</ab>
+            <ab>GESTORBEN ZU ROM AM XVII AUGUST</ab>
+            <ab>MDCCCXXXVIII</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,95 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S277.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S277.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 277</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S277">
-          <msIdentifier>
-            <idno>S277</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">659</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>125</height>
-                    <depth>19</depth>
-                    <width>72</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_121 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>18</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Harvey A.F.</forename>
-              <surname>Montgomery</surname>
-            </persName>
-            <birth when="1836">
-              <placeName>
-                <settlement>Antrim</settlement>
-                <country>Ireland</country>
-              </placeName>
-            </birth>
-            <death when="1844-01-09">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="IE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 277</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S277">
+               <msIdentifier>
+                  <idno>S277</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">659</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>125</height>
+                              <depth>19</depth>
+                              <width>72</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_121 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>18</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Harvey A.F.</forename>
+                     <surname>Montgomery</surname>
+                  </persName>
+                  <birth when="1836">
+                     <placeName>
+                        <settlement>Antrim</settlement>
+                        <country>Ireland</country>
+                     </placeName>
+                  </birth>
+                  <death when="1844-01-09">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="IE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>HARVEY A.F.MONTGOMERY</ab>
-        <ab>THE BELOVED SON OF</ab>
-        <ab>JOHN AND JANE MONTGOMERY</ab>
-        <ab>OF BENVARDEN</ab>
-        <ab>COVNTY OF ANTRIM.IRELAND</ab>
-        <ab>WHO DIED AT ROME</ab>
-        <ab>JANVARY THE 9TH 1854</ab>
-        <ab>AGED 18.</ab>
-        <ab>HE SLEEPS WITH JESVS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S277"
+               ulx="1246.554515"
+               uly="441.305799"
+               lrx="1255.894704"
+               lry="459.932683"
+               points="1255.894704,441.50076 1254.667475,459.78240700000003 1246.554515,459.932683 1247.791557,441.305799 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>HARVEY A.F.MONTGOMERY</ab>
+            <ab>THE BELOVED SON OF</ab>
+            <ab>JOHN AND JANE MONTGOMERY</ab>
+            <ab>OF BENVARDEN</ab>
+            <ab>COVNTY OF ANTRIM.IRELAND</ab>
+            <ab>WHO DIED AT ROME</ab>
+            <ab>JANVARY THE 9TH 1854</ab>
+            <ab>AGED 18.</ab>
+            <ab>HE SLEEPS WITH JESVS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

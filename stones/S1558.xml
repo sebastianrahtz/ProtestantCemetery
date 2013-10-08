@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1558.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1558.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1558</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1558">
-          <msIdentifier>
-            <idno>S1558</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">307</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>85</height>
-                    <depth>10</depth>
-                    <width>49</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Richard</forename>
-              <surname>Rothwell</surname>
-            </persName>
-            <death when="1868"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Richard Rothwell</forename>
-              <surname>Bolton</surname>
-            </persName>
-            <death when="1985"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1558</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1558">
+               <msIdentifier>
+                  <idno>S1558</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">307</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>85</height>
+                              <depth>10</depth>
+                              <width>49</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Richard</forename>
+                     <surname>Rothwell</surname>
+                  </persName>
+                  <death when="1868"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Richard Rothwell</forename>
+                     <surname>Bolton</surname>
+                  </persName>
+                  <death when="1985"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>IN MEMORY</ab>
-        <ab>OF</ab>
-        <ab>RICHARD ROTHWELL</ab>
-        <ab>PAINTER</ab>
-        <ab>DIED SEPTEMBER 8TH 1868</ab>
-        <ab>AGED 68</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_S">
-        <ab>RICHARD ROTHWELL</ab>
-        <ab>BOLTON</ab>
-        <ab>LONDON JUNE 26TH 1939</ab>
-        <ab>ROME MARCH 22ND 1985</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1558"
+               ulx="2408.256834"
+               uly="283.09013000000004"
+               lrx="2415.624885"
+               lry="286.276213"
+               points="2408.256834,283.58242099999995 2415.440276,283.09013000000004 2415.624885,285.78392099999996 2408.441443,286.276213 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>IN MEMORY</ab>
+            <ab>OF</ab>
+            <ab>RICHARD ROTHWELL</ab>
+            <ab>PAINTER</ab>
+            <ab>DIED SEPTEMBER 8TH 1868</ab>
+            <ab>AGED 68</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_S">
+            <ab>RICHARD ROTHWELL</ab>
+            <ab>BOLTON</ab>
+            <ab>LONDON JUNE 26TH 1939</ab>
+            <ab>ROME MARCH 22ND 1985</ab>
+         </div>
+      </body>
   </text>
 </TEI>

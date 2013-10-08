@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2029.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2029.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2029</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2029">
-          <msIdentifier>
-            <idno>S2029</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1979</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>165</height>
-                    <depth>70</depth>
-                    <width>82</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Wreath of vines and laurel.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ellen Maria</forename>
-              <surname>Keddell</surname>
-            </persName>
-            <death when="1907"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2029</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2029">
+               <msIdentifier>
+                  <idno>S2029</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1979</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>165</height>
+                              <depth>70</depth>
+                              <width>82</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Wreath of vines and laurel.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ellen Maria</forename>
+                     <surname>Keddell</surname>
+                  </persName>
+                  <death when="1907"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>IN MEMORY OF</ab>
-        <ab>THE</ab>
-        <ab>BLESSED DEAD</ab>
-        <ab/>
-        <ab>ELLEN MARIA KEDDELL</ab>
-        <ab>BORN AT KEYNSHAM NEAR BATH MARCH 13 1836</ab>
-        <ab>DIED AT ROME APRIL 30 1907</ab>
-        <ab/>
-        <ab>"WHO SHALL SEPERATE US FROM THE LOVE OF CHRIST?</ab>
-        <ab>WHO DIED FOR US, THAT, WHETHER WE WAKE OR SLEEP,</ab>
-        <ab>WE SHOULD LOVE TOGETHER WITH HIM".</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2029"
+               ulx="2653.561969"
+               uly="209.09516800000006"
+               lrx="2661.876496"
+               lry="215.60508500000003"
+               points="2653.561969,209.16505500000005 2661.822007,209.09516800000006 2661.876496,215.53519800000004 2653.616458,215.60508500000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>IN MEMORY OF</ab>
+            <ab>THE</ab>
+            <ab>BLESSED DEAD</ab>
+            <ab/>
+            <ab>ELLEN MARIA KEDDELL</ab>
+            <ab>BORN AT KEYNSHAM NEAR BATH MARCH 13 1836</ab>
+            <ab>DIED AT ROME APRIL 30 1907</ab>
+            <ab/>
+            <ab>"WHO SHALL SEPERATE US FROM THE LOVE OF CHRIST?</ab>
+            <ab>WHO DIED FOR US, THAT, WHETHER WE WAKE OR SLEEP,</ab>
+            <ab>WE SHOULD LOVE TOGETHER WITH HIM".</ab>
+         </div>
+      </body>
   </text>
 </TEI>

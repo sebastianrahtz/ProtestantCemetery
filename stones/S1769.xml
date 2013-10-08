@@ -1,87 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1769.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1769.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1769</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1769">
-          <msIdentifier>
-            <idno>S1769</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>315</height>
-                    <depth>62</depth>
-                    <width>81</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Alexandra Nikolaevna</forename>
-              <surname>Ilina</surname>
-            </persName>
-            <death when="1879"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1769</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1769">
+               <msIdentifier>
+                  <idno>S1769</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>315</height>
+                              <depth>62</depth>
+                              <width>81</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Alexandra Nikolaevna</forename>
+                     <surname>Ilina</surname>
+                  </persName>
+                  <death when="1879"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IF #t_P #s_CY">
-        <ab>АЛЕКСАНДРА НИКОЛАЕВНА</ab>
-        <ab>ИЛ'ИНА</ab>
-        <ab>ройленнайа ОГАРЕКА</ab>
-        <ab>РОДИЛАС' 16 МАРТА 1819 ГОДА.</ab>
-        <ab>СКОНЯАЛАС' 16 НОЯБРЯ 1879.</ab>
-        <ab/>
-        <ab rend="Alignl">
-          <note xml:lang="en"> roйlennaja SIC</note>
-        </ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IF #t_PC">
-        <ab rend="Alignl">
-          <note xml:lang="en"> OCS ?</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1769"
+               ulx="2280.599288"
+               uly="493.968928"
+               lrx="2290.678183"
+               lry="500.473566"
+               points="2280.599288,494.72071200000005 2290.229065,493.968928 2290.678183,499.72178199999996 2281.048406,500.473566 ">
+            <graphic url="film:F/24"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IF #t_P #s_CY">
+            <ab>АЛЕКСАНДРА НИКОЛАЕВНА</ab>
+            <ab>ИЛ'ИНА</ab>
+            <ab>ройленнайа ОГАРЕКА</ab>
+            <ab>РОДИЛАС' 16 МАРТА 1819 ГОДА.</ab>
+            <ab>СКОНЯАЛАС' 16 НОЯБРЯ 1879.</ab>
+            <ab/>
+            <ab rend="Alignl">
+               <note xml:lang="en"> roйlennaja SIC</note>
+            </ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IF #t_PC">
+            <ab rend="Alignl">
+               <note xml:lang="en"> OCS ?</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

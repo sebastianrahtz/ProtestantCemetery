@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S942.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S942.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 942</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S942">
-          <msIdentifier>
-            <idno>S942</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">417</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>140</height>
-                    <depth>5</depth>
-                    <width>72</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>George</forename>
-              <surname>Sargent</surname>
-            </persName>
-            <death when="1849"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 942</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S942">
+               <msIdentifier>
+                  <idno>S942</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">417</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>140</height>
+                              <depth>5</depth>
+                              <width>72</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>George</forename>
+                     <surname>Sargent</surname>
+                  </persName>
+                  <death when="1849"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>GEORGE SARGENT</ab>
-        <ab>YOUNGEST SON OF WILLIAM</ab>
-        <ab>SARGENT ESQER OF PUTNEY</ab>
-        <ab>HEATH IN THE COUNTY</ab>
-        <ab>OF SURREY WHO WAS BORN</ab>
-        <ab>IN THE MONTH OF SEPTEMBER</ab>
-        <ab>MDCCCXXXIII</ab>
-        <ab>AND DIED AT ROME</ab>
-        <ab>ON THE XXV OF MARCH</ab>
-        <ab>MDCCCXLIX</ab>
-        <ab>AGED XV YEARS AND</ab>
-        <ab>VI MONTHS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S942"
+               ulx="1488.20239"
+               uly="445.22507199999995"
+               lrx="1496.778491"
+               lry="461.59043899999995"
+               points="1488.623763,445.22507199999995 1496.778491,445.437804 1496.357118,461.59043899999995 1488.20239,461.377706 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>GEORGE SARGENT</ab>
+            <ab>YOUNGEST SON OF WILLIAM</ab>
+            <ab>SARGENT ESQER OF PUTNEY</ab>
+            <ab>HEATH IN THE COUNTY</ab>
+            <ab>OF SURREY WHO WAS BORN</ab>
+            <ab>IN THE MONTH OF SEPTEMBER</ab>
+            <ab>MDCCCXXXIII</ab>
+            <ab>AND DIED AT ROME</ab>
+            <ab>ON THE XXV OF MARCH</ab>
+            <ab>MDCCCXLIX</ab>
+            <ab>AGED XV YEARS AND</ab>
+            <ab>VI MONTHS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

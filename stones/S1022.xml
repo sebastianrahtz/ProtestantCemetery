@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1022.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1022.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1022</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1022">
-          <msIdentifier>
-            <idno>S1022</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COPE">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>195</height>
-                    <depth>90</depth>
-                    <width>63</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Charles Thomas</forename>
-              <surname>Arnold</surname>
-            </persName>
-            <death when="1877"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1022</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1022">
+               <msIdentifier>
+                  <idno>S1022</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COPE">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>195</height>
+                              <depth>90</depth>
+                              <width>63</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Charles Thomas</forename>
+                     <surname>Arnold</surname>
+                  </persName>
+                  <death when="1877"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_I #t_P">
-        <ab>HIC JACET</ab>
-        <ab>CAROLVS THOMAS ARNOLD</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_W #c_2 #m_I #t_P">
-        <ab>DECESSIT.XIII.MAII.ANNO.SALVTIS.NOSTRAE.MDCCCLXXVIII</ab>
-        <ab>AETATIS.SVAE.LXI</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_E #c_2 #m_I #t_P">
-        <ab>PRESBYTER.ANGLICANVS.GENEROSVS.EX.ILLA.STIRPE.SVFFOLCIENSI.ORIVNDVS</ab>
-        <ab>MITIS.SAGAX.VERAX.DOCTVS.MVLTVM.EHEV.DESIDERATVS.QVID.PLVRA</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_N #c_2 #m_I #t_P">
-        <ab>O.BONE.DEVS</ab>
-        <ab>MISERERE.EJVS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1022"
+               ulx="2080.888725"
+               uly="511.917188"
+               lrx="2087.015327"
+               lry="532.827549"
+               points="2080.888725,511.917188 2087.015327,511.917188 2087.015327,532.827549 2080.888725,532.827549 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_I #t_P">
+            <ab>HIC JACET</ab>
+            <ab>CAROLVS THOMAS ARNOLD</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_W #c_2 #m_I #t_P">
+            <ab>DECESSIT.XIII.MAII.ANNO.SALVTIS.NOSTRAE.MDCCCLXXVIII</ab>
+            <ab>AETATIS.SVAE.LXI</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_E #c_2 #m_I #t_P">
+            <ab>PRESBYTER.ANGLICANVS.GENEROSVS.EX.ILLA.STIRPE.SVFFOLCIENSI.ORIVNDVS</ab>
+            <ab>MITIS.SAGAX.VERAX.DOCTVS.MVLTVM.EHEV.DESIDERATVS.QVID.PLVRA</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_N #c_2 #m_I #t_P">
+            <ab>O.BONE.DEVS</ab>
+            <ab>MISERERE.EJVS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

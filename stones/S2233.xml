@@ -1,100 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2233.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2233.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2233</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2233">
-          <msIdentifier>
-            <idno>S2233</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>158</height>
-                    <dim type="diameter">42</dim>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_53 #st_A #f_E"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_53 #st_A #f_W"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_129 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_129 #st_A #f_N"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Mary Jane</forename>
-              <surname>Mawdsley</surname>
-            </persName>
-            <death when="1921"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2233</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2233">
+               <msIdentifier>
+                  <idno>S2233</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>158</height>
+                              <dim type="diameter">42</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_53 #st_A #f_E"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_53 #st_A #f_W"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_129 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_129 #st_A #f_N"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Mary Jane</forename>
+                     <surname>Mawdsley</surname>
+                  </persName>
+                  <death when="1921"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_5 #m_I #t_P">
-        <ab>[...]ANE</ab>
-        <ab>M[...]LEY</ab>
-        <ab>B[...] AD</ab>
-        <ab>AVG[...]CCXXXVI</ab>
-        <ab>RO[...]E</ab>
-        <ab>DEC 12[...]CMXXI</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_W #c_4 #m_IM #t_S">
-        <ab>MARY JANE MAWDSLEY</ab>
-        <ab>BIRKENHEAD - AUG.30.MDCCCXXXVI</ab>
-        <ab>ROME - JAN.12.MCMXXI</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_4 #m_IM #t_S">
-        <ab>"WHOSOEVER LIVETH AND BELIEVETH</ab>
-        <ab>IN ME SHALL NEVER DIE"</ab>
-        <ab rend="Alignr">JOHN XI.26</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2233"
+               ulx="2628.818291"
+               uly="559.388225"
+               lrx="2632.96054"
+               lry="563.564777"
+               points="2628.818291,561.423559 2629.045708,560.405052 2629.834708,559.668903 2630.730455,559.388225 2631.906993,559.650415 2632.591567,560.300848 2632.96054,561.248766 2632.818984,562.442066 2632.134411,563.21351 2631.238664,563.564777 2630.326673,563.529482 2629.553917,563.14292 2628.938961,562.371477 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_5 #m_I #t_P">
+            <ab>[...]ANE</ab>
+            <ab>M[...]LEY</ab>
+            <ab>B[...] AD</ab>
+            <ab>AVG[...]CCXXXVI</ab>
+            <ab>RO[...]E</ab>
+            <ab>DEC 12[...]CMXXI</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_W #c_4 #m_IM #t_S">
+            <ab>MARY JANE MAWDSLEY</ab>
+            <ab>BIRKENHEAD - AUG.30.MDCCCXXXVI</ab>
+            <ab>ROME - JAN.12.MCMXXI</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_4 #m_IM #t_S">
+            <ab>"WHOSOEVER LIVETH AND BELIEVETH</ab>
+            <ab>IN ME SHALL NEVER DIE"</ab>
+            <ab rend="Alignr">JOHN XI.26</ab>
+         </div>
+      </body>
   </text>
 </TEI>

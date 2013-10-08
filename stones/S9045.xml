@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9045.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9045.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9045</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9045">
-          <msIdentifier>
-            <idno>S9045</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-              <note>south of 2452</note>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>154</height>
-                    <dim type="diameter">27</dim>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>1.8</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Jamie</forename>
-              <surname>Wollard</surname>
-            </persName>
-            <death when="1945"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9045</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9045">
+               <msIdentifier>
+                  <idno>S9045</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                     <note>south of 2452</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>154</height>
+                              <dim type="diameter">27</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>1.8</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Jamie</forename>
+                     <surname>Wollard</surname>
+                  </persName>
+                  <death when="1945"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>Here lies</ab>
-        <ab>
-          <emph>JAMIE</emph>
-        </ab>
-        <ab>
-          <emph>beloved son of</emph>
-        </ab>
-        <ab>
-          <emph>James and Mary Wollard</emph>
-        </ab>
-        <ab>
-          <emph>Died at 18 months</emph>
-        </ab>
-        <ab>
-          <emph>11 April 1948</emph>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9045"
+               ulx="3022.052086"
+               uly="300.38560900000004"
+               lrx="3026.211631"
+               lry="304.525931"
+               points="3022.651389,303.98881900000003 3022.052086,302.80756900000006 3022.34216,301.42217600000004 3023.045451,300.63533700000005 3024.142805,300.38560900000004 3025.240158,300.61353499999996 3025.984498,301.483617 3026.211631,302.66288499999996 3025.902401,303.657831 3025.196374,304.23656400000004 3024.306997,304.525931 3023.52161,304.46448999999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>Here lies</ab>
+            <ab>
+               <emph>JAMIE</emph>
+            </ab>
+            <ab>
+               <emph>beloved son of</emph>
+            </ab>
+            <ab>
+               <emph>James and Mary Wollard</emph>
+            </ab>
+            <ab>
+               <emph>Died at 18 months</emph>
+            </ab>
+            <ab>
+               <emph>11 April 1948</emph>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

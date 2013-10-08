@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S801.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S801.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 801</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S801">
-          <msIdentifier>
-            <idno>S801</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>196</height>
-                    <width>112</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John</forename>
-              <surname>Bill</surname>
-            </persName>
-            <death when="1870"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 801</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S801">
+               <msIdentifier>
+                  <idno>S801</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>196</height>
+                              <width>112</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Bill</surname>
+                  </persName>
+                  <death when="1870"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>TO THE DEAR MEMORY OF</ab>
-        <ab/>
-        <ab>JOHN BILL</ab>
-        <ab/>
-        <ab>OF COVENTRY ENGLAND</ab>
-        <ab>THIS TABLET IS CONSECRATED</ab>
-        <ab/>
-        <ab>HE DIED IN ROME MAY 13 1870 AGED 71</ab>
-        <ab>BUT HIS REMAINS NOW REST IN HIS</ab>
-        <ab>NATIVE LAND AT COVENTRY</ab>
-        <ab/>
-        <ab>WHEN THE EAR HEARD HIM THEN</ab>
-        <ab>IT BLESSED HIM AND WHEN THE EYE</ab>
-        <ab>SAW HIM IT GAVE WITNESS TO HIM</ab>
-        <ab>BECAUSE HE DELIVERED THE POOR</ab>
-        <ab>THAT CRIED AND THE FATHERLESS</ab>
-        <ab>AND HIM THAT HAD NONE TO HELP HIM.</ab>
-        <ab rend="Alignr">JOB 22 CHAP</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S801"
+               ulx="1675.470917"
+               uly="390.161933"
+               lrx="1687.687713"
+               lry="412.277008"
+               points="1676.403187,390.161933 1687.687713,390.648335 1686.755442,412.277008 1675.470917,411.790606 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>TO THE DEAR MEMORY OF</ab>
+            <ab/>
+            <ab>JOHN BILL</ab>
+            <ab/>
+            <ab>OF COVENTRY ENGLAND</ab>
+            <ab>THIS TABLET IS CONSECRATED</ab>
+            <ab/>
+            <ab>HE DIED IN ROME MAY 13 1870 AGED 71</ab>
+            <ab>BUT HIS REMAINS NOW REST IN HIS</ab>
+            <ab>NATIVE LAND AT COVENTRY</ab>
+            <ab/>
+            <ab>WHEN THE EAR HEARD HIM THEN</ab>
+            <ab>IT BLESSED HIM AND WHEN THE EYE</ab>
+            <ab>SAW HIM IT GAVE WITNESS TO HIM</ab>
+            <ab>BECAUSE HE DELIVERED THE POOR</ab>
+            <ab>THAT CRIED AND THE FATHERLESS</ab>
+            <ab>AND HIM THAT HAD NONE TO HELP HIM.</ab>
+            <ab rend="Alignr">JOB 22 CHAP</ab>
+         </div>
+      </body>
   </text>
 </TEI>

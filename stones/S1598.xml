@@ -1,78 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1598.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1598.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1598</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1598">
-          <msIdentifier>
-            <idno>S1598</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>130</height>
-                    <depth>10</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Johann Bernhard</forename>
-              <surname>von Gebhardt</surname>
-            </persName>
-            <death when="1869"/>
-            <nationality key="LT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1598</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1598">
+               <msIdentifier>
+                  <idno>S1598</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>130</height>
+                              <depth>10</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Johann Bernhard</forename>
+                     <surname>von Gebhardt</surname>
+                  </persName>
+                  <death when="1869"/>
+                  <nationality key="LT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_RM #t_P">
-        <ab>HIER RUHT IN GOTT</ab>
-        <ab>JOHANN BERNHARD VON GEBHARDT</ab>
-        <ab>GEB.15.AUG.1833 IN LIVLAND</ab>
-        <ab>GEST. 4 DEC.1869 IN ROM</ab>
-        <ab/>
-        <ab>ICH HABE DICH JE UND JE GELIEBT DARUM HAB</ab>
-        <ab>ICH DICH ZU MIR GEZOGEN AUS LAUTER GÜTE</ab>
-        <ab/>
-        <ab rend="Alignr">JEREM.31.3.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1598"
+               ulx="2211.402479"
+               uly="331.11728800000003"
+               lrx="2221.331204"
+               lry="348.48498200000006"
+               points="2211.402479,331.79603699999996 2220.016128,331.11728800000003 2221.331204,347.806233 2212.717555,348.48498200000006 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_RM #t_P">
+            <ab>HIER RUHT IN GOTT</ab>
+            <ab>JOHANN BERNHARD VON GEBHARDT</ab>
+            <ab>GEB.15.AUG.1833 IN LIVLAND</ab>
+            <ab>GEST. 4 DEC.1869 IN ROM</ab>
+            <ab/>
+            <ab>ICH HABE DICH JE UND JE GELIEBT DARUM HAB</ab>
+            <ab>ICH DICH ZU MIR GEZOGEN AUS LAUTER GÜTE</ab>
+            <ab/>
+            <ab rend="Alignr">JEREM.31.3.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

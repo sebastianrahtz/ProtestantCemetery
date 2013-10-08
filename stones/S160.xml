@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S160.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S160.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 160</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S160">
-          <msIdentifier>
-            <idno>S160</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>138</height>
-                    <depth>19</depth>
-                    <width>67</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>6</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Catherine</forename>
-              <surname>Goodwin</surname>
-            </persName>
-            <death when="1826">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 160</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S160">
+               <msIdentifier>
+                  <idno>S160</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>138</height>
+                              <depth>19</depth>
+                              <width>67</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>6</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Catherine</forename>
+                     <surname>Goodwin</surname>
+                  </persName>
+                  <death when="1826">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE</ab>
-        <ab>MEMORY</ab>
-        <ab>OF</ab>
-        <ab>CATHERINE</ab>
-        <ab>SECOND DAUGHTER OF THE LATE</ab>
-        <ab>LT. COLL. GOODWIN [.........]</ab>
-        <ab/>
-        <ab>SHE DIED AT ROME THE [........] 1826</ab>
-        <ab>AGED SIX YEARS AND [.] MONTHS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S160"
+               ulx="1195.238236"
+               uly="292.52577800000006"
+               lrx="1202.678868"
+               lry="306.50546699999995"
+               points="1202.678868,292.69521 1195.632745,292.52577800000006 1195.238236,306.336053 1202.284548,306.50546699999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE</ab>
+            <ab>MEMORY</ab>
+            <ab>OF</ab>
+            <ab>CATHERINE</ab>
+            <ab>SECOND DAUGHTER OF THE LATE</ab>
+            <ab>LT. COLL. GOODWIN [.........]</ab>
+            <ab/>
+            <ab>SHE DIED AT ROME THE [........] 1826</ab>
+            <ab>AGED SIX YEARS AND [.] MONTHS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

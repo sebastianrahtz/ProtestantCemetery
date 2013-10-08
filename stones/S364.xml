@@ -1,77 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S364.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S364.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 364</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S364">
-          <msIdentifier>
-            <idno>S364</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">932</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>80</height>
-                    <depth>25</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>63</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Domenico</forename>
-              <surname>Galassi</surname>
-            </persName>
-            <birth when="1894-07-13"/>
-            <death when="1958-03-09"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 364</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S364">
+               <msIdentifier>
+                  <idno>S364</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">932</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>80</height>
+                              <depth>25</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>63</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Domenico</forename>
+                     <surname>Galassi</surname>
+                  </persName>
+                  <birth when="1894-07-13"/>
+                  <death when="1958-03-09"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>GALASSI</ab>
-        <ab>SIT TIBI TERRA LEVIS</ab>
-        <ab/>
-        <ab rend="Alignl">DOMENICO</ab>
-        <ab rend="Alignl">CORRADO</ab>
-        <ab rend="Alignl">1894–1958</ab>
-        <ab rend="Alignl">13.7 9.3</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S364"
+               ulx="1079.173377"
+               uly="516.36937"
+               lrx="1088.050184"
+               lry="518.998166"
+               points="1088.050184,516.581276 1079.242232,516.36937 1079.173377,518.786242 1087.981139,518.998166 ">
+            <graphic url="film:B/37"/>
+            <graphic url="film:J/17"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>GALASSI</ab>
+            <ab>SIT TIBI TERRA LEVIS</ab>
+            <ab/>
+            <ab rend="Alignl">DOMENICO</ab>
+            <ab rend="Alignl">CORRADO</ab>
+            <ab rend="Alignl">1894–1958</ab>
+            <ab rend="Alignl">13.7 9.3</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,77 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1711.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1711.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1711</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1711">
-          <msIdentifier>
-            <idno>S1711</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>180</height>
-                    <depth>20</depth>
-                    <width>85</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Emma</forename>
-              <surname>von Uckow</surname>
-            </persName>
-            <death when="1876"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1711</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1711">
+               <msIdentifier>
+                  <idno>S1711</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>180</height>
+                              <depth>20</depth>
+                              <width>85</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Emma</forename>
+                     <surname>von Uckow</surname>
+                  </persName>
+                  <death when="1876"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>GEBOREN ZU PAPPENHEIM IN BAIERN</ab>
-        <ab>GEBORENE</ab>
-        <ab>GESTORBEN ZU ROM</ab>
-        <ab>UND GENANNT</ab>
-        <ab>EMMA VON NIENDORE</ab>
-        <ab/>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_S">
-        <ab>EMMA VON UCKOW</ab>
-        <ab>DEN 12 JULI 1807</ab>
-        <ab>FERIIN VON CALATIN</ab>
-        <ab>DEN 7 APRIL 1876</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1711"
+               ulx="2307.010411"
+               uly="433.819571"
+               lrx="2318.474503"
+               lry="454.10785599999997"
+               points="2307.010411,434.77528500000005 2316.534545,433.819571 2318.474503,453.152142 2308.950369,454.10785599999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>GEBOREN ZU PAPPENHEIM IN BAIERN</ab>
+            <ab>GEBORENE</ab>
+            <ab>GESTORBEN ZU ROM</ab>
+            <ab>UND GENANNT</ab>
+            <ab>EMMA VON NIENDORE</ab>
+            <ab/>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_S">
+            <ab>EMMA VON UCKOW</ab>
+            <ab>DEN 12 JULI 1807</ab>
+            <ab>FERIIN VON CALATIN</ab>
+            <ab>DEN 7 APRIL 1876</ab>
+         </div>
+      </body>
   </text>
 </TEI>

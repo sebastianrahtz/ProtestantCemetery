@@ -1,88 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2533.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2533.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2533</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2533">
-          <msIdentifier>
-            <idno>S2533</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>187</height>
-                    <depth>25</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Mosaic cross and other mosaics on curb of grave. Stars, maltese and orthodox crosses.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Sergěj</forename>
-              <surname>Zachar'in</surname>
-            </persName>
-            <death when="1944"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2533</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2533">
+               <msIdentifier>
+                  <idno>S2533</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>187</height>
+                              <depth>25</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Mosaic cross and other mosaics on curb of grave. Stars, maltese and orthodox crosses.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Sergěj</forename>
+                     <surname>Zachar'in</surname>
+                  </persName>
+                  <death when="1944"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_4 #m_I #t_P #s_CY">
-        <ab>АРТИЛЕРИИ КАПИТАН"</ab>
-        <ab>СЕРГѢЙ АЛЕКСАНДРОВИЯ"</ab>
-        <ab>ЗАЦХАР'ИН"</ab>
-        <ab>1881 - 1944</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_IC #t_P #s_CY">
-        <ab>АРТИЛЛЕРИИ КАПИТАН"</ab>
-        <ab>СЕРГѢЙ АЛЕКСАНДРОВИЯ"</ab>
-        <ab>ЗАЦХАР'ИН</ab>
-        <ab>1881–1944</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2533"
+               ulx="3063.327085"
+               uly="472.199244"
+               lrx="3073.368422"
+               lry="477.254635"
+               points="3063.451345,472.199244 3073.368422,472.45605 3073.244162,477.254635 3063.327085,476.99783 ">
+            <graphic url="film:AE/11"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_4 #m_I #t_P #s_CY">
+            <ab>АРТИЛЕРИИ КАПИТАН"</ab>
+            <ab>СЕРГѢЙ АЛЕКСАНДРОВИЯ"</ab>
+            <ab>ЗАЦХАР'ИН"</ab>
+            <ab>1881 - 1944</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_IC #t_P #s_CY">
+            <ab>АРТИЛЛЕРИИ КАПИТАН"</ab>
+            <ab>СЕРГѢЙ АЛЕКСАНДРОВИЯ"</ab>
+            <ab>ЗАЦХАР'ИН</ab>
+            <ab>1881–1944</ab>
+         </div>
+      </body>
   </text>
 </TEI>

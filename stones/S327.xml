@@ -1,92 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S327.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S327.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 327</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S327">
-          <msIdentifier>
-            <idno>S327</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1687</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>150</height>
-                    <depth>20</depth>
-                    <width>73</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_127 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>52</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Elisabeth</forename>
-              <surname>Birch</surname>
-            </persName>
-            <birth when="1793">
-              <placeName>
-                <settlement>The Hasles Lancashire</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1845-11-28"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 327</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S327">
+               <msIdentifier>
+                  <idno>S327</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1687</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>150</height>
+                              <depth>20</depth>
+                              <width>73</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_127 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>52</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elisabeth</forename>
+                     <surname>Birch</surname>
+                  </persName>
+                  <birth when="1793">
+                     <placeName>
+                        <settlement>The Hasles Lancashire</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1845-11-28"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>ELIZABETH BIRCH</ab>
-        <ab>DAUGHTER OF THE LATE</ab>
-        <ab>SIR JOSEPH BIRCH BART.</ab>
-        <ab>OF THE HASLES LANCASHIRE</ab>
-        <ab>SHE DEPARTED THIS LIFE AT ROME</ab>
-        <ab>NOVEMBER 28.TH 1845</ab>
-        <ab>AGED 52</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S327"
+               ulx="1258.82787"
+               uly="497.19704"
+               lrx="1268.047086"
+               lry="499.48899300000005"
+               points="1268.047086,497.417549 1258.887104,497.19704 1258.82787,499.268692 1267.988025,499.48899300000005 ">
+            <graphic url="film:T/17"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>ELIZABETH BIRCH</ab>
+            <ab>DAUGHTER OF THE LATE</ab>
+            <ab>SIR JOSEPH BIRCH BART.</ab>
+            <ab>OF THE HASLES LANCASHIRE</ab>
+            <ab>SHE DEPARTED THIS LIFE AT ROME</ab>
+            <ab>NOVEMBER 28.TH 1845</ab>
+            <ab>AGED 52</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,102 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2338.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2338.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2338</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2338">
-          <msIdentifier>
-            <idno>S2338</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>210</height>
-                    <depth>200</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Barbara</forename>
-              <surname>Zarina</surname>
-            </persName>
-            <death when="1913"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Barbara</forename>
-              <surname>Colonna di Cesaro</surname>
-            </persName>
-            <death when="1969"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2338</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2338">
+               <msIdentifier>
+                  <idno>S2338</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>210</height>
+                              <depth>200</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Barbara</forename>
+                     <surname>Zarina</surname>
+                  </persName>
+                  <death when="1913"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Barbara</forename>
+                     <surname>Colonna di Cesaro</surname>
+                  </persName>
+                  <death when="1969"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_IC #t_P #s_CY">
-        <ab>ВАРВАРА ГРИГОР'ЕВНА</ab>
-        <ab>ЗАРИНА</ab>
-        <ab/>
-        <ab>РОДИЛАС' 6.90 СЕНТЯБРЯ 1872 года  Ц. ПЕТЕРБУРГѢ</ab>
-        <ab>СКОНЯАЛАС' 21.90 АУГУСТА 1913.90 года  РИМѢ</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_IC #t_S">
-        <ab>DUCHESSA</ab>
-        <ab>BARBARA COLONNA DI CESARO</ab>
-        <ab>NATA ANTONELLI</ab>
-        <ab>* 19.9.1880 + 11.8.1969</ab>
-        <ab/>
-        <ab>FIGLIA DI MADRE RUSSA</ab>
-        <ab>HA SEMPRE CONSIDERATO</ab>
-        <ab>LA RUSSIA COME SUA SECONDA PATRIA</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IC #t_SC #s_CY">
-        <ab>ДОЯ' РУССКОЙ МАТЕРИ</ab>
-        <ab>ОНА ВЦЕГДА СЯИТАЛА</ab>
-        <ab>РОССИЙУ СВОЕЙ ВТОРОЙ РОДИНОЙ</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2338"
+               ulx="2713.898781"
+               uly="697.303407"
+               lrx="2724.092721"
+               lry="717.333085"
+               points="2714.644118,697.303407 2724.092721,697.661404 2723.347384,717.333085 2713.898781,716.975088 ">
+            <graphic url="film:G/10"/>
+            <graphic url="film:G/11"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_IC #t_P #s_CY">
+            <ab>ВАРВАРА ГРИГОР'ЕВНА</ab>
+            <ab>ЗАРИНА</ab>
+            <ab/>
+            <ab>РОДИЛАС' 6.90 СЕНТЯБРЯ 1872 года  Ц. ПЕТЕРБУРГѢ</ab>
+            <ab>СКОНЯАЛАС' 21.90 АУГУСТА 1913.90 года  РИМѢ</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_IC #t_S">
+            <ab>DUCHESSA</ab>
+            <ab>BARBARA COLONNA DI CESARO</ab>
+            <ab>NATA ANTONELLI</ab>
+            <ab>* 19.9.1880 + 11.8.1969</ab>
+            <ab/>
+            <ab>FIGLIA DI MADRE RUSSA</ab>
+            <ab>HA SEMPRE CONSIDERATO</ab>
+            <ab>LA RUSSIA COME SUA SECONDA PATRIA</ab>
+         </div>
+         <div type="inscription"
+              xml:lang="ru"
+              decls="#f_T #c_3 #m_IC #t_SC #s_CY">
+            <ab>ДОЯ' РУССКОЙ МАТЕРИ</ab>
+            <ab>ОНА ВЦЕГДА СЯИТАЛА</ab>
+            <ab>РОССИЙУ СВОЕЙ ВТОРОЙ РОДИНОЙ</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,84 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1767.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1767.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1767</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1767">
-          <msIdentifier>
-            <idno>S1767</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2371</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>174</height>
-                    <depth>48</depth>
-                    <width>58</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John Nodes</forename>
-              <surname>Dickinson</surname>
-            </persName>
-            <death when="1882"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1767</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1767">
+               <msIdentifier>
+                  <idno>S1767</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2371</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>174</height>
+                              <depth>48</depth>
+                              <width>58</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John Nodes</forename>
+                     <surname>Dickinson</surname>
+                  </persName>
+                  <death when="1882"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>JOHN NODES DICKINSON KNT</ab>
-        <ab>BORN AT GRENADA,WEST INDIES DEC. 13TH 1806</ab>
-        <ab>DIED AT ROME MARCH 16TH 1882</ab>
-        <ab>JUDGE OF THE SUPREME COURT OF SYDNEY</ab>
-        <ab>NEW SOUTH WALES</ab>
-        <ab>FROM 1844 TO 1861</ab>
-        <ab/>
-        <ab rend="Alignl">"IF WE CONFESS OUR SINS, HE IS FAITHFUL AND JUST</ab>
-        <ab rend="Alignl">TO FORGIVE US OUR SINS, AND TO CLEANSE US</ab>
-        <ab rend="Alignl">FROM ALL UNRIGHTEOUSNESS"</ab>
-        <ab/>
-        <ab>THE BLOOD OF JESUS CHRIST CLEANSETH FROM ALL SIN</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1767"
+               ulx="2306.734435"
+               uly="491.837448"
+               lrx="2314.888534"
+               lry="498.239876"
+               points="2306.734435,492.357258 2314.494484,491.837448 2314.888534,497.720067 2307.128484,498.239876 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>JOHN NODES DICKINSON KNT</ab>
+            <ab>BORN AT GRENADA,WEST INDIES DEC. 13TH 1806</ab>
+            <ab>DIED AT ROME MARCH 16TH 1882</ab>
+            <ab>JUDGE OF THE SUPREME COURT OF SYDNEY</ab>
+            <ab>NEW SOUTH WALES</ab>
+            <ab>FROM 1844 TO 1861</ab>
+            <ab/>
+            <ab rend="Alignl">"IF WE CONFESS OUR SINS, HE IS FAITHFUL AND JUST</ab>
+            <ab rend="Alignl">TO FORGIVE US OUR SINS, AND TO CLEANSE US</ab>
+            <ab rend="Alignl">FROM ALL UNRIGHTEOUSNESS"</ab>
+            <ab/>
+            <ab>THE BLOOD OF JESUS CHRIST CLEANSETH FROM ALL SIN</ab>
+         </div>
+      </body>
   </text>
 </TEI>

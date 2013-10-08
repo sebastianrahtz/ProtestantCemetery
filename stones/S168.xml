@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S168.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S168.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 168</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S168">
-          <msIdentifier>
-            <idno>S168</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1793</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>153</height>
-                    <depth>6</depth>
-                    <width>76</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>44</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Isabella</forename>
-              <surname>Akenhead</surname>
-            </persName>
-            <death when="1830-10-23">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 168</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S168">
+               <msIdentifier>
+                  <idno>S168</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1793</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>153</height>
+                              <depth>6</depth>
+                              <width>76</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>44</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Isabella</forename>
+                     <surname>Akenhead</surname>
+                  </persName>
+                  <death when="1830-10-23">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
-        <ab>IN MEMORY OF</ab>
-        <ab>ISABELLA WIFE OF</ab>
-        <ab>D.AKENHEAD ESQ.RE</ab>
-        <ab>OF NEWCASTLE UPON TYNE</ab>
-        <ab>WHO DIED IN ROME</ab>
-        <ab>OCTR 23D 1830</ab>
-        <ab>AGED 44 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S168"
+               ulx="1306.20507"
+               uly="296.25645399999996"
+               lrx="1314.638654"
+               lry="309.045844"
+               points="1314.638654,297.03572099999997 1307.638091,296.25645399999996 1306.20507,308.26721799999996 1313.206341,309.045844 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
+            <ab>IN MEMORY OF</ab>
+            <ab>ISABELLA WIFE OF</ab>
+            <ab>D.AKENHEAD ESQ.RE</ab>
+            <ab>OF NEWCASTLE UPON TYNE</ab>
+            <ab>WHO DIED IN ROME</ab>
+            <ab>OCTR 23D 1830</ab>
+            <ab>AGED 44 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

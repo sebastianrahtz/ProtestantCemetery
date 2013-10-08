@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1457.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1457.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1457</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1457">
-          <msIdentifier>
-            <idno>S1457</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">475</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>110</height>
-                    <depth>20</depth>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Edward Thompson</forename>
-              <surname>Davis</surname>
-            </persName>
-            <death when="1867"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1457</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1457">
+               <msIdentifier>
+                  <idno>S1457</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">475</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>110</height>
+                              <depth>20</depth>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Edward Thompson</forename>
+                     <surname>Davis</surname>
+                  </persName>
+                  <death when="1867"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>IN MEMORY</ab>
-        <ab>OF MY DEAR AND ONLY BROTHER</ab>
-        <ab>EDWARD THOMPSON DAVIS</ab>
-        <ab>PAINTER - OF NORTHWICK WORCESTER</ab>
-        <ab>BORN JUNE 13. 1833</ab>
-        <ab>DIED JUNE 12. 1867</ab>
-        <ab/>
-        <ab>HIS LIFE WAS PURE AND HONORABLE</ab>
-        <ab>HIS CHARACTER EARNEST LOVING AND</ab>
-        <ab>GUILELESS - THE ALMIGHTY LENT HIM</ab>
-        <ab>MANY TALENTS - AND HE WAS BELOVED</ab>
-        <ab>BY ALL WHO KNEW HIM</ab>
-        <ab rend="Alignr">E.J DAVIS</ab>
-        <ab rend="Alignr">ALEXANDRIA</ab>
-        <ab>"LORD JESUS HAVE MERCY"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1457"
+               ulx="2523.245234"
+               uly="185.96508400000005"
+               lrx="2530.64169"
+               lry="190.118476"
+               points="2523.245234,186.406563 2530.413066,185.96508400000005 2530.64169,189.67699800000003 2523.473857,190.118476 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>IN MEMORY</ab>
+            <ab>OF MY DEAR AND ONLY BROTHER</ab>
+            <ab>EDWARD THOMPSON DAVIS</ab>
+            <ab>PAINTER - OF NORTHWICK WORCESTER</ab>
+            <ab>BORN JUNE 13. 1833</ab>
+            <ab>DIED JUNE 12. 1867</ab>
+            <ab/>
+            <ab>HIS LIFE WAS PURE AND HONORABLE</ab>
+            <ab>HIS CHARACTER EARNEST LOVING AND</ab>
+            <ab>GUILELESS - THE ALMIGHTY LENT HIM</ab>
+            <ab>MANY TALENTS - AND HE WAS BELOVED</ab>
+            <ab>BY ALL WHO KNEW HIM</ab>
+            <ab rend="Alignr">E.J DAVIS</ab>
+            <ab rend="Alignr">ALEXANDRIA</ab>
+            <ab>"LORD JESUS HAVE MERCY"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

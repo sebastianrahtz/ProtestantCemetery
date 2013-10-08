@@ -1,75 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1907.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1907.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1907</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1907">
-          <msIdentifier>
-            <idno>S1907</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>146</height>
-                    <depth>24</depth>
-                    <width>73</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Eliza Ravenscroft</forename>
-              <surname>Fitz-Gerald</surname>
-            </persName>
-            <death when="1888"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1907</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1907">
+               <msIdentifier>
+                  <idno>S1907</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>146</height>
+                              <depth>24</depth>
+                              <width>73</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Eliza Ravenscroft</forename>
+                     <surname>Fitz-Gerald</surname>
+                  </persName>
+                  <death when="1888"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>ELIZA RAVENSCROFT FITZ-GERALD</ab>
-        <ab>WIDOW OF W.R. FITZ-GERALD R.N.</ab>
-        <ab>AND LAST SURVIVING CHILD</ab>
-        <ab>OF THE LATE COL. STARKE</ab>
-        <ab>OF LANGHARNE CASTLE, CARMARTHEN</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>JULY 23D 1888.</ab>
-        <ab/>
-        <ab>GOD IS LOVE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1907"
+               ulx="2229.935303"
+               uly="633.67916"
+               lrx="2239.768902"
+               lry="636.870943"
+               points="2229.935303,634.623801 2239.548078,633.67916 2239.768902,635.926302 2230.156127,636.870943 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>ELIZA RAVENSCROFT FITZ-GERALD</ab>
+            <ab>WIDOW OF W.R. FITZ-GERALD R.N.</ab>
+            <ab>AND LAST SURVIVING CHILD</ab>
+            <ab>OF THE LATE COL. STARKE</ab>
+            <ab>OF LANGHARNE CASTLE, CARMARTHEN</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>JULY 23D 1888.</ab>
+            <ab/>
+            <ab>GOD IS LOVE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

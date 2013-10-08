@@ -1,78 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S598.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S598.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 598</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S598">
-          <msIdentifier>
-            <idno>S598</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1542</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>174</height>
-                    <depth>6</depth>
-                    <width>85</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Aemilius</forename>
-              <surname>Thiel</surname>
-            </persName>
-            <death when="1899"/>
-            <nationality key="LT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 598</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S598">
+               <msIdentifier>
+                  <idno>S598</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1542</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>174</height>
+                              <depth>6</depth>
+                              <width>85</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Aemilius</forename>
+                     <surname>Thiel</surname>
+                  </persName>
+                  <death when="1899"/>
+                  <nationality key="LT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_T #c_2 #m_IC #t_P">
-        <ab>HIC JACET</ab>
-        <ab>AEMILIUS THIEL</ab>
-        <ab>NATUS IN LITHUANIA DIE XXI M.OCT.MDCCCLXXVIII</ab>
-        <ab>OBIIT NEAPOLI DIE II M.MAI MDCCCLXXXXVIIII</ab>
-        <ab>FAMULUS ET AMICUS</ab>
-        <ab>---------</ab>
-        <ab>EGREGIUS FORMA INVENIS</ab>
-        <ab>SED FRONS LAETA PARUM ET DEIECTO LUMINA VOLTU</ab>
-        <ab>----------</ab>
-        <ab>REQUIESCAT IN PACE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S598"
+               ulx="1488.630782"
+               uly="296.229521"
+               lrx="1496.955345"
+               lry="316.400577"
+               points="1488.630782,296.229521 1496.955345,296.229521 1496.955345,316.400577 1488.630782,316.400577 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_T #c_2 #m_IC #t_P">
+            <ab>HIC JACET</ab>
+            <ab>AEMILIUS THIEL</ab>
+            <ab>NATUS IN LITHUANIA DIE XXI M.OCT.MDCCCLXXVIII</ab>
+            <ab>OBIIT NEAPOLI DIE II M.MAI MDCCCLXXXXVIIII</ab>
+            <ab>FAMULUS ET AMICUS</ab>
+            <ab>---------</ab>
+            <ab>EGREGIUS FORMA INVENIS</ab>
+            <ab>SED FRONS LAETA PARUM ET DEIECTO LUMINA VOLTU</ab>
+            <ab>----------</ab>
+            <ab>REQUIESCAT IN PACE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

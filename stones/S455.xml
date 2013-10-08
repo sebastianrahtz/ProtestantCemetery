@@ -1,87 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S455.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S455.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 455</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S455">
-          <msIdentifier>
-            <idno>S455</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1655</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>137</height>
-                    <width>79</width>
-                  </dimensions>
-                </extent>
-                <condition>unrecorded</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>On the S face is a metal classical scene consisting of an angel, two other figures and two oxen.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Emil</forename>
-              <surname>Braun</surname>
-            </persName>
-            <death when="1856"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 455</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S455">
+               <msIdentifier>
+                  <idno>S455</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1655</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>137</height>
+                              <width>79</width>
+                           </dimensions>
+                        </extent>
+                        <condition>unrecorded</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>On the S face is a metal classical scene consisting of an angel, two other figures and two oxen.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Emil</forename>
+                     <surname>Braun</surname>
+                  </persName>
+                  <death when="1856"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>
-          <hi rend="gothic">EMIL BRAUN</hi>
-        </ab>
-        <ab>GEBOREN IN GOTHA DEN</ab>
-        <ab>19TEN. APRIL 1809.</ab>
-        <ab>GESTORBEN IN ROM DEN</ab>
-        <ab>11TEN SEPTEMBER 1856.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S455"
+               ulx="1084.855033"
+               uly="625.682091"
+               lrx="1093.741651"
+               lry="628.655952"
+               points="1093.741651,625.894015 1084.93389,625.682091 1084.855033,628.444219 1093.662777,628.655952 ">
+            <graphic url="film:B/38"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>
+               <hi rend="gothic">EMIL BRAUN</hi>
+            </ab>
+            <ab>GEBOREN IN GOTHA DEN</ab>
+            <ab>19TEN. APRIL 1809.</ab>
+            <ab>GESTORBEN IN ROM DEN</ab>
+            <ab>11TEN SEPTEMBER 1856.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

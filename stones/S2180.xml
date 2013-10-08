@@ -1,93 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2180.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2180.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2180</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2180">
-          <msIdentifier>
-            <idno>S2180</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">313</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>44</height>
-                    <depth>5</depth>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>9</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Emma</forename>
-              <surname>Liebe</surname>
-            </persName>
-            <death when="1905"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Mario</forename>
-              <surname>Liebe</surname>
-            </persName>
-            <death when="1943"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Federico</forename>
-              <surname>Liebe</surname>
-            </persName>
-            <death when="1945"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2180</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2180">
+               <msIdentifier>
+                  <idno>S2180</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">313</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>44</height>
+                              <depth>5</depth>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>9</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Emma</forename>
+                     <surname>Liebe</surname>
+                  </persName>
+                  <death when="1905"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Mario</forename>
+                     <surname>Liebe</surname>
+                  </persName>
+                  <death when="1943"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Federico</forename>
+                     <surname>Liebe</surname>
+                  </persName>
+                  <death when="1945"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_ #c_ #m_ #t_">
-        <ab rend="Alignl">
-          <note> memorial changed - now see inscription on 2182 8/85</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2180"
+               ulx="2704.961348"
+               uly="469.21698000000004"
+               lrx="2709.469264"
+               lry="474.09658"
+               points="2704.961348,469.21698000000004 2709.412099,469.21698000000004 2709.469264,474.09658 2705.02668,474.09658 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_ #c_ #m_ #t_">
+            <ab rend="Alignl">
+               <note> memorial changed - now see inscription on 2182 8/85</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1686.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1686.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1686</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1686">
-          <msIdentifier>
-            <idno>S1686</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">417</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>185</height>
-                    <depth>10</depth>
-                    <width>85</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Elizabeth S.</forename>
-              <surname>Orr</surname>
-            </persName>
-            <death when="1875"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1686</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1686">
+               <msIdentifier>
+                  <idno>S1686</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">417</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>185</height>
+                              <depth>10</depth>
+                              <width>85</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elizabeth S.</forename>
+                     <surname>Orr</surname>
+                  </persName>
+                  <death when="1875"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>ELIZABETH S. ORR</ab>
-        <ab>RELICT OF THE LATE ALEXANDER ORR</ab>
-        <ab>OF</ab>
-        <ab>BROOKLYN NEW-YORK</ab>
-        <ab>UNITED STATES OF AMERICA</ab>
-        <ab>DIED IN ROME JAN.24TH 1875</ab>
-        <ab/>
-        <ab>AGED 55 YEARS.</ab>
-        <ab/>
-        <ab>HER LAST WORDS WERE</ab>
-        <ab>"I KNOW THAT MY REDEEMER LIVETH"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1686"
+               ulx="2528.296235"
+               uly="385.94244000000003"
+               lrx="2540.264376"
+               lry="406.07104300000003"
+               points="2528.296235,386.861361 2538.541398,385.94244000000003 2540.264376,405.15212099999997 2530.019213,406.07104300000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>ELIZABETH S. ORR</ab>
+            <ab>RELICT OF THE LATE ALEXANDER ORR</ab>
+            <ab>OF</ab>
+            <ab>BROOKLYN NEW-YORK</ab>
+            <ab>UNITED STATES OF AMERICA</ab>
+            <ab>DIED IN ROME JAN.24TH 1875</ab>
+            <ab/>
+            <ab>AGED 55 YEARS.</ab>
+            <ab/>
+            <ab>HER LAST WORDS WERE</ab>
+            <ab>"I KNOW THAT MY REDEEMER LIVETH"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

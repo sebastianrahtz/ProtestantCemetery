@@ -1,75 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1029.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1029.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1029</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1029">
-          <msIdentifier>
-            <idno>S1029</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>170</height>
-                    <depth>100</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Elizaveta</forename>
-              <surname>Polivanova</surname>
-            </persName>
-            <death when="1894"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1029</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1029">
+               <msIdentifier>
+                  <idno>S1029</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>170</height>
+                              <depth>100</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elizaveta</forename>
+                     <surname>Polivanova</surname>
+                  </persName>
+                  <death when="1894"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_I #t_P #s_CY">
-        <ab>ЕЛИЗАВЕТА ИВАНОВНА</ab>
-        <ab>ПОЛИВАНОВА</ab>
-        <ab>СКО. 4 ИЙУНЯ 1894</ab>
-        <ab/>
-        <ab>БЛАЖЕННЫ ЯИСТЫЕ СЕРДЦЕМ" ИБО ОНИ</ab>
-        <ab>БОГА УЗРЯТ"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1029"
+               ulx="2007.502683"
+               uly="511.51762699999995"
+               lrx="2016.159838"
+               lry="519.109287"
+               points="2007.502683,511.51762699999995 2016.159838,511.51762699999995 2016.159838,519.109287 2007.502683,519.109287 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_I #t_P #s_CY">
+            <ab>ЕЛИЗАВЕТА ИВАНОВНА</ab>
+            <ab>ПОЛИВАНОВА</ab>
+            <ab>СКО. 4 ИЙУНЯ 1894</ab>
+            <ab/>
+            <ab>БЛАЖЕННЫ ЯИСТЫЕ СЕРДЦЕМ" ИБО ОНИ</ab>
+            <ab>БОГА УЗРЯТ"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

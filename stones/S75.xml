@@ -1,111 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S75.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S75.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 75</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S75">
-          <msIdentifier>
-            <idno>S75</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">123</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>102</height>
-                    <depth>43</depth>
-                    <width>47</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 93), (vol 1, plate 94) A very exact copy of a Roman tomb altar.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_35 #st_B #f_E"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_55 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_86 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>60</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Edward</forename>
-              <surname>Poore</surname>
-            </persName>
-            <birth when="1743">
-              <placeName>
-                <settlement>Tidworth, Wilts</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1803-08-17">
-              <placeName>
-                <settlement>Palazzuglio</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 75</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S75">
+               <msIdentifier>
+                  <idno>S75</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">123</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>102</height>
+                              <depth>43</depth>
+                              <width>47</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 93), (vol 1, plate 94) A very exact copy of a Roman tomb altar.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_35 #st_B #f_E"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_55 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_86 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>60</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Edward</forename>
+                     <surname>Poore</surname>
+                  </persName>
+                  <birth when="1743">
+                     <placeName>
+                        <settlement>Tidworth, Wilts</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1803-08-17">
+                     <placeName>
+                        <settlement>Palazzuglio</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_4 #m_I #t_P">
-        <ab>ALLA MEMORIA</ab>
-        <ab>DEL. CAV. EDWARD POORE</ab>
-        <ab>DI TIDWORTH</ab>
-        <ab>NELLA CONT[.] DI WILTS</ab>
-        <ab>IN INGHILTERRA</ab>
-        <ab>VOMO IN CIASCVN'ARTE E SCIEZA</ab>
-        <ab>PROFONDO ED ERVDITO</ab>
-        <ab>PRESSO LI [......] DELL'ETA SVA</ab>
-        <ab>MOLTO STIMATO</ab>
-        <ab>MORI NEL CONVENTO DI [PALAZZVGLIO?]</ab>
-        <ab>IL XVII AGOSTO 1803</ab>
-        <ab>DI ANNI LX</ab>
-        <ab>QUEST'VMILE TRIBVTO</ab>
-        <ab>E STATO ERETTO</ab>
-        <ab>DAL AFFEZIONE ED EDVCAZIONE</ab>
-        <ab>DATA NELLA TENERA ETA AL SVO</ab>
-        <ab>SEMPRE AMATO E FEDELE AMICO</ab>
-        <ab>CARLO TREBB. ROMANO</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S75"
+               ulx="573.683931"
+               uly="744.143422"
+               lrx="584.932694"
+               lry="754.533013"
+               points="582.524395,744.143422 573.683931,746.9540380000001 576.09204,754.533013 584.932694,751.7223799999999 ">
+            <graphic url="film:_H/26316"/>
+            <graphic url="film:AA/19"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_4 #m_I #t_P">
+            <ab>ALLA MEMORIA</ab>
+            <ab>DEL. CAV. EDWARD POORE</ab>
+            <ab>DI TIDWORTH</ab>
+            <ab>NELLA CONT[.] DI WILTS</ab>
+            <ab>IN INGHILTERRA</ab>
+            <ab>VOMO IN CIASCVN'ARTE E SCIEZA</ab>
+            <ab>PROFONDO ED ERVDITO</ab>
+            <ab>PRESSO LI [......] DELL'ETA SVA</ab>
+            <ab>MOLTO STIMATO</ab>
+            <ab>MORI NEL CONVENTO DI [PALAZZVGLIO?]</ab>
+            <ab>IL XVII AGOSTO 1803</ab>
+            <ab>DI ANNI LX</ab>
+            <ab>QUEST'VMILE TRIBVTO</ab>
+            <ab>E STATO ERETTO</ab>
+            <ab>DAL AFFEZIONE ED EDVCAZIONE</ab>
+            <ab>DATA NELLA TENERA ETA AL SVO</ab>
+            <ab>SEMPRE AMATO E FEDELE AMICO</ab>
+            <ab>CARLO TREBB. ROMANO</ab>
+         </div>
+      </body>
   </text>
 </TEI>

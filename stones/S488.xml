@@ -1,80 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S488.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S488.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 488</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S488">
-          <msIdentifier>
-            <idno>S488</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2240</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>91</height>
-                    <depth>6</depth>
-                    <width>77</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>George</forename>
-              <surname>Gresson</surname>
-            </persName>
-            <death when="1828"/>
-            <nationality key="IE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 488</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S488">
+               <msIdentifier>
+                  <idno>S488</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2240</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>91</height>
+                              <depth>6</depth>
+                              <width>77</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>George</forename>
+                     <surname>Gresson</surname>
+                  </persName>
+                  <death when="1828"/>
+                  <nationality key="IE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>TO THE MEMORY</ab>
-        <ab>OF THE REVd GEORGE GRESSON</ab>
-        <ab>SON OF HENRY GRESSON OF DUBLIN,</ab>
-        <ab>AND ALICIA WINSTOW OF DRESTERNAN</ab>
-        <ab>IN THE COUNTY OF FERMANAGH,</ab>
-        <ab>AND RECTOR OF LUTERAH</ab>
-        <ab>IN THE COUNTY OF TIPPERARY.</ab>
-        <ab>DIED AT ROME 3D APRIL 1828.</ab>
-        <ab>AGED [...] YEARS</ab>
-        <ab rend="Alignl">
-          <note> Age ommitted from stone, or just illegible?</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S488"
+               ulx="1477.32518"
+               uly="243.19629899999995"
+               lrx="1486.549892"
+               lry="252.933495"
+               points="1477.32518,243.19629899999995 1486.549892,243.19629899999995 1486.549892,252.933495 1477.32518,252.933495 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>TO THE MEMORY</ab>
+            <ab>OF THE REVd GEORGE GRESSON</ab>
+            <ab>SON OF HENRY GRESSON OF DUBLIN,</ab>
+            <ab>AND ALICIA WINSTOW OF DRESTERNAN</ab>
+            <ab>IN THE COUNTY OF FERMANAGH,</ab>
+            <ab>AND RECTOR OF LUTERAH</ab>
+            <ab>IN THE COUNTY OF TIPPERARY.</ab>
+            <ab>DIED AT ROME 3D APRIL 1828.</ab>
+            <ab>AGED [...] YEARS</ab>
+            <ab rend="Alignl">
+               <note> Age ommitted from stone, or just illegible?</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

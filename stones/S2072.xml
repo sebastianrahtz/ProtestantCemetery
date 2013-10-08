@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2072.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2072.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2072</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2072">
-          <msIdentifier>
-            <idno>S2072</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">960</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>110</height>
-                    <depth>10</depth>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ursula Desler</forename>
-              <surname>Braun</surname>
-            </persName>
-            <death when="1948"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Gustavo Philipp</forename>
-              <surname>Desler</surname>
-            </persName>
-            <death when="1956"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2072</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2072">
+               <msIdentifier>
+                  <idno>S2072</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">960</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>110</height>
+                              <depth>10</depth>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ursula Desler</forename>
+                     <surname>Braun</surname>
+                  </persName>
+                  <death when="1948"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Gustavo Philipp</forename>
+                     <surname>Desler</surname>
+                  </persName>
+                  <death when="1956"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IC #t_P">
-        <ab>URSULA DESTER-BRAUN</ab>
-        <ab>GEB: 15–05–1858 IN GUNNINGEN</ab>
-        <ab>GEST: 25–03–1948 IN ROM</ab>
-        <ab/>
-        <ab>GUSTAVO PHILIPP DESTER</ab>
-        <ab>GEB: 29–09–1884 IN KÖLN</ab>
-        <ab>GEST: 29–04–1956 IN ROM</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2072"
+               ulx="2708.929088"
+               uly="268.48268299999995"
+               lrx="2717.662586"
+               lry="271.58362999999997"
+               points="2708.929088,268.64401899999996 2717.607939,268.48268299999995 2717.662586,271.42229499999996 2708.983734,271.58362999999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IC #t_P">
+            <ab>URSULA DESTER-BRAUN</ab>
+            <ab>GEB: 15–05–1858 IN GUNNINGEN</ab>
+            <ab>GEST: 25–03–1948 IN ROM</ab>
+            <ab/>
+            <ab>GUSTAVO PHILIPP DESTER</ab>
+            <ab>GEB: 29–09–1884 IN KÖLN</ab>
+            <ab>GEST: 29–04–1956 IN ROM</ab>
+         </div>
+      </body>
   </text>
 </TEI>

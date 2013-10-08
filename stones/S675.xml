@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S675.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S675.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 675</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S675">
-          <msIdentifier>
-            <idno>S675</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">773</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>29</height>
-                    <depth>4</depth>
-                    <width>45</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Ivan</forename>
-              <surname>Borisoff</surname>
-            </persName>
-            <death when="1952"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Valentina Ukolov</forename>
-              <surname>Borisoff</surname>
-            </persName>
-            <death when="1965"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 675</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S675">
+               <msIdentifier>
+                  <idno>S675</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">773</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>29</height>
+                              <depth>4</depth>
+                              <width>45</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Ivan</forename>
+                     <surname>Borisoff</surname>
+                  </persName>
+                  <death when="1952"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Valentina Ukolov</forename>
+                     <surname>Borisoff</surname>
+                  </persName>
+                  <death when="1965"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_4 #m_IC #t_P">
-        <ab>IVAN BORISOFF</ab>
-        <ab>*24.VIII.1895 +15.III.1952</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_4 #m_IC #t_S">
-        <ab>VALENTINA BORISOFF</ab>
-        <ab>NATA UKOLOV</ab>
-        <ab>* 2.VIII.1895 +15.XI.1965</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S675"
+               ulx="1808.96635"
+               uly="324.56505100000004"
+               lrx="1814.409333"
+               lry="329.047508"
+               points="1808.96635,324.56505100000004 1814.409333,324.56505100000004 1814.409333,329.047508 1808.96635,329.047508 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_4 #m_IC #t_P">
+            <ab>IVAN BORISOFF</ab>
+            <ab>*24.VIII.1895 +15.III.1952</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_4 #m_IC #t_S">
+            <ab>VALENTINA BORISOFF</ab>
+            <ab>NATA UKOLOV</ab>
+            <ab>* 2.VIII.1895 +15.XI.1965</ab>
+         </div>
+      </body>
   </text>
 </TEI>

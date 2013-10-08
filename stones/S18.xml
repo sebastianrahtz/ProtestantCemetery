@@ -1,76 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S18.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S18.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 18</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S18">
-          <msIdentifier>
-            <idno>S18</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>82</height>
-                    <width>82</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 21)</summary>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>29</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Francis</forename>
-              <surname>Knebet</surname>
-            </persName>
-            <birth when="1783"/>
-            <death when="1822-01-16"/>
-            <nationality key="CH"/>
-            <occupation>painter,"Helveto Pictore"</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 18</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S18">
+               <msIdentifier>
+                  <idno>S18</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>82</height>
+                              <width>82</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 21)</summary>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>29</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Francis</forename>
+                     <surname>Knebet</surname>
+                  </persName>
+                  <birth when="1783"/>
+                  <death when="1822-01-16"/>
+                  <nationality key="CH"/>
+                  <occupation>painter,"Helveto Pictore"</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_T #c_4 #m_I #t_P">
-        <ab>MEMORIAE.ET.CINERIBVS</ab>
-        <ab>FRANCISCI.IOANNIS.F.[RNBLE?].HELVETO</ab>
-        <ab>PICTORE</ab>
-        <ab>FRANCISCVS.REISERMAN.ADOPTIONE.PATER</ab>
-        <ab>IVVENT.SVMMAE.SPEI</ab>
-        <ab>POSVIT.CVM.LACRIMIS</ab>
-        <ab>OBIIT.ANNO.D.MDCCCXXII.DIE.XVI.IANVARII</ab>
-        <ab>ANNVM AGENS XXX AETATIS SVAE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S18"
+               ulx="307.88968"
+               uly="668.927447"
+               lrx="322.421352"
+               lry="684.134524"
+               points="317.578556,668.927447 307.88968,673.23361 312.729548,684.134524 322.421352,679.830966 ">
+            <graphic url="film:AB/16"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_T #c_4 #m_I #t_P">
+            <ab>MEMORIAE.ET.CINERIBVS</ab>
+            <ab>FRANCISCI.IOANNIS.F.[RNBLE?].HELVETO</ab>
+            <ab>PICTORE</ab>
+            <ab>FRANCISCVS.REISERMAN.ADOPTIONE.PATER</ab>
+            <ab>IVVENT.SVMMAE.SPEI</ab>
+            <ab>POSVIT.CVM.LACRIMIS</ab>
+            <ab>OBIIT.ANNO.D.MDCCCXXII.DIE.XVI.IANVARII</ab>
+            <ab>ANNVM AGENS XXX AETATIS SVAE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

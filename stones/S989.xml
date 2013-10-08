@@ -1,103 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S989.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S989.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 989</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S989">
-          <msIdentifier>
-            <idno>S989</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2075</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COPE">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>181</height>
-                    <depth>55</depth>
-                    <width>81</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Henry Watson</forename>
-              <surname>Wasse</surname>
-            </persName>
-            <death when="1891"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Georgiana Marianne</forename>
-              <surname>Wasse</surname>
-            </persName>
-            <death when="1911"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 989</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S989">
+               <msIdentifier>
+                  <idno>S989</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2075</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COPE">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>181</height>
+                              <depth>55</depth>
+                              <width>81</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henry Watson</forename>
+                     <surname>Wasse</surname>
+                  </persName>
+                  <death when="1891"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Georgiana Marianne</forename>
+                     <surname>Wasse</surname>
+                  </persName>
+                  <death when="1911"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_W #c_3 #m_I #t_PC">
-        <ab>THOU WILT KEEP HIM IN PERFECT PEACE</ab>
-        <ab>WHOSE MIND IS STAYED ON THEE: BECAUSE</ab>
-        <ab rend="Alignl">  HE TRUSTETH IN THEE</ab>
-        <ab>ISAIAH XXVI</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_3 #m_I #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>HENRY WATSON WASSE M.A</ab>
-        <ab>16 YEARS ENGLISH CHAPLAIN IN ROME</ab>
-        <ab>AND HON: CANON OF GIBRALTAR</ab>
-        <ab>BORN JULY 13.1831. DIED MARCH 16.1891.</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_S">
-        <ab>ALSO IN MEMORY OF</ab>
-        <ab>HIS WIFE</ab>
-        <ab>GEORGIANA MARIANNE WASSE</ab>
-        <ab>WHO DIED AT ST LEONARDS (ENGLAND)</ab>
-        <ab>JULY 4TH 1911.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S989"
+               ulx="1792.644658"
+               uly="480.08549300000004"
+               lrx="1803.322556"
+               lry="499.289538"
+               points="1793.204784,480.08549300000004 1803.322556,480.38527899999997 1802.76243,499.289538 1792.644658,498.98975199999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_W #c_3 #m_I #t_PC">
+            <ab>THOU WILT KEEP HIM IN PERFECT PEACE</ab>
+            <ab>WHOSE MIND IS STAYED ON THEE: BECAUSE</ab>
+            <ab rend="Alignl">  HE TRUSTETH IN THEE</ab>
+            <ab>ISAIAH XXVI</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_3 #m_I #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>HENRY WATSON WASSE M.A</ab>
+            <ab>16 YEARS ENGLISH CHAPLAIN IN ROME</ab>
+            <ab>AND HON: CANON OF GIBRALTAR</ab>
+            <ab>BORN JULY 13.1831. DIED MARCH 16.1891.</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_S">
+            <ab>ALSO IN MEMORY OF</ab>
+            <ab>HIS WIFE</ab>
+            <ab>GEORGIANA MARIANNE WASSE</ab>
+            <ab>WHO DIED AT ST LEONARDS (ENGLAND)</ab>
+            <ab>JULY 4TH 1911.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

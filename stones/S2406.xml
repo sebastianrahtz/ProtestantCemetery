@@ -1,93 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2406.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2406.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2406</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2406">
-          <msIdentifier>
-            <idno>S2406</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">928</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <width>84</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_123 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Smeralda</forename>
-              <surname>Iroaie</surname>
-            </persName>
-            <death when="1935"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Emil</forename>
-              <surname>Panaitescu</surname>
-            </persName>
-            <death when="1958"/>
-            <nationality key="RO"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2406</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2406">
+               <msIdentifier>
+                  <idno>S2406</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">928</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <width>84</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_123 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Smeralda</forename>
+                     <surname>Iroaie</surname>
+                  </persName>
+                  <death when="1935"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Emil</forename>
+                     <surname>Panaitescu</surname>
+                  </persName>
+                  <death when="1958"/>
+                  <nationality key="RO"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>SMERALDA IROAIE NATA BUTUREANU</ab>
-        <ab>DI ANNI 27 + 1.I.1935</ab>
-        <ab/>
-        <ab>PROFESSORE</ab>
-        <ab>EMIL PANAITESCU</ab>
-        <ab>CUDALBI 11.II.1885 ROMA 20.II.1958</ab>
-        <ab>DIRETTORE</ab>
-        <ab>DELL`ACCADEMIA DI ROMANIA A ROMA</ab>
-        <ab>DAL 1929 AL 1940</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2406"
+               ulx="3103.506978"
+               uly="217.77041599999995"
+               lrx="3111.304039"
+               lry="232.51935000000003"
+               points="3103.886256,217.77041599999995 3111.304039,217.963702 3110.92476,232.51935000000003 3103.506978,232.32606499999997 ">
+            <graphic url="film:K/2"/>
+            <graphic url="film:K/7"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>SMERALDA IROAIE NATA BUTUREANU</ab>
+            <ab>DI ANNI 27 + 1.I.1935</ab>
+            <ab/>
+            <ab>PROFESSORE</ab>
+            <ab>EMIL PANAITESCU</ab>
+            <ab>CUDALBI 11.II.1885 ROMA 20.II.1958</ab>
+            <ab>DIRETTORE</ab>
+            <ab>DELL`ACCADEMIA DI ROMANIA A ROMA</ab>
+            <ab>DAL 1929 AL 1940</ab>
+         </div>
+      </body>
   </text>
 </TEI>

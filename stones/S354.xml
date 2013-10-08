@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S354.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S354.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 354</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S354">
-          <msIdentifier>
-            <idno>S354</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">23</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>81</height>
-                    <depth>10</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>37</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Jean-Louis</forename>
-              <surname>Cattaui</surname>
-            </persName>
-            <birth when="1931-06-20"/>
-            <death when="1968-07-02"/>
-            <nationality key="UK"/>
-            <occupation>Artist</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 354</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S354">
+               <msIdentifier>
+                  <idno>S354</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>81</height>
+                              <depth>10</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>37</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Jean-Louis</forename>
+                     <surname>Cattaui</surname>
+                  </persName>
+                  <birth when="1931-06-20"/>
+                  <death when="1968-07-02"/>
+                  <nationality key="UK"/>
+                  <occupation>Artist</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>JEAN-LOUIS CATTAUI</ab>
-        <ab>*20.VI.1931 +2.VII.1968</ab>
-        <ab>ARTIST</ab>
-        <ab>"PITY THOSE MEN</ab>
-        <ab>WHO FROM THE START</ab>
-        <ab>WERE MARTYRS TO</ab>
-        <ab>SOME DREAM OR ART..."</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S354"
+               ulx="955.13017"
+               uly="515.112672"
+               lrx="963.63496"
+               lry="517.042235"
+               points="963.63496,515.31601 955.179419,515.112672 955.13017,516.838878 963.585521,517.042235 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>JEAN-LOUIS CATTAUI</ab>
+            <ab>*20.VI.1931 +2.VII.1968</ab>
+            <ab>ARTIST</ab>
+            <ab>"PITY THOSE MEN</ab>
+            <ab>WHO FROM THE START</ab>
+            <ab>WERE MARTYRS TO</ab>
+            <ab>SOME DREAM OR ART..."</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1081.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1081.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1081</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1081">
-          <msIdentifier>
-            <idno>S1081</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2048</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>146</height>
-                    <depth>57</depth>
-                    <width>71</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Robert</forename>
-              <surname>Arnot</surname>
-            </persName>
-            <death when="1901"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1081</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1081">
+               <msIdentifier>
+                  <idno>S1081</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2048</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>146</height>
+                              <depth>57</depth>
+                              <width>71</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Robert</forename>
+                     <surname>Arnot</surname>
+                  </persName>
+                  <death when="1901"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>ROBERT ARNOT</ab>
-        <ab/>
-        <ab>OF 43 BLOOMSBURY SQUARE LONDON</ab>
-        <ab>WHO DIED SUDDENLY,</ab>
-        <ab>IN ROME 23rd FEBRUARY 1901.</ab>
-        <ab>AGED 30 YEARS.</ab>
-        <ab/>
-        <ab>THIS STONE IS ERECTED BY</ab>
-        <ab>HIS BROTHERS AND SISTERS.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1081"
+               ulx="1353.447098"
+               uly="500.063544"
+               lrx="1362.336347"
+               lry="508.82567100000006"
+               points="1353.820838,500.063544 1362.336347,500.443217 1361.962607,508.82567100000006 1353.447098,508.44599800000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>ROBERT ARNOT</ab>
+            <ab/>
+            <ab>OF 43 BLOOMSBURY SQUARE LONDON</ab>
+            <ab>WHO DIED SUDDENLY,</ab>
+            <ab>IN ROME 23rd FEBRUARY 1901.</ab>
+            <ab>AGED 30 YEARS.</ab>
+            <ab/>
+            <ab>THIS STONE IS ERECTED BY</ab>
+            <ab>HIS BROTHERS AND SISTERS.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,73 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1491.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1491.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1491</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1491">
-          <msIdentifier>
-            <idno>S1491</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2514</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>89</height>
-                    <depth>46</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Felix</forename>
-              <surname>Kunde</surname>
-            </persName>
-            <death when="1865"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1491</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1491">
+               <msIdentifier>
+                  <idno>S1491</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2514</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>89</height>
+                              <depth>46</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Felix</forename>
+                     <surname>Kunde</surname>
+                  </persName>
+                  <death when="1865"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>HIER RUHT FERN VON DER HEIMATH</ab>
-        <ab>UNSER VIELGELIEBTER SOHN UND BRUDER</ab>
-        <ab>DR. FELIX KUNDE</ab>
-        <ab>GEB. ZU BERLIN AM IV JANUAR MDCCCXXI</ab>
-        <ab>GEST. ZU ROM XXIV FEBRUAR MDCCCLXV</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1491"
+               ulx="2341.258598"
+               uly="230.39963699999998"
+               lrx="2351.965455"
+               lry="237.33444099999997"
+               points="2341.258598,231.197589 2351.486684,230.39963699999998 2351.965455,236.53648799999996 2341.73737,237.33444099999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>HIER RUHT FERN VON DER HEIMATH</ab>
+            <ab>UNSER VIELGELIEBTER SOHN UND BRUDER</ab>
+            <ab>DR. FELIX KUNDE</ab>
+            <ab>GEB. ZU BERLIN AM IV JANUAR MDCCCXXI</ab>
+            <ab>GEST. ZU ROM XXIV FEBRUAR MDCCCLXV</ab>
+         </div>
+      </body>
   </text>
 </TEI>

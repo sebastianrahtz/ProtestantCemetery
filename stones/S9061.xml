@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9061.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9061.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9061</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9061">
-          <msIdentifier>
-            <idno>S9061</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-              <note>replaces 1714,1715</note>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">303</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>46</height>
-                    <depth>25</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>69</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Jonas</forename>
-              <surname>Ogden</surname>
-            </persName>
-            <birth when="1902"/>
-            <death when="1972"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9061</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9061">
+               <msIdentifier>
+                  <idno>S9061</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                     <note>replaces 1714,1715</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">303</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>46</height>
+                              <depth>25</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>69</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Jonas</forename>
+                     <surname>Ogden</surname>
+                  </persName>
+                  <birth when="1902"/>
+                  <death when="1972"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>JONAS OGDEN</ab>
-        <ab>*23.8.1902 +26.5.1972</ab>
-        <ab>R.I.P.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9061"
+               ulx="2270.598785"
+               uly="438.59975799999995"
+               lrx="2277.028926"
+               lry="443.05643599999996"
+               points="2270.598785,439.06784000000005 2276.724129,438.59975799999995 2277.028926,442.588354 2270.903583,443.05643599999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>JONAS OGDEN</ab>
+            <ab>*23.8.1902 +26.5.1972</ab>
+            <ab>R.I.P.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

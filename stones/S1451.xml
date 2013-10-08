@@ -1,101 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1451.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1451.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1451</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1451">
-          <msIdentifier>
-            <idno>S1451</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1448</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>145</height>
-                    <depth>55</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Franz</forename>
-              <surname>Moeser</surname>
-            </persName>
-            <death when="1887"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Clara</forename>
-              <surname>Herger</surname>
-            </persName>
-            <death when="1918"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1451</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1451">
+               <msIdentifier>
+                  <idno>S1451</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1448</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>145</height>
+                              <depth>55</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Franz</forename>
+                     <surname>Moeser</surname>
+                  </persName>
+                  <death when="1887"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Clara</forename>
+                     <surname>Herger</surname>
+                  </persName>
+                  <death when="1918"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>HIER RUHET IN GOTT:</ab>
-        <ab>FRANZ MOESER</ab>
-        <ab>GEB:DEN 22.SEPTB.1851 IN RADIS.</ab>
-        <ab>GEST:DEN 5.SEPTB 1887 IN ROM.</ab>
-        <ab>GEW: VON SEINER TRAUERNDEN BRAUT</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_S">
-        <ab>CLARA HERGER</ab>
-        <ab>GESTORBEN</ab>
-        <ab>13 MÄRZ 1918</ab>
-        <ab>------</ab>
-        <ab>"JESUS ERBARME DICH MEINER"</ab>
-        <ab rend="Alignl">
-          <note>on cross</note>
-        </ab>
-        <ab>DEM AUGE FERN-DEM HERZEN EWIG NAH!</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1451"
+               ulx="2548.328788"
+               uly="156.1932119999999"
+               lrx="2552.691198"
+               lry="158.88100899999995"
+               points="2546.08026,152.66577400000006 2554.219573,152.01446699999997 2554.540639,156.02680499999997 2546.401326,156.67811099999994 2548.328788,156.52387599999997 2548.561052,158.88100899999995 2552.691198,158.57098999999994 2552.461054,156.1932119999999 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>HIER RUHET IN GOTT:</ab>
+            <ab>FRANZ MOESER</ab>
+            <ab>GEB:DEN 22.SEPTB.1851 IN RADIS.</ab>
+            <ab>GEST:DEN 5.SEPTB 1887 IN ROM.</ab>
+            <ab>GEW: VON SEINER TRAUERNDEN BRAUT</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_S">
+            <ab>CLARA HERGER</ab>
+            <ab>GESTORBEN</ab>
+            <ab>13 MÄRZ 1918</ab>
+            <ab>------</ab>
+            <ab>"JESUS ERBARME DICH MEINER"</ab>
+            <ab rend="Alignl">
+               <note>on cross</note>
+            </ab>
+            <ab>DEM AUGE FERN-DEM HERZEN EWIG NAH!</ab>
+         </div>
+      </body>
   </text>
 </TEI>

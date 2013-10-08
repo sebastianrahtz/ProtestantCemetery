@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S159.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S159.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 159</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S159">
-          <msIdentifier>
-            <idno>S159</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">972</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>67</height>
-                    <depth>5</depth>
-                    <width>38</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>20</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Charles William</forename>
-              <surname>Sabin</surname>
-            </persName>
-            <birth when="1935-11-22"/>
-            <death when="1956-01-16"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 159</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S159">
+               <msIdentifier>
+                  <idno>S159</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">972</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>67</height>
+                              <depth>5</depth>
+                              <width>38</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>20</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Charles William</forename>
+                     <surname>Sabin</surname>
+                  </persName>
+                  <birth when="1935-11-22"/>
+                  <death when="1956-01-16"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>IN LOVING</ab>
-        <ab>MEMORY OF</ab>
-        <ab>CHARLES</ab>
-        <ab>WILLIAM</ab>
-        <ab>SABIN</ab>
-        <ab>BELOVED SON</ab>
-        <ab>BORN NOV. 22. 1935</ab>
-        <ab>PASSED OVER</ab>
-        <ab>JAN. 16. 1956</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S159"
+               ulx="1187.421116"
+               uly="292.676055"
+               lrx="1193.509092"
+               lry="296.27275"
+               points="1193.509092,292.82012899999995 1187.519786,292.676055 1187.421116,296.12867500000004 1193.410421,296.27275 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>IN LOVING</ab>
+            <ab>MEMORY OF</ab>
+            <ab>CHARLES</ab>
+            <ab>WILLIAM</ab>
+            <ab>SABIN</ab>
+            <ab>BELOVED SON</ab>
+            <ab>BORN NOV. 22. 1935</ab>
+            <ab>PASSED OVER</ab>
+            <ab>JAN. 16. 1956</ab>
+         </div>
+      </body>
   </text>
 </TEI>

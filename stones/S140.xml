@@ -1,84 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S140.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S140.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 140</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S140">
-          <msIdentifier>
-            <idno>S140</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1806</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>109</height>
-                    <depth>21</depth>
-                    <width>69</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>3</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Edward</forename>
-              <surname>Lambton</surname>
-            </persName>
-            <death when="1830-03-09">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 140</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S140">
+               <msIdentifier>
+                  <idno>S140</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1806</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>109</height>
+                              <depth>21</depth>
+                              <width>69</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>3</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Edward</forename>
+                     <surname>Lambton</surname>
+                  </persName>
+                  <death when="1830-03-09">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>Sacred to the Memory of</ab>
-        <ab>EDWARD LAMBTON</ab>
-        <ab>2nd Son of</ab>
-        <ab>WILLIAM &amp; HENRIETTA LAMBTON</ab>
-        <ab>He died at Rome March 9 1830</ab>
-        <ab>Aged three years, 9 months.</ab>
-        <ab>---------------</ab>
-        <ab>"We shall go to him, but he</ab>
-        <ab>shall not return to us."</ab>
-        <ab>---------------</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S140"
+               ulx="1041.520264"
+               uly="267.054308"
+               lrx="1050.397088"
+               lry="269.68293100000005"
+               points="1050.397088,267.26623200000006 1041.589327,267.054308 1041.520264,269.471008 1050.328025,269.68293100000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>Sacred to the Memory of</ab>
+            <ab>EDWARD LAMBTON</ab>
+            <ab>2nd Son of</ab>
+            <ab>WILLIAM &amp; HENRIETTA LAMBTON</ab>
+            <ab>He died at Rome March 9 1830</ab>
+            <ab>Aged three years, 9 months.</ab>
+            <ab>---------------</ab>
+            <ab>"We shall go to him, but he</ab>
+            <ab>shall not return to us."</ab>
+            <ab>---------------</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,106 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1177.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1177.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1177</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1177">
-          <msIdentifier>
-            <idno>S1177</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1206</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>190</height>
-                    <depth>63</depth>
-                    <width>82</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_82 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Philip</forename>
-              <surname>Laurenius</surname>
-            </persName>
-            <death when="1887"/>
-            <nationality key="SE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ruth Leonard</forename>
-              <surname>Laurenius</surname>
-            </persName>
-            <death when="1935"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1177</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1177">
+               <msIdentifier>
+                  <idno>S1177</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1206</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>190</height>
+                              <depth>63</depth>
+                              <width>82</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_82 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Philip</forename>
+                     <surname>Laurenius</surname>
+                  </persName>
+                  <death when="1887"/>
+                  <nationality key="SE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ruth Leonard</forename>
+                     <surname>Laurenius</surname>
+                  </persName>
+                  <death when="1935"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="sv" decls="#f_S #c_1 #m_RS #t_P">
-        <ab>
-          <hi rend="gothic">Löjtnant Philip Laurenius</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">Född i Linköping Sverige</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">Död i Rom 4 Mai 1887</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">"Thou wilt keep him in perfect</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">Peace</hi>
-        </ab>
-        <ab/>
-        <ab>
-          <hi rend="gothic">Ruth Leonard Laurenius</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">Born Baltimore MA.,U.S.A.</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">Died Rome Nov.18.1935</hi>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1177"
+               ulx="1732.62544"
+               uly="561.595943"
+               lrx="1742.857596"
+               lry="566.880683"
+               points="1732.737881,561.595943 1742.857596,561.820825 1742.745154,566.880683 1732.62544,566.6558 ">
+            <graphic url="film:_H/26201"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="sv" decls="#f_S #c_1 #m_RS #t_P">
+            <ab>
+               <hi rend="gothic">Löjtnant Philip Laurenius</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">Född i Linköping Sverige</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">Död i Rom 4 Mai 1887</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">"Thou wilt keep him in perfect</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">Peace</hi>
+            </ab>
+            <ab/>
+            <ab>
+               <hi rend="gothic">Ruth Leonard Laurenius</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">Born Baltimore MA.,U.S.A.</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">Died Rome Nov.18.1935</hi>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

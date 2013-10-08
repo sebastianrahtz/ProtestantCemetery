@@ -1,78 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1822.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1822.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1822</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1822">
-          <msIdentifier>
-            <idno>S1822</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">489</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <dim type="diameter">27</dim>
-                  </dimensions>
-                </extent>
-                <condition>unrecorded</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">round</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Hermann</forename>
-              <surname>Wittig</surname>
-            </persName>
-            <death when="1882"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1822</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1822">
+               <msIdentifier>
+                  <idno>S1822</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">489</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <dim type="diameter">27</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>unrecorded</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">round</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Hermann</forename>
+                     <surname>Wittig</surname>
+                  </persName>
+                  <death when="1882"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>HIER RUHET</ab>
-        <ab>DER MEDAILLEUR</ab>
-        <ab>HERMANN WITTIG</ab>
-        <ab>GEB. 4 JULI 1845</ab>
-        <ab>GEST. 4 APRIL 1882</ab>
-        <ab/>
-        <ab>GEWIDMET VON SEINER BRAUT</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_PC">
-        <ab>WAS WIR GEWESSEN SEID IHR</ab>
-        <ab>WAS WIR SIND WERDET IHR SEIN</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1822"
+               ulx="2393.803257"
+               uly="540.619159"
+               lrx="2402.205938"
+               lry="549.256357"
+               points="2393.803257,541.118909 2401.690322,540.619159 2402.205938,548.756607 2394.318872,549.256357 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>HIER RUHET</ab>
+            <ab>DER MEDAILLEUR</ab>
+            <ab>HERMANN WITTIG</ab>
+            <ab>GEB. 4 JULI 1845</ab>
+            <ab>GEST. 4 APRIL 1882</ab>
+            <ab/>
+            <ab>GEWIDMET VON SEINER BRAUT</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_PC">
+            <ab>WAS WIR GEWESSEN SEID IHR</ab>
+            <ab>WAS WIR SIND WERDET IHR SEIN</ab>
+         </div>
+      </body>
   </text>
 </TEI>

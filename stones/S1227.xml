@@ -1,78 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1227.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1227.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1227</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1227">
-          <msIdentifier>
-            <idno>S1227</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1852</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>151</height>
-                    <depth>16</depth>
-                    <width>79</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Friedrick</forename>
-              <surname>Wigand</surname>
-            </persName>
-            <death when="1853"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1227</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1227">
+               <msIdentifier>
+                  <idno>S1227</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1852</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>151</height>
+                              <depth>16</depth>
+                              <width>79</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Friedrick</forename>
+                     <surname>Wigand</surname>
+                  </persName>
+                  <death when="1853"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_I #t_P">
-        <ab>HIER RUHT</ab>
-        <ab>FRIEDRICH WIGAND</ab>
-        <ab>GEB: XI AUGUST MDCCLVL</ab>
-        <ab>GEST: VI AUGUST MDCCCLIII</ab>
-        <ab/>
-        <ab>EIN BIEDERMANN</ab>
-        <ab>ALS GATTE VATER FREUND</ab>
-        <ab>GELIEBT UND GEACHTET</ab>
-        <ab>UND GESCHAETZT ALS</ab>
-        <ab>KUENSTLER</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1227"
+               ulx="1548.474126"
+               uly="587.282243"
+               lrx="1558.652213"
+               lry="607.491258"
+               points="1549.086885,587.282243 1558.652213,587.57656 1558.039453,607.491258 1548.474126,607.196941 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_I #t_P">
+            <ab>HIER RUHT</ab>
+            <ab>FRIEDRICH WIGAND</ab>
+            <ab>GEB: XI AUGUST MDCCLVL</ab>
+            <ab>GEST: VI AUGUST MDCCCLIII</ab>
+            <ab/>
+            <ab>EIN BIEDERMANN</ab>
+            <ab>ALS GATTE VATER FREUND</ab>
+            <ab>GELIEBT UND GEACHTET</ab>
+            <ab>UND GESCHAETZT ALS</ab>
+            <ab>KUENSTLER</ab>
+         </div>
+      </body>
   </text>
 </TEI>

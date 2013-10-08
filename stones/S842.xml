@@ -1,94 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S842.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S842.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 842</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S842">
-          <msIdentifier>
-            <idno>S842</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">387</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>83</height>
-                    <depth>10</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_80 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Ernst</forename>
-              <surname>Pollak</surname>
-            </persName>
-            <death when="1967"/>
-            <nationality key="AT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Kathe</forename>
-              <surname>Pollak</surname>
-            </persName>
-            <death when="1983"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 842</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S842">
+               <msIdentifier>
+                  <idno>S842</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">387</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>83</height>
+                              <depth>10</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_80 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Ernst</forename>
+                     <surname>Pollak</surname>
+                  </persName>
+                  <death when="1967"/>
+                  <nationality key="AT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Kathe</forename>
+                     <surname>Pollak</surname>
+                  </persName>
+                  <death when="1983"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>INDER EWIGEN STADT</ab>
-        <ab>FANDEN EINE NEUE HEIMAT</ab>
-        <ab>UND HIER RUHEND FRIEDEN</ab>
-        <ab/>
-        <ab>ERNST POLLACK</ab>
-        <ab>VERLEGER</ab>
-        <ab>GEB. 3-XII-1893</ab>
-        <ab>IN JÄGERNDORF - ÖSTERREICH</ab>
-        <ab>GEST. 8-III-1967 IN ROM</ab>
-        <ab/>
-        <ab>KÄTHE POLLAK GEB. FALK</ab>
-        <ab>GEB. 30-XII-1901 IN BONN</ab>
-        <ab>GEST. 25-V-1983 IN ROM</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S842"
+               ulx="1545.364264"
+               uly="415.10506499999997"
+               lrx="1554.823917"
+               lry="418.386985"
+               points="1545.412528,415.10506499999997 1554.823917,415.249855 1554.775653,418.386985 1545.364264,418.24219400000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>INDER EWIGEN STADT</ab>
+            <ab>FANDEN EINE NEUE HEIMAT</ab>
+            <ab>UND HIER RUHEND FRIEDEN</ab>
+            <ab/>
+            <ab>ERNST POLLACK</ab>
+            <ab>VERLEGER</ab>
+            <ab>GEB. 3-XII-1893</ab>
+            <ab>IN JÄGERNDORF - ÖSTERREICH</ab>
+            <ab>GEST. 8-III-1967 IN ROM</ab>
+            <ab/>
+            <ab>KÄTHE POLLAK GEB. FALK</ab>
+            <ab>GEB. 30-XII-1901 IN BONN</ab>
+            <ab>GEST. 25-V-1983 IN ROM</ab>
+         </div>
+      </body>
   </text>
 </TEI>

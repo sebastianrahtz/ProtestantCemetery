@@ -1,106 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S165.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S165.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 165</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S165">
-          <msIdentifier>
-            <idno>S165</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1791</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>182</height>
-                    <depth>30</depth>
-                    <width>76</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_120 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John Hugh</forename>
-              <surname>Maclean</surname>
-            </persName>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <age>29</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Margaret</forename>
-              <surname>Maclean</surname>
-            </persName>
-            <death when="1826-02-06">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 165</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S165">
+               <msIdentifier>
+                  <idno>S165</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1791</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>182</height>
+                              <depth>30</depth>
+                              <width>76</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_120 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John Hugh</forename>
+                     <surname>Maclean</surname>
+                  </persName>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <age>29</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Margaret</forename>
+                     <surname>Maclean</surname>
+                  </persName>
+                  <death when="1826-02-06">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>SACRED <emph>to the</emph> MEMORY</ab>
-        <ab>
-          <emph>of</emph>
-        </ab>
-        <ab>JOHN HUGH MACLEAN</ab>
-        <ab>SON OF ALEXR. MACLEAN</ab>
-        <ab>
-          <emph>of</emph>
-        </ab>
-        <ab>ARDGOWAR CO.ARGYLE</ab>
-        <ab>
-          <emph>and the</emph>
-        </ab>
-        <ab>LADY MARGT MACLEAN</ab>
-        <ab>DIED AT ROME FEBR. 6TH 1826</ab>
-        <ab>AGED 29 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S165"
+               ulx="1270.762114"
+               uly="297.614959"
+               lrx="1279.45163"
+               lry="301.625491"
+               points="1279.45163,298.180034 1271.014145,297.614959 1270.762114,301.06039899999996 1279.199408,301.625491 ">
+            <graphic url="film:P/19"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>SACRED <emph>to the</emph> MEMORY</ab>
+            <ab>
+               <emph>of</emph>
+            </ab>
+            <ab>JOHN HUGH MACLEAN</ab>
+            <ab>SON OF ALEXR. MACLEAN</ab>
+            <ab>
+               <emph>of</emph>
+            </ab>
+            <ab>ARDGOWAR CO.ARGYLE</ab>
+            <ab>
+               <emph>and the</emph>
+            </ab>
+            <ab>LADY MARGT MACLEAN</ab>
+            <ab>DIED AT ROME FEBR. 6TH 1826</ab>
+            <ab>AGED 29 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

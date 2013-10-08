@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2162.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2162.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2162</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2162">
-          <msIdentifier>
-            <idno>S2162</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1922</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>136</height>
-                    <depth>24</depth>
-                    <width>82</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Bernhard</forename>
-              <surname>Lundstedt</surname>
-            </persName>
-            <death when="1914"/>
-            <nationality key="SE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2162</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2162">
+               <msIdentifier>
+                  <idno>S2162</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1922</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>136</height>
+                              <depth>24</depth>
+                              <width>82</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Bernhard</forename>
+                     <surname>Lundstedt</surname>
+                  </persName>
+                  <death when="1914"/>
+                  <nationality key="SE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="sv" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>BIBLIOTEKARIEN</ab>
-        <ab>FILOSOFIE DOKTOR</ab>
-        <ab>BERNARD LUNDSTEDT</ab>
-        <ab>* 11.6.1846 I STOCKHOLM</ab>
-        <ab>+ 24.3.1914 I CASTELLAMARE</ab>
-        <ab>--------------</ab>
-        <ab>"ALLT STÅR I GUDS HAND"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2162"
+               ulx="2819.010058"
+               uly="398.99258299999997"
+               lrx="2827.877797"
+               lry="402.382959"
+               points="2819.079514,398.99258299999997 2827.877797,399.183583 2827.808342,402.382959 2819.010058,402.191958 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="sv" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>BIBLIOTEKARIEN</ab>
+            <ab>FILOSOFIE DOKTOR</ab>
+            <ab>BERNARD LUNDSTEDT</ab>
+            <ab>* 11.6.1846 I STOCKHOLM</ab>
+            <ab>+ 24.3.1914 I CASTELLAMARE</ab>
+            <ab>--------------</ab>
+            <ab>"ALLT STÅR I GUDS HAND"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

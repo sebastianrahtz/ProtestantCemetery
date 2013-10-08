@@ -1,79 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2449.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2449.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2449</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2449">
-          <msIdentifier>
-            <idno>S2449</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1346</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>86</height>
-                    <depth>9</depth>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Dirk</forename>
-              <surname>Boltjes</surname>
-            </persName>
-            <death when="1926"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2449</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2449">
+               <msIdentifier>
+                  <idno>S2449</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1346</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>86</height>
+                              <depth>9</depth>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Dirk</forename>
+                     <surname>Boltjes</surname>
+                  </persName>
+                  <death when="1926"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="nl" decls="#f_S #c_2 #m_I #t_P">
-        <ab>DIRK BOLTJES</ab>
-        <ab>ECHTGENOOT VAN</ab>
-        <ab>E.C. TER. HAAR</ab>
-        <ab>GEBOREN TE DEVENTER</ab>
-        <ab>12.AUGUSTUS 1872</ab>
-        <ab>OVERLEDEN TE ROMA</ab>
-        <ab>7 AUGUSTUS 1926</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2449"
+               ulx="2994.174964"
+               uly="289.745007"
+               lrx="2999.798582"
+               lry="292.04423299999996"
+               points="2994.174964,289.804268 2999.774878,289.745007 2999.798582,291.98497199999997 2994.198668,292.04423299999996 ">
+            <graphic url="film:K/8"/>
+            <graphic url="film:K/8"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="nl" decls="#f_S #c_2 #m_I #t_P">
+            <ab>DIRK BOLTJES</ab>
+            <ab>ECHTGENOOT VAN</ab>
+            <ab>E.C. TER. HAAR</ab>
+            <ab>GEBOREN TE DEVENTER</ab>
+            <ab>12.AUGUSTUS 1872</ab>
+            <ab>OVERLEDEN TE ROMA</ab>
+            <ab>7 AUGUSTUS 1926</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S107.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S107.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 107</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S107">
-          <msIdentifier>
-            <idno>S107</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">513</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>143</height>
-                    <depth>35</depth>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>89</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Mary Davison</forename>
-              <surname>Hennen</surname>
-            </persName>
-            <birth when="1831-01-28">
-              <placeName>
-                <settlement>New Orleans</settlement>
-                <country>USA</country>
-              </placeName>
-            </birth>
-            <death when="1920-06-14"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 107</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S107">
+               <msIdentifier>
+                  <idno>S107</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">513</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>143</height>
+                              <depth>35</depth>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>89</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Mary Davison</forename>
+                     <surname>Hennen</surname>
+                  </persName>
+                  <birth when="1831-01-28">
+                     <placeName>
+                        <settlement>New Orleans</settlement>
+                        <country>USA</country>
+                     </placeName>
+                  </birth>
+                  <death when="1920-06-14"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>IN LOVING MEMORY</ab>
-        <ab>OF</ab>
-        <ab>MARY DAVISON HENNEN</ab>
-        <ab>WIDOW OF</ab>
-        <ab>THOMAS CAPEL BROADWOOD</ab>
-        <ab>BORN NEW ORLEANS U.S.A. JAN 28 - 1831</ab>
-        <ab>DIED ROME JUNE 14 - 1920</ab>
-        <ab>R.I.P</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S107"
+               ulx="1216.821664"
+               uly="237.75942899999995"
+               lrx="1221.872446"
+               lry="242.02126099999998"
+               points="1221.872446,237.878147 1216.939958,237.75942899999995 1216.821664,241.90252599999997 1221.753962,242.02126099999998 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>IN LOVING MEMORY</ab>
+            <ab>OF</ab>
+            <ab>MARY DAVISON HENNEN</ab>
+            <ab>WIDOW OF</ab>
+            <ab>THOMAS CAPEL BROADWOOD</ab>
+            <ab>BORN NEW ORLEANS U.S.A. JAN 28 - 1831</ab>
+            <ab>DIED ROME JUNE 14 - 1920</ab>
+            <ab>R.I.P</ab>
+         </div>
+      </body>
   </text>
 </TEI>

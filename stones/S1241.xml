@@ -1,99 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1241.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1241.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1241</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1241">
-          <msIdentifier>
-            <idno>S1241</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="BOOK">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>41</height>
-                    <depth>4</depth>
-                    <width>55</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_14 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Viktor</forename>
-              <surname>Miller</surname>
-            </persName>
-            <death when="1960"/>
-            <nationality key="CZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maria Anna</forename>
-              <surname>Miller</surname>
-            </persName>
-            <death when="1974"/>
-            <nationality key="CZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1241</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1241">
+               <msIdentifier>
+                  <idno>S1241</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="BOOK">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>41</height>
+                              <depth>4</depth>
+                              <width>55</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_14 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Viktor</forename>
+                     <surname>Miller</surname>
+                  </persName>
+                  <death when="1960"/>
+                  <nationality key="CZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maria Anna</forename>
+                     <surname>Miller</surname>
+                  </persName>
+                  <death when="1974"/>
+                  <nationality key="CZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="cs" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>VIKTOR MILLER</ab>
-        <ab>PLK.ČSL.LEGIÍ V ITALII</ab>
-        <ab>PRAHA 13–04–1885</ab>
-        <ab>ŘÍM 17–11–1960</ab>
-        <ab>DR. MARIA ANNA MILLER</ab>
-        <ab>ROZ. BROFTOVA</ab>
-        <ab>PRAHA 31–07–1902</ab>
-        <ab>ŘÍM 5–01–1974</ab>
-        <ab rend="Alignl">
-          <note> Lang is Czech. Latin letters with accents above.</note>
-        </ab>
-      </div>
-      <div type="inscription" xml:lang="cs" decls="#f_S #c_1 #m_IC #t_PC #s_CY">
-        <ab>PŘIJĎTEŽ KE MNĚ</ab>
-        <ab>VŠICKNI, KDOŽ</ab>
-        <ab>PRACUJETE</ab>
-        <ab>A OBTÍŽENI</ab>
-        <ab>JSTE, A JÁ VÁM</ab>
-        <ab>ODPOČINUTÍ DÁM.</ab>
-        <ab>EV. SV. MATOUŠE,</ab>
-        <ab>KAP. XI., VERŠ 28</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1241"
+               ulx="1722.702627"
+               uly="588.22354"
+               lrx="1731.383815"
+               lry="591.95958"
+               points="1722.75621,588.22354 1731.383815,588.351672 1731.330232,591.95958 1722.702627,591.831448 ">
+            <graphic url="film:K/24"/>
+            <graphic url="film:K/24"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="cs" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>VIKTOR MILLER</ab>
+            <ab>PLK.ČSL.LEGIÍ V ITALII</ab>
+            <ab>PRAHA 13–04–1885</ab>
+            <ab>ŘÍM 17–11–1960</ab>
+            <ab>DR. MARIA ANNA MILLER</ab>
+            <ab>ROZ. BROFTOVA</ab>
+            <ab>PRAHA 31–07–1902</ab>
+            <ab>ŘÍM 5–01–1974</ab>
+            <ab rend="Alignl">
+               <note> Lang is Czech. Latin letters with accents above.</note>
+            </ab>
+         </div>
+         <div type="inscription"
+              xml:lang="cs"
+              decls="#f_S #c_1 #m_IC #t_PC #s_CY">
+            <ab>PŘIJĎTEŽ KE MNĚ</ab>
+            <ab>VŠICKNI, KDOŽ</ab>
+            <ab>PRACUJETE</ab>
+            <ab>A OBTÍŽENI</ab>
+            <ab>JSTE, A JÁ VÁM</ab>
+            <ab>ODPOČINUTÍ DÁM.</ab>
+            <ab>EV. SV. MATOUŠE,</ab>
+            <ab>KAP. XI., VERŠ 28</ab>
+         </div>
+      </body>
   </text>
 </TEI>

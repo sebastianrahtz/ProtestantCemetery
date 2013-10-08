@@ -1,100 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1934.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1934.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1934</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1934">
-          <msIdentifier>
-            <idno>S1934</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2266</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COPE">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>125</height>
-                    <depth>55</depth>
-                    <width>48</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_123 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_123 #st_B #f_E"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Laura</forename>
-              <surname>Maxwell</surname>
-            </persName>
-            <death when="1891"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Henry Hamilton</forename>
-              <surname>Maxwell</surname>
-            </persName>
-            <death when="1892"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1934</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1934">
+               <msIdentifier>
+                  <idno>S1934</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2266</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COPE">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>125</height>
+                              <depth>55</depth>
+                              <width>48</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_123 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_123 #st_B #f_E"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Laura</forename>
+                     <surname>Maxwell</surname>
+                  </persName>
+                  <death when="1891"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henry Hamilton</forename>
+                     <surname>Maxwell</surname>
+                  </persName>
+                  <death when="1892"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>LAURA MAXWELL</ab>
-        <ab>WIFE OF GENL H H MAXWELL R.A</ab>
-        <ab>B.2 JULY 1836 + LONDON 6 NOV 1891</ab>
-        <ab>SLEEP ON BELOVED</ab>
-        <ab>THINE IS A PERFECT REST</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_N #c_3 #m_I #t_S">
-        <ab>HENRY HAMILTON MAXWELL</ab>
-        <ab>GENERAL ROYAL ARTILLERY (BENGAL)</ab>
-        <ab>B.3 MARCHJ1824 + ROME 28 MAY 1892</ab>
-        <ab>POST TENEBRAS LUX</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1934"
+               ulx="2458.366813"
+               uly="641.399343"
+               lrx="2474.815725"
+               lry="648.562339"
+               points="2458.366813,642.556759 2474.381693,641.399343 2474.815725,647.404923 2458.800844,648.562339 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>LAURA MAXWELL</ab>
+            <ab>WIFE OF GENL H H MAXWELL R.A</ab>
+            <ab>B.2 JULY 1836 + LONDON 6 NOV 1891</ab>
+            <ab>SLEEP ON BELOVED</ab>
+            <ab>THINE IS A PERFECT REST</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_N #c_3 #m_I #t_S">
+            <ab>HENRY HAMILTON MAXWELL</ab>
+            <ab>GENERAL ROYAL ARTILLERY (BENGAL)</ab>
+            <ab>B.3 MARCHJ1824 + ROME 28 MAY 1892</ab>
+            <ab>POST TENEBRAS LUX</ab>
+         </div>
+      </body>
   </text>
 </TEI>

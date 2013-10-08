@@ -1,105 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S665.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S665.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 665</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S665">
-          <msIdentifier>
-            <idno>S665</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2185</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>170</height>
-                    <depth>43</depth>
-                    <width>111</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Eagle looking birds frame the circle of the soul.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_95 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>J.J.</forename>
-              <surname>Frey</surname>
-            </persName>
-            <death when="1865"/>
-            <nationality key="CH"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maddalena Bartoli</forename>
-              <surname>Frey</surname>
-            </persName>
-            <death when="1894"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 665</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S665">
+               <msIdentifier>
+                  <idno>S665</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2185</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>170</height>
+                              <depth>43</depth>
+                              <width>111</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Eagle looking birds frame the circle of the soul.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_95 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>J.J.</forename>
+                     <surname>Frey</surname>
+                  </persName>
+                  <death when="1865"/>
+                  <nationality key="CH"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maddalena Bartoli</forename>
+                     <surname>Frey</surname>
+                  </persName>
+                  <death when="1894"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>HIER RUHET DIE IRDISCHE HU"LLE</ab>
-        <ab>DES VERDIENSTVOLLEN LANDSCHAFTMALERS</ab>
-        <ab>J.J. FREY.</ab>
-        <ab>GEBOREN IN BASEL DEN 27 JANUAR 1813</ab>
-        <ab>GESTORBEN IN FRASCATI DEN 30 SEPTEMBER 1865</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IF #t_PC">
-        <ab>SEINE FREUNDE UND KUNST-GENOSSEN</ab>
-        <ab>IN BASEL SETZEN IHM DIESES ANDENKEN</ab>
-        <ab>AUS LIEBE UND ACHTUNG</ab>
-      </div>
-      <div type="inscription" decls="#f_ #c_2 #m_I #t_S">
-        <ab>MADDALENA BARTOLI FREY</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_I #t_SC">
-        <ab>--------</ab>
-        <ab>QUI FU RICONGIUNTA AL MARITO</ab>
-        <ab>ADEMPIENDO AL SUO DESIDERIO</ab>
-        <ab>2 MARZO 1894</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S665"
+               ulx="1934.635225"
+               uly="312.403947"
+               lrx="1947.441681"
+               lry="321.51713500000005"
+               points="1934.635225,312.878646 1947.113043,312.403947 1947.441681,321.04243599999995 1934.963863,321.51713500000005 ">
+            <graphic url="film:_H/26195"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>HIER RUHET DIE IRDISCHE HU"LLE</ab>
+            <ab>DES VERDIENSTVOLLEN LANDSCHAFTMALERS</ab>
+            <ab>J.J. FREY.</ab>
+            <ab>GEBOREN IN BASEL DEN 27 JANUAR 1813</ab>
+            <ab>GESTORBEN IN FRASCATI DEN 30 SEPTEMBER 1865</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IF #t_PC">
+            <ab>SEINE FREUNDE UND KUNST-GENOSSEN</ab>
+            <ab>IN BASEL SETZEN IHM DIESES ANDENKEN</ab>
+            <ab>AUS LIEBE UND ACHTUNG</ab>
+         </div>
+         <div type="inscription" decls="#f_ #c_2 #m_I #t_S">
+            <ab>MADDALENA BARTOLI FREY</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_I #t_SC">
+            <ab>--------</ab>
+            <ab>QUI FU RICONGIUNTA AL MARITO</ab>
+            <ab>ADEMPIENDO AL SUO DESIDERIO</ab>
+            <ab>2 MARZO 1894</ab>
+         </div>
+      </body>
   </text>
 </TEI>

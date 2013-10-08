@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S373.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S373.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 373</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S373">
-          <msIdentifier>
-            <idno>S373</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1676</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>157</height>
-                    <depth>62</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>unrecorded</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_88 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>34</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Percy</forename>
-              <surname>Freke</surname>
-            </persName>
-            <birth when="1812"/>
-            <death when="1847-01-15"/>
-            <nationality key="UK"/>
-            <occupation>soldier</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 373</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S373">
+               <msIdentifier>
+                  <idno>S373</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1676</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>157</height>
+                              <depth>62</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>unrecorded</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_88 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>34</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Percy</forename>
+                     <surname>Freke</surname>
+                  </persName>
+                  <birth when="1812"/>
+                  <death when="1847-01-15"/>
+                  <nationality key="UK"/>
+                  <occupation>soldier</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>LIEUTENTANT COLONEL</ab>
-        <ab>THE HONORABLE</ab>
-        <ab>PERCY AUGUSTUS</ab>
-        <ab>EVANS FREKE</ab>
-        <ab>GRENADIER GUARDS</ab>
-        <ab>DIED XV JANUARY MDCCCXLVII</ab>
-        <ab>AGED XXXIV YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S373"
+               ulx="1210.875956"
+               uly="520.583139"
+               lrx="1218.728059"
+               lry="536.642857"
+               points="1218.728059,520.761138 1211.329526,520.583139 1210.875956,536.464858 1218.274489,536.642857 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>LIEUTENTANT COLONEL</ab>
+            <ab>THE HONORABLE</ab>
+            <ab>PERCY AUGUSTUS</ab>
+            <ab>EVANS FREKE</ab>
+            <ab>GRENADIER GUARDS</ab>
+            <ab>DIED XV JANUARY MDCCCXLVII</ab>
+            <ab>AGED XXXIV YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

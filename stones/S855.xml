@@ -1,96 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S855.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S855.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 855</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S855">
-          <msIdentifier>
-            <idno>S855</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">975</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>176</height>
-                    <depth>34</depth>
-                    <width>99</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_30 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>James</forename>
-              <surname>Aguet</surname>
-            </persName>
-            <death when="1932"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Helene</forename>
-              <surname>Aguet</surname>
-            </persName>
-            <death when="1935"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 855</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S855">
+               <msIdentifier>
+                  <idno>S855</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">975</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>176</height>
+                              <depth>34</depth>
+                              <width>99</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_30 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>James</forename>
+                     <surname>Aguet</surname>
+                  </persName>
+                  <death when="1932"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Helene</forename>
+                     <surname>Aguet</surname>
+                  </persName>
+                  <death when="1935"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>JAMES AGVET</ab>
-        <ab>FIRENZE 1848 - S.FELICE CIRCEO 1932</ab>
-        <ab rend="Alignr">IL SIGNORE É LA MIA ROCCA</ab>
-        <ab rend="Alignr">E LA MIA FORTEZZA</ab>
-        <ab rend="Alignr">SALMO 18–111</ab>
-        <ab>HÉLÈNE AGVET</ab>
-        <ab>1854 - 1935</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S855"
+               ulx="1712.344916"
+               uly="423.262567"
+               lrx="1721.108781"
+               lry="428.22255600000005"
+               points="1712.484447,423.262567 1721.108781,423.518373 1720.969251,428.22255600000005 1712.344916,427.96674900000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>JAMES AGVET</ab>
+            <ab>FIRENZE 1848 - S.FELICE CIRCEO 1932</ab>
+            <ab rend="Alignr">IL SIGNORE É LA MIA ROCCA</ab>
+            <ab rend="Alignr">E LA MIA FORTEZZA</ab>
+            <ab rend="Alignr">SALMO 18–111</ab>
+            <ab>HÉLÈNE AGVET</ab>
+            <ab>1854 - 1935</ab>
+         </div>
+      </body>
   </text>
 </TEI>

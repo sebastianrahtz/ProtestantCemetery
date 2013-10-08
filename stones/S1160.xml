@@ -1,100 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1160.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1160.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1160</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1160">
-          <msIdentifier>
-            <idno>S1160</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1280</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>123</height>
-                    <depth>40</depth>
-                    <width>94</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_75 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Susan</forename>
-              <surname>Taylor</surname>
-            </persName>
-            <death when="1884"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Mary Argyle</forename>
-              <surname>Taylor</surname>
-            </persName>
-            <death when="1930"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1160</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1160">
+               <msIdentifier>
+                  <idno>S1160</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1280</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>123</height>
+                              <depth>40</depth>
+                              <width>94</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_75 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Susan</forename>
+                     <surname>Taylor</surname>
+                  </persName>
+                  <death when="1884"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Mary Argyle</forename>
+                     <surname>Taylor</surname>
+                  </persName>
+                  <death when="1930"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>IN LOVING MEMORY</ab>
-        <ab>OF</ab>
-        <ab>SUSAN SPOTTSWOOD</ab>
-        <ab>DAUGHTER OF</ab>
-        <ab>CARTER AND ELIZABETH MAYO BRAXTON</ab>
-        <ab>BORN IN VIRGINIA</ab>
-        <ab>WIFE OF G.B.TAYLOR D.D.</ab>
-        <ab>DIED IN ROME MARCH 7,1884</ab>
-        <ab>IN THE TWENTY SIXTH YEAR OF HER MARRIED LIFE</ab>
-        <ab>"LOVE, SWEETNESS, GOODNESS, IN HER PERSON SHINED"</ab>
-        <ab/>
-        <ab>"WEEP NOT SHE IS NOT DEAD BUT SLEEPETH"</ab>
-        <ab/>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_S">
-        <ab>AND HER BELOVED DAUGHTER</ab>
-        <ab>MARY ARGYLE TAYLOR</ab>
-        <ab>BORN AT STAUNTON VIRGINIA JANUARY 13TH 1866</ab>
-        <ab>DIED IN ROME JANUARY 4TH 1930</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1160"
+               ulx="1986.592322"
+               uly="566.257488"
+               lrx="1995.249478"
+               lry="570.519473"
+               points="1986.592322,566.257488 1995.249478,566.257488 1995.249478,570.519473 1986.592322,570.519473 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>IN LOVING MEMORY</ab>
+            <ab>OF</ab>
+            <ab>SUSAN SPOTTSWOOD</ab>
+            <ab>DAUGHTER OF</ab>
+            <ab>CARTER AND ELIZABETH MAYO BRAXTON</ab>
+            <ab>BORN IN VIRGINIA</ab>
+            <ab>WIFE OF G.B.TAYLOR D.D.</ab>
+            <ab>DIED IN ROME MARCH 7,1884</ab>
+            <ab>IN THE TWENTY SIXTH YEAR OF HER MARRIED LIFE</ab>
+            <ab>"LOVE, SWEETNESS, GOODNESS, IN HER PERSON SHINED"</ab>
+            <ab/>
+            <ab>"WEEP NOT SHE IS NOT DEAD BUT SLEEPETH"</ab>
+            <ab/>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_S">
+            <ab>AND HER BELOVED DAUGHTER</ab>
+            <ab>MARY ARGYLE TAYLOR</ab>
+            <ab>BORN AT STAUNTON VIRGINIA JANUARY 13TH 1866</ab>
+            <ab>DIED IN ROME JANUARY 4TH 1930</ab>
+         </div>
+      </body>
   </text>
 </TEI>

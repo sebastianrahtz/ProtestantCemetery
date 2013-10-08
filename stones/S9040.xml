@@ -1,80 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9040.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9040.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9040</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9040">
-          <msIdentifier>
-            <idno>S9040</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-              <note>south of 2071</note>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">721</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="OTHER">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>3</num>
-                  <dimensions unit="cm">
-                    <height>61</height>
-                    <depth>1</depth>
-                    <width>22</width>
-                    <dim type="diameter">50</dim>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Unusual design, consisting of Roman style brick or tile, and has several apparently architectural remains embedded in it. These consist of capitals, statues and friezes. It has the appearance of a ruin.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>76</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Maria Luisa</forename>
-              <surname>Montesano</surname>
-            </persName>
-            <birth when="1882"/>
-            <death when="1968"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9040</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9040">
+               <msIdentifier>
+                  <idno>S9040</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                     <note>south of 2071</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">721</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="OTHER">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>3</num>
+                           <dimensions unit="cm">
+                              <height>61</height>
+                              <depth>1</depth>
+                              <width>22</width>
+                              <dim type="diameter">50</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Unusual design, consisting of Roman style brick or tile, and has several apparently architectural remains embedded in it. These consist of capitals, statues and friezes. It has the appearance of a ruin.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>76</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maria Luisa</forename>
+                     <surname>Montesano</surname>
+                  </persName>
+                  <birth when="1882"/>
+                  <death when="1968"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_3 #m_IC #t_S">
-        <ab>MARIA LUISA MONTESANO</ab>
-        <ab>NATA LEVI DELLA VIDA</ab>
-        <ab>2.VIII.1882–15.VI.1968</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9040"
+               ulx="2680.714137"
+               uly="277.461685"
+               lrx="2686.87649"
+               lry="279.70756700000004"
+               points="2680.716243,277.461685 2686.87649,277.46747700000003 2686.874384,279.70756700000004 2680.714137,279.701775 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_3 #m_IC #t_S">
+            <ab>MARIA LUISA MONTESANO</ab>
+            <ab>NATA LEVI DELLA VIDA</ab>
+            <ab>2.VIII.1882–15.VI.1968</ab>
+         </div>
+      </body>
   </text>
 </TEI>

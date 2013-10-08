@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S538.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S538.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 538</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S538">
-          <msIdentifier>
-            <idno>S538</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2229</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>75</depth>
-                    <width>96</width>
-                  </dimensions>
-                </extent>
-                <condition>unrecorded</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>On the top of the chest is a stone cross around which is a stone wreath.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>*</num>
-                <ptr target="#i_121 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>William</forename>
-              <surname>Younghusband</surname>
-            </persName>
-            <death when="1863"/>
-            <nationality key="AU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 538</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S538">
+               <msIdentifier>
+                  <idno>S538</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2229</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>75</depth>
+                              <width>96</width>
+                           </dimensions>
+                        </extent>
+                        <condition>unrecorded</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>On the top of the chest is a stone cross around which is a stone wreath.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>*</num>
+                        <ptr target="#i_121 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>William</forename>
+                     <surname>Younghusband</surname>
+                  </persName>
+                  <death when="1863"/>
+                  <nationality key="AU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>WILLIAM YOUNGHUSBAND ESQ.RE</ab>
-        <ab>LATE CHIEF SECRETARY</ab>
-        <ab>OF THE PROVINCE</ab>
-        <ab>OF SOUTH AUSTRALIA</ab>
-        <ab>UNDER THE BRITISH CROWN.</ab>
-        <ab>WHO DIED AT ROME</ab>
-        <ab>ON THE 5th OF MAY 1863.</ab>
-        <ab>IN THE 49.TH YEAR OF HIS AGE.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S538"
+               ulx="1949.85064"
+               uly="250.137973"
+               lrx="1964.266762"
+               lry="273.521485"
+               points="1949.85064,250.943305 1962.870174,250.137973 1964.266762,272.71615299999996 1951.247228,273.521485 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>WILLIAM YOUNGHUSBAND ESQ.RE</ab>
+            <ab>LATE CHIEF SECRETARY</ab>
+            <ab>OF THE PROVINCE</ab>
+            <ab>OF SOUTH AUSTRALIA</ab>
+            <ab>UNDER THE BRITISH CROWN.</ab>
+            <ab>WHO DIED AT ROME</ab>
+            <ab>ON THE 5th OF MAY 1863.</ab>
+            <ab>IN THE 49.TH YEAR OF HIS AGE.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

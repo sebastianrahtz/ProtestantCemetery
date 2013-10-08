@@ -1,105 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1782.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1782.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1782</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1782">
-          <msIdentifier>
-            <idno>S1782</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">849</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>152</height>
-                    <depth>20</depth>
-                    <width>93</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_164 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Alexandre</forename>
-              <surname>Chatelan</surname>
-            </persName>
-            <death when="1933"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Henriette</forename>
-              <surname>Chatelan</surname>
-            </persName>
-            <death when="1937"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Emma Braser</forename>
-              <surname>Chatelan</surname>
-            </persName>
-            <death when="1962"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1782</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1782">
+               <msIdentifier>
+                  <idno>S1782</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">849</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>152</height>
+                              <depth>20</depth>
+                              <width>93</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_164 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Alexandre</forename>
+                     <surname>Chatelan</surname>
+                  </persName>
+                  <death when="1933"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Henriette</forename>
+                     <surname>Chatelan</surname>
+                  </persName>
+                  <death when="1937"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Emma Braser</forename>
+                     <surname>Chatelan</surname>
+                  </persName>
+                  <death when="1962"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>EMMA BRASER CHATELAN</ab>
-        <ab>23.V.1892 - 17.VII.1962</ab>
-      </div>
-      <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_I #t_P">
-        <ab>ALEXANDRE CHATELAN</ab>
-        <ab>NOTRE REGRETTE</ab>
-        <ab>EPOUX FILS FRERE ET ONCLE</ab>
-        <ab>11.VI.1878 - 3.V.1933</ab>
-        <ab>------</ab>
-        <ab>HENRIETTE CHATELAN</ab>
-        <ab>17.IV.1856 - 4.V.1937</ab>
-      </div>
-      <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_RS #t_P">
-        <ab>DIEU EST AMOUR</ab>
-        <ab>MA GRACE TE SUFFIT</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1782"
+               ulx="2223.249982"
+               uly="529.561547"
+               lrx="2233.326083"
+               lry="533.082855"
+               points="2223.249982,530.203741 2233.139115,529.561547 2233.326083,532.440661 2223.43695,533.082855 ">
+            <graphic url="film:AM/11"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>EMMA BRASER CHATELAN</ab>
+            <ab>23.V.1892 - 17.VII.1962</ab>
+         </div>
+         <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_I #t_P">
+            <ab>ALEXANDRE CHATELAN</ab>
+            <ab>NOTRE REGRETTE</ab>
+            <ab>EPOUX FILS FRERE ET ONCLE</ab>
+            <ab>11.VI.1878 - 3.V.1933</ab>
+            <ab>------</ab>
+            <ab>HENRIETTE CHATELAN</ab>
+            <ab>17.IV.1856 - 4.V.1937</ab>
+         </div>
+         <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_RS #t_P">
+            <ab>DIEU EST AMOUR</ab>
+            <ab>MA GRACE TE SUFFIT</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,102 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S733.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S733.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 733</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S733">
-          <msIdentifier>
-            <idno>S733</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1459</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>144</height>
-                    <depth>10</depth>
-                    <width>52</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Enrico</forename>
-              <surname>Cardinali</surname>
-            </persName>
-            <death when="1894"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Carolina</forename>
-              <surname>Cardinali</surname>
-            </persName>
-            <death when="1917"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 733</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S733">
+               <msIdentifier>
+                  <idno>S733</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1459</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>144</height>
+                              <depth>10</depth>
+                              <width>52</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Enrico</forename>
+                     <surname>Cardinali</surname>
+                  </persName>
+                  <death when="1894"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Carolina</forename>
+                     <surname>Cardinali</surname>
+                  </persName>
+                  <death when="1917"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>ALLA CARA MEMORIA</ab>
-        <ab>DELL'AVVOCATO ENRICO CARDINALI</ab>
-        <ab>DI ANNI 59 NATO A BORGOTARO</ab>
-        <ab>MORTO A ROMA IL 3 MARZO 1894.</ab>
-        <ab>E CAROLINA SUA MOGLE</ab>
-        <ab>FIGLIA UNICA DI</ab>
-        <ab>DOUGLAS HADOW CRAWFORD</ab>
-        <ab>OF THE INDIAN CIVIL SERVICE</ab>
-        <ab>MORTA IL 30 APRILE 1917</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
-        <ab rend="Alignl">"ASPETTIAMO IL SIGNORE</ab>
-        <ab rend="Alignl">GESU CHRISTO"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S733"
+               ulx="1657.578183"
+               uly="360.66942500000005"
+               lrx="1664.95131"
+               lry="366.944427"
+               points="1656.166307,367.41505200000006 1666.049435,367.41505200000006 1666.049435,381.69068100000004 1656.166307,381.69068100000004 1657.578183,360.66942500000005 1664.95131,360.66942500000005 1664.95131,366.944427 1657.578183,366.944427 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>ALLA CARA MEMORIA</ab>
+            <ab>DELL'AVVOCATO ENRICO CARDINALI</ab>
+            <ab>DI ANNI 59 NATO A BORGOTARO</ab>
+            <ab>MORTO A ROMA IL 3 MARZO 1894.</ab>
+            <ab>E CAROLINA SUA MOGLE</ab>
+            <ab>FIGLIA UNICA DI</ab>
+            <ab>DOUGLAS HADOW CRAWFORD</ab>
+            <ab>OF THE INDIAN CIVIL SERVICE</ab>
+            <ab>MORTA IL 30 APRILE 1917</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
+            <ab rend="Alignl">"ASPETTIAMO IL SIGNORE</ab>
+            <ab rend="Alignl">GESU CHRISTO"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,69 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1521.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1521.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1521</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1521">
-          <msIdentifier>
-            <idno>S1521</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>76</height>
-                    <depth>10</depth>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Augusta Caroline Adolphin</forename>
-              <surname>Quadde</surname>
-            </persName>
-            <death when="1866"/>
-            <nationality key="DK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1521</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1521">
+               <msIdentifier>
+                  <idno>S1521</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>76</height>
+                              <depth>10</depth>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Augusta Caroline Adolphin</forename>
+                     <surname>Quadde</surname>
+                  </persName>
+                  <death when="1866"/>
+                  <nationality key="DK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="da " decls="#f_S #c_3 #m_I #t_P">
-        <ab>AUGUSTA CAROLINE ADOLPHIN [..] QUA [..]</ab>
-        <ab>FODT I DANMARK D.15 JULI 1820</ab>
-        <ab>DOD I ROM D.7 NOV. 1866</ab>
-        <ab>[.............]</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1521"
+               ulx="2426.979984"
+               uly="248.19613200000003"
+               lrx="2435.576565"
+               lry="250.97413500000005"
+               points="2426.979984,248.819926 2435.417298,248.19613200000003 2435.576565,250.35033999999996 2427.13925,250.97413500000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="da " decls="#f_S #c_3 #m_I #t_P">
+            <ab>AUGUSTA CAROLINE ADOLPHIN [..] QUA [..]</ab>
+            <ab>FODT I DANMARK D.15 JULI 1820</ab>
+            <ab>DOD I ROM D.7 NOV. 1866</ab>
+            <ab>[.............]</ab>
+         </div>
+      </body>
   </text>
 </TEI>

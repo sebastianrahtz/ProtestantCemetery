@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S270.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S270.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 270</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S270">
-          <msIdentifier>
-            <idno>S270</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>124</height>
-                    <depth>20</depth>
-                    <width>61</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_164 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Gertrude Agnes</forename>
-              <surname>Putnam</surname>
-            </persName>
-            <death when="1901-04-06"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 270</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S270">
+               <msIdentifier>
+                  <idno>S270</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>124</height>
+                              <depth>20</depth>
+                              <width>61</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_164 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Gertrude Agnes</forename>
+                     <surname>Putnam</surname>
+                  </persName>
+                  <death when="1901-04-06"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>TO THE BELOVED MEMORY</ab>
-        <ab>OF</ab>
-        <ab>GERTRVDE AGNES PVTNAM</ab>
-        <ab>WIFE OF</ab>
-        <ab>EDMVND QVINCY PVTNAM</ab>
-        <ab>AND WHO DIED</ab>
-        <ab>IN</ab>
-        <ab>ROME</ab>
-        <ab>EASTER SUNDAY</ab>
-        <ab>6TH APRIL 1901</ab>
-        <ab>----------</ab>
-        <ab>DI ANIMA GENTILE</ab>
-        <ab>DI CUORE BELLO</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S270"
+               ulx="1241.883995"
+               uly="410.080367"
+               lrx="1249.736099"
+               lry="426.140085"
+               points="1249.736099,410.258366 1242.337565,410.080367 1241.883995,425.962086 1249.282528,426.140085 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>TO THE BELOVED MEMORY</ab>
+            <ab>OF</ab>
+            <ab>GERTRVDE AGNES PVTNAM</ab>
+            <ab>WIFE OF</ab>
+            <ab>EDMVND QVINCY PVTNAM</ab>
+            <ab>AND WHO DIED</ab>
+            <ab>IN</ab>
+            <ab>ROME</ab>
+            <ab>EASTER SUNDAY</ab>
+            <ab>6TH APRIL 1901</ab>
+            <ab>----------</ab>
+            <ab>DI ANIMA GENTILE</ab>
+            <ab>DI CUORE BELLO</ab>
+         </div>
+      </body>
   </text>
 </TEI>

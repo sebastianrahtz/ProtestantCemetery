@@ -1,75 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S495.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S495.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 495</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S495">
-          <msIdentifier>
-            <idno>S495</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>188</height>
-                    <depth>27</depth>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Guilelmus</forename>
-              <surname>Schluttig</surname>
-            </persName>
-            <death when="1830"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 495</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S495">
+               <msIdentifier>
+                  <idno>S495</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>188</height>
+                              <depth>27</depth>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Guilelmus</forename>
+                     <surname>Schluttig</surname>
+                  </persName>
+                  <death when="1830"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
-        <ab>GVILELMVS.SCHLVTTIG</ab>
-        <ab>SAXO.PHILOLOGVS</ab>
-        <ab>OBIIT.ROMAE.III.ID.OCT.MDCCCXXX</ab>
-        <ab>VIXIT.ANNOS.XXVII.M.IX.D.I</ab>
-        <ab>HAVE.PIA.ANIMA</ab>
-        <ab>SIT.TIBI.TERRA.LEVIS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S495"
+               ulx="1588.192553"
+               uly="257.033367"
+               lrx="1595.196501"
+               lry="259.766615"
+               points="1588.192553,257.033367 1595.196501,257.033367 1595.196501,259.766615 1588.192553,259.766615 ">
+            <graphic url="film:J/20"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
+            <ab>GVILELMVS.SCHLVTTIG</ab>
+            <ab>SAXO.PHILOLOGVS</ab>
+            <ab>OBIIT.ROMAE.III.ID.OCT.MDCCCXXX</ab>
+            <ab>VIXIT.ANNOS.XXVII.M.IX.D.I</ab>
+            <ab>HAVE.PIA.ANIMA</ab>
+            <ab>SIT.TIBI.TERRA.LEVIS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

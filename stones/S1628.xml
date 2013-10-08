@@ -1,103 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1628.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1628.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1628</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1628">
-          <msIdentifier>
-            <idno>S1628</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2470</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>96</height>
-                    <depth>35</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>The dove is holding the olive branch in its beak.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_39 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_117 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Carl Michael</forename>
-              <surname>Runeberg</surname>
-            </persName>
-            <death when="1871"/>
-            <nationality key="SE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Walter Fredrik</forename>
-              <surname>Runeberg</surname>
-            </persName>
-            <death when="1872"/>
-            <nationality key="SE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maria</forename>
-              <surname>Runeberg</surname>
-            </persName>
-            <death when="1873"/>
-            <nationality key="SE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1628</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1628">
+               <msIdentifier>
+                  <idno>S1628</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2470</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>96</height>
+                              <depth>35</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>The dove is holding the olive branch in its beak.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_39 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_117 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Carl Michael</forename>
+                     <surname>Runeberg</surname>
+                  </persName>
+                  <death when="1871"/>
+                  <nationality key="SE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Walter Fredrik</forename>
+                     <surname>Runeberg</surname>
+                  </persName>
+                  <death when="1872"/>
+                  <nationality key="SE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maria</forename>
+                     <surname>Runeberg</surname>
+                  </persName>
+                  <death when="1873"/>
+                  <nationality key="SE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="sv" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>CARL MICHAEL RUNEBERG</ab>
-        <ab>FÖDD 13.9.1869 DÖD 15.12.1871</ab>
-        <ab>WALTER FREDERIK RUNEBERG</ab>
-        <ab>FÖDD 11.3.1871 DÖD 4.1.1872</ab>
-        <ab>MARIA RUNEBERG</ab>
-        <ab>DÖD 19.10.1873</ab>
-        <ab/>
-        <ab>FRID VARE EDER</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1628"
+               ulx="2554.157477"
+               uly="328.153236"
+               lrx="2562.489097"
+               lry="331.71043199999997"
+               points="2554.157477,328.71747300000004 2562.28122,328.153236 2562.489097,331.14619400000004 2554.365354,331.71043199999997 ">
+            <graphic url="film:AM/0"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="sv" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>CARL MICHAEL RUNEBERG</ab>
+            <ab>FÖDD 13.9.1869 DÖD 15.12.1871</ab>
+            <ab>WALTER FREDERIK RUNEBERG</ab>
+            <ab>FÖDD 11.3.1871 DÖD 4.1.1872</ab>
+            <ab>MARIA RUNEBERG</ab>
+            <ab>DÖD 19.10.1873</ab>
+            <ab/>
+            <ab>FRID VARE EDER</ab>
+         </div>
+      </body>
   </text>
 </TEI>

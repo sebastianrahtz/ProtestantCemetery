@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9032.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9032.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9032</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9032">
-          <msIdentifier>
-            <idno>S9032</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-              <note>west of 2466</note>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>61</height>
-                    <depth>14</depth>
-                    <width>34</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>61</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Katherine</forename>
-              <surname>Davis</surname>
-            </persName>
-            <birth when="1873"/>
-            <death when="1934"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9032</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9032">
+               <msIdentifier>
+                  <idno>S9032</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                     <note>west of 2466</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>61</height>
+                              <depth>14</depth>
+                              <width>34</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>61</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Katherine</forename>
+                     <surname>Davis</surname>
+                  </persName>
+                  <birth when="1873"/>
+                  <death when="1934"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>"THEY REST FROM THEIR LABOURS"</ab>
-        <ab>KATHARINE DAVIS</ab>
-        <ab>LLANDOCH WALES 27 AUG.1873</ab>
-        <ab>ROME 9 DEC.1934</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>KATHARINE DAVIS</ab>
-        <ab>LLANDOCH WALES 27 AUG.1873</ab>
-        <ab>ROME 9 DEC.1931</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9032"
+               ulx="3093.860347"
+               uly="331.89066"
+               lrx="3099.254404"
+               lry="334.79950099999996"
+               points="3093.819303,323.97556099999997 3095.862851,324.01992400000006 3095.930733,321.728884 3097.482611,321.79644700000006 3097.416386,324.122606 3099.53183,324.19877499999996 3099.447376,326.13862100000006 3097.649663,326.08265900000004 3097.504974,331.96746700000006 3095.672142,331.91316100000006 3095.816831,326.02835200000004 3093.773283,325.98398999999995 3093.819303,323.97556099999997 3093.911205,331.89066 3099.254404,331.987291 3099.203546,334.79950099999996 3093.860347,334.70286999999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>"THEY REST FROM THEIR LABOURS"</ab>
+            <ab>KATHARINE DAVIS</ab>
+            <ab>LLANDOCH WALES 27 AUG.1873</ab>
+            <ab>ROME 9 DEC.1934</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>KATHARINE DAVIS</ab>
+            <ab>LLANDOCH WALES 27 AUG.1873</ab>
+            <ab>ROME 9 DEC.1931</ab>
+         </div>
+      </body>
   </text>
 </TEI>

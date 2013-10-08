@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1471.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1471.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1471</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1471">
-          <msIdentifier>
-            <idno>S1471</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">429</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>193</height>
-                    <depth>16</depth>
-                    <width>96</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Giacomo Ferdinando</forename>
-              <surname>Natta</surname>
-            </persName>
-            <death when="1960"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Antonino</forename>
-              <surname>Virduzzo</surname>
-            </persName>
-            <death when="1982"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1471</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1471">
+               <msIdentifier>
+                  <idno>S1471</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">429</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>193</height>
+                              <depth>16</depth>
+                              <width>96</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Giacomo Ferdinando</forename>
+                     <surname>Natta</surname>
+                  </persName>
+                  <death when="1960"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Antonino</forename>
+                     <surname>Virduzzo</surname>
+                  </persName>
+                  <death when="1982"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IC #t_P">
-        <ab>GIACOMO FERDINANDO</ab>
-        <ab>NATTA</ab>
-        <ab>SCRITTORE</ab>
-        <ab>VALLECROSIA 17.1.1892</ab>
-        <ab>ROMA 16.5.1960</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IC #t_S">
-        <ab>ANTONINO VIRDUZZO</ab>
-        <ab>SCULTORE</ab>
-        <ab>NEW YORK 21.3.1926</ab>
-        <ab>ROMA 23.4.1982</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1471"
+               ulx="2344.594724"
+               uly="203.16832899999997"
+               lrx="2355.933239"
+               lry="222.74334299999998"
+               points="2344.594724,203.95151599999997 2354.438063,203.16832899999997 2355.933239,221.96015599999998 2346.0899,222.74334299999998 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IC #t_P">
+            <ab>GIACOMO FERDINANDO</ab>
+            <ab>NATTA</ab>
+            <ab>SCRITTORE</ab>
+            <ab>VALLECROSIA 17.1.1892</ab>
+            <ab>ROMA 16.5.1960</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IC #t_S">
+            <ab>ANTONINO VIRDUZZO</ab>
+            <ab>SCULTORE</ab>
+            <ab>NEW YORK 21.3.1926</ab>
+            <ab>ROMA 23.4.1982</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,85 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2330.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2330.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2330</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2330">
-          <msIdentifier>
-            <idno>S2330</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>320</height>
-                    <depth>68</depth>
-                    <width>150</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>*</num>
-                <ptr target="#i_45 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Natalija</forename>
-              <surname>Mexqerskaja</surname>
-            </persName>
-            <death when="1906"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2330</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2330">
+               <msIdentifier>
+                  <idno>S2330</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>320</height>
+                              <depth>68</depth>
+                              <width>150</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>*</num>
+                        <ptr target="#i_45 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Natalija</forename>
+                     <surname>Mexqerskaja</surname>
+                  </persName>
+                  <death when="1906"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_1 #m_RM #t_P #s_CY">
-        <ab>КНЙАГИНЙА.НАТАЛИЯ.АЛЕКСѢЕВНА-МЕЬЯЕРСКАЯ.РОЖДЕННАЯ.ГРАФИНЯ.МУСИН"-ПУЬКИНА</ab>
-        <ab>РОДИЛАС'.24.АВГУСТА.1863г.СКОНЯАЛАС'.</ab>
-        <ab>18.ЙАНВАРЯ 1906Г.</ab>
-        <ab>БЛАЖЕННЫ.ЯИСТЫЕ.СЕРДЦЕМ".ИБО.ОНИ.БОГА.УЗРЯТ"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2330"
+               ulx="2846.986434"
+               uly="698.240399"
+               lrx="2857.97824"
+               lry="703.997074"
+               points="2847.709462,698.9386939999999 2850.1795,698.666964 2852.642232,698.240399 2854.53677,698.9268979999999 2856.261862,699.3110340000001 2857.566289,700.646092 2857.927098,701.715318 2857.97824,702.799156 2855.965399,702.894134 2854.579198,703.114722 2852.905248,703.814424 2850.892407,703.909402 2849.034398,703.997074 2847.935948,703.738548 2847.088718,702.2267380000001 2846.986434,700.059062 2847.709462,698.9386939999999 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_1 #m_RM #t_P #s_CY">
+            <ab>КНЙАГИНЙА.НАТАЛИЯ.АЛЕКСѢЕВНА-МЕЬЯЕРСКАЯ.РОЖДЕННАЯ.ГРАФИНЯ.МУСИН"-ПУЬКИНА</ab>
+            <ab>РОДИЛАС'.24.АВГУСТА.1863г.СКОНЯАЛАС'.</ab>
+            <ab>18.ЙАНВАРЯ 1906Г.</ab>
+            <ab>БЛАЖЕННЫ.ЯИСТЫЕ.СЕРДЦЕМ".ИБО.ОНИ.БОГА.УЗРЯТ"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

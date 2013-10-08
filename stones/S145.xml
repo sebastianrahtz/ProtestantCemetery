@@ -1,86 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S145.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S145.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 145</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S145">
-          <msIdentifier>
-            <idno>S145</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1781</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>120</height>
-                    <depth>170</depth>
-                    <width>186</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_35 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_35 #st_B #f_E"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>29</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Charlotte Albinia</forename>
-              <surname>Stopford</surname>
-            </persName>
-            <death when="1828-02-29"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 145</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S145">
+               <msIdentifier>
+                  <idno>S145</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1781</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>120</height>
+                              <depth>170</depth>
+                              <width>186</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_35 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_35 #st_B #f_E"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>29</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Charlotte Albinia</forename>
+                     <surname>Stopford</surname>
+                  </persName>
+                  <death when="1828-02-29"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>LADY CHARLOTTE ALBINIA STOPFORD</ab>
-        <ab>WIFE OF</ab>
-        <ab>JAMES THOMAS VISCOUNT STOPFORD</ab>
-        <ab>WHO DEPARTED THIS LIFE ON THE 29th DAY OF FEBRUARY 1828</ab>
-        <ab>IN THE 29th YEAR OF HER AGE</ab>
-        <ab>"But God hath delivered my soul from the place of hell</ab>
-        <ab>for he shall receive me" 49th Psalm 15th v.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S145"
+               ulx="971.131535"
+               uly="278.84130000000005"
+               lrx="989.767307"
+               lry="290.33025699999996"
+               points="989.767307,279.281919 971.447188,278.84130000000005 971.131535,289.889448 989.451672,290.33025699999996 ">
+            <graphic url="film:_H/26229"/>
+            <graphic url="film:_H/26230"/>
+            <graphic url="film:K/35"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>LADY CHARLOTTE ALBINIA STOPFORD</ab>
+            <ab>WIFE OF</ab>
+            <ab>JAMES THOMAS VISCOUNT STOPFORD</ab>
+            <ab>WHO DEPARTED THIS LIFE ON THE 29th DAY OF FEBRUARY 1828</ab>
+            <ab>IN THE 29th YEAR OF HER AGE</ab>
+            <ab>"But God hath delivered my soul from the place of hell</ab>
+            <ab>for he shall receive me" 49th Psalm 15th v.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

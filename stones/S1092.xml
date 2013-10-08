@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1092.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1092.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1092</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1092">
-          <msIdentifier>
-            <idno>S1092</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1512</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>199</height>
-                    <depth>15</depth>
-                    <width>105</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Frederik Beaufort</forename>
-              <surname>Scott</surname>
-            </persName>
-            <death when="1903"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1092</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1092">
+               <msIdentifier>
+                  <idno>S1092</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1512</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>199</height>
+                              <depth>15</depth>
+                              <width>105</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Frederik Beaufort</forename>
+                     <surname>Scott</surname>
+                  </persName>
+                  <death when="1903"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_IF #t_P">
-        <ab>SACRED TO THE MEMORY OF</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>COLONEL FREDERIK BEAUFORT SCOTT C.M.G. LATE R.A.M.C.</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IF #t_P">
-        <ab>BORN 9TH OCTOBER 1838 DIED 26TH APRIL 1903</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_N #c_2 #m_IF #t_PC">
-        <ab>"BLESSED ARE THE DEAD WHICH DIE IN THE LORD"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1092"
+               ulx="1392.328046"
+               uly="528.432378"
+               lrx="1400.963083"
+               lry="548.834294"
+               points="1393.111006,528.432378 1400.963083,528.738303 1400.180122,548.834294 1392.328046,548.528369 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_IF #t_P">
+            <ab>SACRED TO THE MEMORY OF</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>COLONEL FREDERIK BEAUFORT SCOTT C.M.G. LATE R.A.M.C.</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IF #t_P">
+            <ab>BORN 9TH OCTOBER 1838 DIED 26TH APRIL 1903</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_N #c_2 #m_IF #t_PC">
+            <ab>"BLESSED ARE THE DEAD WHICH DIE IN THE LORD"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

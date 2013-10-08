@@ -1,106 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1444.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1444.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1444</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1444">
-          <msIdentifier>
-            <idno>S1444</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>22</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>VLADIMIR" ALEK</forename>
-              <surname>Den"</surname>
-            </persName>
-            <death when="1900"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>NINA DMITRIEVNA</forename>
-              <surname>Den"</surname>
-            </persName>
-            <death when="1926"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1444</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1444">
+               <msIdentifier>
+                  <idno>S1444</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>22</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>VLADIMIR" ALEK</forename>
+                     <surname>Den"</surname>
+                  </persName>
+                  <death when="1900"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>NINA DMITRIEVNA</forename>
+                     <surname>Den"</surname>
+                  </persName>
+                  <death when="1926"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IC #t_P #s_CY">
-        <ab>ВЛАДИМИР" АЛЕКСАНДРОВИЯ"</ab>
-        <ab>ДЕН"</ab>
-        <ab>РОД 8го ФЕВР 1838 Г - СКОНЯ 15го ДЕК 1900</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IC #t_S #s_CY">
-        <ab>НИНА</ab>
-        <ab>ДМИТРИЕВНА</ab>
-        <ab>ДЕН"</ab>
-        <ab/>
-        <ab>РОЖД.</ab>
-        <ab>КНЙАЖНА</ab>
-        <ab>СВЙАТОПОЛК"-</ab>
-        <ab>МИРСКАЯ</ab>
-        <ab/>
-        <ab>РОД. 18го ЙАНВ 1852 Г.</ab>
-        <ab>СКОНЯ. 1го МАЯ 1926</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1444"
+               ulx="2422.97252"
+               uly="165.76147300000002"
+               lrx="2434.134921"
+               lry="183.36879999999996"
+               points="2422.97252,166.64915700000006 2432.59204,165.76147300000002 2434.134921,182.48111600000004 2424.515401,183.36879999999996 ">
+            <graphic url="film:F/4"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IC #t_P #s_CY">
+            <ab>ВЛАДИМИР" АЛЕКСАНДРОВИЯ"</ab>
+            <ab>ДЕН"</ab>
+            <ab>РОД 8го ФЕВР 1838 Г - СКОНЯ 15го ДЕК 1900</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IC #t_S #s_CY">
+            <ab>НИНА</ab>
+            <ab>ДМИТРИЕВНА</ab>
+            <ab>ДЕН"</ab>
+            <ab/>
+            <ab>РОЖД.</ab>
+            <ab>КНЙАЖНА</ab>
+            <ab>СВЙАТОПОЛК"-</ab>
+            <ab>МИРСКАЯ</ab>
+            <ab/>
+            <ab>РОД. 18го ЙАНВ 1852 Г.</ab>
+            <ab>СКОНЯ. 1го МАЯ 1926</ab>
+         </div>
+      </body>
   </text>
 </TEI>

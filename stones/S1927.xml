@@ -1,100 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1927.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1927.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1927</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1927">
-          <msIdentifier>
-            <idno>S1927</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2281</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>210</height>
-                    <depth>47</depth>
-                    <width>95</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_19 #st_C #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_164 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Willelmus</forename>
-              <surname>Henzen</surname>
-            </persName>
-            <death when="1887"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1927</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1927">
+               <msIdentifier>
+                  <idno>S1927</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2281</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>210</height>
+                              <depth>47</depth>
+                              <width>95</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_19 #st_C #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_164 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Willelmus</forename>
+                     <surname>Henzen</surname>
+                  </persName>
+                  <death when="1887"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_IM #t_P">
-        <ab>W.HENZEN</ab>
-        <ab/>
-        <ab>H.S.E.WILLELMUS.HENZEN</ab>
-        <ab>NATUS.BREMAE.VIIII.K.FEBR.MDCCCXVI.DEF.ROMAE.VI.K.FEBR.MDCCCLXXXVII</ab>
-        <ab>INSTITUTI.ARCHAEOLOGICI.GERMANICI.DE.CVS.PER.ANNOS.AMPLIVS.XLV</ab>
-        <ab>CVIVS.SCRIPTA.ET.MERITA.NVLLA.DELEBIT.OBLIVIO</ab>
-        <ab>VALE.ANIMA.CANDIDISSIMA.VIVE.IN.DEO</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>IN.NECESSARIIS</ab>
-        <ab>U</ab>
-        <ab>VNITAS</ab>
-        <ab/>
-        <ab>IN.DVBIIS</ab>
-        <ab>LIBERTAS</ab>
-        <ab/>
-        <ab>IN.OMNIBVS.CARITAS</ab>
-        <ab rend="Alignl">
-          <note> this format is approximate</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1927"
+               ulx="2498.472723"
+               uly="605.576235"
+               lrx="2509.059345"
+               lry="611.136413"
+               points="2498.472723,606.25481 2508.736607,605.576235 2509.059345,610.457839 2498.79546,611.136413 ">
+            <graphic url="film:AM/17"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_IM #t_P">
+            <ab>W.HENZEN</ab>
+            <ab/>
+            <ab>H.S.E.WILLELMUS.HENZEN</ab>
+            <ab>NATUS.BREMAE.VIIII.K.FEBR.MDCCCXVI.DEF.ROMAE.VI.K.FEBR.MDCCCLXXXVII</ab>
+            <ab>INSTITUTI.ARCHAEOLOGICI.GERMANICI.DE.CVS.PER.ANNOS.AMPLIVS.XLV</ab>
+            <ab>CVIVS.SCRIPTA.ET.MERITA.NVLLA.DELEBIT.OBLIVIO</ab>
+            <ab>VALE.ANIMA.CANDIDISSIMA.VIVE.IN.DEO</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>IN.NECESSARIIS</ab>
+            <ab>U</ab>
+            <ab>VNITAS</ab>
+            <ab/>
+            <ab>IN.DVBIIS</ab>
+            <ab>LIBERTAS</ab>
+            <ab/>
+            <ab>IN.OMNIBVS.CARITAS</ab>
+            <ab rend="Alignl">
+               <note> this format is approximate</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

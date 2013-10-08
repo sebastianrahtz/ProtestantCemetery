@@ -1,101 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S343.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S343.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 343</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S343">
-          <msIdentifier>
-            <idno>S343</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1515</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>206</height>
-                    <depth>50</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_22 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>52</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Evelyn Frances</forename>
-              <surname>Elwes</surname>
-            </persName>
-            <birth when="1851">
-              <placeName>
-                <settlement>Colesborne Gloucestershire</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1903-04-04">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 343</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S343">
+               <msIdentifier>
+                  <idno>S343</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1515</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>206</height>
+                              <depth>50</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_22 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>52</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Evelyn Frances</forename>
+                     <surname>Elwes</surname>
+                  </persName>
+                  <birth when="1851">
+                     <placeName>
+                        <settlement>Colesborne Gloucestershire</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1903-04-04">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>SACRED TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>EVELYN FRANCES ELWES</ab>
-        <ab>OF COLESBORNE GLOUCESTERSHIRE</ab>
-        <ab>WHO DIED AT ROME</ab>
-        <ab>APRIL 4TH 1903</ab>
-        <ab>AGED 52 YEARS</ab>
-        <ab/>
-        <ab>REQUIESCAT IN PACE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S343"
+               ulx="1033.299261"
+               uly="488.66605000000004"
+               lrx="1042.656584"
+               lry="495.79159200000004"
+               points="1042.656584,488.88636900000006 1033.496619,488.66605000000004 1033.299261,495.571102 1042.459433,495.79159200000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>SACRED TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>EVELYN FRANCES ELWES</ab>
+            <ab>OF COLESBORNE GLOUCESTERSHIRE</ab>
+            <ab>WHO DIED AT ROME</ab>
+            <ab>APRIL 4TH 1903</ab>
+            <ab>AGED 52 YEARS</ab>
+            <ab/>
+            <ab>REQUIESCAT IN PACE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,85 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1537.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1537.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1537</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1537">
-          <msIdentifier>
-            <idno>S1537</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">309</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>250</height>
-                    <depth>105</depth>
-                    <width>130</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_E"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Shevket</forename>
-              <surname>Verlaci</surname>
-            </persName>
-            <death when="1946"/>
-            <nationality key="AL"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Ismail</forename>
-              <surname>Verlaci</surname>
-            </persName>
-            <death when="1985"/>
-            <nationality key="GR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1537</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1537">
+               <msIdentifier>
+                  <idno>S1537</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">309</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>250</height>
+                              <depth>105</depth>
+                              <width>130</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_E"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Shevket</forename>
+                     <surname>Verlaci</surname>
+                  </persName>
+                  <death when="1946"/>
+                  <nationality key="AL"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Ismail</forename>
+                     <surname>Verlaci</surname>
+                  </persName>
+                  <death when="1985"/>
+                  <nationality key="GR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>ISMAIL VERLACI</ab>
-        <ab>CORFÙ 15.6.1917 ROMA 22.3.1985</ab>
-        <ab>SHEVKET VERLACI</ab>
-        <ab>ELBASAN 15.12.1877 ZURIGO 21.7.1946</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1537"
+               ulx="2178.078785"
+               uly="300.457938"
+               lrx="2191.40352"
+               lry="323.97477000000003"
+               points="2178.078785,301.54310599999997 2189.21832,300.457938 2191.40352,322.88960299999997 2180.263986,323.97477000000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>ISMAIL VERLACI</ab>
+            <ab>CORFÙ 15.6.1917 ROMA 22.3.1985</ab>
+            <ab>SHEVKET VERLACI</ab>
+            <ab>ELBASAN 15.12.1877 ZURIGO 21.7.1946</ab>
+         </div>
+      </body>
   </text>
 </TEI>

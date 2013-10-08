@@ -1,90 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2412.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2412.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2412</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2412">
-          <msIdentifier>
-            <idno>S2412</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1200</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>190</height>
-                    <depth>22</depth>
-                    <width>96</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Kate de Forest Ely</forename>
-              <surname>Curtis</surname>
-            </persName>
-            <death when="1914"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Grace Woodward</forename>
-              <surname>Curtis</surname>
-            </persName>
-            <death when="1934"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2412</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2412">
+               <msIdentifier>
+                  <idno>S2412</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1200</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>190</height>
+                              <depth>22</depth>
+                              <width>96</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Kate de Forest Ely</forename>
+                     <surname>Curtis</surname>
+                  </persName>
+                  <death when="1914"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Grace Woodward</forename>
+                     <surname>Curtis</surname>
+                  </persName>
+                  <death when="1934"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RS #t_P">
-        <ab>KATE DE FOREST ELY</ab>
-        <ab>WIDOW OF</ab>
-        <ab>WALTER CURTIS</ab>
-        <ab>OF BOSTON U.S.A.</ab>
-        <ab>ROCHESTER N.Y.1843</ab>
-        <ab>ROME 1914</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RS #t_S">
-        <ab>GRACE WOODWARD CURTIS</ab>
-        <ab>DAUGHTER OF</ab>
-        <ab>WALTER AND KATE CURTIS</ab>
-        <ab>PITTSFIELD MASS 1864</ab>
-        <ab>GENEVA SWITZERLAND 1934.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2412"
+               ulx="2952.020945"
+               uly="236.00485200000003"
+               lrx="2963.311155"
+               lry="253.28379400000006"
+               points="2952.110855,236.00485200000003 2963.311155,236.06333099999995 2963.221245,253.28379400000006 2952.020945,253.22531500000002 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RS #t_P">
+            <ab>KATE DE FOREST ELY</ab>
+            <ab>WIDOW OF</ab>
+            <ab>WALTER CURTIS</ab>
+            <ab>OF BOSTON U.S.A.</ab>
+            <ab>ROCHESTER N.Y.1843</ab>
+            <ab>ROME 1914</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RS #t_S">
+            <ab>GRACE WOODWARD CURTIS</ab>
+            <ab>DAUGHTER OF</ab>
+            <ab>WALTER AND KATE CURTIS</ab>
+            <ab>PITTSFIELD MASS 1864</ab>
+            <ab>GENEVA SWITZERLAND 1934.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

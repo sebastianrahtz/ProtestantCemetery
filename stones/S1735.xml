@@ -1,95 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1735.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1735.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1735</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1735">
-          <msIdentifier>
-            <idno>S1735</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2395</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>150</height>
-                    <depth>61</depth>
-                    <width>61</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Henrietta</forename>
-              <surname>Garden</surname>
-            </persName>
-            <death when="1901"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Claudia Hamilton</forename>
-              <surname>Ramsay</surname>
-            </persName>
-            <death when="1902"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1735</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1735">
+               <msIdentifier>
+                  <idno>S1735</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2395</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>150</height>
+                              <depth>61</depth>
+                              <width>61</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Henrietta</forename>
+                     <surname>Garden</surname>
+                  </persName>
+                  <death when="1901"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Claudia Hamilton</forename>
+                     <surname>Ramsay</surname>
+                  </persName>
+                  <death when="1902"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>HENRIETTA GARDEN</ab>
-        <ab>BORN 19TH SEPTEMBER 1819</ab>
-        <ab>DIED 4TH MAY 1901</ab>
-        <ab/>
-        <ab>THERE SHALL BE NO MORE DEATH, NEITHER SORROW,</ab>
-        <ab>NOR CRYING. NEITHER SHALL THERE BE ANY MORE PAIN.</ab>
-        <ab rend="Alignr">REV 21.4</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_S">
-        <ab>AND OF HER SISTER</ab>
-        <ab>CLAUDIA HAMILTON RAMSEY</ab>
-        <ab>BORN 15TH JANUARY 1825</ab>
-        <ab>DIED 30TH JULY 1902</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1735"
+               ulx="2334.61271"
+               uly="459.86899000000005"
+               lrx="2343.364987"
+               lry="466.158589"
+               points="2334.61271,460.39974800000005 2343.000586,459.86899000000005 2343.364987,465.627831 2334.977111,466.158589 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>HENRIETTA GARDEN</ab>
+            <ab>BORN 19TH SEPTEMBER 1819</ab>
+            <ab>DIED 4TH MAY 1901</ab>
+            <ab/>
+            <ab>THERE SHALL BE NO MORE DEATH, NEITHER SORROW,</ab>
+            <ab>NOR CRYING. NEITHER SHALL THERE BE ANY MORE PAIN.</ab>
+            <ab rend="Alignr">REV 21.4</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_S">
+            <ab>AND OF HER SISTER</ab>
+            <ab>CLAUDIA HAMILTON RAMSEY</ab>
+            <ab>BORN 15TH JANUARY 1825</ab>
+            <ab>DIED 30TH JULY 1902</ab>
+         </div>
+      </body>
   </text>
 </TEI>

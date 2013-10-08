@@ -1,90 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S371.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S371.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 371</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S371">
-          <msIdentifier>
-            <idno>S371</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>113</height>
-                    <depth>10</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_164 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>59</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Hugh</forename>
-              <surname>Smith</surname>
-            </persName>
-            <birth when="1902">
-              <placeName>
-                <settlement>Melbourne</settlement>
-                <country>Australia</country>
-              </placeName>
-            </birth>
-            <death when="1961">
-              <placeName>
-                <settlement>florence</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="AU"/>
-            <occupation>diplomat</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 371</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S371">
+               <msIdentifier>
+                  <idno>S371</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>113</height>
+                              <depth>10</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_164 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>59</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Hugh</forename>
+                     <surname>Smith</surname>
+                  </persName>
+                  <birth when="1902">
+                     <placeName>
+                        <settlement>Melbourne</settlement>
+                        <country>Australia</country>
+                     </placeName>
+                  </birth>
+                  <death when="1961">
+                     <placeName>
+                        <settlement>florence</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="AU"/>
+                  <occupation>diplomat</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>HUGH ALEXANDER</ab>
-        <ab>McCLURE SMITH C.V.O.</ab>
-        <ab/>
-        <ab>H.M. AUSTRALIAN AMBASSADOR</ab>
-        <ab>TO ITALY</ab>
-        <ab/>
-        <ab>MELBOURNE 1902</ab>
-        <ab>FLORENCE 1961</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S371"
+               ulx="1185.179606"
+               uly="519.610716"
+               lrx="1191.962194"
+               lry="522.879118"
+               points="1191.962194,519.771753 1185.268275,519.610716 1185.179606,522.718081 1191.873525,522.879118 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>HUGH ALEXANDER</ab>
+            <ab>McCLURE SMITH C.V.O.</ab>
+            <ab/>
+            <ab>H.M. AUSTRALIAN AMBASSADOR</ab>
+            <ab>TO ITALY</ab>
+            <ab/>
+            <ab>MELBOURNE 1902</ab>
+            <ab>FLORENCE 1961</ab>
+         </div>
+      </body>
   </text>
 </TEI>

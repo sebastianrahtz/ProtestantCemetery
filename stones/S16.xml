@@ -1,103 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S16.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S16.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 16</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S16">
-          <msIdentifier>
-            <idno>S16</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">138</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>600</height>
-                    <width>200</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 17), (vol 1, plate 18)</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_30 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>30</age>
-            <sex>1</sex>
-            <persName>
-              <forename>William Sidney</forename>
-              <surname>Bowles</surname>
-            </persName>
-            <birth when="1776">
-              <placeName>
-                <settlement>Shropshire</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1806-11-13">
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 16</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S16">
+               <msIdentifier>
+                  <idno>S16</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">138</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>600</height>
+                              <width>200</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 17), (vol 1, plate 18)</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_30 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>30</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>William Sidney</forename>
+                     <surname>Bowles</surname>
+                  </persName>
+                  <birth when="1776">
+                     <placeName>
+                        <settlement>Shropshire</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1806-11-13">
              Cause: illness</death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
-        <ab>GVILIELMO.SIDNEY.BOWLES</ab>
-        <ab>ARMIGERO.NATIONE.BRITANNO.NOMI.SALOPIENSIS</ab>
-        <ab>QVI.VIXIT.ANN.XXX.MORUM.INTEGRITATE.ET.SVAVITATE</ab>
-        <ab>LITERARVMQVE.ET.BONARUM.ARTIVM.STVDIO.OMNIBVS.PROBATVS</ab>
-        <ab>SVIS.DESIDERABILIS.OBIIT.ROMAE.AN.MDCCCVI.DIE.XIII.NOV</ab>
-        <ab>CONIVGI.DVLCISSIMO</ab>
-        <ab>ELISABETHA.RVSHOVT.VXOR.INFELICISSIMA</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_N #c_3 #m_IF #t_P">
-        <ab>TO THE MEMORY OF</ab>
-        <ab>WILLIAM SIDNEY BOWLES ESQVIRE</ab>
-        <ab>OF BVRFORD HOVSE IN THE COVNTY OF SHROPSHIRE IN THE KINGDOM OF GREAT BRITAIN</ab>
-        <ab>WHO AFTER A PAINFVLL ILLNESS WHICH HE ENDVRED WITH FIRMNESS AND RESIGNATION EXP</ab>
-        <ab>ON THE 13 NOVEMBER 1806 IN THE 30 YEAR OF HIS AGE</ab>
-        <ab>AS A MEMORIAL OF THAT FELICITY SHE ONCE ENJOYED AND AS A TRIBVTE TO</ab>
-        <ab>THOSE VIRTVES WHICH CONSTITVTED ITS SOURCE THIS MONVMENT IS ERECTED</ab>
-        <ab>BY HIS AFFLICTED WIFE ELIZABETH RUSHOVT YOVNGEST DAVGHTER</ab>
-        <ab>OF LORD NORTHWICK</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_1 #m_I #t_P">
-        <ab>G SIDNEY BOWLES</ab>
-        <ab>ANGLVS</ab>
-        <ab>OBIIT MDCCCVI</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S16"
+               ulx="602.699473"
+               uly="434.797677"
+               lrx="644.813156"
+               lry="474.123881"
+               points="639.862512,460.64110900000003 632.207104,439.41950399999996 607.644792,448.28113599999995 615.305773,469.504906 639.862512,460.64110900000003 634.803226,434.797677 602.699473,446.38349500000004 612.709385,474.123881 644.813156,462.53825300000005 ">
+            <graphic url="film:_H/26465"/>
+            <graphic url="film:AB/19">
+               <desc>detail</desc>
+            </graphic>
+            <graphic url="film:AP/5"/>
+            <graphic url="pictures/2007_0085.jpg"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
+            <ab>GVILIELMO.SIDNEY.BOWLES</ab>
+            <ab>ARMIGERO.NATIONE.BRITANNO.NOMI.SALOPIENSIS</ab>
+            <ab>QVI.VIXIT.ANN.XXX.MORUM.INTEGRITATE.ET.SVAVITATE</ab>
+            <ab>LITERARVMQVE.ET.BONARUM.ARTIVM.STVDIO.OMNIBVS.PROBATVS</ab>
+            <ab>SVIS.DESIDERABILIS.OBIIT.ROMAE.AN.MDCCCVI.DIE.XIII.NOV</ab>
+            <ab>CONIVGI.DVLCISSIMO</ab>
+            <ab>ELISABETHA.RVSHOVT.VXOR.INFELICISSIMA</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_N #c_3 #m_IF #t_P">
+            <ab>TO THE MEMORY OF</ab>
+            <ab>WILLIAM SIDNEY BOWLES ESQVIRE</ab>
+            <ab>OF BVRFORD HOVSE IN THE COVNTY OF SHROPSHIRE IN THE KINGDOM OF GREAT BRITAIN</ab>
+            <ab>WHO AFTER A PAINFVLL ILLNESS WHICH HE ENDVRED WITH FIRMNESS AND RESIGNATION EXP</ab>
+            <ab>ON THE 13 NOVEMBER 1806 IN THE 30 YEAR OF HIS AGE</ab>
+            <ab>AS A MEMORIAL OF THAT FELICITY SHE ONCE ENJOYED AND AS A TRIBVTE TO</ab>
+            <ab>THOSE VIRTVES WHICH CONSTITVTED ITS SOURCE THIS MONVMENT IS ERECTED</ab>
+            <ab>BY HIS AFFLICTED WIFE ELIZABETH RUSHOVT YOVNGEST DAVGHTER</ab>
+            <ab>OF LORD NORTHWICK</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_1 #m_I #t_P">
+            <ab>G SIDNEY BOWLES</ab>
+            <ab>ANGLVS</ab>
+            <ab>OBIIT MDCCCVI</ab>
+         </div>
+      </body>
   </text>
 </TEI>

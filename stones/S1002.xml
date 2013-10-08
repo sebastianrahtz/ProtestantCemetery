@@ -1,77 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1002.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1002.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1002</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1002">
-          <msIdentifier>
-            <idno>S1002</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>153</height>
-                    <depth>15</depth>
-                    <width>58</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Charles Horace</forename>
-              <surname>Christie</surname>
-            </persName>
-            <death when="1877"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1002</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1002">
+               <msIdentifier>
+                  <idno>S1002</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>153</height>
+                              <depth>15</depth>
+                              <width>58</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Charles Horace</forename>
+                     <surname>Christie</surname>
+                  </persName>
+                  <death when="1877"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>CHARLES HORACE CHRISTIE</ab>
-        <ab>ELDEST SON OF</ab>
-        <ab>ROBERT CHRISTIE</ab>
-        <ab>DURIS. FIFE. SCOTLAND.</ab>
-        <ab>BORN JULY 15. 1852.</ab>
-        <ab>DIED APRIL 11. 1877.</ab>
-        <ab/>
-        <ab>"GOD IS LOVE</ab>
-        <ab rend="Alignr">John Ch. IV.V.8.</ab>
-        <ab>THEN JESUS BEHOLDING HIM LOVED HIM"</ab>
-        <ab rend="Alignr"> Mark Ch. X.V.21</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1002"
+               ulx="1964.82241"
+               uly="483.548355"
+               lrx="1973.671941"
+               lry="487.291613"
+               points="1964.882839,483.548355 1973.671941,483.69607099999996 1973.611512,487.291613 1964.82241,487.14389700000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>CHARLES HORACE CHRISTIE</ab>
+            <ab>ELDEST SON OF</ab>
+            <ab>ROBERT CHRISTIE</ab>
+            <ab>DURIS. FIFE. SCOTLAND.</ab>
+            <ab>BORN JULY 15. 1852.</ab>
+            <ab>DIED APRIL 11. 1877.</ab>
+            <ab/>
+            <ab>"GOD IS LOVE</ab>
+            <ab rend="Alignr">John Ch. IV.V.8.</ab>
+            <ab>THEN JESUS BEHOLDING HIM LOVED HIM"</ab>
+            <ab rend="Alignr"> Mark Ch. X.V.21</ab>
+         </div>
+      </body>
   </text>
 </TEI>

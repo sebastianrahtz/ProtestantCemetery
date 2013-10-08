@@ -1,97 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1668.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1668.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1668</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1668">
-          <msIdentifier>
-            <idno>S1668</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2428</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>130</height>
-                    <dim type="diameter">35</dim>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Umberto</forename>
-              <surname>Boni</surname>
-            </persName>
-            <death when="1872"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Matilde</forename>
-              <surname>Boni</surname>
-            </persName>
-            <death when="1883"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1668</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1668">
+               <msIdentifier>
+                  <idno>S1668</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2428</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>130</height>
+                              <dim type="diameter">35</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Umberto</forename>
+                     <surname>Boni</surname>
+                  </persName>
+                  <death when="1872"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Matilde</forename>
+                     <surname>Boni</surname>
+                  </persName>
+                  <death when="1883"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
-        <ab>UMBERTO</ab>
-        <ab>DI AGUILLE ED EMILIA BONI</ab>
-        <ab>POCHI MESI PEREGRINO</ab>
-        <ab>SULLA TERRA</ab>
-        <ab>E AL CIELO RIPRESE IL VOLO</ab>
-        <ab>IL DI 4 LUGLIO 1872</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_N #c_3 #m_I #t_S">
-        <ab>MATILDE</ab>
-        <ab>SUA SORELLA</ab>
-        <ab>NELLA STESSA ERA</ab>
-        <ab>A LUI STUNI</ab>
-        <ab>IL 17 FEBRARO 1883</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1668"
+               ulx="2281.51032"
+               uly="413.86438"
+               lrx="2286.746661"
+               lry="419.022654"
+               points="2281.51032,416.48187199999995 2281.843565,415.134771 2282.66247,414.294704 2283.835287,413.86438 2284.987437,414.00096099999996 2285.847674,414.489285 2286.570997,415.46593299999995 2286.746661,416.73632399999997 2286.415999,417.83084399999996 2285.790842,418.51374899999996 2284.793689,419.022654 2283.483958,419.022654 2282.409307,418.437039 2281.78415,417.49781099999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
+            <ab>UMBERTO</ab>
+            <ab>DI AGUILLE ED EMILIA BONI</ab>
+            <ab>POCHI MESI PEREGRINO</ab>
+            <ab>SULLA TERRA</ab>
+            <ab>E AL CIELO RIPRESE IL VOLO</ab>
+            <ab>IL DI 4 LUGLIO 1872</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_N #c_3 #m_I #t_S">
+            <ab>MATILDE</ab>
+            <ab>SUA SORELLA</ab>
+            <ab>NELLA STESSA ERA</ab>
+            <ab>A LUI STUNI</ab>
+            <ab>IL 17 FEBRARO 1883</ab>
+         </div>
+      </body>
   </text>
 </TEI>

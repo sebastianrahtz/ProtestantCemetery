@@ -1,94 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S325.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S325.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 325</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S325">
-          <msIdentifier>
-            <idno>S325</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>100</height>
-                    <depth>10</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>74</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Sophia</forename>
-              <surname>de Bonis</surname>
-            </persName>
-            <birth when="1880-06-02"/>
-            <death when="1955-01-20"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <age>88</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Teodosio</forename>
-              <surname>de Bonis</surname>
-            </persName>
-            <birth when="1885-12-23"/>
-            <death when="1974-12-12"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 325</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S325">
+               <msIdentifier>
+                  <idno>S325</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>100</height>
+                              <depth>10</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>74</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Sophia</forename>
+                     <surname>de Bonis</surname>
+                  </persName>
+                  <birth when="1880-06-02"/>
+                  <death when="1955-01-20"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <age>88</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Teodosio</forename>
+                     <surname>de Bonis</surname>
+                  </persName>
+                  <birth when="1885-12-23"/>
+                  <death when="1974-12-12"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IF #t_P">
-        <ab>MARCHESA</ab>
-        <ab>SOFIA DE BONIS</ab>
-        <ab>NÉE GOULD MCQUAIDE</ab>
-        <ab>*2.VI.1880 +20.I.1955</ab>
-        <ab/>
-        <ab>GENERALE</ab>
-        <ab>TEODOSIO DE BONIS</ab>
-        <ab>*23.XII.1885 +12.XII.1974</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S325"
+               ulx="1288.037478"
+               uly="500.325736"
+               lrx="1296.515321"
+               lry="513.640479"
+               points="1296.515321,500.52069700000004 1288.412174,500.325736 1288.037478,513.445518 1296.140626,513.640479 ">
+            <graphic url="pictures/1996_53.png"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IF #t_P">
+            <ab>MARCHESA</ab>
+            <ab>SOFIA DE BONIS</ab>
+            <ab>NÉE GOULD MCQUAIDE</ab>
+            <ab>*2.VI.1880 +20.I.1955</ab>
+            <ab/>
+            <ab>GENERALE</ab>
+            <ab>TEODOSIO DE BONIS</ab>
+            <ab>*23.XII.1885 +12.XII.1974</ab>
+         </div>
+      </body>
   </text>
 </TEI>

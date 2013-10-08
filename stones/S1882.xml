@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1882.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1882.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1882</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1882">
-          <msIdentifier>
-            <idno>S1882</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2297</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>96</height>
-                    <depth>34</depth>
-                    <width>72</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Morris</forename>
-              <surname>Moore</surname>
-            </persName>
-            <death when="1885"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1882</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1882">
+               <msIdentifier>
+                  <idno>S1882</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2297</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>96</height>
+                              <depth>34</depth>
+                              <width>72</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Morris</forename>
+                     <surname>Moore</surname>
+                  </persName>
+                  <death when="1885"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
-        <ab>IN LOVING MEMORY</ab>
-        <ab>OF</ab>
-        <ab>MORRIS MOORE</ab>
-        <ab/>
-        <ab>THE MAN TRULY ENAMOURED</ab>
-        <ab>OF RAPHAEL.</ab>
-        <ab/>
-        <ab>OF TRUE ZEAL AND DEEP INTEGRITY.</ab>
-        <ab/>
-        <ab>DIED AT ROME DEC. 18 - 1888</ab>
-        <ab>IN HIS 55 YEAR</ab>
-        <ab/>
-        <ab>"I SHALL GO TO HIM BUT HE SHALL</ab>
-        <ab>RETURN TO ME."</ab>
-        <ab rend="Alignr">II SAMUEL XII.23</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1882"
+               ulx="2398.655468"
+               uly="592.894321"
+               lrx="2406.867532"
+               lry="596.638743"
+               points="2398.655468,593.383291 2406.668888,592.894321 2406.867532,596.149773 2398.854112,596.638743 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
+            <ab>IN LOVING MEMORY</ab>
+            <ab>OF</ab>
+            <ab>MORRIS MOORE</ab>
+            <ab/>
+            <ab>THE MAN TRULY ENAMOURED</ab>
+            <ab>OF RAPHAEL.</ab>
+            <ab/>
+            <ab>OF TRUE ZEAL AND DEEP INTEGRITY.</ab>
+            <ab/>
+            <ab>DIED AT ROME DEC. 18 - 1888</ab>
+            <ab>IN HIS 55 YEAR</ab>
+            <ab/>
+            <ab>"I SHALL GO TO HIM BUT HE SHALL</ab>
+            <ab>RETURN TO ME."</ab>
+            <ab rend="Alignr">II SAMUEL XII.23</ab>
+         </div>
+      </body>
   </text>
 </TEI>

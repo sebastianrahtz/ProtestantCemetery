@@ -1,110 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1368.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1368.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1368</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1368">
-          <msIdentifier>
-            <idno>S1368</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">641</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>190</height>
-                    <depth>8</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Atanasio</forename>
-              <surname>Mefalopulos</surname>
-            </persName>
-            <death when="1954"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Marco</forename>
-              <surname>Mefalopulos</surname>
-            </persName>
-            <death when="1957"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Calliope</forename>
-              <surname>Mefalopulos</surname>
-            </persName>
-            <death when="1962"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1368</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1368">
+               <msIdentifier>
+                  <idno>S1368</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">641</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>190</height>
+                              <depth>8</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Atanasio</forename>
+                     <surname>Mefalopulos</surname>
+                  </persName>
+                  <death when="1954"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Marco</forename>
+                     <surname>Mefalopulos</surname>
+                  </persName>
+                  <death when="1957"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Calliope</forename>
+                     <surname>Mefalopulos</surname>
+                  </persName>
+                  <death when="1962"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>FAMIGLIA MEFALOPULOS</ab>
-      </div>
-      <div type="inscription" decls="#f_T #c_2 #m_IF #t_S">
-        <ab>MARCO</ab>
-        <ab>* 28.XII.1957</ab>
-        <ab>+ 29.XII.1957</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_S">
-        <ab>ATTANASIO</ab>
-        <ab>* 18.III.1866</ab>
-        <ab>+ 18.III.1954</ab>
-        <ab/>
-        <ab>CALLIOPE</ab>
-        <ab>NATA JOANNIDES</ab>
-        <ab>* 25.VII.1877</ab>
-        <ab>+ 10.II.1962</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1368"
+               ulx="2050.798266"
+               uly="683.608318"
+               lrx="2059.740589"
+               lry="702.904909"
+               points="2050.798266,683.608318 2059.740589,683.608318 2059.740589,702.904909 2050.798266,702.904909 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>FAMIGLIA MEFALOPULOS</ab>
+         </div>
+         <div type="inscription" decls="#f_T #c_2 #m_IF #t_S">
+            <ab>MARCO</ab>
+            <ab>* 28.XII.1957</ab>
+            <ab>+ 29.XII.1957</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_S">
+            <ab>ATTANASIO</ab>
+            <ab>* 18.III.1866</ab>
+            <ab>+ 18.III.1954</ab>
+            <ab/>
+            <ab>CALLIOPE</ab>
+            <ab>NATA JOANNIDES</ab>
+            <ab>* 25.VII.1877</ab>
+            <ab>+ 10.II.1962</ab>
+         </div>
+      </body>
   </text>
 </TEI>

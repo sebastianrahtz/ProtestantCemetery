@@ -1,96 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2312.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2312.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2312</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2312">
-          <msIdentifier>
-            <idno>S2312</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>220</height>
-                    <depth>230</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_14 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Valentina</forename>
-              <surname>Arkadievna</surname>
-            </persName>
-            <death when="1921"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2312</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2312">
+               <msIdentifier>
+                  <idno>S2312</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>220</height>
+                              <depth>230</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_14 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Valentina</forename>
+                     <surname>Arkadievna</surname>
+                  </persName>
+                  <death when="1921"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_P #s_CY">
-        <ab>Валентина Аркад'ежна</ab>
-        <ab>ЛИ</ab>
-        <ab>ройд. жон" Кремер"</ab>
-        <ab>Род. жъ Петроградѣ</ab>
-        <ab>22 ФежралЯ 1894</ab>
-        <ab>Сконя. жъ Римѣ</ab>
-        <ab>12 ФежралЯ 1921</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_5 #m_I #t_P #s_CY">
-        <ab rend="Alignl">
-          <note xml:lang="en"> remaining 4 inscriptions are illegible</note>
-        </ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> although one on base of cross appears Japanese</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2312"
+               ulx="2602.702691"
+               uly="665.013537"
+               lrx="2611.622203"
+               lry="683.945145"
+               points="2603.09876,665.013537 2611.622203,665.193568 2611.226135,683.945145 2602.702691,683.765114 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_P #s_CY">
+            <ab>Валентина Аркад'ежна</ab>
+            <ab>ЛИ</ab>
+            <ab>ройд. жон" Кремер"</ab>
+            <ab>Род. жъ Петроградѣ</ab>
+            <ab>22 ФежралЯ 1894</ab>
+            <ab>Сконя. жъ Римѣ</ab>
+            <ab>12 ФежралЯ 1921</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_5 #m_I #t_P #s_CY">
+            <ab rend="Alignl">
+               <note xml:lang="en"> remaining 4 inscriptions are illegible</note>
+            </ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> although one on base of cross appears Japanese</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

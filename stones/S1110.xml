@@ -1,96 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1110.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1110.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1110</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1110">
-          <msIdentifier>
-            <idno>S1110</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1579</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>189</height>
-                    <depth>20</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_86 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Johannes</forename>
-              <surname>Toepffer</surname>
-            </persName>
-            <death when="1895"/>
-            <nationality key="CH"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1110</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1110">
+               <msIdentifier>
+                  <idno>S1110</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1579</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>189</height>
+                              <depth>20</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_86 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Johannes</forename>
+                     <surname>Toepffer</surname>
+                  </persName>
+                  <death when="1895"/>
+                  <nationality key="CH"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
-        <ab>HIER.RUHT</ab>
-        <ab>DR.IOHANNES.TOEPFFER</ab>
-        <ab>PROFESSOR.DER.CLASS</ab>
-        <ab>ALTERTUMSWISSENSCHAFT</ab>
-        <ab>ZU.BASEL</ab>
-        <ab>GEB.ZU.DORPAT</ab>
-        <ab>DEN.XXVIII.OCT.A.ST.</ab>
-        <ab>1860</ab>
-        <ab>GEST.ZU.ANZIO</ab>
-        <ab>DEN.XXIII.AUG.1895</ab>
-        <ab>EV.IOH.XI.25</ab>
-        <ab>ICH.BIN.DIE.AVFERSTEHVNG.VND.DAS.LEBEN</ab>
-        <ab>WER.AN.MICH.GLAVBT.DER.WIRD.LEBEN</ab>
-        <ab>OB.ER.GLEICH.STVERBE</ab>
-      </div>
-      <div type="inscription" xml:lang="el" decls="#f_N #c_4 #m_I #t_PC #s_GR">
-        <ab>ΜΗΔΕ ΜΟΙ ΑΚΛΑΥΣΤΟΣ ΘΑΝΑΤΟΣ</ab>
-        <ab>ΜΟΛΟΙ ΑΛΛΑ ΦΙΛΟΙΣΙΝ</ab>
-        <ab>ΠΟΙΗΣΑΙΜΙ ΘΑΝΩΝ</ab>
-        <ab>ΑΛΓΕΑ ΚΑΙ ΣΤΟΝΑΝΑΣ</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1110"
+               ulx="1617.664305"
+               uly="533.22711"
+               lrx="1624.723216"
+               lry="536.423598"
+               points="1617.664305,533.22711 1624.723216,533.22711 1624.723216,536.423598 1617.664305,536.423598 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
+            <ab>HIER.RUHT</ab>
+            <ab>DR.IOHANNES.TOEPFFER</ab>
+            <ab>PROFESSOR.DER.CLASS</ab>
+            <ab>ALTERTUMSWISSENSCHAFT</ab>
+            <ab>ZU.BASEL</ab>
+            <ab>GEB.ZU.DORPAT</ab>
+            <ab>DEN.XXVIII.OCT.A.ST.</ab>
+            <ab>1860</ab>
+            <ab>GEST.ZU.ANZIO</ab>
+            <ab>DEN.XXIII.AUG.1895</ab>
+            <ab>EV.IOH.XI.25</ab>
+            <ab>ICH.BIN.DIE.AVFERSTEHVNG.VND.DAS.LEBEN</ab>
+            <ab>WER.AN.MICH.GLAVBT.DER.WIRD.LEBEN</ab>
+            <ab>OB.ER.GLEICH.STVERBE</ab>
+         </div>
+         <div type="inscription" xml:lang="el" decls="#f_N #c_4 #m_I #t_PC #s_GR">
+            <ab>ΜΗΔΕ ΜΟΙ ΑΚΛΑΥΣΤΟΣ ΘΑΝΑΤΟΣ</ab>
+            <ab>ΜΟΛΟΙ ΑΛΛΑ ΦΙΛΟΙΣΙΝ</ab>
+            <ab>ΠΟΙΗΣΑΙΜΙ ΘΑΝΩΝ</ab>
+            <ab>ΑΛΓΕΑ ΚΑΙ ΣΤΟΝΑΝΑΣ</ab>
+         </div>
+      </body>
   </text>
 </TEI>

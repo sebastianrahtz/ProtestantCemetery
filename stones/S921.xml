@@ -1,85 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S921.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S921.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 921</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S921">
-          <msIdentifier>
-            <idno>S921</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2093</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COPE">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>185</height>
-                    <depth>38</depth>
-                    <width>88</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Shakspere</forename>
-              <surname>Wood</surname>
-            </persName>
-            <death when="1886"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 921</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S921">
+               <msIdentifier>
+                  <idno>S921</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2093</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COPE">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>185</height>
+                              <depth>38</depth>
+                              <width>88</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Shakspere</forename>
+                     <surname>Wood</surname>
+                  </persName>
+                  <death when="1886"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>IN.</ab>
-        <ab>LOVING.MEMORY.</ab>
-        <ab>OF.</ab>
-        <ab>SHAKESPEARE.WOOD.</ab>
-        <ab>BORN.AT.MANCHESTER.NOV:13.1827.</ab>
-        <ab>DIED.AT.ROME.FEB:2.1886.</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_W #c_3 #m_IF #t_PC">
-        <ab>THOU.THY.WORDLY.TASK.HAST.DONE.</ab>
-        <ab>HOME.ART.GONE.AND.TA'EN.THY.WAGES</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_3 #m_IF #t_PC">
-        <ab>THE.LORD.GOD.SHALL.GIVE.THEM.LIGHT.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S921"
+               ulx="1777.09931"
+               uly="449.460699"
+               lrx="1787.619582"
+               lry="469.605325"
+               points="1777.901339,449.460699 1787.619582,449.85534800000005 1786.817552,469.605325 1777.09931,469.21067600000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>IN.</ab>
+            <ab>LOVING.MEMORY.</ab>
+            <ab>OF.</ab>
+            <ab>SHAKESPEARE.WOOD.</ab>
+            <ab>BORN.AT.MANCHESTER.NOV:13.1827.</ab>
+            <ab>DIED.AT.ROME.FEB:2.1886.</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_W #c_3 #m_IF #t_PC">
+            <ab>THOU.THY.WORDLY.TASK.HAST.DONE.</ab>
+            <ab>HOME.ART.GONE.AND.TA'EN.THY.WAGES</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_3 #m_IF #t_PC">
+            <ab>THE.LORD.GOD.SHALL.GIVE.THEM.LIGHT.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

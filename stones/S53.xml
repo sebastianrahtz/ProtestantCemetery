@@ -1,99 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S53.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S53.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 53</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S53">
-          <msIdentifier>
-            <idno>S53</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">116</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>159</height>
-                    <depth>17</depth>
-                    <width>74</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 64)</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>24</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Henry</forename>
-              <surname>Graham</surname>
-            </persName>
-            <birth when="1795">
-              <placeName>
-                <settlement>York</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1819-05">
-              <placeName>
-                <settlement>Naples</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-            <occupation>Student</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 53</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S53">
+               <msIdentifier>
+                  <idno>S53</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">116</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>159</height>
+                              <depth>17</depth>
+                              <width>74</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 64)</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>24</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henry</forename>
+                     <surname>Graham</surname>
+                  </persName>
+                  <birth when="1795">
+                     <placeName>
+                        <settlement>York</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1819-05">
+                     <placeName>
+                        <settlement>Naples</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+                  <occupation>Student</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>TO RECORD</ab>
-        <ab>THE VIRTUES TALENTS</ab>
-        <ab>AND PREMATURE DEATH OF</ab>
-        <ab>HENRY GRAHAM</ab>
-        <ab>SON OF THE REV<hi rend="sup">D</hi> IOHN GRAHAM</ab>
-        <ab>OF THE CITY OF YORK IN G<hi rend="sup">T</hi> BRITAIN</ab>
-        <ab>STUDENT IN ARCHITECTURE</ab>
-        <ab>TWO OF HIS FELLOW STUDENTS</ab>
-        <ab>WATCHD OVER HIS LAST MOMENTS</ab>
-        <ab>AND TESTIFY THEIR FREINDSHIP</ab>
-        <ab>BY ERECTING THIS CENOTAPH</ab>
-        <ab>HE DIED AT NAPLES MAY [...] 1819</ab>
-        <ab>AGED 24 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S53"
+               ulx="301.420553"
+               uly="827.605546"
+               lrx="310.775718"
+               lry="834.5439630000001"
+               points="309.453912,827.605546 301.420553,832.249914 302.744773,834.5439630000001 310.775718,829.902506 ">
+            <graphic url="film:_H/26296"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>TO RECORD</ab>
+            <ab>THE VIRTUES TALENTS</ab>
+            <ab>AND PREMATURE DEATH OF</ab>
+            <ab>HENRY GRAHAM</ab>
+            <ab>SON OF THE REV<hi rend="sup">D</hi> IOHN GRAHAM</ab>
+            <ab>OF THE CITY OF YORK IN G<hi rend="sup">T</hi> BRITAIN</ab>
+            <ab>STUDENT IN ARCHITECTURE</ab>
+            <ab>TWO OF HIS FELLOW STUDENTS</ab>
+            <ab>WATCHD OVER HIS LAST MOMENTS</ab>
+            <ab>AND TESTIFY THEIR FREINDSHIP</ab>
+            <ab>BY ERECTING THIS CENOTAPH</ab>
+            <ab>HE DIED AT NAPLES MAY [...] 1819</ab>
+            <ab>AGED 24 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

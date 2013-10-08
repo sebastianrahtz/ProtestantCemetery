@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2553.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2553.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2553</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2553">
-          <msIdentifier>
-            <idno>S2553</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>81</height>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Alice Caroline</forename>
-              <surname>Mather</surname>
-            </persName>
-            <death when="1938"/>
-            <nationality key="CA"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2553</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2553">
+               <msIdentifier>
+                  <idno>S2553</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>81</height>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Alice Caroline</forename>
+                     <surname>Mather</surname>
+                  </persName>
+                  <death when="1938"/>
+                  <nationality key="CA"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>ALICE CAROLINE MATHER</ab>
-        <ab>WIDOW OF</ab>
-        <ab>ROBERT MATHER</ab>
-        <ab>OF CHICAGO U.S.A.</ab>
-        <ab>DAUGHTER OF</ab>
-        <ab>HORATIO JELL</ab>
-        <ab>* DELAWARE CANADA APRIL 25 - 1865</ab>
-        <ab>+ ROME JULY 26 - 1938</ab>
-        <ab/>
-        <ab rend="Alignr">"THE PEACE OF GOD WHICH</ab>
-        <ab rend="Alignr">PASSETH ALL UNDERSTANDING,,</ab>
-        <ab rend="Alignl">
-          <note> note subscript quotation marks at end.</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2553"
+               ulx="3101.493192"
+               uly="501.638784"
+               lrx="3109.802633"
+               lry="504.60367900000006"
+               points="3101.522733,501.638784 3109.802633,501.723714 3109.773092,504.60367900000006 3101.493192,504.51874899999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>ALICE CAROLINE MATHER</ab>
+            <ab>WIDOW OF</ab>
+            <ab>ROBERT MATHER</ab>
+            <ab>OF CHICAGO U.S.A.</ab>
+            <ab>DAUGHTER OF</ab>
+            <ab>HORATIO JELL</ab>
+            <ab>* DELAWARE CANADA APRIL 25 - 1865</ab>
+            <ab>+ ROME JULY 26 - 1938</ab>
+            <ab/>
+            <ab rend="Alignr">"THE PEACE OF GOD WHICH</ab>
+            <ab rend="Alignr">PASSETH ALL UNDERSTANDING,,</ab>
+            <ab rend="Alignl">
+               <note> note subscript quotation marks at end.</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,92 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1450.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1450.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1450</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1450">
-          <msIdentifier>
-            <idno>S1450</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">473</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="BUILD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>345</height>
-                    <depth>250</depth>
-                    <width>255</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_E"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Clara</forename>
-              <surname>Kirk</surname>
-            </persName>
-            <death when="1936"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Alexander Comstock</forename>
-              <surname>Kirk</surname>
-            </persName>
-            <death when="1979"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1450</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1450">
+               <msIdentifier>
+                  <idno>S1450</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">473</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="BUILD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>345</height>
+                              <depth>250</depth>
+                              <width>255</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_E"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Clara</forename>
+                     <surname>Kirk</surname>
+                  </persName>
+                  <death when="1936"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Alexander Comstock</forename>
+                     <surname>Kirk</surname>
+                  </persName>
+                  <death when="1979"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>CLARA KIRK</ab>
-        <ab>NÉE COMSTOCK</ab>
-        <ab>AUGUST 18,1853 - NOVEMBER 22,1936</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_S">
-        <ab>ALEXANDER COMSTOCK KIRK</ab>
-        <ab>NOVEMBER 26,1888 - MARCH 23,1979</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1450"
+               ulx="2498.739116"
+               uly="154.99727400000006"
+               lrx="2525.321515"
+               lry="178.53116"
+               points="2498.739116,157.087135 2523.509149,154.99727400000006 2525.321515,176.32642199999998 2521.765754,176.60933699999998 2521.700707,175.230815 2518.144945,175.513729 2517.981284,174.48525800000004 2507.538332,175.20828600000004 2507.723677,176.69626400000004 2504.7423,176.95207600000003 2504.801926,178.21572100000003 2500.556904,178.53116 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>CLARA KIRK</ab>
+            <ab>NÉE COMSTOCK</ab>
+            <ab>AUGUST 18,1853 - NOVEMBER 22,1936</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_S">
+            <ab>ALEXANDER COMSTOCK KIRK</ab>
+            <ab>NOVEMBER 26,1888 - MARCH 23,1979</ab>
+         </div>
+      </body>
   </text>
 </TEI>

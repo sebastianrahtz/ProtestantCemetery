@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1965.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1965.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1965</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1965">
-          <msIdentifier>
-            <idno>S1965</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">464</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>48</height>
-                    <depth>28</depth>
-                    <width>49</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Hans</forename>
-              <surname>Aufrichtig</surname>
-            </persName>
-            <death when="1969"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Kathe</forename>
-              <surname>Aufrichtig</surname>
-            </persName>
-            <death when="1980"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1965</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1965">
+               <msIdentifier>
+                  <idno>S1965</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">464</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>48</height>
+                              <depth>28</depth>
+                              <width>49</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Hans</forename>
+                     <surname>Aufrichtig</surname>
+                  </persName>
+                  <death when="1969"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Kathe</forename>
+                     <surname>Aufrichtig</surname>
+                  </persName>
+                  <death when="1980"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>HANS AUFRICHTIG</ab>
-        <ab>JOURNALIST</ab>
-        <ab>19.II.1901 - 7.VIII.1969</ab>
-        <ab/>
-        <ab>KÄTHE AUFRICHTIG</ab>
-        <ab>GEB. SCHRÖDER</ab>
-        <ab>SCHRIFTSTELLERIN</ab>
-        <ab>JOURNALIST</ab>
-        <ab>25.IX.1893 - 21.X.1980</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1965"
+               ulx="2459.969192"
+               uly="691.2039480000001"
+               lrx="2467.559868"
+               lry="695.2182740000001"
+               points="2460.034371,691.2039480000001 2467.559868,691.3301 2467.494689,695.2182740000001 2459.969192,695.092121 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>HANS AUFRICHTIG</ab>
+            <ab>JOURNALIST</ab>
+            <ab>19.II.1901 - 7.VIII.1969</ab>
+            <ab/>
+            <ab>KÄTHE AUFRICHTIG</ab>
+            <ab>GEB. SCHRÖDER</ab>
+            <ab>SCHRIFTSTELLERIN</ab>
+            <ab>JOURNALIST</ab>
+            <ab>25.IX.1893 - 21.X.1980</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,87 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S403.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S403.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 403</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S403">
-          <msIdentifier>
-            <idno>S403</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>94</height>
-                    <depth>34</depth>
-                    <width>34</width>
-                  </dimensions>
-                </extent>
-                <condition>very poor</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>32</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Esther Edith Hovison</forename>
-              <surname>Cravfvrd</surname>
-            </persName>
-            <birth when="1831-08-16">
-              <placeName>
-                <country>Scotland</country>
-              </placeName>
-            </birth>
-            <death when="1864-02-25">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 403</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S403">
+               <msIdentifier>
+                  <idno>S403</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>94</height>
+                              <depth>34</depth>
+                              <width>34</width>
+                           </dimensions>
+                        </extent>
+                        <condition>very poor</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>32</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Esther Edith Hovison</forename>
+                     <surname>Cravfvrd</surname>
+                  </persName>
+                  <birth when="1831-08-16">
+                     <placeName>
+                        <country>Scotland</country>
+                     </placeName>
+                  </birth>
+                  <death when="1864-02-25">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
-        <ab>ESTHER EDITH HOVISON CRAVFVRD</ab>
-        <ab>BORN IN SCOTLAND 16 AUGUST 1831</ab>
-        <ab>DIED AT ROME 25 FEBRUARY 1864</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S403"
+               ulx="988.137969"
+               uly="566.695754"
+               lrx="993.540954"
+               lry="570.965963"
+               points="993.540954,566.822866 988.256263,566.695754 988.137969,570.83885 993.42266,570.965963 ">
+            <graphic url="film:C/1"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
+            <ab>ESTHER EDITH HOVISON CRAVFVRD</ab>
+            <ab>BORN IN SCOTLAND 16 AUGUST 1831</ab>
+            <ab>DIED AT ROME 25 FEBRUARY 1864</ab>
+         </div>
+      </body>
   </text>
 </TEI>

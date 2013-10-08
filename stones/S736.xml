@@ -1,94 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S736.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S736.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 736</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S736">
-          <msIdentifier>
-            <idno>S736</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2157</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>187</height>
-                    <depth>76</depth>
-                    <dim type="diameter">62</dim>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_116 #st_A #f_N"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>James Rennell</forename>
-              <surname>Rodd</surname>
-            </persName>
-            <death when="1892"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 736</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S736">
+               <msIdentifier>
+                  <idno>S736</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2157</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>187</height>
+                              <depth>76</depth>
+                              <dim type="diameter">62</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_116 #st_A #f_N"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>James Rennell</forename>
+                     <surname>Rodd</surname>
+                  </persName>
+                  <death when="1892"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>SACRED TO THE MEMORY OF</ab>
-        <ab>JAMES RENNELL ROOD</ab>
-        <ab>MAJOR IN THE ROYAL CORNWALL RANGERS</ab>
-        <ab>BORN FEB 28. 1812.</ab>
-        <ab>DIED AT ROME MARCH 23 1892</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_IF #t_P">
-        <ab>"HIS BODY TO THAT PLEASANT COUNTRY'S EARTH</ab>
-        <ab>AND HIS PURE SOUL UNTO HIS CAPTAIN CHRIST"</ab>
-      </div>
-      <div type="inscription" decls="#f_N #c_1 #m_RS #t_P">
-        <ab>IHS</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IF #t_P">
-        <ab>"THE LORD DELIVERETH THE SOULS OF HIS SERVANTS"</ab>
-        <ab rend="Alignr">
-          <emph>Psalm 34.</emph>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S736"
+               ulx="1694.443817"
+               uly="361.610675"
+               lrx="1701.816944"
+               lry="379.965055"
+               points="1694.443817,361.610675 1701.816944,361.610675 1701.816944,379.965055 1694.443817,379.965055 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>SACRED TO THE MEMORY OF</ab>
+            <ab>JAMES RENNELL ROOD</ab>
+            <ab>MAJOR IN THE ROYAL CORNWALL RANGERS</ab>
+            <ab>BORN FEB 28. 1812.</ab>
+            <ab>DIED AT ROME MARCH 23 1892</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_IF #t_P">
+            <ab>"HIS BODY TO THAT PLEASANT COUNTRY'S EARTH</ab>
+            <ab>AND HIS PURE SOUL UNTO HIS CAPTAIN CHRIST"</ab>
+         </div>
+         <div type="inscription" decls="#f_N #c_1 #m_RS #t_P">
+            <ab>IHS</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IF #t_P">
+            <ab>"THE LORD DELIVERETH THE SOULS OF HIS SERVANTS"</ab>
+            <ab rend="Alignr">
+               <emph>Psalm 34.</emph>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

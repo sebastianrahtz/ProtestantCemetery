@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1942.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1942.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1942</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1942">
-          <msIdentifier>
-            <idno>S1942</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>156</height>
-                    <depth>15</depth>
-                    <width>56</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Caroline Maria</forename>
-              <surname>Humphrey</surname>
-            </persName>
-            <death when="1890"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1942</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1942">
+               <msIdentifier>
+                  <idno>S1942</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>156</height>
+                              <depth>15</depth>
+                              <width>56</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Caroline Maria</forename>
+                     <surname>Humphrey</surname>
+                  </persName>
+                  <death when="1890"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_R #c_3 #m_IF #t_P">
-        <ab rend="Alignl">
-          <note> on west</note>
-        </ab>
-        <ab>CAROLINE MARIA WIDOW OF THE REV. W.G. HUMPHREY B. JUNE 26. 1823. D. MARCH 26.1890</ab>
-        <ab rend="Alignl">
-          <note> on south</note>
-        </ab>
-        <ab>IN PACE</ab>
-        <ab rend="Alignl">
-          <note> on east</note>
-        </ab>
-        <ab>NO MORE STRANGERS AND FOREIGNERS BUT FELLOW CITIZENS WITH THE SAINTS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1942"
+               ulx="2363.242837"
+               uly="648.455948"
+               lrx="2374.186237"
+               lry="667.793302"
+               points="2363.242837,649.305763 2372.486607,648.455948 2374.186237,666.943487 2364.942467,667.793302 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_R #c_3 #m_IF #t_P">
+            <ab rend="Alignl">
+               <note> on west</note>
+            </ab>
+            <ab>CAROLINE MARIA WIDOW OF THE REV. W.G. HUMPHREY B. JUNE 26. 1823. D. MARCH 26.1890</ab>
+            <ab rend="Alignl">
+               <note> on south</note>
+            </ab>
+            <ab>IN PACE</ab>
+            <ab rend="Alignl">
+               <note> on east</note>
+            </ab>
+            <ab>NO MORE STRANGERS AND FOREIGNERS BUT FELLOW CITIZENS WITH THE SAINTS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

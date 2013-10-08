@@ -1,96 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2557.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2557.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2557</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2557">
-          <msIdentifier>
-            <idno>S2557</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">686</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="STAT">
-              <supportDesc>
-                <support>
-                  <material>metal</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>167</height>
-                    <width>52</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Bronze bust of gentleman wearing a modern jacket and a tie, probably the man himself (died in 1962).</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_19 #st_C #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_123 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Vojvoda Dobroslav</forename>
-              <surname>Jevdjevic</surname>
-            </persName>
-            <death when="1962"/>
-            <nationality key="CS"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Angelka</forename>
-              <surname>Jevdjevic</surname>
-            </persName>
-            <death when="1970"/>
-            <nationality key="CS"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2557</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2557">
+               <msIdentifier>
+                  <idno>S2557</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">686</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="STAT">
+                     <supportDesc>
+                        <support>
+                           <material>metal</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>167</height>
+                              <width>52</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Bronze bust of gentleman wearing a modern jacket and a tie, probably the man himself (died in 1962).</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_19 #st_C #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_123 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Vojvoda Dobroslav</forename>
+                     <surname>Jevdjevic</surname>
+                  </persName>
+                  <death when="1962"/>
+                  <nationality key="CS"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Angelka</forename>
+                     <surname>Jevdjevic</surname>
+                  </persName>
+                  <death when="1970"/>
+                  <nationality key="CS"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="sh" decls="#f_T #c_1 #m_RM #t_P">
-        <ab>DOBROSLAV [J]ED[?]E[.]I[.]</ab>
-      </div>
-      <div type="inscription" decls="#f_S #c_1 #m_IC #t_S">
-        <ab>VOJVODA</ab>
-        <ab>DOBROSLAV JEVDJEVIC</ab>
-        <ab>*30.XII.1895	+2.X.1962</ab>
-      </div>
-      <div type="inscription" decls="#f_S #c_1 #m_IF #t_S">
-        <ab>ANGELKA JEVDJEVIC</ab>
-        <ab>NÉE KOSORIC</ab>
-        <ab>*9.XII.1872	+13.IX.1970</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2557"
+               ulx="3146.854817"
+               uly="528.835409"
+               lrx="3157.626465"
+               lry="548.716089"
+               points="3147.557582,528.835409 3157.626465,529.197946 3156.9237,548.716089 3146.854817,548.353552 ">
+            <graphic url="film:AE/6"/>
+            <graphic url="film:AE/6"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="sh" decls="#f_T #c_1 #m_RM #t_P">
+            <ab>DOBROSLAV [J]ED[?]E[.]I[.]</ab>
+         </div>
+         <div type="inscription" decls="#f_S #c_1 #m_IC #t_S">
+            <ab>VOJVODA</ab>
+            <ab>DOBROSLAV JEVDJEVIC</ab>
+            <ab>*30.XII.1895	+2.X.1962</ab>
+         </div>
+         <div type="inscription" decls="#f_S #c_1 #m_IF #t_S">
+            <ab>ANGELKA JEVDJEVIC</ab>
+            <ab>NÉE KOSORIC</ab>
+            <ab>*9.XII.1872	+13.IX.1970</ab>
+         </div>
+      </body>
   </text>
 </TEI>

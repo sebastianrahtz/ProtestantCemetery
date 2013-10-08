@@ -1,89 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1460.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1460.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1460</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1460">
-          <msIdentifier>
-            <idno>S1460</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>187</height>
-                    <depth>23</depth>
-                    <width>85</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Wreath in mosaic / roses.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_66 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_123 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>JUlija</forename>
-              <surname>Dal'</surname>
-            </persName>
-            <death when="1864"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1460</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1460">
+               <msIdentifier>
+                  <idno>S1460</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>187</height>
+                              <depth>23</depth>
+                              <width>85</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Wreath in mosaic / roses.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_66 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_123 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>JUlija</forename>
+                     <surname>Dal'</surname>
+                  </persName>
+                  <death when="1864"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_I #t_P #s_CY">
-        <ab>ЙУЛИЯ ДАЛ'.</ab>
-        <ab>РОДИЛА[6]'  ОРЕНБУРГѢ</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> sic</note>
-        </ab>
-        <ab>22 ФЕВР/МАРТ 1838 ГОДА</ab>
-        <ab>ИУМЕРЛА  РИМѢ</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> sic</note>
-        </ab>
-        <ab>21 ДЕК 1863 Г/2 ЙАНВ 1864 Г.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1460"
+               ulx="2476.47656"
+               uly="190.29682300000002"
+               lrx="2486.981834"
+               lry="194.76149599999997"
+               points="2476.47656,191.05265499999996 2486.707845,190.29682300000002 2486.981834,194.00566400000002 2476.75055,194.76149599999997 ">
+            <graphic url="film:E/9"/>
+            <graphic url="film:F/8"/>
+            <graphic url="film:SA/16">
+               <desc>mosaic</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_I #t_P #s_CY">
+            <ab>ЙУЛИЯ ДАЛ'.</ab>
+            <ab>РОДИЛА[6]'  ОРЕНБУРГѢ</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> sic</note>
+            </ab>
+            <ab>22 ФЕВР/МАРТ 1838 ГОДА</ab>
+            <ab>ИУМЕРЛА  РИМѢ</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> sic</note>
+            </ab>
+            <ab>21 ДЕК 1863 Г/2 ЙАНВ 1864 Г.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

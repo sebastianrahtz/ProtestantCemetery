@@ -1,88 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1662.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1662.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1662</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1662">
-          <msIdentifier>
-            <idno>S1662</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2426</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="BUILD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>325</height>
-                    <depth>110</depth>
-                    <width>110</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Four columns holding a roof with a cross on top. Underneath a bust of Christ. The 4 columns are mounted on a square base with 2 steps in the kerb underneath. Within the space created by the columns is a bust of Christ, wearing the thorny crown.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_26 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_29 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Hermann</forename>
-              <surname>Corrodi</surname>
-            </persName>
-            <death when="1905"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1662</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1662">
+               <msIdentifier>
+                  <idno>S1662</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2426</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="BUILD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>325</height>
+                              <depth>110</depth>
+                              <width>110</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Four columns holding a roof with a cross on top. Underneath a bust of Christ. The 4 columns are mounted on a square base with 2 steps in the kerb underneath. Within the space created by the columns is a bust of Christ, wearing the thorny crown.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_26 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_29 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Hermann</forename>
+                     <surname>Corrodi</surname>
+                  </persName>
+                  <death when="1905"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
-        <ab>HIER RUHT</ab>
-        <ab>HERMANN CORRODI</ab>
-        <ab>GEB.FRASCATI.23.JULI.1884.MALER.GEST.ROM.31.JAN.1905</ab>
-        <ab>----------------------</ab>
-        <ab>WIR HABEN HIER KEINE BLEIBENDE STADT,</ab>
-        <ab>SONDERN DIE ZUKÜNFTIGE SUCHEN WIR</ab>
-        <ab rend="Alignr">EBR.13.14</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1662"
+               ulx="2207.287937"
+               uly="417.70572300000003"
+               lrx="2220.842208"
+               lry="437.64767900000004"
+               points="2207.287937,418.88532299999997 2218.943341,417.70572300000003 2220.842208,436.46808 2209.186805,437.64767900000004 ">
+            <graphic url="film:_H/26449"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
+            <ab>HIER RUHT</ab>
+            <ab>HERMANN CORRODI</ab>
+            <ab>GEB.FRASCATI.23.JULI.1884.MALER.GEST.ROM.31.JAN.1905</ab>
+            <ab>----------------------</ab>
+            <ab>WIR HABEN HIER KEINE BLEIBENDE STADT,</ab>
+            <ab>SONDERN DIE ZUKÜNFTIGE SUCHEN WIR</ab>
+            <ab rend="Alignr">EBR.13.14</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,76 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S419.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S419.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 419</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S419">
-          <msIdentifier>
-            <idno>S419</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>190</height>
-                    <depth>22</depth>
-                    <width>105</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Walter</forename>
-              <surname>Crawfurd</surname>
-            </persName>
-            <death when="1852"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 419</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S419">
+               <msIdentifier>
+                  <idno>S419</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>190</height>
+                              <depth>22</depth>
+                              <width>105</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Walter</forename>
+                     <surname>Crawfurd</surname>
+                  </persName>
+                  <death when="1852"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_IF #t_P">
-        <ab>IN MEMORY</ab>
-        <ab>OF</ab>
-        <ab>WALTER</ab>
-        <ab>ELDEST SON OF JOHN AND HORATIA CRAWFURD</ab>
-        <ab>OF BLACKBROOKE MONMOUTHSHIRE</ab>
-        <ab>AND LATE OF H.M. 59TH REG.T</ab>
-        <ab>WHO DIED AT ROME OF DECLINE</ab>
-        <ab>APRIL 2ND 1852</ab>
-        <ab>AGE 20</ab>
-        <ab>-------------</ab>
-        <ab>HE IS NOT DEAD BUT SLEEPETH</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S419"
+               ulx="1239.781515"
+               uly="578.632829"
+               lrx="1250.91295"
+               lry="598.566839"
+               points="1250.91295,578.887244 1240.34355,578.632829 1239.781515,598.312597 1250.350708,598.566839 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_IF #t_P">
+            <ab>IN MEMORY</ab>
+            <ab>OF</ab>
+            <ab>WALTER</ab>
+            <ab>ELDEST SON OF JOHN AND HORATIA CRAWFURD</ab>
+            <ab>OF BLACKBROOKE MONMOUTHSHIRE</ab>
+            <ab>AND LATE OF H.M. 59TH REG.T</ab>
+            <ab>WHO DIED AT ROME OF DECLINE</ab>
+            <ab>APRIL 2ND 1852</ab>
+            <ab>AGE 20</ab>
+            <ab>-------------</ab>
+            <ab>HE IS NOT DEAD BUT SLEEPETH</ab>
+         </div>
+      </body>
   </text>
 </TEI>

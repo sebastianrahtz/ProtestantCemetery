@@ -1,84 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S73.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S73.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 73</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S73">
-          <msIdentifier>
-            <idno>S73</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">149</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>120</height>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>23</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Karl Philipp</forename>
-              <surname>Fohr</surname>
-            </persName>
-            <birth when="1795-11-26">
-              <placeName>
-                <settlement>Heidelberg</settlement>
-                <country>Germany</country>
-              </placeName>
-            </birth>
-            <death when="1818-06-24"/>
-            <nationality key="DE"/>
-            <occupation>painter "fruhvollendete Maler"</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 73</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S73">
+               <msIdentifier>
+                  <idno>S73</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">149</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>120</height>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>23</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Karl Philipp</forename>
+                     <surname>Fohr</surname>
+                  </persName>
+                  <birth when="1795-11-26">
+                     <placeName>
+                        <settlement>Heidelberg</settlement>
+                        <country>Germany</country>
+                     </placeName>
+                  </birth>
+                  <death when="1818-06-24"/>
+                  <nationality key="DE"/>
+                  <occupation>painter "fruhvollendete Maler"</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_IC #t_P">
-        <ab>HIER RUHT</ab>
-        <ab>KARL PHILIPP FOHR</ab>
-        <ab>DER FRUHVOLLENDETE MALER</ab>
-        <ab>DER DEUTSCHEN ROMANTIK</ab>
-        <ab>AUS HEIDELBERG</ab>
-        <ab>GEB. DEN XXVI. NOV.</ab>
-        <ab>MDCCLXXXXV</ab>
-        <ab>GEST. DEN XXIX. JUNI</ab>
-        <ab>MDCCCXVIII</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S73"
+               ulx="446.05727"
+               uly="639.202102"
+               lrx="459.454322"
+               lry="659.320058"
+               points="453.602879,639.202102 446.05727,641.710876 451.908903,659.320058 459.454322,656.811301 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_IC #t_P">
+            <ab>HIER RUHT</ab>
+            <ab>KARL PHILIPP FOHR</ab>
+            <ab>DER FRUHVOLLENDETE MALER</ab>
+            <ab>DER DEUTSCHEN ROMANTIK</ab>
+            <ab>AUS HEIDELBERG</ab>
+            <ab>GEB. DEN XXVI. NOV.</ab>
+            <ab>MDCCLXXXXV</ab>
+            <ab>GEST. DEN XXIX. JUNI</ab>
+            <ab>MDCCCXVIII</ab>
+         </div>
+      </body>
   </text>
 </TEI>

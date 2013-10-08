@@ -1,84 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S785.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S785.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 785</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S785">
-          <msIdentifier>
-            <idno>S785</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">765</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>44</height>
-                    <depth>44</depth>
-                    <width>44</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Peter</forename>
-              <surname>Harrison</surname>
-            </persName>
-            <nationality key="AU"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John Mosman</forename>
-              <surname>Harrison</surname>
-            </persName>
-            <death when="1966"/>
-            <nationality key="AU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 785</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S785">
+               <msIdentifier>
+                  <idno>S785</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">765</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>44</height>
+                              <depth>44</depth>
+                              <width>44</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Harrison</surname>
+                  </persName>
+                  <nationality key="AU"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John Mosman</forename>
+                     <surname>Harrison</surname>
+                  </persName>
+                  <death when="1966"/>
+                  <nationality key="AU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_2 #m_I #t_P">
-        <ab rend="Alignl">PETER</ab>
-      </div>
-      <div type="inscription" decls="#f_N #c_2 #m_I #t_P">
-        <ab rend="Alignr">26 3 1922</ab>
-        <ab rend="Alignr">31 3 1966</ab>
-        <ab rend="Alignl">JOHN</ab>
-        <ab>MOSMAN HARRISON</ab>
-        <ab>FROM CRAFTON AUSTRALIA</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S785"
+               ulx="1880.654491"
+               uly="389.377558"
+               lrx="1885.988243"
+               lry="394.711309"
+               points="1880.654491,389.377558 1885.988243,389.377558 1885.988243,394.711309 1880.654491,394.711309 ">
+            <graphic url="film:J/21"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_2 #m_I #t_P">
+            <ab rend="Alignl">PETER</ab>
+         </div>
+         <div type="inscription" decls="#f_N #c_2 #m_I #t_P">
+            <ab rend="Alignr">26 3 1922</ab>
+            <ab rend="Alignr">31 3 1966</ab>
+            <ab rend="Alignl">JOHN</ab>
+            <ab>MOSMAN HARRISON</ab>
+            <ab>FROM CRAFTON AUSTRALIA</ab>
+         </div>
+      </body>
   </text>
 </TEI>

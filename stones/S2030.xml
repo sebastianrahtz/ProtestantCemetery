@@ -1,107 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2030.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2030.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2030</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2030">
-          <msIdentifier>
-            <idno>S2030</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>133</height>
-                    <depth>58</depth>
-                    <width>55</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ina Talbot</forename>
-              <surname>Wilson</surname>
-            </persName>
-            <death when="1907"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Henry Talbot</forename>
-              <surname>Wilson</surname>
-            </persName>
-            <death when="1912"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Jane Talbot</forename>
-              <surname>Wilson</surname>
-            </persName>
-            <death when="1929"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2030</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2030">
+               <msIdentifier>
+                  <idno>S2030</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>133</height>
+                              <depth>58</depth>
+                              <width>55</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ina Talbot</forename>
+                     <surname>Wilson</surname>
+                  </persName>
+                  <death when="1907"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henry Talbot</forename>
+                     <surname>Wilson</surname>
+                  </persName>
+                  <death when="1912"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Jane Talbot</forename>
+                     <surname>Wilson</surname>
+                  </persName>
+                  <death when="1929"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>IN FOND MEMORY</ab>
-        <ab>OF</ab>
-        <ab/>
-        <ab>INA TALBOT DEARLY LOVED DAUGHTER</ab>
-        <ab>OF HENRY AND JANIE TALBOT WILSON</ab>
-        <ab>AND WIFE OF DR. D'ALESSANDRO OF ARI</ab>
-        <ab>DIED 24TH MAY 1907</ab>
-        <ab/>
-        <ab>JANE TALBOT WILSON</ab>
-        <ab>LIVERPOOL 18TH. JUNE 1840</ab>
-        <ab>ROME 12TH. DECEMBER 1929</ab>
-        <ab rend="Alignr">"AND MANY THAT SLEEP IN THE DUST</ab>
-        <ab rend="Alignr">OF THE EARTH SHALL AWAKE".</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_S">
-        <ab>HENRY TALBOT WILSON</ab>
-        <ab>OF OVER KELLET, LANCASHIRE</ab>
-        <ab>DIED AT ROME. MARCH 3. 1912.</ab>
-        <ab>AGED 74.</ab>
-        <ab>R. I. P.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2030"
+               ulx="2668.698771"
+               uly="209.066642"
+               lrx="2676.19394"
+               lry="215.731451"
+               points="2668.698771,209.151617 2676.118584,209.066642 2676.19394,215.646476 2668.774126,215.731451 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>IN FOND MEMORY</ab>
+            <ab>OF</ab>
+            <ab/>
+            <ab>INA TALBOT DEARLY LOVED DAUGHTER</ab>
+            <ab>OF HENRY AND JANIE TALBOT WILSON</ab>
+            <ab>AND WIFE OF DR. D'ALESSANDRO OF ARI</ab>
+            <ab>DIED 24TH MAY 1907</ab>
+            <ab/>
+            <ab>JANE TALBOT WILSON</ab>
+            <ab>LIVERPOOL 18TH. JUNE 1840</ab>
+            <ab>ROME 12TH. DECEMBER 1929</ab>
+            <ab rend="Alignr">"AND MANY THAT SLEEP IN THE DUST</ab>
+            <ab rend="Alignr">OF THE EARTH SHALL AWAKE".</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_S">
+            <ab>HENRY TALBOT WILSON</ab>
+            <ab>OF OVER KELLET, LANCASHIRE</ab>
+            <ab>DIED AT ROME. MARCH 3. 1912.</ab>
+            <ab>AGED 74.</ab>
+            <ab>R. I. P.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

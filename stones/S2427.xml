@@ -1,85 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2427.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2427.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2427</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2427">
-          <msIdentifier>
-            <idno>S2427</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>143</height>
-                    <depth>20</depth>
-                    <width>66</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Danitza</forename>
-              <surname>Vuksan</surname>
-            </persName>
-            <death when="1939"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ljubitza</forename>
-              <surname>Rossi</surname>
-            </persName>
-            <death when="1963"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2427</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2427">
+               <msIdentifier>
+                  <idno>S2427</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>143</height>
+                              <depth>20</depth>
+                              <width>66</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Danitza</forename>
+                     <surname>Vuksan</surname>
+                  </persName>
+                  <death when="1939"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ljubitza</forename>
+                     <surname>Rossi</surname>
+                  </persName>
+                  <death when="1963"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>DANITZA VUKSAN</ab>
-        <ab>NATA PETROVITCH NJEGOSCH</ab>
-        <ab>18.III.1894 - 5.VIII.1939</ab>
-        <ab/>
-        <ab>LJUBITZA ROSSI</ab>
-        <ab>NATA PETROVITCH NJEGOSCH</ab>
-        <ab>19.IV.1886 - 22.XII.1963</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2427"
+               ulx="3151.712469"
+               uly="243.38992299999995"
+               lrx="3159.327608"
+               lry="258.25343399999997"
+               points="3152.049223,243.38992299999995 3159.327608,243.556696 3158.990854,258.25343399999997 3151.712469,258.08666000000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>DANITZA VUKSAN</ab>
+            <ab>NATA PETROVITCH NJEGOSCH</ab>
+            <ab>18.III.1894 - 5.VIII.1939</ab>
+            <ab/>
+            <ab>LJUBITZA ROSSI</ab>
+            <ab>NATA PETROVITCH NJEGOSCH</ab>
+            <ab>19.IV.1886 - 22.XII.1963</ab>
+         </div>
+      </body>
   </text>
 </TEI>

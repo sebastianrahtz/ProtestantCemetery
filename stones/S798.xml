@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S798.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S798.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 798</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S798">
-          <msIdentifier>
-            <idno>S798</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>158</height>
-                    <width>58</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Jane</forename>
-              <surname>Westenberg</surname>
-            </persName>
-            <death when="1902"/>
-            <nationality key="NL"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Bernhard O.T.H.</forename>
-              <surname>Westenberg</surname>
-            </persName>
-            <death when="1903"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 798</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S798">
+               <msIdentifier>
+                  <idno>S798</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>158</height>
+                              <width>58</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Jane</forename>
+                     <surname>Westenberg</surname>
+                  </persName>
+                  <death when="1902"/>
+                  <nationality key="NL"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Bernhard O.T.H.</forename>
+                     <surname>Westenberg</surname>
+                  </persName>
+                  <death when="1903"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_T #c_3 #m_I #t_P">
-        <ab>JANE</ab>
-        <ab>WESTENBERG</ab>
-        <ab>ALLEN WATSON</ab>
-        <ab>NATA 17 AUG MDCCCXXXIV</ab>
-        <ab>OB 18 JUL MCMII</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_T #c_3 #m_I #t_S">
-        <ab>BERNHARD ORTUINUS</ab>
-        <ab>THEODORUS HENRICUS</ab>
-        <ab>WESTENBERG</ab>
-        <ab>JUR.UTR.DR.</ab>
-        <ab>NEERLANDIAE IN ITALIA</ab>
-        <ab>LEGATUS</ab>
-        <ab>MDCCCLXXIV-MCMIII</ab>
-        <ab>NAT.12 JUN.MDCCCXXVIII</ab>
-        <ab>OBIIT 24 NOV.MCMIII</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S798"
+               ulx="1725.083458"
+               uly="394.711309"
+               lrx="1733.188876"
+               lry="409.82593899999995"
+               points="1725.505075,394.711309 1733.188876,394.928775 1732.767258,409.82593899999995 1725.083458,409.608473 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_T #c_3 #m_I #t_P">
+            <ab>JANE</ab>
+            <ab>WESTENBERG</ab>
+            <ab>ALLEN WATSON</ab>
+            <ab>NATA 17 AUG MDCCCXXXIV</ab>
+            <ab>OB 18 JUL MCMII</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_T #c_3 #m_I #t_S">
+            <ab>BERNHARD ORTUINUS</ab>
+            <ab>THEODORUS HENRICUS</ab>
+            <ab>WESTENBERG</ab>
+            <ab>JUR.UTR.DR.</ab>
+            <ab>NEERLANDIAE IN ITALIA</ab>
+            <ab>LEGATUS</ab>
+            <ab>MDCCCLXXIV-MCMIII</ab>
+            <ab>NAT.12 JUN.MDCCCXXVIII</ab>
+            <ab>OBIIT 24 NOV.MCMIII</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S575.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S575.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 575</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S575">
-          <msIdentifier>
-            <idno>S575</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>45</height>
-                    <depth>3</depth>
-                    <width>52</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Frida</forename>
-              <surname>Schaefer</surname>
-            </persName>
-            <death when="1935"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Rudolf</forename>
-              <surname>Bosselmann</surname>
-            </persName>
-            <death when="1958"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 575</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S575">
+               <msIdentifier>
+                  <idno>S575</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>45</height>
+                              <depth>3</depth>
+                              <width>52</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Frida</forename>
+                     <surname>Schaefer</surname>
+                  </persName>
+                  <death when="1935"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Rudolf</forename>
+                     <surname>Bosselmann</surname>
+                  </persName>
+                  <death when="1958"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
-        <ab>FRIDA SCHAEFER</ab>
-        <ab>+ 2.X.1935</ab>
-        <ab>RUDOLF BOSSELMANN</ab>
-        <ab>+ 11.VIII.1958</ab>
-        <ab rend="Alignl">...UND IHR HABT NUN TRAURIGKEIT ABER ICH WILL</ab>
-        <ab rend="Alignl">EUCH WIEDERSEHEN UND EUER HERZ SOLL SICH</ab>
-        <ab rend="Alignl">FREUEN UND EURE FREUDE SOLL NIEMAND VON</ab>
-        <ab rend="Alignl">EUCH NEHMEN.</ab>
-        <ab/>
-        <ab rend="Alignr">JOH. 16+22</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S575"
+               ulx="1470.833716"
+               uly="267.795531"
+               lrx="1478.691804"
+               lry="271.382919"
+               points="1470.833716,267.795531 1478.691804,267.795531 1478.691804,271.382919 1470.833716,271.382919 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+            <ab>FRIDA SCHAEFER</ab>
+            <ab>+ 2.X.1935</ab>
+            <ab>RUDOLF BOSSELMANN</ab>
+            <ab>+ 11.VIII.1958</ab>
+            <ab rend="Alignl">...UND IHR HABT NUN TRAURIGKEIT ABER ICH WILL</ab>
+            <ab rend="Alignl">EUCH WIEDERSEHEN UND EUER HERZ SOLL SICH</ab>
+            <ab rend="Alignl">FREUEN UND EURE FREUDE SOLL NIEMAND VON</ab>
+            <ab rend="Alignl">EUCH NEHMEN.</ab>
+            <ab/>
+            <ab rend="Alignr">JOH. 16+22</ab>
+         </div>
+      </body>
   </text>
 </TEI>

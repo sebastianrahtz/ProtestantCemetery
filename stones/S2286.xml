@@ -1,96 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2286.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2286.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2286</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2286">
-          <msIdentifier>
-            <idno>S2286</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>138</height>
-                    <depth>28</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ol'ga</forename>
-              <surname>Barjatinskaja</surname>
-            </persName>
-            <death when="1932"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Mari'</forename>
-              <surname>Barjatinskaja</surname>
-            </persName>
-            <death when="1942"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Leonilla Golinyna</forename>
-              <surname>Barjatinskaja</surname>
-            </persName>
-            <death when="1947"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2286</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2286">
+               <msIdentifier>
+                  <idno>S2286</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>138</height>
+                              <depth>28</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ol'ga</forename>
+                     <surname>Barjatinskaja</surname>
+                  </persName>
+                  <death when="1932"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Mari'</forename>
+                     <surname>Barjatinskaja</surname>
+                  </persName>
+                  <death when="1942"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Leonilla Golinyna</forename>
+                     <surname>Barjatinskaja</surname>
+                  </persName>
+                  <death when="1947"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_4 #m_I #t_P #s_CY">
-        <ab>КНЙАЖНЫ</ab>
-        <ab>МАРИЯ (1942г) ОЛ'ГА (1932г)</ab>
-        <ab>БАРЙАТИНСКИЯ</ab>
-        <ab/>
-        <ab>КН. [..ИЛЛЕГИБЛЕ..]</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2286"
+               ulx="2806.192579"
+               uly="616.941554"
+               lrx="2814.963777"
+               lry="620.44733"
+               points="2806.287085,616.941554 2814.963777,617.19357 2814.869272,620.44733 2806.192579,620.195314 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_4 #m_I #t_P #s_CY">
+            <ab>КНЙАЖНЫ</ab>
+            <ab>МАРИЯ (1942г) ОЛ'ГА (1932г)</ab>
+            <ab>БАРЙАТИНСКИЯ</ab>
+            <ab/>
+            <ab>КН. [..ИЛЛЕГИБЛЕ..]</ab>
+         </div>
+      </body>
   </text>
 </TEI>

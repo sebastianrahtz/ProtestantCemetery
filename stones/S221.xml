@@ -1,80 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S221.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S221.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 221</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S221">
-          <msIdentifier>
-            <idno>S221</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1005</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>45</height>
-                    <depth>8</depth>
-                    <width>61</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>41</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Laura Ellen</forename>
-              <surname>Cross</surname>
-            </persName>
-            <birth when="1912-06-22">
-              <placeName>
-                <settlement>Winchester</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1953-03-23"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 221</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S221">
+               <msIdentifier>
+                  <idno>S221</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1005</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>45</height>
+                              <depth>8</depth>
+                              <width>61</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>41</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Laura Ellen</forename>
+                     <surname>Cross</surname>
+                  </persName>
+                  <birth when="1912-06-22">
+                     <placeName>
+                        <settlement>Winchester</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1953-03-23"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_N #c_1 #m_IC #t_P">
-        <ab>LAVRA ELLEN</ab>
-        <ab>CROSS</ab>
-        <ab>OF WINCHESTER</ab>
-        <ab>ENGLAND</ab>
-        <ab>22.6.1912 - 23.3.1953</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S221"
+               ulx="1297.695318"
+               uly="382.73773800000004"
+               lrx="1302.168158"
+               lry="385.26050299999997"
+               points="1302.168158,382.843613 1297.764381,382.73773800000004 1297.695318,385.15443700000003 1302.099113,385.26050299999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_N #c_1 #m_IC #t_P">
+            <ab>LAVRA ELLEN</ab>
+            <ab>CROSS</ab>
+            <ab>OF WINCHESTER</ab>
+            <ab>ENGLAND</ab>
+            <ab>22.6.1912 - 23.3.1953</ab>
+         </div>
+      </body>
   </text>
 </TEI>

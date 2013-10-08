@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1876.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1876.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1876</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1876">
-          <msIdentifier>
-            <idno>S1876</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>139</height>
-                    <depth>30</depth>
-                    <width>59</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Josephine</forename>
-              <surname>von Arnim</surname>
-            </persName>
-            <death when="1899"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1876</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1876">
+               <msIdentifier>
+                  <idno>S1876</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>139</height>
+                              <depth>30</depth>
+                              <width>59</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Josephine</forename>
+                     <surname>von Arnim</surname>
+                  </persName>
+                  <death when="1899"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
-        <ab>FRAU JOSEPHINE VON ARNIM</ab>
-        <ab>GEB. 5 JANUAR 1839</ab>
-        <ab>GEST. 13 JANUAR 1899.</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_4 #m_IC #t_PC">
-        <ab>ALLA MEMORIA</ab>
-        <ab>DELLA</ab>
-        <ab>BA[....]ESSA D'ARNIM</ab>
-        <ab>GIULIA MARCELLIANI</ab>
-        <ab>1899</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1876"
+               ulx="2508.836978"
+               uly="577.70601"
+               lrx="2518.723489"
+               lry="583.643909"
+               points="2511.841868,583.455229 2516.095961,583.149747 2516.266672,585.527035 2512.012578,585.832517 2508.836978,578.388852 2518.346129,577.70601 2518.723489,582.961066 2509.21434,583.643909 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
+            <ab>FRAU JOSEPHINE VON ARNIM</ab>
+            <ab>GEB. 5 JANUAR 1839</ab>
+            <ab>GEST. 13 JANUAR 1899.</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_4 #m_IC #t_PC">
+            <ab>ALLA MEMORIA</ab>
+            <ab>DELLA</ab>
+            <ab>BA[....]ESSA D'ARNIM</ab>
+            <ab>GIULIA MARCELLIANI</ab>
+            <ab>1899</ab>
+         </div>
+      </body>
   </text>
 </TEI>

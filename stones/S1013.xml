@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1013.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1013.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1013</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1013">
-          <msIdentifier>
-            <idno>S1013</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">858</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>178</height>
-                    <depth>25</depth>
-                    <width>84</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_121 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Stanley Lane</forename>
-              <surname>Haseltine</surname>
-            </persName>
-            <death when="1879"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1013</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1013">
+               <msIdentifier>
+                  <idno>S1013</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">858</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>178</height>
+                              <depth>25</depth>
+                              <width>84</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_121 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Stanley Lane</forename>
+                     <surname>Haseltine</surname>
+                  </persName>
+                  <death when="1879"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>IN MEMORY</ab>
-        <ab>OF</ab>
-        <ab>STANLEY LANE HASELTINE</ab>
-        <ab>SON OF</ab>
-        <ab>WM STANLEY &amp; HELEN L. HASELTINE</ab>
-        <ab>BORN IN</ab>
-        <ab>NEW YORK AUGUST 18TH 1861</ab>
-        <ab>DIED IN</ab>
-        <ab>ROME APRIL 9TH 1879</ab>
-        <ab/>
-        <ab rend="Alignl">"SPEAK TO HIM THOU FOR HE HEARS</ab>
-        <ab rend="Alignl">AND SPIRIT WITH SPIRIT CAN MEET</ab>
-        <ab rend="Alignl">CLOSER IS HE THAN BREATHING AND</ab>
-        <ab rend="Alignl">NEARER THAN HANDS AND FEET"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1013"
+               ulx="2103.39733"
+               uly="487.27759100000003"
+               lrx="2110.722615"
+               lry="490.074519"
+               points="2103.39733,487.27759100000003 2110.722615,487.27759100000003 2110.722615,490.074519 2103.39733,490.074519 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>IN MEMORY</ab>
+            <ab>OF</ab>
+            <ab>STANLEY LANE HASELTINE</ab>
+            <ab>SON OF</ab>
+            <ab>WM STANLEY &amp; HELEN L. HASELTINE</ab>
+            <ab>BORN IN</ab>
+            <ab>NEW YORK AUGUST 18TH 1861</ab>
+            <ab>DIED IN</ab>
+            <ab>ROME APRIL 9TH 1879</ab>
+            <ab/>
+            <ab rend="Alignl">"SPEAK TO HIM THOU FOR HE HEARS</ab>
+            <ab rend="Alignl">AND SPIRIT WITH SPIRIT CAN MEET</ab>
+            <ab rend="Alignl">CLOSER IS HE THAN BREATHING AND</ab>
+            <ab rend="Alignl">NEARER THAN HANDS AND FEET"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

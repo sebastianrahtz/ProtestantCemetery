@@ -1,90 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S309.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S309.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 309</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S309">
-          <msIdentifier>
-            <idno>S309</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1075</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>190</height>
-                    <depth>13</depth>
-                    <width>89</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>38</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Reginald Robert</forename>
-              <surname>Stanhope-Wright</surname>
-            </persName>
-            <birth when="1910-07-09">
-              <placeName>
-                <settlement>Long Melford, Suffolk</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1949-06-22">
-              <placeName>
-                <settlement>florence</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 309</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S309">
+               <msIdentifier>
+                  <idno>S309</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1075</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>190</height>
+                              <depth>13</depth>
+                              <width>89</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>38</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Reginald Robert</forename>
+                     <surname>Stanhope-Wright</surname>
+                  </persName>
+                  <birth when="1910-07-09">
+                     <placeName>
+                        <settlement>Long Melford, Suffolk</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1949-06-22">
+                     <placeName>
+                        <settlement>florence</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_1 #m_RM #t_P">
-        <ab>REGINALD ROBERT</ab>
-        <ab>STANHOPE-WRIGHT</ab>
-        <ab>BORN IN</ab>
-        <ab>LONG MELFORD,SUFFOLK,ENGLAND 9TH JULY 1910</ab>
-        <ab>DIED IN</ab>
-        <ab>FLORENCE.ITALY 22ND JUNE 1949</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S309"
+               ulx="1044.881795"
+               uly="462.34463700000003"
+               lrx="1055.765378"
+               lry="476.942868"
+               points="1053.371315,462.454787 1053.125338,467.976724 1055.765378,468.126624 1055.637082,472.61497499999996 1052.642325,472.54285200000004 1052.428678,476.942868 1047.934142,476.92103499999996 1048.052436,472.77793899999995 1044.881795,472.70188600000006 1045.10775,467.87027 1048.457206,467.864427 1048.791238,462.34463700000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_1 #m_RM #t_P">
+            <ab>REGINALD ROBERT</ab>
+            <ab>STANHOPE-WRIGHT</ab>
+            <ab>BORN IN</ab>
+            <ab>LONG MELFORD,SUFFOLK,ENGLAND 9TH JULY 1910</ab>
+            <ab>DIED IN</ab>
+            <ab>FLORENCE.ITALY 22ND JUNE 1949</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,85 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1362.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1362.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1362</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1362">
-          <msIdentifier>
-            <idno>S1362</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">516</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>40</height>
-                    <depth>28</depth>
-                    <width>48</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>There is a plaque nearby about the donation of a magnolia tree by Borch's Danish friends. The tree is present 19.8.1985</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Niels Malthe</forename>
-              <surname>Borch</surname>
-            </persName>
-            <death when="1978"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1362</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1362">
+               <msIdentifier>
+                  <idno>S1362</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">516</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>40</height>
+                              <depth>28</depth>
+                              <width>48</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>There is a plaque nearby about the donation of a magnolia tree by Borch's Danish friends. The tree is present 19.8.1985</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Niels Malthe</forename>
+                     <surname>Borch</surname>
+                  </persName>
+                  <death when="1978"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>NIELS MALTHE</ab>
-        <ab>BORCH</ab>
-        <ab>ARCHITEKT</ab>
-        <ab>*4 JULI 1911 - +8 APRIL 1978</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_S">
-        <ab>QUESTA MAGNOLIA É STATA DONATA DAGLI AMICI DANESI</ab>
-        <ab>ALL'ARCHITETTO .NIELS MALTHE BORCH</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1362"
+               ulx="2119.419185"
+               uly="660.336107"
+               lrx="2124.351883"
+               lry="664.870494"
+               points="2119.419185,660.336107 2123.972445,660.336107 2124.351883,664.870494 2119.419185,664.870494 2119.419185,660.336107 2123.972445,660.336107 2124.351883,664.870494 2119.419185,664.870494 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>NIELS MALTHE</ab>
+            <ab>BORCH</ab>
+            <ab>ARCHITEKT</ab>
+            <ab>*4 JULI 1911 - +8 APRIL 1978</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_S">
+            <ab>QUESTA MAGNOLIA É STATA DONATA DAGLI AMICI DANESI</ab>
+            <ab>ALL'ARCHITETTO .NIELS MALTHE BORCH</ab>
+         </div>
+      </body>
   </text>
 </TEI>

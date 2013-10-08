@@ -1,101 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2238.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2238.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2238</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2238">
-          <msIdentifier>
-            <idno>S2238</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1362</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>180</height>
-                    <depth>12</depth>
-                    <width>38</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Female mourning figure, semi-reclining and half-naked.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_86 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Charles Densmore</forename>
-              <surname>Curtis</surname>
-            </persName>
-            <death when="1925"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2238</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2238">
+               <msIdentifier>
+                  <idno>S2238</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1362</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>180</height>
+                              <depth>12</depth>
+                              <width>38</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Female mourning figure, semi-reclining and half-naked.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_86 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Charles Densmore</forename>
+                     <surname>Curtis</surname>
+                  </persName>
+                  <death when="1925"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>CHARLES</ab>
-        <ab>DENSMORE</ab>
-        <ab>CURTIS</ab>
-        <ab/>
-        <ab>BORN</ab>
-        <ab>AUGUSTA MAINE</ab>
-        <ab>UNITED STATES</ab>
-        <ab>OF</ab>
-        <ab>AMERICA</ab>
-        <ab>OCTOBER 16,1875</ab>
-        <ab>DIED</ab>
-        <ab>AMERICAN ACADEMY</ab>
-        <ab>IN</ab>
-        <ab>ROME</ab>
-        <ab>JUNE 7,1925</ab>
-        <ab/>
-        <ab>TEACHER</ab>
-        <ab>WRITER</ab>
-        <ab>ARCHAEOLOGIST</ab>
-        <ab>A LOYAL FRIEND</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2238"
+               ulx="2681.755647"
+               uly="556.064726"
+               lrx="2687.81222"
+               lry="558.725925"
+               points="2681.755647,556.090843 2687.800835,556.064726 2687.81222,558.699808 2681.767031,558.725925 ">
+            <graphic url="film:_H/26429"/>
+            <graphic url="film:Z/23">
+               <desc>figure</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>CHARLES</ab>
+            <ab>DENSMORE</ab>
+            <ab>CURTIS</ab>
+            <ab/>
+            <ab>BORN</ab>
+            <ab>AUGUSTA MAINE</ab>
+            <ab>UNITED STATES</ab>
+            <ab>OF</ab>
+            <ab>AMERICA</ab>
+            <ab>OCTOBER 16,1875</ab>
+            <ab>DIED</ab>
+            <ab>AMERICAN ACADEMY</ab>
+            <ab>IN</ab>
+            <ab>ROME</ab>
+            <ab>JUNE 7,1925</ab>
+            <ab/>
+            <ab>TEACHER</ab>
+            <ab>WRITER</ab>
+            <ab>ARCHAEOLOGIST</ab>
+            <ab>A LOYAL FRIEND</ab>
+         </div>
+      </body>
   </text>
 </TEI>

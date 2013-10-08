@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S113.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S113.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 113</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S113">
-          <msIdentifier>
-            <idno>S113</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1822</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>113</height>
-                    <depth>17</depth>
-                    <width>77</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_88 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_121 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>23</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Eliza</forename>
-              <surname>Vaughan</surname>
-            </persName>
-            <death when="1837-09-03"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 113</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S113">
+               <msIdentifier>
+                  <idno>S113</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1822</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>113</height>
+                              <depth>17</depth>
+                              <width>77</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_88 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_121 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>23</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Eliza</forename>
+                     <surname>Vaughan</surname>
+                  </persName>
+                  <death when="1837-09-03"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>SACRED TO THE MEMORY OF</ab>
-        <ab>ELIZA VAUGHAN</ab>
-        <ab>ELDEST DAUGHTER OF EDWARD BERENS</ab>
-        <ab>AND ELIZA MARIA BLACHBURN</ab>
-        <ab rend="Alignl">
-          <note>"Blachburn" [sic]</note>
-        </ab>
-        <ab>AND WIDOW OF I.H.VAUGHAN ESQ'RE</ab>
-        <ab>DIED ON THE 3D DAY OF SEPTEMBER 1837</ab>
-        <ab>AGED 23 YEARS</ab>
-        <ab>AND IS BURIED BENEATH THIS SPOT</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S113"
+               ulx="1296.219541"
+               uly="237.60325799999998"
+               lrx="1304.674805"
+               lry="241.91449599999999"
+               points="1304.674805,238.48231499999997 1296.621609,237.60325799999998 1296.219541,241.036026 1304.272874,241.91449599999999 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>SACRED TO THE MEMORY OF</ab>
+            <ab>ELIZA VAUGHAN</ab>
+            <ab>ELDEST DAUGHTER OF EDWARD BERENS</ab>
+            <ab>AND ELIZA MARIA BLACHBURN</ab>
+            <ab rend="Alignl">
+               <note>"Blachburn" [sic]</note>
+            </ab>
+            <ab>AND WIDOW OF I.H.VAUGHAN ESQ'RE</ab>
+            <ab>DIED ON THE 3D DAY OF SEPTEMBER 1837</ab>
+            <ab>AGED 23 YEARS</ab>
+            <ab>AND IS BURIED BENEATH THIS SPOT</ab>
+         </div>
+      </body>
   </text>
 </TEI>

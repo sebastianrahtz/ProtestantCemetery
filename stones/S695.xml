@@ -1,112 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S695.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S695.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 695</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S695">
-          <msIdentifier>
-            <idno>S695</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">548</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>97</height>
-                    <depth>64</depth>
-                    <width>64</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_86 #st_A #f_N"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_135 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Hans</forename>
-              <surname>Barth</surname>
-            </persName>
-            <death when="1928"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ida</forename>
-              <surname>Barth</surname>
-            </persName>
-            <death when="1931"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 695</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S695">
+               <msIdentifier>
+                  <idno>S695</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">548</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>97</height>
+                              <depth>64</depth>
+                              <width>64</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_86 #st_A #f_N"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_135 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Hans</forename>
+                     <surname>Barth</surname>
+                  </persName>
+                  <death when="1928"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ida</forename>
+                     <surname>Barth</surname>
+                  </persName>
+                  <death when="1931"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>HANS</ab>
-        <ab>BARTH</ab>
-        <ab>1862 - 1928</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IC #t_S">
-        <ab>UND SEINE GATTIN</ab>
-        <ab>IDA</ab>
-        <ab>GEB. LAMPARTER</ab>
-        <ab>1863 - 1931</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_W #c_2 #m_IC #t_PC">
-        <ab>ROM</ab>
-        <ab>DU BIST EINE</ab>
-        <ab>WELT</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_E #c_2 #m_IC #t_PC">
-        <ab>WIR SIND</ab>
-        <ab>PILGER UND</ab>
-        <ab>FREMDLINGE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S695"
+               ulx="1516.646137"
+               uly="328.88742"
+               lrx="1523.369822"
+               lry="336.25145599999996"
+               points="1516.646137,328.88742 1523.369822,328.88742 1523.369822,336.25145599999996 1516.646137,336.25145599999996 ">
+            <graphic url="film:_H/26448"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>HANS</ab>
+            <ab>BARTH</ab>
+            <ab>1862 - 1928</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IC #t_S">
+            <ab>UND SEINE GATTIN</ab>
+            <ab>IDA</ab>
+            <ab>GEB. LAMPARTER</ab>
+            <ab>1863 - 1931</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_W #c_2 #m_IC #t_PC">
+            <ab>ROM</ab>
+            <ab>DU BIST EINE</ab>
+            <ab>WELT</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_E #c_2 #m_IC #t_PC">
+            <ab>WIR SIND</ab>
+            <ab>PILGER UND</ab>
+            <ab>FREMDLINGE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

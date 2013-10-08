@@ -1,92 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2343.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2343.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2343</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2343">
-          <msIdentifier>
-            <idno>S2343</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>173</height>
-                    <depth>35</depth>
-                    <width>85</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Elena</forename>
-              <surname>Stal'fon' gol'xtein</surname>
-            </persName>
-            <death when="1941"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Aleksěj</forename>
-              <surname>Stal'fon' gol'xtein</surname>
-            </persName>
-            <death when="1948"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2343</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2343">
+               <msIdentifier>
+                  <idno>S2343</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>173</height>
+                              <depth>35</depth>
+                              <width>85</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elena</forename>
+                     <surname>Stal'fon' gol'xtein</surname>
+                  </persName>
+                  <death when="1941"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Aleksěj</forename>
+                     <surname>Stal'fon' gol'xtein</surname>
+                  </persName>
+                  <death when="1948"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IC #t_P #s_CY">
-        <ab>БАРОН" АЛЕКСѢЙ ИВАНОВИЯ"</ab>
-        <ab>СТАЛ' - ФОН' - ГОА'ЬТЕЙ@~Н</ab>
-        <ab>*24 МАРТА 1859 г. + 28 АПРѢЛЯ 1941г</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> GOA' sic for GOL'.</note>
-        </ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IC #t_S #s_CY">
-        <ab>БАРОНЕССА ЕЛЕНА АЛЕКСѢЕВНА</ab>
-        <ab>СТАЛ' ФОН" ГОЛ'ЬТЕЙН"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2343"
+               ulx="2647.217114"
+               uly="694.583216"
+               lrx="2656.776829"
+               lry="700.042991"
+               points="2647.323368,694.583216 2656.776829,694.77385 2656.670575,700.042991 2647.217114,699.852358 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IC #t_P #s_CY">
+            <ab>БАРОН" АЛЕКСѢЙ ИВАНОВИЯ"</ab>
+            <ab>СТАЛ' - ФОН' - ГОА'ЬТЕЙ@~Н</ab>
+            <ab>*24 МАРТА 1859 г. + 28 АПРѢЛЯ 1941г</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> GOA' sic for GOL'.</note>
+            </ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IC #t_S #s_CY">
+            <ab>БАРОНЕССА ЕЛЕНА АЛЕКСѢЕВНА</ab>
+            <ab>СТАЛ' ФОН" ГОЛ'ЬТЕЙН"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

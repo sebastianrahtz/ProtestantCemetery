@@ -1,77 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2124.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2124.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2124</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2124">
-          <msIdentifier>
-            <idno>S2124</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>107</height>
-                    <depth>32</depth>
-                    <width>36</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Helen Wiel Lindheim d. 1938. Small metal urn (decorated) with plaque on the front.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_109 #st_C #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Helen Wiel</forename>
-              <surname>Lindheim</surname>
-            </persName>
-            <death when="1938"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2124</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2124">
+               <msIdentifier>
+                  <idno>S2124</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>107</height>
+                              <depth>32</depth>
+                              <width>36</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Helen Wiel Lindheim d. 1938. Small metal urn (decorated) with plaque on the front.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_109 #st_C #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Helen Wiel</forename>
+                     <surname>Lindheim</surname>
+                  </persName>
+                  <death when="1938"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_3 #m_IC #t_P">
-        <ab>HELEN</ab>
-        <ab>WIEL</ab>
-        <ab>LINDHEIM</ab>
-        <ab>NEW ROCHELLENY</ab>
-        <ab>1909</ab>
-        <ab>FORMIA ITALY</ab>
-        <ab>1938</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2124"
+               ulx="2861.629549"
+               uly="344.243343"
+               lrx="2866.839593"
+               lry="349.314215"
+               points="2861.629549,344.274099 2866.809668,344.243343 2866.839593,349.283459 2861.659474,349.314215 ">
+            <graphic url="film:AE/23"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_3 #m_IC #t_P">
+            <ab>HELEN</ab>
+            <ab>WIEL</ab>
+            <ab>LINDHEIM</ab>
+            <ab>NEW ROCHELLENY</ab>
+            <ab>1909</ab>
+            <ab>FORMIA ITALY</ab>
+            <ab>1938</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1183.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1183.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1183</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1183">
-          <msIdentifier>
-            <idno>S1183</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">375</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>123</height>
-                    <depth>4</depth>
-                    <width>59</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Cyril Arnold</forename>
-              <surname>Jost</surname>
-            </persName>
-            <death when="1963"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Emma</forename>
-              <surname>Jost</surname>
-            </persName>
-            <death when="1984"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1183</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1183">
+               <msIdentifier>
+                  <idno>S1183</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">375</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>123</height>
+                              <depth>4</depth>
+                              <width>59</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Cyril Arnold</forename>
+                     <surname>Jost</surname>
+                  </persName>
+                  <death when="1963"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Emma</forename>
+                     <surname>Jost</surname>
+                  </persName>
+                  <death when="1984"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IF #t_P">
-        <ab>DR.ING.</ab>
-        <ab>CYRIL ARNOLD JOST</ab>
-        <ab>CITT.SVIZZERO</ab>
-        <ab>LONDRA 13.VIII.1896</ab>
-        <ab>ROMA 2.XII.1963</ab>
-        <ab/>
-        <ab>EMMA JOST</ab>
-        <ab>NATA GIORDANO</ab>
-        <ab>ROMA 29.IX.1895</ab>
-        <ab>ROMA 13.I.1984</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1183"
+               ulx="1641.637967"
+               uly="562.927813"
+               lrx="1648.830065"
+               lry="576.113327"
+               points="1641.637967,562.927813 1648.830065,562.927813 1648.830065,576.113327 1641.637967,576.113327 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IF #t_P">
+            <ab>DR.ING.</ab>
+            <ab>CYRIL ARNOLD JOST</ab>
+            <ab>CITT.SVIZZERO</ab>
+            <ab>LONDRA 13.VIII.1896</ab>
+            <ab>ROMA 2.XII.1963</ab>
+            <ab/>
+            <ab>EMMA JOST</ab>
+            <ab>NATA GIORDANO</ab>
+            <ab>ROMA 29.IX.1895</ab>
+            <ab>ROMA 13.I.1984</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2205.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2205.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2205</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2205">
-          <msIdentifier>
-            <idno>S2205</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">325</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>49</height>
-                    <depth>19</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Eloisa</forename>
-              <surname>Fiamingo</surname>
-            </persName>
-            <death when="1923"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Giuseppe Maria</forename>
-              <surname>Fiamingo</surname>
-            </persName>
-            <death when="1966"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2205</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2205">
+               <msIdentifier>
+                  <idno>S2205</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">325</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>49</height>
+                              <depth>19</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Eloisa</forename>
+                     <surname>Fiamingo</surname>
+                  </persName>
+                  <death when="1923"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Giuseppe Maria</forename>
+                     <surname>Fiamingo</surname>
+                  </persName>
+                  <death when="1966"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RS #t_P">
-        <ab>ELOISA STETTINIUS FLAMINGO</ab>
-        <ab>BORN CINCINNATI,O. U.S.A. FEB IX.1889</ab>
-        <ab>DIED ROME MARCH XXIV.1923</ab>
-        <ab>ON.GIUSEPPE MARIA FLAMINGO</ab>
-        <ab>BORN RIPOSTO,CATANIA APRILXX.1875</ab>
-        <ab>DIED FOCE VERDE, LATINA NOV.XXII.1966</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2205"
+               ulx="2806.386644"
+               uly="507.568794"
+               lrx="2813.51213"
+               lry="511.87483499999996"
+               points="2806.473375,507.568794 2813.51213,507.71556999999996 2813.425399,511.87483499999996 2806.386644,511.72805700000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RS #t_P">
+            <ab>ELOISA STETTINIUS FLAMINGO</ab>
+            <ab>BORN CINCINNATI,O. U.S.A. FEB IX.1889</ab>
+            <ab>DIED ROME MARCH XXIV.1923</ab>
+            <ab>ON.GIUSEPPE MARIA FLAMINGO</ab>
+            <ab>BORN RIPOSTO,CATANIA APRILXX.1875</ab>
+            <ab>DIED FOCE VERDE, LATINA NOV.XXII.1966</ab>
+         </div>
+      </body>
   </text>
 </TEI>

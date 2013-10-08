@@ -1,98 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1030.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1030.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1030</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1030">
-          <msIdentifier>
-            <idno>S1030</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>250</height>
-                    <depth>200</depth>
-                    <width>97</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Anna Magdalena</forename>
-              <surname>Tiesenhausen</surname>
-            </persName>
-            <death when="1894"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1030</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1030">
+               <msIdentifier>
+                  <idno>S1030</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>250</height>
+                              <depth>200</depth>
+                              <width>97</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anna Magdalena</forename>
+                     <surname>Tiesenhausen</surname>
+                  </persName>
+                  <death when="1894"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
-        <ab>HIER RUHT IN GOTT</ab>
-        <ab>ANNA MAGDALENA</ab>
-        <ab>BARONIN TIESENHAUSEN</ab>
-        <ab>GEB. BARONIN VIETINGHOFF</ab>
-        <ab>GEB. IN ESTLAND DEN 31TEN MARZ 1814.</ab>
-        <ab>GEST. IN ROM DEN 16TEN JANUAR 1894</ab>
-        <ab>------</ab>
-        <ab rend="Alignl">WIE ER GELIEBET HAT DIE SEINEN SO LIEBET</ab>
-        <ab rend="Alignl">ER SIE BIS ANS ENDE</ab>
-        <ab rend="Alignr">EV.IOH.13.V.1</ab>
-        <ab/>
-        <ab rend="Alignl">SIEHE ICH MACHE ALLES NEU</ab>
-        <ab rend="Alignr">OFFENB.21.V.5.</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_4 #m_I #t_P">
-        <ab>MARY VON TIESENHAUSEN</ab>
-        <ab>GEB. 25TEN MAI 1872</ab>
-        <ab>GEST. 8TEN APRIL 1891</ab>
-        <ab/>
-        <ab>HERMANN BARON TIESENHAUSEN</ab>
-        <ab>GEB. 7TEN OKT. 1874</ab>
-        <ab>GEST. 18TEN MARZ 1909</ab>
-        <ab/>
-        <ab rend="Alignr">CHRISTUS IST MEIN LEBEN</ab>
-        <ab rend="Alignr">[......]21</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1030"
+               ulx="1994.183982"
+               uly="511.51762699999995"
+               lrx="2002.974324"
+               lry="532.028427"
+               points="1994.183982,511.51762699999995 2002.974324,511.51762699999995 2002.974324,532.028427 1994.183982,532.028427 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+            <ab>HIER RUHT IN GOTT</ab>
+            <ab>ANNA MAGDALENA</ab>
+            <ab>BARONIN TIESENHAUSEN</ab>
+            <ab>GEB. BARONIN VIETINGHOFF</ab>
+            <ab>GEB. IN ESTLAND DEN 31TEN MARZ 1814.</ab>
+            <ab>GEST. IN ROM DEN 16TEN JANUAR 1894</ab>
+            <ab>------</ab>
+            <ab rend="Alignl">WIE ER GELIEBET HAT DIE SEINEN SO LIEBET</ab>
+            <ab rend="Alignl">ER SIE BIS ANS ENDE</ab>
+            <ab rend="Alignr">EV.IOH.13.V.1</ab>
+            <ab/>
+            <ab rend="Alignl">SIEHE ICH MACHE ALLES NEU</ab>
+            <ab rend="Alignr">OFFENB.21.V.5.</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_4 #m_I #t_P">
+            <ab>MARY VON TIESENHAUSEN</ab>
+            <ab>GEB. 25TEN MAI 1872</ab>
+            <ab>GEST. 8TEN APRIL 1891</ab>
+            <ab/>
+            <ab>HERMANN BARON TIESENHAUSEN</ab>
+            <ab>GEB. 7TEN OKT. 1874</ab>
+            <ab>GEST. 18TEN MARZ 1909</ab>
+            <ab/>
+            <ab rend="Alignr">CHRISTUS IST MEIN LEBEN</ab>
+            <ab rend="Alignr">[......]21</ab>
+         </div>
+      </body>
   </text>
 </TEI>

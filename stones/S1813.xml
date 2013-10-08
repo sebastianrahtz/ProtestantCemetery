@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1813.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1813.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1813</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1813">
-          <msIdentifier>
-            <idno>S1813</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2341</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>168</height>
-                    <depth>82</depth>
-                    <dim type="diameter">22</dim>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_164 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Herman</forename>
-              <surname>Philip</surname>
-            </persName>
-            <death when="1882"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1813</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1813">
+               <msIdentifier>
+                  <idno>S1813</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2341</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>168</height>
+                              <depth>82</depth>
+                              <dim type="diameter">22</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_164 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Herman</forename>
+                     <surname>Philip</surname>
+                  </persName>
+                  <death when="1882"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>HERMANN PHILIP M.D.D.D</ab>
-        <ab>DIED 3. FEB. 1882 AGED 69</ab>
-        <ab>FOR 40 YEARS MISSIONARY TO HIS BRETHEN</ab>
-        <ab>THE JEWS; THE LAST 12 YEARS OF HIS LIFE</ab>
-        <ab>IN ROME</ab>
-        <ab>-----------</ab>
-        <ab>"HE GIVETH HIS BELOVED SLEEP"</ab>
-        <ab>"IN THE LORD, SHALL ALL THE SEED OF</ab>
-        <ab>ISRAEL BE JUSTIFIED, AND SHALL GLORY"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1813"
+               ulx="2522.805029"
+               uly="522.434858"
+               lrx="2531.930596"
+               lry="526.353876"
+               points="2522.805029,523.101519 2531.686467,522.434858 2531.930596,525.687216 2523.049158,526.353876 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>HERMANN PHILIP M.D.D.D</ab>
+            <ab>DIED 3. FEB. 1882 AGED 69</ab>
+            <ab>FOR 40 YEARS MISSIONARY TO HIS BRETHEN</ab>
+            <ab>THE JEWS; THE LAST 12 YEARS OF HIS LIFE</ab>
+            <ab>IN ROME</ab>
+            <ab>-----------</ab>
+            <ab>"HE GIVETH HIS BELOVED SLEEP"</ab>
+            <ab>"IN THE LORD, SHALL ALL THE SEED OF</ab>
+            <ab>ISRAEL BE JUSTIFIED, AND SHALL GLORY"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

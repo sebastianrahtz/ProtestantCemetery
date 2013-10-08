@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1639.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1639.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1639</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1639">
-          <msIdentifier>
-            <idno>S1639</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">740</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>35</height>
-                    <depth>30</depth>
-                    <width>45</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>August</forename>
-              <surname>Fleischel</surname>
-            </persName>
-            <death when="1904"/>
-            <nationality key="HU"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Regina</forename>
-              <surname>Fleischel</surname>
-            </persName>
-            <death when="1934"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1639</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1639">
+               <msIdentifier>
+                  <idno>S1639</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">740</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>35</height>
+                              <depth>30</depth>
+                              <width>45</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>August</forename>
+                     <surname>Fleischel</surname>
+                  </persName>
+                  <death when="1904"/>
+                  <nationality key="HU"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Regina</forename>
+                     <surname>Fleischel</surname>
+                  </persName>
+                  <death when="1934"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>AUGUST FLEISCHEL</ab>
-        <ab>GEB. IN BUDAPEST</ab>
-        <ab>15. SEPTEMBER 1831</ab>
-        <ab>GEST. IN ROM</ab>
-        <ab>11. FEBRUAR 1904</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IC #t_S">
-        <ab>IM ALTER VON 98 JAHREN</ab>
-        <ab>FOLGTE IHM SEINE TREUE GATTIN</ab>
-        <ab>UNSERE GELIEBTE MUTTER UND GROSSMUTTER</ab>
-        <ab>REGINA FLEISCHEL</ab>
-        <ab/>
-        <ab>GEB. IN HAMBURG   GEST. IN FLORENZ</ab>
-        <ab>30.NOV.1836    19.DEZ.1934</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1639"
+               ulx="2435.15302"
+               uly="367.505129"
+               lrx="2442.095857"
+               lry="371.65006100000005"
+               points="2435.15302,367.943491 2441.853358,367.505129 2442.095857,371.21169899999995 2435.395519,371.65006100000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>AUGUST FLEISCHEL</ab>
+            <ab>GEB. IN BUDAPEST</ab>
+            <ab>15. SEPTEMBER 1831</ab>
+            <ab>GEST. IN ROM</ab>
+            <ab>11. FEBRUAR 1904</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IC #t_S">
+            <ab>IM ALTER VON 98 JAHREN</ab>
+            <ab>FOLGTE IHM SEINE TREUE GATTIN</ab>
+            <ab>UNSERE GELIEBTE MUTTER UND GROSSMUTTER</ab>
+            <ab>REGINA FLEISCHEL</ab>
+            <ab/>
+            <ab>GEB. IN HAMBURG   GEST. IN FLORENZ</ab>
+            <ab>30.NOV.1836    19.DEZ.1934</ab>
+         </div>
+      </body>
   </text>
 </TEI>

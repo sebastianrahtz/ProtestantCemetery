@@ -1,85 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2314.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2314.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2314</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2314">
-          <msIdentifier>
-            <idno>S2314</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1216</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>120</height>
-                    <depth>64</depth>
-                    <width>115</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>*</num>
-                <ptr target="#i_133 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Dora Veronica</forename>
-              <surname>Marugg</surname>
-            </persName>
-            <death when="1919"/>
-            <nationality key="CH"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2314</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2314">
+               <msIdentifier>
+                  <idno>S2314</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1216</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>120</height>
+                              <depth>64</depth>
+                              <width>115</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>*</num>
+                        <ptr target="#i_133 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Dora Veronica</forename>
+                     <surname>Marugg</surname>
+                  </persName>
+                  <death when="1919"/>
+                  <nationality key="CH"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
-        <ab>A</ab>
-        <ab>DORA VERONICA MARUGG</ab>
-        <ab>DI NAZIONALITÀ SVIZZERA</ab>
-        <ab>NATA IN FIRENZE IL 16 LUGLIO 1901</ab>
-        <ab>MORTA IN ROMA IL 20 APRILE 1919</ab>
-        <ab>A SOLI 18 ANNI QUANDO PIÙ LA VITA LE SORRIDEVA</ab>
-        <ab>FU RAPITA AL AFFETTO DEI SUOI CARI</ab>
-        <ab>DA MORBO CRUDELE</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_PC">
-        <ab rend="Alignl">ES GIBT EINEN[...]H MERZ DEN KEINE</ab>
-        <ab rend="Alignl">TEILNAHME LINDERT</ab>
-        <ab rend="Alignl">KEINE ZEIT VERNARRT VERMINDERT</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2314"
+               ulx="2634.387577"
+               uly="665.123162"
+               lrx="2644.778207"
+               lry="670.037274"
+               points="2635.618758,669.880493 2643.141141,670.037274 2644.318205,669.013297 2644.778207,667.528774 2644.521147,666.098145 2643.749967,665.177056 2635.720229,665.123162 2634.800226,665.89237 2634.387577,667.274005 2634.698755,668.807521 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
+            <ab>A</ab>
+            <ab>DORA VERONICA MARUGG</ab>
+            <ab>DI NAZIONALITÀ SVIZZERA</ab>
+            <ab>NATA IN FIRENZE IL 16 LUGLIO 1901</ab>
+            <ab>MORTA IN ROMA IL 20 APRILE 1919</ab>
+            <ab>A SOLI 18 ANNI QUANDO PIÙ LA VITA LE SORRIDEVA</ab>
+            <ab>FU RAPITA AL AFFETTO DEI SUOI CARI</ab>
+            <ab>DA MORBO CRUDELE</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_PC">
+            <ab rend="Alignl">ES GIBT EINEN[...]H MERZ DEN KEINE</ab>
+            <ab rend="Alignl">TEILNAHME LINDERT</ab>
+            <ab rend="Alignl">KEINE ZEIT VERNARRT VERMINDERT</ab>
+         </div>
+      </body>
   </text>
 </TEI>

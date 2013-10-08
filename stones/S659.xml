@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S659.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S659.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 659</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S659">
-          <msIdentifier>
-            <idno>S659</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1031</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>83</height>
-                    <depth>60</depth>
-                    <width>66</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Paul</forename>
-              <surname>Wittichen</surname>
-            </persName>
-            <death when="1904"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 659</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S659">
+               <msIdentifier>
+                  <idno>S659</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1031</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>83</height>
+                              <depth>60</depth>
+                              <width>66</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Paul</forename>
+                     <surname>Wittichen</surname>
+                  </persName>
+                  <death when="1904"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>PAUL WITTICHEN</ab>
-        <ab>GEB. ZU ESCHWEILER AM 25 MARZ 1874</ab>
-        <ab>GEST. ZU ROM AM 17 MAI 1904</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_PC">
-        <ab>WAS KAUN DER MENSCH IM LEBEN</ab>
-        <ab>MEHR GEWINNEN</ab>
-        <ab>ALS DASS SICH GOTT-NATUR IHM</ab>
-        <ab>OFFENBARE</ab>
-        <ab>WIE SIE DAS FESTE LASST ZU GEIST</ab>
-        <ab>VERRINNEN</ab>
-        <ab>WIE SIE DAS GEISTERZEUGTE FEST BEWAHRE</ab>
-        <ab>GOETHE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S659"
+               ulx="2041.03318"
+               uly="313.79707199999996"
+               lrx="2050.42872"
+               lry="322.338472"
+               points="2041.03318,313.79707199999996 2050.42872,313.79707199999996 2050.42872,322.338472 2041.03318,322.338472 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>PAUL WITTICHEN</ab>
+            <ab>GEB. ZU ESCHWEILER AM 25 MARZ 1874</ab>
+            <ab>GEST. ZU ROM AM 17 MAI 1904</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_PC">
+            <ab>WAS KAUN DER MENSCH IM LEBEN</ab>
+            <ab>MEHR GEWINNEN</ab>
+            <ab>ALS DASS SICH GOTT-NATUR IHM</ab>
+            <ab>OFFENBARE</ab>
+            <ab>WIE SIE DAS FESTE LASST ZU GEIST</ab>
+            <ab>VERRINNEN</ab>
+            <ab>WIE SIE DAS GEISTERZEUGTE FEST BEWAHRE</ab>
+            <ab>GOETHE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,109 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S716.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S716.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 716</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S716">
-          <msIdentifier>
-            <idno>S716</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">646</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>156</height>
-                    <depth>13</depth>
-                    <width>84</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_86 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Reinhard</forename>
-              <surname>Herbig</surname>
-            </persName>
-            <death when="1961"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Edith</forename>
-              <surname>Herbig</surname>
-            </persName>
-            <death when="1973"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 716</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S716">
+               <msIdentifier>
+                  <idno>S716</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">646</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>156</height>
+                              <depth>13</depth>
+                              <width>84</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_86 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Reinhard</forename>
+                     <surname>Herbig</surname>
+                  </persName>
+                  <death when="1961"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Edith</forename>
+                     <surname>Herbig</surname>
+                  </persName>
+                  <death when="1973"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_I #t_P">
-        <ab rend="Alignl">REINHARD</ab>
-        <ab rend="Alignr">HERBIG</ab>
-        <ab/>
-        <ab>MDCCCXCVIII - MCMLXI</ab>
-        <ab/>
-        <ab rend="Alignl">EDITH</ab>
-        <ab rend="Alignr">HERBIG GEB. KROLL</ab>
-        <ab/>
-        <ab rend="Alignr">MCMII - MCMLXXIII</ab>
-        <ab rend="Alignl">
-          <note> Comment - inscription not typed; see record; weird layout</note>
-        </ab>
-        <ab>FREUHLINGSOMMER VND HERBSTGENOSS</ab>
-        <ab rend="Alignl">
-          <note> on west side</note>
-        </ab>
-        <ab>DER GLUECKLICHEDICHTER</ab>
-        <ab rend="Alignl">
-          <note> on north</note>
-        </ab>
-        <ab>VOR DEM WINTER HAT IHN ENDLICH</ab>
-        <ab rend="Alignl">
-          <note> on east</note>
-        </ab>
-        <ab>DER HUEGELGESCHUETZT</ab>
-        <ab rend="Alignl">
-          <note> on south</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S716"
+               ulx="1405.859812"
+               uly="356.257421"
+               lrx="1415.388965"
+               lry="374.52951600000006"
+               points="1406.205607,356.257421 1415.388965,356.432899 1415.04317,374.52951600000006 1405.859812,374.35403800000006 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_I #t_P">
+            <ab rend="Alignl">REINHARD</ab>
+            <ab rend="Alignr">HERBIG</ab>
+            <ab/>
+            <ab>MDCCCXCVIII - MCMLXI</ab>
+            <ab/>
+            <ab rend="Alignl">EDITH</ab>
+            <ab rend="Alignr">HERBIG GEB. KROLL</ab>
+            <ab/>
+            <ab rend="Alignr">MCMII - MCMLXXIII</ab>
+            <ab rend="Alignl">
+               <note> Comment - inscription not typed; see record; weird layout</note>
+            </ab>
+            <ab>FREUHLINGSOMMER VND HERBSTGENOSS</ab>
+            <ab rend="Alignl">
+               <note> on west side</note>
+            </ab>
+            <ab>DER GLUECKLICHEDICHTER</ab>
+            <ab rend="Alignl">
+               <note> on north</note>
+            </ab>
+            <ab>VOR DEM WINTER HAT IHN ENDLICH</ab>
+            <ab rend="Alignl">
+               <note> on east</note>
+            </ab>
+            <ab>DER HUEGELGESCHUETZT</ab>
+            <ab rend="Alignl">
+               <note> on south</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

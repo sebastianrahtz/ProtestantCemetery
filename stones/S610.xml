@@ -1,105 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S610.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S610.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 610</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S610">
-          <msIdentifier>
-            <idno>S610</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">283</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>176</height>
-                    <depth>25</depth>
-                    <width>66</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Johannes</forename>
-              <surname>Ade</surname>
-            </persName>
-            <death when="1860"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Alba</forename>
-              <surname>Ade</surname>
-            </persName>
-            <death when="1955"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Carlo</forename>
-              <surname>Ade</surname>
-            </persName>
-            <death when="1977"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 610</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S610">
+               <msIdentifier>
+                  <idno>S610</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">283</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>176</height>
+                              <depth>25</depth>
+                              <width>66</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Johannes</forename>
+                     <surname>Ade</surname>
+                  </persName>
+                  <death when="1860"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Alba</forename>
+                     <surname>Ade</surname>
+                  </persName>
+                  <death when="1955"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Carlo</forename>
+                     <surname>Ade</surname>
+                  </persName>
+                  <death when="1977"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>HIER RUHET IN FRIEDEN</ab>
-        <ab>JOHANNES ADE</ab>
-        <ab>DI ANNI 6 + 15.4.1860</ab>
-        <ab/>
-        <ab>IL SIGNORE È IL MIO PASTORE ...salmo 23</ab>
-        <ab/>
-        <ab>ALBA ADE N. ROSTAN</ab>
-        <ab>ROMA 9.2.1902 - ROMA 20.2.1955</ab>
-        <ab>------</ab>
-        <ab>CARLO ADE</ab>
-        <ab>ROMA 13.9.1896 - ROMA 5.1.1977</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S610"
+               ulx="1649.839136"
+               uly="298.951013"
+               lrx="1657.203172"
+               lry="304.554084"
+               points="1649.839136,298.951013 1657.203172,298.951013 1657.203172,304.554084 1649.839136,304.554084 ">
+            <graphic url="film:C/2"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>HIER RUHET IN FRIEDEN</ab>
+            <ab>JOHANNES ADE</ab>
+            <ab>DI ANNI 6 + 15.4.1860</ab>
+            <ab/>
+            <ab>IL SIGNORE È IL MIO PASTORE ...salmo 23</ab>
+            <ab/>
+            <ab>ALBA ADE N. ROSTAN</ab>
+            <ab>ROMA 9.2.1902 - ROMA 20.2.1955</ab>
+            <ab>------</ab>
+            <ab>CARLO ADE</ab>
+            <ab>ROMA 13.9.1896 - ROMA 5.1.1977</ab>
+         </div>
+      </body>
   </text>
 </TEI>

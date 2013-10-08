@@ -1,84 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S841.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S841.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 841</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S841">
-          <msIdentifier>
-            <idno>S841</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2111</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>141</height>
-                    <depth>36</depth>
-                    <width>87</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Henricus</forename>
-              <surname>Voogd</surname>
-            </persName>
-            <death when="1839"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 841</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S841">
+               <msIdentifier>
+                  <idno>S841</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2111</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>141</height>
+                              <depth>36</depth>
+                              <width>87</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henricus</forename>
+                     <surname>Voogd</surname>
+                  </persName>
+                  <death when="1839"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="nl" decls="#f_S #c_4 #m_I #t_P">
-        <ab>HENRICUS VOOGD</ab>
-        <ab>RIDDER DER ORDE</ab>
-        <ab>VAN DEN</ab>
-        <ab>NEDERLANDSCHEN IEEUW</ab>
-        <ab>GEBOREN TE AMSTERDAM</ab>
-        <ab>OVERLEDEN TE ROME</ab>
-        <ab>DEN 4 SEPTEMBER</ab>
-        <ab>1839</ab>
-        <ab>------.-------</ab>
-        <ab>HY WAS EEN VERDTENSTELYK MAN</ab>
-        <ab>EN GROOT SCHILDER</ab>
-        <ab>------.-------</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S841"
+               ulx="1532.621027"
+               uly="414.63443900000004"
+               lrx="1541.803614"
+               lry="421.185469"
+               points="1532.70565,414.63443900000004 1541.803614,414.754149 1541.718992,421.185469 1532.621027,421.06575899999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="nl" decls="#f_S #c_4 #m_I #t_P">
+            <ab>HENRICUS VOOGD</ab>
+            <ab>RIDDER DER ORDE</ab>
+            <ab>VAN DEN</ab>
+            <ab>NEDERLANDSCHEN IEEUW</ab>
+            <ab>GEBOREN TE AMSTERDAM</ab>
+            <ab>OVERLEDEN TE ROME</ab>
+            <ab>DEN 4 SEPTEMBER</ab>
+            <ab>1839</ab>
+            <ab>------.-------</ab>
+            <ab>HY WAS EEN VERDTENSTELYK MAN</ab>
+            <ab>EN GROOT SCHILDER</ab>
+            <ab>------.-------</ab>
+         </div>
+      </body>
   </text>
 </TEI>

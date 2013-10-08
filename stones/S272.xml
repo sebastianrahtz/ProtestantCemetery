@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S272.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S272.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 272</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S272">
-          <msIdentifier>
-            <idno>S272</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1729</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>150</height>
-                    <width>76</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>17</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Arthur Haworth</forename>
-              <surname>Cox</surname>
-            </persName>
-            <birth when="1825">
-              <placeName>
-                <settlement>London</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1842-12-26"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 272</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S272">
+               <msIdentifier>
+                  <idno>S272</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1729</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>150</height>
+                              <width>76</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>17</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Arthur Haworth</forename>
+                     <surname>Cox</surname>
+                  </persName>
+                  <birth when="1825">
+                     <placeName>
+                        <settlement>London</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1842-12-26"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
-        <ab>SACRED TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>ARTHUR HAWORTH COX</ab>
-        <ab>JOUNGEST SON OF JOHN</ab>
-        <ab>LEONARD COX ESQRE</ab>
-        <ab>REDLION SQUARE</ab>
-        <ab>LONDON</ab>
-        <ab>DIED DEC XXVI MDCCCXLII</ab>
-        <ab>EGED XVII YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S272"
+               ulx="1265.096975"
+               uly="410.63970300000005"
+               lrx="1275.10253"
+               lry="428.131294"
+               points="1275.10253,410.86839899999995 1265.590172,410.63970300000005 1265.096975,427.90240900000003 1274.60935,428.131294 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
+            <ab>SACRED TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>ARTHUR HAWORTH COX</ab>
+            <ab>JOUNGEST SON OF JOHN</ab>
+            <ab>LEONARD COX ESQRE</ab>
+            <ab>REDLION SQUARE</ab>
+            <ab>LONDON</ab>
+            <ab>DIED DEC XXVI MDCCCXLII</ab>
+            <ab>EGED XVII YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

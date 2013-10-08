@@ -1,97 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1839.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1839.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1839</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1839">
-          <msIdentifier>
-            <idno>S1839</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>162</height>
-                    <depth>23</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_9 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Avice de Heyton</forename>
-              <surname>Bispham</surname>
-            </persName>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Henry Carrol</forename>
-              <surname>Bispham</surname>
-            </persName>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Henry Collins</forename>
-              <surname>Bispham</surname>
-            </persName>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1839</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1839">
+               <msIdentifier>
+                  <idno>S1839</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>162</height>
+                              <depth>23</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_9 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Avice de Heyton</forename>
+                     <surname>Bispham</surname>
+                  </persName>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henry Carrol</forename>
+                     <surname>Bispham</surname>
+                  </persName>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henry Collins</forename>
+                     <surname>Bispham</surname>
+                  </persName>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>HENRY COLLINS BISPHAM</ab>
-        <ab>BORN IN PHILADELPHIA</ab>
-        <ab>DIED IN ROME.</ab>
-        <ab/>
-        <ab>HENRY CARROL BISPHAM</ab>
-        <ab>ONLY SON OF</ab>
-        <ab>HENRY C. &amp; MINNIE BISPHAM</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_S">
-        <ab>AND</ab>
-        <ab>IN MEMORY OF</ab>
-        <ab>AVICE DE HEYTON BISPHAM</ab>
-        <ab>OUR BELOVED DAUGHTER</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1839"
+               ulx="2179.77499"
+               uly="560.990331"
+               lrx="2189.063672"
+               lry="565.519981"
+               points="2179.77499,561.641377 2188.78336,560.990331 2189.063672,564.868934 2180.055301,565.519981 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>HENRY COLLINS BISPHAM</ab>
+            <ab>BORN IN PHILADELPHIA</ab>
+            <ab>DIED IN ROME.</ab>
+            <ab/>
+            <ab>HENRY CARROL BISPHAM</ab>
+            <ab>ONLY SON OF</ab>
+            <ab>HENRY C. &amp; MINNIE BISPHAM</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_S">
+            <ab>AND</ab>
+            <ab>IN MEMORY OF</ab>
+            <ab>AVICE DE HEYTON BISPHAM</ab>
+            <ab>OUR BELOVED DAUGHTER</ab>
+         </div>
+      </body>
   </text>
 </TEI>

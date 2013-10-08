@@ -1,106 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2008.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2008.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2008</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2008">
-          <msIdentifier>
-            <idno>S2008</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">575</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>100</height>
-                    <depth>7</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Anna Hutchinson</forename>
-              <surname>Meade</surname>
-            </persName>
-            <death when="1941"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Paolo</forename>
-              <surname>Labia</surname>
-            </persName>
-            <death when="1965"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Arline Georgeanna</forename>
-              <surname>Labia</surname>
-            </persName>
-            <death when="1975"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2008</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2008">
+               <msIdentifier>
+                  <idno>S2008</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">575</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>100</height>
+                              <depth>7</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anna Hutchinson</forename>
+                     <surname>Meade</surname>
+                  </persName>
+                  <death when="1941"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Paolo</forename>
+                     <surname>Labia</surname>
+                  </persName>
+                  <death when="1965"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Arline Georgeanna</forename>
+                     <surname>Labia</surname>
+                  </persName>
+                  <death when="1975"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>ANNA MEADE</ab>
-        <ab>NÉE HUTCHINSON</ab>
-        <ab>* 14.II.1857 + 14.IX.1941</ab>
-        <ab/>
-        <ab>CONTE</ab>
-        <ab>PAOLO LABIA</ab>
-        <ab>* 31.III.1881 + 24.XI.1965</ab>
-        <ab/>
-        <ab>CONTESSA</ab>
-        <ab>ARLINE GEORGEANNA LABIA</ab>
-        <ab>NEE MEADE</ab>
-        <ab>* 4.II.1887 + 17.XII.1975</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2008"
+               ulx="2850.246597"
+               uly="181.02840600000002"
+               lrx="2856.039889"
+               lry="192.66667300000006"
+               points="2850.246597,181.11766799999998 2855.856114,181.02840600000002 2856.039889,192.57741099999998 2850.430372,192.66667300000006 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>ANNA MEADE</ab>
+            <ab>NÉE HUTCHINSON</ab>
+            <ab>* 14.II.1857 + 14.IX.1941</ab>
+            <ab/>
+            <ab>CONTE</ab>
+            <ab>PAOLO LABIA</ab>
+            <ab>* 31.III.1881 + 24.XI.1965</ab>
+            <ab/>
+            <ab>CONTESSA</ab>
+            <ab>ARLINE GEORGEANNA LABIA</ab>
+            <ab>NEE MEADE</ab>
+            <ab>* 4.II.1887 + 17.XII.1975</ab>
+         </div>
+      </body>
   </text>
 </TEI>

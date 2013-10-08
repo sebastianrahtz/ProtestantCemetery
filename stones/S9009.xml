@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9009.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9009.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9009</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9009">
-          <msIdentifier>
-            <idno>S9009</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-              <note>east of 420</note>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1486</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>44</height>
-                    <depth>7</depth>
-                    <width>74</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>61</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Owen</forename>
-              <surname>Johnson</surname>
-            </persName>
-            <birth when="1841"/>
-            <death when="1903"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9009</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9009">
+               <msIdentifier>
+                  <idno>S9009</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                     <note>east of 420</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1486</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>44</height>
+                              <depth>7</depth>
+                              <width>74</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>61</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Owen</forename>
+                     <surname>Johnson</surname>
+                  </persName>
+                  <birth when="1841"/>
+                  <death when="1903"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>HERE</ab>
-        <ab>LIES IN PEACE</ab>
-        <ab>AT THE SIDE OF IS BELOVED SISTER</ab>
-        <ab>OWEN IOHNSON</ab>
-        <ab>BORN</ab>
-        <ab>IN LONDON THE 14 OF MARCH 1841</ab>
-        <ab>LEFT THIS LIFE</ab>
-        <ab>IN ROME THE 28 OF FEB.1903</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9009"
+               ulx="1274.31059"
+               uly="582.907596"
+               lrx="1281.113009"
+               lry="586.866301"
+               points="1281.113009,583.068633 1274.41909,582.907596 1274.31059,586.705264 1281.004509,586.866301 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>HERE</ab>
+            <ab>LIES IN PEACE</ab>
+            <ab>AT THE SIDE OF IS BELOVED SISTER</ab>
+            <ab>OWEN IOHNSON</ab>
+            <ab>BORN</ab>
+            <ab>IN LONDON THE 14 OF MARCH 1841</ab>
+            <ab>LEFT THIS LIFE</ab>
+            <ab>IN ROME THE 28 OF FEB.1903</ab>
+         </div>
+      </body>
   </text>
 </TEI>

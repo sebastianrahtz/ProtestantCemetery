@@ -1,103 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1745.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1745.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1745</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1745">
-          <msIdentifier>
-            <idno>S1745</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1058</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>186</height>
-                    <depth>9</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Kennethyna</forename>
-              <surname>Maclean</surname>
-            </persName>
-            <death when="1939"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Hattie Josephine</forename>
-              <surname>Morgan</surname>
-            </persName>
-            <death when="1943"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Grace Upham</forename>
-              <surname>Bigelow</surname>
-            </persName>
-            <death when="1950"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1745</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1745">
+               <msIdentifier>
+                  <idno>S1745</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1058</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>186</height>
+                              <depth>9</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Kennethyna</forename>
+                     <surname>Maclean</surname>
+                  </persName>
+                  <death when="1939"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Hattie Josephine</forename>
+                     <surname>Morgan</surname>
+                  </persName>
+                  <death when="1943"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Grace Upham</forename>
+                     <surname>Bigelow</surname>
+                  </persName>
+                  <death when="1950"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>NOT LOST BUT GONE BEFORE</ab>
-        <ab>GRACE UPHAM</ab>
-        <ab>BIGELOW</ab>
-        <ab>* ST PAUL, MINN., U.S.A. 31.XII.1873</ab>
-        <ab>+ ROME, 25.IX.1950</ab>
-        <ab/>
-        <ab>KENNETHYNA MACLEAN</ab>
-        <ab>* INVERNESS, SCOTLAND 20.V.1857</ab>
-        <ab>+ ROME 17.I.1939</ab>
-        <ab/>
-        <ab>HATTIE JOSEPHINE MORGAN</ab>
-        <ab>* BOSTON, MASS., U.S.A. 28.IV.1855</ab>
-        <ab>+ ROME 22.VII.1943</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1745"
+               ulx="2510.280472"
+               uly="440.408962"
+               lrx="2521.757306"
+               lry="460.04693799999995"
+               points="2510.280472,441.310614 2520.023361,440.408962 2521.757306,459.14528700000005 2512.014417,460.04693799999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>NOT LOST BUT GONE BEFORE</ab>
+            <ab>GRACE UPHAM</ab>
+            <ab>BIGELOW</ab>
+            <ab>* ST PAUL, MINN., U.S.A. 31.XII.1873</ab>
+            <ab>+ ROME, 25.IX.1950</ab>
+            <ab/>
+            <ab>KENNETHYNA MACLEAN</ab>
+            <ab>* INVERNESS, SCOTLAND 20.V.1857</ab>
+            <ab>+ ROME 17.I.1939</ab>
+            <ab/>
+            <ab>HATTIE JOSEPHINE MORGAN</ab>
+            <ab>* BOSTON, MASS., U.S.A. 28.IV.1855</ab>
+            <ab>+ ROME 22.VII.1943</ab>
+         </div>
+      </body>
   </text>
 </TEI>

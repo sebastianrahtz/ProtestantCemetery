@@ -1,112 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1925.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1925.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1925</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1925">
-          <msIdentifier>
-            <idno>S1925</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">493</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>125</height>
-                    <depth>25</depth>
-                    <width>59</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Wilhelmine</forename>
-              <surname>Weser</surname>
-            </persName>
-            <death when="1902"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Max</forename>
-              <surname>Weser</surname>
-            </persName>
-            <death when="1931"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Carolina</forename>
-              <surname>Weser</surname>
-            </persName>
-            <death when="1964"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Carolina</forename>
-              <surname>Weser</surname>
-            </persName>
-            <death when="1979"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1925</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1925">
+               <msIdentifier>
+                  <idno>S1925</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">493</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>125</height>
+                              <depth>25</depth>
+                              <width>59</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Wilhelmine</forename>
+                     <surname>Weser</surname>
+                  </persName>
+                  <death when="1902"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Max</forename>
+                     <surname>Weser</surname>
+                  </persName>
+                  <death when="1931"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Carolina</forename>
+                     <surname>Weser</surname>
+                  </persName>
+                  <death when="1964"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Carolina</forename>
+                     <surname>Weser</surname>
+                  </persName>
+                  <death when="1979"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>MAX WESER</ab>
-        <ab>11.I.1862 - 14.II.1931</ab>
-        <ab>WILHELMINE WESER</ab>
-        <ab>8.VII.1901 - 28.IV.1902</ab>
-        <ab/>
-        <ab>CAROLINA</ab>
-        <ab>WESER</ab>
-        <ab>GEB. MÜSSIG</ab>
-        <ab>8.XII.1873 - 25.I.1964</ab>
-        <ab/>
-        <ab>CAROLINA</ab>
-        <ab>WESSER</ab>
-        <ab>8.IX.1897 - 17.IX.1979</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1925"
+               ulx="2462.082948"
+               uly="617.110024"
+               lrx="2467.249242"
+               lry="622.390616"
+               points="2462.082948,617.516143 2466.832435,617.110024 2467.249242,621.984497 2462.499755,622.390616 ">
+            <graphic url="film:C/12"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>MAX WESER</ab>
+            <ab>11.I.1862 - 14.II.1931</ab>
+            <ab>WILHELMINE WESER</ab>
+            <ab>8.VII.1901 - 28.IV.1902</ab>
+            <ab/>
+            <ab>CAROLINA</ab>
+            <ab>WESER</ab>
+            <ab>GEB. MÜSSIG</ab>
+            <ab>8.XII.1873 - 25.I.1964</ab>
+            <ab/>
+            <ab>CAROLINA</ab>
+            <ab>WESSER</ab>
+            <ab>8.IX.1897 - 17.IX.1979</ab>
+         </div>
+      </body>
   </text>
 </TEI>

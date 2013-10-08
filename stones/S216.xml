@@ -1,92 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S216.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S216.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 216</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S216">
-          <msIdentifier>
-            <idno>S216</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">970</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>3</num>
-                  <dimensions unit="cm">
-                    <height>146</height>
-                    <depth>80</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Bronze figure of naked woman, her legs slightly bended, her left arm is a bit behind her, her right one slightly ahead and bended. Unto her waist is attached a smaller figure, with cloth around his hips, looking like Christ without a beard. </summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_26 #st_C #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_101 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>16</age>
-            <sex>1</sex>
-            <persName>
-              <forename>John Louis</forename>
-              <surname>Piccoli</surname>
-            </persName>
-            <birth when="1939-06-14">
-              <placeName>
-                <settlement>New York</settlement>
-                <country>USA</country>
-              </placeName>
-            </birth>
-            <death when="1955">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 216</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S216">
+               <msIdentifier>
+                  <idno>S216</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">970</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>3</num>
+                           <dimensions unit="cm">
+                              <height>146</height>
+                              <depth>80</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Bronze figure of naked woman, her legs slightly bended, her left arm is a bit behind her, her right one slightly ahead and bended. Unto her waist is attached a smaller figure, with cloth around his hips, looking like Christ without a beard. </summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_26 #st_C #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_101 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>16</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John Louis</forename>
+                     <surname>Piccoli</surname>
+                  </persName>
+                  <birth when="1939-06-14">
+                     <placeName>
+                        <settlement>New York</settlement>
+                        <country>USA</country>
+                     </placeName>
+                  </birth>
+                  <death when="1955">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>JOHN LOUIS PICCOLI</ab>
-        <ab>NEW YORK . JUNE 14 . 1939</ab>
-        <ab>ROME . OCTOBER 5 . 1955</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S216"
+               ulx="1258.041066"
+               uly="357.772018"
+               lrx="1262.514096"
+               lry="360.29478300000005"
+               points="1262.514096,357.878066 1258.110111,357.772018 1258.041066,360.188907 1262.444843,360.29478300000005 ">
+            <graphic url="film:_H/26211"/>
+            <graphic url="film:_H/26212"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>JOHN LOUIS PICCOLI</ab>
+            <ab>NEW YORK . JUNE 14 . 1939</ab>
+            <ab>ROME . OCTOBER 5 . 1955</ab>
+         </div>
+      </body>
   </text>
 </TEI>

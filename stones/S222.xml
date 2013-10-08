@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S222.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S222.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 222</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S222">
-          <msIdentifier>
-            <idno>S222</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1743</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>145</height>
-                    <depth>3</depth>
-                    <width>77</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>38</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Charlotte Sherwin</forename>
-              <surname>Markham</surname>
-            </persName>
-            <birth when="1802-09-19">
-              <placeName>
-                <settlement>Nottingham</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1840-12-04">
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 222</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S222">
+               <msIdentifier>
+                  <idno>S222</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1743</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>145</height>
+                              <depth>3</depth>
+                              <width>77</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>38</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Charlotte Sherwin</forename>
+                     <surname>Markham</surname>
+                  </persName>
+                  <birth when="1802-09-19">
+                     <placeName>
+                        <settlement>Nottingham</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1840-12-04">
              Cause: childbirth?</death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>CHARLOTTE SHERWIN</ab>
-        <ab>MARKHAM</ab>
-        <ab>WIFE OF EDWARD MARKHAM ESQRE</ab>
-        <ab>DAUGHTER OF THE LATE JOHN LONGDEN ESQRE</ab>
-        <ab>OF BRAMCOTE HILLS CO OF NOTTINGHAM</ab>
-        <ab>BORN SEPTR 19 1802TH DIED DEC 4TH 1840</ab>
-        <ab rend="Alignl">
-          <note> sic 1802TH</note>
-        </ab>
-        <ab>HALF AN HOUR AFTER THE BIRTH OF A SON</ab>
-        <ab>WHO IS BURIED WITH HER.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S222"
+               ulx="1281.603222"
+               uly="385.81310599999995"
+               lrx="1290.619571"
+               lry="399.485774"
+               points="1290.619571,386.02073700000005 1281.98792,385.81310599999995 1281.603222,399.278143 1290.234873,399.485774 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>CHARLOTTE SHERWIN</ab>
+            <ab>MARKHAM</ab>
+            <ab>WIFE OF EDWARD MARKHAM ESQRE</ab>
+            <ab>DAUGHTER OF THE LATE JOHN LONGDEN ESQRE</ab>
+            <ab>OF BRAMCOTE HILLS CO OF NOTTINGHAM</ab>
+            <ab>BORN SEPTR 19 1802TH DIED DEC 4TH 1840</ab>
+            <ab rend="Alignl">
+               <note> sic 1802TH</note>
+            </ab>
+            <ab>HALF AN HOUR AFTER THE BIRTH OF A SON</ab>
+            <ab>WHO IS BURIED WITH HER.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

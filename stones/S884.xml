@@ -1,93 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S884.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S884.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 884</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S884">
-          <msIdentifier>
-            <idno>S884</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2128</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>84</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Langdon</forename>
-              <surname>Williams</surname>
-            </persName>
-            <death when="1872"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 884</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S884">
+               <msIdentifier>
+                  <idno>S884</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2128</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>84</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Langdon</forename>
+                     <surname>Williams</surname>
+                  </persName>
+                  <death when="1872"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_RM #t_P">
-        <ab>DIED</ab>
-        <ab>MAY 9th 1872</ab>
-        <ab>AGED 42</ab>
-        <ab>LANGDON WILLIAMS</ab>
-        <ab>JESUS SAITH " I AM THE RESURRECTION,</ab>
-        <ab>AND THE LIFE: HE THAT BELIEVETH IN ME</ab>
-        <ab>THOUGH HE</ab>
-        <ab>WERE DEAD</ab>
-        <ab>YET SHALL</ab>
-        <ab>HE LIVE:</ab>
-        <ab>AND</ab>
-        <ab>WHOSOEVER</ab>
-        <ab>LIVETH AND</ab>
-        <ab>BELIEVETH</ab>
-        <ab>IN ME SHALL</ab>
-        <ab>NEVER DIE</ab>
-        <ab>-------</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S884"
+               ulx="2093.847673"
+               uly="432.20444399999997"
+               lrx="2100.593299"
+               lry="439.57757100000003"
+               points="2093.847673,432.20444399999997 2100.593299,432.20444399999997 2100.593299,439.57757100000003 2093.847673,439.57757100000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_RM #t_P">
+            <ab>DIED</ab>
+            <ab>MAY 9th 1872</ab>
+            <ab>AGED 42</ab>
+            <ab>LANGDON WILLIAMS</ab>
+            <ab>JESUS SAITH " I AM THE RESURRECTION,</ab>
+            <ab>AND THE LIFE: HE THAT BELIEVETH IN ME</ab>
+            <ab>THOUGH HE</ab>
+            <ab>WERE DEAD</ab>
+            <ab>YET SHALL</ab>
+            <ab>HE LIVE:</ab>
+            <ab>AND</ab>
+            <ab>WHOSOEVER</ab>
+            <ab>LIVETH AND</ab>
+            <ab>BELIEVETH</ab>
+            <ab>IN ME SHALL</ab>
+            <ab>NEVER DIE</ab>
+            <ab>-------</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,105 +1,131 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S31.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S31.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 31</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S31">
-          <msIdentifier>
-            <idno>S31</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">159</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>135</height>
-                    <depth>12</depth>
-                    <width>43</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 37), (vol 1, plate 38)</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_58 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John</forename>
-              <surname>Keats</surname>
-            </persName>
-            <death when="1821-02-24"/>
-            <nationality key="UK"/>
-            <occupation>poet</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 31</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S31">
+               <msIdentifier>
+                  <idno>S31</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">159</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>135</height>
+                              <depth>12</depth>
+                              <width>43</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 37), (vol 1, plate 38)</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_58 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Keats</surname>
+                  </persName>
+                  <death when="1821-02-24"/>
+                  <nationality key="UK"/>
+                  <occupation>poet</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>
-          <emph>This Grave</emph>
-        </ab>
-        <ab>
-          <emph>contains all that was Mortal,</emph>
-        </ab>
-        <ab>
-          <emph>of a</emph>
-        </ab>
-        <ab>YOUNG ENGLISH POET,</ab>
-        <ab>
-          <emph>Who,</emph>
-        </ab>
-        <ab>
-          <emph>on his Death Bed,</emph>
-        </ab>
-        <ab>
-          <emph>in the Bitterness of his Heart,</emph>
-        </ab>
-        <ab>
-          <emph>at the Malicious Power of his Enemies,</emph>
-        </ab>
-        <ab>
-          <emph>Desired</emph>
-        </ab>
-        <ab>
-          <emph>these Words to be engraven on his Tomb Stone</emph>
-        </ab>
-        <ab>"Here lies One</ab>
-        <ab>Whose Name was writ in Water.</ab>
-        <ab>Feb 24th 1821</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S31"
+               ulx="194.437022"
+               uly="1061.618248"
+               lrx="204.827268"
+               lry="1067.8202529999999"
+               points="204.334947,1061.618248 194.437022,1062.5413469999999 194.929343,1067.8202529999999 204.827268,1066.897154 ">
+            <graphic url="film:_H/26479"/>
+            <graphic url="film:_H/26480"/>
+            <graphic url="film:_H/26507"/>
+            <graphic url="film:A/12"/>
+            <graphic url="film:A/23"/>
+            <graphic url="film:AB/28"/>
+            <graphic url="film:Y/19">
+               <desc>lettering</desc>
+            </graphic>
+            <graphic url="film:Y/20">
+               <desc>lettering</desc>
+            </graphic>
+            <graphic url="pictures/2007_0106.jpg"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>
+               <emph>This Grave</emph>
+            </ab>
+            <ab>
+               <emph>contains all that was Mortal,</emph>
+            </ab>
+            <ab>
+               <emph>of a</emph>
+            </ab>
+            <ab>YOUNG ENGLISH POET,</ab>
+            <ab>
+               <emph>Who,</emph>
+            </ab>
+            <ab>
+               <emph>on his Death Bed,</emph>
+            </ab>
+            <ab>
+               <emph>in the Bitterness of his Heart,</emph>
+            </ab>
+            <ab>
+               <emph>at the Malicious Power of his Enemies,</emph>
+            </ab>
+            <ab>
+               <emph>Desired</emph>
+            </ab>
+            <ab>
+               <emph>these Words to be engraven on his Tomb Stone</emph>
+            </ab>
+            <ab>"Here lies One</ab>
+            <ab>Whose Name was writ in Water.</ab>
+            <ab>Feb 24th 1821</ab>
+         </div>
+      </body>
   </text>
 </TEI>

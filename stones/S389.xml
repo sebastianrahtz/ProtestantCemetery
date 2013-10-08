@@ -1,88 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S389.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S389.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 389</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S389">
-          <msIdentifier>
-            <idno>S389</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1670</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>155</height>
-                    <depth>20</depth>
-                    <width>82</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_121 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>42</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Helen</forename>
-              <surname>Newton</surname>
-            </persName>
-            <birth when="1809">
-              <placeName>
-                <settlement>London</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1851-03-29"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 389</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S389">
+               <msIdentifier>
+                  <idno>S389</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1670</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>155</height>
+                              <depth>20</depth>
+                              <width>82</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_121 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>42</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Helen</forename>
+                     <surname>Newton</surname>
+                  </persName>
+                  <birth when="1809">
+                     <placeName>
+                        <settlement>London</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1851-03-29"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab/>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>HELEN ANNA</ab>
-        <ab>THE BELOVED WIFE OF</ab>
-        <ab>WILLIAM HENRY NEWTON ESQ.RE</ab>
-        <ab>OF CONNAUGHT SQUARE HYDE PARK LONDON</ab>
-        <ab>SHE DIED AT ROME THE 29th MARCH 1851</ab>
-        <ab>AGED 42 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S389"
+               ulx="1054.799154"
+               uly="541.005281"
+               lrx="1063.020786"
+               lry="545.343339"
+               points="1063.020786,541.200242 1054.917638,541.005281 1054.799154,545.148395 1062.902492,545.343339 ">
+            <graphic url="film:T/29"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab/>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>HELEN ANNA</ab>
+            <ab>THE BELOVED WIFE OF</ab>
+            <ab>WILLIAM HENRY NEWTON ESQ.RE</ab>
+            <ab>OF CONNAUGHT SQUARE HYDE PARK LONDON</ab>
+            <ab>SHE DIED AT ROME THE 29th MARCH 1851</ab>
+            <ab>AGED 42 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

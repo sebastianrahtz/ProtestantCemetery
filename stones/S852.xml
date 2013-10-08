@@ -1,107 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S852.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S852.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 852</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S852">
-          <msIdentifier>
-            <idno>S852</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>290</height>
-                    <depth>80</depth>
-                    <width>84</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Adriano</forename>
-              <surname>Bompiano</surname>
-            </persName>
-            <death when="1912"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Sofia</forename>
-              <surname>van Matre</surname>
-            </persName>
-            <death when="1913"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 852</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S852">
+               <msIdentifier>
+                  <idno>S852</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>290</height>
+                              <depth>80</depth>
+                              <width>84</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Adriano</forename>
+                     <surname>Bompiano</surname>
+                  </persName>
+                  <death when="1912"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Sofia</forename>
+                     <surname>van Matre</surname>
+                  </persName>
+                  <death when="1913"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>ADRIANO BOMPIANI</ab>
-        <ab>ROMANO</ab>
-        <ab/>
-        <ab>E SUA MOGLIE</ab>
-        <ab>SOFIA VAN MATRE</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_E #c_1 #m_IF #t_P">
-        <ab>SOFIA VAN MATRE</ab>
-        <ab>NATA A CINCINNATI OHIO</ab>
-        <ab>STATI UNITI DE AMERICA</ab>
-        <ab>IL 5 MARZO A.D. 1835</ab>
-        <ab>MORTA A ROMA</ab>
-        <ab>IL 15 GIUGNO 1913.</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_N #c_1 #m_IF #t_P">
-        <ab>CREDI NEL SIGNORE GESU` CRISTO</ab>
-        <ab>E SARAI SALVATO TU E LA TUA CASA</ab>
-        <ab rend="Alignr">FATTI DEGLI APOSTOLI XVI 31</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_W #c_1 #m_IF #t_P">
-        <ab>ADRIANO BOMPIANI</ab>
-        <ab>PATRIOTA E AVVOCATO</ab>
-        <ab>NATO A ROMA</ab>
-        <ab>MORTO IL 14 GENNAIO 1912</ab>
-        <ab>NELL'ETÀ DI 87 ANNI.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S852"
+               ulx="1663.853184"
+               uly="420.595691"
+               lrx="1671.069436"
+               lry="427.81194300000004"
+               points="1663.853184,420.595691 1671.069436,420.595691 1671.069436,427.81194300000004 1663.853184,427.81194300000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>ADRIANO BOMPIANI</ab>
+            <ab>ROMANO</ab>
+            <ab/>
+            <ab>E SUA MOGLIE</ab>
+            <ab>SOFIA VAN MATRE</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_E #c_1 #m_IF #t_P">
+            <ab>SOFIA VAN MATRE</ab>
+            <ab>NATA A CINCINNATI OHIO</ab>
+            <ab>STATI UNITI DE AMERICA</ab>
+            <ab>IL 5 MARZO A.D. 1835</ab>
+            <ab>MORTA A ROMA</ab>
+            <ab>IL 15 GIUGNO 1913.</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_N #c_1 #m_IF #t_P">
+            <ab>CREDI NEL SIGNORE GESU` CRISTO</ab>
+            <ab>E SARAI SALVATO TU E LA TUA CASA</ab>
+            <ab rend="Alignr">FATTI DEGLI APOSTOLI XVI 31</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_W #c_1 #m_IF #t_P">
+            <ab>ADRIANO BOMPIANI</ab>
+            <ab>PATRIOTA E AVVOCATO</ab>
+            <ab>NATO A ROMA</ab>
+            <ab>MORTO IL 14 GENNAIO 1912</ab>
+            <ab>NELL'ETÀ DI 87 ANNI.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,72 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S971.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S971.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 971</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S971">
-          <msIdentifier>
-            <idno>S971</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>190</height>
-                    <depth>8</depth>
-                    <width>91</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Gotthard</forename>
-              <surname>Werner</surname>
-            </persName>
-            <death when="1905"/>
-            <nationality key="SE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 971</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S971">
+               <msIdentifier>
+                  <idno>S971</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>190</height>
+                              <depth>8</depth>
+                              <width>91</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Gotthard</forename>
+                     <surname>Werner</surname>
+                  </persName>
+                  <death when="1905"/>
+                  <nationality key="SE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="sv" decls="#f_T #c_4 #m_I #t_P">
-        <ab>HISTORIE-MÁLAREN</ab>
-        <ab>GOTTHARD.WERNER</ab>
-        <ab>FÖDD.I.LINKÖPING.SVERIGE.1837</ab>
-        <ab>DÖD.I.ROM.1905</ab>
-        <ab/>
-        <ab>INQVII IVM.IST.COR.NOSTRVM</ab>
-        <ab>DONEC.REQVIESCAT.IN.TE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S971"
+               ulx="1558.281943"
+               uly="474.22526500000004"
+               lrx="1569.316656"
+               lry="495.12938699999995"
+               points="1558.529273,474.22526500000004 1569.316656,474.35368600000004 1569.069326,495.12938699999995 1558.281943,495.00096599999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="sv" decls="#f_T #c_4 #m_I #t_P">
+            <ab>HISTORIE-MÁLAREN</ab>
+            <ab>GOTTHARD.WERNER</ab>
+            <ab>FÖDD.I.LINKÖPING.SVERIGE.1837</ab>
+            <ab>DÖD.I.ROM.1905</ab>
+            <ab/>
+            <ab>INQVII IVM.IST.COR.NOSTRVM</ab>
+            <ab>DONEC.REQVIESCAT.IN.TE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

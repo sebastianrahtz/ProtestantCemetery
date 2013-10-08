@@ -1,87 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1159.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1159.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1159</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1159">
-          <msIdentifier>
-            <idno>S1159</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>161</height>
-                    <depth>25</depth>
-                    <width>79</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Hans W.E.</forename>
-              <surname>von Krieger</surname>
-            </persName>
-            <death when="1884"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Kath</forename>
-              <surname>von Krieger</surname>
-            </persName>
-            <death when="1904"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1159</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1159">
+               <msIdentifier>
+                  <idno>S1159</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>161</height>
+                              <depth>25</depth>
+                              <width>79</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Hans W.E.</forename>
+                     <surname>von Krieger</surname>
+                  </persName>
+                  <death when="1884"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Kath</forename>
+                     <surname>von Krieger</surname>
+                  </persName>
+                  <death when="1904"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
-        <ab>HANS W.E. VON KRUEGER</ab>
-        <ab>GEBOREN IN NEUSTRELITZ</ab>
-        <ab>DER GLAUBE AUF BIN WIEDERSEHN GELIEBIER MANN</ab>
-        <ab>IST DER EINZIGE TROST DEINER KATHI.</ab>
-        <ab>GEST. IN ROM AM 16 FEBRUAR 1884</ab>
-        <ab/>
-        <ab>KATH.VON KRÜEGER</ab>
-        <ab>GEB. RÖTH</ab>
-        <ab>1827 - 1904</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1159"
+               ulx="1997.993432"
+               uly="564.259683"
+               lrx="2007.101878"
+               lry="567.605823"
+               points="1998.046405,564.259683 2007.101878,564.409774 2007.048905,567.605823 1997.993432,567.455732 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+            <ab>HANS W.E. VON KRUEGER</ab>
+            <ab>GEBOREN IN NEUSTRELITZ</ab>
+            <ab>DER GLAUBE AUF BIN WIEDERSEHN GELIEBIER MANN</ab>
+            <ab>IST DER EINZIGE TROST DEINER KATHI.</ab>
+            <ab>GEST. IN ROM AM 16 FEBRUAR 1884</ab>
+            <ab/>
+            <ab>KATH.VON KRÜEGER</ab>
+            <ab>GEB. RÖTH</ab>
+            <ab>1827 - 1904</ab>
+         </div>
+      </body>
   </text>
 </TEI>

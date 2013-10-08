@@ -1,93 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1346.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1346.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1346</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1346">
-          <msIdentifier>
-            <idno>S1346</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>138</height>
-                    <depth>46</depth>
-                    <width>63</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Alexandre</forename>
-              <surname>Iordanow-Osnobichine</surname>
-            </persName>
-            <death when="1966"/>
-            <nationality key="FR"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Phyllis</forename>
-              <surname>Iordanow-Osnobichine</surname>
-            </persName>
-            <death when="1979"/>
-            <nationality key="FR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1346</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1346">
+               <msIdentifier>
+                  <idno>S1346</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>138</height>
+                              <depth>46</depth>
+                              <width>63</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Alexandre</forename>
+                     <surname>Iordanow-Osnobichine</surname>
+                  </persName>
+                  <death when="1966"/>
+                  <nationality key="FR"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Phyllis</forename>
+                     <surname>Iordanow-Osnobichine</surname>
+                  </persName>
+                  <death when="1979"/>
+                  <nationality key="FR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>ALEXANDRE IORDANOW-OSNOBICHINE</ab>
-        <ab>CHEVALIER DE MALTE</ab>
-        <ab>CHAMBELLAN DE SA SAINTETÉ</ab>
-        <ab>ANCIEN SECRÉTAIRE DE</ab>
-        <ab>L`AMBASSADE IMPÉRIALE DE RUSSIE À ROME</ab>
-        <ab>17.VI.1889 6.III.1966</ab>
-      </div>
-      <div type="inscription" xml:lang="fr" decls="#f_T #c_2 #m_IF #t_S">
-        <ab>ET SON ÉPOUSE</ab>
-        <ab>PHYLLIS NÉE MACLAURIN</ab>
-        <ab>7.IX.1895 21.III.1979</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1346"
+               ulx="1923.339142"
+               uly="648.937206"
+               lrx="1933.449144"
+               lry="667.569252"
+               points="1923.566268,648.937206 1933.449144,649.058468 1933.222018,667.569252 1923.339142,667.44799 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>ALEXANDRE IORDANOW-OSNOBICHINE</ab>
+            <ab>CHEVALIER DE MALTE</ab>
+            <ab>CHAMBELLAN DE SA SAINTETÉ</ab>
+            <ab>ANCIEN SECRÉTAIRE DE</ab>
+            <ab>L`AMBASSADE IMPÉRIALE DE RUSSIE À ROME</ab>
+            <ab>17.VI.1889 6.III.1966</ab>
+         </div>
+         <div type="inscription" xml:lang="fr" decls="#f_T #c_2 #m_IF #t_S">
+            <ab>ET SON ÉPOUSE</ab>
+            <ab>PHYLLIS NÉE MACLAURIN</ab>
+            <ab>7.IX.1895 21.III.1979</ab>
+         </div>
+      </body>
   </text>
 </TEI>

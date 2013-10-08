@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2293.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2293.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2293</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2293">
-          <msIdentifier>
-            <idno>S2293</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>168</height>
-                    <depth>7</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Dimitrij</forename>
-              <surname>Fel'kner"</surname>
-            </persName>
-            <death when="1923"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Rosmunda</forename>
-              <surname>Fel'kner"</surname>
-            </persName>
-            <death when="1968"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2293</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2293">
+               <msIdentifier>
+                  <idno>S2293</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>168</height>
+                              <depth>7</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Dimitrij</forename>
+                     <surname>Fel'kner"</surname>
+                  </persName>
+                  <death when="1923"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Rosmunda</forename>
+                     <surname>Fel'kner"</surname>
+                  </persName>
+                  <death when="1968"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_P #s_CY">
-        <ab>DEMETRIO FELKNER</ab>
-        <ab>ДМИТРИЙ ИЛЛИОДОРОВИЯ"</ab>
-        <ab>ФЕЛ"КНЕР"</ab>
-        <ab/>
-        <ab>РОД. 12 ДЕК. 1854 Г.</ab>
-        <ab>СКОНЯ. 8 АВГ. 1923 Г.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2293"
+               ulx="2809.287093"
+               uly="646.574703"
+               lrx="2819.465227"
+               lry="664.011254"
+               points="2809.702681,646.574703 2819.465227,646.810577 2819.04964,664.011254 2809.287093,663.77538 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_P #s_CY">
+            <ab>DEMETRIO FELKNER</ab>
+            <ab>ДМИТРИЙ ИЛЛИОДОРОВИЯ"</ab>
+            <ab>ФЕЛ"КНЕР"</ab>
+            <ab/>
+            <ab>РОД. 12 ДЕК. 1854 Г.</ab>
+            <ab>СКОНЯ. 8 АВГ. 1923 Г.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

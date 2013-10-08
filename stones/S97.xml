@@ -1,110 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S97.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S97.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 97</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S97">
-          <msIdentifier>
-            <idno>S97</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COPE">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>115</height>
-                    <depth>220</depth>
-                    <width>115</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_113 #st_A #f_W"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_113 #st_A #f_E"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_116 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_123 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>James P.</forename>
-              <surname>Cronkhite</surname>
-            </persName>
-            <birth when="1812-08-16">
-              <placeName>
-                <settlement>Sandy Hill, N.Y.</settlement>
-                <country>USA</country>
-              </placeName>
-            </birth>
-            <death when="1960-02-20">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 97</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S97">
+               <msIdentifier>
+                  <idno>S97</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COPE">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>115</height>
+                              <depth>220</depth>
+                              <width>115</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_113 #st_A #f_W"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_113 #st_A #f_E"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_116 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_123 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>James P.</forename>
+                     <surname>Cronkhite</surname>
+                  </persName>
+                  <birth when="1812-08-16">
+                     <placeName>
+                        <settlement>Sandy Hill, N.Y.</settlement>
+                        <country>USA</country>
+                     </placeName>
+                  </birth>
+                  <death when="1960-02-20">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IC #t_P">
-        <ab>
-          <hi rend="gothic">+ JAMES.P.CRONKHITE + .USA.</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">+Born at Sandy Hill. NY. Ang't - 16 1812. Died in ROME. Feb'y - 20 1860+</hi>
-        </ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_W #c_1 #m_IF #t_PC">
-        <ab>
-          <hi rend="gothic">+TO A GOOD MAN OF MOST DEAR MEMORY+</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">+THIS STONE IS SACRED+</hi>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S97"
+               ulx="1037.712279"
+               uly="229.39631199999997"
+               lrx="1050.170894"
+               lry="253.09878300000003"
+               points="1048.975708,229.39631199999997 1037.712279,229.99329 1038.907257,253.09878300000003 1050.170894,252.501977 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IC #t_P">
+            <ab>
+               <hi rend="gothic">+ JAMES.P.CRONKHITE + .USA.</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">+Born at Sandy Hill. NY. Ang't - 16 1812. Died in ROME. Feb'y - 20 1860+</hi>
+            </ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_W #c_1 #m_IF #t_PC">
+            <ab>
+               <hi rend="gothic">+TO A GOOD MAN OF MOST DEAR MEMORY+</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">+THIS STONE IS SACRED+</hi>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S995.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S995.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 995</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S995">
-          <msIdentifier>
-            <idno>S995</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>128</height>
-                    <depth>13</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Frances</forename>
-              <surname>Vyvyan</surname>
-            </persName>
-            <death when="1875"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 995</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S995">
+               <msIdentifier>
+                  <idno>S995</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>128</height>
+                              <depth>13</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Frances</forename>
+                     <surname>Vyvyan</surname>
+                  </persName>
+                  <death when="1875"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF FRANCES VYVYAN</ab>
-        <ab>THE BELOVED CHILD OF THE REV. W.H.C. LUKE</ab>
-        <ab>RECTOR OF ELMSWELL SUFFOLK</ab>
-        <ab>AND JULIA HIS WIFE</ab>
-        <ab>WHO ENTERED INTO REST APRIL 17TH 1875 AGED 14 YEARS</ab>
-        <ab/>
-        <ab>
-          <emph>THE GOD OF PEACE BE WITH YOU</emph>
-        </ab>
-        <ab rend="Alignr">
-          <emph>Rom. XV. 33</emph>
-        </ab>
-        <ab>THEY THAT DWELL UNDER HIS SHADOWS SHALL RETURN</ab>
-        <ab rend="Alignr">
-          <emph>Hoshea. ZIV. 7</emph>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S995"
+               ulx="1903.084067"
+               uly="483.281981"
+               lrx="1911.341662"
+               lry="491.406389"
+               points="1903.084067,483.281981 1911.341662,483.281981 1911.341662,491.406389 1903.084067,491.406389 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF FRANCES VYVYAN</ab>
+            <ab>THE BELOVED CHILD OF THE REV. W.H.C. LUKE</ab>
+            <ab>RECTOR OF ELMSWELL SUFFOLK</ab>
+            <ab>AND JULIA HIS WIFE</ab>
+            <ab>WHO ENTERED INTO REST APRIL 17TH 1875 AGED 14 YEARS</ab>
+            <ab/>
+            <ab>
+               <emph>THE GOD OF PEACE BE WITH YOU</emph>
+            </ab>
+            <ab rend="Alignr">
+               <emph>Rom. XV. 33</emph>
+            </ab>
+            <ab>THEY THAT DWELL UNDER HIS SHADOWS SHALL RETURN</ab>
+            <ab rend="Alignr">
+               <emph>Hoshea. ZIV. 7</emph>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S859.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S859.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 859</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S859">
-          <msIdentifier>
-            <idno>S859</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">417</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>140</height>
-                    <depth>38</depth>
-                    <width>63</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Cecilia</forename>
-              <surname>Walpole</surname>
-            </persName>
-            <death when="1887"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 859</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S859">
+               <msIdentifier>
+                  <idno>S859</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">417</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>140</height>
+                              <depth>38</depth>
+                              <width>63</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Cecilia</forename>
+                     <surname>Walpole</surname>
+                  </persName>
+                  <death when="1887"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>CECILIA</ab>
-        <ab>RELICT OF THE</ab>
-        <ab>HON. HENRY WALPOLE</ab>
-        <ab>DIED AT FLORENCE MAY 20TH 1887</ab>
-        <ab>AGED 74</ab>
-        <ab/>
-        <ab>"BLESSED ARE THE MERCIFUL</ab>
-        <ab>FOR THEY SHALL OBTAIN MERCY"</ab>
-        <ab rend="Alignr">
-          <emph>St Matt.5.7.</emph>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S859"
+               ulx="1779.993019"
+               uly="417.14444000000003"
+               lrx="1789.665869"
+               lry="424.19112400000006"
+               points="1780.09759,417.14444000000003 1789.665869,417.28941399999997 1789.561298,424.19112400000006 1779.993019,424.04615 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>CECILIA</ab>
+            <ab>RELICT OF THE</ab>
+            <ab>HON. HENRY WALPOLE</ab>
+            <ab>DIED AT FLORENCE MAY 20TH 1887</ab>
+            <ab>AGED 74</ab>
+            <ab/>
+            <ab>"BLESSED ARE THE MERCIFUL</ab>
+            <ab>FOR THEY SHALL OBTAIN MERCY"</ab>
+            <ab rend="Alignr">
+               <emph>St Matt.5.7.</emph>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

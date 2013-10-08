@@ -1,92 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1512.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1512.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1512</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1512">
-          <msIdentifier>
-            <idno>S1512</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2512</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>230</height>
-                    <depth>55</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_13 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Iacobus Franciscus</forename>
-              <surname>Turner</surname>
-            </persName>
-            <death when="1893"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1512</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1512">
+               <msIdentifier>
+                  <idno>S1512</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2512</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>230</height>
+                              <depth>55</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_13 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Iacobus Franciscus</forename>
+                     <surname>Turner</surname>
+                  </persName>
+                  <death when="1893"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_T #c_2 #m_RS #t_P">
-        <ab rend="Alignl">
-          <note>writings around edges</note>
-        </ab>
-        <ab rend="Alignl">
-          <note> west</note>
-        </ab>
-        <ab>FRANCISCI:TVRNER:S:T:P:EPISCOPI:GRAFTONENSIS:ET:ARMIDALENSIS</ab>
-        <ab rend="Alignl">
-          <note> south</note>
-        </ab>
-        <ab>QUI:AB:HAC:LVCE:MIGRAVIT:AD</ab>
-        <ab rend="Alignl">
-          <note> east</note>
-        </ab>
-        <ab>MISERICORDIAM:DEI:XXVII:DIE:MENSIS:APRILIS:MDCCCXCIII:R:I:P:</ab>
-        <ab>+HIC:IACET:CORPVS:IACOBI</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1512"
+               ulx="2557.95079"
+               uly="235.58452"
+               lrx="2569.08602"
+               lry="254.783091"
+               points="2557.95079,236.512874 2567.265018,235.58452 2569.08602,253.854737 2559.771792,254.783091 ">
+            <graphic url="film:L/35"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_T #c_2 #m_RS #t_P">
+            <ab rend="Alignl">
+               <note>writings around edges</note>
+            </ab>
+            <ab rend="Alignl">
+               <note> west</note>
+            </ab>
+            <ab>FRANCISCI:TVRNER:S:T:P:EPISCOPI:GRAFTONENSIS:ET:ARMIDALENSIS</ab>
+            <ab rend="Alignl">
+               <note> south</note>
+            </ab>
+            <ab>QUI:AB:HAC:LVCE:MIGRAVIT:AD</ab>
+            <ab rend="Alignl">
+               <note> east</note>
+            </ab>
+            <ab>MISERICORDIAM:DEI:XXVII:DIE:MENSIS:APRILIS:MDCCCXCIII:R:I:P:</ab>
+            <ab>+HIC:IACET:CORPVS:IACOBI</ab>
+         </div>
+      </body>
   </text>
 </TEI>

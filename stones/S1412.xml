@@ -1,98 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1412.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1412.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1412</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1412">
-          <msIdentifier>
-            <idno>S1412</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">506</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>92</height>
-                    <depth>10</depth>
-                    <width>81</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Low relief metal head with floral background. Could be deceased.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_26 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Vassilis</forename>
-              <surname>Vassilikos</surname>
-            </persName>
-            <birth when="1933-11-18"/>
-            <nationality key="FR"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Mimi Dimitra</forename>
-              <surname>Vassilikos</surname>
-            </persName>
-            <death when="1978"/>
-            <nationality key="FR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1412</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1412">
+               <msIdentifier>
+                  <idno>S1412</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">506</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>92</height>
+                              <depth>10</depth>
+                              <width>81</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Low relief metal head with floral background. Could be deceased.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_26 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Vassilis</forename>
+                     <surname>Vassilikos</surname>
+                  </persName>
+                  <birth when="1933-11-18"/>
+                  <nationality key="FR"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Mimi Dimitra</forename>
+                     <surname>Vassilikos</surname>
+                  </persName>
+                  <death when="1978"/>
+                  <nationality key="FR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>MIMI</ab>
-        <ab>DIMITRA</ab>
-        <ab>VASSILIKOS</ab>
-        <ab>NÉE</ab>
-        <ab>ATSEDES</ab>
-        <ab>28.VI.1933</ab>
-        <ab>3.VIII.1978</ab>
-      </div>
-      <div type="inscription" decls="#f_S #c_1 #m_IC #t_S">
-        <ab>VASSILIS</ab>
-        <ab>VASSILIKOS</ab>
-        <ab/>
-        <ab>18.XI.1933</ab>
-        <ab rend="Alignl">
-          <note> this appears to be a birth date, not a death date</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1412"
+               ulx="1395.341684"
+               uly="672.469635"
+               lrx="1405.068422"
+               lry="675.136643"
+               points="1395.341684,672.469635 1405.068422,672.469635 1405.068422,675.136643 1395.341684,675.136643 ">
+            <graphic url="film:X/21"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>MIMI</ab>
+            <ab>DIMITRA</ab>
+            <ab>VASSILIKOS</ab>
+            <ab>NÉE</ab>
+            <ab>ATSEDES</ab>
+            <ab>28.VI.1933</ab>
+            <ab>3.VIII.1978</ab>
+         </div>
+         <div type="inscription" decls="#f_S #c_1 #m_IC #t_S">
+            <ab>VASSILIS</ab>
+            <ab>VASSILIKOS</ab>
+            <ab/>
+            <ab>18.XI.1933</ab>
+            <ab rend="Alignl">
+               <note> this appears to be a birth date, not a death date</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

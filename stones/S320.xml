@@ -1,94 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S320.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S320.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 320</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S320">
-          <msIdentifier>
-            <idno>S320</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1702</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>143</height>
-                    <depth>11</depth>
-                    <width>62</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_121 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_127 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Eliza</forename>
-              <surname>Fuller</surname>
-            </persName>
-            <birth>
-              <placeName>
-                <settlement>Brighton Sussex</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1845-02-28"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 320</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S320">
+               <msIdentifier>
+                  <idno>S320</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1702</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>143</height>
+                              <depth>11</depth>
+                              <width>62</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_121 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_127 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Eliza</forename>
+                     <surname>Fuller</surname>
+                  </persName>
+                  <birth>
+                     <placeName>
+                        <settlement>Brighton Sussex</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1845-02-28"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>ELIZA FULLER</ab>
-        <ab>RELICT OF CAPTAIN</ab>
-        <ab>S.FULLER R.N.OF</ab>
-        <ab>BRIGHTON SUSSEX</ab>
-        <ab>DIED AT ROME ON THE 28TH</ab>
-        <ab>FEBRUARY AND WAS BURRIED</ab>
-        <ab rend="Alignl">
-          <note> BURRIED sic</note>
-        </ab>
-        <ab>ON THE 3RD OF MARCH 1845</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S320"
+               ulx="1230.355371"
+               uly="469.563762"
+               lrx="1240.631404"
+               lry="471.88105399999995"
+               points="1230.414414,469.563762 1240.631404,469.80961 1240.572343,471.88105399999995 1230.355371,471.635397 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>ELIZA FULLER</ab>
+            <ab>RELICT OF CAPTAIN</ab>
+            <ab>S.FULLER R.N.OF</ab>
+            <ab>BRIGHTON SUSSEX</ab>
+            <ab>DIED AT ROME ON THE 28TH</ab>
+            <ab>FEBRUARY AND WAS BURRIED</ab>
+            <ab rend="Alignl">
+               <note> BURRIED sic</note>
+            </ab>
+            <ab>ON THE 3RD OF MARCH 1845</ab>
+         </div>
+      </body>
   </text>
 </TEI>

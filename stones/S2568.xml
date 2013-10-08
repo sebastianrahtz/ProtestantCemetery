@@ -1,90 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2568.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2568.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2568</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2568">
-          <msIdentifier>
-            <idno>S2568</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">630</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>195</height>
-                    <depth>45</depth>
-                    <width>65</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Nicolas</forename>
-              <surname>Wrangel</surname>
-            </persName>
-            <death when="1927"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2568</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2568">
+               <msIdentifier>
+                  <idno>S2568</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">630</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>195</height>
+                              <depth>45</depth>
+                              <width>65</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Nicolas</forename>
+                     <surname>Wrangel</surname>
+                  </persName>
+                  <death when="1927"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_I #t_P #s_CY">
-        <ab>БАРОН"</ab>
-        <ab>НИКОЛАИ АЛЕКСАНДРОВИЯ"</ab>
-        <ab>ЖРАНГЕЛ'</ab>
-        <ab>РОД 15 АВГ 1869г</ab>
-        <ab>СКОНЯАЛСЯ 7 МАРТА 1927г</ab>
-        <ab/>
-        <ab/>
-        <ab>АЛЕКСАНДРА ВЛАДИМИРОВНА</ab>
-        <ab>СВИЯГИНА</ab>
-        <ab>+ 24,ИВ,1938</ab>
-      </div>
-      <div type="inscription" decls="#f_S #c_3 #m_I #t_P">
-        <ab>BARON NICOLAS WRANGEL</ab>
-        <ab>N 15.VIII.1869 M 7.III.1927</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2568"
+               ulx="2995.929722"
+               uly="524.346215"
+               lrx="3004.105043"
+               lry="530.093872"
+               points="2996.046481,524.346215 3004.105043,524.514868 3003.988284,530.093872 2995.929722,529.925219 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_I #t_P #s_CY">
+            <ab>БАРОН"</ab>
+            <ab>НИКОЛАИ АЛЕКСАНДРОВИЯ"</ab>
+            <ab>ЖРАНГЕЛ'</ab>
+            <ab>РОД 15 АВГ 1869г</ab>
+            <ab>СКОНЯАЛСЯ 7 МАРТА 1927г</ab>
+            <ab/>
+            <ab/>
+            <ab>АЛЕКСАНДРА ВЛАДИМИРОВНА</ab>
+            <ab>СВИЯГИНА</ab>
+            <ab>+ 24,ИВ,1938</ab>
+         </div>
+         <div type="inscription" decls="#f_S #c_3 #m_I #t_P">
+            <ab>BARON NICOLAS WRANGEL</ab>
+            <ab>N 15.VIII.1869 M 7.III.1927</ab>
+         </div>
+      </body>
   </text>
 </TEI>

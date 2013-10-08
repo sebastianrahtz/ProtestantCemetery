@@ -1,93 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S460.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S460.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 460</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S460">
-          <msIdentifier>
-            <idno>S460</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1636</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>162</height>
-                    <depth>18</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>T.G.</forename>
-              <surname>Carmichael</surname>
-            </persName>
-            <death when="1855"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Frances Marianne</forename>
-              <surname>Carmichael</surname>
-            </persName>
-            <death when="1892"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 460</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S460">
+               <msIdentifier>
+                  <idno>S460</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1636</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>162</height>
+                              <depth>18</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>T.G.</forename>
+                     <surname>Carmichael</surname>
+                  </persName>
+                  <death when="1855"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Frances Marianne</forename>
+                     <surname>Carmichael</surname>
+                  </persName>
+                  <death when="1892"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_IF #t_P">
-        <ab>SACRED TO THE MEMORY OF</ab>
-        <ab>SIR T.G. CARMICHAEL BAR</ab>
-        <ab>COMMANDER R.N.</ab>
-        <ab>BORN OCTOBER XXII MDCCCXVII</ab>
-        <ab>DIED AT CIVITAVECCHIA</ab>
-        <ab>DECEMBER XXX. MDCCCLV</ab>
-        <ab/>
-        <ab>AND OF HIS WIFE FRANCES MARIANNE</ab>
-        <ab>DAUGHTER OF THE REV.D JOSEPH STORY</ab>
-        <ab>DIED AT RAVELLO SEPT-1 MDCCCXCII</ab>
-        <ab>AGED LXIX YEARS</ab>
-        <ab>FAITHFUL UNTO DEATH</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S460"
+               ulx="1150.566771"
+               uly="633.489866"
+               lrx="1158.741642"
+               lry="648.522248"
+               points="1158.741642,633.67626 1150.990906,633.489866 1150.566771,648.335872 1158.317698,648.522248 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_IF #t_P">
+            <ab>SACRED TO THE MEMORY OF</ab>
+            <ab>SIR T.G. CARMICHAEL BAR</ab>
+            <ab>COMMANDER R.N.</ab>
+            <ab>BORN OCTOBER XXII MDCCCXVII</ab>
+            <ab>DIED AT CIVITAVECCHIA</ab>
+            <ab>DECEMBER XXX. MDCCCLV</ab>
+            <ab/>
+            <ab>AND OF HIS WIFE FRANCES MARIANNE</ab>
+            <ab>DAUGHTER OF THE REV.D JOSEPH STORY</ab>
+            <ab>DIED AT RAVELLO SEPT-1 MDCCCXCII</ab>
+            <ab>AGED LXIX YEARS</ab>
+            <ab>FAITHFUL UNTO DEATH</ab>
+         </div>
+      </body>
   </text>
 </TEI>

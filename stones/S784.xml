@@ -1,105 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S784.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S784.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 784</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S784">
-          <msIdentifier>
-            <idno>S784</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2148</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>172</height>
-                    <depth>100</depth>
-                    <width>182</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_106 #st_B #f_N"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_106 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>James</forename>
-              <surname>Shepherd</surname>
-            </persName>
-            <death when="1869"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Frances Elizabeth</forename>
-              <surname>Shepherd</surname>
-            </persName>
-            <death when="1891"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 784</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S784">
+               <msIdentifier>
+                  <idno>S784</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2148</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>172</height>
+                              <depth>100</depth>
+                              <width>182</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_106 #st_B #f_N"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_106 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>James</forename>
+                     <surname>Shepherd</surname>
+                  </persName>
+                  <death when="1869"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Frances Elizabeth</forename>
+                     <surname>Shepherd</surname>
+                  </persName>
+                  <death when="1891"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>JAMES SHEPHERD</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>THE 7TH OF MAY 1869</ab>
-        <ab>AGED 66 YEARS</ab>
-        <ab>BLESSED ARE THE MERCIFUL</ab>
-        <ab>FOR THEY SHALL OBTAIN MERCY</ab>
-        <ab rend="Alignr">MATTHEW 5 VERSE 7</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_N #c_1 #m_IF #t_S">
-        <ab>SACRED TO THE MEMORY OF</ab>
-        <ab>FRANCES ELIZABETH</ab>
-        <ab>WIDOW OF JAMES SHEPHERD</ab>
-        <ab>WHO</ab>
-        <ab>(HAVING IN 1882 INTERMARRIED WITH)</ab>
-        <ab>(COUNT CANSACCHI WHO DIED IN 1890)</ab>
-        <ab>DEPARTED THIS LIFE AT ROME</ab>
-        <ab>THE 15TH OF JULY 1891</ab>
-        <ab>AGED 80 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S784"
+               ulx="1891.008244"
+               uly="391.203352"
+               lrx="1910.815078"
+               lry="405.060161"
+               points="1891.008244,391.730683 1910.4536,391.203352 1910.815078,404.53283 1891.369722,405.060161 ">
+            <graphic url="film:_H/26197"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>JAMES SHEPHERD</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>THE 7TH OF MAY 1869</ab>
+            <ab>AGED 66 YEARS</ab>
+            <ab>BLESSED ARE THE MERCIFUL</ab>
+            <ab>FOR THEY SHALL OBTAIN MERCY</ab>
+            <ab rend="Alignr">MATTHEW 5 VERSE 7</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_N #c_1 #m_IF #t_S">
+            <ab>SACRED TO THE MEMORY OF</ab>
+            <ab>FRANCES ELIZABETH</ab>
+            <ab>WIDOW OF JAMES SHEPHERD</ab>
+            <ab>WHO</ab>
+            <ab>(HAVING IN 1882 INTERMARRIED WITH)</ab>
+            <ab>(COUNT CANSACCHI WHO DIED IN 1890)</ab>
+            <ab>DEPARTED THIS LIFE AT ROME</ab>
+            <ab>THE 15TH OF JULY 1891</ab>
+            <ab>AGED 80 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

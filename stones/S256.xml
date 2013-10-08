@@ -1,103 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S256.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S256.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 256</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S256">
-          <msIdentifier>
-            <idno>S256</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1646</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>199</height>
-                    <depth>60</depth>
-                    <width>107</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Alicia Everett</forename>
-              <surname>Ireland</surname>
-            </persName>
-            <birth>
-              <placeName>
-                <settlement>Horningsham Wilts</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1843-11-07">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Alicia</forename>
-              <surname>Ireland</surname>
-            </persName>
-            <death when="1866-04-24"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 256</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S256">
+               <msIdentifier>
+                  <idno>S256</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1646</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>199</height>
+                              <depth>60</depth>
+                              <width>107</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Alicia Everett</forename>
+                     <surname>Ireland</surname>
+                  </persName>
+                  <birth>
+                     <placeName>
+                        <settlement>Horningsham Wilts</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1843-11-07">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Alicia</forename>
+                     <surname>Ireland</surname>
+                  </persName>
+                  <death when="1866-04-24"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IM #t_P">
-        <ab>IN MEMORY OF</ab>
-        <ab>ALICIA</ab>
-        <ab>DAUGHTER OF WM. EVERETT ESQRE.</ab>
-        <ab>OF HORNINGSHAM WILTS</ab>
-        <ab>AND</ab>
-        <ab>RELICT OF THE REVD. WM. IRELAND</ab>
-        <ab>OF</ab>
-        <ab>FROME SELWOOD SOMERSETSHIRE</ab>
-        <ab>WHO DIED AT ROME</ab>
-        <ab>NOVEMBER 7TH. 1843</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RM #t_S">
-        <ab>ALICIA</ab>
-        <ab>YOUNGEST DAUGHTER OF THE ABOVE</ab>
-        <ab>APRIL 24 1866</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S256"
+               ulx="1049.159805"
+               uly="400.61120200000005"
+               lrx="1059.273652"
+               lry="421.90063399999997"
+               points="1059.273652,400.83989799999995 1049.761295,400.61120200000005 1049.159805,421.671749 1058.67218,421.90063399999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IM #t_P">
+            <ab>IN MEMORY OF</ab>
+            <ab>ALICIA</ab>
+            <ab>DAUGHTER OF WM. EVERETT ESQRE.</ab>
+            <ab>OF HORNINGSHAM WILTS</ab>
+            <ab>AND</ab>
+            <ab>RELICT OF THE REVD. WM. IRELAND</ab>
+            <ab>OF</ab>
+            <ab>FROME SELWOOD SOMERSETSHIRE</ab>
+            <ab>WHO DIED AT ROME</ab>
+            <ab>NOVEMBER 7TH. 1843</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RM #t_S">
+            <ab>ALICIA</ab>
+            <ab>YOUNGEST DAUGHTER OF THE ABOVE</ab>
+            <ab>APRIL 24 1866</ab>
+         </div>
+      </body>
   </text>
 </TEI>

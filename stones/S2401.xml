@@ -1,100 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2401.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2401.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2401</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2401">
-          <msIdentifier>
-            <idno>S2401</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">825</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>155</height>
-                    <width>55</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Pietro</forename>
-              <surname>Lupu</surname>
-            </persName>
-            <death when="1926"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Giovanna Maria</forename>
-              <surname>Stipa</surname>
-            </persName>
-            <death when="1944"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Joan</forename>
-              <surname>Angelescu</surname>
-            </persName>
-            <death when="1963"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2401</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2401">
+               <msIdentifier>
+                  <idno>S2401</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">825</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>155</height>
+                              <width>55</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Pietro</forename>
+                     <surname>Lupu</surname>
+                  </persName>
+                  <death when="1926"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Giovanna Maria</forename>
+                     <surname>Stipa</surname>
+                  </persName>
+                  <death when="1944"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Joan</forename>
+                     <surname>Angelescu</surname>
+                  </persName>
+                  <death when="1963"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_T #c_2 #m_I #t_P">
-        <ab>PIETRO LUPU</ab>
-        <ab>* 29.VI.1895</ab>
-        <ab>+ 22.V.1926</ab>
-        <ab/>
-        <ab>GIOVANNA MARIA STIPA</ab>
-        <ab>* 13.VI.1926</ab>
-        <ab>+ 25.XI.1944</ab>
-        <ab/>
-        <ab>JOAN ANGELESCU</ab>
-        <ab>* 8.III.1883</ab>
-        <ab>+ 28.VIII.1963</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2401"
+               ulx="3043.703588"
+               uly="216.112975"
+               lrx="3048.578428"
+               lry="229.36073299999998"
+               points="3043.959112,216.112975 3048.578428,216.20268 3048.322904,229.36073299999998 3043.703588,229.271027 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_T #c_2 #m_I #t_P">
+            <ab>PIETRO LUPU</ab>
+            <ab>* 29.VI.1895</ab>
+            <ab>+ 22.V.1926</ab>
+            <ab/>
+            <ab>GIOVANNA MARIA STIPA</ab>
+            <ab>* 13.VI.1926</ab>
+            <ab>+ 25.XI.1944</ab>
+            <ab/>
+            <ab>JOAN ANGELESCU</ab>
+            <ab>* 8.III.1883</ab>
+            <ab>+ 28.VIII.1963</ab>
+         </div>
+      </body>
   </text>
 </TEI>

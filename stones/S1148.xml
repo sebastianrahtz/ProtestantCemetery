@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1148.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1148.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1148</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1148">
-          <msIdentifier>
-            <idno>S1148</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>155</height>
-                    <depth>38</depth>
-                    <width>102</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_9 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>James Anderson</forename>
-              <surname>Hutchison</surname>
-            </persName>
-            <death when="1882"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1148</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1148">
+               <msIdentifier>
+                  <idno>S1148</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>155</height>
+                              <depth>38</depth>
+                              <width>102</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_9 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>James Anderson</forename>
+                     <surname>Hutchison</surname>
+                  </persName>
+                  <death when="1882"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>JAMES ANDERSON HUTCHISON</ab>
-        <ab>ARTIST</ab>
-        <ab>WOODLANDS, LOCHGOILHEAD, ARGYLESHIRE</ab>
-        <ab>SCOTLAND</ab>
-        <ab>WHO DIED AT ROME</ab>
-        <ab>THE 27TH FEBRUARY 1882</ab>
-        <ab rend="Alignl">
-          <emph>"UNTIL THE DAY BREAK, AND THE SHADOWS</emph>
-        </ab>
-        <ab rend="Alignl">
-          <emph>FLEE AWAY"</emph>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1148"
+               ulx="2113.119981"
+               uly="539.753273"
+               lrx="2122.309885"
+               lry="546.013063"
+               points="2113.119981,539.753273 2122.309885,539.753273 2122.309885,546.013063 2113.119981,546.013063 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>JAMES ANDERSON HUTCHISON</ab>
+            <ab>ARTIST</ab>
+            <ab>WOODLANDS, LOCHGOILHEAD, ARGYLESHIRE</ab>
+            <ab>SCOTLAND</ab>
+            <ab>WHO DIED AT ROME</ab>
+            <ab>THE 27TH FEBRUARY 1882</ab>
+            <ab rend="Alignl">
+               <emph>"UNTIL THE DAY BREAK, AND THE SHADOWS</emph>
+            </ab>
+            <ab rend="Alignl">
+               <emph>FLEE AWAY"</emph>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

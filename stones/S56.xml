@@ -1,81 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S56.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S56.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 56</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S56">
-          <msIdentifier>
-            <idno>S56</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">109</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>89</height>
-                    <width>67</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 69)</summary>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>39</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Jaques</forename>
-              <surname>Auquier</surname>
-            </persName>
-            <birth when="1779-02"/>
-            <death when="1819-01-01"/>
-            <nationality key="FR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 56</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S56">
+               <msIdentifier>
+                  <idno>S56</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">109</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>89</height>
+                              <width>67</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 69)</summary>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>39</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Jaques</forename>
+                     <surname>Auquier</surname>
+                  </persName>
+                  <birth when="1779-02"/>
+                  <death when="1819-01-01"/>
+                  <nationality key="FR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_T #c_4 #m_IC #t_P">
-        <ab>D O M</ab>
-        <ab>ICY GIT</ab>
-        <ab>JAQUES AUQUIER</ab>
-        <ab>NE LE 29 FEVRIER AN 1779</ab>
-        <ab>A [..]VZES DE[P]A[R]TE[...] DV GARD</ab>
-        <ab>DECEDE LE 1 JANVIER 1819</ab>
-        <ab>SON FRERE</ab>
-        <ab>SIMON AVOVIER</ab>
-        <ab>LUI A FAIT POSER UN MONUMENT</ab>
-        <ab>DERNIER GAGE</ab>
-        <ab>DE SA TENDRESSE ETERNELLE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S56"
+               ulx="296.620432"
+               uly="774.632865"
+               lrx="312.307299"
+               lry="789.866679"
+               points="306.843083,774.632865 296.620432,780.78063 302.081738,789.866679 312.307299,783.721329 ">
+            <graphic url="film:_H/26287"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_T #c_4 #m_IC #t_P">
+            <ab>D O M</ab>
+            <ab>ICY GIT</ab>
+            <ab>JAQUES AUQUIER</ab>
+            <ab>NE LE 29 FEVRIER AN 1779</ab>
+            <ab>A [..]VZES DE[P]A[R]TE[...] DV GARD</ab>
+            <ab>DECEDE LE 1 JANVIER 1819</ab>
+            <ab>SON FRERE</ab>
+            <ab>SIMON AVOVIER</ab>
+            <ab>LUI A FAIT POSER UN MONUMENT</ab>
+            <ab>DERNIER GAGE</ab>
+            <ab>DE SA TENDRESSE ETERNELLE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

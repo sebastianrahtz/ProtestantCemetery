@@ -1,81 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S103.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S103.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 103</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S103">
-          <msIdentifier>
-            <idno>S103</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1411</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>121</height>
-                    <depth>75</depth>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>88</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Edward J.</forename>
-              <surname>Trelawny</surname>
-            </persName>
-            <death when="1881-08-13">
-              <placeName>
-                <country>England</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 103</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S103">
+               <msIdentifier>
+                  <idno>S103</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1411</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>121</height>
+                              <depth>75</depth>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>88</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Edward J.</forename>
+                     <surname>Trelawny</surname>
+                  </persName>
+                  <death when="1881-08-13">
+                     <placeName>
+                        <country>England</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>EDWARD J. TRELAWNY</ab>
-        <ab>DIED IN ENGLAND AUGUST 13TH 1881.</ab>
-        <ab>AGED 88.</ab>
-        <ab/>
-        <ab/>
-        <ab>THESE ARE TWO FRIENDS WHOSE LIVES WERE UNDIVIDED;</ab>
-        <ab>SO LET THEIR MEMORY BE, NOW THEY HAVE GLIDED</ab>
-        <ab>UNDER THE GRAVE: LET NOT THEIR BONES BE PARTED,</ab>
-        <ab>FOR THEIR TWO HEARTS IN LIFE WERE SINGLE HEARTED.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S103"
+               ulx="1157.951747"
+               uly="203.527873"
+               lrx="1166.791795"
+               lry="217.19624799999997"
+               points="1166.791795,203.73121100000003 1158.336255,203.527873 1157.951747,216.99289199999998 1166.407097,217.19624799999997 ">
+            <graphic url="film:_H/26488"/>
+            <graphic url="film:AD/14"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>EDWARD J. TRELAWNY</ab>
+            <ab>DIED IN ENGLAND AUGUST 13TH 1881.</ab>
+            <ab>AGED 88.</ab>
+            <ab/>
+            <ab/>
+            <ab>THESE ARE TWO FRIENDS WHOSE LIVES WERE UNDIVIDED;</ab>
+            <ab>SO LET THEIR MEMORY BE, NOW THEY HAVE GLIDED</ab>
+            <ab>UNDER THE GRAVE: LET NOT THEIR BONES BE PARTED,</ab>
+            <ab>FOR THEIR TWO HEARTS IN LIFE WERE SINGLE HEARTED.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

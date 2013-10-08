@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9069.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9069.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9069</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9069">
-          <msIdentifier>
-            <idno>S9069</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-              <note>east of 9068</note>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>48</height>
-                    <depth>25</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>84</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Elisabeth Messeni</forename>
-              <surname>Petruzzelli</surname>
-            </persName>
-            <birth when="1900"/>
-            <death when="1984"/>
-            <nationality key="SE"/>
-            <occupation>Artist</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9069</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9069">
+               <msIdentifier>
+                  <idno>S9069</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                     <note>east of 9068</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>48</height>
+                              <depth>25</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>84</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elisabeth Messeni</forename>
+                     <surname>Petruzzelli</surname>
+                  </persName>
+                  <birth when="1900"/>
+                  <death when="1984"/>
+                  <nationality key="SE"/>
+                  <occupation>Artist</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="sv" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>ELISABETH</ab>
-        <ab>MESSENI PETRUZZELLI</ab>
-        <ab>FÖDD LINDGREN</ab>
-        <ab>PITTRICE</ab>
-        <ab>STOCKHOLM 14.4.1900</ab>
-        <ab>ROMA 13.12.1984</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9069"
+               ulx="1772.686794"
+               uly="228.84674700000005"
+               lrx="1780.886538"
+               lry="233.11744699999997"
+               points="1772.686794,228.84674700000005 1780.886538,228.84674700000005 1780.886538,233.11744699999997 1772.686794,233.11744699999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="sv" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>ELISABETH</ab>
+            <ab>MESSENI PETRUZZELLI</ab>
+            <ab>FÖDD LINDGREN</ab>
+            <ab>PITTRICE</ab>
+            <ab>STOCKHOLM 14.4.1900</ab>
+            <ab>ROMA 13.12.1984</ab>
+         </div>
+      </body>
   </text>
 </TEI>

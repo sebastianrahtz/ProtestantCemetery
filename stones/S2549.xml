@@ -1,99 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2549.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2549.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2549</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2549">
-          <msIdentifier>
-            <idno>S2549</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1150</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>192</height>
-                    <depth>56</depth>
-                    <width>72</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>*</num>
-                <ptr target="#i_117 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Emilio</forename>
-              <surname>Berner</surname>
-            </persName>
-            <death when="1938"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Anna Klein</forename>
-              <surname>Berner</surname>
-            </persName>
-            <death when="1939"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2549</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2549">
+               <msIdentifier>
+                  <idno>S2549</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1150</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>192</height>
+                              <depth>56</depth>
+                              <width>72</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>*</num>
+                        <ptr target="#i_117 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Emilio</forename>
+                     <surname>Berner</surname>
+                  </persName>
+                  <death when="1938"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anna Klein</forename>
+                     <surname>Berner</surname>
+                  </persName>
+                  <death when="1939"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_N #c_2 #m_I #t_P">
-        <ab>BERNER</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_N #c_2 #m_I #t_P">
-        <ab>CAV. EMILIO BERNER</ab>
-        <ab>17.XII.1856 3.IV.1938</ab>
-        <ab>ANNA KLEIN BERNER</ab>
-        <ab>27.X.1862  4.V.1939</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_RS #t_PC">
-        <ab>PAX</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2549"
+               ulx="3042.349928"
+               uly="499.61926400000004"
+               lrx="3052.717364"
+               lry="505.608465"
+               points="3042.479542,499.61926400000004 3052.717364,499.84969 3052.587749,505.608465 3042.349928,505.37803900000006 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_N #c_2 #m_I #t_P">
+            <ab>BERNER</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_N #c_2 #m_I #t_P">
+            <ab>CAV. EMILIO BERNER</ab>
+            <ab>17.XII.1856 3.IV.1938</ab>
+            <ab>ANNA KLEIN BERNER</ab>
+            <ab>27.X.1862  4.V.1939</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_RS #t_PC">
+            <ab>PAX</ab>
+         </div>
+      </body>
   </text>
 </TEI>

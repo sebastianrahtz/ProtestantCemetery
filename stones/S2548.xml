@@ -1,100 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2548.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2548.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2548</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2548">
-          <msIdentifier>
-            <idno>S2548</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1202</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>173</height>
-                    <depth>60</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Karl Conrad</forename>
-              <surname>Leiberich</surname>
-            </persName>
-            <death when="1923"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ada Paulina</forename>
-              <surname>Leiberich</surname>
-            </persName>
-            <death when="1935"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2548</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2548">
+               <msIdentifier>
+                  <idno>S2548</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1202</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>173</height>
+                              <depth>60</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Karl Conrad</forename>
+                     <surname>Leiberich</surname>
+                  </persName>
+                  <death when="1923"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ada Paulina</forename>
+                     <surname>Leiberich</surname>
+                  </persName>
+                  <death when="1935"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>IN EVERLOVING MEMORY</ab>
-        <ab>OF MY HUSBAND</ab>
-        <ab>KARL CONRAD FRIEDRICH</ab>
-        <ab>LEIBERICH</ab>
-        <ab>DEPARTED THIS LIFE DECEMBER 31ST 1923</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_S">
-        <ab>AND OF HIS WIDOW</ab>
-        <ab>ADA PAULINA FRANCES</ab>
-        <ab>LEIBERICH</ab>
-        <ab>DIED JANUARY 29th 1935</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_PC">
-        <ab>GOD IS LOVE.</ab>
-        <ab rend="Alignr">St. JOHN 16 v.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2548"
+               ulx="3023.418653"
+               uly="499.71003900000005"
+               lrx="3032.698054"
+               lry="505.26995999999997"
+               points="3023.582054,499.71003900000005 3032.698054,499.99227499999995 3032.534655,505.26995999999997 3023.418653,504.98772499999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>IN EVERLOVING MEMORY</ab>
+            <ab>OF MY HUSBAND</ab>
+            <ab>KARL CONRAD FRIEDRICH</ab>
+            <ab>LEIBERICH</ab>
+            <ab>DEPARTED THIS LIFE DECEMBER 31ST 1923</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_S">
+            <ab>AND OF HIS WIDOW</ab>
+            <ab>ADA PAULINA FRANCES</ab>
+            <ab>LEIBERICH</ab>
+            <ab>DIED JANUARY 29th 1935</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_PC">
+            <ab>GOD IS LOVE.</ab>
+            <ab rend="Alignr">St. JOHN 16 v.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

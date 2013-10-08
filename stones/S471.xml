@@ -1,74 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S471.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S471.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 471</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S471">
-          <msIdentifier>
-            <idno>S471</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLW">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>75</height>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Moses Stephen</forename>
-              <surname>Slaughter</surname>
-            </persName>
-            <death when="1923"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 471</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S471">
+               <msIdentifier>
+                  <idno>S471</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLW">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>75</height>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Moses Stephen</forename>
+                     <surname>Slaughter</surname>
+                  </persName>
+                  <death when="1923"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
-        <ab>MOSES STEPHEN SLAUGHTER</ab>
-        <ab>PROFESSOR IN THE UNIVERSITY OF WISCONSIN</ab>
-        <ab/>
-        <ab>PROFESSOR IN THE AMERICAN SCHOOL OF CLASSICAL STUDIES</ab>
-        <ab>IN ROME</ab>
-        <ab>MAJOR IN THE AMERICAN RED CROSS DELEGATE FOR VENICE</ab>
-        <ab>CAVALIERE DELLA CORONA D'ITALIA</ab>
-        <ab>BORN MDCCCLX - DIED IN ROME MCMXXIII</ab>
-        <ab>-------------------</ab>
-        <ab>ANIMAM CANDIDIOREM TERRA NON TULIT</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S471"
+               ulx="1409.10793"
+               uly="213.914624"
+               lrx="1417.0422"
+               lry="215.485229"
+               points="1409.10793,213.97148300000003 1417.031337,213.914624 1417.0422,215.42836999999997 1409.118793,215.485229 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
+            <ab>MOSES STEPHEN SLAUGHTER</ab>
+            <ab>PROFESSOR IN THE UNIVERSITY OF WISCONSIN</ab>
+            <ab/>
+            <ab>PROFESSOR IN THE AMERICAN SCHOOL OF CLASSICAL STUDIES</ab>
+            <ab>IN ROME</ab>
+            <ab>MAJOR IN THE AMERICAN RED CROSS DELEGATE FOR VENICE</ab>
+            <ab>CAVALIERE DELLA CORONA D'ITALIA</ab>
+            <ab>BORN MDCCCLX - DIED IN ROME MCMXXIII</ab>
+            <ab>-------------------</ab>
+            <ab>ANIMAM CANDIDIOREM TERRA NON TULIT</ab>
+         </div>
+      </body>
   </text>
 </TEI>

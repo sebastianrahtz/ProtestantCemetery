@@ -1,120 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S582.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S582.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 582</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S582">
-          <msIdentifier>
-            <idno>S582</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1803</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>172</height>
-                    <depth>21</depth>
-                    <width>78</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_20 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_88 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_128 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Robert</forename>
-              <surname>Brown</surname>
-            </persName>
-            <death when="1823"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 582</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S582">
+               <msIdentifier>
+                  <idno>S582</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1803</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>172</height>
+                              <depth>21</depth>
+                              <width>78</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_20 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_88 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_128 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Robert</forename>
+                     <surname>Brown</surname>
+                  </persName>
+                  <death when="1823"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>To the MEMORY of ROBERT</ab>
-        <ab>The eldest SON of. MR. ROBERT BROWN,</ab>
-        <ab>of the Sity of London, Merchant.</ab>
-        <ab>Who unhappily lost his Life at Tivoli by his</ab>
-        <ab>Foot slipping, in coming out of Neptune's Grotto,</ab>
-        <ab>on the 6th July 1823.</ab>
-        <ab>Aged 21 years.</ab>
-        <ab>Reader Beware</ab>
-        <ab>By this Fatal Accident</ab>
-        <ab>a Virtous and Amiable Youth has been</ab>
-        <ab>suddenly snatched away in the bloom of Health</ab>
-        <ab>and pride of Life!</ab>
-        <ab>His disconsolate Parents are bereaved</ab>
-        <ab>of a most excellent Son,</ab>
-        <ab>His Brothers, and Sisters have to lament</ab>
-        <ab>an attached, and affectionate Brother,</ab>
-        <ab>and all his Family and Friends</ab>
-        <ab>have sustained an irreparable Loss.</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_N #c_4 #m_I #t_P">
-        <ab>Qui Giace</ab>
-        <ab>ROBERTO</ab>
-        <ab>Primogenito d. ROBERTO BROWN di Londra,</ab>
-        <ab>cominciava appena il quinto Lus[....]di sua vita</ab>
-        <ab>quando cadde nelle Acque dell' Aniene</ab>
-        <ab>dentro la grotta di Nettuno in Tivoli.</ab>
-        <ab>Lui infelicemente Mori</ab>
-        <ab>sotto gli occhi del fratello</ab>
-        <ab>il Giorno vi Luglio MDCCCXXIII.</ab>
-        <ab>Siate attenti o leggitori</ab>
-        <ab>Per questo fatale accidente</ab>
-        <ab>Un Giovane virtuoso ed amabile</ab>
-        <ab>e` stato rapito nel fior degli anni.</ab>
-        <ab>I suoi parenti sconsolati</ab>
-        <ab>sono privi di un figlio eccelente,</ab>
-        <ab>I Fratelli e le Sorelle compiangono</ab>
-        <ab>un Fratello carissimo,</ab>
-        <ab>e tutta la Famiglia e gli Amici</ab>
-        <ab>sono dolenti di questa perdita irreparabile.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S582"
+               ulx="1399.531926"
+               uly="260.943478"
+               lrx="1409.739975"
+               lry="283.19624799999997"
+               points="1399.680821,260.943478 1409.739975,261.010989 1409.591081,283.19624799999997 1399.531926,283.128737 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>To the MEMORY of ROBERT</ab>
+            <ab>The eldest SON of. MR. ROBERT BROWN,</ab>
+            <ab>of the Sity of London, Merchant.</ab>
+            <ab>Who unhappily lost his Life at Tivoli by his</ab>
+            <ab>Foot slipping, in coming out of Neptune's Grotto,</ab>
+            <ab>on the 6th July 1823.</ab>
+            <ab>Aged 21 years.</ab>
+            <ab>Reader Beware</ab>
+            <ab>By this Fatal Accident</ab>
+            <ab>a Virtous and Amiable Youth has been</ab>
+            <ab>suddenly snatched away in the bloom of Health</ab>
+            <ab>and pride of Life!</ab>
+            <ab>His disconsolate Parents are bereaved</ab>
+            <ab>of a most excellent Son,</ab>
+            <ab>His Brothers, and Sisters have to lament</ab>
+            <ab>an attached, and affectionate Brother,</ab>
+            <ab>and all his Family and Friends</ab>
+            <ab>have sustained an irreparable Loss.</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_N #c_4 #m_I #t_P">
+            <ab>Qui Giace</ab>
+            <ab>ROBERTO</ab>
+            <ab>Primogenito d. ROBERTO BROWN di Londra,</ab>
+            <ab>cominciava appena il quinto Lus[....]di sua vita</ab>
+            <ab>quando cadde nelle Acque dell' Aniene</ab>
+            <ab>dentro la grotta di Nettuno in Tivoli.</ab>
+            <ab>Lui infelicemente Mori</ab>
+            <ab>sotto gli occhi del fratello</ab>
+            <ab>il Giorno vi Luglio MDCCCXXIII.</ab>
+            <ab>Siate attenti o leggitori</ab>
+            <ab>Per questo fatale accidente</ab>
+            <ab>Un Giovane virtuoso ed amabile</ab>
+            <ab>e` stato rapito nel fior degli anni.</ab>
+            <ab>I suoi parenti sconsolati</ab>
+            <ab>sono privi di un figlio eccelente,</ab>
+            <ab>I Fratelli e le Sorelle compiangono</ab>
+            <ab>un Fratello carissimo,</ab>
+            <ab>e tutta la Famiglia e gli Amici</ab>
+            <ab>sono dolenti di questa perdita irreparabile.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

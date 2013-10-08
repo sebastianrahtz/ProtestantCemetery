@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2076.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2076.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2076</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2076">
-          <msIdentifier>
-            <idno>S2076</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1959</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>172</height>
-                    <depth>43</depth>
-                    <width>59</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Cacilie Baronin</forename>
-              <surname>Tiesenhausen</surname>
-            </persName>
-            <death when="1909"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2076</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2076">
+               <msIdentifier>
+                  <idno>S2076</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1959</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>172</height>
+                              <depth>43</depth>
+                              <width>59</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Cacilie Baronin</forename>
+                     <surname>Tiesenhausen</surname>
+                  </persName>
+                  <death when="1909"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>HIER RUHT IN GOTT</ab>
-        <ab>CÄCILIE BARONIN TIESEN HAUSEN</ab>
-        <ab>GEB.AM 27TEN OKT. 1840</ab>
-        <ab>GEST.AM 17TEN OKT. 1909</ab>
-        <ab/>
-        <ab>SELIG SIND DIE HUNGERT UND</ab>
-        <ab>DÜRSTET NACH DER GERECHTIGKEIT;</ab>
-        <ab>DENN SIE SOLLEN SATT WERDEN</ab>
-        <ab/>
-        <ab rend="Alignr">EV. MATTH. 5.6.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2076"
+               ulx="2765.490708"
+               uly="270.599685"
+               lrx="2772.64669"
+               lry="276.21993499999996"
+               points="2765.50643,270.599685 2772.64669,270.61973 2772.630969,276.21993499999996 2765.490708,276.199889 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>HIER RUHT IN GOTT</ab>
+            <ab>CÄCILIE BARONIN TIESEN HAUSEN</ab>
+            <ab>GEB.AM 27TEN OKT. 1840</ab>
+            <ab>GEST.AM 17TEN OKT. 1909</ab>
+            <ab/>
+            <ab>SELIG SIND DIE HUNGERT UND</ab>
+            <ab>DÜRSTET NACH DER GERECHTIGKEIT;</ab>
+            <ab>DENN SIE SOLLEN SATT WERDEN</ab>
+            <ab/>
+            <ab rend="Alignr">EV. MATTH. 5.6.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

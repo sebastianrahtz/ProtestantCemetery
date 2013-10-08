@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S376.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S376.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 376</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S376">
-          <msIdentifier>
-            <idno>S376</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>149</height>
-                    <depth>15</depth>
-                    <width>76</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_121 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>35</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Grace Wandesforde</forename>
-              <surname>Deacon</surname>
-            </persName>
-            <birth when="1812">
-              <placeName>
-                <settlement>County of Carlow</settlement>
-                <country>Ireland</country>
-              </placeName>
-            </birth>
-            <death when="1847-11-17"/>
-            <nationality key="IE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 376</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S376">
+               <msIdentifier>
+                  <idno>S376</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>149</height>
+                              <depth>15</depth>
+                              <width>76</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_121 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>35</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Grace Wandesforde</forename>
+                     <surname>Deacon</surname>
+                  </persName>
+                  <birth when="1812">
+                     <placeName>
+                        <settlement>County of Carlow</settlement>
+                        <country>Ireland</country>
+                     </placeName>
+                  </birth>
+                  <death when="1847-11-17"/>
+                  <nationality key="IE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>SACRED TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>GRACE WANDESFORDE DEANE</ab>
-        <ab>WIFE OF</ab>
-        <ab>JOHN ST. GEORGE DEANE ESQRE. OF BERKELEY</ab>
-        <ab>FOREST COUNTY OF WEXFORD IRELAND</ab>
-        <ab>AND</ab>
-        <ab>DAUGHTER OF THE LATE THOMAS KAVANAGH</ab>
-        <ab>ESQUIRE &amp; LADY ELIZABETH KAVANAGH</ab>
-        <ab>OF BORRIS HOUSE COUNTY OF CARLOW</ab>
-        <ab>IRELAND WHO DEPARTED THIS LIFE ON</ab>
-        <ab>THE 17TH DAY OF NOVEMBER 1847</ab>
-        <ab>AGED 35 YEARS</ab>
-        <ab/>
-        <ab>REQUIESCAT IN PACE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S376"
+               ulx="1263.069992"
+               uly="520.447974"
+               lrx="1271.966422"
+               lry="523.767072"
+               points="1271.966422,520.659707 1263.158679,520.447974 1263.069992,523.555149 1271.877754,523.767072 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>SACRED TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>GRACE WANDESFORDE DEANE</ab>
+            <ab>WIFE OF</ab>
+            <ab>JOHN ST. GEORGE DEANE ESQRE. OF BERKELEY</ab>
+            <ab>FOREST COUNTY OF WEXFORD IRELAND</ab>
+            <ab>AND</ab>
+            <ab>DAUGHTER OF THE LATE THOMAS KAVANAGH</ab>
+            <ab>ESQUIRE &amp; LADY ELIZABETH KAVANAGH</ab>
+            <ab>OF BORRIS HOUSE COUNTY OF CARLOW</ab>
+            <ab>IRELAND WHO DEPARTED THIS LIFE ON</ab>
+            <ab>THE 17TH DAY OF NOVEMBER 1847</ab>
+            <ab>AGED 35 YEARS</ab>
+            <ab/>
+            <ab>REQUIESCAT IN PACE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

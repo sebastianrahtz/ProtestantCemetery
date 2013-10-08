@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S788.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S788.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 788</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S788">
-          <msIdentifier>
-            <idno>S788</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1057</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>98</height>
-                    <depth>18</depth>
-                    <width>59</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_117 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Giuseppe</forename>
-              <surname>Fulloni</surname>
-            </persName>
-            <death when="1942"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Marta McKim</forename>
-              <surname>Fulloni</surname>
-            </persName>
-            <death when="1950"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 788</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S788">
+               <msIdentifier>
+                  <idno>S788</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1057</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>98</height>
+                              <depth>18</depth>
+                              <width>59</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_117 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Giuseppe</forename>
+                     <surname>Fulloni</surname>
+                  </persName>
+                  <death when="1942"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Marta McKim</forename>
+                     <surname>Fulloni</surname>
+                  </persName>
+                  <death when="1950"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IC #t_P">
-        <ab>GIUSEPPE FULLONI</ab>
-        <ab>DEC.1880-JAN.1942</ab>
-        <ab>HE DID HIS WORK WELL</ab>
-        <ab>AND WAS KIND</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IC #t_S">
-        <ab>MARTA MC.KIM FULLONI</ab>
-        <ab>FEBR.1880-MARC.1950</ab>
-        <ab>A FAITHFUL INTELLIGENT</ab>
-        <ab>SPIRITUAL COMPANION</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S788"
+               ulx="1859.319486"
+               uly="389.69130800000005"
+               lrx="1867.476988"
+               lry="395.495684"
+               points="1859.319486,389.69130800000005 1867.476988,389.69130800000005 1867.476988,395.495684 1859.319486,395.495684 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IC #t_P">
+            <ab>GIUSEPPE FULLONI</ab>
+            <ab>DEC.1880-JAN.1942</ab>
+            <ab>HE DID HIS WORK WELL</ab>
+            <ab>AND WAS KIND</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IC #t_S">
+            <ab>MARTA MC.KIM FULLONI</ab>
+            <ab>FEBR.1880-MARC.1950</ab>
+            <ab>A FAITHFUL INTELLIGENT</ab>
+            <ab>SPIRITUAL COMPANION</ab>
+         </div>
+      </body>
   </text>
 </TEI>

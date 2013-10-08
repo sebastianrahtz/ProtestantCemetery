@@ -1,76 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S960.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S960.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 960</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S960">
-          <msIdentifier>
-            <idno>S960</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>147</height>
-                    <depth>12</depth>
-                    <width>76</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>August</forename>
-              <surname>Elsasser</surname>
-            </persName>
-            <death when="1895"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 960</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S960">
+               <msIdentifier>
+                  <idno>S960</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>147</height>
+                              <depth>12</depth>
+                              <width>76</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>August</forename>
+                     <surname>Elsasser</surname>
+                  </persName>
+                  <death when="1895"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_4 #m_IF #t_P">
-        <ab>Hier</ab>
-        <ab>ruhet</ab>
-        <ab>Der Landschaft [...] Architektor Maler</ab>
-        <ab>August Elsasser</ab>
-        <ab>geb. zu Berlin den 24 July 1810</ab>
-        <ab>gest. zu Rom den 1 Sept 1845</ab>
-        <ab>--------.---------</ab>
-        <ab>Seinem Andenken</ab>
-        <ab>von</ab>
-        <ab>Paul Mendelssohn Bartholdy</ab>
-        <ab>gewidmet.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S960"
+               ulx="1429.946584"
+               uly="472.22745899999995"
+               lrx="1438.786483"
+               lry="489.213024"
+               points="1430.669743,472.22745899999995 1438.786483,472.58036100000004 1438.063323,489.213024 1429.946584,488.86012200000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_4 #m_IF #t_P">
+            <ab>Hier</ab>
+            <ab>ruhet</ab>
+            <ab>Der Landschaft [...] Architektor Maler</ab>
+            <ab>August Elsasser</ab>
+            <ab>geb. zu Berlin den 24 July 1810</ab>
+            <ab>gest. zu Rom den 1 Sept 1845</ab>
+            <ab>--------.---------</ab>
+            <ab>Seinem Andenken</ab>
+            <ab>von</ab>
+            <ab>Paul Mendelssohn Bartholdy</ab>
+            <ab>gewidmet.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

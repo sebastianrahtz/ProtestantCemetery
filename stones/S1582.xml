@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1582.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1582.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1582</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1582">
-          <msIdentifier>
-            <idno>S1582</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>124</height>
-                    <dim type="diameter">30</dim>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_30 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Sophie</forename>
-              <surname>Gabriac</surname>
-            </persName>
-            <death when="1870"/>
-            <nationality key="FR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1582</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1582">
+               <msIdentifier>
+                  <idno>S1582</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>124</height>
+                              <dim type="diameter">30</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_30 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Sophie</forename>
+                     <surname>Gabriac</surname>
+                  </persName>
+                  <death when="1870"/>
+                  <nationality key="FR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_R #c_2 #m_IF #t_P">
-        <ab>AMOUR MATERNEL</ab>
-        <ab>AMITIE</ab>
-        <ab>BEAUX ARTS</ab>
-        <ab>----.----</ab>
-        <ab>SOPHIE GABRIAC</ab>
-        <ab/>
-        <ab>NÉE ALLART</ab>
-        <ab>À PARIS</ab>
-        <ab>LE 28 FÉVRIER 1804</ab>
-        <ab>DÉCÉDÉE À ROME</ab>
-        <ab>LE 18 FÉVRIER 1870</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1582"
+               ulx="2425.12223"
+               uly="313.98967300000004"
+               lrx="2431.495181"
+               lry="320.362625"
+               points="2425.12223,314.402339 2431.082516,313.98967300000004 2431.495181,319.94995900000004 2425.534896,320.362625 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_R #c_2 #m_IF #t_P">
+            <ab>AMOUR MATERNEL</ab>
+            <ab>AMITIE</ab>
+            <ab>BEAUX ARTS</ab>
+            <ab>----.----</ab>
+            <ab>SOPHIE GABRIAC</ab>
+            <ab/>
+            <ab>NÉE ALLART</ab>
+            <ab>À PARIS</ab>
+            <ab>LE 28 FÉVRIER 1804</ab>
+            <ab>DÉCÉDÉE À ROME</ab>
+            <ab>LE 18 FÉVRIER 1870</ab>
+         </div>
+      </body>
   </text>
 </TEI>

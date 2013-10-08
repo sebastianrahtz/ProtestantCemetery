@@ -1,105 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2122.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2122.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2122</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2122">
-          <msIdentifier>
-            <idno>S2122</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>212</height>
-                    <depth>60</depth>
-                    <width>64</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_116 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_140 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Emily Kearny</forename>
-              <surname>de Nancrede</surname>
-            </persName>
-            <death when="1919"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Harry Walstane Guerard</forename>
-              <surname>de Nancrede</surname>
-            </persName>
-            <death when="1937"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2122</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2122">
+               <msIdentifier>
+                  <idno>S2122</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>212</height>
+                              <depth>60</depth>
+                              <width>64</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_116 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_140 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Emily Kearny</forename>
+                     <surname>de Nancrede</surname>
+                  </persName>
+                  <death when="1919"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Harry Walstane Guerard</forename>
+                     <surname>de Nancrede</surname>
+                  </persName>
+                  <death when="1937"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>JESV MERCY</ab>
-        <ab/>
-        <ab>EMILY KEARNY</ab>
-        <ab>WIFE OF</ab>
-        <ab>REV. HARRY DE NANCREDE</ab>
-        <ab>BORN IN NEW YORK</ab>
-        <ab>DIED IN ROME FEBRUARY 14, 1919</ab>
-        <ab/>
-        <ab>REV. HARRY WALSTANE</ab>
-        <ab>GUERARD DE NANCREDE</ab>
-        <ab>PRIEST ASSISTANT CHAPLAIN OF</ab>
-        <ab>ALL SAINTS CHURCH IN ROME</ab>
-        <ab>BORN PHILADELPHIA PA. U.S.A.</ab>
-        <ab>JULY 26TH, 1852</ab>
-        <ab>DIED ROME,NOV.,19TH, 1937.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2122"
+               ulx="2832.291247"
+               uly="337.315925"
+               lrx="2841.016037"
+               lry="342.70896000000005"
+               points="2832.291247,337.38893299999995 2840.971291,337.315925 2841.016037,342.635953 2832.335993,342.70896000000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>JESV MERCY</ab>
+            <ab/>
+            <ab>EMILY KEARNY</ab>
+            <ab>WIFE OF</ab>
+            <ab>REV. HARRY DE NANCREDE</ab>
+            <ab>BORN IN NEW YORK</ab>
+            <ab>DIED IN ROME FEBRUARY 14, 1919</ab>
+            <ab/>
+            <ab>REV. HARRY WALSTANE</ab>
+            <ab>GUERARD DE NANCREDE</ab>
+            <ab>PRIEST ASSISTANT CHAPLAIN OF</ab>
+            <ab>ALL SAINTS CHURCH IN ROME</ab>
+            <ab>BORN PHILADELPHIA PA. U.S.A.</ab>
+            <ab>JULY 26TH, 1852</ab>
+            <ab>DIED ROME,NOV.,19TH, 1937.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

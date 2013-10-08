@@ -1,91 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9013.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9013.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9013</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9013">
-          <msIdentifier>
-            <idno>S9013</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-              <note>north of 2556</note>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">257</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="TREE">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>36</height>
-                    <depth>46</depth>
-                    <width>28</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>A tree trunk made of clay (terracotta) coloured in brown and] a stone with the inscription as lid on top. might even be an urn)</summary>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>61</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Enrico</forename>
-              <surname>Schmerel</surname>
-            </persName>
-            <birth when="1897"/>
-            <death when="1959"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <age>67</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Anna</forename>
-              <surname>Schmerel</surname>
-            </persName>
-            <birth when="1895"/>
-            <death when="1962"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9013</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9013">
+               <msIdentifier>
+                  <idno>S9013</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                     <note>north of 2556</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">257</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="TREE">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>36</height>
+                              <depth>46</depth>
+                              <width>28</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>A tree trunk made of clay (terracotta) coloured in brown and] a stone with the inscription as lid on top. might even be an urn)</summary>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>61</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Enrico</forename>
+                     <surname>Schmerel</surname>
+                  </persName>
+                  <birth when="1897"/>
+                  <death when="1959"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <age>67</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anna</forename>
+                     <surname>Schmerel</surname>
+                  </persName>
+                  <birth when="1895"/>
+                  <death when="1962"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_T #c_2 #m_RM #t_P">
-        <ab>ENRICO SCHMEREL</ab>
-        <ab>*7.8.1897+5.8.1959</ab>
-      </div>
-      <div type="inscription" decls="#f_T #c_2 #m_RM #t_S">
-        <ab>ANNA SCHMEREL</ab>
-        <ab>NÉE LIPOWSKI</ab>
-        <ab>*10.11.1895</ab>
-        <ab>+25.12.1962</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9013"
+               ulx="3142.085524"
+               uly="503.021755"
+               lrx="3146.015758"
+               lry="506.998968"
+               points="3143.954469,506.998968 3144.996333,506.803938 3145.724036,505.97970499999997 3146.015758,505.00920099999996 3145.627864,503.69971599999997 3144.948247,503.191246 3143.906383,503.021755 3142.691408,503.38627499999996 3142.13361,504.28248299999996 3142.085524,505.76145799999995 3142.499064,506.367443 3143.104948,506.829478 ">
+            <graphic url="film:AE/7"/>
+            <graphic url="film:I/21"/>
+            <graphic url="film:I/22"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_T #c_2 #m_RM #t_P">
+            <ab>ENRICO SCHMEREL</ab>
+            <ab>*7.8.1897+5.8.1959</ab>
+         </div>
+         <div type="inscription" decls="#f_T #c_2 #m_RM #t_S">
+            <ab>ANNA SCHMEREL</ab>
+            <ab>NÉE LIPOWSKI</ab>
+            <ab>*10.11.1895</ab>
+            <ab>+25.12.1962</ab>
+         </div>
+      </body>
   </text>
 </TEI>

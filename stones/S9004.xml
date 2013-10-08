@@ -1,77 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9004.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9004.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9004</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9004">
-          <msIdentifier>
-            <idno>S9004</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-              <note>east of 198</note>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>50</height>
-                    <depth>25</depth>
-                    <width>49</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>26</age>
-            <sex>1</sex>
-            <persName>
-              <forename>James Geoffrey</forename>
-              <surname>Palmer</surname>
-            </persName>
-            <birth when="1958"/>
-            <death when="1984"/>
-            <nationality key="CA"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9004</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9004">
+               <msIdentifier>
+                  <idno>S9004</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                     <note>east of 198</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>50</height>
+                              <depth>25</depth>
+                              <width>49</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>26</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>James Geoffrey</forename>
+                     <surname>Palmer</surname>
+                  </persName>
+                  <birth when="1958"/>
+                  <death when="1984"/>
+                  <nationality key="CA"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_N #c_1 #m_IC #t_P">
-        <ab>GEOFFREY PALMER</ab>
-        <ab>JAMES</ab>
-        <ab>TORONTO - ONTARIO - CANADA</ab>
-        <ab>2.10.1958</ab>
-        <ab>ROMA 13.10.1984</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9004"
+               ulx="970.004561"
+               uly="339.26960499999996"
+               lrx="975.710518"
+               lry="341.821812"
+               points="975.710518,339.40511200000003 970.073624,339.26960499999996 970.004561,341.68630399999995 975.641455,341.821812 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_N #c_1 #m_IC #t_P">
+            <ab>GEOFFREY PALMER</ab>
+            <ab>JAMES</ab>
+            <ab>TORONTO - ONTARIO - CANADA</ab>
+            <ab>2.10.1958</ab>
+            <ab>ROMA 13.10.1984</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,93 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S308.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S308.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 308</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S308">
-          <msIdentifier>
-            <idno>S308</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1695</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>152</height>
-                    <depth>25</depth>
-                    <width>67</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>73</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Winchcombe Henry</forename>
-              <surname>Hartley</surname>
-            </persName>
-            <birth when="1774"/>
-            <death when="1847-02-21"/>
-            <nationality key="UK"/>
-            <occupation>judge "judge of the admiralty court at t</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 308</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S308">
+               <msIdentifier>
+                  <idno>S308</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1695</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>152</height>
+                              <depth>25</depth>
+                              <width>67</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>73</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Winchcombe Henry</forename>
+                     <surname>Hartley</surname>
+                  </persName>
+                  <birth when="1774"/>
+                  <death when="1847-02-21"/>
+                  <nationality key="UK"/>
+                  <occupation>judge "judge of the admiralty court at t</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>SACRED TO THE MEMARY OF</ab>
-        <ab>WINCHCOMBE HENRY</ab>
-        <ab>HARTLEY ESQ.RE OF</ab>
-        <ab>BELVEDERE NEAR BATH</ab>
-        <ab>SOMERSETSHIRE AND OF</ab>
-        <ab>ROSEWARNE CORNWALL</ab>
-        <ab>FORMERLY JUDGE OF THE</ab>
-        <ab>ADMIRALTY COURT AT THE</ab>
-        <ab>CAPE OF GOOD HOPE AND</ab>
-        <ab>PREVIOUSLY FELLOW OF</ab>
-        <ab>MERTON COLLEGE OXFORD</ab>
-        <ab>HE DEPARTED THIS LIFE</ab>
-        <ab>AT ROME THE XXI FEBRUARY</ab>
-        <ab>MDCCCXLVII AGED LXXIII</ab>
-        <ab>--------------</ab>
-        <ab>THIS TABLET WAS ERECTED</ab>
-        <ab>BY HIS SON COLONEL HENRY</ab>
-        <ab>WINCHOMBE HARTLEY</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S308"
+               ulx="1031.59976"
+               uly="459.95890099999997"
+               lrx="1041.361404"
+               lry="481.239955"
+               points="1041.361404,460.179391 1032.201232,459.95890099999997 1031.59976,481.019637 1040.759724,481.239955 ">
+            <graphic url="film:B/36"/>
+            <graphic url="film:T/6"/>
+            <graphic url="film:T/10"/>
+            <graphic url="pictures/1996_50.png"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>SACRED TO THE MEMARY OF</ab>
+            <ab>WINCHCOMBE HENRY</ab>
+            <ab>HARTLEY ESQ.RE OF</ab>
+            <ab>BELVEDERE NEAR BATH</ab>
+            <ab>SOMERSETSHIRE AND OF</ab>
+            <ab>ROSEWARNE CORNWALL</ab>
+            <ab>FORMERLY JUDGE OF THE</ab>
+            <ab>ADMIRALTY COURT AT THE</ab>
+            <ab>CAPE OF GOOD HOPE AND</ab>
+            <ab>PREVIOUSLY FELLOW OF</ab>
+            <ab>MERTON COLLEGE OXFORD</ab>
+            <ab>HE DEPARTED THIS LIFE</ab>
+            <ab>AT ROME THE XXI FEBRUARY</ab>
+            <ab>MDCCCXLVII AGED LXXIII</ab>
+            <ab>--------------</ab>
+            <ab>THIS TABLET WAS ERECTED</ab>
+            <ab>BY HIS SON COLONEL HENRY</ab>
+            <ab>WINCHOMBE HARTLEY</ab>
+         </div>
+      </body>
   </text>
 </TEI>

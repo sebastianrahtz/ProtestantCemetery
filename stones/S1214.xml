@@ -1,68 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1214.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1214.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1214</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1214">
-          <msIdentifier>
-            <idno>S1214</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>110</height>
-                    <depth>80</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Baby boy sleeping, he is sitting on the lower of two steps, which are the base of a cross. His head rests on his right arm on the higher step. This monument has been relocated several times and is now next to the Andersen tomb.</summary>
-              <p>Baby boy sleeping, he is sitting on the lower of two steps, which are the base of a cross. His head rests on his right arm on the higher step. This monument has been relocated several times and is now next to the Andersen tomb.</p>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename/>
-              <surname/>
-            </persName>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1214</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1214">
+               <msIdentifier>
+                  <idno>S1214</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>110</height>
+                              <depth>80</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Baby boy sleeping, he is sitting on the lower of two steps, which are the base of a cross. His head rests on his right arm on the higher step. This monument has been relocated several times and is now next to the Andersen tomb.</summary>
+                     <p>Baby boy sleeping, he is sitting on the lower of two steps, which are the base of a cross. His head rests on his right arm on the higher step. This monument has been relocated several times and is now next to the Andersen tomb.</p>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename/>
+                     <surname/>
+                  </persName>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_ #c_ #m_ #t_">
-        <ab rend="Alignl">
-          <note> no inscription - probably same as 9017</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1214"
+               ulx="1387.037103"
+               uly="587.1131340000001"
+               lrx="1394.929421"
+               lry="594.620818"
+               points="1387.037103,589.4714730000001 1389.140599,587.1131340000001 1392.893237,587.180167 1394.929421,589.721323 1394.929421,592.079662 1393.086758,594.431907 1388.947078,594.620818 1387.104415,592.3965450000001 ">
+            <graphic url="film:_H/26202"/>
+            <graphic url="film:D/2"/>
+            <graphic url="film:L/32"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_ #c_ #m_ #t_">
+            <ab rend="Alignl">
+               <note> no inscription - probably same as 9017</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

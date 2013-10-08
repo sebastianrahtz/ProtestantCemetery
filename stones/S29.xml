@@ -1,100 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S29.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S29.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 29</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S29">
-          <msIdentifier>
-            <idno>S29</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">151</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>276</height>
-                    <depth>61</depth>
-                    <width>84</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 35)</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_22 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>58</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Johan</forename>
-              <surname>Bell</surname>
-            </persName>
-            <birth when="1762"/>
-            <death when="1820-04-15"/>
-            <nationality key="UK"/>
-            <occupation>surgeon</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 29</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S29">
+               <msIdentifier>
+                  <idno>S29</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">151</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>276</height>
+                              <depth>61</depth>
+                              <width>84</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 35)</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_22 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>58</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Johan</forename>
+                     <surname>Bell</surname>
+                  </persName>
+                  <birth when="1762"/>
+                  <death when="1820-04-15"/>
+                  <nationality key="UK"/>
+                  <occupation>surgeon</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_IF #t_S">
-        <ab>JOHANNI BELL</ab>
-        <ab>CHIRURGO EDINENSI CELEBERRIMO OPTIME DE ARTE</ab>
-        <ab>SUA MERITO HOC MONUMENTUM POSUIT COLLEGIUM</ab>
-        <ab>REGIUM CHIRURGORUM EDINENSE, A.D. 1891</ab>
-        <ab>NATUS, 1762. OBIIT, 1820.</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_T #c_4 #m_I #t_P">
-        <ab>M S</ab>
-        <ab>IOANNIS BELL CHIRURGI,</ab>
-        <ab>EDINBURGENSIS;</ab>
-        <ab>HAUD MELIUS SCRIPTIS</ab>
-        <ab>QUAM EXIMIA ARTIS SUAE PERITIÂ</ab>
-        <ab>INSIGNIS</ab>
-        <ab>VIXIT ANNOS.LIII.</ab>
-        <ab>OB: ROMAE DIE XV: APRILIS</ab>
-        <ab>MDCCCXX.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S29"
+               ulx="168.526372"
+               uly="993.2053539999999"
+               lrx="187.33641400000002"
+               lry="1022.139445"
+               points="168.526372,996.680459 177.840051,993.2053539999999 187.336414,1018.664322 178.022545,1022.139445 ">
+            <graphic url="film:_H/26280"/>
+            <graphic url="film:_H/26281"/>
+            <graphic url="film:AP/4"/>
+            <graphic url="pictures/2007_0102.jpg"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_IF #t_S">
+            <ab>JOHANNI BELL</ab>
+            <ab>CHIRURGO EDINENSI CELEBERRIMO OPTIME DE ARTE</ab>
+            <ab>SUA MERITO HOC MONUMENTUM POSUIT COLLEGIUM</ab>
+            <ab>REGIUM CHIRURGORUM EDINENSE, A.D. 1891</ab>
+            <ab>NATUS, 1762. OBIIT, 1820.</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_T #c_4 #m_I #t_P">
+            <ab>M S</ab>
+            <ab>IOANNIS BELL CHIRURGI,</ab>
+            <ab>EDINBURGENSIS;</ab>
+            <ab>HAUD MELIUS SCRIPTIS</ab>
+            <ab>QUAM EXIMIA ARTIS SUAE PERITIÂ</ab>
+            <ab>INSIGNIS</ab>
+            <ab>VIXIT ANNOS.LIII.</ab>
+            <ab>OB: ROMAE DIE XV: APRILIS</ab>
+            <ab>MDCCCXX.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

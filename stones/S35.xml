@@ -1,84 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S35.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S35.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 35</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S35">
-          <msIdentifier>
-            <idno>S35</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">154</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>106</height>
-                    <width>72</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 44)</summary>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>32</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Jean-Louis</forename>
-              <surname>Snell</surname>
-            </persName>
-            <birth when="1788-01-20">
-              <placeName>
-                <settlement>Zoilingue, d'Argovie</settlement>
-                <country>Switzerland</country>
-              </placeName>
-            </birth>
-            <death when="1820-09-14"/>
-            <nationality key="CH"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 35</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S35">
+               <msIdentifier>
+                  <idno>S35</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">154</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>106</height>
+                              <width>72</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 44)</summary>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>32</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Jean-Louis</forename>
+                     <surname>Snell</surname>
+                  </persName>
+                  <birth when="1788-01-20">
+                     <placeName>
+                        <settlement>Zoilingue, d'Argovie</settlement>
+                        <country>Switzerland</country>
+                     </placeName>
+                  </birth>
+                  <death when="1820-09-14"/>
+                  <nationality key="CH"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_T #c_3 #m_IC #t_P">
-        <ab>CONSACRE PAR L'AMOUR FRATERNEL</ab>
-        <ab>A LA MEMOIRE</ab>
-        <ab>DE</ab>
-        <ab>JEAN LOUIS SNELL</ab>
-        <ab>NE LE 20 JANVIER DE L'AN 1788</ab>
-        <ab>A ZOILINGUE CANTON D'ARGOVIE EN SUISSE</ab>
-        <ab>INLEVE A SA FAMILLE INCONSOLABLE</ab>
-        <ab>LE 14 SEPTEMBER DE L'AN</ab>
-        <ab>1820</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S35"
+               ulx="210.45502"
+               uly="981.0961159999999"
+               lrx="226.456727"
+               lry="1002.075919"
+               points="220.496672,981.0961159999999 210.45502,984.503302 216.414884,1002.075919 226.456727,998.668715 ">
+            <graphic url="film:_H/26282"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_T #c_3 #m_IC #t_P">
+            <ab>CONSACRE PAR L'AMOUR FRATERNEL</ab>
+            <ab>A LA MEMOIRE</ab>
+            <ab>DE</ab>
+            <ab>JEAN LOUIS SNELL</ab>
+            <ab>NE LE 20 JANVIER DE L'AN 1788</ab>
+            <ab>A ZOILINGUE CANTON D'ARGOVIE EN SUISSE</ab>
+            <ab>INLEVE A SA FAMILLE INCONSOLABLE</ab>
+            <ab>LE 14 SEPTEMBER DE L'AN</ab>
+            <ab>1820</ab>
+         </div>
+      </body>
   </text>
 </TEI>

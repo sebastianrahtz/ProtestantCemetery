@@ -1,78 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2327.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2327.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2327</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2327">
-          <msIdentifier>
-            <idno>S2327</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>159</height>
-                    <depth>36</depth>
-                    <width>74</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Klavdija</forename>
-              <surname>Kapnist"</surname>
-            </persName>
-            <death when="1923"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2327</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2327">
+               <msIdentifier>
+                  <idno>S2327</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>159</height>
+                              <depth>36</depth>
+                              <width>74</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Klavdija</forename>
+                     <surname>Kapnist"</surname>
+                  </persName>
+                  <death when="1923"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_P #s_CY">
-        <ab>ГРАФИНЯ</ab>
-        <ab>КЛАВДИЯ ТХЕОДОРОВНА</ab>
-        <ab>кАПНИСТ"</ab>
-        <ab>РОЖД. БАРОНЕССА МЕЛЛЕР" ЗАКОМЕЛ'СКАЯ</ab>
-        <ab>РОД. 8-го ОКТЯБРЯ 1896 ГОДА	 СКОНЯ. 13-го ИЙУЛЯ 1923 ГОДА</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2327"
+               ulx="2804.961533"
+               uly="672.709609"
+               lrx="2813.563513"
+               lry="678.104713"
+               points="2805.039091,672.709609 2813.563513,672.835071 2813.485956,678.104713 2804.961533,677.979253 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_P #s_CY">
+            <ab>ГРАФИНЯ</ab>
+            <ab>КЛАВДИЯ ТХЕОДОРОВНА</ab>
+            <ab>кАПНИСТ"</ab>
+            <ab>РОЖД. БАРОНЕССА МЕЛЛЕР" ЗАКОМЕЛ'СКАЯ</ab>
+            <ab>РОД. 8-го ОКТЯБРЯ 1896 ГОДА	 СКОНЯ. 13-го ИЙУЛЯ 1923 ГОДА</ab>
+         </div>
+      </body>
   </text>
 </TEI>

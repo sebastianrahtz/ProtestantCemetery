@@ -1,96 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S170.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S170.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 170</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S170">
-          <msIdentifier>
-            <idno>S170</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1773</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>133</height>
-                    <depth>30</depth>
-                    <width>59</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>36</age>
-            <sex>1</sex>
-            <persName>
-              <forename>James</forename>
-              <surname>Atkins</surname>
-            </persName>
-            <birth>
-              <placeName>
-                <settlement>Belfast</settlement>
-                <country>Ireland</country>
-              </placeName>
-            </birth>
-            <death when="1833-11">
-              <placeName>
-                <country>Malta</country>
-              </placeName>
-            </death>
-            <nationality key="IE"/>
-            <occupation>Portrait painter</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 170</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S170">
+               <msIdentifier>
+                  <idno>S170</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1773</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>133</height>
+                              <depth>30</depth>
+                              <width>59</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>36</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>James</forename>
+                     <surname>Atkins</surname>
+                  </persName>
+                  <birth>
+                     <placeName>
+                        <settlement>Belfast</settlement>
+                        <country>Ireland</country>
+                     </placeName>
+                  </birth>
+                  <death when="1833-11">
+                     <placeName>
+                        <country>Malta</country>
+                     </placeName>
+                  </death>
+                  <nationality key="IE"/>
+                  <occupation>Portrait painter</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>TO THE MEMORY OF</ab>
-        <ab>JAMES ATKINS</ab>
-        <ab>BORN AT BELFAST IRELAND</ab>
-        <ab/>
-        <ab>WHO AFTER EXERCISING HIS PROFESSION</ab>
-        <ab>AS A PORTRAIT PAINTER SEVERAL YEARS</ab>
-        <ab>IN ROME, DIED AT MALTA NOVr 1833</ab>
-        <ab>------AGED 36-------</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_PC">
-        <ab>THIS MONUMEMT IS ERECTED AS A TRIBUTE OF</ab>
-        <ab>ESTEEM BY HIS FRIENDS AND BROTHER ARTISTS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S170"
+               ulx="1291.248911"
+               uly="323.50402599999995"
+               lrx="1298.041501"
+               lry="327.11768400000005"
+               points="1298.041501,323.66506300000003 1291.347582,323.50402599999995 1291.248911,326.956647 1297.942831,327.11768400000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>TO THE MEMORY OF</ab>
+            <ab>JAMES ATKINS</ab>
+            <ab>BORN AT BELFAST IRELAND</ab>
+            <ab/>
+            <ab>WHO AFTER EXERCISING HIS PROFESSION</ab>
+            <ab>AS A PORTRAIT PAINTER SEVERAL YEARS</ab>
+            <ab>IN ROME, DIED AT MALTA NOVr 1833</ab>
+            <ab>------AGED 36-------</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_PC">
+            <ab>THIS MONUMEMT IS ERECTED AS A TRIBUTE OF</ab>
+            <ab>ESTEEM BY HIS FRIENDS AND BROTHER ARTISTS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

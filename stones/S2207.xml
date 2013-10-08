@@ -1,84 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2207.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2207.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2207</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2207">
-          <msIdentifier>
-            <idno>S2207</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">325</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>100</height>
-                    <depth>25</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Henry</forename>
-              <surname>Stettinius</surname>
-            </persName>
-            <death when="1916"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John Langworth</forename>
-              <surname>Stettinius</surname>
-            </persName>
-            <death when="1924"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2207</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2207">
+               <msIdentifier>
+                  <idno>S2207</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">325</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>100</height>
+                              <depth>25</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henry</forename>
+                     <surname>Stettinius</surname>
+                  </persName>
+                  <death when="1916"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John Langworth</forename>
+                     <surname>Stettinius</surname>
+                  </persName>
+                  <death when="1924"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RS #t_P">
-        <ab>HENRY STETTINIUS</ab>
-        <ab>BORN CINCINNATI,U.S.A. MARCH VII 1859</ab>
-        <ab>DIED AHRWEILER,GERMANY.MAY XIV.1916</ab>
-        <ab>JOHN LONGWORTH STETTINIUS</ab>
-        <ab>SON OF HENRY AND MARY B STETTINIUS</ab>
-        <ab>BORN CINCINNATI O. U.S.A. AUG XXXI.1882.</ab>
-        <ab>DIED ROME APRIL XXIX.1924.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2207"
+               ulx="2810.112249"
+               uly="511.83536300000003"
+               lrx="2819.670975"
+               lry="517.458369"
+               points="2810.225396,511.83536300000003 2819.670975,512.032328 2819.557828,517.458369 2810.112249,517.261403 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_RS #t_P">
+            <ab>HENRY STETTINIUS</ab>
+            <ab>BORN CINCINNATI,U.S.A. MARCH VII 1859</ab>
+            <ab>DIED AHRWEILER,GERMANY.MAY XIV.1916</ab>
+            <ab>JOHN LONGWORTH STETTINIUS</ab>
+            <ab>SON OF HENRY AND MARY B STETTINIUS</ab>
+            <ab>BORN CINCINNATI O. U.S.A. AUG XXXI.1882.</ab>
+            <ab>DIED ROME APRIL XXIX.1924.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

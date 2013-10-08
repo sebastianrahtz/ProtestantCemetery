@@ -1,101 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S17.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S17.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 17</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S17">
-          <msIdentifier>
-            <idno>S17</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">128</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>83</height>
-                    <depth>38</depth>
-                    <width>48</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 19), (vol 1, plate 20)</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_35 #st_B #f_E"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_55 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>53</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Jacob</forename>
-              <surname>More</surname>
-            </persName>
-            <birth when="1740"/>
-            <death when="1793-10-01"/>
-            <nationality key="UK"/>
-            <occupation>painter</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 17</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S17">
+               <msIdentifier>
+                  <idno>S17</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">128</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>83</height>
+                              <depth>38</depth>
+                              <width>48</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 19), (vol 1, plate 20)</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_35 #st_B #f_E"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_55 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>53</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Jacob</forename>
+                     <surname>More</surname>
+                  </persName>
+                  <birth when="1740"/>
+                  <death when="1793-10-01"/>
+                  <nationality key="UK"/>
+                  <occupation>painter</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>SACRED TO THE</ab>
-        <ab>MEMORY OF</ab>
-        <ab>M<hi rend="sup">Ṛ</hi> JACOB MORE</ab>
-        <ab>LADSCAPE PAINTER</ab>
-        <ab>DIED OCTOB 1ST.1793</ab>
-        <ab>AGED 53</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_PC">
-        <ab>SACRVM SIT ROMAN</ab>
-        <ab>[...]</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_N #c_3 #m_I #t_P">
-        <ab>D.O.M.</ab>
-        <ab>MEMORIA SACRVM</ab>
-        <ab>JACOBI MORE</ab>
-        <ab>PICTORIS ANGLICANI</ab>
-        <ab>OBIIT 1.OCTR. MDCCXCIII</ab>
-        <ab>AETATIS AN. LIII</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_N #c_3 #m_I #t_M">
-        <ab>SCOTO RESTAVRATVM 1816</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S17"
+               ulx="283.642378"
+               uly="666.964658"
+               lrx="294.123264"
+               lry="677.448646"
+               points="290.920638,666.964658 283.642378,670.170138 286.845195,677.448646 294.123264,674.243184 ">
+            <graphic url="film:AB/17"/>
+            <graphic url="film:AB/18"/>
+            <graphic url="film:Y/7">
+               <desc>lettering</desc>
+            </graphic>
+            <graphic url="film:Y/8">
+               <desc>lettering</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>SACRED TO THE</ab>
+            <ab>MEMORY OF</ab>
+            <ab>M<hi rend="sup">Ṛ</hi> JACOB MORE</ab>
+            <ab>LADSCAPE PAINTER</ab>
+            <ab>DIED OCTOB 1ST.1793</ab>
+            <ab>AGED 53</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_PC">
+            <ab>SACRVM SIT ROMAN</ab>
+            <ab>[...]</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_N #c_3 #m_I #t_P">
+            <ab>D.O.M.</ab>
+            <ab>MEMORIA SACRVM</ab>
+            <ab>JACOBI MORE</ab>
+            <ab>PICTORIS ANGLICANI</ab>
+            <ab>OBIIT 1.OCTR. MDCCXCIII</ab>
+            <ab>AETATIS AN. LIII</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_N #c_3 #m_I #t_M">
+            <ab>SCOTO RESTAVRATVM 1816</ab>
+         </div>
+      </body>
   </text>
 </TEI>

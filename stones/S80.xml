@@ -1,110 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S80.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S80.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 80</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S80">
-          <msIdentifier>
-            <idno>S80</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">165</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>132</height>
-                    <width>62</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 98), (vol 1, plate 99)</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_45 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_45 #st_B #f_E"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_117 #st_B #f_E"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_117 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>31</age>
-            <sex>1</sex>
-            <persName>
-              <forename>William</forename>
-              <surname>Harding</surname>
-            </persName>
-            <birth when="1790">
-              <placeName>
-                <settlement>Scarborough</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1821-10-22">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 80</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S80">
+               <msIdentifier>
+                  <idno>S80</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">165</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>132</height>
+                              <width>62</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 98), (vol 1, plate 99)</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_45 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_45 #st_B #f_E"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_117 #st_B #f_E"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_117 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>31</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>William</forename>
+                     <surname>Harding</surname>
+                  </persName>
+                  <birth when="1790">
+                     <placeName>
+                        <settlement>Scarborough</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1821-10-22">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>HERE LIES THE BODY</ab>
-        <ab>OF WILLIAM HARDING OF SCARBRO</ab>
-        <ab>GENTLEMAN WHO DIED IN THIS</ab>
-        <ab>CITY ON THE 22 DAY</ab>
-        <ab>OF OCTOBER 1821 AGED 31</ab>
-        <ab>YEARS WHEN MAKING A TOUR</ab>
-        <ab>THROUGH ITALY TO SEE ITS</ab>
-        <ab>CURIOSITIES OF NATURE AND</ab>
-        <ab>ART ANCIENT AVD MODERN</ab>
-        <ab/>
-        <ab>THE NIPPING FROSTS AND BLIGHTING</ab>
-        <ab> THE TENDER FLOWERS DESTROY</ab>
-        <ab>SO PALE EYED SICKNESS ONCE DECAYS</ab>
-        <ab> AND BLASTS OUR PROMISED IOY</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S80"
+               ulx="638.463654"
+               uly="504.000999"
+               lrx="650.773231"
+               lry="520.385101"
+               points="645.972224,504.000999 638.463654,506.621029 643.264395,520.385101 650.773231,517.767924 ">
+            <graphic url="pictures/2007_0088.jpg"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>HERE LIES THE BODY</ab>
+            <ab>OF WILLIAM HARDING OF SCARBRO</ab>
+            <ab>GENTLEMAN WHO DIED IN THIS</ab>
+            <ab>CITY ON THE 22 DAY</ab>
+            <ab>OF OCTOBER 1821 AGED 31</ab>
+            <ab>YEARS WHEN MAKING A TOUR</ab>
+            <ab>THROUGH ITALY TO SEE ITS</ab>
+            <ab>CURIOSITIES OF NATURE AND</ab>
+            <ab>ART ANCIENT AVD MODERN</ab>
+            <ab/>
+            <ab>THE NIPPING FROSTS AND BLIGHTING</ab>
+            <ab> THE TENDER FLOWERS DESTROY</ab>
+            <ab>SO PALE EYED SICKNESS ONCE DECAYS</ab>
+            <ab> AND BLASTS OUR PROMISED IOY</ab>
+         </div>
+      </body>
   </text>
 </TEI>

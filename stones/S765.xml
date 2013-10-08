@@ -1,83 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S765.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S765.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 765</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S765">
-          <msIdentifier>
-            <idno>S765</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2191</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>185</height>
-                    <depth>18</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Thomas</forename>
-              <surname>Dessoulavy</surname>
-            </persName>
-            <death when="1869"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 765</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S765">
+               <msIdentifier>
+                  <idno>S765</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2191</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>185</height>
+                              <depth>18</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Thomas</forename>
+                     <surname>Dessoulavy</surname>
+                  </persName>
+                  <death when="1869"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>BENEATH</ab>
-        <ab>THESE FLOWERS ARE THE REMAINS OF</ab>
-        <ab>THOMAS DESSOULAVY</ab>
-        <ab>AN ENGLISH LANDSCAPE PAINTER</ab>
-        <ab>WHO DURING 53 YEARS</ab>
-        <ab>PAINTED THE CLASSIC SCENES OF ROME</ab>
-        <ab>WITH TRUTH AND BEAUTY</ab>
-        <ab>AND NEVER CEASED TO BE AN ENGLISHMAN</ab>
-        <ab>HE WAS 68 YEARS OF AGE</ab>
-        <ab>AND DIED ON THE 28TH OCTOBER</ab>
-        <ab>1869</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S765"
+               ulx="2092.592672"
+               uly="344.040671"
+               lrx="2101.691425"
+               lry="348.433172"
+               points="2092.592672,344.040671 2101.691425,344.040671 2101.691425,348.433172 2092.592672,348.433172 ">
+            <graphic url="film:L/25"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>BENEATH</ab>
+            <ab>THESE FLOWERS ARE THE REMAINS OF</ab>
+            <ab>THOMAS DESSOULAVY</ab>
+            <ab>AN ENGLISH LANDSCAPE PAINTER</ab>
+            <ab>WHO DURING 53 YEARS</ab>
+            <ab>PAINTED THE CLASSIC SCENES OF ROME</ab>
+            <ab>WITH TRUTH AND BEAUTY</ab>
+            <ab>AND NEVER CEASED TO BE AN ENGLISHMAN</ab>
+            <ab>HE WAS 68 YEARS OF AGE</ab>
+            <ab>AND DIED ON THE 28TH OCTOBER</ab>
+            <ab>1869</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,111 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2570.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2570.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2570</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2570">
-          <msIdentifier>
-            <idno>S2570</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>170</height>
-                    <depth>15</depth>
-                    <width>48</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Alexandra</forename>
-              <surname>Astachoff</surname>
-            </persName>
-            <death when="1926"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Pietro</forename>
-              <surname>Astachoff</surname>
-            </persName>
-            <death when="1933"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Ivan</forename>
-              <surname>Astachoff</surname>
-            </persName>
-            <death when="1935"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2570</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2570">
+               <msIdentifier>
+                  <idno>S2570</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>170</height>
+                              <depth>15</depth>
+                              <width>48</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Alexandra</forename>
+                     <surname>Astachoff</surname>
+                  </persName>
+                  <death when="1926"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Pietro</forename>
+                     <surname>Astachoff</surname>
+                  </persName>
+                  <death when="1933"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Ivan</forename>
+                     <surname>Astachoff</surname>
+                  </persName>
+                  <death when="1935"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_IC #t_P #s_CY">
-        <ab>ALEXANDRA ASTACHOFF</ab>
-        <ab>NEE SOUVOROFF</ab>
-        <ab>MAJOR PIETRO ASTACHOFF</ab>
-        <ab>GENERAL IVAN ASTACHOFF</ab>
-        <ab/>
-        <ab>АЛЕКСАНДРА ПЕТРОВНА АСТАЦХОВА</ab>
-        <ab>* 26.Ь.1863 - + 24.В/6.ВИ 1926</ab>
-        <ab/>
-        <ab>ПЕТР" ИВАНОВИЯ" АСТАЦХОВ"</ab>
-        <ab>* 12.ИВ.1895 - 27.ЬИИ.1932/9.И.1933</ab>
-        <ab/>
-        <ab>ИВАН" ПЕТРОВИЯ" АСТАЦХОВ"</ab>
-        <ab>* 13.ВИ.1863 - 23.ЬИ/26.ЬИ.1935</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en">sic for date</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2570"
+               ulx="2968.526621"
+               uly="522.690655"
+               lrx="2977.304652"
+               lry="527.973435"
+               points="2968.625936,522.690655 2977.304652,522.859191 2977.205336,527.973435 2968.526621,527.804897 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_IC #t_P #s_CY">
+            <ab>ALEXANDRA ASTACHOFF</ab>
+            <ab>NEE SOUVOROFF</ab>
+            <ab>MAJOR PIETRO ASTACHOFF</ab>
+            <ab>GENERAL IVAN ASTACHOFF</ab>
+            <ab/>
+            <ab>АЛЕКСАНДРА ПЕТРОВНА АСТАЦХОВА</ab>
+            <ab>* 26.Ь.1863 - + 24.В/6.ВИ 1926</ab>
+            <ab/>
+            <ab>ПЕТР" ИВАНОВИЯ" АСТАЦХОВ"</ab>
+            <ab>* 12.ИВ.1895 - 27.ЬИИ.1932/9.И.1933</ab>
+            <ab/>
+            <ab>ИВАН" ПЕТРОВИЯ" АСТАЦХОВ"</ab>
+            <ab>* 13.ВИ.1863 - 23.ЬИ/26.ЬИ.1935</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en">sic for date</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

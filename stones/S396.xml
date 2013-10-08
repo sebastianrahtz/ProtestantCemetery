@@ -1,96 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S396.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S396.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 396</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S396">
-          <msIdentifier>
-            <idno>S396</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1628</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>180</height>
-                    <depth>165</depth>
-                    <width>74</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_S"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>76</age>
-            <sex>1</sex>
-            <persName>
-              <forename>A.W.</forename>
-              <surname>Pauli</surname>
-            </persName>
-            <birth when="1781-05-01">
-              <placeName>
-                <settlement>Luebeck</settlement>
-                <country>Germany</country>
-              </placeName>
-            </birth>
-            <death when="1858-04-20">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 396</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S396">
+               <msIdentifier>
+                  <idno>S396</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1628</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>180</height>
+                              <depth>165</depth>
+                              <width>74</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>76</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>A.W.</forename>
+                     <surname>Pauli</surname>
+                  </persName>
+                  <birth when="1781-05-01">
+                     <placeName>
+                        <settlement>Luebeck</settlement>
+                        <country>Germany</country>
+                     </placeName>
+                  </birth>
+                  <death when="1858-04-20">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_4 #m_IF #t_P">
-        <ab>HIE RUHET IN FRIEDEN</ab>
-        <ab>DER EDLE BRAVE MANN</ab>
-        <ab>A.W. PAULI</ab>
-        <ab>EIN [....] MINSTER RESIDENT</ab>
-        <ab>DER HANSESTAEDTE BEIM</ab>
-        <ab>KOENIGLICHEN DAENISCHEN HOF</ab>
-        <ab/>
-        <ab>GEB IN LUEBECK DEN XXXIX MAI</ab>
-        <ab>MDCCLXXXI</ab>
-        <ab>GEST IN ROM DEN XX APRIL</ab>
-        <ab>MDCCCLVIII</ab>
-        <ab>----------</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S396"
+               ulx="939.883797"
+               uly="537.2151690000001"
+               lrx="951.367643"
+               lry="557.157539"
+               points="951.367643,537.477961 940.445849,537.2151690000001 939.883797,556.894746 950.80559,557.157539 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_4 #m_IF #t_P">
+            <ab>HIE RUHET IN FRIEDEN</ab>
+            <ab>DER EDLE BRAVE MANN</ab>
+            <ab>A.W. PAULI</ab>
+            <ab>EIN [....] MINSTER RESIDENT</ab>
+            <ab>DER HANSESTAEDTE BEIM</ab>
+            <ab>KOENIGLICHEN DAENISCHEN HOF</ab>
+            <ab/>
+            <ab>GEB IN LUEBECK DEN XXXIX MAI</ab>
+            <ab>MDCCLXXXI</ab>
+            <ab>GEST IN ROM DEN XX APRIL</ab>
+            <ab>MDCCCLVIII</ab>
+            <ab>----------</ab>
+         </div>
+      </body>
   </text>
 </TEI>

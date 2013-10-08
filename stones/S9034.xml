@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9034.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9034.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9034</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9034">
-          <msIdentifier>
-            <idno>S9034</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-              <note>east of 2520</note>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1275</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>118</height>
-                    <depth>12</depth>
-                    <width>57</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>65</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Gertrude Anne</forename>
-              <surname>Fryer</surname>
-            </persName>
-            <death when="1930"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9034</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9034">
+               <msIdentifier>
+                  <idno>S9034</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                     <note>east of 2520</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1275</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>118</height>
+                              <depth>12</depth>
+                              <width>57</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>65</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Gertrude Anne</forename>
+                     <surname>Fryer</surname>
+                  </persName>
+                  <death when="1930"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>IN LOVING REMEMBRANCE</ab>
-        <ab>OF</ab>
-        <ab>GERTRUDE ANNE FRYER</ab>
-        <ab>OF CLIFTON,BRISTOL</ab>
-        <ab>DAUGHTER OF THE LATE</ab>
-        <ab>ALFRED FRYER</ab>
-        <ab>OF WILSLOW,CHESHIRE</ab>
-        <ab>WHO DIED AT BARI,APRIL 28TH 1930</ab>
-        <ab>AGED 65 YEARS</ab>
-        <ab rend="Alignr">"AND THEN THE DARK WILL</ab>
-        <ab rend="Alignr">ALL BE LIGHT"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9034"
+               ulx="3028.495621"
+               uly="399.026691"
+               lrx="3038.467363"
+               lry="402.402292"
+               points="3028.495621,399.450514 3038.242747,399.026691 3038.467363,401.954923 3028.652261,402.402292 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>IN LOVING REMEMBRANCE</ab>
+            <ab>OF</ab>
+            <ab>GERTRUDE ANNE FRYER</ab>
+            <ab>OF CLIFTON,BRISTOL</ab>
+            <ab>DAUGHTER OF THE LATE</ab>
+            <ab>ALFRED FRYER</ab>
+            <ab>OF WILSLOW,CHESHIRE</ab>
+            <ab>WHO DIED AT BARI,APRIL 28TH 1930</ab>
+            <ab>AGED 65 YEARS</ab>
+            <ab rend="Alignr">"AND THEN THE DARK WILL</ab>
+            <ab rend="Alignr">ALL BE LIGHT"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

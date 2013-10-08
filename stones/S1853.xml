@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1853.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1853.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1853</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1853">
-          <msIdentifier>
-            <idno>S1853</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>112</height>
-                    <depth>25</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Anne Emily</forename>
-              <surname>Gairdner</surname>
-            </persName>
-            <death when="1884"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John Smith</forename>
-              <surname>Gairdner</surname>
-            </persName>
-            <death when="1889"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1853</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1853">
+               <msIdentifier>
+                  <idno>S1853</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>112</height>
+                              <depth>25</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anne Emily</forename>
+                     <surname>Gairdner</surname>
+                  </persName>
+                  <death when="1884"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John Smith</forename>
+                     <surname>Gairdner</surname>
+                  </persName>
+                  <death when="1889"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>ANNE EMILY</ab>
-        <ab>(NÉE EDMONDE)</ab>
-        <ab>WIFE OF</ab>
-        <ab>JOHN SMITH GAIRDNER</ab>
-        <ab>OF EDINBURGH,AND DUBLIN</ab>
-        <ab>SHE DIED AT ROME JANUARY 3.1884</ab>
-        <ab>IN THE 30TH YEAR OF MARRIED LIFE</ab>
-        <ab>AND OF</ab>
-        <ab>JOHN SMITH GAIRDNER</ab>
-        <ab>HER HUSBAND</ab>
-        <ab>WHO DIED IN ENGLAND.27-AUG-1889</ab>
-        <ab>AND IS BURIED IN EDINBURGH</ab>
-        <ab>HIS BIRTH PLACE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1853"
+               ulx="2319.86186"
+               uly="572.945245"
+               lrx="2329.046052"
+               lry="575.994189"
+               points="2319.86186,573.617388 2328.868681,572.945245 2329.046052,575.322045 2320.039231,575.994189 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>ANNE EMILY</ab>
+            <ab>(NÉE EDMONDE)</ab>
+            <ab>WIFE OF</ab>
+            <ab>JOHN SMITH GAIRDNER</ab>
+            <ab>OF EDINBURGH,AND DUBLIN</ab>
+            <ab>SHE DIED AT ROME JANUARY 3.1884</ab>
+            <ab>IN THE 30TH YEAR OF MARRIED LIFE</ab>
+            <ab>AND OF</ab>
+            <ab>JOHN SMITH GAIRDNER</ab>
+            <ab>HER HUSBAND</ab>
+            <ab>WHO DIED IN ENGLAND.27-AUG-1889</ab>
+            <ab>AND IS BURIED IN EDINBURGH</ab>
+            <ab>HIS BIRTH PLACE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

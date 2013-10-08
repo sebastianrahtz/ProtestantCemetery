@@ -1,74 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S384.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S384.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 384</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S384">
-          <msIdentifier>
-            <idno>S384</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>68</height>
-                    <depth>10</depth>
-                    <width>142</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>64</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Natalija Christoforoun</forename>
-              <surname>Flerova</surname>
-            </persName>
-            <birth when="1883-10-04"/>
-            <death when="1948-01-02"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 384</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S384">
+               <msIdentifier>
+                  <idno>S384</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>68</height>
+                              <depth>10</depth>
+                              <width>142</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>64</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Natalija Christoforoun</forename>
+                     <surname>Flerova</surname>
+                  </persName>
+                  <birth when="1883-10-04"/>
+                  <death when="1948-01-02"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IC #t_P #s_CY">
-        <ab>НАТАЛИЯ ЦХРИСТОФОРОВНА</ab>
-        <ab>ФЛЕРОВА</ab>
-        <ab>РОДИЛАС' 4-Ь-1883, СКОНЯАЛАС' 2-И-1948</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S384"
+               ulx="1186.107779"
+               uly="547.446273"
+               lrx="1193.986811"
+               lry="552.121001"
+               points="1193.986811,547.632667 1186.236075,547.446273 1186.107779,551.934624 1193.858706,552.121001 ">
+            <graphic url="film:X/8"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IC #t_P #s_CY">
+            <ab>НАТАЛИЯ ЦХРИСТОФОРОВНА</ab>
+            <ab>ФЛЕРОВА</ab>
+            <ab>РОДИЛАС' 4-Ь-1883, СКОНЯАЛАС' 2-И-1948</ab>
+         </div>
+      </body>
   </text>
 </TEI>

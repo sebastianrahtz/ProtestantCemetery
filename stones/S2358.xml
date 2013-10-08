@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2358.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2358.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2358</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2358">
-          <msIdentifier>
-            <idno>S2358</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>123</height>
-                    <width>46</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Olga</forename>
-              <surname>Sadykoff</surname>
-            </persName>
-            <death when="1927"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2358</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2358">
+               <msIdentifier>
+                  <idno>S2358</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>123</height>
+                              <width>46</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Olga</forename>
+                     <surname>Sadykoff</surname>
+                  </persName>
+                  <death when="1927"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_P #s_CY">
-        <ab>ОЛ'ГА АЛЕКСАНДРОВНА</ab>
-        <ab>САДЫКОВА</ab>
-        <ab>РОЖ АТРЫГАН'ЕВА</ab>
-        <ab>РОД. 1855 -- СК. 15 МАРТА 1927</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_I #t_P">
-        <ab>SADYKOFF OLGA</ab>
-        <ab>N. ATRIGANIEFF 1 FEB. 1855</ab>
-        <ab>M. ROMA 15 MAR. 1927</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2358"
+               ulx="3055.189592"
+               uly="123.75408599999992"
+               lrx="3061.024469"
+               lry="126.84191400000009"
+               points="3055.189592,123.87241700000004 3060.963613,123.75408599999992 3061.024469,126.72358299999996 3055.250448,126.84191400000009 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_P #s_CY">
+            <ab>ОЛ'ГА АЛЕКСАНДРОВНА</ab>
+            <ab>САДЫКОВА</ab>
+            <ab>РОЖ АТРЫГАН'ЕВА</ab>
+            <ab>РОД. 1855 -- СК. 15 МАРТА 1927</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_I #t_P">
+            <ab>SADYKOFF OLGA</ab>
+            <ab>N. ATRIGANIEFF 1 FEB. 1855</ab>
+            <ab>M. ROMA 15 MAR. 1927</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2268.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2268.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2268</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2268">
-          <msIdentifier>
-            <idno>S2268</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>117</height>
-                    <depth>10</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Gustav</forename>
-              <surname>von Schilling</surname>
-            </persName>
-            <death when="1912"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2268</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2268">
+               <msIdentifier>
+                  <idno>S2268</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>117</height>
+                              <depth>10</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Gustav</forename>
+                     <surname>von Schilling</surname>
+                  </persName>
+                  <death when="1912"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_I #t_P">
-        <ab>HIER RUHT IN GOTT</ab>
-        <ab>BARON GUSTAV VON SCHILLING</ab>
-        <ab>GEB DEN 7TEN NOVEMBER</ab>
-        <ab>  ------------- 1859</ab>
-        <ab>  20TEN NOVEMBER</ab>
-        <ab>IN ST PETERSBURG</ab>
-        <ab>GEST DEN 29 MARZ</ab>
-        <ab>   ------- 1912</ab>
-        <ab>   11 APRIL</ab>
-        <ab>IN ROM.</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_PC">
-        <ab>PHIL.1.21.</ab>
-        <ab>CHRISTUS IST MEIN LEBEN, UND</ab>
-        <ab>STERBEN IST MEIN GEWINN</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2268"
+               ulx="2596.636584"
+               uly="580.583764"
+               lrx="2606.70433"
+               lry="586.725695"
+               points="2596.78717,580.583764 2606.70433,580.837382 2606.553743,586.725695 2596.636584,586.472077 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_I #t_P">
+            <ab>HIER RUHT IN GOTT</ab>
+            <ab>BARON GUSTAV VON SCHILLING</ab>
+            <ab>GEB DEN 7TEN NOVEMBER</ab>
+            <ab>  ------------- 1859</ab>
+            <ab>  20TEN NOVEMBER</ab>
+            <ab>IN ST PETERSBURG</ab>
+            <ab>GEST DEN 29 MARZ</ab>
+            <ab>   ------- 1912</ab>
+            <ab>   11 APRIL</ab>
+            <ab>IN ROM.</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_PC">
+            <ab>PHIL.1.21.</ab>
+            <ab>CHRISTUS IST MEIN LEBEN, UND</ab>
+            <ab>STERBEN IST MEIN GEWINN</ab>
+         </div>
+      </body>
   </text>
 </TEI>

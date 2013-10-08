@@ -1,93 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1624.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1624.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1624</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1624">
-          <msIdentifier>
-            <idno>S1624</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2468</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>210</height>
-                    <depth>35</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>On the cross there is circular and floral decoration, and at the centre of the cross there is a cherub face with wings. This is present on both the N and S faces.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_43 #st_B #f_N"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>*</num>
-                <ptr target="#i_45 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_82 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Frances Georgina</forename>
-              <surname>Mahon</surname>
-            </persName>
-            <death when="1871"/>
-            <nationality key="IE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1624</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1624">
+               <msIdentifier>
+                  <idno>S1624</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2468</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>210</height>
+                              <depth>35</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>On the cross there is circular and floral decoration, and at the centre of the cross there is a cherub face with wings. This is present on both the N and S faces.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_43 #st_B #f_N"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>*</num>
+                        <ptr target="#i_45 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_82 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Frances Georgina</forename>
+                     <surname>Mahon</surname>
+                  </persName>
+                  <death when="1871"/>
+                  <nationality key="IE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>FRANCES GEORGINA MAHON</ab>
-        <ab>DAUGHTER OF CHARLES MAHON ESQ</ab>
-        <ab>OF CORBALLY CO CLARE IRELAND</ab>
-        <ab>WHO DIED AT ROME MARCH 31ST 1871</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_IF #t_P">
-        <ab>"THEREFORE BEING JUSTIFIED BY</ab>
-        <ab>FAITH, WE HAVE PEACE WITH GOD</ab>
-        <ab>THROUGH OUR LORD JESUS CHRIST</ab>
-        <ab rend="Alignr">ROMANS V.1</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1624"
+               ulx="2498.324317"
+               uly="332.735725"
+               lrx="2510.317284"
+               lry="353.42170999999996"
+               points="2498.324317,333.640406 2508.570748,332.735725 2510.317284,352.517029 2500.070853,353.42170999999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>FRANCES GEORGINA MAHON</ab>
+            <ab>DAUGHTER OF CHARLES MAHON ESQ</ab>
+            <ab>OF CORBALLY CO CLARE IRELAND</ab>
+            <ab>WHO DIED AT ROME MARCH 31ST 1871</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_IF #t_P">
+            <ab>"THEREFORE BEING JUSTIFIED BY</ab>
+            <ab>FAITH, WE HAVE PEACE WITH GOD</ab>
+            <ab>THROUGH OUR LORD JESUS CHRIST</ab>
+            <ab rend="Alignr">ROMANS V.1</ab>
+         </div>
+      </body>
   </text>
 </TEI>

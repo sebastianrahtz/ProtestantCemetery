@@ -1,83 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1781.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1781.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1781</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1781">
-          <msIdentifier>
-            <idno>S1781</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2349</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>103</height>
-                    <depth>56</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>On the S face is an oval plaque containing a wreath and a bouquet created by the inlay of a different colour stones.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_45 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Beatrice Elena</forename>
-              <surname>Hayllar</surname>
-            </persName>
-            <death when="1882"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1781</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1781">
+               <msIdentifier>
+                  <idno>S1781</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2349</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>103</height>
+                              <depth>56</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>On the S face is an oval plaque containing a wreath and a bouquet created by the inlay of a different colour stones.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_45 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Beatrice Elena</forename>
+                     <surname>Hayllar</surname>
+                  </persName>
+                  <death when="1882"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>BEATRICE ELENA HAYLAR</ab>
-        <ab>BORN JANY 26 1864</ab>
-        <ab>DIED FEBY 9 1889.</ab>
-        <ab rend="Alignl">Requiem aeternam dona eis</ab>
-        <ab rend="Alignl">Domine.</ab>
-        <ab rend="Alignl">Et lux perpetua luce at eis</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1781"
+               ulx="2210.886356"
+               uly="531.0346040000001"
+               lrx="2220.176943"
+               lry="539.048148"
+               points="2210.886356,531.666207 2219.644592,531.0346040000001 2220.176943,538.416545 2211.418707,539.048148 ">
+            <graphic url="film:AM/10"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>BEATRICE ELENA HAYLAR</ab>
+            <ab>BORN JANY 26 1864</ab>
+            <ab>DIED FEBY 9 1889.</ab>
+            <ab rend="Alignl">Requiem aeternam dona eis</ab>
+            <ab rend="Alignl">Domine.</ab>
+            <ab rend="Alignl">Et lux perpetua luce at eis</ab>
+         </div>
+      </body>
   </text>
 </TEI>

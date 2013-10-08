@@ -1,78 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S692.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S692.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 692</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S692">
-          <msIdentifier>
-            <idno>S692</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>105</height>
-                    <depth>18</depth>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_C #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Hans Otto Theodor</forename>
-              <surname>von Bulow</surname>
-            </persName>
-            <death when="1901"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 692</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S692">
+               <msIdentifier>
+                  <idno>S692</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>105</height>
+                              <depth>18</depth>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_C #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Hans Otto Theodor</forename>
+                     <surname>von Bulow</surname>
+                  </persName>
+                  <death when="1901"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>HIER RUHET IN GOTT</ab>
-        <ab>HANS OTTO THEODOR VON BÜLOW</ab>
-        <ab>* FRANKFURT A/M 28/XII 1827</ab>
-        <ab>+ ROM 27/XI 1901</ab>
-        <ab>DIE LIEBE HÖRET NIMMER AUF</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S692"
+               ulx="1571.075968"
+               uly="336.25145599999996"
+               lrx="1578.119829"
+               lry="344.576019"
+               points="1570.915881,332.08917499999995 1580.039802,332.22954300000004 1579.988088,335.59098800000004 1570.864166,335.45061999999996 1571.075968,339.13303599999995 1571.075968,341.534352 1573.477284,341.534352 1573.477284,344.576019 1575.558425,344.576019 1575.558425,341.534352 1578.119829,341.534352 1578.119829,339.29312300000004 1575.558425,339.29312300000004 1575.558425,336.25145599999996 1573.637372,336.25145599999996 1573.637372,339.13303599999995 1571.075968,339.13303599999995 ">
+            <graphic url="film:_H/26237"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>HIER RUHET IN GOTT</ab>
+            <ab>HANS OTTO THEODOR VON BÜLOW</ab>
+            <ab>* FRANKFURT A/M 28/XII 1827</ab>
+            <ab>+ ROM 27/XI 1901</ab>
+            <ab>DIE LIEBE HÖRET NIMMER AUF</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,84 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S829.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S829.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 829</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S829">
-          <msIdentifier>
-            <idno>S829</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2110</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>141</height>
-                    <depth>28</depth>
-                    <width>82</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_29 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_121 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Johann Simon</forename>
-              <surname>Freitag</surname>
-            </persName>
-            <death when="1842"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 829</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S829">
+               <msIdentifier>
+                  <idno>S829</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2110</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>141</height>
+                              <depth>28</depth>
+                              <width>82</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_29 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_121 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Johann Simon</forename>
+                     <surname>Freitag</surname>
+                  </persName>
+                  <death when="1842"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
-        <ab>HIER RUHET</ab>
-        <ab>IOHANN SIMON OTTOBALD FREITAG</ab>
-        <ab>GEBOREN IN BERLIN DEN XXX SEPTEMBER</ab>
-        <ab>MDCCCVIII</ab>
-        <ab>GESTORBEN DEN VII MAERZ MDCCCXLII</ab>
-        <ab>ER GING VORAN SEINEN TIEF BETRUEBTEN</ab>
-        <ab>AELTERN SEINER GATTIN UND ZWEI</ab>
-        <ab>UNMUENDIGEN KINDERN</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S829"
+               ulx="1376.916494"
+               uly="411.79766600000005"
+               lrx="1386.181057"
+               lry="431.154819"
+               points="1377.556234,411.810689 1386.181057,412.049438 1386.011762,418.16522199999997 1385.070872,418.139177 1384.710578,431.154819 1377.340274,430.95079699999997 1377.700569,417.935154 1376.916494,417.91345 1377.085789,411.79766600000005 1377.556234,411.810689 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
+            <ab>HIER RUHET</ab>
+            <ab>IOHANN SIMON OTTOBALD FREITAG</ab>
+            <ab>GEBOREN IN BERLIN DEN XXX SEPTEMBER</ab>
+            <ab>MDCCCVIII</ab>
+            <ab>GESTORBEN DEN VII MAERZ MDCCCXLII</ab>
+            <ab>ER GING VORAN SEINEN TIEF BETRUEBTEN</ab>
+            <ab>AELTERN SEINER GATTIN UND ZWEI</ab>
+            <ab>UNMUENDIGEN KINDERN</ab>
+         </div>
+      </body>
   </text>
 </TEI>

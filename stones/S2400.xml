@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2400.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2400.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2400</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2400">
-          <msIdentifier>
-            <idno>S2400</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>114</height>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Muriel Talbot</forename>
-              <surname>Wilson</surname>
-            </persName>
-            <death when="1928"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2400</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2400">
+               <msIdentifier>
+                  <idno>S2400</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>114</height>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Muriel Talbot</forename>
+                     <surname>Wilson</surname>
+                  </persName>
+                  <death when="1928"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_PC">
-        <ab>UNTIL THE DAY BREAK AND</ab>
-        <ab>THE SHADOWS FLEE AWAY</ab>
-      </div>
-      <div type="inscription" decls="#f_S #c_2 #m_I #t_P">
-        <ab>MURIEL TALBOT WILSON</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_I #t_PC">
-        <ab>IN EVERLASTING AND LOVING MEMORY OF</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_I #t_P">
-        <ab>WHO FELL ASLEEP ON THE 24TH NOVEMBER 1928</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2400"
+               ulx="3027.561499"
+               uly="214.49440600000003"
+               lrx="3036.303852"
+               lry="230.840376"
+               points="3027.764171,214.49440600000003 3036.303852,214.60098400000004 3036.10118,230.840376 3027.561499,230.73379899999998 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_PC">
+            <ab>UNTIL THE DAY BREAK AND</ab>
+            <ab>THE SHADOWS FLEE AWAY</ab>
+         </div>
+         <div type="inscription" decls="#f_S #c_2 #m_I #t_P">
+            <ab>MURIEL TALBOT WILSON</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_I #t_PC">
+            <ab>IN EVERLASTING AND LOVING MEMORY OF</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_I #t_P">
+            <ab>WHO FELL ASLEEP ON THE 24TH NOVEMBER 1928</ab>
+         </div>
+      </body>
   </text>
 </TEI>

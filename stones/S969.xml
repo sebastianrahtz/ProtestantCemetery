@@ -1,89 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S969.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S969.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 969</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S969">
-          <msIdentifier>
-            <idno>S969</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="KERB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>55</height>
-                    <depth>10</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_87 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John Butler</forename>
-              <surname>de Malveault</surname>
-            </persName>
-            <death when="1878"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Elizabeth Butler</forename>
-              <surname>de Malveault</surname>
-            </persName>
-            <death when="1909"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 969</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S969">
+               <msIdentifier>
+                  <idno>S969</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="KERB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>55</height>
+                              <depth>10</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_87 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John Butler</forename>
+                     <surname>de Malveault</surname>
+                  </persName>
+                  <death when="1878"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elizabeth Butler</forename>
+                     <surname>de Malveault</surname>
+                  </persName>
+                  <death when="1909"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>JOHN BUTLER DE MALVEAULT</ab>
-        <ab>DECÉDÉ LE 14 JUN 1878.</ab>
-      </div>
-      <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_IF #t_S">
-        <ab>ELIZABETH BUTLER DE MALVEAULT</ab>
-        <ab>NÉE MATTHIAS</ab>
-        <ab>DÉCÉDÉ LE 5 FÉVRIER 1909.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S969"
+               ulx="1532.034186"
+               uly="473.825703"
+               lrx="1540.814321"
+               lry="481.819433"
+               points="1532.158245,473.825703 1540.814321,473.96237800000006 1540.690263,481.819433 1532.034186,481.68275800000004 ">
+            <graphic url="film:AN/6"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>JOHN BUTLER DE MALVEAULT</ab>
+            <ab>DECÉDÉ LE 14 JUN 1878.</ab>
+         </div>
+         <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_IF #t_S">
+            <ab>ELIZABETH BUTLER DE MALVEAULT</ab>
+            <ab>NÉE MATTHIAS</ab>
+            <ab>DÉCÉDÉ LE 5 FÉVRIER 1909.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

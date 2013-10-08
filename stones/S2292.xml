@@ -1,96 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2292.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2292.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2292</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2292">
-          <msIdentifier>
-            <idno>S2292</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>170</height>
-                    <depth>25</depth>
-                    <width>72</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Anatole</forename>
-              <surname>Kroupensky</surname>
-            </persName>
-            <death when="1923"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Leopoldine Nadine</forename>
-              <surname>Kroupensky</surname>
-            </persName>
-            <death when="1923"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2292</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2292">
+               <msIdentifier>
+                  <idno>S2292</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>170</height>
+                              <depth>25</depth>
+                              <width>72</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Anatole</forename>
+                     <surname>Kroupensky</surname>
+                  </persName>
+                  <death when="1923"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Leopoldine Nadine</forename>
+                     <surname>Kroupensky</surname>
+                  </persName>
+                  <death when="1923"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_T #c_3 #m_I #t_P">
-        <ab>ICI REPOSENT</ab>
-        <ab>LEOPOLDINE NADINE</ab>
-        <ab>KROUPENSKY</ab>
-        <ab>EPOUSE DE L`ANCIEN AMBASSADEUR</ab>
-        <ab>DE RUSSIE EN ITALIE</ab>
-        <ab>DÉCÉDÉE A ROME</ab>
-        <ab>LE 1 MARS 1923</ab>
-        <ab>EN SA 78ME ANNEE</ab>
-        <ab>ET</ab>
-        <ab>ANATOLE KROUPENSKY</ab>
-        <ab>ANCIEN AMBASSADEUR DE RUSSIE</ab>
-        <ab>EN ITALIE</ab>
-        <ab>DÉCÉDE A ROME</ab>
-        <ab>LE 5 DECEMBRE 1923</ab>
-        <ab>EN SA 74ME ANNEE</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_PC #s_CY">
-        <ab>МИР" ПРАЦХУ ТВОЕМУ!</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2292"
+               ulx="2823.242682"
+               uly="649.021149"
+               lrx="2830.136618"
+               lry="662.687671"
+               points="2823.629027,649.021149 2830.136618,649.20766 2829.750272,662.687671 2823.242682,662.50116 ">
+            <graphic url="film:_H/26439"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_T #c_3 #m_I #t_P">
+            <ab>ICI REPOSENT</ab>
+            <ab>LEOPOLDINE NADINE</ab>
+            <ab>KROUPENSKY</ab>
+            <ab>EPOUSE DE L`ANCIEN AMBASSADEUR</ab>
+            <ab>DE RUSSIE EN ITALIE</ab>
+            <ab>DÉCÉDÉE A ROME</ab>
+            <ab>LE 1 MARS 1923</ab>
+            <ab>EN SA 78ME ANNEE</ab>
+            <ab>ET</ab>
+            <ab>ANATOLE KROUPENSKY</ab>
+            <ab>ANCIEN AMBASSADEUR DE RUSSIE</ab>
+            <ab>EN ITALIE</ab>
+            <ab>DÉCÉDE A ROME</ab>
+            <ab>LE 5 DECEMBRE 1923</ab>
+            <ab>EN SA 74ME ANNEE</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_PC #s_CY">
+            <ab>МИР" ПРАЦХУ ТВОЕМУ!</ab>
+         </div>
+      </body>
   </text>
 </TEI>

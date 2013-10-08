@@ -1,102 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2424.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2424.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2424</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2424">
-          <msIdentifier>
-            <idno>S2424</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>100</height>
-                    <depth>4</depth>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Natalia Martianoff</forename>
-              <surname>Smirnoff</surname>
-            </persName>
-            <death when="1938"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Fortunato</forename>
-              <surname>de Grossi</surname>
-            </persName>
-            <death when="1947"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Natalia</forename>
-              <surname>de Grossi</surname>
-            </persName>
-            <death when="1976"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2424</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2424">
+               <msIdentifier>
+                  <idno>S2424</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>100</height>
+                              <depth>4</depth>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Natalia Martianoff</forename>
+                     <surname>Smirnoff</surname>
+                  </persName>
+                  <death when="1938"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Fortunato</forename>
+                     <surname>de Grossi</surname>
+                  </persName>
+                  <death when="1947"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Natalia</forename>
+                     <surname>de Grossi</surname>
+                  </persName>
+                  <death when="1976"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>NATALIA SMIRNOFF</ab>
-        <ab>NATA MARTINOFF</ab>
-        <ab>* 1.IX.1855 + 18.II.1938</ab>
-        <ab/>
-        <ab>AMMIRAGLIO</ab>
-        <ab>FORTUNATO DE GROSSI</ab>
-        <ab>* 11.I.1869 + 25.II.1947</ab>
-        <ab/>
-        <ab>NATALIA DE GROSSI</ab>
-        <ab>NATA SMIRNOFF</ab>
-        <ab>* 22.XII.1892 + 12.I.1976</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2424"
+               ulx="3117.666553"
+               uly="243.321871"
+               lrx="3123.305945"
+               lry="253.359553"
+               points="3117.846619,243.321871 3123.305945,243.42078100000003 3123.125879,253.359553 3117.666553,253.26064199999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>NATALIA SMIRNOFF</ab>
+            <ab>NATA MARTINOFF</ab>
+            <ab>* 1.IX.1855 + 18.II.1938</ab>
+            <ab/>
+            <ab>AMMIRAGLIO</ab>
+            <ab>FORTUNATO DE GROSSI</ab>
+            <ab>* 11.I.1869 + 25.II.1947</ab>
+            <ab/>
+            <ab>NATALIA DE GROSSI</ab>
+            <ab>NATA SMIRNOFF</ab>
+            <ab>* 22.XII.1892 + 12.I.1976</ab>
+         </div>
+      </body>
   </text>
 </TEI>

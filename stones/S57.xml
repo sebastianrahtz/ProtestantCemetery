@@ -1,89 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S57.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S57.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 57</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S57">
-          <msIdentifier>
-            <idno>S57</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">132</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>79</height>
-                    <depth>54</depth>
-                    <width>71</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 70)</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_35 #st_B #f_E"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_55 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="faces">north side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>31</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Edward</forename>
-              <surname>Stevens</surname>
-            </persName>
-            <birth when="1744"/>
-            <death when="1775-06-27"/>
-            <nationality key="UK"/>
-            <occupation>Architect</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 57</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S57">
+               <msIdentifier>
+                  <idno>S57</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">132</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>79</height>
+                              <depth>54</depth>
+                              <width>71</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 70)</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_35 #st_B #f_E"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_55 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="faces">north side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>31</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Edward</forename>
+                     <surname>Stevens</surname>
+                  </persName>
+                  <birth when="1744"/>
+                  <death when="1775-06-27"/>
+                  <nationality key="UK"/>
+                  <occupation>Architect</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_N #c_2 #m_I #t_P">
-        <ab>TO PERPETUATE THE MEMORY</ab>
-        <ab>OF Mr. EDWARD STEVENS</ab>
-        <ab>ARCHITECT</ab>
-        <ab>A WORTHY MAN</ab>
-        <ab>AND AN INGENIOUS ARTIST</ab>
-        <ab>THIS MONUMENT IS ERECTED</ab>
-        <ab>HE DIED JUNE 27.th 1775</ab>
-        <ab>AGED 31 YEARS</ab>
-        <ab>AND LIES HERE INTERRD</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S57"
+               ulx="321.784169"
+               uly="758.726024"
+               lrx="336.635675"
+               lry="773.5804410000001"
+               points="330.242505,758.726024 321.784169,765.121857 328.177339,773.5804410000001 336.635675,767.184608 ">
+            <graphic url="film:_H/26311"/>
+            <graphic url="pictures/2007_0094.jpg"/>
+            <graphic url="pictures/2007_0095.jpg"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_N #c_2 #m_I #t_P">
+            <ab>TO PERPETUATE THE MEMORY</ab>
+            <ab>OF Mr. EDWARD STEVENS</ab>
+            <ab>ARCHITECT</ab>
+            <ab>A WORTHY MAN</ab>
+            <ab>AND AN INGENIOUS ARTIST</ab>
+            <ab>THIS MONUMENT IS ERECTED</ab>
+            <ab>HE DIED JUNE 27.th 1775</ab>
+            <ab>AGED 31 YEARS</ab>
+            <ab>AND LIES HERE INTERRD</ab>
+         </div>
+      </body>
   </text>
 </TEI>

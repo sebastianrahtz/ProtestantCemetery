@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1256.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1256.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1256</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1256">
-          <msIdentifier>
-            <idno>S1256</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>120</height>
-                    <depth>180</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_16 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_87 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maddalena</forename>
-              <surname>Buffa</surname>
-            </persName>
-            <death when="1888"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1256</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1256">
+               <msIdentifier>
+                  <idno>S1256</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>120</height>
+                              <depth>180</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_16 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_87 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maddalena</forename>
+                     <surname>Buffa</surname>
+                  </persName>
+                  <death when="1888"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>ALLA</ab>
-        <ab>CARA MEMORIA</ab>
-        <ab>DI</ab>
-        <ab>MADDALENA BUFFA</ab>
-        <ab>NATA SAMBUC</ab>
-        <ab>21 APRILE 1862</ab>
-        <ab>22 NOVEMBRE 1888</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_4 #m_IF #t_PC">
-        <ab>NON LA MIA VOLONTA</ab>
-        <ab>MA LA TUA SIA FATTA</ab>
-        <ab>LUCA XXII 42</ab>
-        <ab>O CHE VIVIAMO</ab>
-        <ab>O CHE MORIAMO</ab>
-        <ab>SIAMO DEL SIGNORE</ab>
-        <ab>ROM XIV 8</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1256"
+               ulx="1932.351708"
+               uly="593.71444"
+               lrx="1940.6665"
+               lry="605.166888"
+               points="1932.508591,596.695214 1934.391185,593.71444 1938.313257,593.71444 1940.6665,596.538331 1940.6665,601.244817 1938.940788,605.166888 1934.704951,605.166888 1932.351708,601.558583 1932.508591,596.695214 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>ALLA</ab>
+            <ab>CARA MEMORIA</ab>
+            <ab>DI</ab>
+            <ab>MADDALENA BUFFA</ab>
+            <ab>NATA SAMBUC</ab>
+            <ab>21 APRILE 1862</ab>
+            <ab>22 NOVEMBRE 1888</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_4 #m_IF #t_PC">
+            <ab>NON LA MIA VOLONTA</ab>
+            <ab>MA LA TUA SIA FATTA</ab>
+            <ab>LUCA XXII 42</ab>
+            <ab>O CHE VIVIAMO</ab>
+            <ab>O CHE MORIAMO</ab>
+            <ab>SIAMO DEL SIGNORE</ab>
+            <ab>ROM XIV 8</ab>
+         </div>
+      </body>
   </text>
 </TEI>

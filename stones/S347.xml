@@ -1,84 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S347.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S347.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 347</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S347">
-          <msIdentifier>
-            <idno>S347</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>155</height>
-                    <depth>54</depth>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Sergino</forename>
-              <surname>Beloserski</surname>
-            </persName>
-            <death when="1895"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 347</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S347">
+               <msIdentifier>
+                  <idno>S347</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>155</height>
+                              <depth>54</depth>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Sergino</forename>
+                     <surname>Beloserski</surname>
+                  </persName>
+                  <death when="1895"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_5 #m_I #t_P">
-        <ab rend="Alignl">Lasciate in poco i piccolo</ab>
-        <ab rend="Alignl">fanciulle e non gli vietate</ab>
-        <ab rend="Alignl">di veire a ne perchè di tali</ab>
-        <ab rend="Alignl">è il regno dei ceili</ab>
-        <ab rend="Alignl">S. Matteo XIX.14</ab>
-        <ab rend="Alignl">  [.] CANCELLI E NON GLI [...]</ab>
-        <ab rend="Alignl">  DIVENIRE A ME PERCHE DI [..]</ab>
-        <ab rend="Alignl">  E' IL REGNO DEI CIELI</ab>
-        <ab rend="Alignl">  MARTEO XIXIII</ab>
-        <ab>SERGINO BELOSERSKI</ab>
-        <ab>A.1895</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S347"
+               ulx="974.522484"
+               uly="486.215102"
+               lrx="982.793347"
+               lry="492.27919299999996"
+               points="982.793347,486.40987299999995 974.690217,486.215102 974.522484,492.084422 982.625613,492.27919299999996 ">
+            <graphic url="film:T/25"/>
+            <graphic url="pictures/1996_54.png"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_5 #m_I #t_P">
+            <ab rend="Alignl">Lasciate in poco i piccolo</ab>
+            <ab rend="Alignl">fanciulle e non gli vietate</ab>
+            <ab rend="Alignl">di veire a ne perchè di tali</ab>
+            <ab rend="Alignl">è il regno dei ceili</ab>
+            <ab rend="Alignl">S. Matteo XIX.14</ab>
+            <ab rend="Alignl">  [.] CANCELLI E NON GLI [...]</ab>
+            <ab rend="Alignl">  DIVENIRE A ME PERCHE DI [..]</ab>
+            <ab rend="Alignl">  E' IL REGNO DEI CIELI</ab>
+            <ab rend="Alignl">  MARTEO XIXIII</ab>
+            <ab>SERGINO BELOSERSKI</ab>
+            <ab>A.1895</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S386.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S386.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 386</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S386">
-          <msIdentifier>
-            <idno>S386</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">907</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>110</height>
-                    <depth>25</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>40</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Franz</forename>
-              <surname>Spiegel</surname>
-            </persName>
-            <birth when="1918-11-12">
-              <placeName>
-                <settlement>Koln</settlement>
-                <country>Germany</country>
-              </placeName>
-            </birth>
-            <death when="1959-11-07">
-              <placeName>
-                <settlement>lund</settlement>
-                <country>Sweden</country>
-              </placeName>
-            </death>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 386</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S386">
+               <msIdentifier>
+                  <idno>S386</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">907</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>110</height>
+                              <depth>25</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>40</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Franz</forename>
+                     <surname>Spiegel</surname>
+                  </persName>
+                  <birth when="1918-11-12">
+                     <placeName>
+                        <settlement>Koln</settlement>
+                        <country>Germany</country>
+                     </placeName>
+                  </birth>
+                  <death when="1959-11-07">
+                     <placeName>
+                        <settlement>lund</settlement>
+                        <country>Sweden</country>
+                     </placeName>
+                  </death>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_T #c_3 #m_I #t_P">
-        <ab>FRANZ SPIEGEL</ab>
-        <ab>KÖLN 12.11.1918</ab>
-        <ab>LUND 7.11.1959</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_RS #t_PC">
-        <ab>AMO IL BELLO</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S386"
+               ulx="1144.566992"
+               uly="552.15131"
+               lrx="1151.194527"
+               lry="562.316368"
+               points="1151.194527,552.303952 1144.852811,552.15131 1144.566992,562.163898 1150.9085,562.316368 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_T #c_3 #m_I #t_P">
+            <ab>FRANZ SPIEGEL</ab>
+            <ab>KÖLN 12.11.1918</ab>
+            <ab>LUND 7.11.1959</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_RS #t_PC">
+            <ab>AMO IL BELLO</ab>
+         </div>
+      </body>
   </text>
 </TEI>

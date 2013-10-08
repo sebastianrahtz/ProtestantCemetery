@@ -1,115 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1681.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1681.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1681</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1681">
-          <msIdentifier>
-            <idno>S1681</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2436</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>195</height>
-                    <depth>95</depth>
-                    <width>92</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John Drummond</forename>
-              <surname>Stewart</surname>
-            </persName>
-            <death when="1874"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1681</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1681">
+               <msIdentifier>
+                  <idno>S1681</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2436</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>195</height>
+                              <depth>95</depth>
+                              <width>92</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John Drummond</forename>
+                     <surname>Stewart</surname>
+                  </persName>
+                  <death when="1874"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab rend="Alignl">
-          <note> east side</note>
-        </ab>
-        <ab>
-          <hi rend="gothic">Mayor-General John Drummin Stewart</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">of the Bombay Army,</hi>
-        </ab>
-        <ab>"THY SERVANT,MY HUSBAND,</ab>
-        <ab>IS DEAD"</ab>
-        <ab rend="Alignl">
-          <note> north side</note>
-        </ab>
-        <ab>
-          <hi rend="gothic">Born at Newton,</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">Invernesshire,Scotland,</hi>
-        </ab>
-        <ab>"I WENT OUT FULL, AND THE</ab>
-        <ab>LORD HATH BROUGHT ME</ab>
-        <ab>HOMA AGAIN EMPTY."</ab>
-        <ab rend="Alignl">
-          <note> west side</note>
-        </ab>
-        <ab>
-          <hi rend="gothic">Died at Rome on the 13th of April 1874</hi>
-        </ab>
-        <ab>
-          <hi rend="gothic">aged 52 years.</hi>
-        </ab>
-        <ab>"THE LORD GAVE,AND THE LORD</ab>
-        <ab>HATH TAKEN AWAY,BLESSED BE</ab>
-        <ab>THE NAME OF THE LORD"</ab>
-        <ab rend="Alignl">
-          <note> south side</note>
-        </ab>
-        <ab>
-          <hi rend="gothic">Has gone to rest,</hi>
-        </ab>
-        <ab>"UNTIL THE DAY,BREAKS AND</ab>
-        <ab>THE SHADOWS FLEE AWAY"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1681"
+               ulx="2465.245654"
+               uly="392.42163600000003"
+               lrx="2477.181983"
+               lry="412.180159"
+               points="2465.245654,393.41207299999996 2475.340609,392.42163600000003 2477.181983,411.18972399999996 2467.087027,412.180159 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab rend="Alignl">
+               <note> east side</note>
+            </ab>
+            <ab>
+               <hi rend="gothic">Mayor-General John Drummin Stewart</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">of the Bombay Army,</hi>
+            </ab>
+            <ab>"THY SERVANT,MY HUSBAND,</ab>
+            <ab>IS DEAD"</ab>
+            <ab rend="Alignl">
+               <note> north side</note>
+            </ab>
+            <ab>
+               <hi rend="gothic">Born at Newton,</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">Invernesshire,Scotland,</hi>
+            </ab>
+            <ab>"I WENT OUT FULL, AND THE</ab>
+            <ab>LORD HATH BROUGHT ME</ab>
+            <ab>HOMA AGAIN EMPTY."</ab>
+            <ab rend="Alignl">
+               <note> west side</note>
+            </ab>
+            <ab>
+               <hi rend="gothic">Died at Rome on the 13th of April 1874</hi>
+            </ab>
+            <ab>
+               <hi rend="gothic">aged 52 years.</hi>
+            </ab>
+            <ab>"THE LORD GAVE,AND THE LORD</ab>
+            <ab>HATH TAKEN AWAY,BLESSED BE</ab>
+            <ab>THE NAME OF THE LORD"</ab>
+            <ab rend="Alignl">
+               <note> south side</note>
+            </ab>
+            <ab>
+               <hi rend="gothic">Has gone to rest,</hi>
+            </ab>
+            <ab>"UNTIL THE DAY,BREAKS AND</ab>
+            <ab>THE SHADOWS FLEE AWAY"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

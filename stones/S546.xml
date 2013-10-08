@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S546.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S546.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 546</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S546">
-          <msIdentifier>
-            <idno>S546</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>42</height>
-                    <depth>15</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_123 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Alma</forename>
-              <surname>von Lorch</surname>
-            </persName>
-            <death when="1925"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Hans Hilchen</forename>
-              <surname>von Lorch</surname>
-            </persName>
-            <death when="1926"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 546</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S546">
+               <msIdentifier>
+                  <idno>S546</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>42</height>
+                              <depth>15</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_123 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Alma</forename>
+                     <surname>von Lorch</surname>
+                  </persName>
+                  <death when="1925"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Hans Hilchen</forename>
+                     <surname>von Lorch</surname>
+                  </persName>
+                  <death when="1926"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>ALMA VON LORCH</ab>
-        <ab>GEB. VON CRANACH</ab>
-        <ab>WESEL 15.II.1857 - ROMA 4.IX.1925</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IC #t_S">
-        <ab>HANS HILCHEN VON LORCH</ab>
-        <ab>K.P.RITTMEISTER AD.</ab>
-        <ab>BONN 7.III.1844 - ROM 24.IV.1926</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S546"
+               ulx="1858.374599"
+               uly="256.50946999999996"
+               lrx="1868.361114"
+               lry="260.51934200000005"
+               points="1858.374599,256.722478 1868.279461,256.50946999999996 1868.361114,260.306334 1858.456252,260.51934200000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>ALMA VON LORCH</ab>
+            <ab>GEB. VON CRANACH</ab>
+            <ab>WESEL 15.II.1857 - ROMA 4.IX.1925</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IC #t_S">
+            <ab>HANS HILCHEN VON LORCH</ab>
+            <ab>K.P.RITTMEISTER AD.</ab>
+            <ab>BONN 7.III.1844 - ROM 24.IV.1926</ab>
+         </div>
+      </body>
   </text>
 </TEI>

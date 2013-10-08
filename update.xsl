@@ -16,17 +16,16 @@
     <xsl:copy/>
   </xsl:template>
 
-  <xsl:template match="msIdentifier">
-    <xsl:copy>
-      <xsl:apply-templates
+<xsl:template match="text">
+                <xsl:variable name="id" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
+<facsimile>
+  <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+    <xsl:copy-of select="doc('cem.xml')//zone[@xml:id=concat('Plot_',$id)]"/>
+  </surface>
+</facsimile>
+<xsl:copy>
+  <xsl:apply-templates
         select="*|@*|processing-instruction()|comment()|text()"/>
-      <xsl:variable name="id" select="idno"/>
-      <xsl:for-each select="doc('matches.xml')//m[cem=$id]">
-	<altIdentifier>
-	  <idno type="tomb"><xsl:value-of select="plot"/></idno>
-	</altIdentifier>
-      </xsl:for-each>
     </xsl:copy>
-  </xsl:template>
-
+</xsl:template>
 </xsl:stylesheet>

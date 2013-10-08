@@ -1,78 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2071.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2071.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2071</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2071">
-          <msIdentifier>
-            <idno>S2071</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>24</height>
-                    <depth>4</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maria Luisa</forename>
-              <surname>Montesano</surname>
-            </persName>
-            <death when="1968"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2071</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2071">
+               <msIdentifier>
+                  <idno>S2071</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>24</height>
+                              <depth>4</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maria Luisa</forename>
+                     <surname>Montesano</surname>
+                  </persName>
+                  <death when="1968"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IC #t_P">
-        <ab>MARIA LVISA</ab>
-        <ab>MONTESANO</ab>
-        <ab>GEB. WOLLENBERG</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
-        <ab>ROC. M.V. QVIVI XII</ab>
-        <ab>ANNISL XIIII DXXXI.</ab>
-        <ab>DSP. VIIII KAL. OCTOB.</ab>
-        <ab>SEXTILI AIVSTA.CF</ab>
-        <ab>CONIVGI. BENEMERE N</ab>
-        <ab>H IN PACE</ab>
-        <ab/>
-        <ab>MDCCLXVIII MCMVIII</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2071"
+               ulx="2676.376069"
+               uly="268.07723"
+               lrx="2692.625539"
+               lry="277.47287400000005"
+               points="2676.384888,268.07723 2692.625539,268.092498 2692.61672,277.47287400000005 2676.376069,277.45760500000006 ">
+            <graphic url="film:W/4"/>
+            <graphic url="film:Y/5"/>
+            <graphic url="film:Z/16">
+               <desc>from s</desc>
+            </graphic>
+            <graphic url="film:Z/17">
+               <desc>from sw</desc>
+            </graphic>
+            <graphic url="film:Z/18">
+               <desc>from se</desc>
+            </graphic>
+            <graphic url="film:Z/19">
+               <desc>from e</desc>
+            </graphic>
+            <graphic url="film:Z/20">
+               <desc>from n</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IC #t_P">
+            <ab>MARIA LVISA</ab>
+            <ab>MONTESANO</ab>
+            <ab>GEB. WOLLENBERG</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
+            <ab>ROC. M.V. QVIVI XII</ab>
+            <ab>ANNISL XIIII DXXXI.</ab>
+            <ab>DSP. VIIII KAL. OCTOB.</ab>
+            <ab>SEXTILI AIVSTA.CF</ab>
+            <ab>CONIVGI. BENEMERE N</ab>
+            <ab>H IN PACE</ab>
+            <ab/>
+            <ab>MDCCLXVIII MCMVIII</ab>
+         </div>
+      </body>
   </text>
 </TEI>

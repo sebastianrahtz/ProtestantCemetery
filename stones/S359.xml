@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S359.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S359.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 359</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S359">
-          <msIdentifier>
-            <idno>S359</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>125</height>
-                    <depth>23</depth>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>37</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Johann</forename>
-              <surname>Fritz</surname>
-            </persName>
-            <birth when="1811">
-              <placeName>
-                <settlement>Riga</settlement>
-                <country>Russia</country>
-              </placeName>
-            </birth>
-            <death when="1848-05-26">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 359</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S359">
+               <msIdentifier>
+                  <idno>S359</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>125</height>
+                              <depth>23</depth>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>37</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Johann</forename>
+                     <surname>Fritz</surname>
+                  </persName>
+                  <birth when="1811">
+                     <placeName>
+                        <settlement>Riga</settlement>
+                        <country>Russia</country>
+                     </placeName>
+                  </birth>
+                  <death when="1848-05-26">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_4 #m_I #t_P">
-        <ab>JOHAN LUDWIG FRITZ</ab>
-        <ab>GEBOREN IN RIGA IN RUSSLAND</ab>
-        <ab>GESTORBEN IN ROM</ab>
-        <ab>AM 26 MAI 1848</ab>
-        <ab>IM 37 LEBENSALTER</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S359"
+               ulx="1003.386814"
+               uly="515.583171"
+               lrx="1011.569008"
+               lry="518.54007"
+               points="1011.569008,515.777942 1003.465878,515.583171 1003.386814,518.345126 1011.490151,518.54007 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_4 #m_I #t_P">
+            <ab>JOHAN LUDWIG FRITZ</ab>
+            <ab>GEBOREN IN RIGA IN RUSSLAND</ab>
+            <ab>GESTORBEN IN ROM</ab>
+            <ab>AM 26 MAI 1848</ab>
+            <ab>IM 37 LEBENSALTER</ab>
+         </div>
+      </body>
   </text>
 </TEI>

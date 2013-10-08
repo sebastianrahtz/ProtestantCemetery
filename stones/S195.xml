@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S195.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S195.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 195</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S195">
-          <msIdentifier>
-            <idno>S195</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1267</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>100</height>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>73</age>
-            <sex>1</sex>
-            <persName>
-              <forename>William Ford</forename>
-              <surname>Upson</surname>
-            </persName>
-            <birth when="1857-03-10">
-              <placeName>
-                <settlement>Akron Ohio</settlement>
-                <country>USA</country>
-              </placeName>
-            </birth>
-            <death when="1930-01-28">
-              <placeName>
-                <settlement>merano</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 195</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S195">
+               <msIdentifier>
+                  <idno>S195</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1267</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>100</height>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>73</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>William Ford</forename>
+                     <surname>Upson</surname>
+                  </persName>
+                  <birth when="1857-03-10">
+                     <placeName>
+                        <settlement>Akron Ohio</settlement>
+                        <country>USA</country>
+                     </placeName>
+                  </birth>
+                  <death when="1930-01-28">
+                     <placeName>
+                        <settlement>merano</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>IN LOVING MEMORY</ab>
-        <ab>OF</ab>
-        <ab>WILLIAM FORD UPSON</ab>
-        <ab>BORN AKRON OHIO</ab>
-        <ab>UNITED STATES OF AMERICA</ab>
-        <ab>DIED MERANO ITALY</ab>
-        <ab>MARCH 10.1857 JANUARY 28 1930</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S195"
+               ulx="924.374563"
+               uly="318.824969"
+               lrx="932.576191"
+               lry="322.47255099999995"
+               points="932.576191,319.01993000000004 924.473043,318.824969 924.374563,322.27757199999996 932.47752,322.47255099999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>IN LOVING MEMORY</ab>
+            <ab>OF</ab>
+            <ab>WILLIAM FORD UPSON</ab>
+            <ab>BORN AKRON OHIO</ab>
+            <ab>UNITED STATES OF AMERICA</ab>
+            <ab>DIED MERANO ITALY</ab>
+            <ab>MARCH 10.1857 JANUARY 28 1930</ab>
+         </div>
+      </body>
   </text>
 </TEI>

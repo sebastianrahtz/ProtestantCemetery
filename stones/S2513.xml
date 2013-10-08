@@ -1,102 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2513.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2513.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2513</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2513">
-          <msIdentifier>
-            <idno>S2513</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">547</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>162</height>
-                    <depth>5</depth>
-                    <width>87</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>*</num>
-                <ptr target="#i_45 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>6</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Bella</forename>
-              <surname>Beloch</surname>
-            </persName>
-            <death when="1918"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Karl Julius</forename>
-              <surname>Beloch</surname>
-            </persName>
-            <death when="1929"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Margherita</forename>
-              <surname>Piazzolla</surname>
-            </persName>
-            <death when="1976"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2513</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2513">
+               <msIdentifier>
+                  <idno>S2513</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">547</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>162</height>
+                              <depth>5</depth>
+                              <width>87</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>*</num>
+                        <ptr target="#i_45 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>6</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Bella</forename>
+                     <surname>Beloch</surname>
+                  </persName>
+                  <death when="1918"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Karl Julius</forename>
+                     <surname>Beloch</surname>
+                  </persName>
+                  <death when="1929"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Margherita</forename>
+                     <surname>Piazzolla</surname>
+                  </persName>
+                  <death when="1976"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>BELLA BELOCH</ab>
-        <ab>GEB.BAILEY</ab>
-        <ab>*12.IV.1850 +2.IV.1918</ab>
-        <ab>KARL JULIUS BELOCH</ab>
-        <ab>*21.1.1854 +7.11.1929</ab>
-        <ab>MARGHERITA PIAZZOLLA</ab>
-        <ab>GEB.BELOCH</ab>
-        <ab>*12.VII.1879 +28.IX.1976</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2513"
+               ulx="2914.813633"
+               uly="394.132832"
+               lrx="2929.517696"
+               lry="413.83193400000005"
+               points="2915.281274,394.132832 2929.517696,394.476799 2929.050055,413.83193400000005 2914.813633,413.487967 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>BELLA BELOCH</ab>
+            <ab>GEB.BAILEY</ab>
+            <ab>*12.IV.1850 +2.IV.1918</ab>
+            <ab>KARL JULIUS BELOCH</ab>
+            <ab>*21.1.1854 +7.11.1929</ab>
+            <ab>MARGHERITA PIAZZOLLA</ab>
+            <ab>GEB.BELOCH</ab>
+            <ab>*12.VII.1879 +28.IX.1976</ab>
+         </div>
+      </body>
   </text>
 </TEI>

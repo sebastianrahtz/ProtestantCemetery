@@ -1,94 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S51.xml" type="noburial">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S51.xml"
+     type="noburial">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 51</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S51">
-          <msIdentifier>
-            <idno>S51</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">127</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>93</height>
-                    <width>81</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 62)</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_29 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_45 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>54</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Anna Alesandrovna</forename>
-              <surname>Cernyseva</surname>
-            </persName>
-            <birth when="1740-05-28">
-              <placeName>
-                <settlement>Moscow</settlement>
-                <country>Russia</country>
-              </placeName>
-            </birth>
-            <death when="1794-08-07">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 51</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S51">
+               <msIdentifier>
+                  <idno>S51</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">127</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>93</height>
+                              <width>81</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 62)</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_29 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_45 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>54</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anna Alesandrovna</forename>
+                     <surname>Cernyseva</surname>
+                  </persName>
+                  <birth when="1740-05-28">
+                     <placeName>
+                        <settlement>Moscow</settlement>
+                        <country>Russia</country>
+                     </placeName>
+                  </birth>
+                  <death when="1794-08-07">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_P #s_CY">
-        <ab>ГРАФИНА АННА АЛЕКСАНДРОВНА</ab>
-        <ab>ЯЕРНЫЬЕВА</ab>
-        <ab>РОЖДЕННАЯ ИСЛЕН'ЕВА</ab>
-        <ab>РОДИЛАС'  МОСКВѢ 1740 ГОДА МАЯ 28</ab>
-        <ab>СКОНЯАЛАС'  РИМѢ 1794 ГОДА АВГУСТА 7</ab>
-        <ab>ТѢЛО ДѢТ'МИ [....]РИВѢЗѢНО [.] ОТЕЯЕСТВО 1795 ГОДА</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S51"
+               ulx="264.48897"
+               uly="785.6688879999999"
+               lrx="282.151211"
+               lry="802.975684"
+               points="275.465709,785.6688879999999 264.48897,793.095658 271.171809,802.975684 282.151211,795.548665 ">
+            <graphic url="film:_H/26325"/>
+            <graphic url="film:G/19"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_P #s_CY">
+            <ab>ГРАФИНА АННА АЛЕКСАНДРОВНА</ab>
+            <ab>ЯЕРНЫЬЕВА</ab>
+            <ab>РОЖДЕННАЯ ИСЛЕН'ЕВА</ab>
+            <ab>РОДИЛАС'  МОСКВѢ 1740 ГОДА МАЯ 28</ab>
+            <ab>СКОНЯАЛАС'  РИМѢ 1794 ГОДА АВГУСТА 7</ab>
+            <ab>ТѢЛО ДѢТ'МИ [....]РИВѢЗѢНО [.] ОТЕЯЕСТВО 1795 ГОДА</ab>
+         </div>
+      </body>
   </text>
 </TEI>

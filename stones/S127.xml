@@ -1,90 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S127.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S127.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 127</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S127">
-          <msIdentifier>
-            <idno>S127</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">271</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>136</height>
-                    <depth>10</depth>
-                    <width>84</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_59 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>53</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Victor</forename>
-              <surname>Perowne</surname>
-            </persName>
-            <birth when="1897-07-30">
-              <placeName>
-                <settlement>Worcester</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1951-01-08"/>
-            <nationality key="UK"/>
-            <occupation>minister to the Holy See</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 127</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S127">
+               <msIdentifier>
+                  <idno>S127</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">271</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>136</height>
+                              <depth>10</depth>
+                              <width>84</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_59 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>53</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Victor</forename>
+                     <surname>Perowne</surname>
+                  </persName>
+                  <birth when="1897-07-30">
+                     <placeName>
+                        <settlement>Worcester</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1951-01-08"/>
+                  <nationality key="UK"/>
+                  <occupation>minister to the Holy See</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>SIR VICTOR PEROWNE</ab>
-        <ab>K.C.M.G., K.ST.J.</ab>
-        <ab>HIS BRITANNIC MAJESTY'S</ab>
-        <ab>MINISTER TO THE HOLY SEE</ab>
-        <ab>* WORCESTER 30TH JULY 1897</ab>
-        <ab>+ ROME 8TH JANUARY 1951</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S127"
+               ulx="1216.424475"
+               uly="265.043101"
+               lrx="1225.321095"
+               lry="268.36240799999996"
+               points="1225.321095,265.25502500000005 1216.513334,265.043101 1216.424475,268.150484 1225.232237,268.36240799999996 ">
+            <graphic url="film:_H/26489"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>SIR VICTOR PEROWNE</ab>
+            <ab>K.C.M.G., K.ST.J.</ab>
+            <ab>HIS BRITANNIC MAJESTY'S</ab>
+            <ab>MINISTER TO THE HOLY SEE</ab>
+            <ab>* WORCESTER 30TH JULY 1897</ab>
+            <ab>+ ROME 8TH JANUARY 1951</ab>
+         </div>
+      </body>
   </text>
 </TEI>

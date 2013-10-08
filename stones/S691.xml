@@ -1,91 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S691.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S691.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 691</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S691">
-          <msIdentifier>
-            <idno>S691</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>229</height>
-                    <depth>75</depth>
-                    <width>75</width>
-                    <dim type="diameter">33</dim>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_16 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>G. Alfred</forename>
-              <surname>Strohl-Fern</surname>
-            </persName>
-            <death when="1927"/>
-            <nationality key="FR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 691</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S691">
+               <msIdentifier>
+                  <idno>S691</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>229</height>
+                              <depth>75</depth>
+                              <width>75</width>
+                              <dim type="diameter">33</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_16 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>G. Alfred</forename>
+                     <surname>Strohl-Fern</surname>
+                  </persName>
+                  <death when="1927"/>
+                  <nationality key="FR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>ICI REPOSE</ab>
-        <ab>G. ALFRED STROHL-FERN</ab>
-        <ab>ARTISTE</ab>
-        <ab>PROTECTEUR DES ARTISTES</ab>
-        <ab>NÉ EN FRANCE</ab>
-        <ab>À SAINT-MARIE AUX MINES</ab>
-        <ab>DÉCÉDÉ À ROME</ab>
-        <ab>LE IXX FE`VRIER MCMXXVII</ab>
-        <ab>À L'ÂGE DE LXXX ANS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S691"
+               ulx="1600.372025"
+               uly="329.36768400000005"
+               lrx="1608.856675"
+               lry="338.012422"
+               points="1600.372025,329.36768400000005 1608.856675,329.36768400000005 1608.856675,338.012422 1600.372025,338.012422 ">
+            <graphic url="film:_H/26198"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>ICI REPOSE</ab>
+            <ab>G. ALFRED STROHL-FERN</ab>
+            <ab>ARTISTE</ab>
+            <ab>PROTECTEUR DES ARTISTES</ab>
+            <ab>NÉ EN FRANCE</ab>
+            <ab>À SAINT-MARIE AUX MINES</ab>
+            <ab>DÉCÉDÉ À ROME</ab>
+            <ab>LE IXX FE`VRIER MCMXXVII</ab>
+            <ab>À L'ÂGE DE LXXX ANS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

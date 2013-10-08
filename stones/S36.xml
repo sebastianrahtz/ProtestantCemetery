@@ -1,84 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S36.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S36.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 36</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S36">
-          <msIdentifier>
-            <idno>S36</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">155</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>69</height>
-                    <depth>10</depth>
-                    <width>40</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 45)</summary>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>62</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Johann</forename>
-              <surname>Busch</surname>
-            </persName>
-            <birth when="1758">
-              <placeName>
-                <settlement>Schwerin</settlement>
-                <country>?</country>
-              </placeName>
-            </birth>
-            <death when="1820-12-02"/>
-            <nationality key="DE"/>
-            <occupation>sculptor</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 36</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S36">
+               <msIdentifier>
+                  <idno>S36</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">155</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>69</height>
+                              <depth>10</depth>
+                              <width>40</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 45)</summary>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>62</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Johann</forename>
+                     <surname>Busch</surname>
+                  </persName>
+                  <birth when="1758">
+                     <placeName>
+                        <settlement>Schwerin</settlement>
+                        <country>?</country>
+                     </placeName>
+                  </birth>
+                  <death when="1820-12-02"/>
+                  <nationality key="DE"/>
+                  <occupation>sculptor</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
-        <ab>IOHANN BVSCH</ab>
-        <ab>BILDHAVER</ab>
-        <ab>AVS SCHWERIN</ab>
-        <ab>GESTORBEN ZV ROM</ab>
-        <ab>DEN 2 DECEMBER</ab>
-        <ab>1820</ab>
-        <ab>IM 62<hi rend="sup">STEN</hi> LEBENSIAHR</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S36"
+               ulx="227.242275"
+               uly="974.747846"
+               lrx="241.20344500000002"
+               lry="986.388427"
+               points="238.408271,974.747846 227.242275,978.944124 230.037201,986.388427 241.203445,982.194812 ">
+            <graphic url="film:_H/26285"/>
+            <graphic url="pictures/2007_0103.jpg"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+            <ab>IOHANN BVSCH</ab>
+            <ab>BILDHAVER</ab>
+            <ab>AVS SCHWERIN</ab>
+            <ab>GESTORBEN ZV ROM</ab>
+            <ab>DEN 2 DECEMBER</ab>
+            <ab>1820</ab>
+            <ab>IM 62<hi rend="sup">STEN</hi> LEBENSIAHR</ab>
+         </div>
+      </body>
   </text>
 </TEI>

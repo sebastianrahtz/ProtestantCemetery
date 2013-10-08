@@ -1,102 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2315.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2315.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2315</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2315">
-          <msIdentifier>
-            <idno>S2315</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1216</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>134</height>
-                    <depth>4</depth>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Giovanni</forename>
-              <surname>Marugg</surname>
-            </persName>
-            <death when="1934"/>
-            <nationality key="CH"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maria Veronika</forename>
-              <surname>Marugg-Schlarff</surname>
-            </persName>
-            <death when="1958"/>
-            <nationality key="CH"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2315</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2315">
+               <msIdentifier>
+                  <idno>S2315</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1216</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>134</height>
+                              <depth>4</depth>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Giovanni</forename>
+                     <surname>Marugg</surname>
+                  </persName>
+                  <death when="1934"/>
+                  <nationality key="CH"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maria Veronika</forename>
+                     <surname>Marugg-Schlarff</surname>
+                  </persName>
+                  <death when="1958"/>
+                  <nationality key="CH"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_I #t_P">
-        <ab>IN MEMORIA</ab>
-        <ab>DI</ab>
-        <ab>GIOVANNI MARUGG</ab>
-        <ab>*KLOSTERS(SVIZZERA)</ab>
-        <ab>2.IX.1855</ab>
-        <ab>+RIMINI 10.XI.1934</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_I #t_PC">
-        <ab rend="Alignl">WAS WIR BAERGEN</ab>
-        <ab rend="Alignl">IN DER SAERGEN</ab>
-        <ab rend="Alignl">IST DER ERDEKLEID</ab>
-        <ab rend="Alignl">WAS WIR LIEBEN</ab>
-        <ab rend="Alignl">IST GEBLIEBEN</ab>
-        <ab rend="Alignl">BLEIBT IN EWIGKEIT</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_I #t_S">
-        <ab>E DELLA SUA CONSORTE</ab>
-        <ab>MARIA VERONIKA</ab>
-        <ab>MARUGG-SCHLARFF</ab>
-        <ab>*10.VII.1868</ab>
-        <ab>+8.III.1958</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2315"
+               ulx="2635.637228"
+               uly="669.982304"
+               lrx="2643.049129"
+               lry="682.389606"
+               points="2635.920751,669.982304 2643.049129,670.147394 2642.765605,682.389606 2635.637228,682.224517 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_I #t_P">
+            <ab>IN MEMORIA</ab>
+            <ab>DI</ab>
+            <ab>GIOVANNI MARUGG</ab>
+            <ab>*KLOSTERS(SVIZZERA)</ab>
+            <ab>2.IX.1855</ab>
+            <ab>+RIMINI 10.XI.1934</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_I #t_PC">
+            <ab rend="Alignl">WAS WIR BAERGEN</ab>
+            <ab rend="Alignl">IN DER SAERGEN</ab>
+            <ab rend="Alignl">IST DER ERDEKLEID</ab>
+            <ab rend="Alignl">WAS WIR LIEBEN</ab>
+            <ab rend="Alignl">IST GEBLIEBEN</ab>
+            <ab rend="Alignl">BLEIBT IN EWIGKEIT</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_I #t_S">
+            <ab>E DELLA SUA CONSORTE</ab>
+            <ab>MARIA VERONIKA</ab>
+            <ab>MARUGG-SCHLARFF</ab>
+            <ab>*10.VII.1868</ab>
+            <ab>+8.III.1958</ab>
+         </div>
+      </body>
   </text>
 </TEI>

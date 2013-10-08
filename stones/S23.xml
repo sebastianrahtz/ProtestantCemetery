@@ -1,88 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S23.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S23.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 23</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S23">
-          <msIdentifier>
-            <idno>S23</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">114</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>157</height>
-                    <depth>113</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 30)</summary>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>22</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Charles</forename>
-              <surname>Duncombe</surname>
-            </persName>
-            <birth when="1797">
-              <placeName>
-                <settlement>Duncombe Park, Yorks.</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1819-04-02">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 23</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S23">
+               <msIdentifier>
+                  <idno>S23</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">114</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>157</height>
+                              <depth>113</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 30)</summary>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>22</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Charles</forename>
+                     <surname>Duncombe</surname>
+                  </persName>
+                  <birth when="1797">
+                     <placeName>
+                        <settlement>Duncombe Park, Yorks.</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1819-04-02">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>IN MEMORY OF</ab>
-        <ab>CHARLES DUNCOMBE ESQUIRE ELDEST SON OF CHARLES AND LADY</ab>
-        <ab>CHARLOTTE DUNCOMBE OF DUNCOMBE PARK COUNTY OF YORK</ab>
-        <ab>WHO DIED AT ROME APRIL II<hi rend="sup">ṆD</hi> MDCCCXIX</ab>
-        <ab>AGED XXII YEARS.</ab>
-        <ab>HE WAS A MOST DUTIFUL AND AFFECTIONATE SON AND A RARE</ab>
-        <ab>EXAMPLE OF EARLY PIETY PURITY OF MORALS AND GOODNESS OF HEART.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S23"
+               ulx="237.711686"
+               uly="723.4116200000001"
+               lrx="260.147084"
+               lry="743.209023"
+               points="254.30806,723.4116200000001 237.711686,734.357807 243.547781,743.209023 260.147084,732.265441 ">
+            <graphic url="film:_H/26458"/>
+            <graphic url="film:Q/32"/>
+            <graphic url="film:Q/33"/>
+            <graphic url="film:Y/16">
+               <desc>lettering</desc>
+            </graphic>
+            <graphic url="film:Y/16">
+               <desc>lettering</desc>
+            </graphic>
+            <graphic url="pictures/2007_0096.jpg"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>IN MEMORY OF</ab>
+            <ab>CHARLES DUNCOMBE ESQUIRE ELDEST SON OF CHARLES AND LADY</ab>
+            <ab>CHARLOTTE DUNCOMBE OF DUNCOMBE PARK COUNTY OF YORK</ab>
+            <ab>WHO DIED AT ROME APRIL II<hi rend="sup">ṆD</hi> MDCCCXIX</ab>
+            <ab>AGED XXII YEARS.</ab>
+            <ab>HE WAS A MOST DUTIFUL AND AFFECTIONATE SON AND A RARE</ab>
+            <ab>EXAMPLE OF EARLY PIETY PURITY OF MORALS AND GOODNESS OF HEART.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

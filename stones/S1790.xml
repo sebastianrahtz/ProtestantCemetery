@@ -1,80 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1790.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1790.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1790</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1790">
-          <msIdentifier>
-            <idno>S1790</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2354</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>90</height>
-                    <depth>10</depth>
-                    <width>66</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Augusta</forename>
-              <surname>Lombard</surname>
-            </persName>
-            <death when="1881"/>
-            <nationality key="CH"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1790</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1790">
+               <msIdentifier>
+                  <idno>S1790</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2354</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>90</height>
+                              <depth>10</depth>
+                              <width>66</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Augusta</forename>
+                     <surname>Lombard</surname>
+                  </persName>
+                  <death when="1881"/>
+                  <nationality key="CH"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>AUGUSTA LOMBARD</ab>
-        <ab>NÉE À GENÈVE</ab>
-        <ab>MORTE A ROME LE 7. MARS 1881.</ab>
-        <ab>À L'AGE DE 38. ANS.</ab>
-        <ab/>
-        <ab rend="Alignl">ELLE N'AURA PLUS FAIM, ELLE N'AURA PLUS SOIF</ab>
-        <ab rend="Alignl">IL SOLEIL NE FRAPPERA PLUS SUR ELLE, NI AUCUNE</ab>
-        <ab rend="Alignl">CHALEUR, CAR L'AGNEAU QUI EST SUR LE TRONE LA</ab>
-        <ab rend="Alignl">PAITRA ET CA CONOVIRA AUX SOURCES DES EAUX</ab>
-        <ab rend="Alignl">VIVES, ET DIEU ESSUIERA TOUTE LARME DE SES YEUX.</ab>
-        <ab/>
-        <ab rend="Alignr">APOC.VII.16.17</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1790"
+               ulx="2310.254041"
+               uly="521.036326"
+               lrx="2319.304492"
+               lry="523.954619"
+               points="2310.254041,521.702987 2319.135479,521.036326 2319.304492,523.287959 2310.423054,523.954619 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>AUGUSTA LOMBARD</ab>
+            <ab>NÉE À GENÈVE</ab>
+            <ab>MORTE A ROME LE 7. MARS 1881.</ab>
+            <ab>À L'AGE DE 38. ANS.</ab>
+            <ab/>
+            <ab rend="Alignl">ELLE N'AURA PLUS FAIM, ELLE N'AURA PLUS SOIF</ab>
+            <ab rend="Alignl">IL SOLEIL NE FRAPPERA PLUS SUR ELLE, NI AUCUNE</ab>
+            <ab rend="Alignl">CHALEUR, CAR L'AGNEAU QUI EST SUR LE TRONE LA</ab>
+            <ab rend="Alignl">PAITRA ET CA CONOVIRA AUX SOURCES DES EAUX</ab>
+            <ab rend="Alignl">VIVES, ET DIEU ESSUIERA TOUTE LARME DE SES YEUX.</ab>
+            <ab/>
+            <ab rend="Alignr">APOC.VII.16.17</ab>
+         </div>
+      </body>
   </text>
 </TEI>

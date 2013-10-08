@@ -1,87 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S243.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S243.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 243</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S243">
-          <msIdentifier>
-            <idno>S243</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1732</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>93</height>
-                    <depth>24</depth>
-                    <width>55</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_88 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>26</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Donald</forename>
-              <surname>Munro</surname>
-            </persName>
-            <birth when="1814">
-              <placeName>
-                <settlement>Lemlair Rothshire</settlement>
-                <country>Scotland</country>
-              </placeName>
-            </birth>
-            <death when="1840-03-11"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 243</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S243">
+               <msIdentifier>
+                  <idno>S243</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1732</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>93</height>
+                              <depth>24</depth>
+                              <width>55</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_88 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>26</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Donald</forename>
+                     <surname>Munro</surname>
+                  </persName>
+                  <birth when="1814">
+                     <placeName>
+                        <settlement>Lemlair Rothshire</settlement>
+                        <country>Scotland</country>
+                     </placeName>
+                  </birth>
+                  <death when="1840-03-11"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>DONALD MVNRO ESQ</ab>
-        <ab>OF LEMLAIR ROTHSHIRE</ab>
-        <ab>SCOTLAND</ab>
-        <ab>DIED AT ROME ON THE</ab>
-        <ab>11 MARCH 1840</ab>
-        <ab>AGED 26 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S243"
+               ulx="947.677831"
+               uly="365.42388800000003"
+               lrx="958.30324"
+               lry="370.930789"
+               points="948.555158,365.42388800000003 958.30324,366.27110300000004 957.913317,370.930789 947.677831,370.083573 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>DONALD MVNRO ESQ</ab>
+            <ab>OF LEMLAIR ROTHSHIRE</ab>
+            <ab>SCOTLAND</ab>
+            <ab>DIED AT ROME ON THE</ab>
+            <ab>11 MARCH 1840</ab>
+            <ab>AGED 26 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,103 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S763.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S763.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 763</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S763">
-          <msIdentifier>
-            <idno>S763</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">801</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>127</height>
-                    <depth>24</depth>
-                    <width>103</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_118 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Negra</forename>
-              <surname>Volla</surname>
-            </persName>
-            <death when="1951"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Fernando</forename>
-              <surname>Volla</surname>
-            </persName>
-            <death when="1964"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 763</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S763">
+               <msIdentifier>
+                  <idno>S763</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">801</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>127</height>
+                              <depth>24</depth>
+                              <width>103</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_118 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Negra</forename>
+                     <surname>Volla</surname>
+                  </persName>
+                  <death when="1951"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Fernando</forename>
+                     <surname>Volla</surname>
+                  </persName>
+                  <death when="1964"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_N #c_1 #m_RM #t_P">
-        <ab>NEGRA VOLLA</ab>
-        <ab>ROMA +1951</ab>
-        <ab>FERNANDO VOLLA</ab>
-        <ab>ROMA +1964</ab>
-        <ab rend="Alignl">NOI LA VEDEMMO COME</ab>
-        <ab rend="Alignl">UNA LAMPADA CHE ARDE</ab>
-        <ab rend="Alignl">SOAVE E FEDELE</ab>
-        <ab rend="Alignr">SI ADDORMENTÒ PER</ab>
-        <ab rend="Alignr">RISVEGLIARSI NELLA</ab>
-        <ab rend="Alignr">LUCE DEL SIGNORE</ab>
-        <ab rend="Alignr">"IO SONO LA</ab>
-        <ab rend="Alignr">RESURREZIONE</ab>
-        <ab rend="Alignr">E LA VITA"</ab>
-        <ab rend="Alignr">S. GIOV. 11.25</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S763"
+               ulx="2059.021413"
+               uly="344.511296"
+               lrx="2068.433916"
+               lry="360.355675"
+               points="2059.021413,344.511296 2068.433916,344.511296 2068.433916,360.355675 2059.021413,360.355675 ">
+            <graphic url="film:L/26"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_N #c_1 #m_RM #t_P">
+            <ab>NEGRA VOLLA</ab>
+            <ab>ROMA +1951</ab>
+            <ab>FERNANDO VOLLA</ab>
+            <ab>ROMA +1964</ab>
+            <ab rend="Alignl">NOI LA VEDEMMO COME</ab>
+            <ab rend="Alignl">UNA LAMPADA CHE ARDE</ab>
+            <ab rend="Alignl">SOAVE E FEDELE</ab>
+            <ab rend="Alignr">SI ADDORMENTÒ PER</ab>
+            <ab rend="Alignr">RISVEGLIARSI NELLA</ab>
+            <ab rend="Alignr">LUCE DEL SIGNORE</ab>
+            <ab rend="Alignr">"IO SONO LA</ab>
+            <ab rend="Alignr">RESURREZIONE</ab>
+            <ab rend="Alignr">E LA VITA"</ab>
+            <ab rend="Alignr">S. GIOV. 11.25</ab>
+         </div>
+      </body>
   </text>
 </TEI>

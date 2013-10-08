@@ -1,94 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1733.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1733.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1733</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1733">
-          <msIdentifier>
-            <idno>S1733</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2393</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>170</height>
-                    <depth>25</depth>
-                    <width>91</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Frances Barbara</forename>
-              <surname>Hamilton</surname>
-            </persName>
-            <death when="1877"/>
-            <nationality key="IE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1733</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1733">
+               <msIdentifier>
+                  <idno>S1733</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2393</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>170</height>
+                              <depth>25</depth>
+                              <width>91</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Frances Barbara</forename>
+                     <surname>Hamilton</surname>
+                  </persName>
+                  <death when="1877"/>
+                  <nationality key="IE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>SACRED TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>FRANCES BARBARA HAMILTON</ab>
-        <ab>SECOND DAUGHTER OF</ab>
-        <ab>HENRY HAMILTON ESQRE</ab>
-        <ab>OF TULLYLISH HOUSE, CO DOWN,</ab>
-        <ab>IRELAND.</ab>
-        <ab>SHE DIED IN ROME</ab>
-        <ab>MARCH 1877</ab>
-        <ab>AGED 60 YEARS</ab>
-        <ab/>
-        <ab>
-          <emph>A stranger with Thee and a sojourner"</emph>
-        </ab>
-        <ab rend="Alignr">
-          <emph>Psa XXXIX.12</emph>
-        </ab>
-        <ab>
-          <emph>There remaineth therefore a rest to</emph>
-        </ab>
-        <ab>
-          <emph>the people of God</emph>
-        </ab>
-        <ab rend="Alignr">
-          <emph>HEB.IV9</emph>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1733"
+               ulx="2309.987112"
+               uly="462.04896299999996"
+               lrx="2320.441469"
+               lry="467.070382"
+               points="2309.987112,462.817553 2320.11885,462.04896299999996 2320.441469,466.301791 2310.309731,467.070382 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>SACRED TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>FRANCES BARBARA HAMILTON</ab>
+            <ab>SECOND DAUGHTER OF</ab>
+            <ab>HENRY HAMILTON ESQRE</ab>
+            <ab>OF TULLYLISH HOUSE, CO DOWN,</ab>
+            <ab>IRELAND.</ab>
+            <ab>SHE DIED IN ROME</ab>
+            <ab>MARCH 1877</ab>
+            <ab>AGED 60 YEARS</ab>
+            <ab/>
+            <ab>
+               <emph>A stranger with Thee and a sojourner"</emph>
+            </ab>
+            <ab rend="Alignr">
+               <emph>Psa XXXIX.12</emph>
+            </ab>
+            <ab>
+               <emph>There remaineth therefore a rest to</emph>
+            </ab>
+            <ab>
+               <emph>the people of God</emph>
+            </ab>
+            <ab rend="Alignr">
+               <emph>HEB.IV9</emph>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

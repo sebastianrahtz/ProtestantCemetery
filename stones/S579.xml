@@ -1,83 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S579.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S579.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 579</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S579">
-          <msIdentifier>
-            <idno>S579</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2214</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>130</height>
-                    <depth>14</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Charlotte</forename>
-              <surname>Buller</surname>
-            </persName>
-            <death when="1829"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 579</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S579">
+               <msIdentifier>
+                  <idno>S579</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2214</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>130</height>
+                              <depth>14</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Charlotte</forename>
+                     <surname>Buller</surname>
+                  </persName>
+                  <death when="1829"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>CHARLOTTE</ab>
-        <ab>THE WIFE OF LIEUT. GEN.L BULLER</ab>
-        <ab>WHO DEPARTED THIS LIFE</ab>
-        <ab>ON THE IV.TH OF FEBRUARY MDCCCXXIX</ab>
-        <ab>AFTER A PROTRACTED ILLNESS.</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_PC">
-        <ab rend="Alignl">She died as she had lived, resigning</ab>
-        <ab rend="Alignl">her pure spirit into the hands of her</ab>
-        <ab rend="Alignl">Creator with meekness and humility,</ab>
-        <ab rend="Alignl">leaving to her afflicted family the in-</ab>
-        <ab rend="Alignl">valuable recollection of her merits</ab>
-        <ab rend="Alignl">and her virtues.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S579"
+               ulx="1430.620162"
+               uly="272.380856"
+               lrx="1438.675882"
+               lry="275.32631100000003"
+               points="1430.685762,272.380856 1438.675882,272.571097 1438.610282,275.32631100000003 1430.620162,275.13607 ">
+            <graphic url="film:V/13"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>CHARLOTTE</ab>
+            <ab>THE WIFE OF LIEUT. GEN.L BULLER</ab>
+            <ab>WHO DEPARTED THIS LIFE</ab>
+            <ab>ON THE IV.TH OF FEBRUARY MDCCCXXIX</ab>
+            <ab>AFTER A PROTRACTED ILLNESS.</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_PC">
+            <ab rend="Alignl">She died as she had lived, resigning</ab>
+            <ab rend="Alignl">her pure spirit into the hands of her</ab>
+            <ab rend="Alignl">Creator with meekness and humility,</ab>
+            <ab rend="Alignl">leaving to her afflicted family the in-</ab>
+            <ab rend="Alignl">valuable recollection of her merits</ab>
+            <ab rend="Alignl">and her virtues.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

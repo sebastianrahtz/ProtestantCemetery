@@ -1,81 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1654.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1654.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1654</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1654">
-          <msIdentifier>
-            <idno>S1654</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2444</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>220</height>
-                    <depth>44</depth>
-                    <width>97</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>On the S face there is a square containing a circle. Around the circle and contained by the square there is floral decoration. In the circle there is a carved head of a male, presumably Christ.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_4 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_26 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Gustav Const[...]</forename>
-              <surname>Parthey</surname>
-            </persName>
-            <death when="1872"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1654</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1654">
+               <msIdentifier>
+                  <idno>S1654</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2444</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>220</height>
+                              <depth>44</depth>
+                              <width>97</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>On the S face there is a square containing a circle. Around the circle and contained by the square there is floral decoration. In the circle there is a carved head of a male, presumably Christ.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_4 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_26 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Gustav Const[...]</forename>
+                     <surname>Parthey</surname>
+                  </persName>
+                  <death when="1872"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>HIER [...]</ab>
-        <ab>GVSTAV CONST [...] PARTHNEY</ab>
-        <ab>GEB.BERLIN.XXVII.OCT MDCCLXXXXVIII.</ab>
-        <ab>GEST.ROM.11.APR.MDCCCLXXII</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1654"
+               ulx="2230.257713"
+               uly="387.058363"
+               lrx="2239.5929"
+               lry="392.87979299999995"
+               points="2230.257713,387.67171700000006 2239.237154,387.058363 2239.5929,392.266439 2230.613459,392.87979299999995 ">
+            <graphic url="film:_H/26190"/>
+            <graphic url="film:Z/36">
+               <desc>christ</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>HIER [...]</ab>
+            <ab>GVSTAV CONST [...] PARTHNEY</ab>
+            <ab>GEB.BERLIN.XXVII.OCT MDCCLXXXXVIII.</ab>
+            <ab>GEST.ROM.11.APR.MDCCCLXXII</ab>
+         </div>
+      </body>
   </text>
 </TEI>

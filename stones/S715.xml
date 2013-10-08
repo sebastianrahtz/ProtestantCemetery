@@ -1,81 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S715.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S715.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 715</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S715">
-          <msIdentifier>
-            <idno>S715</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>152</height>
-                    <depth>13</depth>
-                    <width>72</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>S face, relief. A muse, seated, holds paper in her left hand, resting it in her lap. She holds a pen in her right hand and points with it at a broken column on a base. On this base is a scene: a woman and part of a horse/ox.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Olao</forename>
-              <surname>Kellerman</surname>
-            </persName>
-            <death when="1837"/>
-            <nationality key="DK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 715</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S715">
+               <msIdentifier>
+                  <idno>S715</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>152</height>
+                              <depth>13</depth>
+                              <width>72</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>S face, relief. A muse, seated, holds paper in her left hand, resting it in her lap. She holds a pen in her right hand and points with it at a broken column on a base. On this base is a scene: a woman and part of a horse/ox.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Olao</forename>
+                     <surname>Kellerman</surname>
+                  </persName>
+                  <death when="1837"/>
+                  <nationality key="DK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_I #t_P">
-        <ab>OLAO.KELLERMANN</ab>
-        <ab>DANO</ab>
-        <ab>DE.INSCRIPTIONIBVS.LATINIS</ab>
-        <ab>BENE.MERITO</ab>
-        <ab>SI.FATA.SIVISSENT.MELIVS.MERITVRO</ab>
-        <ab>AMICI</ab>
-        <ab>OBIIT.K.SEPT.MDCCCXXXVII</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S715"
+               ulx="1395.318883"
+               uly="354.771607"
+               lrx="1404.583377"
+               lry="359.655493"
+               points="1395.399685,354.771607 1404.583377,354.928593 1404.502576,359.655493 1395.318883,359.498507 ">
+            <graphic url="film:AA/7"/>
+            <graphic url="film:AA/8">
+               <desc>c/u</desc>
+            </graphic>
+            <graphic url="film:D/30"/>
+            <graphic url="film:W/31"/>
+            <graphic url="film:X/26"/>
+            <graphic url="film:SA/30">
+               <desc>figure</desc>
+            </graphic>
+            <graphic url="film:SA/31">
+               <desc>scene</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_2 #m_I #t_P">
+            <ab>OLAO.KELLERMANN</ab>
+            <ab>DANO</ab>
+            <ab>DE.INSCRIPTIONIBVS.LATINIS</ab>
+            <ab>BENE.MERITO</ab>
+            <ab>SI.FATA.SIVISSENT.MELIVS.MERITVRO</ab>
+            <ab>AMICI</ab>
+            <ab>OBIIT.K.SEPT.MDCCCXXXVII</ab>
+         </div>
+      </body>
   </text>
 </TEI>

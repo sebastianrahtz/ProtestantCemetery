@@ -1,90 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1035.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1035.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1035</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1035">
-          <msIdentifier>
-            <idno>S1035</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">417</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COPE">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>122</height>
-                    <depth>55</depth>
-                    <width>76</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Leroy Romano</forename>
-              <surname>Vernon</surname>
-            </persName>
-            <death when="1878"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Margherita</forename>
-              <surname>Vernon</surname>
-            </persName>
-            <death when="1883"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1035</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1035">
+               <msIdentifier>
+                  <idno>S1035</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">417</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COPE">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>122</height>
+                              <depth>55</depth>
+                              <width>76</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Leroy Romano</forename>
+                     <surname>Vernon</surname>
+                  </persName>
+                  <death when="1878"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Margherita</forename>
+                     <surname>Vernon</surname>
+                  </persName>
+                  <death when="1883"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IC #t_P">
-        <ab>UNTIL THE LORD COME</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_3 #m_IC #t_P">
-        <ab>MARGHERITA VERNON</ab>
-        <ab>FEB. 27, 1882 - SEP 12, 1883</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_W #c_3 #m_IC #t_P">
-        <ab>LEROY ROMANO VERNON</ab>
-        <ab>JUNE 9, 1877 - APRIL 27, 1878</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1035"
+               ulx="1939.851434"
+               uly="512.183562"
+               lrx="1947.168481"
+               lry="523.054604"
+               points="1939.976869,512.183562 1947.168481,512.267186 1947.043046,523.054604 1939.851434,522.970981 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IC #t_P">
+            <ab>UNTIL THE LORD COME</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_3 #m_IC #t_P">
+            <ab>MARGHERITA VERNON</ab>
+            <ab>FEB. 27, 1882 - SEP 12, 1883</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_W #c_3 #m_IC #t_P">
+            <ab>LEROY ROMANO VERNON</ab>
+            <ab>JUNE 9, 1877 - APRIL 27, 1878</ab>
+         </div>
+      </body>
   </text>
 </TEI>

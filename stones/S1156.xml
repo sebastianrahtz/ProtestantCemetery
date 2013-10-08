@@ -1,90 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1156.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1156.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1156</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1156">
-          <msIdentifier>
-            <idno>S1156</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2020</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>280</height>
-                    <depth>209</depth>
-                    <width>109</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_123 #st_A #f_W"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_123 #st_A #f_E"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Augusto</forename>
-              <surname>Riedel</surname>
-            </persName>
-            <death when="1883"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1156</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1156">
+               <msIdentifier>
+                  <idno>S1156</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2020</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>280</height>
+                              <depth>209</depth>
+                              <width>109</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_123 #st_A #f_W"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_123 #st_A #f_E"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Augusto</forename>
+                     <surname>Riedel</surname>
+                  </persName>
+                  <death when="1883"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_I #t_P">
-        <ab>AVGVSTO RIEDEL</ab>
-        <ab>PITTORE</ab>
-        <ab>PROF ACCADEMICO DI S.LVCA</ab>
-        <ab>NACQVE A BAYREUTH IN BAVIERA</ab>
-        <ab>IL XXVII DECEMBRE MDCCXCIX</ab>
-        <ab>MORI IN ROMA SVA PATRIA D AMORE</ab>
-        <ab>IL VI ACOSTO MDCCCLXXXIII</ab>
-        <ab> ----------</ab>
-        <ab>GLI AMICI E I COLLEGHI IN ARTE</ab>
-        <ab>  POSERO</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1156"
+               ulx="2034.140085"
+               uly="566.390675"
+               lrx="2043.596362"
+               lry="586.368727"
+               points="2034.140085,566.390675 2043.596362,566.390675 2043.596362,586.368727 2034.140085,586.368727 ">
+            <graphic url="film:_H/26486"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_I #t_P">
+            <ab>AVGVSTO RIEDEL</ab>
+            <ab>PITTORE</ab>
+            <ab>PROF ACCADEMICO DI S.LVCA</ab>
+            <ab>NACQVE A BAYREUTH IN BAVIERA</ab>
+            <ab>IL XXVII DECEMBRE MDCCXCIX</ab>
+            <ab>MORI IN ROMA SVA PATRIA D AMORE</ab>
+            <ab>IL VI ACOSTO MDCCCLXXXIII</ab>
+            <ab> ----------</ab>
+            <ab>GLI AMICI E I COLLEGHI IN ARTE</ab>
+            <ab>  POSERO</ab>
+         </div>
+      </body>
   </text>
 </TEI>

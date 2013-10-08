@@ -1,85 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2257.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2257.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2257</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2257">
-          <msIdentifier>
-            <idno>S2257</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>81</height>
-                    <depth>8</depth>
-                    <width>36</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_29 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Frances A.</forename>
-              <surname>Teucher</surname>
-            </persName>
-            <death when="1919"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2257</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2257">
+               <msIdentifier>
+                  <idno>S2257</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>81</height>
+                              <depth>8</depth>
+                              <width>36</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_29 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Frances A.</forename>
+                     <surname>Teucher</surname>
+                  </persName>
+                  <death when="1919"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
-        <ab>494498 L.CPL</ab>
-        <ab>FRANCES A. TEUCHER</ab>
-        <ab>ROYAL ENGINEERS</ab>
-        <ab>3RD FEBRUARY 1919 AGE 29</ab>
-        <ab/>
-        <ab>PIE JESU DOMINE</ab>
-        <ab>DOKA EI REQUIEM</ab>
-        <ab>AMEN</ab>
-      </div>
-      <div type="inscription" xml:lang="fr" decls="#f_R #c_1 #m_I #t_P">
-        <ab>HONI.SOIT.QUI.MAL.Y.PENSE</ab>
-        <ab>ROYAL ENGINEERS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2257"
+               ulx="2749.480883"
+               uly="588.27333"
+               lrx="2754.959034"
+               lry="590.579356"
+               points="2749.535534,588.27333 2754.959034,588.409956 2754.904383,590.579356 2749.480883,590.44273 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
+            <ab>494498 L.CPL</ab>
+            <ab>FRANCES A. TEUCHER</ab>
+            <ab>ROYAL ENGINEERS</ab>
+            <ab>3RD FEBRUARY 1919 AGE 29</ab>
+            <ab/>
+            <ab>PIE JESU DOMINE</ab>
+            <ab>DOKA EI REQUIEM</ab>
+            <ab>AMEN</ab>
+         </div>
+         <div type="inscription" xml:lang="fr" decls="#f_R #c_1 #m_I #t_P">
+            <ab>HONI.SOIT.QUI.MAL.Y.PENSE</ab>
+            <ab>ROYAL ENGINEERS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

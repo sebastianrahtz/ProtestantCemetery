@@ -1,72 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2118.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2118.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2118</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2118">
-          <msIdentifier>
-            <idno>S2118</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>19</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Pauline Luise Bertha</forename>
-              <surname>Dohnalauck</surname>
-            </persName>
-            <death when="1910"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2118</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2118">
+               <msIdentifier>
+                  <idno>S2118</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>19</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Pauline Luise Bertha</forename>
+                     <surname>Dohnalauck</surname>
+                  </persName>
+                  <death when="1910"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>PAULINE LUISE BERTHA</ab>
-        <ab>BURGGRAFIN ZU DOHNALAUCK</ab>
-        <ab>GEBOREN DEN 27 IANUAR 1838</ab>
-        <ab>IN LAUCK OSTPREUSSEN</ab>
-        <ab>GESTORBEN DEN 6 MAI 1910 IN ROM</ab>
-        <ab/>
-        <ab>DIE LIEBE HORET NIMMER AUF.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2118"
+               ulx="2772.816647"
+               uly="336.34427800000003"
+               lrx="2783.163785"
+               lry="355.87131999999997"
+               points="2772.816647,336.41094599999997 2783.036844,336.34427800000003 2783.163785,355.80465200000003 2772.94359,355.87131999999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>PAULINE LUISE BERTHA</ab>
+            <ab>BURGGRAFIN ZU DOHNALAUCK</ab>
+            <ab>GEBOREN DEN 27 IANUAR 1838</ab>
+            <ab>IN LAUCK OSTPREUSSEN</ab>
+            <ab>GESTORBEN DEN 6 MAI 1910 IN ROM</ab>
+            <ab/>
+            <ab>DIE LIEBE HORET NIMMER AUF.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

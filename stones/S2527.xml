@@ -1,98 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2527.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2527.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2527</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2527">
-          <msIdentifier>
-            <idno>S2527</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1014</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>149</height>
-                    <depth>29</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Nadine</forename>
-              <surname>Schucht-Leontieva</surname>
-            </persName>
-            <death when="1919"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Apollo</forename>
-              <surname>Schucht</surname>
-            </persName>
-            <death when="1933"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Antonio</forename>
-              <surname>Gramsci</surname>
-            </persName>
-            <death when="1937"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2527</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2527">
+               <msIdentifier>
+                  <idno>S2527</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1014</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>149</height>
+                              <depth>29</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Nadine</forename>
+                     <surname>Schucht-Leontieva</surname>
+                  </persName>
+                  <death when="1919"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Apollo</forename>
+                     <surname>Schucht</surname>
+                  </persName>
+                  <death when="1933"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Antonio</forename>
+                     <surname>Gramsci</surname>
+                  </persName>
+                  <death when="1937"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>GRAMSCI</ab>
-        <ab>ALES 1891 ROMA 1937</ab>
-        <ab>CINERA</ab>
-        <ab>ANTONII</ab>
-        <ab>GRAMSCII</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_N #c_3 #m_IC #t_S">
-        <ab>ALLA MEMORIA DI</ab>
-        <ab>APOLLO SCHUCHT</ab>
-        <ab>1860 - 1933</ab>
-        <ab>NADINE SCHUCHT-LEONTIEVA</ab>
-        <ab>1886 - 1919</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2527"
+               ulx="3111.241564"
+               uly="403.62438699999996"
+               lrx="3122.033539"
+               lry="408.43234099999995"
+               points="3111.314426,403.62438699999996 3122.033539,403.792725 3121.960676,408.43234099999995 3111.241564,408.264003 ">
+            <graphic url="film:_H/26192"/>
+            <graphic url="film:AP/6"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>GRAMSCI</ab>
+            <ab>ALES 1891 ROMA 1937</ab>
+            <ab>CINERA</ab>
+            <ab>ANTONII</ab>
+            <ab>GRAMSCII</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_N #c_3 #m_IC #t_S">
+            <ab>ALLA MEMORIA DI</ab>
+            <ab>APOLLO SCHUCHT</ab>
+            <ab>1860 - 1933</ab>
+            <ab>NADINE SCHUCHT-LEONTIEVA</ab>
+            <ab>1886 - 1919</ab>
+         </div>
+      </body>
   </text>
 </TEI>

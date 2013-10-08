@@ -1,92 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S297.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S297.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 297</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S297">
-          <msIdentifier>
-            <idno>S297</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1707</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>215</height>
-                    <depth>31</depth>
-                    <width>117</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>31</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Adolph</forename>
-              <surname>Carl</surname>
-            </persName>
-            <birth when="1814-05-13">
-              <placeName>
-                <settlement>Cassel</settlement>
-                <country>Germany</country>
-              </placeName>
-            </birth>
-            <death when="1845-04-29">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="DE"/>
-            <occupation>painter, "maler"</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 297</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S297">
+               <msIdentifier>
+                  <idno>S297</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1707</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>215</height>
+                              <depth>31</depth>
+                              <width>117</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>31</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Adolph</forename>
+                     <surname>Carl</surname>
+                  </persName>
+                  <birth when="1814-05-13">
+                     <placeName>
+                        <settlement>Cassel</settlement>
+                        <country>Germany</country>
+                     </placeName>
+                  </birth>
+                  <death when="1845-04-29">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="DE"/>
+                  <occupation>painter, "maler"</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
-        <ab>HIER RUHET IN GOTT</ab>
-        <ab>DER MALER</ab>
-        <ab>ADOLPH CARL</ab>
-        <ab>GEBOREN ZU CASSEL XIII MAI</ab>
-        <ab>MDCCCXIV</ab>
-        <ab>GESTORBEN ZU ROM XXIX APRIL</ab>
-        <ab>MDCCCVL</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S297"
+               ulx="959.719189"
+               uly="426.08755900000006"
+               lrx="969.350048"
+               lry="430.45936800000004"
+               points="969.350048,426.31625399999996 959.837691,426.08755900000006 959.719189,430.23048200000005 969.231564,430.45936800000004 ">
+            <graphic url="film:J/14"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+            <ab>HIER RUHET IN GOTT</ab>
+            <ab>DER MALER</ab>
+            <ab>ADOLPH CARL</ab>
+            <ab>GEBOREN ZU CASSEL XIII MAI</ab>
+            <ab>MDCCCXIV</ab>
+            <ab>GESTORBEN ZU ROM XXIX APRIL</ab>
+            <ab>MDCCCVL</ab>
+         </div>
+      </body>
   </text>
 </TEI>

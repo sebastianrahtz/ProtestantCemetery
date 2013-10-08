@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2593.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2593.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2593</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2593">
-          <msIdentifier>
-            <idno>S2593</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>81</height>
-                    <depth>45</depth>
-                    <width>43</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_129 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Jane</forename>
-              <surname>Powers</surname>
-            </persName>
-            <death when="1944"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2593</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2593">
+               <msIdentifier>
+                  <idno>S2593</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>81</height>
+                              <depth>45</depth>
+                              <width>43</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_129 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Jane</forename>
+                     <surname>Powers</surname>
+                  </persName>
+                  <death when="1944"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>JANE</ab>
-        <ab>GALLATIN</ab>
-        <ab>POWERS</ab>
-        <ab>WIDOW OF</ab>
-        <ab>FRANK H. POWERS</ab>
-        <ab>FOUNDER OF</ab>
-        <ab>CARMEL BY THE SEA</ab>
-        <ab>* SACRAMENTO CALIF.</ab>
-        <ab>MARCH. 24. 1869</ab>
-        <ab>+ ROME. iTALY</ab>
-        <ab>DEC. 18. 1944</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_3 #m_IF #t_PC">
-        <ab>ART</ab>
-        <ab>MVSIC</ab>
-        <ab>FAITH</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2593"
+               ulx="3083.280354"
+               uly="580.701879"
+               lrx="3088.588327"
+               lry="584.934699"
+               points="3083.280354,580.749702 3088.55035,580.701879 3088.588327,584.886876 3083.31833,584.934699 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>JANE</ab>
+            <ab>GALLATIN</ab>
+            <ab>POWERS</ab>
+            <ab>WIDOW OF</ab>
+            <ab>FRANK H. POWERS</ab>
+            <ab>FOUNDER OF</ab>
+            <ab>CARMEL BY THE SEA</ab>
+            <ab>* SACRAMENTO CALIF.</ab>
+            <ab>MARCH. 24. 1869</ab>
+            <ab>+ ROME. iTALY</ab>
+            <ab>DEC. 18. 1944</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_3 #m_IF #t_PC">
+            <ab>ART</ab>
+            <ab>MVSIC</ab>
+            <ab>FAITH</ab>
+         </div>
+      </body>
   </text>
 </TEI>

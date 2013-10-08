@@ -1,93 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S176.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S176.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 176</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S176">
-          <msIdentifier>
-            <idno>S176</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>135</height>
-                    <depth>90</depth>
-                    <width>184</width>
-                  </dimensions>
-                </extent>
-                <condition>unrecorded</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>*</num>
-                <ptr target="#i_86 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Frederica Henrietta</forename>
-              <surname>de Montmorency</surname>
-            </persName>
-            <death when="1827-02-21"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 176</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S176">
+               <msIdentifier>
+                  <idno>S176</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>135</height>
+                              <depth>90</depth>
+                              <width>184</width>
+                           </dimensions>
+                        </extent>
+                        <condition>unrecorded</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>*</num>
+                        <ptr target="#i_86 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Frederica Henrietta</forename>
+                     <surname>de Montmorency</surname>
+                  </persName>
+                  <death when="1827-02-21"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
-        <ab>[...]FREDERICA[...]</ab>
-        <ab/>
-        <ab>FREDERICA HENRIETTA ARABELLA DE MONTMORENCY</ab>
-        <ab>THE BELOVED DAUGHTER OF</ab>
-        <ab>COLONEL REYMOND HERVE DE MONTMORENCY</ab>
-        <ab>ROYAL YORK HUSSARS</ab>
-        <ab>[...] AT XVIII OCT. MDCCC[...] OB XXI FEB MDCCCXXVII</ab>
-        <ab/>
-        <ab>FREDERICA QUAE CLARIS FUERAM PRAELATA PUELLIS</ab>
-        <ab>ILLA EGO HOC BREVI CONDITA SUM TUMULO</ab>
-        <ab>CUI FORMAM PULCHERRIMAM CHARITES TRIBUERE DECORAM</ab>
-        <ab>OUAM DEUS CUNCTIS ARTIBUS ERUDIIT</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_N #c_4 #m_I #t_PC">
-        <ab>SIT TIBI TERRA LEVIS</ab>
-        <ab>TIBI CARISSIMAE FREDERICAE</ab>
-        <ab>TIBI DULCISSIMA PIETAE</ab>
-        <ab>PATER INFELIX MOERENS</ab>
-        <ab>HOC TESTIMONIUM PER EMERITUM</ab>
-        <ab>PRO PIETATE POSUIT</ab>
-        <ab/>
-        <ab>NONDUM BIS DENOS ATAS MEA VIDLR AT ANNOS</ab>
-        <ab>INJECERE MANUS INVIDIA EATA MUN</ab>
-        <ab>ERIPUIT MORS IMMATURA JUVENTAE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S176"
+               ulx="1172.694869"
+               uly="317.20400800000004"
+               lrx="1191.389701"
+               lry="330.764409"
+               points="1191.389701,317.644627 1173.069582,317.20400800000004 1172.694869,330.32360000000006 1191.015006,330.764409 ">
+            <graphic url="film:_H/26275"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
+            <ab>[...]FREDERICA[...]</ab>
+            <ab/>
+            <ab>FREDERICA HENRIETTA ARABELLA DE MONTMORENCY</ab>
+            <ab>THE BELOVED DAUGHTER OF</ab>
+            <ab>COLONEL REYMOND HERVE DE MONTMORENCY</ab>
+            <ab>ROYAL YORK HUSSARS</ab>
+            <ab>[...] AT XVIII OCT. MDCCC[...] OB XXI FEB MDCCCXXVII</ab>
+            <ab/>
+            <ab>FREDERICA QUAE CLARIS FUERAM PRAELATA PUELLIS</ab>
+            <ab>ILLA EGO HOC BREVI CONDITA SUM TUMULO</ab>
+            <ab>CUI FORMAM PULCHERRIMAM CHARITES TRIBUERE DECORAM</ab>
+            <ab>OUAM DEUS CUNCTIS ARTIBUS ERUDIIT</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_N #c_4 #m_I #t_PC">
+            <ab>SIT TIBI TERRA LEVIS</ab>
+            <ab>TIBI CARISSIMAE FREDERICAE</ab>
+            <ab>TIBI DULCISSIMA PIETAE</ab>
+            <ab>PATER INFELIX MOERENS</ab>
+            <ab>HOC TESTIMONIUM PER EMERITUM</ab>
+            <ab>PRO PIETATE POSUIT</ab>
+            <ab/>
+            <ab>NONDUM BIS DENOS ATAS MEA VIDLR AT ANNOS</ab>
+            <ab>INJECERE MANUS INVIDIA EATA MUN</ab>
+            <ab>ERIPUIT MORS IMMATURA JUVENTAE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

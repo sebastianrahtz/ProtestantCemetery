@@ -1,88 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S357.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S357.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 357</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S357">
-          <msIdentifier>
-            <idno>S357</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1674</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>106</height>
-                    <depth>8</depth>
-                    <width>74</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>43</age>
-            <sex>1</sex>
-            <persName>
-              <forename>John</forename>
-              <surname>Hills</surname>
-            </persName>
-            <birth when="1804-12-18">
-              <placeName>
-                <settlement>Walmer, Kent</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1848-12-10">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 357</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S357">
+               <msIdentifier>
+                  <idno>S357</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1674</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>106</height>
+                              <depth>8</depth>
+                              <width>74</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>43</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Hills</surname>
+                  </persName>
+                  <birth when="1804-12-18">
+                     <placeName>
+                        <settlement>Walmer, Kent</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1848-12-10">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>IOHN HILLS ESQ.</ab>
-        <ab>OF</ab>
-        <ab>WALMER KENT</ab>
-        <ab>BORN 18TH DECr 1804</ab>
-        <ab>DIED AT ROME 10 DECr 1848.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S357"
+               ulx="982.18638"
+               uly="518.880957"
+               lrx="989.969557"
+               lry="532.524564"
+               points="989.969557,519.058956 982.571024,518.880957 982.18638,532.346565 989.584913,532.524564 ">
+            <graphic url="film:T/26"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>IOHN HILLS ESQ.</ab>
+            <ab>OF</ab>
+            <ab>WALMER KENT</ab>
+            <ab>BORN 18TH DECr 1804</ab>
+            <ab>DIED AT ROME 10 DECr 1848.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

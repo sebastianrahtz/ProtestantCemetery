@@ -1,78 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S904.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S904.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 904</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S904">
-          <msIdentifier>
-            <idno>S904</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>166</height>
-                    <depth>10</depth>
-                    <width>72</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Vladimir</forename>
-              <surname>Koval'skij</surname>
-            </persName>
-            <death when="1874"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 904</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S904">
+               <msIdentifier>
+                  <idno>S904</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>166</height>
+                              <depth>10</depth>
+                              <width>72</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Vladimir</forename>
+                     <surname>Koval'skij</surname>
+                  </persName>
+                  <death when="1874"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_IF #t_P #s_CY">
-        <ab>Упокои Господи</ab>
-        <ab>дуьу раба туеого</ab>
-        <ab/>
-        <ab>ВЛАДИМИР" КОВАЛ'СКИЙ</ab>
-        <ab>род: 15 октЯб 1837г.</ab>
-        <ab>сконя: 11 маЯ 1874г.</ab>
-        <ab/>
-        <ab>Блайени яистии сердцем",</ab>
-        <ab>[йако мии] Бога узрЯт"</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S904"
+               ulx="2048.981411"
+               uly="457.931951"
+               lrx="2057.295788"
+               lry="477.541331"
+               points="2048.981411,457.931951 2057.295788,457.931951 2057.295788,477.541331 2048.981411,477.541331 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_IF #t_P #s_CY">
+            <ab>Упокои Господи</ab>
+            <ab>дуьу раба туеого</ab>
+            <ab/>
+            <ab>ВЛАДИМИР" КОВАЛ'СКИЙ</ab>
+            <ab>род: 15 октЯб 1837г.</ab>
+            <ab>сконя: 11 маЯ 1874г.</ab>
+            <ab/>
+            <ab>Блайени яистии сердцем",</ab>
+            <ab>[йако мии] Бога узрЯт"</ab>
+         </div>
+      </body>
   </text>
 </TEI>

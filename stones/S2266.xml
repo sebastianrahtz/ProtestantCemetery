@@ -1,78 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2266.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2266.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2266</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2266">
-          <msIdentifier>
-            <idno>S2266</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>186</height>
-                    <depth>10</depth>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_86 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Martha</forename>
-              <surname>Bildt</surname>
-            </persName>
-            <death when="1918"/>
-            <nationality key="SE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2266</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2266">
+               <msIdentifier>
+                  <idno>S2266</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>186</height>
+                              <depth>10</depth>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_86 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Martha</forename>
+                     <surname>Bildt</surname>
+                  </persName>
+                  <death when="1918"/>
+                  <nationality key="SE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="sv" decls="#f_T #c_3 #m_I #t_P">
-        <ab>MÄRTHA BILDT</ab>
-        <ab>FÖDD LEIJONHUFVUD</ab>
-        <ab/>
-        <ab>FÖDD I STOCKHOLM</ab>
-        <ab>DEN 12–09–1888</ab>
-        <ab>DÖD I ROM</ab>
-        <ab>DEN 15–03–1918</ab>
-        <ab/>
-        <ab rend="Alignr">II TIM.IV.18</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2266"
+               ulx="2625.1694"
+               uly="582.80064"
+               lrx="2634.278871"
+               lry="599.991746"
+               points="2625.444664,582.80064 2634.278871,582.943277 2634.003607,599.991746 2625.1694,599.849108 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="sv" decls="#f_T #c_3 #m_I #t_P">
+            <ab>MÄRTHA BILDT</ab>
+            <ab>FÖDD LEIJONHUFVUD</ab>
+            <ab/>
+            <ab>FÖDD I STOCKHOLM</ab>
+            <ab>DEN 12–09–1888</ab>
+            <ab>DÖD I ROM</ab>
+            <ab>DEN 15–03–1918</ab>
+            <ab/>
+            <ab rend="Alignr">II TIM.IV.18</ab>
+         </div>
+      </body>
   </text>
 </TEI>

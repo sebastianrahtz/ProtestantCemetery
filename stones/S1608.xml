@@ -1,77 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1608.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1608.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1608</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1608">
-          <msIdentifier>
-            <idno>S1608</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>177</height>
-                    <depth>9</depth>
-                    <width>83</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maria Justina Francis</forename>
-              <surname>Herbebt</surname>
-            </persName>
-            <death when="1872"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1608</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1608">
+               <msIdentifier>
+                  <idno>S1608</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>177</height>
+                              <depth>9</depth>
+                              <width>83</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maria Justina Francis</forename>
+                     <surname>Herbebt</surname>
+                  </persName>
+                  <death when="1872"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>MARIA JUSTINA FRANCIS</ab>
-        <ab>ELDEST DAUGHTER</ab>
-        <ab>OF THE</ab>
-        <ab>HONOURABLE GEORGE HERBERT</ab>
-        <ab>FOURTH SON OF</ab>
-        <ab>HENRY FIRST EARL OF CARNARVON</ab>
-        <ab>CHANOINESSE</ab>
-        <ab>OF ST ANNE OF BAVARIA</ab>
-        <ab>DIED AT ROME</ab>
-        <ab>25TH JANUARY 1872</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1608"
+               ulx="2249.02165"
+               uly="356.63583600000004"
+               lrx="2260.772025"
+               lry="377.12163599999997"
+               points="2249.02165,357.59269500000005 2258.875703,356.63583600000004 2260.772025,376.16477699999996 2250.917972,377.12163599999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>MARIA JUSTINA FRANCIS</ab>
+            <ab>ELDEST DAUGHTER</ab>
+            <ab>OF THE</ab>
+            <ab>HONOURABLE GEORGE HERBERT</ab>
+            <ab>FOURTH SON OF</ab>
+            <ab>HENRY FIRST EARL OF CARNARVON</ab>
+            <ab>CHANOINESSE</ab>
+            <ab>OF ST ANNE OF BAVARIA</ab>
+            <ab>DIED AT ROME</ab>
+            <ab>25TH JANUARY 1872</ab>
+         </div>
+      </body>
   </text>
 </TEI>

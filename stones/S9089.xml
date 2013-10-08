@@ -1,70 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9089.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9089.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9089</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9089">
-          <msIdentifier>
-            <idno>S9089</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-              <note>west of 2176</note>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">291</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm"/>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>49</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Irmtraut Anna</forename>
-              <surname>Tietjen</surname>
-            </persName>
-            <birth when="1934"/>
-            <death when="1983"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9089</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9089">
+               <msIdentifier>
+                  <idno>S9089</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                     <note>west of 2176</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">291</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm"/>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>49</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Irmtraut Anna</forename>
+                     <surname>Tietjen</surname>
+                  </persName>
+                  <birth when="1934"/>
+                  <death when="1983"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>IRMTRAUT ANNA</ab>
-        <ab>TIETJEN</ab>
-        <ab>*17.12.1934 +21.12.1983</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9089"
+               ulx="2721.04812"
+               uly="467.81314999999995"
+               lrx="2727.118775"
+               lry="472.209872"
+               points="2721.04812,467.81314999999995 2727.118775,467.81314999999995 2726.929067,472.209872 2721.04812,472.209872 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>IRMTRAUT ANNA</ab>
+            <ab>TIETJEN</ab>
+            <ab>*17.12.1934 +21.12.1983</ab>
+         </div>
+      </body>
   </text>
 </TEI>

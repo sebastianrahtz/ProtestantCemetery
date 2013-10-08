@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1620.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1620.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1620</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1620">
-          <msIdentifier>
-            <idno>S1620</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>197</height>
-                    <depth>2</depth>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_22 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Elizabeth</forename>
-              <surname>James</surname>
-            </persName>
-            <death when="1899"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1620</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1620">
+               <msIdentifier>
+                  <idno>S1620</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>197</height>
+                              <depth>2</depth>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_22 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elizabeth</forename>
+                     <surname>James</surname>
+                  </persName>
+                  <death when="1899"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>ELIZABETH</ab>
-        <ab>WIDOW OF THOMAS SMITH JAMES</ab>
-        <ab>OF BIRMINGHAM,ENGLAND</ab>
-        <ab>BORN AT ERDINGTON,WARWICKSHIRE APRIL 18TH 1824</ab>
-        <ab>DIED AT ROME MARCH 2ND 1899</ab>
-        <ab/>
-        <ab rend="Alignl">LORD THOU HAST BEEN OUR DWELLING PLACE,</ab>
-        <ab rend="Alignl">IN ALL GENERATIONS.</ab>
-        <ab rend="Alignr">PSALM.XC.1.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1620"
+               ulx="2450.665823"
+               uly="338.36925499999995"
+               lrx="2458.882427"
+               lry="345.155985"
+               points="2450.665823,339.035753 2458.351698,338.36925499999995 2458.882427,344.48948800000005 2451.196553,345.155985 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>ELIZABETH</ab>
+            <ab>WIDOW OF THOMAS SMITH JAMES</ab>
+            <ab>OF BIRMINGHAM,ENGLAND</ab>
+            <ab>BORN AT ERDINGTON,WARWICKSHIRE APRIL 18TH 1824</ab>
+            <ab>DIED AT ROME MARCH 2ND 1899</ab>
+            <ab/>
+            <ab rend="Alignl">LORD THOU HAST BEEN OUR DWELLING PLACE,</ab>
+            <ab rend="Alignl">IN ALL GENERATIONS.</ab>
+            <ab rend="Alignr">PSALM.XC.1.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

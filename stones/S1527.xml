@@ -1,74 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1527.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1527.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1527</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1527">
-          <msIdentifier>
-            <idno>S1527</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>110</height>
-                    <depth>9</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Carel Claudius</forename>
-              <surname>van Essen</surname>
-            </persName>
-            <death when="1963"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1527</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1527">
+               <msIdentifier>
+                  <idno>S1527</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>110</height>
+                              <depth>9</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Carel Claudius</forename>
+                     <surname>van Essen</surname>
+                  </persName>
+                  <death when="1963"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_T #c_2 #m_I #t_P">
-        <ab>HIC IACET</ab>
-        <ab>CAREL CLAUDIUS VAN ESSEN</ab>
-        <ab>AMSTERDAM. ROMA</ab>
-        <ab>26.7.1899 - 31.5.1963</ab>
-        <ab>DOCTOR STUDIIS CLASSICIS</ab>
-        <ab>PRO-DIRECTOR</ab>
-        <ab>INSTITUTI HISTORICI NEERLANDENSIS</ab>
-        <ab>CIVIS BONUS</ab>
-        <ab>UTRIUSQUE PATRIAE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1527"
+               ulx="2361.905102"
+               uly="255.47985000000006"
+               lrx="2369.518008"
+               lry="267.69503699999996"
+               points="2361.905102,256.03532800000005 2368.542168,255.47985000000006 2369.518008,267.13955899999996 2362.880942,267.69503699999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_T #c_2 #m_I #t_P">
+            <ab>HIC IACET</ab>
+            <ab>CAREL CLAUDIUS VAN ESSEN</ab>
+            <ab>AMSTERDAM. ROMA</ab>
+            <ab>26.7.1899 - 31.5.1963</ab>
+            <ab>DOCTOR STUDIIS CLASSICIS</ab>
+            <ab>PRO-DIRECTOR</ab>
+            <ab>INSTITUTI HISTORICI NEERLANDENSIS</ab>
+            <ab>CIVIS BONUS</ab>
+            <ab>UTRIUSQUE PATRIAE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

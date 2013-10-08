@@ -1,101 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2100.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2100.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2100</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2100">
-          <msIdentifier>
-            <idno>S2100</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1079</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>164</height>
-                    <depth>52</depth>
-                    <width>68</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_116 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Henry Thornhill</forename>
-              <surname>Timmins</surname>
-            </persName>
-            <death when="1908"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Laura Elizabeth</forename>
-              <surname>Timmins</surname>
-            </persName>
-            <death when="1943"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2100</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2100">
+               <msIdentifier>
+                  <idno>S2100</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1079</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>164</height>
+                              <depth>52</depth>
+                              <width>68</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_116 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henry Thornhill</forename>
+                     <surname>Timmins</surname>
+                  </persName>
+                  <death when="1908"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Laura Elizabeth</forename>
+                     <surname>Timmins</surname>
+                  </persName>
+                  <death when="1943"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>HENRY THORNHILL TIMMINS</ab>
-        <ab/>
-        <ab>BORN IN BIRMINGHAM JANUARY 4 1856</ab>
-        <ab>DIED IN ROME FEBRUARY 4 1908</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_S">
-        <ab>BENEATH THIS CROSS</ab>
-        <ab>ARE BURIED THE ASHES OF</ab>
-        <ab>LAURA ELIZABETH TIMMINS</ab>
-        <ab>HIS BELOVED AND LOVING WIFE</ab>
-        <ab>*1856</ab>
-        <ab>+1943</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2100"
+               ulx="2668.425843"
+               uly="301.32378700000004"
+               lrx="2675.741873"
+               lry="305.31071799999995"
+               points="2668.425843,301.390725 2675.70583,301.32378700000004 2675.741873,305.24378 2668.461886,305.31071799999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>HENRY THORNHILL TIMMINS</ab>
+            <ab/>
+            <ab>BORN IN BIRMINGHAM JANUARY 4 1856</ab>
+            <ab>DIED IN ROME FEBRUARY 4 1908</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_S">
+            <ab>BENEATH THIS CROSS</ab>
+            <ab>ARE BURIED THE ASHES OF</ab>
+            <ab>LAURA ELIZABETH TIMMINS</ab>
+            <ab>HIS BELOVED AND LOVING WIFE</ab>
+            <ab>*1856</ab>
+            <ab>+1943</ab>
+         </div>
+      </body>
   </text>
 </TEI>

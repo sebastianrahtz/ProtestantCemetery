@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S163.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S163.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 163</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S163">
-          <msIdentifier>
-            <idno>S163</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>101</height>
-                    <depth>15</depth>
-                    <width>55</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_123 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>73</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Frank Lidgett</forename>
-              <surname>McDougall</surname>
-            </persName>
-            <death when="1958-02-15"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 163</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S163">
+               <msIdentifier>
+                  <idno>S163</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>101</height>
+                              <depth>15</depth>
+                              <width>55</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_123 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>73</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Frank Lidgett</forename>
+                     <surname>McDougall</surname>
+                  </persName>
+                  <death when="1958-02-15"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>FRANK LIDGETT</ab>
-        <ab>McDOUGALL</ab>
-        <ab>WHO NOBLY SERVED</ab>
-        <ab>HIS GENERATION</ab>
-        <ab>JOINED THE BLESSED</ab>
-        <ab>COMPANY OF ALL</ab>
-        <ab>FAITHFUL PEOPLE</ab>
-        <ab>FEBRUARY 15 1958</ab>
-        <ab>AGED 73 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S163"
+               ulx="1238.917671"
+               uly="293.222797"
+               lrx="1246.375438"
+               lry="295.472449"
+               points="1246.375438,293.400797 1238.976904,293.222797 1238.917671,295.294449 1246.316204,295.472449 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>FRANK LIDGETT</ab>
+            <ab>McDOUGALL</ab>
+            <ab>WHO NOBLY SERVED</ab>
+            <ab>HIS GENERATION</ab>
+            <ab>JOINED THE BLESSED</ab>
+            <ab>COMPANY OF ALL</ab>
+            <ab>FAITHFUL PEOPLE</ab>
+            <ab>FEBRUARY 15 1958</ab>
+            <ab>AGED 73 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

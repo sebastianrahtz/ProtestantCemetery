@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2512.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2512.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2512</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2512">
-          <msIdentifier>
-            <idno>S2512</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1309</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>100</height>
-                    <depth>10</depth>
-                    <width>54</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Elsie Unwin</forename>
-              <surname>Bragg</surname>
-            </persName>
-            <death when="1916"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Alec</forename>
-              <surname>Bragg</surname>
-            </persName>
-            <death when="1928"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2512</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2512">
+               <msIdentifier>
+                  <idno>S2512</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1309</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>100</height>
+                              <depth>10</depth>
+                              <width>54</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elsie Unwin</forename>
+                     <surname>Bragg</surname>
+                  </persName>
+                  <death when="1916"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Alec</forename>
+                     <surname>Bragg</surname>
+                  </persName>
+                  <death when="1928"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>ELSIE,</ab>
-        <ab>DAUGHTER OF</ab>
-        <ab>REV.D JOHN HARDING UNWIN</ab>
-        <ab>OF BELTHORN NEAR BLACKBURN</ab>
-        <ab>AND WIFE OF</ab>
-        <ab>ALEXANDER WISELY BRAGG</ab>
-        <ab>OF BLACKBURN.</ab>
-        <ab>DIED IN ROME,12TH JAN.Y,1916</ab>
-        <ab>AND OF HER HUSBAND</ab>
-        <ab>ALEC</ab>
-        <ab>DIED IN ROME 20TH MAY 1928</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2512"
+               ulx="2922.386892"
+               uly="366.489511"
+               lrx="2927.851332"
+               lry="369.99623799999995"
+               points="2922.386892,366.49609899999996 2927.847109,366.489511 2927.851332,369.989651 2922.391115,369.99623799999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>ELSIE,</ab>
+            <ab>DAUGHTER OF</ab>
+            <ab>REV.D JOHN HARDING UNWIN</ab>
+            <ab>OF BELTHORN NEAR BLACKBURN</ab>
+            <ab>AND WIFE OF</ab>
+            <ab>ALEXANDER WISELY BRAGG</ab>
+            <ab>OF BLACKBURN.</ab>
+            <ab>DIED IN ROME,12TH JAN.Y,1916</ab>
+            <ab>AND OF HER HUSBAND</ab>
+            <ab>ALEC</ab>
+            <ab>DIED IN ROME 20TH MAY 1928</ab>
+         </div>
+      </body>
   </text>
 </TEI>

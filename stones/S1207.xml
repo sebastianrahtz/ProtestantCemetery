@@ -1,89 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1207.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1207.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1207</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1207">
-          <msIdentifier>
-            <idno>S1207</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2003</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>177</height>
-                    <depth>29</depth>
-                    <width>82</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Richard</forename>
-              <surname>Wyatt</surname>
-            </persName>
-            <death when="1850"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1207</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1207">
+               <msIdentifier>
+                  <idno>S1207</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2003</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>177</height>
+                              <depth>29</depth>
+                              <width>82</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Richard</forename>
+                     <surname>Wyatt</surname>
+                  </persName>
+                  <death when="1850"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>TO THE MEMORY</ab>
-        <ab>OF RICHARD WYATT SCULPTOR</ab>
-        <ab>BORN IN LONDON ON THE 3. OF MAY 1850.</ab>
-        <ab>HE PRACTISED HIS ART IN ROME</ab>
-        <ab>29 YEARS.</ab>
-        <ab>HIS WORKS WERE UNIVERSALLY ADMIRED</ab>
-        <ab>FOR THEIR PURITY OF TASTE GRACE</ab>
-        <ab>AND TRUTH OF NATURE.</ab>
-        <ab>THE PRODUCTIONS OF HIS GENIUS ADORN</ab>
-        <ab>THE ROYAL PALACES OF ENGLAND</ab>
-        <ab>ST. PETERSBURG AND NAPLES</ab>
-        <ab>AS WELL AS THE RESIDENCES OF THE NOBILITY</ab>
-        <ab>AND GENTRY OF HIS OWN COUNTRY.</ab>
-        <ab>HE WAS REMARKABLE FOR HIS MODESTY HIS</ab>
-        <ab>HIGH SENSE OF HONOR AND BENEVOLENCE.</ab>
-        <ab>ERECTED BY IOHN GIBSON R.A. SCULPTOR</ab>
-        <ab>AS A TOKEN OF AFFECTION AND ADMIRATION</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1207"
+               ulx="1337.16777"
+               uly="554.8312540000001"
+               lrx="1348.273857"
+               lry="576.743263"
+               points="1337.16777,554.8312540000001 1348.273857,554.8312540000001 1348.273857,576.743263 1337.16777,576.743263 ">
+            <graphic url="film:_H/26496"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>TO THE MEMORY</ab>
+            <ab>OF RICHARD WYATT SCULPTOR</ab>
+            <ab>BORN IN LONDON ON THE 3. OF MAY 1850.</ab>
+            <ab>HE PRACTISED HIS ART IN ROME</ab>
+            <ab>29 YEARS.</ab>
+            <ab>HIS WORKS WERE UNIVERSALLY ADMIRED</ab>
+            <ab>FOR THEIR PURITY OF TASTE GRACE</ab>
+            <ab>AND TRUTH OF NATURE.</ab>
+            <ab>THE PRODUCTIONS OF HIS GENIUS ADORN</ab>
+            <ab>THE ROYAL PALACES OF ENGLAND</ab>
+            <ab>ST. PETERSBURG AND NAPLES</ab>
+            <ab>AS WELL AS THE RESIDENCES OF THE NOBILITY</ab>
+            <ab>AND GENTRY OF HIS OWN COUNTRY.</ab>
+            <ab>HE WAS REMARKABLE FOR HIS MODESTY HIS</ab>
+            <ab>HIGH SENSE OF HONOR AND BENEVOLENCE.</ab>
+            <ab>ERECTED BY IOHN GIBSON R.A. SCULPTOR</ab>
+            <ab>AS A TOKEN OF AFFECTION AND ADMIRATION</ab>
+         </div>
+      </body>
   </text>
 </TEI>

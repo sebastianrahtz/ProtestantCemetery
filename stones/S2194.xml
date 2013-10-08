@@ -1,86 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2194.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2194.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2194</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2194">
-          <msIdentifier>
-            <idno>S2194</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1208</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>220</height>
-                    <dim type="diameter">90</dim>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>On the column are 6 standing figures, all semi-nude and all holding hands. Classical mourning scene executed in a more modern style.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_30 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces">round</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Henriette</forename>
-              <surname>Hertz</surname>
-            </persName>
-            <death when="1913"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2194</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2194">
+               <msIdentifier>
+                  <idno>S2194</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1208</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>220</height>
+                              <dim type="diameter">90</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>On the column are 6 standing figures, all semi-nude and all holding hands. Classical mourning scene executed in a more modern style.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_30 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">round</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Henriette</forename>
+                     <surname>Hertz</surname>
+                  </persName>
+                  <death when="1913"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_R #c_ #m_I #t_P">
-        <ab>HENRIETTE HERTZ GEB.6.1.1846.KÖLN.HEVREKA GEST 9.4.1913.ROM</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_R #c_2 #m_I #t_M">
-        <ab>OTTO PLACZEK</ab>
-        <ab>SCULPTORE</ab>
-        <ab>BERLIN 1923</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2194"
+               ulx="2652.836124"
+               uly="497.00800200000003"
+               lrx="2660.624263"
+               lry="505.569608"
+               points="2653.107975,497.00800200000003 2660.624263,497.25371299999995 2660.352412,505.569608 2652.836124,505.323897 ">
+            <graphic url="film:_H/26203"/>
+            <graphic url="film:_H/26204"/>
+            <graphic url="film:_H/26205"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_R #c_ #m_I #t_P">
+            <ab>HENRIETTE HERTZ GEB.6.1.1846.KÖLN.HEVREKA GEST 9.4.1913.ROM</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_R #c_2 #m_I #t_M">
+            <ab>OTTO PLACZEK</ab>
+            <ab>SCULPTORE</ab>
+            <ab>BERLIN 1923</ab>
+         </div>
+      </body>
   </text>
 </TEI>

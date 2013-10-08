@@ -1,108 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S305.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S305.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 305</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S305">
-          <msIdentifier>
-            <idno>S305</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1694</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>280</height>
-                    <depth>36</depth>
-                    <width>93</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_N"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>86</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Christian</forename>
-              <surname>Reinhart</surname>
-            </persName>
-            <birth when="1761-01-24">
-              <placeName>
-                <settlement>Franken</settlement>
-                <country>Germany</country>
-              </placeName>
-            </birth>
-            <death when="1847-06-09">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="DE"/>
-            <occupation>painter "hofmaler"</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 305</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S305">
+               <msIdentifier>
+                  <idno>S305</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1694</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>280</height>
+                              <depth>36</depth>
+                              <width>93</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_N"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>86</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Christian</forename>
+                     <surname>Reinhart</surname>
+                  </persName>
+                  <birth when="1761-01-24">
+                     <placeName>
+                        <settlement>Franken</settlement>
+                        <country>Germany</country>
+                     </placeName>
+                  </birth>
+                  <death when="1847-06-09">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="DE"/>
+                  <occupation>painter "hofmaler"</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_I #t_P">
-        <ab>I.CHRISTIAN REINHART</ab>
-        <ab>KOENIGL.BAIERSCHER HOFMALER</ab>
-        <ab>GEBOREN</ab>
-        <ab>ZV HOF IN OBER FRANKEN</ab>
-        <ab>DEN XXIV IANVAR MDCCLXI</ab>
-        <ab>GESTORBEN</ab>
-        <ab>IN ROM DEN IX IVNI MDCCCXLVII</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_N #c_1 #m_I #t_PC">
-        <ab>IHM ERRICHTET</ab>
-        <ab>VON SEINEN FREVNDEN</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S305"
+               ulx="987.583083"
+               uly="458.54585899999995"
+               lrx="999.798472"
+               lry="467.120218"
+               points="999.798472,458.83400800000004 987.819862,458.54585899999995 987.583083,466.83206900000005 999.561694,467.120218 ">
+            <graphic url="film:_H/26173"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_I #t_P">
+            <ab>I.CHRISTIAN REINHART</ab>
+            <ab>KOENIGL.BAIERSCHER HOFMALER</ab>
+            <ab>GEBOREN</ab>
+            <ab>ZV HOF IN OBER FRANKEN</ab>
+            <ab>DEN XXIV IANVAR MDCCLXI</ab>
+            <ab>GESTORBEN</ab>
+            <ab>IN ROM DEN IX IVNI MDCCCXLVII</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_N #c_1 #m_I #t_PC">
+            <ab>IHM ERRICHTET</ab>
+            <ab>VON SEINEN FREVNDEN</ab>
+         </div>
+      </body>
   </text>
 </TEI>

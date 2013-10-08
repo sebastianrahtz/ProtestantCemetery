@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S291.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S291.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 291</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S291">
-          <msIdentifier>
-            <idno>S291</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>173</height>
-                    <depth>19</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>84</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Elizabeth Brinkerhoff</forename>
-              <surname>Wyckoff</surname>
-            </persName>
-            <birth when="1813-03-18">
-              <placeName>
-                <settlement>New York</settlement>
-                <country>USA</country>
-              </placeName>
-            </birth>
-            <death when="1897-12-24">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 291</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S291">
+               <msIdentifier>
+                  <idno>S291</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>173</height>
+                              <depth>19</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>84</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elizabeth Brinkerhoff</forename>
+                     <surname>Wyckoff</surname>
+                  </persName>
+                  <birth when="1813-03-18">
+                     <placeName>
+                        <settlement>New York</settlement>
+                        <country>USA</country>
+                     </placeName>
+                  </birth>
+                  <death when="1897-12-24">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IC #t_P">
-        <ab>ELIZABETH BRINKERHOFF WYCKOFF</ab>
-        <ab>WIDOW OF HENRY S. WYCKOFF</ab>
-        <ab>BORN IN NEW YORK, MARCH 18TH 1813.</ab>
-        <ab>DIED IN ROME, DECEMBER 24TH 1897.</ab>
-        <ab>AGED 84 YEARS.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S291"
+               ulx="1062.877544"
+               uly="432.36843899999997"
+               lrx="1074.935029"
+               lry="435.41852600000004"
+               points="1074.935029,432.65658800000006 1062.956419,432.36843899999997 1062.877544,435.13037599999996 1074.856155,435.41852600000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IC #t_P">
+            <ab>ELIZABETH BRINKERHOFF WYCKOFF</ab>
+            <ab>WIDOW OF HENRY S. WYCKOFF</ab>
+            <ab>BORN IN NEW YORK, MARCH 18TH 1813.</ab>
+            <ab>DIED IN ROME, DECEMBER 24TH 1897.</ab>
+            <ab>AGED 84 YEARS.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

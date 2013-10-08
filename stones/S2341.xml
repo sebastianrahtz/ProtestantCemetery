@@ -1,79 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2341.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2341.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2341</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2341">
-          <msIdentifier>
-            <idno>S2341</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>79</height>
-                    <depth>34</depth>
-                    <width>34</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ljuboqka</forename>
-              <surname>Ketova</surname>
-            </persName>
-            <death when="1916"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2341</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2341">
+               <msIdentifier>
+                  <idno>S2341</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>79</height>
+                              <depth>34</depth>
+                              <width>34</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ljuboqka</forename>
+                     <surname>Ketova</surname>
+                  </persName>
+                  <death when="1916"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_P #s_CY">
-        <ab>ЛЙУБОЯКА КЕТОВА</ab>
-        <ab>РОД. 17 ЙАНУАРЯ 1914</ab>
-        <ab>СКОНЯ. 25 ЙАНУАРЯ 1916</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_PC #s_CY">
-        <ab>СПИ СПОКОЙНО НАЬА МИЛАЯ КВОЬКА</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2341"
+               ulx="2672.693335"
+               uly="697.263187"
+               lrx="2679.098925"
+               lry="702.594205"
+               points="2672.74396,697.263187 2679.098925,697.3242339999999 2679.048299,702.594205 2672.693335,702.5331570000001 ">
+            <graphic url="film:G/12"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_P #s_CY">
+            <ab>ЛЙУБОЯКА КЕТОВА</ab>
+            <ab>РОД. 17 ЙАНУАРЯ 1914</ab>
+            <ab>СКОНЯ. 25 ЙАНУАРЯ 1916</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_PC #s_CY">
+            <ab>СПИ СПОКОЙНО НАЬА МИЛАЯ КВОЬКА</ab>
+         </div>
+      </body>
   </text>
 </TEI>

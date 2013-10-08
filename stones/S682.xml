@@ -1,93 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S682.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S682.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 682</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S682">
-          <msIdentifier>
-            <idno>S682</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2176</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>136</height>
-                    <depth>15</depth>
-                    <width>69</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_164 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Avarilla</forename>
-              <surname>Savery</surname>
-            </persName>
-            <death when="1861"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 682</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S682">
+               <msIdentifier>
+                  <idno>S682</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2176</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>136</height>
+                              <depth>15</depth>
+                              <width>69</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_164 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Avarilla</forename>
+                     <surname>Savery</surname>
+                  </persName>
+                  <death when="1861"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>IN MEMORY OF</ab>
-        <ab>AVARILLA</ab>
-        <ab>ONLY DAUGHTER OF</ab>
-        <ab>CHARLES SAVERY ESQR</ab>
-        <ab>OF CLIFTON ENGLAND</ab>
-        <ab>DIED AT ROME 12TH MAY 1861</ab>
-        <ab>AGED 30 YEARS</ab>
-        <ab/>
-        <ab>BUT GOD WILL REDEEM MY</ab>
-        <ab>SOUL FROM THE POWER OF</ab>
-        <ab>THE GRAVE: FOR HE SHALL</ab>
-        <ab rend="Alignl">RECEIVE ME.</ab>
-        <ab rend="Alignr">PSALM 49 V 15</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S682"
+               ulx="1709.231688"
+               uly="328.407157"
+               lrx="1718.676864"
+               lry="330.64838499999996"
+               points="1710.192214,331.60891200000003 1718.356689,331.60891200000003 1716.275548,352.26023 1710.352302,352.26023 1710.192214,331.60891200000003 1709.231688,328.407157 1718.676864,328.407157 1718.676864,330.64838499999996 1709.231688,330.64838499999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>IN MEMORY OF</ab>
+            <ab>AVARILLA</ab>
+            <ab>ONLY DAUGHTER OF</ab>
+            <ab>CHARLES SAVERY ESQR</ab>
+            <ab>OF CLIFTON ENGLAND</ab>
+            <ab>DIED AT ROME 12TH MAY 1861</ab>
+            <ab>AGED 30 YEARS</ab>
+            <ab/>
+            <ab>BUT GOD WILL REDEEM MY</ab>
+            <ab>SOUL FROM THE POWER OF</ab>
+            <ab>THE GRAVE: FOR HE SHALL</ab>
+            <ab rend="Alignl">RECEIVE ME.</ab>
+            <ab rend="Alignr">PSALM 49 V 15</ab>
+         </div>
+      </body>
   </text>
 </TEI>

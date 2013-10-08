@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1593.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1593.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1593</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1593">
-          <msIdentifier>
-            <idno>S1593</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1244</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>65</height>
-                    <depth>5</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Else</forename>
-              <surname>Perdelwitz</surname>
-            </persName>
-            <death when="1896"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1593</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1593">
+               <msIdentifier>
+                  <idno>S1593</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1244</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>65</height>
+                              <depth>5</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Else</forename>
+                     <surname>Perdelwitz</surname>
+                  </persName>
+                  <death when="1896"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>ELSE PERDELWITZ</ab>
-        <ab>GEB. 25 AUGUST 1895, GEST. 13 JULI 1896</ab>
-        <ab/>
-        <ab rend="Alignl">HIER UNTER TIEFEM SCHATTEN</ab>
-        <ab rend="Alignl">SCHLAEFST DU IN GUTER RUH</ab>
-        <ab rend="Alignl">ES DECKT MIT GRUENEN MATTEN</ab>
-        <ab rend="Alignl">DER LIEBE GOTT DICH ZU</ab>
-        <ab/>
-        <ab rend="Alignl">UND WIE IN GOLDENEN TRAEUMEN</ab>
-        <ab rend="Alignl">GEHT LINDER FRUEHLINGSWIND</ab>
-        <ab rend="Alignl">RINGS IN DEN STILLEN BAEUMEN</ab>
-        <ab rend="Alignl">SCHLAF WOHL MEIN SUESSES KIND</ab>
-        <ab/>
-        <ab rend="Alignr">MEINER UNVERGESSLICHEN ELSE</ab>
-        <ab rend="Alignr">VON IHRER MUTTER</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1593"
+               ulx="2299.429139"
+               uly="323.82783700000005"
+               lrx="2305.933263"
+               lry="325.98679100000004"
+               points="2299.429139,324.19437200000004 2305.830632,323.82783700000005 2305.933263,325.62025500000004 2299.531769,325.98679100000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>ELSE PERDELWITZ</ab>
+            <ab>GEB. 25 AUGUST 1895, GEST. 13 JULI 1896</ab>
+            <ab/>
+            <ab rend="Alignl">HIER UNTER TIEFEM SCHATTEN</ab>
+            <ab rend="Alignl">SCHLAEFST DU IN GUTER RUH</ab>
+            <ab rend="Alignl">ES DECKT MIT GRUENEN MATTEN</ab>
+            <ab rend="Alignl">DER LIEBE GOTT DICH ZU</ab>
+            <ab/>
+            <ab rend="Alignl">UND WIE IN GOLDENEN TRAEUMEN</ab>
+            <ab rend="Alignl">GEHT LINDER FRUEHLINGSWIND</ab>
+            <ab rend="Alignl">RINGS IN DEN STILLEN BAEUMEN</ab>
+            <ab rend="Alignl">SCHLAF WOHL MEIN SUESSES KIND</ab>
+            <ab/>
+            <ab rend="Alignr">MEINER UNVERGESSLICHEN ELSE</ab>
+            <ab rend="Alignr">VON IHRER MUTTER</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,77 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S800.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S800.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 800</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S800">
-          <msIdentifier>
-            <idno>S800</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>180</height>
-                    <depth>10</depth>
-                    <width>86</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_13 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename/>
-              <surname>Theoktista</surname>
-            </persName>
-            <death when="1872"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 800</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S800">
+               <msIdentifier>
+                  <idno>S800</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>180</height>
+                              <depth>10</depth>
+                              <width>86</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_13 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename/>
+                     <surname>Theoktista</surname>
+                  </persName>
+                  <death when="1872"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IF #t_P #s_CY">
-        <ab>Здес покоитсЯ працх"</ab>
-        <ab>АРЦХИМАНДРИТА ТХЕОКТИСТА</ab>
-        <ab>НастойателЯ Скожородскагожъ Нож=</ab>
-        <ab>гуродѣ МонастырЯ застигнутаго</ab>
-        <ab>смертийу жъ Римѣ на пути ж" Российу</ab>
-        <ab>из" сжЯтой земл:</ab>
-        <ab/>
-        <ab>СконяалсЯ 23 лйулЯ 1872г. на 70 годуйизни</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S800"
+               ulx="1690.549344"
+               uly="390.475683"
+               lrx="1701.812785"
+               lry="412.25704299999995"
+               points="1691.149441,390.475683 1701.812785,390.773542 1701.212687,412.25704299999995 1690.549344,411.95918400000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IF #t_P #s_CY">
+            <ab>Здес покоитсЯ працх"</ab>
+            <ab>АРЦХИМАНДРИТА ТХЕОКТИСТА</ab>
+            <ab>НастойателЯ Скожородскагожъ Нож=</ab>
+            <ab>гуродѣ МонастырЯ застигнутаго</ab>
+            <ab>смертийу жъ Римѣ на пути ж" Российу</ab>
+            <ab>из" сжЯтой земл:</ab>
+            <ab/>
+            <ab>СконяалсЯ 23 лйулЯ 1872г. на 70 годуйизни</ab>
+         </div>
+      </body>
   </text>
 </TEI>

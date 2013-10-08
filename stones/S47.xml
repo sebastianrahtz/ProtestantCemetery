@@ -1,78 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S47.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S47.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 47</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S47">
-          <msIdentifier>
-            <idno>S47</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">150</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>74</height>
-                    <width>57</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 58)</summary>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>2</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Lucia</forename>
-              <surname>Edwardes</surname>
-            </persName>
-            <birth when="1817"/>
-            <death when="1819-12-15"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 47</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S47">
+               <msIdentifier>
+                  <idno>S47</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">150</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>74</height>
+                              <width>57</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 58)</summary>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>2</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Lucia</forename>
+                     <surname>Edwardes</surname>
+                  </persName>
+                  <birth when="1817"/>
+                  <death when="1819-12-15"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_T #c_3 #m_IC #t_P">
-        <ab>MORTALES RELIQVIAE</ab>
-        <ab>HONORABILIS</ab>
-        <ab>LVCIAE.EDWARDES</ab>
-        <ab>GVLIELMI</ab>
-        <ab>BARONIS.DE.KENSINGTON</ab>
-        <ab>HIBERNIAE.PATRICII</ab>
-        <ab>ET DOROTHEAE.VXORIS.SVAE</ab>
-        <ab>FILIAE.NATV.TERTIAE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S47"
+               ulx="224.083353"
+               uly="855.4284680000001"
+               lrx="236.45549899999997"
+               lry="867.800615"
+               points="232.453413,855.4284680000001 224.083353,859.430555 228.085439,867.800615 236.455499,863.798528 ">
+            <graphic url="film:_H/26332"/>
+            <graphic url="film:Y/22">
+               <desc>lettering</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_T #c_3 #m_IC #t_P">
+            <ab>MORTALES RELIQVIAE</ab>
+            <ab>HONORABILIS</ab>
+            <ab>LVCIAE.EDWARDES</ab>
+            <ab>GVLIELMI</ab>
+            <ab>BARONIS.DE.KENSINGTON</ab>
+            <ab>HIBERNIAE.PATRICII</ab>
+            <ab>ET DOROTHEAE.VXORIS.SVAE</ab>
+            <ab>FILIAE.NATV.TERTIAE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

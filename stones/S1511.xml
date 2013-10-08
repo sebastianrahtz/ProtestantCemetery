@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1511.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1511.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1511</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1511">
-          <msIdentifier>
-            <idno>S1511</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>158</height>
-                    <depth>18</depth>
-                    <width>73</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Sophia</forename>
-              <surname>Hely-Hutchinson</surname>
-            </persName>
-            <death when="1896"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1511</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1511">
+               <msIdentifier>
+                  <idno>S1511</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>158</height>
+                              <depth>18</depth>
+                              <width>73</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Sophia</forename>
+                     <surname>Hely-Hutchinson</surname>
+                  </persName>
+                  <death when="1896"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>SACRED TO THE MEMORY OF</ab>
-        <ab>SOPHIA</ab>
-        <ab>WIDOW OF</ab>
-        <ab>CAP= THE HONBLE COOTE HELY-HUTCHINSON R.N.</ab>
-        <ab>AND DAUGHTER OF</ab>
-        <ab>SIR SAMUEL SYNGE HUTCHINSON BART.</ab>
-        <ab>DIED AT ROME</ab>
-        <ab>APRIL 30 1896</ab>
-        <ab>AGED 86 YEARS</ab>
-        <ab>BLESS THE LORD O MY SOUL AND ALL THAT IS</ab>
-        <ab>WITHIN ME, BLESS HIS HOLY NAME,</ab>
-        <ab>BLESS THE LORD, O MY SOUL AND FORGET NOT</ab>
-        <ab>ALL HIS BENEFITS</ab>
-        <ab rend="Alignr">PS. 103.1.2.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1511"
+               ulx="2555.637258"
+               uly="208.164089"
+               lrx="2566.685258"
+               lry="226.76764500000002"
+               points="2555.637258,209.01397499999996 2565.088851,208.164089 2566.685258,225.91775800000005 2557.233664,226.76764500000002 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>SACRED TO THE MEMORY OF</ab>
+            <ab>SOPHIA</ab>
+            <ab>WIDOW OF</ab>
+            <ab>CAP= THE HONBLE COOTE HELY-HUTCHINSON R.N.</ab>
+            <ab>AND DAUGHTER OF</ab>
+            <ab>SIR SAMUEL SYNGE HUTCHINSON BART.</ab>
+            <ab>DIED AT ROME</ab>
+            <ab>APRIL 30 1896</ab>
+            <ab>AGED 86 YEARS</ab>
+            <ab>BLESS THE LORD O MY SOUL AND ALL THAT IS</ab>
+            <ab>WITHIN ME, BLESS HIS HOLY NAME,</ab>
+            <ab>BLESS THE LORD, O MY SOUL AND FORGET NOT</ab>
+            <ab>ALL HIS BENEFITS</ab>
+            <ab rend="Alignr">PS. 103.1.2.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

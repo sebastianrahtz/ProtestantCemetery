@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S773.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S773.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 773</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S773">
-          <msIdentifier>
-            <idno>S773</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">697</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>40</height>
-                    <depth>10</depth>
-                    <width>78</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Flemming</forename>
-              <surname>Gottlieb</surname>
-            </persName>
-            <death when="1956"/>
-            <nationality key="DK"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Erik Olaf</forename>
-              <surname>Gottlieb</surname>
-            </persName>
-            <death when="1969"/>
-            <nationality key="DK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 773</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S773">
+               <msIdentifier>
+                  <idno>S773</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">697</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>40</height>
+                              <depth>10</depth>
+                              <width>78</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Flemming</forename>
+                     <surname>Gottlieb</surname>
+                  </persName>
+                  <death when="1956"/>
+                  <nationality key="DK"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Erik Olaf</forename>
+                     <surname>Gottlieb</surname>
+                  </persName>
+                  <death when="1969"/>
+                  <nationality key="DK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="da " decls="#f_S #c_2 #m_IF #t_P">
-        <ab>FLEMMING GOTTLIEB</ab>
-        <ab>FÖDT 21 OKT. 1934 - DÖD 26 JULI 1956</ab>
-        <ab>----</ab>
-        <ab>ERIK OLAF GOTTLIEB</ab>
-        <ab>FÖDT 18 JULI 1899 - DÖD 28 DEC. 1969</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S773"
+               ulx="2069.845791"
+               uly="375.25880400000005"
+               lrx="2078.630794"
+               lry="380.43568000000005"
+               points="2069.845791,375.25880400000005 2078.630794,375.25880400000005 2078.630794,380.43568000000005 2069.845791,380.43568000000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="da " decls="#f_S #c_2 #m_IF #t_P">
+            <ab>FLEMMING GOTTLIEB</ab>
+            <ab>FÖDT 21 OKT. 1934 - DÖD 26 JULI 1956</ab>
+            <ab>----</ab>
+            <ab>ERIK OLAF GOTTLIEB</ab>
+            <ab>FÖDT 18 JULI 1899 - DÖD 28 DEC. 1969</ab>
+         </div>
+      </body>
   </text>
 </TEI>

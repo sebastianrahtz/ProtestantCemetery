@@ -1,78 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2537.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2537.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2537</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2537">
-          <msIdentifier>
-            <idno>S2537</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>168</height>
-                    <width>120</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Teodor</forename>
-              <surname>Lunberg</surname>
-            </persName>
-            <death when="1926"/>
-            <nationality key="SE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2537</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2537">
+               <msIdentifier>
+                  <idno>S2537</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>168</height>
+                              <width>120</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Teodor</forename>
+                     <surname>Lunberg</surname>
+                  </persName>
+                  <death when="1926"/>
+                  <nationality key="SE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="sv" decls="#f_T #c_3 #m_I #t_P">
-        <ab>TEODOR</ab>
-        <ab>LUNDBERG</ab>
-        <ab>STATYBILDHUGGARE</ab>
-        <ab>FÖDD I STOCKHOLM</ab>
-        <ab>21 JUNI 1852</ab>
-        <ab>DÖD I ROM</ab>
-        <ab>3 JANUARI 1926</ab>
-      </div>
-      <div type="inscription" xml:lang="sv" decls="#f_S #c_2 #m_I #t_PC">
-        <ab>KUNGL. AKADEMIEN FÖR DE FRIA KONSTERNA,</ab>
-        <ab>SVENSKA KONSTNÄRERNAS FÖRENING OCH VÄNNER LADE STENEN</ab>
-        <ab rend="Alignl">
-          <note> The second word is mis-spelt</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2537"
+               ulx="2998.168035"
+               uly="469.492253"
+               lrx="3013.48617"
+               lry="490.131252"
+               points="2998.609073,469.492253 3013.48617,469.81521599999996 3013.045133,490.131252 2998.168035,489.80828900000006 ">
+            <graphic url="film:_H/26447"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="sv" decls="#f_T #c_3 #m_I #t_P">
+            <ab>TEODOR</ab>
+            <ab>LUNDBERG</ab>
+            <ab>STATYBILDHUGGARE</ab>
+            <ab>FÖDD I STOCKHOLM</ab>
+            <ab>21 JUNI 1852</ab>
+            <ab>DÖD I ROM</ab>
+            <ab>3 JANUARI 1926</ab>
+         </div>
+         <div type="inscription" xml:lang="sv" decls="#f_S #c_2 #m_I #t_PC">
+            <ab>KUNGL. AKADEMIEN FÖR DE FRIA KONSTERNA,</ab>
+            <ab>SVENSKA KONSTNÄRERNAS FÖRENING OCH VÄNNER LADE STENEN</ab>
+            <ab rend="Alignl">
+               <note> The second word is mis-spelt</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

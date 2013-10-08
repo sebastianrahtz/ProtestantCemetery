@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S95.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S95.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 95</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S95">
-          <msIdentifier>
-            <idno>S95</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">699</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="STAT">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>145</height>
-                    <depth>34</depth>
-                    <width>32</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Bust of woman with a shawl on her head, her hands coming up to her throat.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_19 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>68</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Jia Ruskaja Eugenia</forename>
-              <surname>Borissenko</surname>
-            </persName>
-            <birth when="1902-01-06"/>
-            <death when="1970-04-19"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 95</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S95">
+               <msIdentifier>
+                  <idno>S95</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">699</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="STAT">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>145</height>
+                              <depth>34</depth>
+                              <width>32</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Bust of woman with a shawl on her head, her hands coming up to her throat.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_19 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>68</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Jia Ruskaja Eugenia</forename>
+                     <surname>Borissenko</surname>
+                  </persName>
+                  <birth when="1902-01-06"/>
+                  <death when="1970-04-19"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>ЙИА РУСКАЯ</ab>
-        <ab>ЕУГЕНИА</ab>
-        <ab>БОРИССЕНКО</ab>
-        <ab/>
-        <ab>6.И.1902</ab>
-        <ab>19.ИВ.1970</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IC #t_PC">
-        <ab>FONDATRICE DELL'ACCADEMIA</ab>
-        <ab>NAZIONALE DI DANZA</ab>
-        <ab/>
-        <ab>DEDICÓ ALL'ARTE COREUTICA</ab>
-        <ab>CON SLANCIO ED ABNEGAZIONE</ab>
-        <ab>TUTTA SE STESSA.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S95"
+               ulx="491.0332"
+               uly="701.3019750000001"
+               lrx="495.862"
+               lry="706.823675"
+               points="1030.498309,235.69310600000006 1024.509003,235.549031 1024.371085,240.38260300000002 1030.360391,240.52667799999995 1023.693228,251.76761199999999 1031.796358,251.96238300000005 1032.072573,242.29520300000001 1023.969443,242.10043199999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>ЙИА РУСКАЯ</ab>
+            <ab>ЕУГЕНИА</ab>
+            <ab>БОРИССЕНКО</ab>
+            <ab/>
+            <ab>6.И.1902</ab>
+            <ab>19.ИВ.1970</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IC #t_PC">
+            <ab>FONDATRICE DELL'ACCADEMIA</ab>
+            <ab>NAZIONALE DI DANZA</ab>
+            <ab/>
+            <ab>DEDICÓ ALL'ARTE COREUTICA</ab>
+            <ab>CON SLANCIO ED ABNEGAZIONE</ab>
+            <ab>TUTTA SE STESSA.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

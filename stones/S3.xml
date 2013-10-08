@@ -1,75 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S3.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S3.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 3</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S3">
-          <msIdentifier>
-            <idno>S3</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">179</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLW">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>42</height>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 3)</summary>
-              <decoNote type="faces">east side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>78</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Hans</forename>
-              <surname>von Hulsen</surname>
-            </persName>
-            <birth when="1890-04-05"/>
-            <death when="1968-04-14"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 3</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S3">
+               <msIdentifier>
+                  <idno>S3</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">179</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLW">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>42</height>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 3)</summary>
+                     <decoNote type="faces">east side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>78</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Hans</forename>
+                     <surname>von Hulsen</surname>
+                  </persName>
+                  <birth when="1890-04-05"/>
+                  <death when="1968-04-14"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_E #c_1 #m_IF #t_P">
-        <ab>HANS</ab>
-        <ab>VON</ab>
-        <ab>HÜLSEN</ab>
-        <ab>V APRIL MDCCCXC</ab>
-        <ab>XIV APRIL MCMLXVIII</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S3"
+               ulx="78.1813"
+               uly="908.4878759999999"
+               lrx="85.862377"
+               lry="920.7664629999999"
+               points="81.234915,908.487876 78.1813,909.773596 82.808572,920.7664629999999 85.862377,919.480726 ">
+            <graphic url="film:_H/26452"/>
+            <graphic url="film:Y/10">
+               <desc>lettering</desc>
+            </graphic>
+            <graphic url="pictures/2007_0101.jpg"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_E #c_1 #m_IF #t_P">
+            <ab>HANS</ab>
+            <ab>VON</ab>
+            <ab>HÜLSEN</ab>
+            <ab>V APRIL MDCCCXC</ab>
+            <ab>XIV APRIL MCMLXVIII</ab>
+         </div>
+      </body>
   </text>
 </TEI>

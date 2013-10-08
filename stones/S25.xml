@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S25.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S25.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 25</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S25">
-          <msIdentifier>
-            <idno>S25</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">152</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>142</height>
-                    <width>69</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 33)</summary>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>29</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Johann Heinrich Chr.</forename>
-              <surname>Silberschlag</surname>
-            </persName>
-            <birth when="1790-12-02">
-              <placeName>
-                <settlement>Magdeburg</settlement>
-                <country>Germany</country>
-              </placeName>
-            </birth>
-            <death when="1820-04-20"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 25</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S25">
+               <msIdentifier>
+                  <idno>S25</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">152</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>142</height>
+                              <width>69</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 33)</summary>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>29</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Johann Heinrich Chr.</forename>
+                     <surname>Silberschlag</surname>
+                  </persName>
+                  <birth when="1790-12-02">
+                     <placeName>
+                        <settlement>Magdeburg</settlement>
+                        <country>Germany</country>
+                     </placeName>
+                  </birth>
+                  <death when="1820-04-20"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_I #t_P">
-        <ab>IOHANN HEINRICH</ab>
-        <ab>CHR. SILBERSCHLAG</ab>
-        <ab>GEBOREN ZU MAGDEBURG</ab>
-        <ab>DEN 12 DECEMBER 1790</ab>
-        <ab>GESTORBEN ZU ROM</ab>
-        <ab>DEN 20 APRIL 1820</ab>
-        <ab>RUHE IM HERRN</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S25"
+               ulx="218.319176"
+               uly="749.0674349999999"
+               lrx="237.991166"
+               lry="771.524043"
+               points="227.235764,749.0674349999999 218.319176,754.803165 229.071915,771.524043 237.991166,765.7880640000001 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_I #t_P">
+            <ab>IOHANN HEINRICH</ab>
+            <ab>CHR. SILBERSCHLAG</ab>
+            <ab>GEBOREN ZU MAGDEBURG</ab>
+            <ab>DEN 12 DECEMBER 1790</ab>
+            <ab>GESTORBEN ZU ROM</ab>
+            <ab>DEN 20 APRIL 1820</ab>
+            <ab>RUHE IM HERRN</ab>
+         </div>
+      </body>
   </text>
 </TEI>

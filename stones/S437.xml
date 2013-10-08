@@ -1,93 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S437.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S437.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 437</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S437">
-          <msIdentifier>
-            <idno>S437</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>227</height>
-                    <depth>48</depth>
-                    <width>93</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_N"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_167 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Heinrich</forename>
-              <surname>Kuemmel</surname>
-            </persName>
-            <death when="1855"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 437</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S437">
+               <msIdentifier>
+                  <idno>S437</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>227</height>
+                              <depth>48</depth>
+                              <width>93</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_N"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_167 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Heinrich</forename>
+                     <surname>Kuemmel</surname>
+                  </persName>
+                  <death when="1855"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IC #t_P">
-        <ab>HEINRICH KVEMMEL</ab>
-        <ab>BILDHAVER</ab>
-        <ab>GEB ZV HANNOVER 11 FEBRVAR</ab>
-        <ab>MDCCCXI</ab>
-        <ab>GEST ZV ROM XXX DECEMBER</ab>
-        <ab>MDCCCLV</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_N #c_3 #m_IC #t_PC">
-        <ab>IHM ERRICHTET</ab>
-        <ab>VON SEINER SCHWESTER MARIE</ab>
-        <ab>VND</ab>
-        <ab>SEINEN FREUNDEN</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S437"
+               ulx="968.900708"
+               uly="598.018591"
+               lrx="981.359817"
+               lry="602.803469"
+               points="981.359817,598.315117 969.028813,598.018591 968.900708,602.506925 981.231521,602.803469 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IC #t_P">
+            <ab>HEINRICH KVEMMEL</ab>
+            <ab>BILDHAVER</ab>
+            <ab>GEB ZV HANNOVER 11 FEBRVAR</ab>
+            <ab>MDCCCXI</ab>
+            <ab>GEST ZV ROM XXX DECEMBER</ab>
+            <ab>MDCCCLV</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_N #c_3 #m_IC #t_PC">
+            <ab>IHM ERRICHTET</ab>
+            <ab>VON SEINER SCHWESTER MARIE</ab>
+            <ab>VND</ab>
+            <ab>SEINEN FREUNDEN</ab>
+         </div>
+      </body>
   </text>
 </TEI>

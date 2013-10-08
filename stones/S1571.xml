@@ -1,93 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1571.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1571.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1571</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1571">
-          <msIdentifier>
-            <idno>S1571</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2484</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>65</height>
-                    <depth>20</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Sophie</forename>
-              <surname>Haig</surname>
-            </persName>
-            <death when="1878"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1571</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1571">
+               <msIdentifier>
+                  <idno>S1571</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2484</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>65</height>
+                              <depth>20</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Sophie</forename>
+                     <surname>Haig</surname>
+                  </persName>
+                  <death when="1878"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>SOPHIE</ab>
-        <ab>WHO DEPARTED THIS LIFE</ab>
-        <ab>AT</ab>
-        <ab>VILLA HAIG MONTI PARIOLI</ab>
-        <ab>ROME</ab>
-        <ab>ON THE 8 NOV. 1878</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_S">
-        <ab>LAST SURVIVING DAUGHTER</ab>
-        <ab>OF</ab>
-        <ab>JAMES HAIG ESQRE</ab>
-        <ab>OF BEMERSYDE BERWICKSHIRE</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_S">
-        <ab>LAST SURVIVING DAUGHTER</ab>
-        <ab>OF</ab>
-        <ab>JAMES HAIG ESQRE</ab>
-        <ab>OF BEMERSYDE BERWICKSHIRE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1571"
+               ulx="2550.834445"
+               uly="300.298758"
+               lrx="2557.594325"
+               lry="303.398511"
+               points="2550.834445,300.83553100000006 2557.384283,300.298758 2557.594325,302.86173900000006 2551.044486,303.398511 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>SOPHIE</ab>
+            <ab>WHO DEPARTED THIS LIFE</ab>
+            <ab>AT</ab>
+            <ab>VILLA HAIG MONTI PARIOLI</ab>
+            <ab>ROME</ab>
+            <ab>ON THE 8 NOV. 1878</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_S">
+            <ab>LAST SURVIVING DAUGHTER</ab>
+            <ab>OF</ab>
+            <ab>JAMES HAIG ESQRE</ab>
+            <ab>OF BEMERSYDE BERWICKSHIRE</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_S">
+            <ab>LAST SURVIVING DAUGHTER</ab>
+            <ab>OF</ab>
+            <ab>JAMES HAIG ESQRE</ab>
+            <ab>OF BEMERSYDE BERWICKSHIRE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,88 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1542.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1542.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1542</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1542">
-          <msIdentifier>
-            <idno>S1542</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>122</height>
-                    <depth>15</depth>
-                    <width>69</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_86 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Harriet Lucy</forename>
-              <surname>Ferrando</surname>
-            </persName>
-            <death when="1869"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1542</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1542">
+               <msIdentifier>
+                  <idno>S1542</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>122</height>
+                              <depth>15</depth>
+                              <width>69</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_86 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Harriet Lucy</forename>
+                     <surname>Ferrando</surname>
+                  </persName>
+                  <death when="1869"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>HARRIET LUCY</ab>
-        <ab>WIFE OF</ab>
-        <ab>SALVADOR FERRANDO</ab>
-        <ab>DIED</ab>
-        <ab>15 DECEMBER 1869</ab>
-        <ab>AGED 37 YEARS</ab>
-        <ab>------ . ------</ab>
-        <ab>LOOKING UNTO JESUS THE AUTHOR</ab>
-        <ab>AND FINISHER OF OUR FAITH</ab>
-        <ab>HEB XII PART OF II.V.</ab>
-        <ab>------ . ------</ab>
-        <ab>THIS MONUMENT IS PLACED</ab>
-        <ab>TO HER MEMORY BY HER</ab>
-        <ab>PARENTS WM AND MARY ANN LOWE</ab>
-        <ab>------ . ------</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1542"
+               ulx="2231.116709"
+               uly="298.723253"
+               lrx="2239.252768"
+               lry="301.85733000000005"
+               points="2231.116709,299.430436 2239.03605,298.723253 2239.252768,301.15014699999995 2231.333426,301.85733000000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>HARRIET LUCY</ab>
+            <ab>WIFE OF</ab>
+            <ab>SALVADOR FERRANDO</ab>
+            <ab>DIED</ab>
+            <ab>15 DECEMBER 1869</ab>
+            <ab>AGED 37 YEARS</ab>
+            <ab>------ . ------</ab>
+            <ab>LOOKING UNTO JESUS THE AUTHOR</ab>
+            <ab>AND FINISHER OF OUR FAITH</ab>
+            <ab>HEB XII PART OF II.V.</ab>
+            <ab>------ . ------</ab>
+            <ab>THIS MONUMENT IS PLACED</ab>
+            <ab>TO HER MEMORY BY HER</ab>
+            <ab>PARENTS WM AND MARY ANN LOWE</ab>
+            <ab>------ . ------</ab>
+         </div>
+      </body>
   </text>
 </TEI>

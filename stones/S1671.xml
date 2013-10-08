@@ -1,106 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1671.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1671.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1671</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1671">
-          <msIdentifier>
-            <idno>S1671</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">216</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>225</height>
-                    <depth>65</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>On the E face there are three supposedly classical figures, one at each corner and one in the middle. The one in the SW corner is of a man holding a scroll with a bird, presumably a dove, at his feet. The man may be Christ. The middle one shows a male figure standing on a sheep and holding a lyre and a possible paint brush. He is next to a tree with a dove(?) in it. He could be Apollo. The one in the NE corner shows a man holding a possible scroll.</summary>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_E"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Alice</forename>
-              <surname>Scotti</surname>
-            </persName>
-            <death when="1886"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Giacomo</forename>
-              <surname>Tofani</surname>
-            </persName>
-            <death when="1949"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maria Elena</forename>
-              <surname>Scotti</surname>
-            </persName>
-            <death when="1888"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1671</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1671">
+               <msIdentifier>
+                  <idno>S1671</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">216</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>225</height>
+                              <depth>65</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>On the E face there are three supposedly classical figures, one at each corner and one in the middle. The one in the SW corner is of a man holding a scroll with a bird, presumably a dove, at his feet. The man may be Christ. The middle one shows a male figure standing on a sheep and holding a lyre and a possible paint brush. He is next to a tree with a dove(?) in it. He could be Apollo. The one in the NE corner shows a man holding a possible scroll.</summary>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_E"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Alice</forename>
+                     <surname>Scotti</surname>
+                  </persName>
+                  <death when="1886"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Giacomo</forename>
+                     <surname>Tofani</surname>
+                  </persName>
+                  <death when="1949"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maria Elena</forename>
+                     <surname>Scotti</surname>
+                  </persName>
+                  <death when="1888"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>ALICE SCOTTI</ab>
-        <ab>* ROMA 17.11.1886 + ROMA 28.11.1886</ab>
-        <ab>MARIA ELENA SCOTTI</ab>
-        <ab>* MONZA 28.5.1884 + ROMA 2.2.1888</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IC #t_P">
-        <ab>ROMA 11.2.1923 GIACOMO TOFANI B.S.M.I.T. 48 + CAMBRIDGE.V.S.A.3.2.1949</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1671"
+               ulx="2312.960588"
+               uly="408.498017"
+               lrx="2323.584871"
+               lry="427.389906"
+               points="2312.960588,409.322276 2321.923272,408.498017 2323.584871,426.565648 2314.622188,427.389906 ">
+            <graphic url="film:X/31">
+               <desc>ne corner</desc>
+            </graphic>
+            <graphic url="film:X/32">
+               <desc>centre</desc>
+            </graphic>
+            <graphic url="film:X/33">
+               <desc>se corner</desc>
+            </graphic>
+            <graphic url="film:Z/26">
+               <desc>from nw</desc>
+            </graphic>
+            <graphic url="film:Z/27">
+               <desc>from sw</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>ALICE SCOTTI</ab>
+            <ab>* ROMA 17.11.1886 + ROMA 28.11.1886</ab>
+            <ab>MARIA ELENA SCOTTI</ab>
+            <ab>* MONZA 28.5.1884 + ROMA 2.2.1888</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_E #c_2 #m_IC #t_P">
+            <ab>ROMA 11.2.1923 GIACOMO TOFANI B.S.M.I.T. 48 + CAMBRIDGE.V.S.A.3.2.1949</ab>
+         </div>
+      </body>
   </text>
 </TEI>

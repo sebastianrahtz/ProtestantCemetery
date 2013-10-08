@@ -1,75 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1636.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1636.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1636</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1636">
-          <msIdentifier>
-            <idno>S1636</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>110</height>
-                    <depth>10</depth>
-                    <width>65</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Nikolaj Pavloviq"</forename>
-              <surname>Gorlov"</surname>
-            </persName>
-            <death when="1873"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1636</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1636">
+               <msIdentifier>
+                  <idno>S1636</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>110</height>
+                              <depth>10</depth>
+                              <width>65</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Nikolaj Pavloviq"</forename>
+                     <surname>Gorlov"</surname>
+                  </persName>
+                  <death when="1873"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IF #t_P #s_CY">
-        <ab>ГЕНЕРАЛ" МАЙУР"</ab>
-        <ab>НИКОЛАЙ ПАВЛОВИЯ</ab>
-        <ab>ГОРЛОВ"</ab>
-        <ab/>
-        <ab>РОДИЛСЯ 7 МАРТА 1827 Г.</ab>
-        <ab>СКОНЯАЛСЯ  РИМЕ 6 АПРЕЛЯ 1873 Г.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1636"
+               ulx="2469.912772"
+               uly="364.36084700000004"
+               lrx="2477.878008"
+               lry="378.09696199999996"
+               points="2469.912772,365.01609900000005 2476.595387,364.36084700000004 2477.878008,377.44171000000006 2471.195393,378.09696199999996 ">
+            <graphic url="film:F/19"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IF #t_P #s_CY">
+            <ab>ГЕНЕРАЛ" МАЙУР"</ab>
+            <ab>НИКОЛАЙ ПАВЛОВИЯ</ab>
+            <ab>ГОРЛОВ"</ab>
+            <ab/>
+            <ab>РОДИЛСЯ 7 МАРТА 1827 Г.</ab>
+            <ab>СКОНЯАЛСЯ  РИМЕ 6 АПРЕЛЯ 1873 Г.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

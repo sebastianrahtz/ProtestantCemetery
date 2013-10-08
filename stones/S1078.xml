@@ -1,77 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1078.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1078.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1078</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1078">
-          <msIdentifier>
-            <idno>S1078</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1508</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>93</height>
-                    <depth>14</depth>
-                    <width>57</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Florence</forename>
-              <surname>Cuthbertson</surname>
-            </persName>
-            <death when="1903"/>
-            <nationality key="AU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1078</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1078">
+               <msIdentifier>
+                  <idno>S1078</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1508</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>93</height>
+                              <depth>14</depth>
+                              <width>57</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Florence</forename>
+                     <surname>Cuthbertson</surname>
+                  </persName>
+                  <death when="1903"/>
+                  <nationality key="AU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>IN MEMORY</ab>
-        <ab>OF</ab>
-        <ab>FLORENCE CUTHBERTSON</ab>
-        <ab>DIED 21 MARCH 1903</ab>
-        <ab/>
-        <ab>ERECTED IN LOVING REMEMBRANCE</ab>
-        <ab>BY HER BROTHER</ab>
-        <ab>WALTER R. CUTHBERTSON F.R.G.S.</ab>
-        <ab>OF SYDNEY. AUSTRALIA.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1078"
+               ulx="1385.652534"
+               uly="506.722895"
+               lrx="1391.645949"
+               lry="509.38663499999996"
+               points="1385.652534,506.722895 1391.645949,506.722895 1391.645949,509.38663499999996 1385.652534,509.38663499999996 1385.652534,506.722895 1391.645949,506.722895 1391.645949,509.38663499999996 1385.652534,509.38663499999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>IN MEMORY</ab>
+            <ab>OF</ab>
+            <ab>FLORENCE CUTHBERTSON</ab>
+            <ab>DIED 21 MARCH 1903</ab>
+            <ab/>
+            <ab>ERECTED IN LOVING REMEMBRANCE</ab>
+            <ab>BY HER BROTHER</ab>
+            <ab>WALTER R. CUTHBERTSON F.R.G.S.</ab>
+            <ab>OF SYDNEY. AUSTRALIA.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

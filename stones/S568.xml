@@ -1,92 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S568.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S568.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 568</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S568">
-          <msIdentifier>
-            <idno>S568</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1600</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>130</height>
-                    <width>40</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_58 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_134 #st_A #f_N"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_135 #st_A #f_N"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Wilh. Fr.</forename>
-              <surname>Waiblinger</surname>
-            </persName>
-            <death when="1830"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 568</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S568">
+               <msIdentifier>
+                  <idno>S568</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1600</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>130</height>
+                              <width>40</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_58 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_134 #st_A #f_N"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_135 #st_A #f_N"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Wilh. Fr.</forename>
+                     <surname>Waiblinger</surname>
+                  </persName>
+                  <death when="1830"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_R #c_3 #m_IF #t_P">
-        <ab>WILH. FR. WAIBLINCER</ab>
-        <ab>GEB. ZU HEILBRONN D. 21 NOV. 1804</ab>
-        <ab>GEST. ZU ROM D. 17 IANUAR 1830</ab>
-        <ab>DEM ANDENKEN DES DICHTERS</ab>
-        <ab>GEVIDMET VON SEINE FREUNDEN</ab>
-        <ab>IM SCHVABENLANDE</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_R #c_2 #m_RM #t_PC">
-        <ab>DIE STADT HEILBRONN ZUM 125. TODESTAG DES DICHTERS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S568"
+               ulx="1546.681348"
+               uly="271.72457499999996"
+               lrx="1551.464532"
+               lry="276.678587"
+               points="1546.681348,271.72457499999996 1551.464532,271.72457499999996 1551.464532,276.678587 1546.681348,276.678587 ">
+            <graphic url="film:_H/26501"/>
+            <graphic url="film:V/25"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_R #c_3 #m_IF #t_P">
+            <ab>WILH. FR. WAIBLINCER</ab>
+            <ab>GEB. ZU HEILBRONN D. 21 NOV. 1804</ab>
+            <ab>GEST. ZU ROM D. 17 IANUAR 1830</ab>
+            <ab>DEM ANDENKEN DES DICHTERS</ab>
+            <ab>GEVIDMET VON SEINE FREUNDEN</ab>
+            <ab>IM SCHVABENLANDE</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_R #c_2 #m_RM #t_PC">
+            <ab>DIE STADT HEILBRONN ZUM 125. TODESTAG DES DICHTERS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,99 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S987.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S987.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 987</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S987">
-          <msIdentifier>
-            <idno>S987</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2074</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>210</height>
-                    <depth>124</depth>
-                    <width>124</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_29 #st_A #f_N"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>George Perkins</forename>
-              <surname>Marsh</surname>
-            </persName>
-            <death when="1882"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 987</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S987">
+               <msIdentifier>
+                  <idno>S987</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2074</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>210</height>
+                              <depth>124</depth>
+                              <width>124</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_29 #st_A #f_N"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>George Perkins</forename>
+                     <surname>Marsh</surname>
+                  </persName>
+                  <death when="1882"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_RS #t_P">
-        <ab>GEORGE PERKINS MARSH</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>
-          <emph>Born at Woodstock Vermont</emph>
-        </ab>
-        <ab>
-          <emph>March 15 a.d. 1801</emph>
-        </ab>
-        <ab>
-          <emph>Minister of</emph>
-        </ab>
-        <ab>
-          <emph>The United States Of America</emph>
-        </ab>
-        <ab>
-          <emph>To the King of Italy</emph>
-        </ab>
-        <ab>
-          <emph>1861 - 1882</emph>
-        </ab>
-        <ab>
-          <emph>Died at Vallombrosa</emph>
-        </ab>
-        <ab>
-          <emph>July 23 1882</emph>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S987"
+               ulx="1755.246486"
+               uly="484.48066400000005"
+               lrx="1765.635073"
+               lry="495.934747"
+               points="1755.246486,484.48066400000005 1765.635073,484.48066400000005 1765.635073,495.934747 1755.246486,495.934747 ">
+            <graphic url="film:_H/26493"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_RS #t_P">
+            <ab>GEORGE PERKINS MARSH</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>
+               <emph>Born at Woodstock Vermont</emph>
+            </ab>
+            <ab>
+               <emph>March 15 a.d. 1801</emph>
+            </ab>
+            <ab>
+               <emph>Minister of</emph>
+            </ab>
+            <ab>
+               <emph>The United States Of America</emph>
+            </ab>
+            <ab>
+               <emph>To the King of Italy</emph>
+            </ab>
+            <ab>
+               <emph>1861 - 1882</emph>
+            </ab>
+            <ab>
+               <emph>Died at Vallombrosa</emph>
+            </ab>
+            <ab>
+               <emph>July 23 1882</emph>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S179.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S179.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 179</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S179">
-          <msIdentifier>
-            <idno>S179</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1266</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>82</height>
-                    <depth>7</depth>
-                    <width>61</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>54</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Henry Swift</forename>
-              <surname>Upson</surname>
-            </persName>
-            <birth when="1859-12-22">
-              <placeName>
-                <settlement>Cleveland</settlement>
-                <country>USA</country>
-              </placeName>
-            </birth>
-            <death when="1913-04-23">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 179</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S179">
+               <msIdentifier>
+                  <idno>S179</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1266</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>82</height>
+                              <depth>7</depth>
+                              <width>61</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>54</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henry Swift</forename>
+                     <surname>Upson</surname>
+                  </persName>
+                  <birth when="1859-12-22">
+                     <placeName>
+                        <settlement>Cleveland</settlement>
+                        <country>USA</country>
+                     </placeName>
+                  </birth>
+                  <death when="1913-04-23">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>IN</ab>
-        <ab>LOVING MEMORY OF</ab>
-        <ab>HENRY SWIFT UPSON M D</ab>
-        <ab>OF CLEVELAND</ab>
-        <ab>UNITED STATES OF AMERICA</ab>
-        <ab>BORN IN AKRON OHIO</ab>
-        <ab>DECEMBER TWENTY-SECOND 1859</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>APRIL TWENTY THIRD 1913</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S179"
+               ulx="1137.808739"
+               uly="314.28506000000004"
+               lrx="1145.648352"
+               lry="317.57881999999995"
+               points="1145.648352,314.471454 1137.897616,314.28506000000004 1137.808739,317.392253 1145.559684,317.57881999999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>IN</ab>
+            <ab>LOVING MEMORY OF</ab>
+            <ab>HENRY SWIFT UPSON M D</ab>
+            <ab>OF CLEVELAND</ab>
+            <ab>UNITED STATES OF AMERICA</ab>
+            <ab>BORN IN AKRON OHIO</ab>
+            <ab>DECEMBER TWENTY-SECOND 1859</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>APRIL TWENTY THIRD 1913</ab>
+         </div>
+      </body>
   </text>
 </TEI>

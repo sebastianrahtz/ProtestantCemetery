@@ -1,84 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1261.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1261.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1261</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1261">
-          <msIdentifier>
-            <idno>S1261</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1870</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>177</height>
-                    <depth>21</depth>
-                    <width>78</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Gaspare</forename>
-              <surname>Ronzi</surname>
-            </persName>
-            <death when="1900"/>
-            <nationality key="CH"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1261</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1261">
+               <msIdentifier>
+                  <idno>S1261</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1870</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>177</height>
+                              <depth>21</depth>
+                              <width>78</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Gaspare</forename>
+                     <surname>Ronzi</surname>
+                  </persName>
+                  <death when="1900"/>
+                  <nationality key="CH"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
-        <ab>QUI COMPOSTI</ab>
-        <ab>DALLA PIETÀ DELLA FAMIGLIA ADDOLORATA</ab>
-        <ab>GIACCIONO I RESTI MORTALI</ab>
-        <ab>DI</ab>
-        <ab>GASPARE RONZI</ab>
-        <ab>NATO A SAMADEN - SVIZZERA - 17–02–1853</ab>
-        <ab>MORTO A ROMA IL 25–04–1900</ab>
-        <ab>CITTADINO SPOSO PADRE ESEMPLARE</ab>
-        <ab>LASCIÒ DI SÈ RICORDO CARO ED ETERNO</ab>
-        <ab>NELL'ANIMO DE' BUONI</ab>
-        <ab/>
-        <ab>UNA PRECE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1261"
+               ulx="1989.927717"
+               uly="593.871323"
+               lrx="1998.87004"
+               lry="596.538331"
+               points="1989.927717,593.871323 1998.87004,593.871323 1998.87004,596.538331 1989.927717,596.538331 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
+            <ab>QUI COMPOSTI</ab>
+            <ab>DALLA PIETÀ DELLA FAMIGLIA ADDOLORATA</ab>
+            <ab>GIACCIONO I RESTI MORTALI</ab>
+            <ab>DI</ab>
+            <ab>GASPARE RONZI</ab>
+            <ab>NATO A SAMADEN - SVIZZERA - 17–02–1853</ab>
+            <ab>MORTO A ROMA IL 25–04–1900</ab>
+            <ab>CITTADINO SPOSO PADRE ESEMPLARE</ab>
+            <ab>LASCIÒ DI SÈ RICORDO CARO ED ETERNO</ab>
+            <ab>NELL'ANIMO DE' BUONI</ab>
+            <ab/>
+            <ab>UNA PRECE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

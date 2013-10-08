@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S324.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S324.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 324</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S324">
-          <msIdentifier>
-            <idno>S324</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="BOOK">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>43</height>
-                    <depth>5</depth>
-                    <width>28</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_45 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>88</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Adelaide</forename>
-              <surname>Mitchell</surname>
-            </persName>
-            <birth when="1867">
-              <placeName>
-                <settlement>Rockhampton</settlement>
-                <country>Australia</country>
-              </placeName>
-            </birth>
-            <death when="1957-01-11"/>
-            <nationality key="AU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 324</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S324">
+               <msIdentifier>
+                  <idno>S324</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="BOOK">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>43</height>
+                              <depth>5</depth>
+                              <width>28</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_45 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>88</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Adelaide</forename>
+                     <surname>Mitchell</surname>
+                  </persName>
+                  <birth when="1867">
+                     <placeName>
+                        <settlement>Rockhampton</settlement>
+                        <country>Australia</country>
+                     </placeName>
+                  </birth>
+                  <death when="1957-01-11"/>
+                  <nationality key="AU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>ADELAIDE MITCHELL</ab>
-        <ab>BORN IN ROCKHAMPTON</ab>
-        <ab>AUSTRALIA</ab>
-        <ab>DIED IN ROME 11.1.1957</ab>
-        <ab>IN HER 89TH YEAR</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_PC">
-        <ab>ERECTED BY HER</ab>
-        <ab>DAUGHTER AND</ab>
-        <ab>SON-IN-LAW</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S324"
+               ulx="1291.255802"
+               uly="471.02986599999997"
+               lrx="1297.001386"
+               lry="474.96340499999997"
+               points="1297.001386,471.16554599999995 1291.364284,471.02986599999997 1291.255802,474.827725 1296.892904,474.96340499999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>ADELAIDE MITCHELL</ab>
+            <ab>BORN IN ROCKHAMPTON</ab>
+            <ab>AUSTRALIA</ab>
+            <ab>DIED IN ROME 11.1.1957</ab>
+            <ab>IN HER 89TH YEAR</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_PC">
+            <ab>ERECTED BY HER</ab>
+            <ab>DAUGHTER AND</ab>
+            <ab>SON-IN-LAW</ab>
+         </div>
+      </body>
   </text>
 </TEI>

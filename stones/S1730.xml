@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1730.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1730.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1730</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1730">
-          <msIdentifier>
-            <idno>S1730</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>155</height>
-                    <depth>37</depth>
-                    <width>62</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Max</forename>
-              <surname>von Massow</surname>
-            </persName>
-            <death when="1878"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1730</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1730">
+               <msIdentifier>
+                  <idno>S1730</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>155</height>
+                              <depth>37</depth>
+                              <width>62</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Max</forename>
+                     <surname>von Massow</surname>
+                  </persName>
+                  <death when="1878"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>MAX VON MASSOW</ab>
-        <ab>KOENIGL PREUSS PREM. LIEUTENANT</ab>
-        <ab>GEB.D.13 JULI 1844 ZU STARGARD IN POMMERN</ab>
-        <ab>GEST.D.17. MAERZ 1878 ZU ROM</ab>
-        <ab/>
-        <ab>FUERCHTE DICH NICHT DENN ICH HABE DICH ERLOESET, ICH</ab>
-        <ab>HABE DICH BEI DEINEM NAMEN GERUFEN, DU BIST MEIN</ab>
-        <ab/>
-        <ab rend="Alignr">Jesaia 43.1.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1730"
+               ulx="2276.780635"
+               uly="466.447351"
+               lrx="2284.53906"
+               lry="471.899171"
+               points="2276.780635,467.021662 2284.159432,466.447351 2284.53906,471.32486000000006 2277.160265,471.899171 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>MAX VON MASSOW</ab>
+            <ab>KOENIGL PREUSS PREM. LIEUTENANT</ab>
+            <ab>GEB.D.13 JULI 1844 ZU STARGARD IN POMMERN</ab>
+            <ab>GEST.D.17. MAERZ 1878 ZU ROM</ab>
+            <ab/>
+            <ab>FUERCHTE DICH NICHT DENN ICH HABE DICH ERLOESET, ICH</ab>
+            <ab>HABE DICH BEI DEINEM NAMEN GERUFEN, DU BIST MEIN</ab>
+            <ab/>
+            <ab rend="Alignr">Jesaia 43.1.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

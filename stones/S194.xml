@@ -1,92 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S194.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S194.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 194</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S194">
-          <msIdentifier>
-            <idno>S194</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>142</height>
-                    <depth>5</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_29 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_123 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>18</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Prasevija [</forename>
-              <surname>Vjazemskaja</surname>
-            </persName>
-            <birth when="1817-02-21">
-              <placeName>
-                <settlement>Moscow</settlement>
-                <country>Russia</country>
-              </placeName>
-            </birth>
-            <death when="1835-03-01">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 194</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S194">
+               <msIdentifier>
+                  <idno>S194</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>142</height>
+                              <depth>5</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_29 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_123 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>18</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Prasevija [</forename>
+                     <surname>Vjazemskaja</surname>
+                  </persName>
+                  <birth when="1817-02-21">
+                     <placeName>
+                        <settlement>Moscow</settlement>
+                        <country>Russia</country>
+                     </placeName>
+                  </birth>
+                  <death when="1835-03-01">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_P #s_CY">
-        <ab>ЗДѢС'</ab>
-        <ab>ПОГРЕБЕНО ТѢЛО</ab>
-        <ab>КНЙАЖНЫ</ab>
-        <ab>ПРАСКЕВИИ ПЕТРОВНЫ ВЯЗЕМСКОЙ</ab>
-        <ab/>
-        <ab>РОДИЛАЦ'  МОСКВѢ 21 ФЕВРАЛЯ / [..] МАРТА 1817 ГОДА</ab>
-        <ab>СКОНЯАЛАС'  РИМѢ 11/25 МАРТА 1835 ГОДА</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S194"
+               ulx="937.917436"
+               uly="315.012514"
+               lrx="945.377709"
+               lry="329.68269599999996"
+               points="945.377709,315.18194500000004 938.331587,315.012514 937.917436,329.51307399999996 944.963576,329.68269599999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_I #t_P #s_CY">
+            <ab>ЗДѢС'</ab>
+            <ab>ПОГРЕБЕНО ТѢЛО</ab>
+            <ab>КНЙАЖНЫ</ab>
+            <ab>ПРАСКЕВИИ ПЕТРОВНЫ ВЯЗЕМСКОЙ</ab>
+            <ab/>
+            <ab>РОДИЛАЦ'  МОСКВѢ 21 ФЕВРАЛЯ / [..] МАРТА 1817 ГОДА</ab>
+            <ab>СКОНЯАЛАС'  РИМѢ 11/25 МАРТА 1835 ГОДА</ab>
+         </div>
+      </body>
   </text>
 </TEI>

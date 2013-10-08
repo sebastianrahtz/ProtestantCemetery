@@ -1,101 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2324.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2324.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2324</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2324">
-          <msIdentifier>
-            <idno>S2324</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>50</height>
-                    <depth>3</depth>
-                    <width>37</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Platone Mengden</forename>
-              <surname>Daltenvoga</surname>
-            </persName>
-            <death when="1922"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Wladimiro Mengden</forename>
-              <surname>Daltenvoga</surname>
-            </persName>
-            <death when="1924"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Barbara Mengden</forename>
-              <surname>Daltenvoga</surname>
-            </persName>
-            <death when="1927"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2324</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2324">
+               <msIdentifier>
+                  <idno>S2324</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>50</height>
+                              <depth>3</depth>
+                              <width>37</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Platone Mengden</forename>
+                     <surname>Daltenvoga</surname>
+                  </persName>
+                  <death when="1922"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Wladimiro Mengden</forename>
+                     <surname>Daltenvoga</surname>
+                  </persName>
+                  <death when="1924"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Barbara Mengden</forename>
+                     <surname>Daltenvoga</surname>
+                  </persName>
+                  <death when="1927"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
-        <ab>BARONE</ab>
-        <ab>PLATONE MENGDEN DALTENVOGA</ab>
-        <ab>*1865 +28.VI.1922</ab>
-        <ab>BARONE</ab>
-        <ab>WLADIMIRO MENGDEN DALTENVOGA</ab>
-        <ab>*2.VII.1906 +13.X.1924</ab>
-        <ab>BARONESSA</ab>
-        <ab>BARBARA MENGDEN DALTENVOGA</ab>
-        <ab>NATA JANKOWSKI</ab>
-        <ab>*9.X.1874 +26.II.1927</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2324"
+               ulx="2763.330297"
+               uly="673.401298"
+               lrx="2768.621986"
+               lry="676.691313"
+               points="2763.330297,673.436253 2768.600395,673.401298 2768.621986,676.656358 2763.351888,676.691313 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_3 #m_I #t_P">
+            <ab>BARONE</ab>
+            <ab>PLATONE MENGDEN DALTENVOGA</ab>
+            <ab>*1865 +28.VI.1922</ab>
+            <ab>BARONE</ab>
+            <ab>WLADIMIRO MENGDEN DALTENVOGA</ab>
+            <ab>*2.VII.1906 +13.X.1924</ab>
+            <ab>BARONESSA</ab>
+            <ab>BARBARA MENGDEN DALTENVOGA</ab>
+            <ab>NATA JANKOWSKI</ab>
+            <ab>*9.X.1874 +26.II.1927</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,73 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1743.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1743.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1743</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1743">
-          <msIdentifier>
-            <idno>S1743</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>3</num>
-                  <dimensions unit="cm">
-                    <height>120</height>
-                    <dim type="diameter">37</dim>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_16 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Hamilton</forename>
-              <surname>Thomas</surname>
-            </persName>
-            <death when="1877"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1743</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1743">
+               <msIdentifier>
+                  <idno>S1743</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>3</num>
+                           <dimensions unit="cm">
+                              <height>120</height>
+                              <dim type="diameter">37</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_16 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Hamilton</forename>
+                     <surname>Thomas</surname>
+                  </persName>
+                  <death when="1877"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
-        <ab>HAMILTON THOMAS</ab>
-        <ab>NEE</ab>
-        <ab>HAMILTON DOUGLAS</ab>
-        <ab>DIED AT ROME</ab>
-        <ab>NOV 1ST 1877</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1743"
+               ulx="2480.454651"
+               uly="443.686198"
+               lrx="2491.506173"
+               lry="453.69058700000005"
+               points="2484.530484,452.00652 2482.138438,449.98693000000003 2482.944695,448.97390900000005 2480.619466,447.122081 2480.454651,445.77353700000003 2480.690737,444.863754 2481.260909,444.25723200000004 2481.933532,443.81847100000005 2482.744245,443.686198 2483.283235,443.81847100000005 2485.639646,445.605776 2486.55281,444.424993 2488.606318,446.24456 2487.933694,447.222093 2491.234451,450.15469199999995 2491.506173,451.67099700000006 2491.100817,452.64853000000005 2490.223288,453.38732600000003 2489.278942,453.658325 2488.370231,453.69058700000005 2485.408013,451.064475 ">
+            <graphic url="film:AM/6"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
+            <ab>HAMILTON THOMAS</ab>
+            <ab>NEE</ab>
+            <ab>HAMILTON DOUGLAS</ab>
+            <ab>DIED AT ROME</ab>
+            <ab>NOV 1ST 1877</ab>
+         </div>
+      </body>
   </text>
 </TEI>

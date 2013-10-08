@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S312.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S312.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 312</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S312">
-          <msIdentifier>
-            <idno>S312</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>174</height>
-                    <depth>15</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_29 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>*</num>
-                <ptr target="#i_134 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>44</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Ludwig August</forename>
-              <surname>von Buch</surname>
-            </persName>
-            <birth when="1801-02-06"/>
-            <death when="1845-05-04"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 312</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S312">
+               <msIdentifier>
+                  <idno>S312</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>174</height>
+                              <depth>15</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_29 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>*</num>
+                        <ptr target="#i_134 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>44</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Ludwig August</forename>
+                     <surname>von Buch</surname>
+                  </persName>
+                  <birth when="1801-02-06"/>
+                  <death when="1845-05-04"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_4 #m_I #t_P">
-        <ab>LUDWIG AUGUST VON BUCH</ab>
-        <ab>KAMMERHERR UND MINISTER RESIDENT</ab>
-        <ab>S.M DE[?]S KOLNIGS VON PREVSSEN BEIM II:STVHE</ab>
-        <ab>GEB.AM VI FEBRUAR MDCCCI</ab>
-        <ab>GEST. AM IV MAI MDCCCXLV</ab>
-        <ab>
-          <note>3 lines unreadable</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S312"
+               ulx="1098.255587"
+               uly="462.251178"
+               lrx="1107.576152"
+               lry="480.416472"
+               points="1107.576152,462.46310100000005 1098.76839,462.251178 1098.255587,480.20454900000004 1107.063348,480.416472 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_4 #m_I #t_P">
+            <ab>LUDWIG AUGUST VON BUCH</ab>
+            <ab>KAMMERHERR UND MINISTER RESIDENT</ab>
+            <ab>S.M DE[?]S KOLNIGS VON PREVSSEN BEIM II:STVHE</ab>
+            <ab>GEB.AM VI FEBRUAR MDCCCI</ab>
+            <ab>GEST. AM IV MAI MDCCCXLV</ab>
+            <ab>
+               <note>3 lines unreadable</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

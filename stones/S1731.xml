@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1731.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1731.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1731</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1731">
-          <msIdentifier>
-            <idno>S1731</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2392</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>155</height>
-                    <depth>27</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Edmund John</forename>
-              <surname>Carthew</surname>
-            </persName>
-            <death when="1878"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1731</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1731">
+               <msIdentifier>
+                  <idno>S1731</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2392</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>155</height>
+                              <depth>27</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Edmund John</forename>
+                     <surname>Carthew</surname>
+                  </persName>
+                  <death when="1878"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>IN REMEMBRANCE OF</ab>
-        <ab>EDMUND JOHN CARTHEW</ab>
-        <ab>COLONEL ROYAL ARTILLERY</ab>
-        <ab>BORN AT TREDUDWELL, CORNWALL</ab>
-        <ab>JUNE 10TH 1828</ab>
-        <ab>DIED AT ROME FEB 19TH 1878</ab>
-        <ab/>
-        <ab>THEN ARE THEY GLAD, BECAUSE THEY ARE</ab>
-        <ab>AT REST, AND SO HE BRINGETH THEM UNTO</ab>
-        <ab>THE HAVEN WHERE THEY WOULD BE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1731"
+               ulx="2287.908967"
+               uly="465.381748"
+               lrx="2295.720696"
+               lry="471.24474799999996"
+               points="2287.908967,465.994231 2295.284692,465.381748 2295.720696,470.63226499999996 2288.344971,471.24474799999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>IN REMEMBRANCE OF</ab>
+            <ab>EDMUND JOHN CARTHEW</ab>
+            <ab>COLONEL ROYAL ARTILLERY</ab>
+            <ab>BORN AT TREDUDWELL, CORNWALL</ab>
+            <ab>JUNE 10TH 1828</ab>
+            <ab>DIED AT ROME FEB 19TH 1878</ab>
+            <ab/>
+            <ab>THEN ARE THEY GLAD, BECAUSE THEY ARE</ab>
+            <ab>AT REST, AND SO HE BRINGETH THEM UNTO</ab>
+            <ab>THE HAVEN WHERE THEY WOULD BE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

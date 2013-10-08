@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S725.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S725.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 725</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S725">
-          <msIdentifier>
-            <idno>S725</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>194</height>
-                    <depth>22</depth>
-                    <width>67</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_89 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Iohanna Landi</forename>
-              <surname>Vittorj</surname>
-            </persName>
-            <death when="1908"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 725</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S725">
+               <msIdentifier>
+                  <idno>S725</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>194</height>
+                              <depth>22</depth>
+                              <width>67</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_89 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Iohanna Landi</forename>
+                     <surname>Vittorj</surname>
+                  </persName>
+                  <death when="1908"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>HIER RUHT</ab>
-        <ab>GRAEFIN</ab>
-        <ab>IOHANNA LANDI VOTTORJ</ab>
-        <ab>GEB. SUSSMANN HELLBORN</ab>
-        <ab>BERLIN XV APRIL MDCCCLXI</ab>
-        <ab>GEST. BAYREUTH</ab>
-        <ab>XV IUNI MCMVIII.</ab>
-        <ab/>
-        <ab>DER UNTRÖSTLICHE GATTE</ab>
-        <ab>UND DIE KINDER.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S725"
+               ulx="1519.792254"
+               uly="357.87830900000006"
+               lrx="1529.659905"
+               lry="363.67026899999996"
+               points="1519.937941,357.87830900000006 1529.659905,358.134151 1529.514218,363.67026899999996 1519.792254,363.41442800000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>HIER RUHT</ab>
+            <ab>GRAEFIN</ab>
+            <ab>IOHANNA LANDI VOTTORJ</ab>
+            <ab>GEB. SUSSMANN HELLBORN</ab>
+            <ab>BERLIN XV APRIL MDCCCLXI</ab>
+            <ab>GEST. BAYREUTH</ab>
+            <ab>XV IUNI MCMVIII.</ab>
+            <ab/>
+            <ab>DER UNTRÖSTLICHE GATTE</ab>
+            <ab>UND DIE KINDER.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

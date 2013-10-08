@@ -1,92 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1834.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1834.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1834</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1834">
-          <msIdentifier>
-            <idno>S1834</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2332</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>150</height>
-                    <depth>34</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_76 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_138 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Janet Spottiswoode</forename>
-              <surname>Weir</surname>
-            </persName>
-            <death when="1883"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1834</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1834">
+               <msIdentifier>
+                  <idno>S1834</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2332</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>150</height>
+                              <depth>34</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_76 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_138 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Janet Spottiswoode</forename>
+                     <surname>Weir</surname>
+                  </persName>
+                  <death when="1883"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>IN MEMORY OF</ab>
-        <ab>JANET SPOTTISWOODE WEIR</ab>
-        <ab>---------------</ab>
-        <ab>BORN IN EDINBURGH</ab>
-        <ab>22ND JANUARY,1824.</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>17TH FEBRUARY, 1883.</ab>
-        <ab>----------------</ab>
-        <ab rend="Alignl">"WHERE IS MY GRAVE? NEATH SOME FOREIGN SKY</ab>
-        <ab rend="Alignl">SHALL I LAY DOWN MY WEARIED LIMBS AND DIE?</ab>
-        <ab rend="Alignl">. . . . . . . . . . . . .</ab>
-        <ab rend="Alignl">WHERE IS MY GRAVE? IT MATTERS NOT WHERE!</ab>
-        <ab rend="Alignl">BUT MY HOME BEYOND - IT IS THERE, IT IS THERE</ab>
-        <ab rend="Alignl">WHERE GOD WIPES TEARS FROM EVERY EYE</ab>
-        <ab rend="Alignl">AND THE LAMB IS THE LIGHT OF A SUNLESS SKY".</ab>
-        <ab rend="Alignr">MONSELL</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1834"
+               ulx="2236.80089"
+               uly="555.783553"
+               lrx="2246.363446"
+               lry="561.688898"
+               points="2236.80089,556.564489 2245.924838,555.783553 2246.363446,560.907962 2237.239498,561.688898 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>IN MEMORY OF</ab>
+            <ab>JANET SPOTTISWOODE WEIR</ab>
+            <ab>---------------</ab>
+            <ab>BORN IN EDINBURGH</ab>
+            <ab>22ND JANUARY,1824.</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>17TH FEBRUARY, 1883.</ab>
+            <ab>----------------</ab>
+            <ab rend="Alignl">"WHERE IS MY GRAVE? NEATH SOME FOREIGN SKY</ab>
+            <ab rend="Alignl">SHALL I LAY DOWN MY WEARIED LIMBS AND DIE?</ab>
+            <ab rend="Alignl">. . . . . . . . . . . . .</ab>
+            <ab rend="Alignl">WHERE IS MY GRAVE? IT MATTERS NOT WHERE!</ab>
+            <ab rend="Alignl">BUT MY HOME BEYOND - IT IS THERE, IT IS THERE</ab>
+            <ab rend="Alignl">WHERE GOD WIPES TEARS FROM EVERY EYE</ab>
+            <ab rend="Alignl">AND THE LAMB IS THE LIGHT OF A SUNLESS SKY".</ab>
+            <ab rend="Alignr">MONSELL</ab>
+         </div>
+      </body>
   </text>
 </TEI>

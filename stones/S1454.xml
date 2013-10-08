@@ -1,93 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1454.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1454.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1454</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1454">
-          <msIdentifier>
-            <idno>S1454</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1281</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="STAT">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>158</height>
-                    <depth>34</depth>
-                    <width>41</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Bust of an old man with a beard (might be the man himself).</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_19 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Fritz</forename>
-              <surname>Schulze</surname>
-            </persName>
-            <death when="1914"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Mararethe</forename>
-              <surname>Schulze</surname>
-            </persName>
-            <death when="1929"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1454</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1454">
+               <msIdentifier>
+                  <idno>S1454</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1281</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="STAT">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>158</height>
+                              <depth>34</depth>
+                              <width>41</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Bust of an old man with a beard (might be the man himself).</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_19 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Fritz</forename>
+                     <surname>Schulze</surname>
+                  </persName>
+                  <death when="1914"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Mararethe</forename>
+                     <surname>Schulze</surname>
+                  </persName>
+                  <death when="1929"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
-        <ab>BILDHAUER</ab>
-        <ab>FRITZ SCHULZE</ab>
-        <ab>AUS RENDSBURG</ab>
-        <ab>1858</ab>
-        <ab>1915</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_S">
-        <ab>MARGARETHE SCHULZE</ab>
-        <ab>GEB WEDECKE</ab>
-        <ab>1852</ab>
-        <ab>1929</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1454"
+               ulx="2556.569762"
+               uly="182.175975"
+               lrx="2561.332419"
+               lry="186.23103000000003"
+               points="2556.569762,182.52322900000001 2561.044694,182.175975 2561.332419,185.883775 2556.857488,186.23103000000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+            <ab>BILDHAUER</ab>
+            <ab>FRITZ SCHULZE</ab>
+            <ab>AUS RENDSBURG</ab>
+            <ab>1858</ab>
+            <ab>1915</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_S">
+            <ab>MARGARETHE SCHULZE</ab>
+            <ab>GEB WEDECKE</ab>
+            <ab>1852</ab>
+            <ab>1929</ab>
+         </div>
+      </body>
   </text>
 </TEI>

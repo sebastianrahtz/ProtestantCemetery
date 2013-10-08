@@ -1,90 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1909.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1909.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1909</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1909">
-          <msIdentifier>
-            <idno>S1909</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>163</height>
-                    <depth>9</depth>
-                    <width>64</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Albert James</forename>
-              <surname>Whittall</surname>
-            </persName>
-            <death when="1957"/>
-            <nationality key="TR"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Agnes</forename>
-              <surname>Whittall</surname>
-            </persName>
-            <death when="1967"/>
-            <nationality key="TR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1909</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1909">
+               <msIdentifier>
+                  <idno>S1909</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>163</height>
+                              <depth>9</depth>
+                              <width>64</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Albert James</forename>
+                     <surname>Whittall</surname>
+                  </persName>
+                  <death when="1957"/>
+                  <nationality key="TR"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Agnes</forename>
+                     <surname>Whittall</surname>
+                  </persName>
+                  <death when="1967"/>
+                  <nationality key="TR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>IN LOVING MEMORY OF OUR PARENT</ab>
-        <ab>AGNES WHITTALL</ab>
-        <ab>NÉE KEYSER</ab>
-        <ab>IZMIR 21.9.1884 ROME 23.2.1967</ab>
-        <ab>DEVOTED UNSELFISH AND BELOVED</ab>
-        <ab>AND</ab>
-        <ab>ALBERT JAMES WHITTALL</ab>
-        <ab>IZMIR 14.6.1878 IZMIR 8.8.1957</ab>
-        <ab/>
-        <ab>FATHER IN THY GRACIOUS KEEPING</ab>
-        <ab>LEAVE WE NOW OUR LOVED ONES</ab>
-        <ab>SLEEPING</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1909"
+               ulx="2254.322118"
+               uly="631.756767"
+               lrx="2265.183606"
+               lry="651.981403"
+               points="2254.322118,632.468426 2263.703357,631.756767 2265.183606,651.2697440000001 2255.802368,651.981403 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>IN LOVING MEMORY OF OUR PARENT</ab>
+            <ab>AGNES WHITTALL</ab>
+            <ab>NÉE KEYSER</ab>
+            <ab>IZMIR 21.9.1884 ROME 23.2.1967</ab>
+            <ab>DEVOTED UNSELFISH AND BELOVED</ab>
+            <ab>AND</ab>
+            <ab>ALBERT JAMES WHITTALL</ab>
+            <ab>IZMIR 14.6.1878 IZMIR 8.8.1957</ab>
+            <ab/>
+            <ab>FATHER IN THY GRACIOUS KEEPING</ab>
+            <ab>LEAVE WE NOW OUR LOVED ONES</ab>
+            <ab>SLEEPING</ab>
+         </div>
+      </body>
   </text>
 </TEI>

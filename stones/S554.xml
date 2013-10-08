@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S554.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S554.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 554</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S554">
-          <msIdentifier>
-            <idno>S554</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>141</height>
-                    <depth>40</depth>
-                    <width>66</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Il'ja</forename>
-              <surname>Kapnist"</surname>
-            </persName>
-            <death when="1864"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 554</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S554">
+               <msIdentifier>
+                  <idno>S554</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>141</height>
+                              <depth>40</depth>
+                              <width>66</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Il'ja</forename>
+                     <surname>Kapnist"</surname>
+                  </persName>
+                  <death when="1864"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_4 #m_I #t_P #s_CY">
-        <ab>РодилсЯ жъ Росси</ab>
-        <ab>ИйулЯ [.?.] днЯ</ab>
-        <ab>1795го</ab>
-        <ab>Года</ab>
-        <ab>[Ил'йа Капнист"]</ab>
-        <ab>СконяалсЯ жъ Рим[е]</ab>
-        <ab>АпрелЯ 6/18 днЯ</ab>
-        <ab>1861го</ab>
-        <ab>Года</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> Name and date of birth are uncertain</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S554"
+               ulx="1768.074438"
+               uly="263.52483099999995"
+               lrx="1773.711762"
+               lry="267.795531"
+               points="1768.074438,263.52483099999995 1773.711762,263.52483099999995 1773.711762,267.795531 1768.074438,267.795531 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_4 #m_I #t_P #s_CY">
+            <ab>РодилсЯ жъ Росси</ab>
+            <ab>ИйулЯ [.?.] днЯ</ab>
+            <ab>1795го</ab>
+            <ab>Года</ab>
+            <ab>[Ил'йа Капнист"]</ab>
+            <ab>СконяалсЯ жъ Рим[е]</ab>
+            <ab>АпрелЯ 6/18 днЯ</ab>
+            <ab>1861го</ab>
+            <ab>Года</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> Name and date of birth are uncertain</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

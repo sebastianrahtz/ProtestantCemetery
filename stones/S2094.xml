@@ -1,93 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2094.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2094.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2094</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2094">
-          <msIdentifier>
-            <idno>S2094</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="URN">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>32</height>
-                    <depth>30</depth>
-                    <width>65</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_53 #st_B #f_N"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_109 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_129 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Babs Aimee</forename>
-              <surname>van der Byl</surname>
-            </persName>
-            <death when="1929"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Anna Mussa</forename>
-              <surname>van der Byl</surname>
-            </persName>
-            <death when="1930"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2094</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2094">
+               <msIdentifier>
+                  <idno>S2094</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="URN">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>32</height>
+                              <depth>30</depth>
+                              <width>65</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_53 #st_B #f_N"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_109 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_129 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Babs Aimee</forename>
+                     <surname>van der Byl</surname>
+                  </persName>
+                  <death when="1929"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anna Mussa</forename>
+                     <surname>van der Byl</surname>
+                  </persName>
+                  <death when="1930"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_4 #m_I #t_P">
-        <ab rend="Alignl">BABS</ab>
-        <ab rend="Alignl">AIMEE VANDERBYL</ab>
-        <ab rend="Alignl">15.II 1929</ab>
-        <ab rend="Alignl"> [ANNA]</ab>
-        <ab rend="Alignl"> [MUSSA]</ab>
-        <ab rend="Alignl"> [VANDERBYL]</ab>
-        <ab rend="Alignl"> [...1930]</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2094"
+               ulx="2745.000166"
+               uly="308.52117699999997"
+               lrx="2747.857116"
+               lry="311.315746"
+               points="2741.584961,310.013596 2741.765573,309.08009100000004 2742.332037,308.64604099999997 2743.070904,308.52117699999997 2743.883657,308.770904 2744.376234,309.20495400000004 2744.565056,309.888732 2744.187413,310.691427 2743.760512,311.190882 2742.824615,311.315746 2742.200683,310.88169600000003 2741.708105,310.382241 2745.057633,309.514141 2745.492744,308.770904 2746.305497,308.52117699999997 2747.044363,308.64604099999997 2747.857116,309.264413 2747.857116,310.32278199999996 2747.479473,311.066018 2747.044363,311.25034100000005 2746.050998,311.315746 2745.246455,310.88169600000003 2745.000166,310.132513 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_4 #m_I #t_P">
+            <ab rend="Alignl">BABS</ab>
+            <ab rend="Alignl">AIMEE VANDERBYL</ab>
+            <ab rend="Alignl">15.II 1929</ab>
+            <ab rend="Alignl"> [ANNA]</ab>
+            <ab rend="Alignl"> [MUSSA]</ab>
+            <ab rend="Alignl"> [VANDERBYL]</ab>
+            <ab rend="Alignl"> [...1930]</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S152.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S152.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 152</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S152">
-          <msIdentifier>
-            <idno>S152</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>102</height>
-                    <depth>9</depth>
-                    <width>53</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>22</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Albertus</forename>
-              <surname>Scholl</surname>
-            </persName>
-            <death when="1827-01-15">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="CH"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 152</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S152">
+               <msIdentifier>
+                  <idno>S152</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>102</height>
+                              <depth>9</depth>
+                              <width>53</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>22</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Albertus</forename>
+                     <surname>Scholl</surname>
+                  </persName>
+                  <death when="1827-01-15">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="CH"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
-        <ab>HIC JACET</ab>
-        <ab>LUGENDUS PATRI COGNATIS</ab>
-        <ab>AMICIS</ab>
-        <ab>PROCUL PATRIA</ab>
-        <ab>ALBERTUS SCHOLL</ab>
-        <ab>HELVETUS</ab>
-        <ab>OBIIT ROMAE</ab>
-        <ab>XV DIE JANUARII</ab>
-        <ab>MDCCCXXVII</ab>
-        <ab>XXII ANNOS NA...]</ab>
-        <ab>------------</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S152"
+               ulx="1085.497313"
+               uly="282.96810100000005"
+               lrx="1091.898072"
+               lry="285.19220500000006"
+               points="1091.898072,283.12057000000004 1085.556564,282.96810100000005 1085.497313,285.03956300000004 1091.839029,285.19220500000006 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
+            <ab>HIC JACET</ab>
+            <ab>LUGENDUS PATRI COGNATIS</ab>
+            <ab>AMICIS</ab>
+            <ab>PROCUL PATRIA</ab>
+            <ab>ALBERTUS SCHOLL</ab>
+            <ab>HELVETUS</ab>
+            <ab>OBIIT ROMAE</ab>
+            <ab>XV DIE JANUARII</ab>
+            <ab>MDCCCXXVII</ab>
+            <ab>XXII ANNOS NA...]</ab>
+            <ab>------------</ab>
+         </div>
+      </body>
   </text>
 </TEI>

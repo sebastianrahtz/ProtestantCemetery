@@ -1,108 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1470.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1470.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1470</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1470">
-          <msIdentifier>
-            <idno>S1470</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">446</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>163</height>
-                    <depth>26</depth>
-                    <width>79</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Plaque with angel carrying a baby.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_4 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Erasmo</forename>
-              <surname>Lucidi</surname>
-            </persName>
-            <death when="1962"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maria</forename>
-              <surname>Dinesen</surname>
-            </persName>
-            <death when="1973"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Costanza</forename>
-              <surname>Fiore</surname>
-            </persName>
-            <death when="1981"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1470</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1470">
+               <msIdentifier>
+                  <idno>S1470</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">446</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>163</height>
+                              <depth>26</depth>
+                              <width>79</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Plaque with angel carrying a baby.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_4 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Erasmo</forename>
+                     <surname>Lucidi</surname>
+                  </persName>
+                  <death when="1962"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maria</forename>
+                     <surname>Dinesen</surname>
+                  </persName>
+                  <death when="1973"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Costanza</forename>
+                     <surname>Fiore</surname>
+                  </persName>
+                  <death when="1981"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>ERASMO LUCIDI</ab>
-        <ab>*19.X.1900 + 3.X.1962</ab>
-        <ab>AMAVA IL BELLO</ab>
-      </div>
-      <div type="inscription" xml:lang="da " decls="#f_S #c_1 #m_IC #t_S">
-        <ab>MARIA DINESEN</ab>
-        <ab>FORFATTERINDEN</ab>
-        <ab>*20.V.1873 + 9.X.1973</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_S">
-        <ab>COSTANZA FIORE</ab>
-        <ab>NATA LUCIDI</ab>
-        <ab>*21.XII.1898 + 29.V11.1981</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1470"
+               ulx="2356.861819"
+               uly="202.14527599999997"
+               lrx="2366.287913"
+               lry="206.05828699999995"
+               points="2356.861819,202.730769 2366.076484,202.14527599999997 2366.287913,205.47279400000002 2357.073246,206.05828699999995 ">
+            <graphic url="film:AE/30"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>ERASMO LUCIDI</ab>
+            <ab>*19.X.1900 + 3.X.1962</ab>
+            <ab>AMAVA IL BELLO</ab>
+         </div>
+         <div type="inscription" xml:lang="da " decls="#f_S #c_1 #m_IC #t_S">
+            <ab>MARIA DINESEN</ab>
+            <ab>FORFATTERINDEN</ab>
+            <ab>*20.V.1873 + 9.X.1973</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IC #t_S">
+            <ab>COSTANZA FIORE</ab>
+            <ab>NATA LUCIDI</ab>
+            <ab>*21.XII.1898 + 29.V11.1981</ab>
+         </div>
+      </body>
   </text>
 </TEI>

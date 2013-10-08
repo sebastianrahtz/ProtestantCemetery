@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S288.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S288.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 288</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S288">
-          <msIdentifier>
-            <idno>S288</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>199</height>
-                    <depth>60</depth>
-                    <width>108</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>82</age>
-            <sex>1</sex>
-            <persName>
-              <forename>John</forename>
-              <surname>Knight</surname>
-            </persName>
-            <birth when="1767-08-24"/>
-            <death when="1850-01-24">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 288</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S288">
+               <msIdentifier>
+                  <idno>S288</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>199</height>
+                              <depth>60</depth>
+                              <width>108</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>82</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Knight</surname>
+                  </persName>
+                  <birth when="1767-08-24"/>
+                  <death when="1850-01-24">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>IN MEMORY OF</ab>
-        <ab>IOHN KNIGHT ESQ.RE</ab>
-        <ab>OF</ab>
-        <ab>SIMONSBATH</ab>
-        <ab>IN THE COVNTY OF SOMERSET</ab>
-        <ab>AND OF</ab>
-        <ab>WOLVERLEY</ab>
-        <ab>IN THE COVNTY OF WORCESTER</ab>
-        <ab>BORN AVGVST XXIV MDCCLXVII</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>IANVARY XXIV MDCCCL</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S288"
+               ulx="1112.010988"
+               uly="433.563356"
+               lrx="1121.792256"
+               lry="455.53469600000005"
+               points="1121.792256,433.783674 1112.632292,433.563356 1112.010988,455.314395 1121.171143,455.53469600000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>IN MEMORY OF</ab>
+            <ab>IOHN KNIGHT ESQ.RE</ab>
+            <ab>OF</ab>
+            <ab>SIMONSBATH</ab>
+            <ab>IN THE COVNTY OF SOMERSET</ab>
+            <ab>AND OF</ab>
+            <ab>WOLVERLEY</ab>
+            <ab>IN THE COVNTY OF WORCESTER</ab>
+            <ab>BORN AVGVST XXIV MDCCLXVII</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>IANVARY XXIV MDCCCL</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,111 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1197.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1197.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1197</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1197">
-          <msIdentifier>
-            <idno>S1197</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1475</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>160</height>
-                    <depth>26</depth>
-                    <width>101</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_9 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_123 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_135 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Teodoro</forename>
-              <surname>Bronnikoff</surname>
-            </persName>
-            <death when="1902"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Carmela</forename>
-              <surname>Bronnicoff</surname>
-            </persName>
-            <death when="1909"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1197</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1197">
+               <msIdentifier>
+                  <idno>S1197</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1475</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>160</height>
+                              <depth>26</depth>
+                              <width>101</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_9 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_123 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_135 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Teodoro</forename>
+                     <surname>Bronnikoff</surname>
+                  </persName>
+                  <death when="1902"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Carmela</forename>
+                     <surname>Bronnicoff</surname>
+                  </persName>
+                  <death when="1909"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>A</ab>
-        <ab>CARMELA BRONICOFF</ab>
-        <ab>NATA IN LORETO</ab>
-        <ab>NEL MDCCCXXXII</ab>
-        <ab>MORTA IN ROMA</ab>
-        <ab>NEL MCMIX</ab>
-        <ab/>
-        <ab>TEODORA BRONICOFF</ab>
-        <ab>MAESTRO</ab>
-        <ab>NELL'ARTE DELLA PITTURA</ab>
-        <ab>NATO A SHADRINSK RUSSIA</ab>
-        <ab>NEL MDCCCXXV</ab>
-        <ab>MORTO IN ROMA MCMII</ab>
-        <ab>LA CONSORTE DESOLATA</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_IF #t_PC #s_CY">
-        <ab>Профессор" Академик" Цхудойестж"</ab>
-        <ab>Тхеодор" Андреежия" Бронникож".</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1197"
+               ulx="1471.895465"
+               uly="557.082488"
+               lrx="1481.844184"
+               lry="577.420773"
+               points="1472.391882,557.082488 1481.844184,557.315878 1481.347766,577.420773 1471.895465,577.187382 ">
+            <graphic url="film:AO/5"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>A</ab>
+            <ab>CARMELA BRONICOFF</ab>
+            <ab>NATA IN LORETO</ab>
+            <ab>NEL MDCCCXXXII</ab>
+            <ab>MORTA IN ROMA</ab>
+            <ab>NEL MCMIX</ab>
+            <ab/>
+            <ab>TEODORA BRONICOFF</ab>
+            <ab>MAESTRO</ab>
+            <ab>NELL'ARTE DELLA PITTURA</ab>
+            <ab>NATO A SHADRINSK RUSSIA</ab>
+            <ab>NEL MDCCCXXV</ab>
+            <ab>MORTO IN ROMA MCMII</ab>
+            <ab>LA CONSORTE DESOLATA</ab>
+         </div>
+         <div type="inscription"
+              xml:lang="ru"
+              decls="#f_T #c_3 #m_IF #t_PC #s_CY">
+            <ab>Профессор" Академик" Цхудойестж"</ab>
+            <ab>Тхеодор" Андреежия" Бронникож".</ab>
+         </div>
+      </body>
   </text>
 </TEI>

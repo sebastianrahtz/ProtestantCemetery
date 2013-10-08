@@ -1,84 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S346.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S346.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 346</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S346">
-          <msIdentifier>
-            <idno>S346</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1529</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>148</height>
-                    <depth>7</depth>
-                    <width>69</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>80</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Heloise</forename>
-              <surname>Kennedy</surname>
-            </persName>
-            <birth when="1820"/>
-            <death when="1900-08-23">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 346</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S346">
+               <msIdentifier>
+                  <idno>S346</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1529</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>148</height>
+                              <depth>7</depth>
+                              <width>69</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>80</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Heloise</forename>
+                     <surname>Kennedy</surname>
+                  </persName>
+                  <birth when="1820"/>
+                  <death when="1900-08-23">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>IN AFFECTIONATE REMEMBERANCE OF</ab>
-        <ab>HELOISE KENNEDY</ab>
-        <ab>WHO DIED AT ROME 23 AUGUST 1900</ab>
-        <ab>AGED 80 YEARS</ab>
-        <ab rend="Alignl">BLESSED ARE THE DEAD WHICH DIE</ab>
-        <ab rend="Alignl">IN THE LORD</ab>
-        <ab rend="Alignr">
-          <emph>REV. 14.13.</emph>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S346"
+               ulx="988.664358"
+               uly="486.899185"
+               lrx="998.637436"
+               lry="490.93432399999995"
+               points="998.637436,487.136656 988.77284,486.899185 988.664358,490.697044 998.528936,490.93432399999995 ">
+            <graphic url="film:T/24"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>IN AFFECTIONATE REMEMBERANCE OF</ab>
+            <ab>HELOISE KENNEDY</ab>
+            <ab>WHO DIED AT ROME 23 AUGUST 1900</ab>
+            <ab>AGED 80 YEARS</ab>
+            <ab rend="Alignl">BLESSED ARE THE DEAD WHICH DIE</ab>
+            <ab rend="Alignl">IN THE LORD</ab>
+            <ab rend="Alignr">
+               <emph>REV. 14.13.</emph>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

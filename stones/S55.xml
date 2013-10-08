@@ -1,83 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S55.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S55.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 55</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S55">
-          <msIdentifier>
-            <idno>S55</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">119</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>112</height>
-                    <depth>16</depth>
-                    <width>39</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 68)</summary>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>16</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Georgiana</forename>
-              <surname>D'Orville</surname>
-            </persName>
-            <birth when="1803"/>
-            <death when="1819-09-09"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 55</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S55">
+               <msIdentifier>
+                  <idno>S55</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">119</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>112</height>
+                              <depth>16</depth>
+                              <width>39</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 68)</summary>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>16</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Georgiana</forename>
+                     <surname>D'Orville</surname>
+                  </persName>
+                  <birth when="1803"/>
+                  <death when="1819-09-09"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>HERE</ab>
-        <ab>LIES THE BODY</ab>
-        <ab>OF</ab>
-        <ab>GEORGIANA D'ORVILLE</ab>
-        <ab>WHOM IT PLEASED</ab>
-        <ab>THE ALMIGHTY</ab>
-        <ab>TO TAKE FROM</ab>
-        <ab>THE FOND AFFECTION</ab>
-        <ab>OF HER</ab>
-        <ab>AFFLICTED RELATIVES</ab>
-        <ab>ON THE 9 OF SEPTr 1819</ab>
-        <ab>AGED 16 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S55"
+               ulx="332.122883"
+               uly="870.0347469999999"
+               lrx="341.794709"
+               lry="879.0320469999999"
+               points="339.24684,870.0347469999999 332.122883,875.978691 334.66809,879.0320469999999 341.794709,873.087855 ">
+            <graphic url="film:_H/26299"/>
+            <graphic url="film:Y/5">
+               <desc>lettering</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>HERE</ab>
+            <ab>LIES THE BODY</ab>
+            <ab>OF</ab>
+            <ab>GEORGIANA D'ORVILLE</ab>
+            <ab>WHOM IT PLEASED</ab>
+            <ab>THE ALMIGHTY</ab>
+            <ab>TO TAKE FROM</ab>
+            <ab>THE FOND AFFECTION</ab>
+            <ab>OF HER</ab>
+            <ab>AFFLICTED RELATIVES</ab>
+            <ab>ON THE 9 OF SEPTr 1819</ab>
+            <ab>AGED 16 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,84 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S180.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S180.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 180</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S180">
-          <msIdentifier>
-            <idno>S180</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1765</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>133</height>
-                    <depth>13</depth>
-                    <width>59</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>37</age>
-            <sex>1</sex>
-            <persName>
-              <forename>James</forename>
-              <surname>Purves</surname>
-            </persName>
-            <birth when="1792-09-15">
-              <placeName>
-                <settlement>Roxburgh</settlement>
-                <country>USA</country>
-              </placeName>
-            </birth>
-            <death when="1830-03-07"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 180</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S180">
+               <msIdentifier>
+                  <idno>S180</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1765</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>133</height>
+                              <depth>13</depth>
+                              <width>59</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>37</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>James</forename>
+                     <surname>Purves</surname>
+                  </persName>
+                  <birth when="1792-09-15">
+                     <placeName>
+                        <settlement>Roxburgh</settlement>
+                        <country>USA</country>
+                     </placeName>
+                  </birth>
+                  <death when="1830-03-07"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>IN MEMORY</ab>
-        <ab>of</ab>
-        <ab>JAMES PURVES Esquire</ab>
-        <ab>Born in the County of</ab>
-        <ab>Roxburgh, N.B.</ab>
-        <ab>the 15.th of September 1792.</ab>
-        <ab>Died at Rome</ab>
-        <ab>on the 7th of March, 1830.</ab>
-        <ab>Aged 37.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S180"
+               ulx="1126.307966"
+               uly="323.335814"
+               lrx="1134.108142"
+               lry="325.24839699999995"
+               points="1134.108142,323.522191 1126.357215,323.335814 1126.307966,325.06202099999996 1134.058893,325.24839699999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>IN MEMORY</ab>
+            <ab>of</ab>
+            <ab>JAMES PURVES Esquire</ab>
+            <ab>Born in the County of</ab>
+            <ab>Roxburgh, N.B.</ab>
+            <ab>the 15.th of September 1792.</ab>
+            <ab>Died at Rome</ab>
+            <ab>on the 7th of March, 1830.</ab>
+            <ab>Aged 37.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

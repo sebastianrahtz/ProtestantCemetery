@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9023.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9023.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9023</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9023">
-          <msIdentifier>
-            <idno>S9023</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-              <note>east of 881</note>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1064</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>32</height>
-                    <dim type="diameter">14</dim>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_16 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">round</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>37</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Bergljot</forename>
-              <surname>Djurhuus</surname>
-            </persName>
-            <birth when="1913"/>
-            <death when="1950"/>
-            <nationality key="DK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9023</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9023">
+               <msIdentifier>
+                  <idno>S9023</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                     <note>east of 881</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1064</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>32</height>
+                              <dim type="diameter">14</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_16 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">round</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>37</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Bergljot</forename>
+                     <surname>Djurhuus</surname>
+                  </persName>
+                  <birth when="1913"/>
+                  <death when="1950"/>
+                  <nationality key="DK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="no" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>
-          <emph>Moderen,</emph>
-        </ab>
-        <ab>BERGLIOT DJURHUUS</ab>
-        <ab>* 1.2.1913 + 30.9.1950</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9023"
+               ulx="2138.87081"
+               uly="436.12631999999996"
+               lrx="2142.00831"
+               lry="439.263821"
+               points="2138.87081,436.12631999999996 2142.00831,436.12631999999996 2142.00831,439.263821 2138.87081,439.263821 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="no" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>
+               <emph>Moderen,</emph>
+            </ab>
+            <ab>BERGLIOT DJURHUUS</ab>
+            <ab>* 1.2.1913 + 30.9.1950</ab>
+         </div>
+      </body>
   </text>
 </TEI>

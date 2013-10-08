@@ -1,106 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S950.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S950.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 950</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S950">
-          <msIdentifier>
-            <idno>S950</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1025</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>77</height>
-                    <depth>28</depth>
-                    <width>52</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Dove grouped with nine stars.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_39 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>9</num>
-                <ptr target="#i_97 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Auguste</forename>
-              <surname>Oesterhelweg</surname>
-            </persName>
-            <death when="1903"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Luise</forename>
-              <surname>Dabringhaus</surname>
-            </persName>
-            <death when="1947"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 950</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S950">
+               <msIdentifier>
+                  <idno>S950</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1025</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>77</height>
+                              <depth>28</depth>
+                              <width>52</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Dove grouped with nine stars.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_39 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>9</num>
+                        <ptr target="#i_97 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Auguste</forename>
+                     <surname>Oesterhelweg</surname>
+                  </persName>
+                  <death when="1903"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Luise</forename>
+                     <surname>Dabringhaus</surname>
+                  </persName>
+                  <death when="1947"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>Auguste Oesterhelweg</ab>
-        <ab>
-          <hi rend="gothic">Diakonissin</hi>
-        </ab>
-        <ab>geb. 2. Feb 1875</ab>
-        <ab>gest. 4. Feb. 1903.</ab>
-        <ab>Joh. 4.13,14</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IC #t_S">
-        <ab>Luise Dabringhaus</ab>
-        <ab>Diakonissin</ab>
-        <ab>*1904 +1947</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S950"
+               ulx="1361.300563"
+               uly="441.328073"
+               lrx="1367.937011"
+               lry="452.258693"
+               points="1361.545685,441.328073 1367.937011,441.47333100000003 1367.691889,452.258693 1361.300563,452.113436 ">
+            <graphic url="film:AN/36"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>Auguste Oesterhelweg</ab>
+            <ab>
+               <hi rend="gothic">Diakonissin</hi>
+            </ab>
+            <ab>geb. 2. Feb 1875</ab>
+            <ab>gest. 4. Feb. 1903.</ab>
+            <ab>Joh. 4.13,14</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_IC #t_S">
+            <ab>Luise Dabringhaus</ab>
+            <ab>Diakonissin</ab>
+            <ab>*1904 +1947</ab>
+         </div>
+      </body>
   </text>
 </TEI>

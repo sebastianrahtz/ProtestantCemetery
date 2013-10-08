@@ -1,90 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1904.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1904.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1904</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1904">
-          <msIdentifier>
-            <idno>S1904</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">30</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>190</height>
-                    <depth>4</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Aaron Augustus</forename>
-              <surname>Morgan</surname>
-            </persName>
-            <death when="1888"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1904</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1904">
+               <msIdentifier>
+                  <idno>S1904</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>190</height>
+                              <depth>4</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Aaron Augustus</forename>
+                     <surname>Morgan</surname>
+                  </persName>
+                  <death when="1888"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF THE</ab>
-        <ab>REVD AARON AUGUSTUS MORGAN M.A.</ab>
-        <ab>FORMERLY RECTOR OF BRADLEY</ab>
-        <ab>      LINCOLN</ab>
-        <ab/>
-        <ab>THEN</ab>
-        <ab>CHAPLAIN TO THE ARMY WORKS CORPS</ab>
-        <ab>IN THE CRIMEA</ab>
-        <ab/>
-        <ab>THEN</ab>
-        <ab>VICAR OF ST JOHNS</ab>
-        <ab>   BRIGHTON</ab>
-        <ab>AND LATTERLY</ab>
-        <ab>RECTOR OF GREAT CASTERTON</ab>
-        <ab>    RUTLANDS</ab>
-        <ab>BORN IN LONDON ON 6TH MARCH 1822</ab>
-        <ab>DIED AT TIVOLI ON 17TH OCTOBER 1888</ab>
-        <ab>---------</ab>
-        <ab rend="Alignl">LORD REMEMBER ME WHEN THOU COMEST</ab>
-        <ab rend="Alignl">INTO THY KINGDOM</ab>
-        <ab rend="Alignr">[......] c 123 v i</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1904"
+               ulx="2195.177887"
+               uly="637.010554"
+               lrx="2207.375695"
+               lry="658.021188"
+               points="2195.177887,637.896434 2205.677759,637.010554 2207.375695,657.135308 2196.875823,658.021188 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF THE</ab>
+            <ab>REVD AARON AUGUSTUS MORGAN M.A.</ab>
+            <ab>FORMERLY RECTOR OF BRADLEY</ab>
+            <ab>      LINCOLN</ab>
+            <ab/>
+            <ab>THEN</ab>
+            <ab>CHAPLAIN TO THE ARMY WORKS CORPS</ab>
+            <ab>IN THE CRIMEA</ab>
+            <ab/>
+            <ab>THEN</ab>
+            <ab>VICAR OF ST JOHNS</ab>
+            <ab>   BRIGHTON</ab>
+            <ab>AND LATTERLY</ab>
+            <ab>RECTOR OF GREAT CASTERTON</ab>
+            <ab>    RUTLANDS</ab>
+            <ab>BORN IN LONDON ON 6TH MARCH 1822</ab>
+            <ab>DIED AT TIVOLI ON 17TH OCTOBER 1888</ab>
+            <ab>---------</ab>
+            <ab rend="Alignl">LORD REMEMBER ME WHEN THOU COMEST</ab>
+            <ab rend="Alignl">INTO THY KINGDOM</ab>
+            <ab rend="Alignr">[......] c 123 v i</ab>
+         </div>
+      </body>
   </text>
 </TEI>

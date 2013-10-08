@@ -1,90 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2344.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2344.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2344</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2344">
-          <msIdentifier>
-            <idno>S2344</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>190</height>
-                    <depth>190</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Evgenij</forename>
-              <surname>Gozdavo-Golombievskij</surname>
-            </persName>
-            <death when="1917"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2344</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2344">
+               <msIdentifier>
+                  <idno>S2344</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>190</height>
+                              <depth>190</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Evgenij</forename>
+                     <surname>Gozdavo-Golombievskij</surname>
+                  </persName>
+                  <death when="1917"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_I #t_P #s_CY">
-        <ab>ГВ. АРТИЛЛЕРИИ</ab>
-        <ab>ЬТ. КАПИТАН"</ab>
-        <ab>ЕВГЕНИЙ ГОЗДАВО-ГОЛОМБИЕВСКИЙ</ab>
-        <ab>32 ЛѢТ"</ab>
-        <ab>СКОНЯ. 2/15 СЕНТЯБРЯ 1917 Г.</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_I #t_PC #s_CY">
-        <ab>УПОКОЙ, ГОСПОДИ! ДУЬУ</ab>
-        <ab>РАБА ТВОЕГО.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2344"
+               ulx="2633.677854"
+               uly="693.958248"
+               lrx="2643.090765"
+               lry="714.968108"
+               points="2634.258864,693.958248 2643.090765,694.205395 2642.509754,714.968108 2633.677854,714.720961 ">
+            <graphic url="film:G/15"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_I #t_P #s_CY">
+            <ab>ГВ. АРТИЛЛЕРИИ</ab>
+            <ab>ЬТ. КАПИТАН"</ab>
+            <ab>ЕВГЕНИЙ ГОЗДАВО-ГОЛОМБИЕВСКИЙ</ab>
+            <ab>32 ЛѢТ"</ab>
+            <ab>СКОНЯ. 2/15 СЕНТЯБРЯ 1917 Г.</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_3 #m_I #t_PC #s_CY">
+            <ab>УПОКОЙ, ГОСПОДИ! ДУЬУ</ab>
+            <ab>РАБА ТВОЕГО.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

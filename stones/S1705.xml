@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1705.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1705.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1705</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1705">
-          <msIdentifier>
-            <idno>S1705</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1105</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>155</height>
-                    <depth>20</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_164 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Mary Louisa</forename>
-              <surname>Pigott</surname>
-            </persName>
-            <death when="1875"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1705</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1705">
+               <msIdentifier>
+                  <idno>S1705</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1105</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>155</height>
+                              <depth>20</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_164 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Mary Louisa</forename>
+                     <surname>Pigott</surname>
+                  </persName>
+                  <death when="1875"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>BENEATH LYE THE REMAINS OF</ab>
-        <ab>MARY LOUISA PIGOTT</ab>
-        <ab>ONLY DAUGHTER OF THE LATE</ab>
-        <ab>G.G. PIGOTT ESQ.</ab>
-        <ab>AND CHARLOTTE HIS WIFE</ab>
-        <ab>OF DODDERSHALL PARK, BUCKS.</ab>
-        <ab>WHO DIED AT ROME 5 APRIL 1875</ab>
-        <ab>IN THE 30TH YEAR OF HER AGE</ab>
-        <ab/>
-        <ab>THOU ART GONE TO THE GRAVE, WE WILL NOT DEPLORE THEE</ab>
-        <ab>WHOSE GOD WAS THY RANSON, THY GUARDIAN, AND GUIDE</ab>
-        <ab>HE GAVE THEE, AND TOOK THEE, AND HE WILL RESTORE</ab>
-        <ab>AND DEATH HATH NO STING FOR THE SAVIOUR HATH DIED</ab>
-        <ab rend="Alignr">Heler</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1705"
+               ulx="2385.033386"
+               uly="426.57075299999997"
+               lrx="2394.107834"
+               lry="429.49038099999996"
+               points="2385.033386,427.292514 2393.929516,426.57075299999997 2394.107834,428.76862100000005 2385.211703,429.49038099999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>BENEATH LYE THE REMAINS OF</ab>
+            <ab>MARY LOUISA PIGOTT</ab>
+            <ab>ONLY DAUGHTER OF THE LATE</ab>
+            <ab>G.G. PIGOTT ESQ.</ab>
+            <ab>AND CHARLOTTE HIS WIFE</ab>
+            <ab>OF DODDERSHALL PARK, BUCKS.</ab>
+            <ab>WHO DIED AT ROME 5 APRIL 1875</ab>
+            <ab>IN THE 30TH YEAR OF HER AGE</ab>
+            <ab/>
+            <ab>THOU ART GONE TO THE GRAVE, WE WILL NOT DEPLORE THEE</ab>
+            <ab>WHOSE GOD WAS THY RANSON, THY GUARDIAN, AND GUIDE</ab>
+            <ab>HE GAVE THEE, AND TOOK THEE, AND HE WILL RESTORE</ab>
+            <ab>AND DEATH HATH NO STING FOR THE SAVIOUR HATH DIED</ab>
+            <ab rend="Alignr">Heler</ab>
+         </div>
+      </body>
   </text>
 </TEI>

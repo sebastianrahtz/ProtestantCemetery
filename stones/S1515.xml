@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1515.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1515.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1515</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1515">
-          <msIdentifier>
-            <idno>S1515</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2509</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>166</height>
-                    <depth>50</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>May St Clair</forename>
-              <surname>Barker</surname>
-            </persName>
-            <death when="1897"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1515</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1515">
+               <msIdentifier>
+                  <idno>S1515</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2509</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>166</height>
+                              <depth>50</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>May St Clair</forename>
+                     <surname>Barker</surname>
+                  </persName>
+                  <death when="1897"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>MAY ST CLAIR BARKER</ab>
-        <ab>BORN 2ND MAY 1877</ab>
-        <ab>DIED 15TH MAY 1897</ab>
-        <ab/>
-        <ab rend="Alignl">THEY SHALL HUNGER NO MORE, NEITHER THIRST</ab>
-        <ab rend="Alignl">ANY MORE, FOR THE LAMB WHICH IS IN THE</ab>
-        <ab rend="Alignl">MIDST OF THE THRONE SHALL FEED THEM AND</ab>
-        <ab rend="Alignl">SHALL LEAD THEM INTO LIVING FOUNTAINS</ab>
-        <ab rend="Alignl">OF WATERS.</ab>
-        <ab rend="Alignr">REV.C.VII.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1515"
+               ulx="2504.863601"
+               uly="240.88739299999997"
+               lrx="2518.973412"
+               lry="248.18410300000005"
+               points="2504.863601,241.90116899999998 2518.506541,240.88739299999997 2518.973412,247.17032500000005 2505.330472,248.18410300000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>MAY ST CLAIR BARKER</ab>
+            <ab>BORN 2ND MAY 1877</ab>
+            <ab>DIED 15TH MAY 1897</ab>
+            <ab/>
+            <ab rend="Alignl">THEY SHALL HUNGER NO MORE, NEITHER THIRST</ab>
+            <ab rend="Alignl">ANY MORE, FOR THE LAMB WHICH IS IN THE</ab>
+            <ab rend="Alignl">MIDST OF THE THRONE SHALL FEED THEM AND</ab>
+            <ab rend="Alignl">SHALL LEAD THEM INTO LIVING FOUNTAINS</ab>
+            <ab rend="Alignl">OF WATERS.</ab>
+            <ab rend="Alignr">REV.C.VII.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

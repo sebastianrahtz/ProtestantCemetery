@@ -1,92 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S189.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S189.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 189</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S189">
-          <msIdentifier>
-            <idno>S189</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1760</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>250</height>
-                    <width>112</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_16 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Charles Andrew</forename>
-              <surname>Scott</surname>
-            </persName>
-            <birth>
-              <placeName>
-                <settlement>Roxburgh</settlement>
-                <country>?Usa</country>
-              </placeName>
-            </birth>
-            <death when="1838-04-07"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 189</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S189">
+               <msIdentifier>
+                  <idno>S189</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1760</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>250</height>
+                              <width>112</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_16 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Charles Andrew</forename>
+                     <surname>Scott</surname>
+                  </persName>
+                  <birth>
+                     <placeName>
+                        <settlement>Roxburgh</settlement>
+                        <country>?Usa</country>
+                     </placeName>
+                  </birth>
+                  <death when="1838-04-07"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
-        <ab>M.S.</ab>
-        <ab>CAROLL ANDREAE SCOTT</ab>
-        <ab>FILII MAIORIS NATV</ab>
-        <ab>GVLIEMI ET ALICIAE SCOTT DE WOLL</ab>
-        <ab>IN COM ROXBVRGH</ab>
-        <ab>QVEM</ab>
-        <ab>PRIMUM ET VIGESIMVM ANNVM</ab>
-        <ab>AGENTEM</ab>
-        <ab>MORS IMMATVRA</ab>
-        <ab>ABSTVLIT</ab>
-        <ab>ROMAE DIE VII APRILIS</ab>
-        <ab>MDCCCXXXVIII</ab>
-        <ab>FILIO CARISSIMO</ab>
-        <ab>MATER IEHEV SUPERSTES</ab>
-        <ab>P</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S189"
+               ulx="1005.44542"
+               uly="311.45226"
+               lrx="1015.635653"
+               lry="323.082908"
+               points="1015.635653,311.689523 1005.770885,311.45226 1005.44542,322.845645 1015.310189,323.082908 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
+            <ab>M.S.</ab>
+            <ab>CAROLL ANDREAE SCOTT</ab>
+            <ab>FILII MAIORIS NATV</ab>
+            <ab>GVLIEMI ET ALICIAE SCOTT DE WOLL</ab>
+            <ab>IN COM ROXBVRGH</ab>
+            <ab>QVEM</ab>
+            <ab>PRIMUM ET VIGESIMVM ANNVM</ab>
+            <ab>AGENTEM</ab>
+            <ab>MORS IMMATVRA</ab>
+            <ab>ABSTVLIT</ab>
+            <ab>ROMAE DIE VII APRILIS</ab>
+            <ab>MDCCCXXXVIII</ab>
+            <ab>FILIO CARISSIMO</ab>
+            <ab>MATER IEHEV SUPERSTES</ab>
+            <ab>P</ab>
+         </div>
+      </body>
   </text>
 </TEI>

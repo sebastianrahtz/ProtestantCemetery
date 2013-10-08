@@ -1,92 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S331.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S331.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 331</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S331">
-          <msIdentifier>
-            <idno>S331</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">709</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>32</height>
-                    <depth>2</depth>
-                    <width>53</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>88</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Serge</forename>
-              <surname>Cheremeteff-Stroganoff</surname>
-            </persName>
-            <birth when="1880-01-05"/>
-            <death when="1968-03-18"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <age>80</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Stella</forename>
-              <surname>Cheremeteff-Stroganoff</surname>
-            </persName>
-            <birth when="1888-02-01"/>
-            <death when="1969-01-22"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 331</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S331">
+               <msIdentifier>
+                  <idno>S331</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">709</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>32</height>
+                              <depth>2</depth>
+                              <width>53</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>88</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Serge</forename>
+                     <surname>Cheremeteff-Stroganoff</surname>
+                  </persName>
+                  <birth when="1880-01-05"/>
+                  <death when="1968-03-18"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <age>80</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Stella</forename>
+                     <surname>Cheremeteff-Stroganoff</surname>
+                  </persName>
+                  <birth when="1888-02-01"/>
+                  <death when="1969-01-22"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>SERGE</ab>
-        <ab>CHEREMETEFF-STROGANOFF</ab>
-        <ab>*5.1.1880.+18.III.1968</ab>
-        <ab>STELLA</ab>
-        <ab>CHEREMETEFF-STROGANEFF</ab>
-        <ab>NÉE WEBBER</ab>
-        <ab>*1.II.1888 +22.I.1969</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S331"
+               ulx="1196.086944"
+               uly="495.688635"
+               lrx="1203.574146"
+               lry="498.97380899999996"
+               points="1203.574146,495.866634 1196.175613,495.688635 1196.086944,498.79600000000005 1203.48546,498.97380899999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>SERGE</ab>
+            <ab>CHEREMETEFF-STROGANOFF</ab>
+            <ab>*5.1.1880.+18.III.1968</ab>
+            <ab>STELLA</ab>
+            <ab>CHEREMETEFF-STROGANEFF</ab>
+            <ab>NÉE WEBBER</ab>
+            <ab>*1.II.1888 +22.I.1969</ab>
+         </div>
+      </body>
   </text>
 </TEI>

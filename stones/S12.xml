@@ -1,75 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S12.xml" type="noburial">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S12.xml"
+     type="noburial">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 12</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S12">
-          <msIdentifier>
-            <idno>S12</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>80</height>
-                    <depth>23</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 14)</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_129 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="faces">west side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Johan</forename>
-              <surname>Beck-Friis</surname>
-            </persName>
-            <nationality key="SE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 12</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S12">
+               <msIdentifier>
+                  <idno>S12</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>80</height>
+                              <depth>23</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 14)</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_129 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="faces">west side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Johan</forename>
+                     <surname>Beck-Friis</surname>
+                  </persName>
+                  <nationality key="SE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_W #c_1 #m_IC #t_P">
-        <ab>H.EXC.BARON</ab>
-        <ab rend="Alignr">JOHAN</ab>
-        <ab rend="Alignr">BECK-FRIIS</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_W #c_1 #m_IC #t_PC">
-        <ab>BENEMERENTE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S12"
+               ulx="801.67691"
+               uly="511.146437"
+               lrx="808.538802"
+               lry="521.598224"
+               points="807.615703,511.146437 801.67691,511.70029999999997 802.600009,521.598224 808.538802,521.044362 ">
+            <graphic url="film:A/19"/>
+            <graphic url="film:AB/22"/>
+            <graphic url="film:Q/27"/>
+            <graphic url="pictures/2007_0083.jpg"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_W #c_1 #m_IC #t_P">
+            <ab>H.EXC.BARON</ab>
+            <ab rend="Alignr">JOHAN</ab>
+            <ab rend="Alignr">BECK-FRIIS</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_W #c_1 #m_IC #t_PC">
+            <ab>BENEMERENTE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

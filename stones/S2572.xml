@@ -1,88 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2572.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2572.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2572</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2572">
-          <msIdentifier>
-            <idno>S2572</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>153</height>
-                    <depth>12</depth>
-                    <width>55</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John Floyd</forename>
-              <surname>Andrewes</surname>
-            </persName>
-            <death when="1927"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2572</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2572">
+               <msIdentifier>
+                  <idno>S2572</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>153</height>
+                              <depth>12</depth>
+                              <width>55</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John Floyd</forename>
+                     <surname>Andrewes</surname>
+                  </persName>
+                  <death when="1927"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_W #c_2 #m_IF #t_PC">
-        <ab rend="Alignl">IN PACE</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_IF #t_P">
-        <ab rend="Alignr">IN LOVING AND BLESSED MEMORY OF</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_S">
-        <ab>JOHN FLOYD ANDREWES M.A. PRIEST</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_S">
-        <ab>BELOVED HUSBAND OF EDITH ANDREWS, DIED ROME JUNE 23RD 1927 AGED 82</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_PC">
-        <ab>THE SOULS OF THE RIGHTEOUS ARE IN THE HAND OF GOD</ab>
-        <ab>THE FAITHFUL SHALL ABIDE WITH HIM IN LOVE</ab>
-        <ab>THEY BEHOLD HIS FACE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2572"
+               ulx="2940.462991"
+               uly="521.690102"
+               lrx="2948.58221"
+               lry="527.355739"
+               points="2940.522339,521.690102 2948.58221,521.775829 2948.522861,527.355739 2940.462991,527.270013 ">
+            <graphic url="film:I/14"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_W #c_2 #m_IF #t_PC">
+            <ab rend="Alignl">IN PACE</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_W #c_2 #m_IF #t_P">
+            <ab rend="Alignr">IN LOVING AND BLESSED MEMORY OF</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_S">
+            <ab>JOHN FLOYD ANDREWES M.A. PRIEST</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_S">
+            <ab>BELOVED HUSBAND OF EDITH ANDREWS, DIED ROME JUNE 23RD 1927 AGED 82</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_PC">
+            <ab>THE SOULS OF THE RIGHTEOUS ARE IN THE HAND OF GOD</ab>
+            <ab>THE FAITHFUL SHALL ABIDE WITH HIM IN LOVE</ab>
+            <ab>THEY BEHOLD HIS FACE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

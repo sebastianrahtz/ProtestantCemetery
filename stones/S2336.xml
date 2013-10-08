@@ -1,99 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2336.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2336.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2336</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2336">
-          <msIdentifier>
-            <idno>S2336</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">795</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>3</num>
-                  <dimensions unit="cm">
-                    <height>210</height>
-                    <depth>82</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Vera</forename>
-              <surname>Rubinxtetjh"</surname>
-            </persName>
-            <death when="1909"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Adelaide</forename>
-              <surname>Rebesoff</surname>
-            </persName>
-            <death when="1965"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2336</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2336">
+               <msIdentifier>
+                  <idno>S2336</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">795</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>3</num>
+                           <dimensions unit="cm">
+                              <height>210</height>
+                              <depth>82</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Vera</forename>
+                     <surname>Rubinxtetjh"</surname>
+                  </persName>
+                  <death when="1909"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Adelaide</forename>
+                     <surname>Rebesoff</surname>
+                  </persName>
+                  <death when="1965"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_4 #m_IC #t_P #s_CY">
-        <ab>ВЕРА АЛЕКСАНДРОВНА</ab>
-        <ab>РУБИНЬТЕЙН"</ab>
-        <ab>18[.]1 - 1909</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en">the date is probably 1841</note>
-        </ab>
-      </div>
-      <div type="inscription" decls="#f_S #c_3 #m_IC #t_S">
-        <ab>ADELAIDE REBESOFF</ab>
-        <ab>* 2.10.1875 +28.1.1965</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2336"
+               ulx="2746.650595"
+               uly="697.137279"
+               lrx="2757.846529"
+               lry="704.724281"
+               points="2746.799652,703.6991869999999 2746.650595,699.825011 2747.108046,698.790937 2750.084739,697.5029910000001 2753.543695,697.137279 2754.952958,697.678274 2756.067093,698.401944 2757.821411,701.9641260000001 2757.846529,703.211678 2757.214349,704.1189979999999 2756.351519,704.429708 2751.539221,704.724281 2749.334479,704.490818 2747.708562,704.36504 2746.799652,703.6991869999999 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_4 #m_IC #t_P #s_CY">
+            <ab>ВЕРА АЛЕКСАНДРОВНА</ab>
+            <ab>РУБИНЬТЕЙН"</ab>
+            <ab>18[.]1 - 1909</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en">the date is probably 1841</note>
+            </ab>
+         </div>
+         <div type="inscription" decls="#f_S #c_3 #m_IC #t_S">
+            <ab>ADELAIDE REBESOFF</ab>
+            <ab>* 2.10.1875 +28.1.1965</ab>
+         </div>
+      </body>
   </text>
 </TEI>

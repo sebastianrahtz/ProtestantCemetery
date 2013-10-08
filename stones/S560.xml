@@ -1,87 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S560.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S560.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 560</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S560">
-          <msIdentifier>
-            <idno>S560</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">367</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>102</height>
-                    <depth>10</depth>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Welko</forename>
-              <surname>Welkoff</surname>
-            </persName>
-            <death when="1965"/>
-            <nationality key="BG"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Giuseppe</forename>
-              <surname>Danon</surname>
-            </persName>
-            <death when="1984"/>
-            <nationality key="BG"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 560</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S560">
+               <msIdentifier>
+                  <idno>S560</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">367</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>102</height>
+                              <depth>10</depth>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Welko</forename>
+                     <surname>Welkoff</surname>
+                  </persName>
+                  <death when="1965"/>
+                  <nationality key="BG"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Giuseppe</forename>
+                     <surname>Danon</surname>
+                  </persName>
+                  <death when="1984"/>
+                  <nationality key="BG"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>DR. WELKO WELKOFF</ab>
-        <ab>WIDRARE - BULGARIA	14.IX.1898</ab>
-        <ab>ROMA	11.X.1965</ab>
-        <ab>GIUSEPPE DANON</ab>
-        <ab>PAZARDЖIK - BULGARIA	6.XII.1912</ab>
-        <ab>ROMA 13.VII.1984</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S560"
+               ulx="1686.931137"
+               uly="269.845467"
+               lrx="1695.643365"
+               lry="272.749543"
+               points="1686.931137,269.845467 1695.643365,269.845467 1695.643365,272.749543 1686.931137,272.749543 ">
+            <graphic url="pictures/1996_19.png"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>DR. WELKO WELKOFF</ab>
+            <ab>WIDRARE - BULGARIA	14.IX.1898</ab>
+            <ab>ROMA	11.X.1965</ab>
+            <ab>GIUSEPPE DANON</ab>
+            <ab>PAZARDЖIK - BULGARIA	6.XII.1912</ab>
+            <ab>ROMA 13.VII.1984</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,110 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2114.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2114.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2114</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2114">
-          <msIdentifier>
-            <idno>S2114</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>130</height>
-                    <depth>26</depth>
-                    <width>5</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_74 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Sellie</forename>
-              <surname>Buetom</surname>
-            </persName>
-            <death when="1908"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Arthur</forename>
-              <surname>Bueton</surname>
-            </persName>
-            <death when="1939"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Clemenza</forename>
-              <surname>Bueton</surname>
-            </persName>
-            <death when="1954"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2114</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2114">
+               <msIdentifier>
+                  <idno>S2114</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>130</height>
+                              <depth>26</depth>
+                              <width>5</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_74 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Sellie</forename>
+                     <surname>Buetom</surname>
+                  </persName>
+                  <death when="1908"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Arthur</forename>
+                     <surname>Bueton</surname>
+                  </persName>
+                  <death when="1939"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Clemenza</forename>
+                     <surname>Bueton</surname>
+                  </persName>
+                  <death when="1954"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>hier ruht</ab>
-        <ab>Frau Sellie Buetom</ab>
-        <ab>geb. Goudstikker</ab>
-        <ab>meine liebe Frau</ab>
-        <ab>mein treuer Kamerad</ab>
-        <ab>gest. in Rom</ab>
-        <ab>am 26 September 1908.</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_I #t_S">
-        <ab>Clemenza Bueton</ab>
-        <ab>Arthur Bueton</ab>
-        <ab>Berlino 11.4.1856 Roma 23.1.1939</ab>
-        <ab rend="Alignr">Beatos homo quem</ab>
-        <ab rend="Alignr">fu erudieris domine</ab>
-        <ab rend="Alignr">et de lege tua docueris eum</ab>
-        <ab rend="Alignr">PS. XCII, 12</ab>
-        <ab>qui desidera aver riposo</ab>
-        <ab>la moglie fedele</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_I #t_S">
-        <ab>qui riposa</ab>
-        <ab>Napoli 11.11.1883</ab>
-        <ab>Roma 17.4.1954</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2114"
+               ulx="2717.722802"
+               uly="339.30622000000005"
+               lrx="2723.079797"
+               lry="351.28258400000004"
+               points="2714.714153,334.80756900000006 2725.073421,334.65316099999995 2725.131846,338.57288400000004 2714.772577,338.72729200000003 2717.722802,339.383425 2722.902437,339.30622000000005 2723.079797,351.20538 2717.900163,351.28258400000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>hier ruht</ab>
+            <ab>Frau Sellie Buetom</ab>
+            <ab>geb. Goudstikker</ab>
+            <ab>meine liebe Frau</ab>
+            <ab>mein treuer Kamerad</ab>
+            <ab>gest. in Rom</ab>
+            <ab>am 26 September 1908.</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_I #t_S">
+            <ab>Clemenza Bueton</ab>
+            <ab>Arthur Bueton</ab>
+            <ab>Berlino 11.4.1856 Roma 23.1.1939</ab>
+            <ab rend="Alignr">Beatos homo quem</ab>
+            <ab rend="Alignr">fu erudieris domine</ab>
+            <ab rend="Alignr">et de lege tua docueris eum</ab>
+            <ab rend="Alignr">PS. XCII, 12</ab>
+            <ab>qui desidera aver riposo</ab>
+            <ab>la moglie fedele</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_3 #m_I #t_S">
+            <ab>qui riposa</ab>
+            <ab>Napoli 11.11.1883</ab>
+            <ab>Roma 17.4.1954</ab>
+         </div>
+      </body>
   </text>
 </TEI>

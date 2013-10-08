@@ -1,104 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1334.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1334.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1334</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1334">
-          <msIdentifier>
-            <idno>S1334</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">333</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>143</height>
-                    <depth>20</depth>
-                    <width>99</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Angelo Oreste</forename>
-              <surname>Penco</surname>
-            </persName>
-            <death when="1951"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>N.D.Ida</forename>
-              <surname>von Knaut</surname>
-            </persName>
-            <death when="1951"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Olga</forename>
-              <surname>Botta</surname>
-            </persName>
-            <death when="1977"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1334</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1334">
+               <msIdentifier>
+                  <idno>S1334</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">333</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>143</height>
+                              <depth>20</depth>
+                              <width>99</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Angelo Oreste</forename>
+                     <surname>Penco</surname>
+                  </persName>
+                  <death when="1951"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>N.D.Ida</forename>
+                     <surname>von Knaut</surname>
+                  </persName>
+                  <death when="1951"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Olga</forename>
+                     <surname>Botta</surname>
+                  </persName>
+                  <death when="1977"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>N.D. IDA VON KNAUT</ab>
-        <ab>NATA URBANOWISCH</ab>
-        <ab>* 21.III.1860 + 8.VI.1951</ab>
-        <ab/>
-        <ab>ANGELO ORESTE PENCO</ab>
-        <ab>* 6.XI.1880 + 23.XII.1951</ab>
-        <ab/>
-        <ab>OLGA BOTTA</ab>
-        <ab>NATA VON KNAUT</ab>
-        <ab>* 17.X.1892 + 19.V.1977</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1334"
+               ulx="1591.653934"
+               uly="645.015134"
+               lrx="1601.639113"
+               lry="666.287345"
+               points="1592.229672,645.015134 1601.639113,645.272927 1601.063375,666.287345 1591.653934,666.029552 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>N.D. IDA VON KNAUT</ab>
+            <ab>NATA URBANOWISCH</ab>
+            <ab>* 21.III.1860 + 8.VI.1951</ab>
+            <ab/>
+            <ab>ANGELO ORESTE PENCO</ab>
+            <ab>* 6.XI.1880 + 23.XII.1951</ab>
+            <ab/>
+            <ab>OLGA BOTTA</ab>
+            <ab>NATA VON KNAUT</ab>
+            <ab>* 17.X.1892 + 19.V.1977</ab>
+         </div>
+      </body>
   </text>
 </TEI>

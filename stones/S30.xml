@@ -1,83 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S30.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S30.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 30</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S30">
-          <msIdentifier>
-            <idno>S30</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">171</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>63</height>
-                    <depth>10</depth>
-                    <width>28</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 36)</summary>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>0.7</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Arthur</forename>
-              <surname>Severn</surname>
-            </persName>
-            <birth when="1836-11-22"/>
-            <death when="1837-07-15">
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 30</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S30">
+               <msIdentifier>
+                  <idno>S30</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">171</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>63</height>
+                              <depth>10</depth>
+                              <width>28</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 36)</summary>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>0.7</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Arthur</forename>
+                     <surname>Severn</surname>
+                  </persName>
+                  <birth when="1836-11-22"/>
+                  <death when="1837-07-15">
              Cause: accident</death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>HERE ALSO ARE INTERRED</ab>
-        <ab>THE REMAINS OF</ab>
-        <ab>ARTHUR SEVERN</ab>
-        <ab>THE INFANT SON OF</ab>
-        <ab>JOSEPH SEVERN</ab>
-        <ab>WHO WAS BORN 22 NOV 1836.</ab>
-        <ab>AND ACCIDENTALLY KILLED</ab>
-        <ab>15 JULY 1837.</ab>
-        <ab>THE POET WORDSWORTH</ab>
-        <ab>WAS PRESENT AT HIS BAPTISM</ab>
-        <ab>IN ROME</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S30"
+               ulx="201.49373"
+               uly="1051.764805"
+               lrx="210.379782"
+               lry="1055.864272"
+               points="210.072071,1051.764805 201.49373,1052.564837 201.801441,1055.864272 210.379782,1055.0642400000002 ">
+            <graphic url="film:_H/26479"/>
+            <graphic url="film:_H/26480"/>
+            <graphic url="film:_H/26507"/>
+            <graphic url="pictures/2007_0104.jpg"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>HERE ALSO ARE INTERRED</ab>
+            <ab>THE REMAINS OF</ab>
+            <ab>ARTHUR SEVERN</ab>
+            <ab>THE INFANT SON OF</ab>
+            <ab>JOSEPH SEVERN</ab>
+            <ab>WHO WAS BORN 22 NOV 1836.</ab>
+            <ab>AND ACCIDENTALLY KILLED</ab>
+            <ab>15 JULY 1837.</ab>
+            <ab>THE POET WORDSWORTH</ab>
+            <ab>WAS PRESENT AT HIS BAPTISM</ab>
+            <ab>IN ROME</ab>
+         </div>
+      </body>
   </text>
 </TEI>

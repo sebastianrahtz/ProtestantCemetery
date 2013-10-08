@@ -1,93 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S60.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S60.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 60</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S60">
-          <msIdentifier>
-            <idno>S60</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">137</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>110</height>
-                    <depth>38</depth>
-                    <width>57</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 73), (vol 1, plate 74)</summary>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_4 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>29</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Isabella</forename>
-              <surname>Moore</surname>
-            </persName>
-            <birth when="1776"/>
-            <death when="1805-07-29"/>
-            <nationality key="IE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 60</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S60">
+               <msIdentifier>
+                  <idno>S60</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">137</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>110</height>
+                              <depth>38</depth>
+                              <width>57</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 73), (vol 1, plate 74)</summary>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_4 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>29</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Isabella</forename>
+                     <surname>Moore</surname>
+                  </persName>
+                  <birth when="1776"/>
+                  <death when="1805-07-29"/>
+                  <nationality key="IE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>SACRED TO THE MEMORY</ab>
-        <ab>OF ISABELLA MOORE</ab>
-        <ab>HELENA'S ELDEST SISTER</ab>
-        <ab>WHO DIED THE 29 OF IVLY 1805</ab>
-        <ab>AGED 29 YEARS &amp; 6 MONTHS</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_N #c_3 #m_IF #t_P">
-        <ab>D.O.M.</ab>
-        <ab>MEMORIAE ET CINERIBVS</ab>
-        <ab>ISABELLAE MOORE</ab>
-        <ab>HELENAE MAIORIS SORORIS</ab>
-        <ab>XXIX ANNOS NATAE</ab>
-        <ab>OMNIBVS CARISSIMAE</ab>
-        <ab>OBIIT XXIX IVLJ MDCCCV</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S60"
+               ulx="387.948153"
+               uly="730.189393"
+               lrx="394.934433"
+               lry="737.178756"
+               points="392.799292,730.189393 387.948153,732.327178 390.083293,737.178756 394.934433,735.040971 ">
+            <graphic url="film:_H/26306"/>
+            <graphic url="film:AB/9">
+               <desc>detail</desc>
+            </graphic>
+            <graphic url="film:R/10"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>SACRED TO THE MEMORY</ab>
+            <ab>OF ISABELLA MOORE</ab>
+            <ab>HELENA'S ELDEST SISTER</ab>
+            <ab>WHO DIED THE 29 OF IVLY 1805</ab>
+            <ab>AGED 29 YEARS &amp; 6 MONTHS</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_N #c_3 #m_IF #t_P">
+            <ab>D.O.M.</ab>
+            <ab>MEMORIAE ET CINERIBVS</ab>
+            <ab>ISABELLAE MOORE</ab>
+            <ab>HELENAE MAIORIS SORORIS</ab>
+            <ab>XXIX ANNOS NATAE</ab>
+            <ab>OMNIBVS CARISSIMAE</ab>
+            <ab>OBIIT XXIX IVLJ MDCCCV</ab>
+         </div>
+      </body>
   </text>
 </TEI>

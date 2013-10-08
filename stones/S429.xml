@@ -1,94 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S429.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S429.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 429</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S429">
-          <msIdentifier>
-            <idno>S429</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>160</height>
-                    <depth>30</depth>
-                    <width>110</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Spuridwn</forename>
-              <surname>Boulgarhs</surname>
-            </persName>
-            <death when="1932"/>
-            <nationality key="GR"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Swthrios</forename>
-              <surname>Boulgarhs</surname>
-            </persName>
-            <death when="1932"/>
-            <nationality key="GR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 429</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S429">
+               <msIdentifier>
+                  <idno>S429</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>160</height>
+                              <depth>30</depth>
+                              <width>110</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Spuridwn</forename>
+                     <surname>Boulgarhs</surname>
+                  </persName>
+                  <death when="1932"/>
+                  <nationality key="GR"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Swthrios</forename>
+                     <surname>Boulgarhs</surname>
+                  </persName>
+                  <death when="1932"/>
+                  <nationality key="GR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="el" decls="#f_T #c_2 #m_RM #t_P #s_GR">
-        <ab>ΚΑΤΑΒΗΣΟΜΑΙ ΠΡΟΣ ΤΟΝ</ab>
-        <ab>ΥΙΟΥ ΜΟΥ ΠΕΝΘΩΝ ΕΙΣ</ab>
-        <ab>ΑΔΗ.</ab>
-        <ab rend="Alignr">ΓΕΝΕΣΙΣ 37, 35</ab>
-        <ab/>
-        <ab/>
-        <ab>* 12 ΣΕΠΤΕΜΒΡΙΟΥ, 1897 + 27 ΜΑΡΤΙΟΥ, 1932</ab>
-        <ab>* 18 ΜΑΡΤΙΟΥ, 1857 + 24 ΝΟΣΕΜΒΡΙΟΥ, 1932</ab>
-        <ab/>
-        <ab>ΣΠΥΡΙΔΩΝ</ab>
-        <ab>ΚΑΙ</ab>
-        <ab>ΣΩΤΗΡΙΟΣ ΒΟΥΛΓΑΡΗΣ</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S429"
+               ulx="1096.757258"
+               uly="598.341313"
+               lrx="1108.270712"
+               lry="619.319432"
+               points="1108.270712,598.603933 1097.349126,598.341313 1096.757258,619.05664 1107.679051,619.319432 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="el" decls="#f_T #c_2 #m_RM #t_P #s_GR">
+            <ab>ΚΑΤΑΒΗΣΟΜΑΙ ΠΡΟΣ ΤΟΝ</ab>
+            <ab>ΥΙΟΥ ΜΟΥ ΠΕΝΘΩΝ ΕΙΣ</ab>
+            <ab>ΑΔΗ.</ab>
+            <ab rend="Alignr">ΓΕΝΕΣΙΣ 37, 35</ab>
+            <ab/>
+            <ab/>
+            <ab>* 12 ΣΕΠΤΕΜΒΡΙΟΥ, 1897 + 27 ΜΑΡΤΙΟΥ, 1932</ab>
+            <ab>* 18 ΜΑΡΤΙΟΥ, 1857 + 24 ΝΟΣΕΜΒΡΙΟΥ, 1932</ab>
+            <ab/>
+            <ab>ΣΠΥΡΙΔΩΝ</ab>
+            <ab>ΚΑΙ</ab>
+            <ab>ΣΩΤΗΡΙΟΣ ΒΟΥΛΓΑΡΗΣ</ab>
+         </div>
+      </body>
   </text>
 </TEI>

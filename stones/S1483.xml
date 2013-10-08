@@ -1,99 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1483.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1483.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1483</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1483">
-          <msIdentifier>
-            <idno>S1483</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">826</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="STAT">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>175</height>
-                    <depth>51</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Old-fashioned school-boy sitting on a rock, his head turned towards the east, holding a book in his hands might be the boy himself 11 years old). The artist's name is on the east side of the rock.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_99 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_115 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Georges</forename>
-              <surname>Volkoff</surname>
-            </persName>
-            <death when="1936"/>
-            <nationality key="BG"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1483</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1483">
+               <msIdentifier>
+                  <idno>S1483</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">826</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="STAT">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>175</height>
+                              <depth>51</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Old-fashioned school-boy sitting on a rock, his head turned towards the east, holding a book in his hands might be the boy himself 11 years old). The artist's name is on the east side of the rock.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_99 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_115 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Georges</forename>
+                     <surname>Volkoff</surname>
+                  </persName>
+                  <death when="1936"/>
+                  <nationality key="BG"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_4 #m_I #t_P">
-        <ab>GEORGES VOLKOFF</ab>
-        <ab>PICCOLO ADORATO</ab>
-        <ab>CHI PEL TUO AFFETTO</ab>
-        <ab>E LA TUA INTELLIGENZA</ab>
-        <ab>FOSTI LA GIOIA E L'ORGOGLIO</ab>
-        <ab>DEI TUOI GENITORI</ab>
-        <ab> -------</ab>
-        <ab>DAL CIELO</ab>
-        <ab>PREGA PER LORO</ab>
-        <ab>CHE LA TUA TRAGICA FINE</ab>
-        <ab>PIOMBÒ NEL DOLORE</ab>
-        <ab>SOFIA 18.VIII.1925 ROMA 13.VI.1936</ab>
-        <ab rend="Alignl">
-          <note>name and dates are incised &amp; coloured</note>
-        </ab>
-        <ab rend="Alignl">
-          <note>artist's name on the east side of the rock</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1483"
+               ulx="2193.628437"
+               uly="242.02587100000005"
+               lrx="2201.484315"
+               lry="249.13730599999997"
+               points="2193.628437,242.58809900000006 2200.983701,242.02587100000005 2201.484315,248.57507799999996 2194.129051,249.13730599999997 ">
+            <graphic url="film:L/13"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_4 #m_I #t_P">
+            <ab>GEORGES VOLKOFF</ab>
+            <ab>PICCOLO ADORATO</ab>
+            <ab>CHI PEL TUO AFFETTO</ab>
+            <ab>E LA TUA INTELLIGENZA</ab>
+            <ab>FOSTI LA GIOIA E L'ORGOGLIO</ab>
+            <ab>DEI TUOI GENITORI</ab>
+            <ab> -------</ab>
+            <ab>DAL CIELO</ab>
+            <ab>PREGA PER LORO</ab>
+            <ab>CHE LA TUA TRAGICA FINE</ab>
+            <ab>PIOMBÒ NEL DOLORE</ab>
+            <ab>SOFIA 18.VIII.1925 ROMA 13.VI.1936</ab>
+            <ab rend="Alignl">
+               <note>name and dates are incised &amp; coloured</note>
+            </ab>
+            <ab rend="Alignl">
+               <note>artist's name on the east side of the rock</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

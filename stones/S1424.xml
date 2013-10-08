@@ -1,77 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1424.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1424.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1424</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1424">
-          <msIdentifier>
-            <idno>S1424</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLW">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>45</height>
-                    <depth>4</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Bartolomeo</forename>
-              <surname>Rozat</surname>
-            </persName>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1424</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1424">
+               <msIdentifier>
+                  <idno>S1424</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLW">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>45</height>
+                              <depth>4</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Bartolomeo</forename>
+                     <surname>Rozat</surname>
+                  </persName>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>IN QVESTO OSSARIO SONO I RESTI MORTALI</ab>
-        <ab>DEL VENTICINQVENNE GINEVRINO</ab>
-        <ab>BARTOLOMEO ROZAT</ab>
-        <ab>CAPITANO DEI BERSAGLIERI DI MANARA</ab>
-        <ab>COMBATTENTE PER L'ITALIA NEGLI ANNI 1848 E 1849</ab>
-        <ab>DAL TRENTINO PALESTRINA A VELLETRI E VILLA CORSINA</ab>
-        <ab>GRAVAMENTE FERITÔ IL 9 GIVGNO SVGLI SIACTI DI SAN PANCRAZIO</ab>
-        <ab>TRE GIORNI DOPO ESALAVA LA SVA GRANDE ANIMA</ab>
-        <ab>NEL SACRO NOME D'ITALIA</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1424"
+               ulx="2315.705077"
+               uly="158.101897"
+               lrx="2327.819095"
+               lry="166.01120500000002"
+               points="2315.813444,155.307591 2327.364418,154.20027499999992 2327.522606,155.850414 2315.971632,156.95773000000008 2315.705077,159.2175239999999 2327.157282,158.101897 2327.819095,164.895578 2316.36689,166.01120500000002 ">
+            <graphic url="film:_H/26437"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>IN QVESTO OSSARIO SONO I RESTI MORTALI</ab>
+            <ab>DEL VENTICINQVENNE GINEVRINO</ab>
+            <ab>BARTOLOMEO ROZAT</ab>
+            <ab>CAPITANO DEI BERSAGLIERI DI MANARA</ab>
+            <ab>COMBATTENTE PER L'ITALIA NEGLI ANNI 1848 E 1849</ab>
+            <ab>DAL TRENTINO PALESTRINA A VELLETRI E VILLA CORSINA</ab>
+            <ab>GRAVAMENTE FERITÔ IL 9 GIVGNO SVGLI SIACTI DI SAN PANCRAZIO</ab>
+            <ab>TRE GIORNI DOPO ESALAVA LA SVA GRANDE ANIMA</ab>
+            <ab>NEL SACRO NOME D'ITALIA</ab>
+         </div>
+      </body>
   </text>
 </TEI>

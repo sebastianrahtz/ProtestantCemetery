@@ -1,85 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S144.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S144.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 144</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S144">
-          <msIdentifier>
-            <idno>S144</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>180</height>
-                    <depth>26</depth>
-                    <width>90</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>68</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Louey Shewell</forename>
-              <surname>Creek</surname>
-            </persName>
-            <birth when="1870-09-26">
-              <placeName>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1939-09-02">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 144</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S144">
+               <msIdentifier>
+                  <idno>S144</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>180</height>
+                              <depth>26</depth>
+                              <width>90</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>68</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Louey Shewell</forename>
+                     <surname>Creek</surname>
+                  </persName>
+                  <birth when="1870-09-26">
+                     <placeName>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1939-09-02">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
-        <ab>IN</ab>
-        <ab>LOVING MEMORY</ab>
-        <ab>OF</ab>
-        <ab>LOUEY SHEWELL</ab>
-        <ab>CREEK</ab>
-        <ab>BORN IN ENGLAND</ab>
-        <ab>SEPT 26TH 1870</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>SEPT 2ND 1939</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S144"
+               ulx="958.441178"
+               uly="277.266067"
+               lrx="968.380288"
+               lry="297.51735499999995"
+               points="967.954498,277.266067 958.441178,277.49189 958.866087,297.51735499999995 968.380288,297.29068199999995 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
+            <ab>IN</ab>
+            <ab>LOVING MEMORY</ab>
+            <ab>OF</ab>
+            <ab>LOUEY SHEWELL</ab>
+            <ab>CREEK</ab>
+            <ab>BORN IN ENGLAND</ab>
+            <ab>SEPT 26TH 1870</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>SEPT 2ND 1939</ab>
+         </div>
+      </body>
   </text>
 </TEI>

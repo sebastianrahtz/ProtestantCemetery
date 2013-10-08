@@ -1,118 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2152.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2152.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2152</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2152">
-          <msIdentifier>
-            <idno>S2152</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1915</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>202</height>
-                    <dim type="diameter">30</dim>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_30 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Frances Asenath</forename>
-              <surname>Monti</surname>
-            </persName>
-            <death when="1906"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Luigi</forename>
-              <surname>Monti</surname>
-            </persName>
-            <death when="1914"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2152</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2152">
+               <msIdentifier>
+                  <idno>S2152</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1915</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>202</height>
+                              <dim type="diameter">30</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_30 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Frances Asenath</forename>
+                     <surname>Monti</surname>
+                  </persName>
+                  <death when="1906"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Luigi</forename>
+                     <surname>Monti</surname>
+                  </persName>
+                  <death when="1914"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_R #c_2 #m_IF #t_P">
-        <ab>SACRED TO THE MEMORY OF</ab>
-        <ab>FRANCES ASENATH PARSONS</ab>
-        <ab>BELOVED WIFE OF</ab>
-        <ab>LUIGI MONTI</ab>
-        <ab>BORN IN BOSTON, MASSACHUSETT, U.S.A.</ab>
-        <ab>ACCANTO ALLA SUA DILETTA COMPAGNA</ab>
-        <ab>DIED AT VIAREGGIO, AUGUST 21ST 1906.</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_R #c_2 #m_IF #t_S">
-        <ab>LUIGI MONTI</ab>
-        <ab>NATO A PALERMO IL 26 GENNAIO 1830</ab>
-        <ab>MORTO A MILANO IL 3 MARZO 1914</ab>
-        <ab>ACCANTO ALLA SUA DILETTA COMPAGNA</ab>
-        <ab>NELLA PACE ETERNA</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_PC">
-        <ab>"O REST OF GOD THAT ENDETH EVERY PAIN!</ab>
-        <ab>O SMILE SERENE OF PEACE THAT SHALL REMAIN!</ab>
-        <ab>O BIRTH OF BEING! WHEN THIS FAULTY FRAME</ab>
-        <ab>FALL INTO NOTHINGNESS AND DEATH'S A NAME:</ab>
-        <ab>HOPE, NO MORE HEARTACHE WITH POSSESSION BLEST,</ab>
-        <ab>COME TO FULL FRUIT, POSSESSING AND POSSESSED;</ab>
-        <ab>EARTH'S PASSIONS PERISHING, NOW LOVE ALONE</ab>
-        <ab>SPRINGS TO ITS NATURAL GROWTH BESIDE GOD'S THRONE"</ab>
-        <ab rend="Alignr">THOMAS WILLIAM PARSONS</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_PC">
-        <ab>VIAREGGIO AUGUST 21ST 1906</ab>
-        <ab/>
-        <ab>LUIGI MONTI</ab>
-        <ab>NATO A PALMERO IL 26 GENNARO 1830</ab>
-        <ab>MORTO A MILANO IL 3 MARZO 1914</ab>
-        <ab>DECEMBER 25TH 1829</ab>
-        <ab>NELL PACE ETERNA</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2152"
+               ulx="2655.763898"
+               uly="396.44098299999996"
+               lrx="2665.170208"
+               lry="403.80433500000004"
+               points="2655.891286,396.44098299999996 2665.170208,396.60517100000004 2665.04282,403.80433500000004 2655.763898,403.64014699999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_R #c_2 #m_IF #t_P">
+            <ab>SACRED TO THE MEMORY OF</ab>
+            <ab>FRANCES ASENATH PARSONS</ab>
+            <ab>BELOVED WIFE OF</ab>
+            <ab>LUIGI MONTI</ab>
+            <ab>BORN IN BOSTON, MASSACHUSETT, U.S.A.</ab>
+            <ab>ACCANTO ALLA SUA DILETTA COMPAGNA</ab>
+            <ab>DIED AT VIAREGGIO, AUGUST 21ST 1906.</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_R #c_2 #m_IF #t_S">
+            <ab>LUIGI MONTI</ab>
+            <ab>NATO A PALERMO IL 26 GENNAIO 1830</ab>
+            <ab>MORTO A MILANO IL 3 MARZO 1914</ab>
+            <ab>ACCANTO ALLA SUA DILETTA COMPAGNA</ab>
+            <ab>NELLA PACE ETERNA</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_PC">
+            <ab>"O REST OF GOD THAT ENDETH EVERY PAIN!</ab>
+            <ab>O SMILE SERENE OF PEACE THAT SHALL REMAIN!</ab>
+            <ab>O BIRTH OF BEING! WHEN THIS FAULTY FRAME</ab>
+            <ab>FALL INTO NOTHINGNESS AND DEATH'S A NAME:</ab>
+            <ab>HOPE, NO MORE HEARTACHE WITH POSSESSION BLEST,</ab>
+            <ab>COME TO FULL FRUIT, POSSESSING AND POSSESSED;</ab>
+            <ab>EARTH'S PASSIONS PERISHING, NOW LOVE ALONE</ab>
+            <ab>SPRINGS TO ITS NATURAL GROWTH BESIDE GOD'S THRONE"</ab>
+            <ab rend="Alignr">THOMAS WILLIAM PARSONS</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_PC">
+            <ab>VIAREGGIO AUGUST 21ST 1906</ab>
+            <ab/>
+            <ab>LUIGI MONTI</ab>
+            <ab>NATO A PALMERO IL 26 GENNARO 1830</ab>
+            <ab>MORTO A MILANO IL 3 MARZO 1914</ab>
+            <ab>DECEMBER 25TH 1829</ab>
+            <ab>NELL PACE ETERNA</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,96 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S143.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S143.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 143</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S143">
-          <msIdentifier>
-            <idno>S143</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1780</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>175</height>
-                    <depth>91</depth>
-                    <width>177</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_106 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_106 #st_B #f_N"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>67</age>
-            <sex>1</sex>
-            <persName>
-              <forename>George</forename>
-              <surname>Barrington</surname>
-            </persName>
-            <birth when="1761-07-16"/>
-            <death when="1829-03-05">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 143</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S143">
+               <msIdentifier>
+                  <idno>S143</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1780</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>175</height>
+                              <depth>91</depth>
+                              <width>177</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_106 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_106 #st_B #f_N"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>67</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>George</forename>
+                     <surname>Barrington</surname>
+                  </persName>
+                  <birth when="1761-07-16"/>
+                  <death when="1829-03-05">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>GEORGE 5. VISCOUNT BARRINGTON</ab>
-        <ab>BORN ON THE 16. OF JULY 1761 DIED AT ROME</ab>
-        <ab>ON THE 5th. OF MARCH 1829.</ab>
-        <ab>He was an affectionate Husband. a tender Father. and</ab>
-        <ab>a kind Master. sincere in his faith and eminently</ab>
-        <ab>conspicuous in the practise of every domestic duty:</ab>
-        <ab>free from all ostentation his life was governed by purity</ab>
-        <ab>of intention. benevolence of heart. and uncompromising</ab>
-        <ab>integrity: his many virtues live in the hearts of his</ab>
-        <ab>sorrowing family. and of all who had the happiness to</ab>
-        <ab>come within their influence</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S143"
+               ulx="936.186345"
+               uly="278.01229"
+               lrx="954.689936"
+               lry="289.02837999999997"
+               points="954.134365,278.01229 936.186345,279.029545 936.741155,289.02837999999997 954.689936,288.01105400000006 ">
+            <graphic url="film:_H/26234"/>
+            <graphic url="film:_H/26234"/>
+            <graphic url="film:_H/26271"/>
+            <graphic url="film:K/34"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>GEORGE 5. VISCOUNT BARRINGTON</ab>
+            <ab>BORN ON THE 16. OF JULY 1761 DIED AT ROME</ab>
+            <ab>ON THE 5th. OF MARCH 1829.</ab>
+            <ab>He was an affectionate Husband. a tender Father. and</ab>
+            <ab>a kind Master. sincere in his faith and eminently</ab>
+            <ab>conspicuous in the practise of every domestic duty:</ab>
+            <ab>free from all ostentation his life was governed by purity</ab>
+            <ab>of intention. benevolence of heart. and uncompromising</ab>
+            <ab>integrity: his many virtues live in the hearts of his</ab>
+            <ab>sorrowing family. and of all who had the happiness to</ab>
+            <ab>come within their influence</ab>
+         </div>
+      </body>
   </text>
 </TEI>

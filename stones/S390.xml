@@ -1,87 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S390.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S390.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 390</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S390">
-          <msIdentifier>
-            <idno>S390</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">417</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>10</depth>
-                    <width>135</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>55</age>
-            <sex>1</sex>
-            <persName>
-              <forename>William</forename>
-              <surname>Brown</surname>
-            </persName>
-            <birth when="1796">
-              <placeName>
-                <settlement>Blink Norham, Durham</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1851-03-07"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 390</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S390">
+               <msIdentifier>
+                  <idno>S390</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">417</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>10</depth>
+                              <width>135</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>55</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>William</forename>
+                     <surname>Brown</surname>
+                  </persName>
+                  <birth when="1796">
+                     <placeName>
+                        <settlement>Blink Norham, Durham</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1851-03-07"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>WILLIAM BROWN</ab>
-        <ab>WHO</ab>
-        <ab>DEPARTED THIS LIFE</ab>
-        <ab>MARCH 7TH 1851</ab>
-        <ab>AGED 55 YEARS</ab>
-        <ab>NATIVE OF BLINK NORHAM</ab>
-        <ab>IN THE COUNTY OF DURHAM</ab>
-        <ab>RESIDENT OF THIS CITY FOR MANY YEARS</ab>
-        <ab>AND MUCH RESPECTED BY ALL</ab>
-        <ab>WHO KNEW HIM</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S390"
+               ulx="1034.665468"
+               uly="540.185518"
+               lrx="1048.233531"
+               lry="559.142871"
+               points="1048.233531,540.499006 1035.197913,540.185518 1034.665468,558.829174 1047.700914,559.142871 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>WILLIAM BROWN</ab>
+            <ab>WHO</ab>
+            <ab>DEPARTED THIS LIFE</ab>
+            <ab>MARCH 7TH 1851</ab>
+            <ab>AGED 55 YEARS</ab>
+            <ab>NATIVE OF BLINK NORHAM</ab>
+            <ab>IN THE COUNTY OF DURHAM</ab>
+            <ab>RESIDENT OF THIS CITY FOR MANY YEARS</ab>
+            <ab>AND MUCH RESPECTED BY ALL</ab>
+            <ab>WHO KNEW HIM</ab>
+         </div>
+      </body>
   </text>
 </TEI>

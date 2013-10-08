@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2216.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2216.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2216</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2216">
-          <msIdentifier>
-            <idno>S2216</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1407</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>160</height>
-                    <depth>10</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Alice</forename>
-              <surname>Jones</surname>
-            </persName>
-            <death when="1922"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2216</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2216">
+               <msIdentifier>
+                  <idno>S2216</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1407</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>160</height>
+                              <depth>10</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Alice</forename>
+                     <surname>Jones</surname>
+                  </persName>
+                  <death when="1922"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_I #t_P">
-        <ab>ALICE</ab>
-        <ab>YOUNGEST DAUGHTER OF</ab>
-        <ab>CHARLES JONES M.INST.C.I. OF EALING</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>28TH OCTOBER 1922</ab>
-        <ab>THIS STONE WAS ERECTED BY HER</ab>
-        <ab>BROTHERS AND SISTERS</ab>
-        <ab>IN EVER LOVING MEMORY OF A</ab>
-        <ab>DEVOTED DAUGHTER AFFECTIONATE SISTER</ab>
-        <ab>AND CONSTANT FRIEND</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2216"
+               ulx="2782.915574"
+               uly="524.770347"
+               lrx="2789.980609"
+               lry="539.761528"
+               points="2783.161262,524.770347 2789.980609,524.882954 2789.73492,539.761528 2782.915574,539.64892 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_I #t_P">
+            <ab>ALICE</ab>
+            <ab>YOUNGEST DAUGHTER OF</ab>
+            <ab>CHARLES JONES M.INST.C.I. OF EALING</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>28TH OCTOBER 1922</ab>
+            <ab>THIS STONE WAS ERECTED BY HER</ab>
+            <ab>BROTHERS AND SISTERS</ab>
+            <ab>IN EVER LOVING MEMORY OF A</ab>
+            <ab>DEVOTED DAUGHTER AFFECTIONATE SISTER</ab>
+            <ab>AND CONSTANT FRIEND</ab>
+         </div>
+      </body>
   </text>
 </TEI>

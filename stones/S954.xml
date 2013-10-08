@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S954.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S954.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 954</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S954">
-          <msIdentifier>
-            <idno>S954</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1603</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>126</height>
-                    <depth>8</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>H.P.C.</forename>
-              <surname>Moller</surname>
-            </persName>
-            <birth when="1810"/>
-            <death when="1845"/>
-            <nationality key="DK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 954</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S954">
+               <msIdentifier>
+                  <idno>S954</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1603</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>126</height>
+                              <depth>8</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>H.P.C.</forename>
+                     <surname>Moller</surname>
+                  </persName>
+                  <birth when="1810"/>
+                  <death when="1845"/>
+                  <nationality key="DK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_T #c_4 #m_I #t_P">
-        <ab>H S</ab>
-        <ab>H P C MOLLER</ab>
-        <ab>DANVS</ab>
-        <ab>NAT CAL NOVBR MDCCCX</ab>
-        <ab>GROENLANDIAE PRAEFECTVS</ab>
-        <ab>NATVRALIVM RERVM INTELLIGENS</ab>
-        <ab>AG PERITVS</ab>
-        <ab>PRAEMATVRAM OBIIT MORTEM</ab>
-        <ab>XV A CAL NOVBR MDCCCXLV</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S954"
+               ulx="1358.059156"
+               uly="474.22526500000004"
+               lrx="1364.606838"
+               lry="490.364338"
+               points="1358.482384,474.22526500000004 1364.606838,474.38750200000004 1364.18361,490.364338 1358.059156,490.20210099999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_T #c_4 #m_I #t_P">
+            <ab>H S</ab>
+            <ab>H P C MOLLER</ab>
+            <ab>DANVS</ab>
+            <ab>NAT CAL NOVBR MDCCCX</ab>
+            <ab>GROENLANDIAE PRAEFECTVS</ab>
+            <ab>NATVRALIVM RERVM INTELLIGENS</ab>
+            <ab>AG PERITVS</ab>
+            <ab>PRAEMATVRAM OBIIT MORTEM</ab>
+            <ab>XV A CAL NOVBR MDCCCXLV</ab>
+         </div>
+      </body>
   </text>
 </TEI>

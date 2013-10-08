@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2407.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2407.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2407</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2407">
-          <msIdentifier>
-            <idno>S2407</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>166</height>
-                    <depth>30</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ivanka Polkov</forename>
-              <surname>Bogdanova</surname>
-            </persName>
-            <death when="1936"/>
-            <nationality key="BG"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2407</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2407">
+               <msIdentifier>
+                  <idno>S2407</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>166</height>
+                              <depth>30</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ivanka Polkov</forename>
+                     <surname>Bogdanova</surname>
+                  </persName>
+                  <death when="1936"/>
+                  <nationality key="BG"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="bg" decls="#f_S #c_4 #m_I #t_P">
-        <ab>TUK" PO[Z]IVA</ab>
-        <ab>IVANKA</ab>
-        <ab>POLKOV BOGDANOVA</ab>
-        <ab>*15 OKTOMBRI 1898 G.</ab>
-        <ab>ST. ZAGORA - B"LGARIЯ</ab>
-        <ab>+14 APRIL" 1936 G. RIM"</ab>
-      </div>
-      <div type="inscription" xml:lang="bg" decls="#f_S #c_4 #m_I #t_PC">
-        <ab rend="Alignr">MIR" NA PRACHA TI</ab>
-        <ab rend="Alignr">MILA S"PRUGO I MAIKO</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2407"
+               ulx="3117.98692"
+               uly="215.83866999999998"
+               lrx="3126.630564"
+               lry="221.86997099999996"
+               points="3118.091572,215.83866999999998 3126.630564,215.99066400000004 3126.525913,221.86997099999996 3117.98692,221.71797700000002 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="bg" decls="#f_S #c_4 #m_I #t_P">
+            <ab>TUK" PO[Z]IVA</ab>
+            <ab>IVANKA</ab>
+            <ab>POLKOV BOGDANOVA</ab>
+            <ab>*15 OKTOMBRI 1898 G.</ab>
+            <ab>ST. ZAGORA - B"LGARIЯ</ab>
+            <ab>+14 APRIL" 1936 G. RIM"</ab>
+         </div>
+         <div type="inscription" xml:lang="bg" decls="#f_S #c_4 #m_I #t_PC">
+            <ab rend="Alignr">MIR" NA PRACHA TI</ab>
+            <ab rend="Alignr">MILA S"PRUGO I MAIKO</ab>
+         </div>
+      </body>
   </text>
 </TEI>

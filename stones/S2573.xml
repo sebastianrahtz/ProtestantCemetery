@@ -1,84 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2573.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2573.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2573</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2573">
-          <msIdentifier>
-            <idno>S2573</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1162</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>147</height>
-                    <depth>12</depth>
-                    <width>62</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Jane</forename>
-              <surname>Evans</surname>
-            </persName>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Robert Kennon</forename>
-              <surname>Evans</surname>
-            </persName>
-            <death when="1926"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2573</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2573">
+               <msIdentifier>
+                  <idno>S2573</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1162</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>147</height>
+                              <depth>12</depth>
+                              <width>62</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Jane</forename>
+                     <surname>Evans</surname>
+                  </persName>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Robert Kennon</forename>
+                     <surname>Evans</surname>
+                  </persName>
+                  <death when="1926"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
-        <ab>BRIGADIER GENERAL</ab>
-        <ab>ROBERT KENNON EVANS</ab>
-        <ab>D.S.M.</ab>
-        <ab>UNITED STATES ARMY</ab>
-        <ab>BORN NOVEMBER 19, 1852</ab>
-        <ab>DIED JULY 31, 1926</ab>
-        <ab>AND HIS WIFE</ab>
-        <ab>JANE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2573"
+               ulx="2927.32492"
+               uly="521.510227"
+               lrx="2937.099609"
+               lry="524.947069"
+               points="2927.32492,521.536943 2937.090279,521.510227 2937.099609,524.920352 2927.334249,524.947069 ">
+            <graphic url="film:I/13"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
+            <ab>BRIGADIER GENERAL</ab>
+            <ab>ROBERT KENNON EVANS</ab>
+            <ab>D.S.M.</ab>
+            <ab>UNITED STATES ARMY</ab>
+            <ab>BORN NOVEMBER 19, 1852</ab>
+            <ab>DIED JULY 31, 1926</ab>
+            <ab>AND HIS WIFE</ab>
+            <ab>JANE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

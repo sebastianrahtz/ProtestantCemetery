@@ -1,77 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1556.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1556.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1556</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1556">
-          <msIdentifier>
-            <idno>S1556</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>96</height>
-                    <depth>10</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Angelina Maria</forename>
-              <surname>Sarsfield</surname>
-            </persName>
-            <death when="1900"/>
-            <nationality key="IE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1556</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1556">
+               <msIdentifier>
+                  <idno>S1556</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>96</height>
+                              <depth>10</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Angelina Maria</forename>
+                     <surname>Sarsfield</surname>
+                  </persName>
+                  <death when="1900"/>
+                  <nationality key="IE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>ANGELINA MARIA SARSFIELD</ab>
-        <ab>DEARLY BELOVED DAUGHTER OF</ab>
-        <ab>THOMAS RONAYNE SARSFIELD</ab>
-        <ab>AND</ab>
-        <ab>ANGELINA SARSFIELD</ab>
-        <ab>OF DOUGHCLOYNE, CORK, IRELAND</ab>
-        <ab>DIED IN ROME FEBRUARY 14 1900</ab>
-        <ab/>
-        <ab>"THERE SHALL BE NO MORE DEATH,</ab>
-        <ab>NEITHER SORROW NOR CRYING"</ab>
-        <ab rend="Alignr">Revelations XXI.V.IV.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1556"
+               ulx="2386.235508"
+               uly="282.261881"
+               lrx="2394.576821"
+               lry="286.590633"
+               points="2386.235508,282.819445 2394.316625,282.261881 2394.576821,286.03306799999996 2386.495705,286.590633 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>ANGELINA MARIA SARSFIELD</ab>
+            <ab>DEARLY BELOVED DAUGHTER OF</ab>
+            <ab>THOMAS RONAYNE SARSFIELD</ab>
+            <ab>AND</ab>
+            <ab>ANGELINA SARSFIELD</ab>
+            <ab>OF DOUGHCLOYNE, CORK, IRELAND</ab>
+            <ab>DIED IN ROME FEBRUARY 14 1900</ab>
+            <ab/>
+            <ab>"THERE SHALL BE NO MORE DEATH,</ab>
+            <ab>NEITHER SORROW NOR CRYING"</ab>
+            <ab rend="Alignr">Revelations XXI.V.IV.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

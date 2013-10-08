@@ -1,86 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2554.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2554.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2554</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2554">
-          <msIdentifier>
-            <idno>S2554</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>130</height>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Ljubim'ij Angel"</forename>
-              <surname>Bogojavlenskij</surname>
-            </persName>
-            <death when="1949"/>
-            <nationality key="BG"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2554</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2554">
+               <msIdentifier>
+                  <idno>S2554</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>130</height>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Ljubim'ij Angel"</forename>
+                     <surname>Bogojavlenskij</surname>
+                  </persName>
+                  <death when="1949"/>
+                  <nationality key="BG"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_2 #m_IC #t_P #s_CY">
-        <ab rend="Alignl">
-          <note xml:lang="en"> Lang?</note>
-        </ab>
-        <ab>МОЛИ' БОГА О НАС"</ab>
-        <ab>ЛЙУБИМ'ИЙ АНГЕЛ"</ab>
-        <ab>ЙУРИК"</ab>
-        <ab>БОГОЯВЛЕНСКИЙ</ab>
-        <ab>* СОФИА 2-ИЬ-1947г.</ab>
-        <ab>+ РИМ" 2-ВИ-1949г.</ab>
-        <ab>БЕЯНАЯ ТЕБѢ</ab>
-        <ab>ПАМЯТ'</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> Check this for language.</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2554"
+               ulx="3114.166527"
+               uly="506.79870700000004"
+               lrx="3120.499907"
+               lry="518.312155"
+               points="3114.38074,506.79870700000004 3120.499907,506.91370600000005 3120.285694,518.312155 3114.166527,518.197156 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_2 #m_IC #t_P #s_CY">
+            <ab rend="Alignl">
+               <note xml:lang="en"> Lang?</note>
+            </ab>
+            <ab>МОЛИ' БОГА О НАС"</ab>
+            <ab>ЛЙУБИМ'ИЙ АНГЕЛ"</ab>
+            <ab>ЙУРИК"</ab>
+            <ab>БОГОЯВЛЕНСКИЙ</ab>
+            <ab>* СОФИА 2-ИЬ-1947г.</ab>
+            <ab>+ РИМ" 2-ВИ-1949г.</ab>
+            <ab>БЕЯНАЯ ТЕБѢ</ab>
+            <ab>ПАМЯТ'</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> Check this for language.</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

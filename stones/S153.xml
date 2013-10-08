@@ -1,96 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S153.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S153.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 153</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S153">
-          <msIdentifier>
-            <idno>S153</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">564</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>23</depth>
-                    <width>104</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Constance Fenimore</forename>
-              <surname>Woolson</surname>
-            </persName>
-            <death when="1894"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Clara Woolson</forename>
-              <surname>Benedict</surname>
-            </persName>
-            <death when="1923"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Clara</forename>
-              <surname>Benedict</surname>
-            </persName>
-            <death when="1961"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 153</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S153">
+               <msIdentifier>
+                  <idno>S153</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">564</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>23</depth>
+                              <width>104</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Constance Fenimore</forename>
+                     <surname>Woolson</surname>
+                  </persName>
+                  <death when="1894"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Clara Woolson</forename>
+                     <surname>Benedict</surname>
+                  </persName>
+                  <death when="1923"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Clara</forename>
+                     <surname>Benedict</surname>
+                  </persName>
+                  <death when="1961"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>CONSTANCE FENIMORE WOOLSON</ab>
-        <ab>1894</ab>
-      </div>
-      <div type="inscription" decls="#f_E #c_2 #m_IF #t_S">
-        <ab>CLARA WOOLSON BENEDICT</ab>
-        <ab>1923</ab>
-      </div>
-      <div type="inscription" decls="#f_W #c_2 #m_IF #t_S">
-        <ab>CLARA BENEDICT</ab>
-        <ab>1961</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S153"
+               ulx="1097.394388"
+               uly="282.919407"
+               lrx="1106.000527"
+               lry="300.722484"
+               points="1106.000527,283.11435100000006 1097.897189,282.919407 1097.394388,300.527523 1105.497535,300.722484 ">
+            <graphic url="film:_H/26502"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>CONSTANCE FENIMORE WOOLSON</ab>
+            <ab>1894</ab>
+         </div>
+         <div type="inscription" decls="#f_E #c_2 #m_IF #t_S">
+            <ab>CLARA WOOLSON BENEDICT</ab>
+            <ab>1923</ab>
+         </div>
+         <div type="inscription" decls="#f_W #c_2 #m_IF #t_S">
+            <ab>CLARA BENEDICT</ab>
+            <ab>1961</ab>
+         </div>
+      </body>
   </text>
 </TEI>

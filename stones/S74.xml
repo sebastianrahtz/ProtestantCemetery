@@ -1,94 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S74.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S74.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 74</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S74">
-          <msIdentifier>
-            <idno>S74</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">121</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>99</height>
-                    <dim type="diameter">42</dim>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 92)</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_30 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>21</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Carl</forename>
-              <surname>Duttenhofer</surname>
-            </persName>
-            <birth when="1784">
-              <placeName>
-                <settlement>Heilbron</settlement>
-                <country>Germany</country>
-              </placeName>
-            </birth>
-            <death when="1805"/>
-            <nationality key="DE"/>
-            <occupation>architect</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 74</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S74">
+               <msIdentifier>
+                  <idno>S74</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">121</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>99</height>
+                              <dim type="diameter">42</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 92)</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_30 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>21</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Carl</forename>
+                     <surname>Duttenhofer</surname>
+                  </persName>
+                  <birth when="1784">
+                     <placeName>
+                        <settlement>Heilbron</settlement>
+                        <country>Germany</country>
+                     </placeName>
+                  </birth>
+                  <death when="1805"/>
+                  <nationality key="DE"/>
+                  <occupation>architect</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_N #c_3 #m_I #t_P">
-        <ab>]NE[.....]N[</ab>
-        <ab>SEIN EINZIGER BRUDER</ab>
-        <ab>SETZEN DIESE SÄULE</ab>
-        <ab>ZUM ANDENKEN DES VIEL - GELIEBTEN</ab>
-        <ab>IM HERBST MDCCCV</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
-        <ab>EIN KURZES LEBEN GUT GELEBT</ab>
-        <ab>SO DACHTE</ab>
-        <ab>CARL DUTTENHOFER AUS HEILBRON</ab>
-        <ab>ES WARD IHM DENN</ab>
-        <ab>ER LEBTE NUR XXI IAHRE</ab>
-        <ab>WAR ARCHITECKT</ab>
-        <ab>SANFT RUHE ER</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S74"
+               ulx="557.427134"
+               uly="619.886252"
+               lrx="565.374884"
+               lry="629.601219"
+               points="565.374884,626.97298 563.02611,619.886252 557.427134,622.51445 559.773418,629.601219 ">
+            <graphic url="film:AB/8"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_N #c_3 #m_I #t_P">
+            <ab>]NE[.....]N[</ab>
+            <ab>SEIN EINZIGER BRUDER</ab>
+            <ab>SETZEN DIESE SÄULE</ab>
+            <ab>ZUM ANDENKEN DES VIEL - GELIEBTEN</ab>
+            <ab>IM HERBST MDCCCV</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_I #t_P">
+            <ab>EIN KURZES LEBEN GUT GELEBT</ab>
+            <ab>SO DACHTE</ab>
+            <ab>CARL DUTTENHOFER AUS HEILBRON</ab>
+            <ab>ES WARD IHM DENN</ab>
+            <ab>ER LEBTE NUR XXI IAHRE</ab>
+            <ab>WAR ARCHITECKT</ab>
+            <ab>SANFT RUHE ER</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,85 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S600.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S600.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 600</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S600">
-          <msIdentifier>
-            <idno>S600</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1285</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>110</height>
-                    <depth>16</depth>
-                    <width>32</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>On the S face at the top there is some strange relief which is broken but appears to be natural. Below this there is a terracotta tile which is purposely broken. There is , on this tile, in relief, a seated figure in classical pose.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_45 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_999 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Reinhard Paul</forename>
-              <surname>Hartwig</surname>
-            </persName>
-            <death when="1919"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 600</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S600">
+               <msIdentifier>
+                  <idno>S600</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1285</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>110</height>
+                              <depth>16</depth>
+                              <width>32</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>On the S face at the top there is some strange relief which is broken but appears to be natural. Below this there is a terracotta tile which is purposely broken. There is , on this tile, in relief, a seated figure in classical pose.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_45 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_999 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Reinhard Paul</forename>
+                     <surname>Hartwig</surname>
+                  </persName>
+                  <death when="1919"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_4 #m_I #t_P">
-        <ab>REINHARD PAUL</ab>
-        <ab>HARTWIG</ab>
-        <ab>ARCHAEOLOGE</ab>
-        <ab>DR.PHIL</ab>
-        <ab>GEB.PIRNA A/D ELBE</ab>
-        <ab>18 FEBRUAR 1859</ab>
-        <ab>GEST.PRODEL LEIPZIG</ab>
-        <ab>3 AUGUST 1919</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S600"
+               ulx="1515.205347"
+               uly="296.229521"
+               lrx="1520.64833"
+               lry="299.591364"
+               points="1515.205347,296.229521 1520.64833,296.229521 1520.64833,299.591364 1515.205347,299.591364 ">
+            <graphic url="film:W/29"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_4 #m_I #t_P">
+            <ab>REINHARD PAUL</ab>
+            <ab>HARTWIG</ab>
+            <ab>ARCHAEOLOGE</ab>
+            <ab>DR.PHIL</ab>
+            <ab>GEB.PIRNA A/D ELBE</ab>
+            <ab>18 FEBRUAR 1859</ab>
+            <ab>GEST.PRODEL LEIPZIG</ab>
+            <ab>3 AUGUST 1919</ab>
+         </div>
+      </body>
   </text>
 </TEI>

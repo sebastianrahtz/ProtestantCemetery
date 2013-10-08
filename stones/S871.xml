@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S871.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S871.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 871</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S871">
-          <msIdentifier>
-            <idno>S871</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2152</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="COL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>63</depth>
-                    <width>62</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_16 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Paul</forename>
-              <surname>Jaccottet</surname>
-            </persName>
-            <death when="1872"/>
-            <nationality key="FR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 871</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S871">
+               <msIdentifier>
+                  <idno>S871</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2152</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="COL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>63</depth>
+                              <width>62</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_16 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Paul</forename>
+                     <surname>Jaccottet</surname>
+                  </persName>
+                  <death when="1872"/>
+                  <nationality key="FR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>ICI REPOSE</ab>
-        <ab>PAUL JACCOTTET</ab>
-        <ab>IL ETAIT LA JOIE ET LA CONSOLATION</ab>
-        <ab>DE SA FAMILLE AUJOURD'HUI DESOLÉE</ab>
-        <ab>IL MOURUT PLEURÉ DE SES NOMBREUX AMIS</ab>
-        <ab/>
-        <ab>RECRETTÉ ET ESTIMÉ DE TOUS</ab>
-        <ab/>
-        <ab>NE' A LYON LE 1ER NOV. 1847.</ab>
-        <ab>MORT LE 1ER JANVIER 1872.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S871"
+               ulx="1998.624523"
+               uly="404.59443699999997"
+               lrx="2006.782025"
+               lry="411.810689"
+               points="1998.624523,404.59443699999997 2006.782025,404.59443699999997 2006.782025,411.810689 1998.624523,411.810689 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>ICI REPOSE</ab>
+            <ab>PAUL JACCOTTET</ab>
+            <ab>IL ETAIT LA JOIE ET LA CONSOLATION</ab>
+            <ab>DE SA FAMILLE AUJOURD'HUI DESOLÉE</ab>
+            <ab>IL MOURUT PLEURÉ DE SES NOMBREUX AMIS</ab>
+            <ab/>
+            <ab>RECRETTÉ ET ESTIMÉ DE TOUS</ab>
+            <ab/>
+            <ab>NE' A LYON LE 1ER NOV. 1847.</ab>
+            <ab>MORT LE 1ER JANVIER 1872.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

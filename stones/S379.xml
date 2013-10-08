@@ -1,102 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S379.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S379.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 379</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S379">
-          <msIdentifier>
-            <idno>S379</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">302</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>32</height>
-                    <depth>1</depth>
-                    <width>46</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>19</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Dirk Geerd</forename>
-              <surname>Hamer</surname>
-            </persName>
-            <birth when="1959-03-11"/>
-            <death when="1978-12-07"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <age>50</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Sigrid Gertrud Ursula</forename>
-              <surname>Hamer</surname>
-            </persName>
-            <birth when="1935-04-01"/>
-            <death when="1985-04-12"/>
-            <nationality key="DE"/>
-            <occupation>doctor "medico"</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 379</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S379">
+               <msIdentifier>
+                  <idno>S379</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">302</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>32</height>
+                              <depth>1</depth>
+                              <width>46</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>19</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Dirk Geerd</forename>
+                     <surname>Hamer</surname>
+                  </persName>
+                  <birth when="1959-03-11"/>
+                  <death when="1978-12-07"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <age>50</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Sigrid Gertrud Ursula</forename>
+                     <surname>Hamer</surname>
+                  </persName>
+                  <birth when="1935-04-01"/>
+                  <death when="1985-04-12"/>
+                  <nationality key="DE"/>
+                  <occupation>doctor "medico"</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>DIRK GEERD</ab>
-        <ab>HAMER</ab>
-        <ab>*11.III.1959 +7.XII.1978</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_PC">
-        <ab>E SUA MADRE</ab>
-        <ab>DR. SIGRID GERTRUD URSULA</ab>
-        <ab>HAMER</ab>
-        <ab>NATA OLDENBURG</ab>
-        <ab/>
-        <ab>MEDICO</ab>
-        <ab>*1.IV.1935 +12.IV.1985</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S379"
+               ulx="1283.693085"
+               uly="549.621082"
+               lrx="1290.525112"
+               lry="554.615708"
+               points="1290.525112,549.782119 1283.831193,549.621082 1283.693085,554.454671 1290.387004,554.615708 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>DIRK GEERD</ab>
+            <ab>HAMER</ab>
+            <ab>*11.III.1959 +7.XII.1978</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_PC">
+            <ab>E SUA MADRE</ab>
+            <ab>DR. SIGRID GERTRUD URSULA</ab>
+            <ab>HAMER</ab>
+            <ab>NATA OLDENBURG</ab>
+            <ab/>
+            <ab>MEDICO</ab>
+            <ab>*1.IV.1935 +12.IV.1985</ab>
+         </div>
+      </body>
   </text>
 </TEI>

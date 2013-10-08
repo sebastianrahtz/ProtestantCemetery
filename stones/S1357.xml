@@ -1,98 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1357.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1357.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1357</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1357">
-          <msIdentifier>
-            <idno>S1357</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">514</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>150</height>
-                    <depth>8</depth>
-                    <width>50</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Rosa Isabella Ida</forename>
-              <surname>Hagemann</surname>
-            </persName>
-            <death when="1968"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Wolfgang Karl ..</forename>
-              <surname>Hagemann</surname>
-            </persName>
-            <death when="1978"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1357</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1357">
+               <msIdentifier>
+                  <idno>S1357</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">514</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>150</height>
+                              <depth>8</depth>
+                              <width>50</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Rosa Isabella Ida</forename>
+                     <surname>Hagemann</surname>
+                  </persName>
+                  <death when="1968"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Wolfgang Karl ..</forename>
+                     <surname>Hagemann</surname>
+                  </persName>
+                  <death when="1978"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>DR. WOLFGANG KARL HEINRICH</ab>
-        <ab>HAGEMANN</ab>
-        <ab>WISSENSCHAFTLICHER</ab>
-        <ab>DIREKTOR AM DEUTSCHEN</ab>
-        <ab>HISTORISCHEN INSTITUT IN ROM</ab>
-        <ab>*LEIPZIG 9. APRIL 1911</ab>
-        <ab>+ROM 11. JUNI 1978</ab>
-        <ab/>
-        <ab>ROSA ISABELLA IDA</ab>
-        <ab>HAGEMANN</ab>
-        <ab>GEB. BARIONI</ab>
-        <ab>*BERLIN 13 JANUAR 1914</ab>
-        <ab>+ROM 15. AUGUST 1968</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1357"
+               ulx="2079.821595"
+               uly="651.604214"
+               lrx="2086.72444"
+               lry="667.2925"
+               points="2079.821595,651.604214 2086.72444,651.604214 2086.72444,667.2925 2079.821595,667.2925 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>DR. WOLFGANG KARL HEINRICH</ab>
+            <ab>HAGEMANN</ab>
+            <ab>WISSENSCHAFTLICHER</ab>
+            <ab>DIREKTOR AM DEUTSCHEN</ab>
+            <ab>HISTORISCHEN INSTITUT IN ROM</ab>
+            <ab>*LEIPZIG 9. APRIL 1911</ab>
+            <ab>+ROM 11. JUNI 1978</ab>
+            <ab/>
+            <ab>ROSA ISABELLA IDA</ab>
+            <ab>HAGEMANN</ab>
+            <ab>GEB. BARIONI</ab>
+            <ab>*BERLIN 13 JANUAR 1914</ab>
+            <ab>+ROM 15. AUGUST 1968</ab>
+         </div>
+      </body>
   </text>
 </TEI>

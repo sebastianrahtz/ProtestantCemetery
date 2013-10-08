@@ -1,87 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S154.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S154.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 154</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S154">
-          <msIdentifier>
-            <idno>S154</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1479</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>130</height>
-                    <depth>30</depth>
-                    <width>45</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_125 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>33</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Ernest Wilhelm Sutton</forename>
-              <surname>Pickhardt</surname>
-            </persName>
-            <death when="1909-07-04"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 154</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S154">
+               <msIdentifier>
+                  <idno>S154</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1479</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>130</height>
+                              <depth>30</depth>
+                              <width>45</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_125 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>33</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Ernest Wilhelm Sutton</forename>
+                     <surname>Pickhardt</surname>
+                  </persName>
+                  <death when="1909-07-04"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_RM #t_P">
-        <ab>ERNEST WILHELM SUTTON PICKHARDT</ab>
-        <ab>DIED 4th JULY 1909 AGED 33 YEARS</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_PC">
-        <ab>WE CAN</ab>
-        <ab>BUT THINK OF</ab>
-        <ab>THE STAR-CROWNED</ab>
-        <ab>SOUL</ab>
-        <ab>ARIADNE DIAINOMENE</ab>
-        <ab rend="Alignr">E.W.S.P.</ab>
-        <ab>IN LOVING MEMORY</ab>
-        <ab>FROM HIS</ab>
-        <ab>WIFE</ab>
-        <ab>M.S.P.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S154"
+               ulx="1113.58372"
+               uly="284.68190400000003"
+               lrx="1118.996535"
+               lry="289.297368"
+               points="1118.996535,284.80901600000004 1113.711844,284.68190400000003 1113.58372,289.17004699999995 1118.868239,289.297368 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_RM #t_P">
+            <ab>ERNEST WILHELM SUTTON PICKHARDT</ab>
+            <ab>DIED 4th JULY 1909 AGED 33 YEARS</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_PC">
+            <ab>WE CAN</ab>
+            <ab>BUT THINK OF</ab>
+            <ab>THE STAR-CROWNED</ab>
+            <ab>SOUL</ab>
+            <ab>ARIADNE DIAINOMENE</ab>
+            <ab rend="Alignr">E.W.S.P.</ab>
+            <ab>IN LOVING MEMORY</ab>
+            <ab>FROM HIS</ab>
+            <ab>WIFE</ab>
+            <ab>M.S.P.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,82 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1900.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1900.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1900</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1900">
-          <msIdentifier>
-            <idno>S1900</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2284</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>200</height>
-                    <depth>39</depth>
-                    <width>94</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Hans Patrick</forename>
-              <surname>Hamilton</surname>
-            </persName>
-            <death when="1886"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1900</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1900">
+               <msIdentifier>
+                  <idno>S1900</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2284</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>200</height>
+                              <depth>39</depth>
+                              <width>94</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Hans Patrick</forename>
+                     <surname>Hamilton</surname>
+                  </persName>
+                  <death when="1886"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>TO THE BELOVED MEMORY OF</ab>
-        <ab>HANS PATRICK HAMILTON</ab>
-        <ab>BORN 17TH MARCH 1835</ab>
-        <ab>DIED 12TH JANUARY 1886</ab>
-        <ab>THIS MONUMENT IS ERECTED</ab>
-        <ab>BY HIS SISTERS</ab>
-        <ab>"I AM THE WAY,THE TRUTH AND</ab>
-        <ab>THE LIFE," S.JOHN X1V.G</ab>
-        <ab>"BY ME IF ANY MAN ENTER IN</ab>
-        <ab>HE SHALL BE SAVED,S JOHN X.9</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1900"
+               ulx="2193.059127"
+               uly="610.972822"
+               lrx="2202.671071"
+               lry="616.629494"
+               points="2193.059127,611.624158 2202.318999,610.972822 2202.671071,615.978159 2193.4112,616.629494 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>TO THE BELOVED MEMORY OF</ab>
+            <ab>HANS PATRICK HAMILTON</ab>
+            <ab>BORN 17TH MARCH 1835</ab>
+            <ab>DIED 12TH JANUARY 1886</ab>
+            <ab>THIS MONUMENT IS ERECTED</ab>
+            <ab>BY HIS SISTERS</ab>
+            <ab>"I AM THE WAY,THE TRUTH AND</ab>
+            <ab>THE LIFE," S.JOHN X1V.G</ab>
+            <ab>"BY ME IF ANY MAN ENTER IN</ab>
+            <ab>HE SHALL BE SAVED,S JOHN X.9</ab>
+         </div>
+      </body>
   </text>
 </TEI>

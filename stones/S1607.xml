@@ -1,90 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1607.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1607.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1607</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1607">
-          <msIdentifier>
-            <idno>S1607</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2459</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="OBEL">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>325</height>
-                    <depth>80</depth>
-                    <width>80</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>James</forename>
-              <surname>Lewis</surname>
-            </persName>
-            <death when="1872"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1607</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1607">
+               <msIdentifier>
+                  <idno>S1607</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2459</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="OBEL">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>325</height>
+                              <depth>80</depth>
+                              <width>80</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>James</forename>
+                     <surname>Lewis</surname>
+                  </persName>
+                  <death when="1872"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
-        <ab>ERECTED</ab>
-        <ab>BY</ab>
-        <ab>CHRISTIAN FRIENDS</ab>
-        <ab>TO THE MEMORY</ab>
-        <ab>OF</ab>
-        <ab>JAMES LEWIS DD</ab>
-        <ab>OF THE</ab>
-        <ab>FREE CHURCH OF SCOTLAND</ab>
-        <ab/>
-        <ab>BORN IN GLASGOW 1805</ab>
-        <ab>HE DIED IN ROME 1872</ab>
-        <ab>AFTER A MINISTRY OF</ab>
-        <ab>29 YEARS IN LEITH</ab>
-        <ab>AND EIGHT IN THIS CITY</ab>
-        <ab/>
-        <ab>I SHALL BE SATISFIED WHEN I AWAKE WITH THY LIKENESS</ab>
-        <ab rend="Alignr">PS XVII 15</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_N #c_2 #m_I #t_P">
-        <ab>NON VIE ALCUNO ALTRO NOME SOTTO IL CIEL0 CHE SIA DATO</ab>
-        <ab>AGLI UOMINI PER LO QUALE CI CONVENGA ESSERE SALVATI</ab>
-        <ab rend="Alignr">FATTI IV 12</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1607"
+               ulx="2233.943297"
+               uly="357.759355"
+               lrx="2247.364684"
+               lry="372.650763"
+               points="2233.943297,358.84480599999995 2246.13557,357.759355 2247.364684,371.56531099999995 2235.17241,372.650763 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_P">
+            <ab>ERECTED</ab>
+            <ab>BY</ab>
+            <ab>CHRISTIAN FRIENDS</ab>
+            <ab>TO THE MEMORY</ab>
+            <ab>OF</ab>
+            <ab>JAMES LEWIS DD</ab>
+            <ab>OF THE</ab>
+            <ab>FREE CHURCH OF SCOTLAND</ab>
+            <ab/>
+            <ab>BORN IN GLASGOW 1805</ab>
+            <ab>HE DIED IN ROME 1872</ab>
+            <ab>AFTER A MINISTRY OF</ab>
+            <ab>29 YEARS IN LEITH</ab>
+            <ab>AND EIGHT IN THIS CITY</ab>
+            <ab/>
+            <ab>I SHALL BE SATISFIED WHEN I AWAKE WITH THY LIKENESS</ab>
+            <ab rend="Alignr">PS XVII 15</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_N #c_2 #m_I #t_P">
+            <ab>NON VIE ALCUNO ALTRO NOME SOTTO IL CIEL0 CHE SIA DATO</ab>
+            <ab>AGLI UOMINI PER LO QUALE CI CONVENGA ESSERE SALVATI</ab>
+            <ab rend="Alignr">FATTI IV 12</ab>
+         </div>
+      </body>
   </text>
 </TEI>

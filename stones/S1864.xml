@@ -1,112 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1864.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1864.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1864</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1864">
-          <msIdentifier>
-            <idno>S1864</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>258</height>
-                    <depth>62</depth>
-                    <width>122</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_19 #st_C #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_86 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_164 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Iosef</forename>
-              <surname>von Kopf</surname>
-            </persName>
-            <death when="1903"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Anna Brinckmann</forename>
-              <surname>von Kopf</surname>
-            </persName>
-            <death when="1917"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1864</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1864">
+               <msIdentifier>
+                  <idno>S1864</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>258</height>
+                              <depth>62</depth>
+                              <width>122</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_19 #st_C #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_86 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_164 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Iosef</forename>
+                     <surname>von Kopf</surname>
+                  </persName>
+                  <death when="1903"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anna Brinckmann</forename>
+                     <surname>von Kopf</surname>
+                  </persName>
+                  <death when="1917"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IM #t_P">
-        <ab>HIER RUHT DIE ASCHE:</ab>
-        <ab>IOSEF VON KOPF</ab>
-        <ab>BILDHAUER UND PROFESSOR</ab>
-        <ab>ALS BAUERNSOHN GEBOREN ZU UNLINGEN IN WURTTEMBERG DEN 10 MARZ 1827</ab>
-        <ab>ZU FUSS NACH ROM GEWANDERT IM IAHRE. 1852.</ab>
-        <ab>DASELBST GESTORBEN DEN 2. FEBRUAR. 1903</ab>
-        <ab>BIS ZUM LETZEN ATHEMZUGE RASTLOS SCHAFFEND IM REICHE DES SCHOENEN</ab>
-        <ab>BEWEINT VON DER GATTIN DEN KINDERN DEN SCHWESTERN</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
-        <ab>FRVGI. ET. DILIGENS</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IM #t_S">
-        <ab rend="Alignl">NELLA PACE DEI GIUSTI QUI RIPOSA</ab>
-        <ab rend="Alignl">ANNA BRINCKMANN VED. KOPF</ab>
-        <ab rend="Alignl">NATA IN AMBURGO IL 4–10–1846 - M. IN ROM IL 2–07–1917</ab>
-        <ab rend="Alignl">-------------</ab>
-        <ab rend="Alignl">RAGGIUNSE IL CONSORTE COMPAGNO DI VITA</ab>
-        <ab rend="Alignl">DI ANSIE E FATICHE PER UN IDEALE D'ARTE</ab>
-        <ab rend="Alignl">DESOLATA LA FIGLIA ANNA LIDIA COMPIENDO SACRO RITO</ab>
-        <ab rend="Alignl">E COL PENSIERO DELLE SORELLE LONTANE</ab>
-        <ab rend="Alignl">PIETOSAMENTE NE COMPOSE LE SPOGLIE</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_RM #t_S">
-        <ab>FAMIGLIA</ab>
-        <ab>KOPF</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1864"
+               ulx="2460.211869"
+               uly="555.791793"
+               lrx="2472.111847"
+               lry="560.451532"
+               points="2463.100177,560.275468 2469.984092,559.814346 2470.545822,568.200206 2463.661906,568.661328 2460.211869,556.571507 2471.851943,555.791793 2472.111847,559.671818 2460.471773,560.451532 ">
+            <graphic url="film:AM/14"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IM #t_P">
+            <ab>HIER RUHT DIE ASCHE:</ab>
+            <ab>IOSEF VON KOPF</ab>
+            <ab>BILDHAUER UND PROFESSOR</ab>
+            <ab>ALS BAUERNSOHN GEBOREN ZU UNLINGEN IN WURTTEMBERG DEN 10 MARZ 1827</ab>
+            <ab>ZU FUSS NACH ROM GEWANDERT IM IAHRE. 1852.</ab>
+            <ab>DASELBST GESTORBEN DEN 2. FEBRUAR. 1903</ab>
+            <ab>BIS ZUM LETZEN ATHEMZUGE RASTLOS SCHAFFEND IM REICHE DES SCHOENEN</ab>
+            <ab>BEWEINT VON DER GATTIN DEN KINDERN DEN SCHWESTERN</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_P">
+            <ab>FRVGI. ET. DILIGENS</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IM #t_S">
+            <ab rend="Alignl">NELLA PACE DEI GIUSTI QUI RIPOSA</ab>
+            <ab rend="Alignl">ANNA BRINCKMANN VED. KOPF</ab>
+            <ab rend="Alignl">NATA IN AMBURGO IL 4–10–1846 - M. IN ROM IL 2–07–1917</ab>
+            <ab rend="Alignl">-------------</ab>
+            <ab rend="Alignl">RAGGIUNSE IL CONSORTE COMPAGNO DI VITA</ab>
+            <ab rend="Alignl">DI ANSIE E FATICHE PER UN IDEALE D'ARTE</ab>
+            <ab rend="Alignl">DESOLATA LA FIGLIA ANNA LIDIA COMPIENDO SACRO RITO</ab>
+            <ab rend="Alignl">E COL PENSIERO DELLE SORELLE LONTANE</ab>
+            <ab rend="Alignl">PIETOSAMENTE NE COMPOSE LE SPOGLIE</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_RM #t_S">
+            <ab>FAMIGLIA</ab>
+            <ab>KOPF</ab>
+         </div>
+      </body>
   </text>
 </TEI>

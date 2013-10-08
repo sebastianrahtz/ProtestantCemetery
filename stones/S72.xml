@@ -1,86 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S72.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S72.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 72</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S72">
-          <msIdentifier>
-            <idno>S72</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">145</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>167</height>
-                    <width>79</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 91)</summary>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John</forename>
-              <surname>Shute</surname>
-            </persName>
-            <birth>
-              <placeName>
-                <settlement>Plymouth Devon</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1817-01-04"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 72</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S72">
+               <msIdentifier>
+                  <idno>S72</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">145</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>167</height>
+                              <width>79</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 91)</summary>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Shute</surname>
+                  </persName>
+                  <birth>
+                     <placeName>
+                        <settlement>Plymouth Devon</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1817-01-04"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IC #t_P">
-        <ab>HERE.LYETH.THE.BODY</ab>
-        <ab>OF</ab>
-        <ab>IOHN.SHUTE.</ab>
-        <ab>WHO.WAS.BORN.IN.PLYMOUTH.DEVON</ab>
-        <ab>DIED.IN.ROME.ON.THE.IV.DAY.OF.IANUARY</ab>
-        <ab>MDCCCXVII.</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_T #c_3 #m_I #t_M">
-        <ab>LAPIS IN CONTRACTI LOCVM TVMVLO IMPOSITVS</ab>
-        <ab>OSSIBVS RITE INTRA COEMETERIVM RECEPTIS</ab>
-        <ab>TITVLVS MVTILVS RELICTVS</ab>
-        <ab>ANNO MDCCCXXIV.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S72"
+               ulx="421.782337"
+               uly="620.216181"
+               lrx="441.12016"
+               lry="640.195321"
+               points="428.655944,620.216181 421.782337,626.448297 434.246553,640.195321 441.12016,633.963204 ">
+            <graphic url="film:AA/22"/>
+            <graphic url="film:AA/23">
+               <desc>c/u</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IC #t_P">
+            <ab>HERE.LYETH.THE.BODY</ab>
+            <ab>OF</ab>
+            <ab>IOHN.SHUTE.</ab>
+            <ab>WHO.WAS.BORN.IN.PLYMOUTH.DEVON</ab>
+            <ab>DIED.IN.ROME.ON.THE.IV.DAY.OF.IANUARY</ab>
+            <ab>MDCCCXVII.</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_T #c_3 #m_I #t_M">
+            <ab>LAPIS IN CONTRACTI LOCVM TVMVLO IMPOSITVS</ab>
+            <ab>OSSIBVS RITE INTRA COEMETERIVM RECEPTIS</ab>
+            <ab>TITVLVS MVTILVS RELICTVS</ab>
+            <ab>ANNO MDCCCXXIV.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

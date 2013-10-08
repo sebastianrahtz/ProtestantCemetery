@@ -1,102 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2555.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2555.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2555</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2555">
-          <msIdentifier>
-            <idno>S2555</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>162</height>
-                    <depth>26</depth>
-                    <width>62</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Nina Sergěevna</forename>
-              <surname>Sakova</surname>
-            </persName>
-            <death when="1955"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Ekaterina Sergěevna</forename>
-              <surname>Frejlina</surname>
-            </persName>
-            <death when="1958"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Aleksandr"</forename>
-              <surname>Sakov"</surname>
-            </persName>
-            <death when="1974"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2555</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2555">
+               <msIdentifier>
+                  <idno>S2555</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>162</height>
+                              <depth>26</depth>
+                              <width>62</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Nina Sergěevna</forename>
+                     <surname>Sakova</surname>
+                  </persName>
+                  <death when="1955"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Ekaterina Sergěevna</forename>
+                     <surname>Frejlina</surname>
+                  </persName>
+                  <death when="1958"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Aleksandr"</forename>
+                     <surname>Sakov"</surname>
+                  </persName>
+                  <death when="1974"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_IF #t_P #s_CY">
-        <ab>НИНА СЕРГѢЕВНА САКОВА</ab>
-        <ab>РОЖД. БЕЦХТѢЕВА</ab>
-        <ab>ЛИПОВКА 30.В.1885</ab>
-        <ab>РИМ" 19.ИИИ.1955</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_IF #t_S #s_CY">
-        <ab>ЕКАТЕРИНА СЕРГѢЕВНА БЕЦХТѢЕВА</ab>
-        <ab>ФРЕЙЛИНА</ab>
-        <ab>И. В. ГОСУДАРЫН` ИМПЕРАТРИЦ"</ab>
-        <ab>ЛИПОВКА 25.ЬИИ.1874</ab>
-        <ab>РИМ" 11.ЬИ.1958</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_IF #t_S #s_CY">
-        <ab>АЛЕКСАНДР" НИКОЛАЕВИЯ" САКОВ"</ab>
-        <ab>ПЕТРОГРАД" 21.И.1915 РИМ" 11.ИЬ.1974</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2555"
+               ulx="3127.298096"
+               uly="503.05985999999996"
+               lrx="3132.937996"
+               lry="507.99817800000005"
+               points="3127.41954,503.05985999999996 3132.937996,503.199521 3132.816552,507.99817800000005 3127.298096,507.858518 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_IF #t_P #s_CY">
+            <ab>НИНА СЕРГѢЕВНА САКОВА</ab>
+            <ab>РОЖД. БЕЦХТѢЕВА</ab>
+            <ab>ЛИПОВКА 30.В.1885</ab>
+            <ab>РИМ" 19.ИИИ.1955</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_IF #t_S #s_CY">
+            <ab>ЕКАТЕРИНА СЕРГѢЕВНА БЕЦХТѢЕВА</ab>
+            <ab>ФРЕЙЛИНА</ab>
+            <ab>И. В. ГОСУДАРЫН` ИМПЕРАТРИЦ"</ab>
+            <ab>ЛИПОВКА 25.ЬИИ.1874</ab>
+            <ab>РИМ" 11.ЬИ.1958</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_IF #t_S #s_CY">
+            <ab>АЛЕКСАНДР" НИКОЛАЕВИЯ" САКОВ"</ab>
+            <ab>ПЕТРОГРАД" 21.И.1915 РИМ" 11.ИЬ.1974</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1638.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1638.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1638</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1638">
-          <msIdentifier>
-            <idno>S1638</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">593</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="URN">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>120</height>
-                    <depth>47</depth>
-                    <width>58</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>Very simple stone urn, about 50--60 cm. high, mounted on a rather high base. It has two small handles, and a band (where the name is written) around it.</summary>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_164 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Gustav</forename>
-              <surname>Bretschneider</surname>
-            </persName>
-            <death when="1876"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Clara</forename>
-              <surname>Bretschneider</surname>
-            </persName>
-            <death when="1922"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1638</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1638">
+               <msIdentifier>
+                  <idno>S1638</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">593</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="URN">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>120</height>
+                              <depth>47</depth>
+                              <width>58</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>Very simple stone urn, about 50--60 cm. high, mounted on a rather high base. It has two small handles, and a band (where the name is written) around it.</summary>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_164 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Gustav</forename>
+                     <surname>Bretschneider</surname>
+                  </persName>
+                  <death when="1876"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Clara</forename>
+                     <surname>Bretschneider</surname>
+                  </persName>
+                  <death when="1922"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_RS #t_P">
-        <ab>CLARA BRETSCHNEIDER</ab>
-        <ab>GEB. 7 JULI 1844 - GEST. 3 AUG. 1922</ab>
-      </div>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>HIER RUHT IN FRIEDEN</ab>
-        <ab>UNSER TEUERER GATTE UND VATER</ab>
-        <ab>GUSTAV BRETSCHNEIDER</ab>
-        <ab>GEB: 23 FEBRUAR 1825 IN BEUTHEN A/O</ab>
-        <ab>GEST: 8 MÄRZ 1876 IN ROM.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1638"
+               ulx="2446.663802"
+               uly="368.75884199999996"
+               lrx="2453.805834"
+               lry="375.51633000000004"
+               points="2446.663802,369.40268000000003 2453.203986,368.75884199999996 2453.805834,374.87249199999997 2447.265652,375.51633000000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_3 #m_RS #t_P">
+            <ab>CLARA BRETSCHNEIDER</ab>
+            <ab>GEB. 7 JULI 1844 - GEST. 3 AUG. 1922</ab>
+         </div>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>HIER RUHT IN FRIEDEN</ab>
+            <ab>UNSER TEUERER GATTE UND VATER</ab>
+            <ab>GUSTAV BRETSCHNEIDER</ab>
+            <ab>GEB: 23 FEBRUAR 1825 IN BEUTHEN A/O</ab>
+            <ab>GEST: 8 MÄRZ 1876 IN ROM.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

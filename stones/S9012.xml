@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9012.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9012.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9012</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9012">
-          <msIdentifier>
-            <idno>S9012</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-              <note>west of 382</note>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>147</height>
-                    <depth>18</depth>
-                    <width>81</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>3</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>45</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Carl Friedrich</forename>
-              <surname>von Gueldenstubbe</surname>
-            </persName>
-            <birth when="1816"/>
-            <death when="1862"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9012</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9012">
+               <msIdentifier>
+                  <idno>S9012</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                     <note>west of 382</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>147</height>
+                              <depth>18</depth>
+                              <width>81</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>3</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>45</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Carl Friedrich</forename>
+                     <surname>von Gueldenstubbe</surname>
+                  </persName>
+                  <birth when="1816"/>
+                  <death when="1862"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_S">
-        <ab>CARL FRIEDRICH</ab>
-        <ab>VON</ab>
-        <ab>GVELDEN STVBBE</ab>
-        <ab>LAND MARSCHALL DER RITTERSCHAFT</ab>
-        <ab>DER INSEL OESEL</ab>
-        <ab>GEB. XXVI AVGVST AVF DER INSEL OESEL</ab>
-        <ab>IN RUSSLAND MDCCCXVI</ab>
-        <ab>GEST. XXII MAERZ ZV ROM</ab>
-        <ab>MDCCCLXII</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9012"
+               ulx="1231.550976"
+               uly="550.438363"
+               lrx="1241.494602"
+               lry="553.437754"
+               points="1241.494602,550.675626 1231.629833,550.438363 1231.550976,553.200491 1241.415745,553.437754 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_S">
+            <ab>CARL FRIEDRICH</ab>
+            <ab>VON</ab>
+            <ab>GVELDEN STVBBE</ab>
+            <ab>LAND MARSCHALL DER RITTERSCHAFT</ab>
+            <ab>DER INSEL OESEL</ab>
+            <ab>GEB. XXVI AVGVST AVF DER INSEL OESEL</ab>
+            <ab>IN RUSSLAND MDCCCXVI</ab>
+            <ab>GEST. XXII MAERZ ZV ROM</ab>
+            <ab>MDCCCLXII</ab>
+         </div>
+      </body>
   </text>
 </TEI>

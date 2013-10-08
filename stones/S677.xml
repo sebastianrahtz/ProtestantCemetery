@@ -1,125 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S677.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S677.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 677</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S677">
-          <msIdentifier>
-            <idno>S677</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">275</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>158</height>
-                    <depth>10</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Arturo</forename>
-              <surname>Gallo</surname>
-            </persName>
-            <death when="1932"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Rosa</forename>
-              <surname>Gallo</surname>
-            </persName>
-            <death when="1949"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Pietro</forename>
-              <surname>Gallo</surname>
-            </persName>
-            <death when="1977"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maria Michela</forename>
-              <surname>Gallo</surname>
-            </persName>
-            <death when="1980"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 677</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S677">
+               <msIdentifier>
+                  <idno>S677</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">275</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>158</height>
+                              <depth>10</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Arturo</forename>
+                     <surname>Gallo</surname>
+                  </persName>
+                  <death when="1932"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Rosa</forename>
+                     <surname>Gallo</surname>
+                  </persName>
+                  <death when="1949"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Pietro</forename>
+                     <surname>Gallo</surname>
+                  </persName>
+                  <death when="1977"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maria Michela</forename>
+                     <surname>Gallo</surname>
+                  </persName>
+                  <death when="1980"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>GALLO</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IF #t_PC">
-        <ab>in la Sua volontade è nostra pace</ab>
-        <ab rend="Alignr">Dante:Parad.III-85</ab>
-      </div>
-      <div type="inscription" decls="#f_T #c_1 #m_IF #t_P">
-        <ab rend="Alignl">ARTURO 15.5.1932</ab>
-        <ab rend="Alignl">   3.6.1932</ab>
-      </div>
-      <div type="inscription" decls="#f_T #c_1 #m_IF #t_S">
-        <ab rend="Alignl">ROSA 30.4.1889</ab>
-        <ab rend="Alignl">  23.11.1949</ab>
-      </div>
-      <div type="inscription" decls="#f_T #c_1 #m_IF #t_S">
-        <ab rend="Alignl">PIETRO 5.9.1893</ab>
-        <ab rend="Alignl">  29.9.1977</ab>
-      </div>
-      <div type="inscription" decls="#f_T #c_1 #m_IF #t_S">
-        <ab rend="Alignr">MARIA 24.9.1891</ab>
-        <ab rend="Alignr">MICHELA 8.10.1980</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IF #t_S">
-        <ab rend="Alignl">WINIFRED 7.1.1907</ab>
-        <ab rend="Alignl">MARJORIE 28.3.1986</ab>
-        <ab rend="Alignl">NATA BRODRICK-BULLOCK</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S677"
+               ulx="1776.308451"
+               uly="330.64838599999996"
+               lrx="1782.872048"
+               lry="334.33040400000004"
+               points="1773.586959,335.13084200000003 1785.753628,335.13084200000003 1785.753628,348.41812500000003 1773.586959,348.41812500000003 1776.308451,330.64838599999996 1782.872048,330.64838599999996 1782.872048,334.33040400000004 1776.308451,334.33040400000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>GALLO</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IF #t_PC">
+            <ab>in la Sua volontade è nostra pace</ab>
+            <ab rend="Alignr">Dante:Parad.III-85</ab>
+         </div>
+         <div type="inscription" decls="#f_T #c_1 #m_IF #t_P">
+            <ab rend="Alignl">ARTURO 15.5.1932</ab>
+            <ab rend="Alignl">   3.6.1932</ab>
+         </div>
+         <div type="inscription" decls="#f_T #c_1 #m_IF #t_S">
+            <ab rend="Alignl">ROSA 30.4.1889</ab>
+            <ab rend="Alignl">  23.11.1949</ab>
+         </div>
+         <div type="inscription" decls="#f_T #c_1 #m_IF #t_S">
+            <ab rend="Alignl">PIETRO 5.9.1893</ab>
+            <ab rend="Alignl">  29.9.1977</ab>
+         </div>
+         <div type="inscription" decls="#f_T #c_1 #m_IF #t_S">
+            <ab rend="Alignr">MARIA 24.9.1891</ab>
+            <ab rend="Alignr">MICHELA 8.10.1980</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_1 #m_IF #t_S">
+            <ab rend="Alignl">WINIFRED 7.1.1907</ab>
+            <ab rend="Alignl">MARJORIE 28.3.1986</ab>
+            <ab rend="Alignl">NATA BRODRICK-BULLOCK</ab>
+         </div>
+      </body>
   </text>
 </TEI>

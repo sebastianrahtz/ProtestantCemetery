@@ -1,122 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S903.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S903.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 903</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S903">
-          <msIdentifier>
-            <idno>S903</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>182</height>
-                    <depth>38</depth>
-                    <width>170</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Frances E.</forename>
-              <surname>Rea</surname>
-            </persName>
-            <death when="1894"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maria Dexter</forename>
-              <surname>Abbott</surname>
-            </persName>
-            <death when="1923"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Samuel A.B.</forename>
-              <surname>Abbott</surname>
-            </persName>
-            <death when="1951"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 903</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S903">
+               <msIdentifier>
+                  <idno>S903</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>182</height>
+                              <depth>38</depth>
+                              <width>170</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Frances E.</forename>
+                     <surname>Rea</surname>
+                  </persName>
+                  <death when="1894"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maria Dexter</forename>
+                     <surname>Abbott</surname>
+                  </persName>
+                  <death when="1923"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Samuel A.B.</forename>
+                     <surname>Abbott</surname>
+                  </persName>
+                  <death when="1951"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_S">
-        <ab>SAMUEL A.B. ABBOTT</ab>
-        <ab>BORN LOWELL MASS.U.S.A.</ab>
-        <ab>MARCH 6TH,1846</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>AT VILLA LONTANA</ab>
-        <ab>JUNE 19TH 1951</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
-        <ab>FRANCES E.REA</ab>
-        <ab>AUNT TO THE LATE</ab>
-        <ab>MARIA DEXTER ABBOTT</ab>
-        <ab>BORN SALEM,MASS.</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>AGED 72 YEARS</ab>
-        <ab>JULY 22ND,1894</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_S">
-        <ab>MARIA DEXTER</ab>
-        <ab>ABBOTT</ab>
-        <ab>BORN ROXBURY MASS.</ab>
-        <ab>MARCH 15TH 1850</ab>
-        <ab>DIED IN ROME</ab>
-        <ab>AT VILLA LONTANA</ab>
-        <ab>JUNE 8TH,1923</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_PC">
-        <ab>O LORD GUARD US WITH THY LOVE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S903"
+               ulx="2064.19829"
+               uly="458.08882600000004"
+               lrx="2082.082045"
+               lry="463.57945199999995"
+               points="2064.19829,458.08882600000004 2082.082045,458.08882600000004 2082.082045,462.48132699999996 2075.179543,462.48132699999996 2075.179543,463.57945199999995 2070.473291,463.57945199999995 2070.473291,462.48132699999996 2064.19829,462.48132699999996 2064.19829,458.08882600000004 ">
+            <graphic url="film:AN/2"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_S">
+            <ab>SAMUEL A.B. ABBOTT</ab>
+            <ab>BORN LOWELL MASS.U.S.A.</ab>
+            <ab>MARCH 6TH,1846</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>AT VILLA LONTANA</ab>
+            <ab>JUNE 19TH 1951</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_P">
+            <ab>FRANCES E.REA</ab>
+            <ab>AUNT TO THE LATE</ab>
+            <ab>MARIA DEXTER ABBOTT</ab>
+            <ab>BORN SALEM,MASS.</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>AGED 72 YEARS</ab>
+            <ab>JULY 22ND,1894</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IC #t_S">
+            <ab>MARIA DEXTER</ab>
+            <ab>ABBOTT</ab>
+            <ab>BORN ROXBURY MASS.</ab>
+            <ab>MARCH 15TH 1850</ab>
+            <ab>DIED IN ROME</ab>
+            <ab>AT VILLA LONTANA</ab>
+            <ab>JUNE 8TH,1923</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_PC">
+            <ab>O LORD GUARD US WITH THY LOVE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

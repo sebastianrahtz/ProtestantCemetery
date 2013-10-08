@@ -1,98 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S263.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S263.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 263</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S263">
-          <msIdentifier>
-            <idno>S263</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1725</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>158</height>
-                    <depth>118</depth>
-                    <width>89</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>26</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Peter William</forename>
-              <surname>Barker</surname>
-            </persName>
-            <birth when="1817">
-              <placeName>
-                <settlement>Whitby Yorkshire</settlement>
-                <country>England</country>
-              </placeName>
-            </birth>
-            <death when="1843-04-29"><placeName><settlement>Rome</settlement><country>Italy</country></placeName>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 263</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S263">
+               <msIdentifier>
+                  <idno>S263</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1725</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>158</height>
+                              <depth>118</depth>
+                              <width>89</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>26</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Peter William</forename>
+                     <surname>Barker</surname>
+                  </persName>
+                  <birth when="1817">
+                     <placeName>
+                        <settlement>Whitby Yorkshire</settlement>
+                        <country>England</country>
+                     </placeName>
+                  </birth>
+                  <death when="1843-04-29">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
              Cause: illness (consumption)</death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
-        <ab>SACRED TO THE MEMORY OF</ab>
-        <ab>PETER WILLIAM BARKER ESQ.RE</ab>
-        <ab>OF WHITBY IN YORKSHIRE</ab>
-        <ab>AND OF PEMBROKE COLLEGE CAMBRIDGE</ab>
-        <ab>WHO DIED IN ROME OF CONSUMPTION</ab>
-        <ab>AGED 26 YEARS</ab>
-        <ab>ON THE 29TH DAY OF APRIL</ab>
-        <ab>1843</ab>
-      </div>
-      <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_PC">
-        <ab>FRATRIS</ab>
-        <ab>MONUMENTUM</ab>
-        <ab>FRATER RESTITUIT</ab>
-        <ab>XXIX IANUARII MDCCCLXIII</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S263"
+               ulx="1164.04284"
+               uly="408.898061"
+               lrx="1172.912531"
+               lry="423.60215000000005"
+               points="1172.912531,409.1014 1164.456991,408.898061 1164.04284,423.39862100000005 1172.498398,423.60215000000005 ">
+            <graphic url="film:AC/19"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_I #t_P">
+            <ab>SACRED TO THE MEMORY OF</ab>
+            <ab>PETER WILLIAM BARKER ESQ.RE</ab>
+            <ab>OF WHITBY IN YORKSHIRE</ab>
+            <ab>AND OF PEMBROKE COLLEGE CAMBRIDGE</ab>
+            <ab>WHO DIED IN ROME OF CONSUMPTION</ab>
+            <ab>AGED 26 YEARS</ab>
+            <ab>ON THE 29TH DAY OF APRIL</ab>
+            <ab>1843</ab>
+         </div>
+         <div type="inscription" xml:lang="la" decls="#f_S #c_3 #m_I #t_PC">
+            <ab>FRATRIS</ab>
+            <ab>MONUMENTUM</ab>
+            <ab>FRATER RESTITUIT</ab>
+            <ab>XXIX IANUARII MDCCCLXIII</ab>
+         </div>
+      </body>
   </text>
 </TEI>

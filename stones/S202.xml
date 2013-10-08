@@ -1,109 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S202.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S202.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 202</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S202">
-          <msIdentifier>
-            <idno>S202</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1748</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>210</height>
-                    <depth>125</depth>
-                    <width>140</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_95 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_88 #st_B #f_E"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_88 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_95 #st_B #f_N"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_131 #st_B #f_W"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_131 #st_B #f_E"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>29</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Henry Behnes</forename>
-              <surname>Burlowe</surname>
-            </persName>
-            <death when="1837-09-11">
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 202</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S202">
+               <msIdentifier>
+                  <idno>S202</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1748</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>210</height>
+                              <depth>125</depth>
+                              <width>140</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_95 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_88 #st_B #f_E"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_88 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_95 #st_B #f_N"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_131 #st_B #f_W"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_131 #st_B #f_E"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>29</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henry Behnes</forename>
+                     <surname>Burlowe</surname>
+                  </persName>
+                  <death when="1837-09-11">
              Cause: illness -asiatic cholera</death>
-            <nationality key="UK"/>
-            <occupation>sculptor</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+                  <nationality key="UK"/>
+                  <occupation>sculptor</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
-        <ab>HENRY BEHNES BURLOWE SCULPTOR</ab>
-        <ab>WHO ATTACKED BY ASIATIC CHOLERA</ab>
-        <ab>IN ROME</ab>
-        <ab>DEPARTED THIS LIFE</ab>
-        <ab>THE 11 SEPTEMBER MDCCCXXXVII</ab>
-        <ab>AGED XXIX YEARS</ab>
-        <ab>THIS MONUMENT IS ERECTED BY HIS FRIENDS</ab>
-        <ab>AS A TRIBUTE OF RESPECT</ab>
-        <ab>TO</ab>
-        <ab>GENIUS AND VIRTUE</ab>
-      </div>
-      <div type="inscription" xml:lang="el" decls="#f_N #c_4 #m_I #t_PC #s_GR">
-        <ab>ΕΣΤΑΡ ΑΚΡΟΝ ΜΟΥΣΗΣ ΤΕ ΚΑΙ ΗΒΗΣ ΗΚΕΝ ΕΛΑΣΣΑΣ</ab>
-        <ab>ΦΕΥ ΣΟΦΟΣ ΕΙΣ ΑΙΔΗΝ ΚΑΙ ΝΕΟΣΕΙΣ ΕΡΕΒΟΣ</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S202"
+               ulx="1020.000716"
+               uly="342.561323"
+               lrx="1036.561694"
+               lry="353.328762"
+               points="1036.561694,343.68391699999995 1020.747253,342.561323 1020.000716,352.206185 1035.815347,353.328762 ">
+            <graphic url="film:_H/26213"/>
+            <graphic url="film:W/11">
+               <desc>detail</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
+            <ab>HENRY BEHNES BURLOWE SCULPTOR</ab>
+            <ab>WHO ATTACKED BY ASIATIC CHOLERA</ab>
+            <ab>IN ROME</ab>
+            <ab>DEPARTED THIS LIFE</ab>
+            <ab>THE 11 SEPTEMBER MDCCCXXXVII</ab>
+            <ab>AGED XXIX YEARS</ab>
+            <ab>THIS MONUMENT IS ERECTED BY HIS FRIENDS</ab>
+            <ab>AS A TRIBUTE OF RESPECT</ab>
+            <ab>TO</ab>
+            <ab>GENIUS AND VIRTUE</ab>
+         </div>
+         <div type="inscription" xml:lang="el" decls="#f_N #c_4 #m_I #t_PC #s_GR">
+            <ab>ΕΣΤΑΡ ΑΚΡΟΝ ΜΟΥΣΗΣ ΤΕ ΚΑΙ ΗΒΗΣ ΗΚΕΝ ΕΛΑΣΣΑΣ</ab>
+            <ab>ΦΕΥ ΣΟΦΟΣ ΕΙΣ ΑΙΔΗΝ ΚΑΙ ΝΕΟΣΕΙΣ ΕΡΕΒΟΣ</ab>
+         </div>
+      </body>
   </text>
 </TEI>

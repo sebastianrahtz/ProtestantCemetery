@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1085.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1085.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1085</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1085">
-          <msIdentifier>
-            <idno>S1085</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>146</height>
-                    <depth>37</depth>
-                    <width>81</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Anne</forename>
-              <surname>St George</surname>
-            </persName>
-            <death when="1848"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1085</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1085">
+               <msIdentifier>
+                  <idno>S1085</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>146</height>
+                              <depth>37</depth>
+                              <width>81</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Anne</forename>
+                     <surname>St George</surname>
+                  </persName>
+                  <death when="1848"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>ANNE ST GEORGE</ab>
-        <ab>SECOND DAUGHTER OF</ab>
-        <ab>ARTHUR F. ST GEORGE</ab>
-        <ab>AND LADY HARRIET ST GEORGE</ab>
-        <ab>DIED AT ROME 8TH MARCH</ab>
-        <ab>1848</ab>
-        <ab>AGED 42 YEARS</ab>
-        <ab>--------</ab>
-        <ab>ERECTED</ab>
-        <ab>BY HER BROTHER</ab>
-        <ab>C.W. ST GEORGE M.P.</ab>
-        <ab>COUNTY GALWAY IRELAND</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1085"
+               ulx="1337.454178"
+               uly="527.500068"
+               lrx="1346.227541"
+               lry="547.107369"
+               points="1337.838397,527.500068 1346.227541,527.665862 1345.843321,547.107369 1337.454178,546.941576 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>ANNE ST GEORGE</ab>
+            <ab>SECOND DAUGHTER OF</ab>
+            <ab>ARTHUR F. ST GEORGE</ab>
+            <ab>AND LADY HARRIET ST GEORGE</ab>
+            <ab>DIED AT ROME 8TH MARCH</ab>
+            <ab>1848</ab>
+            <ab>AGED 42 YEARS</ab>
+            <ab>--------</ab>
+            <ab>ERECTED</ab>
+            <ab>BY HER BROTHER</ab>
+            <ab>C.W. ST GEORGE M.P.</ab>
+            <ab>COUNTY GALWAY IRELAND</ab>
+         </div>
+      </body>
   </text>
 </TEI>

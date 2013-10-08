@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1009.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1009.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1009</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1009">
-          <msIdentifier>
-            <idno>S1009</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>165</height>
-                    <depth>9</depth>
-                    <width>72</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Dmitrij</forename>
-              <surname>Koval'skij</surname>
-            </persName>
-            <death when="1877"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1009</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1009">
+               <msIdentifier>
+                  <idno>S1009</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>165</height>
+                              <depth>9</depth>
+                              <width>72</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Dmitrij</forename>
+                     <surname>Koval'skij</surname>
+                  </persName>
+                  <death when="1877"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_IF #t_P #s_CY">
-        <ab>Упокой Господи</ab>
-        <ab>дусу раба тжего!</ab>
-        <ab/>
-        <ab>ДМИТРИЙ КОВАЛ'СКИЙ</ab>
-        <ab>сконяалсЯ 12 Апрѣлйа 1877 года.</ab>
-        <ab>45 лѣт" от" роду.</ab>
-        <ab/>
-        <ab>Неиспожѣбимы пути</ab>
-        <ab>Тжои Господи.</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> last two lines dubious</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1009"
+               ulx="2051.848434"
+               uly="483.68154200000004"
+               lrx="2059.977607"
+               lry="503.36727299999995"
+               points="2052.120331,483.68154200000004 2059.977607,483.790671 2059.705709,503.36727299999995 2051.848434,503.258145 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_T #c_4 #m_IF #t_P #s_CY">
+            <ab>Упокой Господи</ab>
+            <ab>дусу раба тжего!</ab>
+            <ab/>
+            <ab>ДМИТРИЙ КОВАЛ'СКИЙ</ab>
+            <ab>сконяалсЯ 12 Апрѣлйа 1877 года.</ab>
+            <ab>45 лѣт" от" роду.</ab>
+            <ab/>
+            <ab>Неиспожѣбимы пути</ab>
+            <ab>Тжои Господи.</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> last two lines dubious</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

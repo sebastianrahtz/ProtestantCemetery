@@ -1,85 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1679.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1679.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1679</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1679">
-          <msIdentifier>
-            <idno>S1679</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>183</height>
-                    <depth>47</depth>
-                    <width>64</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Věra Nikoaaevna</forename>
-              <surname>Skrypicyna</surname>
-            </persName>
-            <death when="1874"/>
-            <nationality key="RU"/>
-          </person>
-          <person>
-            <sex>0</sex>
-            <persName>
-              <forename/>
-              <surname>de Skriptzine</surname>
-            </persName>
-            <death when="1874"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1679</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1679">
+               <msIdentifier>
+                  <idno>S1679</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>183</height>
+                              <depth>47</depth>
+                              <width>64</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Věra Nikoaaevna</forename>
+                     <surname>Skrypicyna</surname>
+                  </persName>
+                  <death when="1874"/>
+                  <nationality key="RU"/>
+               </person>
+               <person>
+                  <sex>0</sex>
+                  <persName>
+                     <forename/>
+                     <surname>de Skriptzine</surname>
+                  </persName>
+                  <death when="1874"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IF #t_P #s_CY">
-        <ab>ВЕРА НИКОААЕВНА СКРЫПИЦЫНА</ab>
-        <ab>РОЖД ГОАЕНИЬЯЕВА - КУТУЗОВА</ab>
-        <ab>СКОНЯАААЦ'  РИМЕ 3го АПРЕАЯ 1874 Г</ab>
-        <ab>НА 72омо ГОДУ.</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> omo should be omu</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1679"
+               ulx="2437.532384"
+               uly="396.59777199999996"
+               lrx="2446.592449"
+               lry="402.854235"
+               points="2437.532384,397.151163 2446.229571,396.59777199999996 2446.592449,402.300845 2437.895263,402.854235 ">
+            <graphic url="film:F/22"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_3 #m_IF #t_P #s_CY">
+            <ab>ВЕРА НИКОААЕВНА СКРЫПИЦЫНА</ab>
+            <ab>РОЖД ГОАЕНИЬЯЕВА - КУТУЗОВА</ab>
+            <ab>СКОНЯАААЦ'  РИМЕ 3го АПРЕАЯ 1874 Г</ab>
+            <ab>НА 72омо ГОДУ.</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> omo should be omu</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

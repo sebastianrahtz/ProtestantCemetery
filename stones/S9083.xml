@@ -1,69 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9083.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9083.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9083</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9083">
-          <msIdentifier>
-            <idno>S9083</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-              <note>west of 1953</note>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm"/>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>59</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Mary Barford</forename>
-              <surname>Gusella</surname>
-            </persName>
-            <birth when="1926"/>
-            <death when="1986"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9083</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9083">
+               <msIdentifier>
+                  <idno>S9083</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                     <note>west of 1953</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm"/>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>59</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Mary Barford</forename>
+                     <surname>Gusella</surname>
+                  </persName>
+                  <birth when="1926"/>
+                  <death when="1986"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>MARY BARFORD</ab>
-        <ab>GUSELLA</ab>
-        <ab/>
-        <ab>NÉE SUMNER</ab>
-        <ab>*28.10.1926 +6.3.1986</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9083"
+               ulx="2389.672689"
+               uly="668.589376"
+               lrx="2399.13868"
+               lry="674.41492"
+               points="2389.672689,669.156444 2398.812422,668.589376 2399.13868,673.847852 2389.998947,674.41492 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>MARY BARFORD</ab>
+            <ab>GUSELLA</ab>
+            <ab/>
+            <ab>NÉE SUMNER</ab>
+            <ab>*28.10.1926 +6.3.1986</ab>
+         </div>
+      </body>
   </text>
 </TEI>

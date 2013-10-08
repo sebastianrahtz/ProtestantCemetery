@@ -1,74 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S9085.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S9085.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 9085</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S9085">
-          <msIdentifier>
-            <idno>S9085</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-              <note>south of 1972</note>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">285</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm"/>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>75</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Millicent Leonora</forename>
-              <surname>Ceretti</surname>
-            </persName>
-            <birth when="1910"/>
-            <death when="1985"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 9085</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S9085">
+               <msIdentifier>
+                  <idno>S9085</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                     <note>south of 1972</note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">285</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm"/>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>75</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Millicent Leonora</forename>
+                     <surname>Ceretti</surname>
+                  </persName>
+                  <birth when="1910"/>
+                  <death when="1985"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_T #c_1 #m_IC #t_S">
-        <ab>MILLICENT LEONORA</ab>
-        <ab/>
-        <ab>CERETTI</ab>
-        <ab>NÉE GERBI</ab>
-        <ab/>
-        <ab>MARAZION 15-VI-1910</ab>
-        <ab>LIVORNO 31-XII-1985</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S9085"
+               ulx="2363.183002"
+               uly="696.338384"
+               lrx="2373.024928"
+               lry="700.497357"
+               points="2363.183002,696.427359 2372.987995,696.338384 2373.024928,700.408381 2363.219935,700.497357 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_T #c_1 #m_IC #t_S">
+            <ab>MILLICENT LEONORA</ab>
+            <ab/>
+            <ab>CERETTI</ab>
+            <ab>NÉE GERBI</ab>
+            <ab/>
+            <ab>MARAZION 15-VI-1910</ab>
+            <ab>LIVORNO 31-XII-1985</ab>
+         </div>
+      </body>
   </text>
 </TEI>

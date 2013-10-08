@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2264.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2264.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2264</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2264">
-          <msIdentifier>
-            <idno>S2264</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>146</height>
-                    <depth>35</depth>
-                    <width>56</width>
-                  </dimensions>
-                </extent>
-                <condition>very poor</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>0</sex>
-            <persName>
-              <forename>John Miller</forename>
-              <surname>Hamilton</surname>
-            </persName>
-            <nationality key="IE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2264</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2264">
+               <msIdentifier>
+                  <idno>S2264</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>146</height>
+                              <depth>35</depth>
+                              <width>56</width>
+                           </dimensions>
+                        </extent>
+                        <condition>very poor</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>0</sex>
+                  <persName>
+                     <forename>John Miller</forename>
+                     <surname>Hamilton</surname>
+                  </persName>
+                  <nationality key="IE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
-        <ab>[...]</ab>
-        <ab>JOHN MILLER HAMILTON</ab>
-        <ab>OF DUBLIN</ab>
-        <ab>DIED [...]</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_PC">
-        <ab>UNDERNEATH ARE THE EVERLASTING ARMS.</ab>
-        <ab rend="Alignr">DEUT. 33–27.</ab>
-        <ab>LO I AM WITH YOU ALWAY EVEN TO THE END</ab>
-        <ab>OF THE WORLD</ab>
-        <ab rend="Alignr">MATT. 28–20.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2264"
+               ulx="2656.535666"
+               uly="583.8485900000001"
+               lrx="2661.920234"
+               lry="588.930466"
+               points="2656.535666,583.971617 2661.804443,583.8485900000001 2661.920234,588.807439 2656.651457,588.930466 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
+            <ab>[...]</ab>
+            <ab>JOHN MILLER HAMILTON</ab>
+            <ab>OF DUBLIN</ab>
+            <ab>DIED [...]</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_I #t_PC">
+            <ab>UNDERNEATH ARE THE EVERLASTING ARMS.</ab>
+            <ab rend="Alignr">DEUT. 33–27.</ab>
+            <ab>LO I AM WITH YOU ALWAY EVEN TO THE END</ab>
+            <ab>OF THE WORLD</ab>
+            <ab rend="Alignr">MATT. 28–20.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

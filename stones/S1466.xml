@@ -1,97 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1466.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1466.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1466</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1466">
-          <msIdentifier>
-            <idno>S1466</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>170</height>
-                    <depth>182</depth>
-                    <width>100</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_77 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>C.F.</forename>
-              <surname>Elliot-Smith</surname>
-            </persName>
-            <death when="1927"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>M.M.Elvezia</forename>
-              <surname>Smith</surname>
-            </persName>
-            <death when="1960"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1466</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1466">
+               <msIdentifier>
+                  <idno>S1466</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>170</height>
+                              <depth>182</depth>
+                              <width>100</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_77 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>C.F.</forename>
+                     <surname>Elliot-Smith</surname>
+                  </persName>
+                  <death when="1927"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>M.M.Elvezia</forename>
+                     <surname>Smith</surname>
+                  </persName>
+                  <death when="1960"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
-        <ab>C.F. ELLIOT-SMITH</ab>
-        <ab>BORN SOUTHWELL ENGL. 22ND SEPT. 1864</ab>
-        <ab>ENTERED INTO REST 1ST JUNE 1927</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_S">
-        <ab>M.M ELVEZIA SMITH</ab>
-        <ab>BORN MONA-GORIZIA ITALY 15 OCT.1874</ab>
-        <ab>ENTERED INTO REST 28TH JAN.1960</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_PC">
-        <ab>THY WILL BE DONE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1466"
+               ulx="2407.559188"
+               uly="196.07526700000005"
+               lrx="2419.68162"
+               lry="215.65096500000004"
+               points="2407.559188,197.00062100000002 2418.034039,196.07526700000005 2419.68162,214.72561199999996 2409.20677,215.65096500000004 ">
+            <graphic url="film:AE/29"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_P">
+            <ab>C.F. ELLIOT-SMITH</ab>
+            <ab>BORN SOUTHWELL ENGL. 22ND SEPT. 1864</ab>
+            <ab>ENTERED INTO REST 1ST JUNE 1927</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_2 #m_I #t_S">
+            <ab>M.M ELVEZIA SMITH</ab>
+            <ab>BORN MONA-GORIZIA ITALY 15 OCT.1874</ab>
+            <ab>ENTERED INTO REST 28TH JAN.1960</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_PC">
+            <ab>THY WILL BE DONE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

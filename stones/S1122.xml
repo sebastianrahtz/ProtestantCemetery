@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1122.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1122.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1122</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1122">
-          <msIdentifier>
-            <idno>S1122</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>11</height>
-                    <depth>10</depth>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Agnes Frideswede</forename>
-              <surname>Borrozzino</surname>
-            </persName>
-            <death when="1982"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Valentina</forename>
-              <surname>Scordia</surname>
-            </persName>
-            <death when="1984"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1122</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1122">
+               <msIdentifier>
+                  <idno>S1122</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>11</height>
+                              <depth>10</depth>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Agnes Frideswede</forename>
+                     <surname>Borrozzino</surname>
+                  </persName>
+                  <death when="1982"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Valentina</forename>
+                     <surname>Scordia</surname>
+                  </persName>
+                  <death when="1984"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_ #m_I #t_P">
-        <ab>AGNES FRIEDESWEDE CECIL</ab>
-        <ab/>
-        <ab>BORROZZINO NATA COWPER</ab>
-        <ab>LONDRA 19.1.1896 ROME 17.10.1982</ab>
-        <ab/>
-        <ab>VALENTINA SCORDIA NATA BORRAZZINO</ab>
-        <ab>ROMA 14.2.1924 ROMA 6.12.1984</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1122"
+               ulx="1754.047803"
+               uly="536.423598"
+               lrx="1762.704959"
+               lry="539.486899"
+               points="1754.047803,536.423598 1762.704959,536.423598 1762.704959,539.486899 1754.047803,539.486899 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_ #m_I #t_P">
+            <ab>AGNES FRIEDESWEDE CECIL</ab>
+            <ab/>
+            <ab>BORROZZINO NATA COWPER</ab>
+            <ab>LONDRA 19.1.1896 ROME 17.10.1982</ab>
+            <ab/>
+            <ab>VALENTINA SCORDIA NATA BORRAZZINO</ab>
+            <ab>ROMA 14.2.1924 ROMA 6.12.1984</ab>
+         </div>
+      </body>
   </text>
 </TEI>

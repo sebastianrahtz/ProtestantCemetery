@@ -1,103 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S369.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S369.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 369</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S369">
-          <msIdentifier>
-            <idno>S369</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>136</height>
-                    <depth>32</depth>
-                    <width>44</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>22</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Natal'ja</forename>
-              <surname>Xachonskaja</surname>
-            </persName>
-            <birth when="1825">
-              <placeName>
-                <settlement>Moscow</settlement>
-                <country>Russia</country>
-              </placeName>
-            </birth>
-            <death when="1847">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 369</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S369">
+               <msIdentifier>
+                  <idno>S369</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>136</height>
+                              <depth>32</depth>
+                              <width>44</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>22</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Natal'ja</forename>
+                     <surname>Xachonskaja</surname>
+                  </persName>
+                  <birth when="1825">
+                     <placeName>
+                        <settlement>Moscow</settlement>
+                        <country>Russia</country>
+                     </placeName>
+                  </birth>
+                  <death when="1847">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_P #s_CY">
-        <ab>ТѢЛО КНЙАЖНЫ</ab>
-        <ab>НАТАЛ'И ВАЛЕНТИНОВНЫ</ab>
-        <ab>ЬАЦХОВСКОЙ</ab>
-        <ab/>
-        <ab>РОДИЛАЦ'  МОСКВѢ</ab>
-        <ab>19/31 ДЕКАБРЯ 1825го ГОДА</ab>
-        <ab>СКОНЯАЛАС'  РИМѢ</ab>
-        <ab>10/22 ДЕКАБРЯ 1847го ГОДА</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> Check dates.</note>
-        </ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_PC #s_CY">
-        <ab>БЛАГОСЛОВЕН" ЕСИ ГОСПОДИ</ab>
-        <ab>НАУЯИ МЯ ОПРАВДАНИЯМ" ТВОИМ"</ab>
-        <ab rend="Alignl">
-          <note xml:lang="en"> Lang???</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S369"
+               ulx="1163.971778"
+               uly="520.483407"
+               lrx="1170.784009"
+               lry="524.787368"
+               points="1170.784009,520.644462 1164.09028,520.483407 1163.971778,524.626331 1170.665698,524.787368 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_P #s_CY">
+            <ab>ТѢЛО КНЙАЖНЫ</ab>
+            <ab>НАТАЛ'И ВАЛЕНТИНОВНЫ</ab>
+            <ab>ЬАЦХОВСКОЙ</ab>
+            <ab/>
+            <ab>РОДИЛАЦ'  МОСКВѢ</ab>
+            <ab>19/31 ДЕКАБРЯ 1825го ГОДА</ab>
+            <ab>СКОНЯАЛАС'  РИМѢ</ab>
+            <ab>10/22 ДЕКАБРЯ 1847го ГОДА</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> Check dates.</note>
+            </ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_PC #s_CY">
+            <ab>БЛАГОСЛОВЕН" ЕСИ ГОСПОДИ</ab>
+            <ab>НАУЯИ МЯ ОПРАВДАНИЯМ" ТВОИМ"</ab>
+            <ab rend="Alignl">
+               <note xml:lang="en"> Lang???</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,82 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S223.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S223.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 223</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S223">
-          <msIdentifier>
-            <idno>S223</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>104</height>
-                    <depth>66</depth>
-                    <width>162</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>See 19---concerning possible imitation of the Scipio sarcophargus now in the Vatican.</summary>
-              <decoNote type="feature">
-                <num>*</num>
-                <ptr target="#i_86 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Florence</forename>
-              <surname>Baldwin</surname>
-            </persName>
-            <death when="1919-07-15">
-              <placeName>
-                <settlement>caprarola</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 223</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S223">
+               <msIdentifier>
+                  <idno>S223</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>104</height>
+                              <depth>66</depth>
+                              <width>162</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>See 19---concerning possible imitation of the Scipio sarcophargus now in the Vatican.</summary>
+                     <decoNote type="feature">
+                        <num>*</num>
+                        <ptr target="#i_86 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Florence</forename>
+                     <surname>Baldwin</surname>
+                  </persName>
+                  <death when="1919-07-15">
+                     <placeName>
+                        <settlement>caprarola</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
-        <ab rend="Alignr">SACRED TO THE MEMORY OF</ab>
-        <ab rend="Alignr">FLORENCE BALDWIN</ab>
-        <ab rend="Alignr">DIED CAPRAROLA JULY 15TH 1918</ab>
-        <ab/>
-        <ab rend="Alignr">...] THOU HAS MADE US FOR THEE OH LORD!</ab>
-        <ab rend="Alignr">.....] HEART IS RESTLESS UNTIL IT RESTS IN THEE.</ab>
-        <ab rend="Alignr">ST. AUGUSTINE</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S223"
+               ulx="1250.826655"
+               uly="384.549432"
+               lrx="1267.381785"
+               lry="390.985465"
+               points="1267.381785,384.94363 1250.99919,384.549432 1250.826655,390.591458 1267.209232,390.985465 ">
+            <graphic url="film:_H/26222"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_4 #m_I #t_P">
+            <ab rend="Alignr">SACRED TO THE MEMORY OF</ab>
+            <ab rend="Alignr">FLORENCE BALDWIN</ab>
+            <ab rend="Alignr">DIED CAPRAROLA JULY 15TH 1918</ab>
+            <ab/>
+            <ab rend="Alignr">...] THOU HAS MADE US FOR THEE OH LORD!</ab>
+            <ab rend="Alignr">.....] HEART IS RESTLESS UNTIL IT RESTS IN THEE.</ab>
+            <ab rend="Alignr">ST. AUGUSTINE</ab>
+         </div>
+      </body>
   </text>
 </TEI>

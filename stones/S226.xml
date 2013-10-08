@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S226.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S226.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 226</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S226">
-          <msIdentifier>
-            <idno>S226</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1742</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>150</height>
-                    <width>197</width>
-                    <dim type="diameter">97</dim>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>56</age>
-            <sex>1</sex>
-            <persName>
-              <forename>Frederick</forename>
-              <surname>Bowes</surname>
-            </persName>
-            <death when="1842-03-15">
-              <placeName>
-                <settlement>Rome</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-            <occupation>soldier</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 226</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S226">
+               <msIdentifier>
+                  <idno>S226</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1742</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>150</height>
+                              <width>197</width>
+                              <dim type="diameter">97</dim>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>56</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Frederick</forename>
+                     <surname>Bowes</surname>
+                  </persName>
+                  <death when="1842-03-15">
+                     <placeName>
+                        <settlement>Rome</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+                  <occupation>soldier</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_N #c_1 #m_I #t_P">
-        <ab>SACRED TO THE</ab>
-        <ab>MEMORY OF</ab>
-        <ab>MAIOR GENERAL FREDERICK BOWES HONBLE E.I.C.S</ab>
-        <ab>WHO DIED IN ROME MARCH 15TH 1842</ab>
-        <ab>AGED 56 YEARS</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_I #t_S">
-        <ab>SACRO ALLA MEMORIA</ab>
-        <ab>DEL MAGGIORE GENERALE FEDERICO BOWES</ab>
-        <ab>AL SERVIZIO DELLA ONOREVOLE COMPAGNIA</ab>
-        <ab>DELLE INDIE ORIENTALI</ab>
-        <ab>MORTO IN ROMA</ab>
-        <ab>AI XV DI MARZO MDCCCXLII</ab>
-        <ab>ALLA ETÀ DI ANNI LVI</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S226"
+               ulx="1200.974671"
+               uly="377.65362500000003"
+               lrx="1220.687091"
+               lry="389.85839699999997"
+               points="1220.687091,378.119774 1201.309947,377.65362500000003 1200.974671,389.392248 1220.351815,389.85839699999997 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_N #c_1 #m_I #t_P">
+            <ab>SACRED TO THE</ab>
+            <ab>MEMORY OF</ab>
+            <ab>MAIOR GENERAL FREDERICK BOWES HONBLE E.I.C.S</ab>
+            <ab>WHO DIED IN ROME MARCH 15TH 1842</ab>
+            <ab>AGED 56 YEARS</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_I #t_S">
+            <ab>SACRO ALLA MEMORIA</ab>
+            <ab>DEL MAGGIORE GENERALE FEDERICO BOWES</ab>
+            <ab>AL SERVIZIO DELLA ONOREVOLE COMPAGNIA</ab>
+            <ab>DELLE INDIE ORIENTALI</ab>
+            <ab>MORTO IN ROMA</ab>
+            <ab>AI XV DI MARZO MDCCCXLII</ab>
+            <ab>ALLA ETÀ DI ANNI LVI</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,94 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1264.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1264.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1264</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1264">
-          <msIdentifier>
-            <idno>S1264</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1873</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>150</height>
-                    <depth>50</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Marguerite</forename>
-              <surname>David</surname>
-            </persName>
-            <death when="1888"/>
-            <nationality key="FR"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Emile</forename>
-              <surname>David</surname>
-            </persName>
-            <death when="1891"/>
-            <nationality key="FR"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Louise</forename>
-              <surname>David</surname>
-            </persName>
-            <death when="1904"/>
-            <nationality key="FR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1264</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1264">
+               <msIdentifier>
+                  <idno>S1264</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1873</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>150</height>
+                              <depth>50</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Marguerite</forename>
+                     <surname>David</surname>
+                  </persName>
+                  <death when="1888"/>
+                  <nationality key="FR"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Emile</forename>
+                     <surname>David</surname>
+                  </persName>
+                  <death when="1891"/>
+                  <nationality key="FR"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Louise</forename>
+                     <surname>David</surname>
+                  </persName>
+                  <death when="1904"/>
+                  <nationality key="FR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_T #c_3 #m_I #t_P">
-        <ab>ICI REPOSENT</ab>
-        <ab>MARGUERITE</ab>
-        <ab>DAVID</ab>
-        <ab>1888</ab>
-        <ab>EMILE DAVID</ab>
-        <ab>1824–1891</ab>
-        <ab>LOUISE DAVID</ab>
-        <ab>1827–1904</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1264"
+               ulx="2034.796214"
+               uly="598.577808"
+               lrx="2042.954123"
+               lry="610.814671"
+               points="2034.796214,598.577808 2042.954123,598.577808 2042.954123,610.814671 2034.796214,610.814671 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_T #c_3 #m_I #t_P">
+            <ab>ICI REPOSENT</ab>
+            <ab>MARGUERITE</ab>
+            <ab>DAVID</ab>
+            <ab>1888</ab>
+            <ab>EMILE DAVID</ab>
+            <ab>1824–1891</ab>
+            <ab>LOUISE DAVID</ab>
+            <ab>1827–1904</ab>
+         </div>
+      </body>
   </text>
 </TEI>

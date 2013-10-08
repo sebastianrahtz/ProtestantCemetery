@@ -1,85 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2007.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2007.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2007</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2007">
-          <msIdentifier>
-            <idno>S2007</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">652</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>3</num>
-                  <dimensions unit="cm">
-                    <height>150</height>
-                    <depth>95</depth>
-                    <width>95</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Adolfo</forename>
-              <surname>Gancia</surname>
-            </persName>
-            <death when="1966"/>
-            <nationality key="IT"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Blanceflor</forename>
-              <surname>de Bildt</surname>
-            </persName>
-            <death when="1972"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2007</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2007">
+               <msIdentifier>
+                  <idno>S2007</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">652</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>3</num>
+                           <dimensions unit="cm">
+                              <height>150</height>
+                              <depth>95</depth>
+                              <width>95</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Adolfo</forename>
+                     <surname>Gancia</surname>
+                  </persName>
+                  <death when="1966"/>
+                  <nationality key="IT"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Blanceflor</forename>
+                     <surname>de Bildt</surname>
+                  </persName>
+                  <death when="1972"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
-        <ab>CAVALIERE DEL LAVORO</ab>
-        <ab>AVV. ADOLFO GANCIA</ab>
-        <ab>1.7.1891 23.6.1966</ab>
-        <ab>E SUA MOGLIE</ab>
-        <ab>BLANCEFIOR DE BILDT</ab>
-        <ab>1.9.1891 9.6.1972</ab>
-        <ab>VED. DEL PRINCIPE</ab>
-        <ab>ANDREA BONCOMPAGNI LUDOVISI</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2007"
+               ulx="2862.783995"
+               uly="178.70575399999996"
+               lrx="2872.091986"
+               lry="183.94414500000005"
+               points="2874.923426,178.96212300000002 2884.162973,179.08576400000004 2884.094528,184.200514 2874.854982,184.07687299999998 2870.086112,184.972037 2877.675079,185.11465799999996 2877.417743,198.80779400000006 2869.828775,198.66517399999998 2862.852439,178.70575399999996 2872.091986,178.82939599999997 2872.023542,183.94414500000005 2862.783995,183.82050400000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IF #t_P">
+            <ab>CAVALIERE DEL LAVORO</ab>
+            <ab>AVV. ADOLFO GANCIA</ab>
+            <ab>1.7.1891 23.6.1966</ab>
+            <ab>E SUA MOGLIE</ab>
+            <ab>BLANCEFIOR DE BILDT</ab>
+            <ab>1.9.1891 9.6.1972</ab>
+            <ab>VED. DEL PRINCIPE</ab>
+            <ab>ANDREA BONCOMPAGNI LUDOVISI</ab>
+         </div>
+      </body>
   </text>
 </TEI>

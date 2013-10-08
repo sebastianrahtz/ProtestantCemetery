@@ -1,80 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S42.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S42.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 42</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S42">
-          <msIdentifier>
-            <idno>S42</idno>
-            <altIdentifier>
-              <idno type="zone">Parte Antica</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">120</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>154</height>
-                    <depth>57</depth>
-                    <width>74</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <summary>(vol 1, plate 53) Sarcophagus in the shape of a Roman altar. Partly a direct copy of a sarcophagus in the Vatican?</summary>
-              <decoNote type="faces">west side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>38</age>
-            <sex>1</sex>
-            <persName>
-              <forename>John</forename>
-              <surname>Eyre</surname>
-            </persName>
-            <birth when="1781"/>
-            <death when="1819-11-15"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 42</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S42">
+               <msIdentifier>
+                  <idno>S42</idno>
+                  <altIdentifier>
+                     <idno type="zone">Parte Antica</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">120</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>154</height>
+                              <depth>57</depth>
+                              <width>74</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary>(vol 1, plate 53) Sarcophagus in the shape of a Roman altar. Partly a direct copy of a sarcophagus in the Vatican?</summary>
+                     <decoNote type="faces">west side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>38</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Eyre</surname>
+                  </persName>
+                  <birth when="1781"/>
+                  <death when="1819-11-15"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="la" decls="#f_W #c_3 #m_I #t_P">
-        <ab>SUBTUS JACET QUOD MORTALE EST JOHANNIS EYRE MED: D: NATIONE BRITANNI</ab>
-        <ab>VIRIS ELEGANTIORIS JNGENII, DOCTIBUS EGREGIE INSTRUCTI;</ab>
-        <ab>OB ANIMI CANDOREM, MITIORES VIRTUTES, MORUM UMANITATEM,</ab>
-        <ab>MANSUETUDINEM, SIMPLICICATEM, UNIVERSIS SPECTATI, SUIS MERITO CARISSIME</ab>
-        <ab>QUOD SI MORTE ABSUMPTOS NIMIIS LAMENTES PROSEQUI SIT VETITUM,</ab>
-        <ab>HOC SALTEM SUPERSTITIBUS PERMITTITUR, UT FILII UT FRATRIS, EXIMII</ab>
-        <ab>MEMORIAM EO QUO PAR EST DESIDERIO FOVEANT AC VENERENTUR</ab>
-        <ab>MORTUUS EST DIE XV NOVEMBRIS MDCCCXIX AETATIS SUAE XXXVIII</ab>
-        <ab>OMNES EODEM COGIMUR.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S42"
+               ulx="207.118829"
+               uly="929.626652"
+               lrx="224.387472"
+               lry="953.1922930000001"
+               points="217.070372,929.6266519999999 207.118829,933.286314 214.435929,953.1922930000001 224.387472,949.532631 ">
+            <graphic url="film:_H/26236"/>
+            <graphic url="film:L/26"/>
+            <graphic url="film:M/26"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="la" decls="#f_W #c_3 #m_I #t_P">
+            <ab>SUBTUS JACET QUOD MORTALE EST JOHANNIS EYRE MED: D: NATIONE BRITANNI</ab>
+            <ab>VIRIS ELEGANTIORIS JNGENII, DOCTIBUS EGREGIE INSTRUCTI;</ab>
+            <ab>OB ANIMI CANDOREM, MITIORES VIRTUTES, MORUM UMANITATEM,</ab>
+            <ab>MANSUETUDINEM, SIMPLICICATEM, UNIVERSIS SPECTATI, SUIS MERITO CARISSIME</ab>
+            <ab>QUOD SI MORTE ABSUMPTOS NIMIIS LAMENTES PROSEQUI SIT VETITUM,</ab>
+            <ab>HOC SALTEM SUPERSTITIBUS PERMITTITUR, UT FILII UT FRATRIS, EXIMII</ab>
+            <ab>MEMORIAM EO QUO PAR EST DESIDERIO FOVEANT AC VENERENTUR</ab>
+            <ab>MORTUUS EST DIE XV NOVEMBRIS MDCCCXIX AETATIS SUAE XXXVIII</ab>
+            <ab>OMNES EODEM COGIMUR.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

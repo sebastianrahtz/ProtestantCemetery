@@ -1,99 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2092.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2092.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2092</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2092">
-          <msIdentifier>
-            <idno>S2092</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1235</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>196</height>
-                    <depth>31</depth>
-                    <width>98</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>4</num>
-                <ptr target="#i_121 #st_A #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_164 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>John Quincy</forename>
-              <surname>Carpenter</surname>
-            </persName>
-            <death when="1910"/>
-            <nationality key="US"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Mary D.D.</forename>
-              <surname>Carpenter</surname>
-            </persName>
-            <death when="1932"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2092</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2092">
+               <msIdentifier>
+                  <idno>S2092</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1235</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>196</height>
+                              <depth>31</depth>
+                              <width>98</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>4</num>
+                        <ptr target="#i_121 #st_A #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_164 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>John Quincy</forename>
+                     <surname>Carpenter</surname>
+                  </persName>
+                  <death when="1910"/>
+                  <nationality key="US"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Mary D.D.</forename>
+                     <surname>Carpenter</surname>
+                  </persName>
+                  <death when="1932"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>SACRED TO THE MEMORY</ab>
-        <ab>OF, CAPTAIN</ab>
-        <ab>JOHN QUINCEY CARPENTER</ab>
-        <ab>BORN IN PHILADELPHIA</ab>
-        <ab>AUGUST, 6, 1842</ab>
-        <ab>DIED IN ROME.</ab>
-        <ab>MARCH, 16, 1910.</ab>
-        <ab>-----------</ab>
-        <ab>AND TO HIS WIFE</ab>
-        <ab>MARY D.D. CARPENTER</ab>
-        <ab>BORN IN PHILADELPHIA</ab>
-        <ab>AUGUST, 24, 1844</ab>
-        <ab>DIED IN FIESOLE</ab>
-        <ab>FEBRUARY, 3, 1932.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2092"
+               ulx="2763.39469"
+               uly="302.854879"
+               lrx="2774.102836"
+               lry="306.43602899999996"
+               points="2763.39469,303.07662300000004 2774.032811,302.854879 2774.102836,306.214285 2763.464715,306.43602899999996 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>SACRED TO THE MEMORY</ab>
+            <ab>OF, CAPTAIN</ab>
+            <ab>JOHN QUINCEY CARPENTER</ab>
+            <ab>BORN IN PHILADELPHIA</ab>
+            <ab>AUGUST, 6, 1842</ab>
+            <ab>DIED IN ROME.</ab>
+            <ab>MARCH, 16, 1910.</ab>
+            <ab>-----------</ab>
+            <ab>AND TO HIS WIFE</ab>
+            <ab>MARY D.D. CARPENTER</ab>
+            <ab>BORN IN PHILADELPHIA</ab>
+            <ab>AUGUST, 24, 1844</ab>
+            <ab>DIED IN FIESOLE</ab>
+            <ab>FEBRUARY, 3, 1932.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

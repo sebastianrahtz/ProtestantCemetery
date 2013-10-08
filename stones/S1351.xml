@@ -1,110 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1351.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1351.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1351</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1351">
-          <msIdentifier>
-            <idno>S1351</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">487</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>145</height>
-                    <depth>36</depth>
-                    <width>65</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_34 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Vera</forename>
-              <surname>Jaroslavzeva</surname>
-            </persName>
-            <death when="1949"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Alessandro</forename>
-              <surname>Nersessian</surname>
-            </persName>
-            <death when="1967"/>
-            <nationality key="ZZ"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Alessandra</forename>
-              <surname>Nersessian</surname>
-            </persName>
-            <death when="1979"/>
-            <nationality key="ZZ"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1351</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1351">
+               <msIdentifier>
+                  <idno>S1351</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">487</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>145</height>
+                              <depth>36</depth>
+                              <width>65</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_34 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Vera</forename>
+                     <surname>Jaroslavzeva</surname>
+                  </persName>
+                  <death when="1949"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Alessandro</forename>
+                     <surname>Nersessian</surname>
+                  </persName>
+                  <death when="1967"/>
+                  <nationality key="ZZ"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Alessandra</forename>
+                     <surname>Nersessian</surname>
+                  </persName>
+                  <death when="1979"/>
+                  <nationality key="ZZ"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" decls="#f_S #c_1 #m_IF #t_S">
-        <ab>ALESSANDRO NERSESSIAN</ab>
-        <ab>28.VI.1894 - 23.VI.1967</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>VERA JAROSLAVEVA</ab>
-        <ab>NATA GARCOVENCO</ab>
-        <ab>28.VIII.1869 - 28.X.1949</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IF #t_S">
-        <ab>ALESSANDRA NERSESSIAN</ab>
-        <ab>NATA JAROSLAVZEVA</ab>
-        <ab>14.XI.1898 - 12.XI.1979</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1351"
+               ulx="1995.418617"
+               uly="649.094089"
+               lrx="2004.36094"
+               lry="666.664969"
+               points="1995.418617,649.094089 2004.36094,649.094089 2004.36094,654.271223 2003.105877,654.271223 2003.105877,666.664969 1997.144328,666.664969 1997.144328,654.271223 1995.5755,654.271223 1995.418617,649.094089 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" decls="#f_S #c_1 #m_IF #t_S">
+            <ab>ALESSANDRO NERSESSIAN</ab>
+            <ab>28.VI.1894 - 23.VI.1967</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>VERA JAROSLAVEVA</ab>
+            <ab>NATA GARCOVENCO</ab>
+            <ab>28.VIII.1869 - 28.X.1949</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_1 #m_IF #t_S">
+            <ab>ALESSANDRA NERSESSIAN</ab>
+            <ab>NATA JAROSLAVZEVA</ab>
+            <ab>14.XI.1898 - 12.XI.1979</ab>
+         </div>
+      </body>
   </text>
 </TEI>

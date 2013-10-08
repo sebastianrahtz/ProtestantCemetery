@@ -1,80 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2359.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2359.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2359</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2359">
-          <msIdentifier>
-            <idno>S2359</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>132</height>
-                    <depth>25</depth>
-                    <width>62</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Mari' Nikolaevna</forename>
-              <surname>Baulina</surname>
-            </persName>
-            <death when="1927"/>
-            <nationality key="RU"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2359</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2359">
+               <msIdentifier>
+                  <idno>S2359</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>132</height>
+                              <depth>25</depth>
+                              <width>62</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Mari' Nikolaevna</forename>
+                     <surname>Baulina</surname>
+                  </persName>
+                  <death when="1927"/>
+                  <nationality key="RU"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_P #s_CY">
-        <ab>МАРИЯ НИКОЛАЕВНА БАУЛИНА</ab>
-        <ab>РОД.  ПЕТРОГРАДЕ" 11 ЙАНВ. 1852 Г.</ab>
-        <ab>СКОНЯ.  РИМѢ 22 ФЕВР. 1927 Г.</ab>
-      </div>
-      <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_PC #s_CY">
-        <ab>51 ЛѢТ" БЫЛА ВѢРНОЙ СЛУГОЙУ</ab>
-        <ab>ГРЕЯЕСКОЙ КОРОЛЕВЫ ОЛ'ГИ</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2359"
+               ulx="3064.681047"
+               uly="122.92686099999992"
+               lrx="3072.316025"
+               lry="128.10859099999993"
+               points="3064.726011,122.92686099999992 3072.316025,122.99358200000006 3072.27106,128.10859099999993 3064.681047,128.04187000000002 ">
+            <graphic url="film:G/22"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_P #s_CY">
+            <ab>МАРИЯ НИКОЛАЕВНА БАУЛИНА</ab>
+            <ab>РОД.  ПЕТРОГРАДЕ" 11 ЙАНВ. 1852 Г.</ab>
+            <ab>СКОНЯ.  РИМѢ 22 ФЕВР. 1927 Г.</ab>
+         </div>
+         <div type="inscription" xml:lang="ru" decls="#f_S #c_2 #m_I #t_PC #s_CY">
+            <ab>51 ЛѢТ" БЫЛА ВѢРНОЙ СЛУГОЙУ</ab>
+            <ab>ГРЕЯЕСКОЙ КОРОЛЕВЫ ОЛ'ГИ</ab>
+         </div>
+      </body>
   </text>
 </TEI>

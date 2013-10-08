@@ -1,83 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1908.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1908.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1908</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1908">
-          <msIdentifier>
-            <idno>S1908</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">417</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>160</height>
-                    <depth>24</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Henry William</forename>
-              <surname>Barfoot</surname>
-            </persName>
-            <death when="1888"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1908</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1908">
+               <msIdentifier>
+                  <idno>S1908</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">417</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>160</height>
+                              <depth>24</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Henry William</forename>
+                     <surname>Barfoot</surname>
+                  </persName>
+                  <death when="1888"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>HENRY WILLIAM BARFOOT</ab>
-        <ab>BORN IN ROME JULY 28TH 1857</ab>
-        <ab>DIED JUNE 3RD 1888</ab>
-        <ab>FROM THE EFFECT OF AN ACCIDENTAL</ab>
-        <ab>GUN-SHOT WOUND RECEIVED AT ANZIO</ab>
-        <ab>AN IRREPARABLE LOSS TO HIS</ab>
-        <ab>BEREAVED AND AFFLICTED FAMILY</ab>
-        <ab>LOVED AND LAMENTED BY</ab>
-        <ab>HIS NUMEROUS FRIENDS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1908"
+               ulx="2242.931356"
+               uly="632.721952"
+               lrx="2251.602038"
+               lry="635.760984"
+               points="2242.931356,633.257075 2251.444649,632.721952 2251.602038,635.225861 2243.088745,635.760984 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_3 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>HENRY WILLIAM BARFOOT</ab>
+            <ab>BORN IN ROME JULY 28TH 1857</ab>
+            <ab>DIED JUNE 3RD 1888</ab>
+            <ab>FROM THE EFFECT OF AN ACCIDENTAL</ab>
+            <ab>GUN-SHOT WOUND RECEIVED AT ANZIO</ab>
+            <ab>AN IRREPARABLE LOSS TO HIS</ab>
+            <ab>BEREAVED AND AFFLICTED FAMILY</ab>
+            <ab>LOVED AND LAMENTED BY</ab>
+            <ab>HIS NUMEROUS FRIENDS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

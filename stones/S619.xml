@@ -1,104 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S619.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S619.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 619</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S619">
-          <msIdentifier>
-            <idno>S619</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">964</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>177</height>
-                    <depth>10</depth>
-                    <width>77</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_24 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_114 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_115 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Paolo Lucio</forename>
-              <surname>Marquardt</surname>
-            </persName>
-            <death when="1948"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Paul</forename>
-              <surname>Marquardt</surname>
-            </persName>
-            <death when="1956"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 619</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S619">
+               <msIdentifier>
+                  <idno>S619</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">964</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>177</height>
+                              <depth>10</depth>
+                              <width>77</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_24 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_114 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_115 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Paolo Lucio</forename>
+                     <surname>Marquardt</surname>
+                  </persName>
+                  <death when="1948"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Paul</forename>
+                     <surname>Marquardt</surname>
+                  </persName>
+                  <death when="1956"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>PROF. PAUL MARQUARDT</ab>
-        <ab>*MAGDEBURG 15. AUG. 1871</ab>
-        <ab>+ROM 2. MAERZ 1956</ab>
-        <ab>
-          <hi rend="gothic">"Er war ein Rechten Mann"</hi>
-        </ab>
-        <ab rend="Alignr">
-          <hi rend="gothic">Matthäus</hi>
-        </ab>
-        <ab rend="Alignl">PAOLO LUCIO MARQUARDT</ab>
-        <ab rend="Alignl">*17.VII.1948+</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S619"
+               ulx="1779.648583"
+               uly="300.401533"
+               lrx="1787.174897"
+               lry="313.507752"
+               points="1780.96466,301.95045000000005 1781.046915,300.967483 1781.211424,300.401533 1784.789508,300.46110699999997 1785.24191,301.622794 1786.105585,302.397253 1787.174897,302.724908 1787.092643,311.24395000000004 1786.105585,311.631179 1785.406419,312.28648999999996 1785.036273,313.507752 1781.704953,313.448178 1781.458189,312.40563799999995 1780.96466,311.80990099999997 1780.388876,311.42267100000004 1779.730838,311.24395000000004 1779.648583,303.201498 1780.471131,302.724908 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>PROF. PAUL MARQUARDT</ab>
+            <ab>*MAGDEBURG 15. AUG. 1871</ab>
+            <ab>+ROM 2. MAERZ 1956</ab>
+            <ab>
+               <hi rend="gothic">"Er war ein Rechten Mann"</hi>
+            </ab>
+            <ab rend="Alignr">
+               <hi rend="gothic">Matthäus</hi>
+            </ab>
+            <ab rend="Alignl">PAOLO LUCIO MARQUARDT</ab>
+            <ab rend="Alignl">*17.VII.1948+</ab>
+         </div>
+      </body>
   </text>
 </TEI>

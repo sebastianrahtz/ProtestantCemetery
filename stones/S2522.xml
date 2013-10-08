@@ -1,76 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2522.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2522.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2522</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2522">
-          <msIdentifier>
-            <idno>S2522</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1253</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>65</height>
-                    <depth>16</depth>
-                    <width>68</width>
-                  </dimensions>
-                </extent>
-                <condition>reasonable</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>L. J. Clawson</forename>
-              <surname>Primm</surname>
-            </persName>
-            <death when="1931"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2522</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2522">
+               <msIdentifier>
+                  <idno>S2522</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1253</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>65</height>
+                              <depth>16</depth>
+                              <width>68</width>
+                           </dimensions>
+                        </extent>
+                        <condition>reasonable</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>L. J. Clawson</forename>
+                     <surname>Primm</surname>
+                  </persName>
+                  <death when="1931"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>L.J.CLAWSON PRIMM</ab>
-        <ab>BORN IN BELLEVILLE,ILLINOS U.S.A.</ab>
-        <ab>FEBRUARY 4TH ,1859</ab>
-        <ab>DIED IN ROME ITALY MARCH 2ND,1931</ab>
-        <ab>A GENTLE AND BELOVED NATURE</ab>
-        <ab>HE SHALL BE MUCH MISSED</ab>
-        <ab>AND FOREVER REMEMBERED</ab>
-        <ab>BY HIS DEVOTED FRIENDS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2522"
+               ulx="3041.906451"
+               uly="399.093264"
+               lrx="3050.264327"
+               lry="401.93046000000004"
+               points="3041.906451,399.21061999999995 3050.225961,399.093264 3050.264327,401.81310299999996 3041.944817,401.93046000000004 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>L.J.CLAWSON PRIMM</ab>
+            <ab>BORN IN BELLEVILLE,ILLINOS U.S.A.</ab>
+            <ab>FEBRUARY 4TH ,1859</ab>
+            <ab>DIED IN ROME ITALY MARCH 2ND,1931</ab>
+            <ab>A GENTLE AND BELOVED NATURE</ab>
+            <ab>HE SHALL BE MUCH MISSED</ab>
+            <ab>AND FOREVER REMEMBERED</ab>
+            <ab>BY HIS DEVOTED FRIENDS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

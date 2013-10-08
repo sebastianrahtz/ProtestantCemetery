@@ -1,87 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S2239.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S2239.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 2239</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S2239">
-          <msIdentifier>
-            <idno>S2239</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Terza</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">869</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>80</height>
-                    <depth>7</depth>
-                    <width>38</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_29 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Raleigh George A.</forename>
-              <surname>Chapman</surname>
-            </persName>
-            <death when="1919"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 2239</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S2239">
+               <msIdentifier>
+                  <idno>S2239</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Terza</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">869</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>80</height>
+                              <depth>7</depth>
+                              <width>38</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_29 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Raleigh George A.</forename>
+                     <surname>Chapman</surname>
+                  </persName>
+                  <death when="1919"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>LIEUTENANT</ab>
-        <ab>RALEIGH GEORGE A. CHAPMAN</ab>
-        <ab>ROYAL ARMY SERVICE CORPS</ab>
-        <ab>1ST MARCH 1919 AGED 25</ab>
-        <ab/>
-        <ab>LOVE IS ALL</ab>
-        <ab>AND DEATH IS NAUGHT</ab>
-      </div>
-      <div type="inscription" xml:lang="en" decls="#f_R #c_2 #m_I #t_PC">
-        <ab>ROYAL ARMY SERVICE CORPS</ab>
-        <ab>HONI.SOIT.QUI.MAL.Y.PENSE.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S2239"
+               ulx="2693.790271"
+               uly="551.303587"
+               lrx="2698.452191"
+               lry="553.193188"
+               points="2693.790271,551.33315 2698.440365,551.303587 2698.452191,553.163625 2693.802096,553.193188 ">
+            <graphic url="film:AN/23"/>
+            <graphic url="film:AN/24">
+               <desc>c/u</desc>
+            </graphic>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>LIEUTENANT</ab>
+            <ab>RALEIGH GEORGE A. CHAPMAN</ab>
+            <ab>ROYAL ARMY SERVICE CORPS</ab>
+            <ab>1ST MARCH 1919 AGED 25</ab>
+            <ab/>
+            <ab>LOVE IS ALL</ab>
+            <ab>AND DEATH IS NAUGHT</ab>
+         </div>
+         <div type="inscription" xml:lang="en" decls="#f_R #c_2 #m_I #t_PC">
+            <ab>ROYAL ARMY SERVICE CORPS</ab>
+            <ab>HONI.SOIT.QUI.MAL.Y.PENSE.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

@@ -1,90 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1524.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1524.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1524</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1524">
-          <msIdentifier>
-            <idno>S1524</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">43</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PLB">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>20</height>
-                    <depth>2</depth>
-                    <width>65</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>2</num>
-                <ptr target="#i_114 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Mehdi</forename>
-              <surname>Frasheri</surname>
-            </persName>
-            <death when="1963"/>
-            <nationality key="FR"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Nejre</forename>
-              <surname>Frasheri</surname>
-            </persName>
-            <death when="1969"/>
-            <nationality key="FR"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1524</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1524">
+               <msIdentifier>
+                  <idno>S1524</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PLB">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>20</height>
+                              <depth>2</depth>
+                              <width>65</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>2</num>
+                        <ptr target="#i_114 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Mehdi</forename>
+                     <surname>Frasheri</surname>
+                  </persName>
+                  <death when="1963"/>
+                  <nationality key="FR"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Nejre</forename>
+                     <surname>Frasheri</surname>
+                  </persName>
+                  <death when="1969"/>
+                  <nationality key="FR"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="fr" decls="#f_S #c_1 #m_IF #t_S">
-        <ab>NEJRE FRASHERI</ab>
-        <ab>NÉE BICAKU</ab>
-        <ab>* 25.V.1885</ab>
-        <ab>+13.VIII.1969</ab>
-      </div>
-      <div type="inscription" decls="#f_S #c_1 #m_IF #t_P">
-        <ab>MEHDI FRASHERI</ab>
-        <ab>* 28.II.1872</ab>
-        <ab>+ 25.V.1963</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1524"
+               ulx="2395.299975"
+               uly="248.97201299999995"
+               lrx="2403.786767"
+               lry="252.64543100000003"
+               points="2395.299975,249.59395099999995 2403.556921,248.97201299999995 2403.786767,252.02349200000003 2395.529822,252.64543100000003 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="fr" decls="#f_S #c_1 #m_IF #t_S">
+            <ab>NEJRE FRASHERI</ab>
+            <ab>NÉE BICAKU</ab>
+            <ab>* 25.V.1885</ab>
+            <ab>+13.VIII.1969</ab>
+         </div>
+         <div type="inscription" decls="#f_S #c_1 #m_IF #t_P">
+            <ab>MEHDI FRASHERI</ab>
+            <ab>* 28.II.1872</ab>
+            <ab>+ 25.V.1963</ab>
+         </div>
+      </body>
   </text>
 </TEI>

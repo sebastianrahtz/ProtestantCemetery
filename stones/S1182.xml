@@ -1,112 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1182.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1182.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1182</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1182">
-          <msIdentifier>
-            <idno>S1182</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1546</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>197</height>
-                    <depth>21</depth>
-                    <width>73</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_79 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_112 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_113 #st_A #f_N"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Lina</forename>
-              <surname>Schulz</surname>
-            </persName>
-            <death when="1858"/>
-            <nationality key="DE"/>
-          </person>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Maria</forename>
-              <surname>Schulz</surname>
-            </persName>
-            <death when="1859"/>
-            <nationality key="DE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1182</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1182">
+               <msIdentifier>
+                  <idno>S1182</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1546</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>197</height>
+                              <depth>21</depth>
+                              <width>73</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_79 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_112 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_113 #st_A #f_N"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Lina</forename>
+                     <surname>Schulz</surname>
+                  </persName>
+                  <death when="1858"/>
+                  <nationality key="DE"/>
+               </person>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Maria</forename>
+                     <surname>Schulz</surname>
+                  </persName>
+                  <death when="1859"/>
+                  <nationality key="DE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
-        <ab>HIER</ab>
-        <ab>RVHET IM FRIEDEN</ab>
-        <ab>FRAV LINA SCHVLZ</ab>
-        <ab>GEB:OTTO</ab>
-        <ab>GEB:XVI AUGUST MDCCCXX</ab>
-        <ab>ZU WEISSENFELS</ab>
-        <ab>GEST:XX MAI MDCCCLVIII ZV ROM</ab>
-        <ab>IM ACHT VND DREISSIGSTEN</ab>
-        <ab>IAHRE IHRES HEISSGELIEBTEN</ab>
-        <ab>VND SEGENSREICHEN LEBENS</ab>
-        <ab>  ------------</ab>
-        <ab>KAVM NACH JAHRESFRIST</ab>
-        <ab>FOLGTE IHRER LIEBEN MVTTER</ab>
-        <ab>IN DIE EWIGE HEIMATH</ab>
-        <ab>MARIA SCHVLZ</ab>
-        <ab>AM BEGINN IHRES NEVNTEN</ab>
-        <ab>IAHRES</ab>
-        <ab>PALMSONNTAG MDCCCLIX</ab>
-        <ab>IOH. XI XXV</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1182"
+               ulx="1656.954473"
+               uly="560.264073"
+               lrx="1665.07888"
+               lry="565.991114"
+               points="1656.954473,560.264073 1665.07888,560.264073 1665.07888,565.991114 1656.954473,565.991114 ">
+            <graphic url="film:AO/7"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="de" decls="#f_S #c_2 #m_I #t_P">
+            <ab>HIER</ab>
+            <ab>RVHET IM FRIEDEN</ab>
+            <ab>FRAV LINA SCHVLZ</ab>
+            <ab>GEB:OTTO</ab>
+            <ab>GEB:XVI AUGUST MDCCCXX</ab>
+            <ab>ZU WEISSENFELS</ab>
+            <ab>GEST:XX MAI MDCCCLVIII ZV ROM</ab>
+            <ab>IM ACHT VND DREISSIGSTEN</ab>
+            <ab>IAHRE IHRES HEISSGELIEBTEN</ab>
+            <ab>VND SEGENSREICHEN LEBENS</ab>
+            <ab>  ------------</ab>
+            <ab>KAVM NACH JAHRESFRIST</ab>
+            <ab>FOLGTE IHRER LIEBEN MVTTER</ab>
+            <ab>IN DIE EWIGE HEIMATH</ab>
+            <ab>MARIA SCHVLZ</ab>
+            <ab>AM BEGINN IHRES NEVNTEN</ab>
+            <ab>IAHRES</ab>
+            <ab>PALMSONNTAG MDCCCLIX</ab>
+            <ab>IOH. XI XXV</ab>
+         </div>
+      </body>
   </text>
 </TEI>

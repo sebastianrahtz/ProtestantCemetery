@@ -1,78 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S587.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S587.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 587</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S587">
-          <msIdentifier>
-            <idno>S587</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">2195</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>127</height>
-                    <depth>10</depth>
-                    <width>75</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>2</sex>
-            <persName>
-              <forename>Elizabeth</forename>
-              <surname>Morris</surname>
-            </persName>
-            <death when="1832"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 587</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S587">
+               <msIdentifier>
+                  <idno>S587</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">2195</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>127</height>
+                              <depth>10</depth>
+                              <width>75</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Elizabeth</forename>
+                     <surname>Morris</surname>
+                  </persName>
+                  <death when="1832"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
-        <ab>SACRED</ab>
-        <ab/>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>ELIZABETH</ab>
-        <ab>YOUNGEST DAUGHTER OF THE LATE</ab>
-        <ab>CHARLES MORRIS ESQ</ab>
-        <ab>OF THE POLYGON SOUTHAMPTON</ab>
-        <ab>WHO DIED AT ROME</ab>
-        <ab>AFTER A LINGERING ILLNESS</ab>
-        <ab>APRIL 11TH 1832.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S587"
+               ulx="1365.496097"
+               uly="291.106714"
+               lrx="1373.847457"
+               lry="293.91131099999996"
+               points="1365.523311,291.106714 1373.847457,291.18995500000005 1373.820243,293.91131099999996 1365.496097,293.828069 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_I #t_P">
+            <ab>SACRED</ab>
+            <ab/>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>ELIZABETH</ab>
+            <ab>YOUNGEST DAUGHTER OF THE LATE</ab>
+            <ab>CHARLES MORRIS ESQ</ab>
+            <ab>OF THE POLYGON SOUTHAMPTON</ab>
+            <ab>WHO DIED AT ROME</ab>
+            <ab>AFTER A LINGERING ILLNESS</ab>
+            <ab>APRIL 11TH 1832.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

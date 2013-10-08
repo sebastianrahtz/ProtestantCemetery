@@ -1,97 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1630.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1630.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1630</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1630">
-          <msIdentifier>
-            <idno>S1630</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Seconda</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">536</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CROSS">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>79</height>
-                    <depth>24</depth>
-                    <width>81</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_123 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_142 #st_C #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Charles Edward George</forename>
-              <surname>Goetz</surname>
-            </persName>
-            <death when="1938"/>
-            <nationality key="UK"/>
-          </person>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Ronald Edward Oliver</forename>
-              <surname>Goetz</surname>
-            </persName>
-            <death when="1976"/>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1630</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1630">
+               <msIdentifier>
+                  <idno>S1630</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Seconda</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">536</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CROSS">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>79</height>
+                              <depth>24</depth>
+                              <width>81</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_123 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_142 #st_C #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Charles Edward George</forename>
+                     <surname>Goetz</surname>
+                  </persName>
+                  <death when="1938"/>
+                  <nationality key="UK"/>
+               </person>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Ronald Edward Oliver</forename>
+                     <surname>Goetz</surname>
+                  </persName>
+                  <death when="1976"/>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
-        <ab>IN LOVING MEMORY OF</ab>
-        <ab>CHARLES EDWARD GEORGE</ab>
-        <ab>GOETZ</ab>
-        <ab>BORN LONDON, JUNE 22ND 1872</ab>
-        <ab>DIED ROME, SEPT. 14TH 1938</ab>
-        <ab/>
-        <ab>AND</ab>
-        <ab>HIS SON</ab>
-        <ab>RONALD EDWARD OLIVER</ab>
-        <ab>GOETZ M.C.</ab>
-        <ab>BORN LONDON NOV. 2ND 1895</ab>
-        <ab>DIED LONDON FEB. 21ST 1976</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1630"
+               ulx="2532.018279"
+               uly="359.07318699999996"
+               lrx="2540.614374"
+               lry="362.362157"
+               points="2532.018279,359.654175 2540.427276,359.07318699999996 2540.614374,361.781169 2532.205376,362.362157 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_1 #m_IC #t_P">
+            <ab>IN LOVING MEMORY OF</ab>
+            <ab>CHARLES EDWARD GEORGE</ab>
+            <ab>GOETZ</ab>
+            <ab>BORN LONDON, JUNE 22ND 1872</ab>
+            <ab>DIED ROME, SEPT. 14TH 1938</ab>
+            <ab/>
+            <ab>AND</ab>
+            <ab>HIS SON</ab>
+            <ab>RONALD EDWARD OLIVER</ab>
+            <ab>GOETZ M.C.</ab>
+            <ab>BORN LONDON NOV. 2ND 1895</ab>
+            <ab>DIED LONDON FEB. 21ST 1976</ab>
+         </div>
+      </body>
   </text>
 </TEI>

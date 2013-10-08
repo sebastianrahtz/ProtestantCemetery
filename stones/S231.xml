@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S231.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S231.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 231</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S231">
-          <msIdentifier>
-            <idno>S231</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="CHEST">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>198</height>
-                    <depth>58</depth>
-                    <width>106</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>54</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Jane Elizabeth</forename>
-              <surname>Knight</surname>
-            </persName>
-            <birth when="1787-07-08"/>
-            <death when="1841-07-18">
-              <placeName>
-                <settlement>frascati</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 231</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S231">
+               <msIdentifier>
+                  <idno>S231</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="CHEST">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>198</height>
+                              <depth>58</depth>
+                              <width>106</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>54</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Jane Elizabeth</forename>
+                     <surname>Knight</surname>
+                  </persName>
+                  <birth when="1787-07-08"/>
+                  <death when="1841-07-18">
+                     <placeName>
+                        <settlement>frascati</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
-        <ab>IN MEMORY OF</ab>
-        <ab>IANE ELIZABETH</ab>
-        <ab>WIFE OF</ab>
-        <ab>IOHN KNIGHT</ab>
-        <ab>DAVGHTER OF</ab>
-        <ab>GEORGE LORD HEADLEY</ab>
-        <ab>BORN IVLY VIII MDCCLXXXVII</ab>
-        <ab>DIED AT FRASCATI</ab>
-        <ab>IVLY XVIII MDCCCXLI</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S231"
+               ulx="1112.768625"
+               uly="373.463345"
+               lrx="1122.803616"
+               lry="391.99083900000005"
+               points="1122.803616,373.69223 1113.29124,373.463345 1112.768625,391.76195400000006 1122.281,391.99083900000005 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_3 #m_IF #t_P">
+            <ab>IN MEMORY OF</ab>
+            <ab>IANE ELIZABETH</ab>
+            <ab>WIFE OF</ab>
+            <ab>IOHN KNIGHT</ab>
+            <ab>DAVGHTER OF</ab>
+            <ab>GEORGE LORD HEADLEY</ab>
+            <ab>BORN IVLY VIII MDCCLXXXVII</ab>
+            <ab>DIED AT FRASCATI</ab>
+            <ab>IVLY XVIII MDCCCXLI</ab>
+         </div>
+      </body>
   </text>
 </TEI>

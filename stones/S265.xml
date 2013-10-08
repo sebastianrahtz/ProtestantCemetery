@@ -1,92 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S265.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S265.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 265</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S265">
-          <msIdentifier>
-            <idno>S265</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1726</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="HEAD">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>161</height>
-                    <depth>28</depth>
-                    <width>88</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_121 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_132 #st_B #f_S"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>19</age>
-            <sex>2</sex>
-            <persName>
-              <forename>Emily Anna</forename>
-              <surname>Plunket</surname>
-            </persName>
-            <birth when="1823-09-13">
-              <placeName>
-                <settlement>Dublin</settlement>
-                <country>Ireland</country>
-              </placeName>
-            </birth>
-            <death when="1843-04-22"/>
-            <nationality key="IE"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 265</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S265">
+               <msIdentifier>
+                  <idno>S265</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1726</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="HEAD">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>161</height>
+                              <depth>28</depth>
+                              <width>88</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_121 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_132 #st_B #f_S"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>19</age>
+                  <sex>2</sex>
+                  <persName>
+                     <forename>Emily Anna</forename>
+                     <surname>Plunket</surname>
+                  </persName>
+                  <birth when="1823-09-13">
+                     <placeName>
+                        <settlement>Dublin</settlement>
+                        <country>Ireland</country>
+                     </placeName>
+                  </birth>
+                  <death when="1843-04-22"/>
+                  <nationality key="IE"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
-        <ab>SACRED</ab>
-        <ab>TO THE MEMORY OF</ab>
-        <ab>EMILY ANNA PLUNKET</ab>
-        <ab>SECOND DAUGHTER OF THOMAS</ab>
-        <ab>LORD BISHOP OF TUAM</ab>
-        <ab>AND LOUISA IANE HIS WIFE</ab>
-        <ab>BORN IN DUBLIN 13th SEP.re 1823</ab>
-        <ab>DIED AT ROME 22nd APRIL 1843</ab>
-        <ab>AGED 19 YEARS</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S265"
+               ulx="1190.086957"
+               uly="407.790265"
+               lrx="1197.623598"
+               lry="412.80185300000005"
+               points="1197.623598,407.968264 1190.225064,407.790265 1190.086957,412.62385400000005 1197.48549,412.80185300000005 ">
+            <graphic url="film:_H/26216"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_IF #t_P">
+            <ab>SACRED</ab>
+            <ab>TO THE MEMORY OF</ab>
+            <ab>EMILY ANNA PLUNKET</ab>
+            <ab>SECOND DAUGHTER OF THOMAS</ab>
+            <ab>LORD BISHOP OF TUAM</ab>
+            <ab>AND LOUISA IANE HIS WIFE</ab>
+            <ab>BORN IN DUBLIN 13th SEP.re 1823</ab>
+            <ab>DIED AT ROME 22nd APRIL 1843</ab>
+            <ab>AGED 19 YEARS</ab>
+         </div>
+      </body>
   </text>
 </TEI>

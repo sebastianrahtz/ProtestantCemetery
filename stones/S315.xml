@@ -1,89 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S315.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S315.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 315</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S315">
-          <msIdentifier>
-            <idno>S315</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">1699</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="PED">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>225</height>
-                    <depth>71</depth>
-                    <width>73</width>
-                  </dimensions>
-                </extent>
-                <condition>excellent</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_109 #st_B #f_X"/>
-              </decoNote>
-              <decoNote type="faces">south side</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>15</age>
-            <sex>1</sex>
-            <persName>
-              <forename>George Francis</forename>
-              <surname>Parker</surname>
-            </persName>
-            <birth when="1829">
-              <placeName>
-                <settlement>Troy. N.Y</settlement>
-                <country>USA</country>
-              </placeName>
-            </birth>
-            <death when="1844-12-20"/>
-            <nationality key="US"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 315</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S315">
+               <msIdentifier>
+                  <idno>S315</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">1699</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="PED">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>225</height>
+                              <depth>71</depth>
+                              <width>73</width>
+                           </dimensions>
+                        </extent>
+                        <condition>excellent</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_109 #st_B #f_X"/>
+                     </decoNote>
+                     <decoNote type="faces">south side</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>15</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>George Francis</forename>
+                     <surname>Parker</surname>
+                  </persName>
+                  <birth when="1829">
+                     <placeName>
+                        <settlement>Troy. N.Y</settlement>
+                        <country>USA</country>
+                     </placeName>
+                  </birth>
+                  <death when="1844-12-20"/>
+                  <nationality key="US"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
-        <ab>GEORGE FRANCIS PARKER.</ab>
-        <ab>SON OF</ab>
-        <ab>CHARLES PARKER.ESQ.</ab>
-        <ab>BORN AT</ab>
-        <ab>TROY.N.Y.</ab>
-        <ab>UNITED STATES OF AMERICA.</ab>
-        <ab>DIED AT</ab>
-        <ab>ROME</ab>
-        <ab>DEC.20.1844.</ab>
-        <ab>AET 15.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S315"
+               ulx="1135.413099"
+               uly="464.875774"
+               lrx="1151.918085"
+               lry="488.044072"
+               points="1151.918085,465.257112 1136.064011,464.875774 1135.413099,487.662735 1151.267173,488.044072 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_S #c_2 #m_I #t_P">
+            <ab>GEORGE FRANCIS PARKER.</ab>
+            <ab>SON OF</ab>
+            <ab>CHARLES PARKER.ESQ.</ab>
+            <ab>BORN AT</ab>
+            <ab>TROY.N.Y.</ab>
+            <ab>UNITED STATES OF AMERICA.</ab>
+            <ab>DIED AT</ab>
+            <ab>ROME</ab>
+            <ab>DEC.20.1844.</ab>
+            <ab>AET 15.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

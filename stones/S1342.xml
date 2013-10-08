@@ -1,101 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S1342.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S1342.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 1342</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S1342">
-          <msIdentifier>
-            <idno>S1342</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Prima</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="tomb">712</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>2</num>
-                  <dimensions unit="cm">
-                    <height>100</height>
-                    <depth>10</depth>
-                    <width>60</width>
-                  </dimensions>
-                </extent>
-                <condition>good</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="feature">
-                <num>1</num>
-                <ptr target="#i_124 #st_A #f_T"/>
-              </decoNote>
-              <decoNote type="faces"/>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <sex>1</sex>
-            <persName>
-              <forename>Pietro</forename>
-              <surname>Scharoff</surname>
-            </persName>
-            <death when="1969"/>
-            <nationality key="IT"/>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 1342</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S1342">
+               <msIdentifier>
+                  <idno>S1342</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Prima</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="tomb">712</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>2</num>
+                           <dimensions unit="cm">
+                              <height>100</height>
+                              <depth>10</depth>
+                              <width>60</width>
+                           </dimensions>
+                        </extent>
+                        <condition>good</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="feature">
+                        <num>1</num>
+                        <ptr target="#i_124 #st_A #f_T"/>
+                     </decoNote>
+                     <decoNote type="faces"/>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>Pietro</forename>
+                     <surname>Scharoff</surname>
+                  </persName>
+                  <death when="1969"/>
+                  <nationality key="IT"/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IC #t_P">
-        <ab>IL GRANDE CUORE</ab>
-        <ab>DELL' ATTORE E REGISTA</ab>
-        <ab>PIETRO SCHAROFF</ab>
-        <ab>NATO A PERM IL 12.V.1886,</ab>
-        <ab>INSIGNITO DELL' ORDINE</ab>
-        <ab>ORANGE - NASSAU DALLA</ab>
-        <ab>REGINA GIULIANA D'OLANDA</ab>
-        <ab>SI E` FERMATO A ROMA IL 18.IV.1969</ab>
-        <ab/>
-        <ab xml:lang="ru">BOLSЬOE SERDCE ARTISTA I REZЬISSERA</ab>
-        <ab xml:lang="ru">PETRA FEDOROVICЬA SЬAROVA</ab>
-        <ab xml:lang="ru">PERESTALO BITЬS' V RIME 18.IV.1969</ab>
-        <ab xml:lang="ru">ON RODILS' V. G.PERMI 12.V.1886.</ab>
-        <ab xml:lang="ru">BOIL NAGRAZ`DEN ORDENOM</ab>
-        <ab xml:lang="ru">ORANZЬ NASSAU</ab>
-        <ab xml:lang="ru">GOLLANDSKOJ KORLOEVOJ JULIANOJ</ab>
-      </div>
-      <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IC #t_PC">
-        <ab>QUESTA SCULTURA DI MARI ANDRIESSEN.</ab>
-        <ab>OFFERTA DAI SUOI CARI AMICI E ALLIEVI</ab>
-        <ab>RAPPRESENTA L'ULTIMA SCENA</ab>
-        <ab>DELLE TRE SORELLE DE TCHEKOFF,</ab>
-        <ab>L'AUTORE PREFERITO DI SCHAROFF</ab>
-        <ab/>
-        <ab xml:lang="ru">ETA SKULPTURA RABOTA MARI ANDRISSEN</ab>
-        <ab xml:lang="ru">POSTAVLENA EGO BLIZKIMI DRUZ'MI</ab>
-        <ab xml:lang="ru">I UC`ENIKAMI IZOBRAZЬAET POSLEDNJUJU SCENU</ab>
-        <ab xml:lang="ru">IZ ЪTRECH SESTERЪ CЬECHOVA,</ab>
-        <ab xml:lang="ru">EGO LJVIMAGO AVTORA.</ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S1342"
+               ulx="1863.637016"
+               uly="646.1133140000001"
+               lrx="1871.324276"
+               lry="651.761097"
+               points="1865.048962,653.486809 1869.91233,653.486809 1869.91233,663.056663 1865.048962,663.056663 1863.637016,646.1133140000001 1871.324276,646.1133140000001 1871.324276,651.761097 1863.637016,651.761097 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="it" decls="#f_T #c_2 #m_IC #t_P">
+            <ab>IL GRANDE CUORE</ab>
+            <ab>DELL' ATTORE E REGISTA</ab>
+            <ab>PIETRO SCHAROFF</ab>
+            <ab>NATO A PERM IL 12.V.1886,</ab>
+            <ab>INSIGNITO DELL' ORDINE</ab>
+            <ab>ORANGE - NASSAU DALLA</ab>
+            <ab>REGINA GIULIANA D'OLANDA</ab>
+            <ab>SI E` FERMATO A ROMA IL 18.IV.1969</ab>
+            <ab/>
+            <ab xml:lang="ru">BOLSЬOE SERDCE ARTISTA I REZЬISSERA</ab>
+            <ab xml:lang="ru">PETRA FEDOROVICЬA SЬAROVA</ab>
+            <ab xml:lang="ru">PERESTALO BITЬS' V RIME 18.IV.1969</ab>
+            <ab xml:lang="ru">ON RODILS' V. G.PERMI 12.V.1886.</ab>
+            <ab xml:lang="ru">BOIL NAGRAZ`DEN ORDENOM</ab>
+            <ab xml:lang="ru">ORANZЬ NASSAU</ab>
+            <ab xml:lang="ru">GOLLANDSKOJ KORLOEVOJ JULIANOJ</ab>
+         </div>
+         <div type="inscription" xml:lang="it" decls="#f_S #c_2 #m_IC #t_PC">
+            <ab>QUESTA SCULTURA DI MARI ANDRIESSEN.</ab>
+            <ab>OFFERTA DAI SUOI CARI AMICI E ALLIEVI</ab>
+            <ab>RAPPRESENTA L'ULTIMA SCENA</ab>
+            <ab>DELLE TRE SORELLE DE TCHEKOFF,</ab>
+            <ab>L'AUTORE PREFERITO DI SCHAROFF</ab>
+            <ab/>
+            <ab xml:lang="ru">ETA SKULPTURA RABOTA MARI ANDRISSEN</ab>
+            <ab xml:lang="ru">POSTAVLENA EGO BLIZKIMI DRUZ'MI</ab>
+            <ab xml:lang="ru">I UC`ENIKAMI IZOBRAZЬAET POSLEDNJUJU SCENU</ab>
+            <ab xml:lang="ru">IZ ЪTRECH SESTERЪ CЬECHOVA,</ab>
+            <ab xml:lang="ru">EGO LJVIMAGO AVTORA.</ab>
+         </div>
+      </body>
   </text>
 </TEI>

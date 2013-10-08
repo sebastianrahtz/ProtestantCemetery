@@ -1,81 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="stones/S129.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:base="stones/S129.xml">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Protestant Cemetery, Rome: Stone 129</title>
-      </titleStmt>
-      <publicationStmt>
-        <p>Unpublished. Not to be reproduced</p>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc facs="#Plot_S129">
-          <msIdentifier>
-            <idno>S129</idno>
-            <altIdentifier>
-              <idno type="zone">Zona Vecchia</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc form="LEDG">
-              <supportDesc>
-                <support>
-                  <material>stone</material>
-                </support>
-                <extent>
-                  <num>1</num>
-                  <dimensions unit="cm">
-                    <height>83</height>
-                    <width>70</width>
-                  </dimensions>
-                </extent>
-                <condition>bad</condition>
-              </supportDesc>
-            </objectDesc>
-            <decoDesc>
-              <decoNote type="faces">top</decoNote>
-            </decoDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <age>27</age>
-            <sex>1</sex>
-            <persName>
-              <forename>William</forename>
-              <surname>Harris</surname>
-            </persName>
-            <death when="1823-07-16">
-              <placeName>
-                <settlement>Palermo</settlement>
-                <country>Italy</country>
-              </placeName>
-            </death>
-            <nationality key="UK"/>
-            <occupation>Architect</occupation>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Protestant Cemetery, Rome: Stone 129</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished. Not to be reproduced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc facs="#Plot_S129">
+               <msIdentifier>
+                  <idno>S129</idno>
+                  <altIdentifier>
+                     <idno type="zone">Zona Vecchia</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="LEDG">
+                     <supportDesc>
+                        <support>
+                           <material>stone</material>
+                        </support>
+                        <extent>
+                           <num>1</num>
+                           <dimensions unit="cm">
+                              <height>83</height>
+                              <width>70</width>
+                           </dimensions>
+                        </extent>
+                        <condition>bad</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="faces">top</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <age>27</age>
+                  <sex>1</sex>
+                  <persName>
+                     <forename>William</forename>
+                     <surname>Harris</surname>
+                  </persName>
+                  <death when="1823-07-16">
+                     <placeName>
+                        <settlement>Palermo</settlement>
+                        <country>Italy</country>
+                     </placeName>
+                  </death>
+                  <nationality key="UK"/>
+                  <occupation>Architect</occupation>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
   </teiHeader>
-  <text>
-    <body>
-      <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_I #t_P">
-        <ab>TO THE MEMORY</ab>
-        <ab>OF WILLIAM HARRIS</ab>
-        <ab>OF LONDON ARCHITECT</ab>
-        <ab>WHO DIED AT PALERMO THE 16 JULY 1823</ab>
-        <ab>AGED 27 YEARS</ab>
-        <ab>HIS ARDOUR IN THE STUDY</ab>
-        <ab>[.............]</ab>
-        <ab rend="Alignl">
-          <note> a considerable quantity is unreadable here</note>
-        </ab>
-      </div>
-    </body>
+  <facsimile>
+      <surface ulx="0" uly="88.158275" lrx="3200" lry="1188.158275">
+         <zone xml:id="Plot_S129"
+               ulx="1186.748806"
+               uly="273.661613"
+               lrx="1194.051348"
+               lry="282.80773"
+               points="1194.051348,273.831235 1187.005208,273.661613 1186.748806,282.63829899999996 1193.794929,282.80773 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="inscription" xml:lang="en" decls="#f_T #c_4 #m_I #t_P">
+            <ab>TO THE MEMORY</ab>
+            <ab>OF WILLIAM HARRIS</ab>
+            <ab>OF LONDON ARCHITECT</ab>
+            <ab>WHO DIED AT PALERMO THE 16 JULY 1823</ab>
+            <ab>AGED 27 YEARS</ab>
+            <ab>HIS ARDOUR IN THE STUDY</ab>
+            <ab>[.............]</ab>
+            <ab rend="Alignl">
+               <note> a considerable quantity is unreadable here</note>
+            </ab>
+         </div>
+      </body>
   </text>
 </TEI>
