@@ -11,7 +11,7 @@
   <xsl:template match="/">
     <xsl:message>persons</xsl:message>
     <xsl:result-document href="person.txt" method="text">
-<xsl:text>"person","age","sex","nationality","forename","surname","occupation","stone"&#10;</xsl:text>
+<xsl:text>"person","age","sex","birth","death","nationality","forename","surname","occupation","stone"&#10;</xsl:text>
       <xsl:for-each select="//person">
         <xsl:variable name="s" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
         <xsl:variable name="n" select="nationality/@key"/>
@@ -19,7 +19,9 @@
 	<xsl:sequence select="tei:field($id,false())"/>
 	<xsl:sequence select="tei:field(age,false())"/>
 	<xsl:sequence select="tei:field(sex,false())"/>
-	<xsl:sequence select="tei:field($n,false())"/>
+	<xsl:sequence select="tei:field(birth/@when,true())"/>
+	<xsl:sequence select="tei:field(death/@when,true())"/>
+	<xsl:sequence select="tei:field($n,true())"/>
 	<xsl:sequence select="tei:field(persName/forename,true())"/>
 	<xsl:sequence select="tei:field(persName/surname,true())"/>
 	<xsl:sequence select="tei:field(occupation,true())"/>

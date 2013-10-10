@@ -3,6 +3,9 @@ all:	web
 web: cemall.xml
 	teitohtml --profile=pc --profiledir=`pwd`/profiles cemall.xml index.html
 
+csv:
+	saxon cemall.xml pctocsv.xsl 
+
 epub: cemall.xml
 	teitoepub3 --coverimage=`pwd`/profiles/pc/epub3/cover.jpg --profiledir=`pwd`/profiles --profile=pc cemall.xml cem.epub
 
