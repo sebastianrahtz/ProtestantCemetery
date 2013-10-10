@@ -10,7 +10,7 @@
 
   <xsl:template match="/">
     <xsl:message>persons</xsl:message>
-    <xsl:result-document href="person.txt" method="text">
+    <xsl:result-document href="person.csv" method="text">
 <xsl:text>"person","age","sex","birth","death","nationality","forename","surname","occupation","stone"&#10;</xsl:text>
       <xsl:for-each select="//person">
         <xsl:variable name="s" select="ancestor::TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
@@ -31,7 +31,7 @@
       </xsl:for-each>
     </xsl:result-document>
     <xsl:message>stones</xsl:message>
-    <xsl:result-document href="stones.txt" method="text">
+    <xsl:result-document href="stones.csv" method="text">
       <xsl:text>"stone","zone","tomb","form","material","ulx","uly","lrx","lry","condition"&#10;</xsl:text>
       <xsl:for-each select="//TEI">
         <xsl:sequence select="tei:field(teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno,true())"/>
@@ -49,7 +49,7 @@
       </xsl:for-each>
     </xsl:result-document>
     <xsl:message>inscrips</xsl:message>
-    <xsl:result-document href="inscrips.txt" method="text">
+    <xsl:result-document href="inscrips.csv" method="text">
       <xsl:text>"inscrip","condition","method","stone"&#10;</xsl:text>
       <xsl:for-each select="//div[@type='inscription']">
 	<xsl:number level="any"/>
@@ -73,7 +73,7 @@
       </xsl:for-each>
     </xsl:result-document>
     <xsl:message>lines</xsl:message>
-    <xsl:result-document href="lines.txt" method="text">
+    <xsl:result-document href="lines.csv" method="text">
       <xsl:text>"inscrip","line","text"&#10;</xsl:text>
       <xsl:for-each select="//div[@type='inscription']/ab">
 	<xsl:for-each select="parent::div">
