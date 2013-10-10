@@ -33,7 +33,7 @@
     <xsl:message>stones</xsl:message>
     <xsl:result-document href="stones.csv" method="text">
       <xsl:text>"stone","zone","tomb","form","material","ulx","uly","lrx","lry","condition"&#10;</xsl:text>
-      <xsl:for-each select="//TEI">
+      <xsl:for-each select="//TEI[not(@type='doc')]">
         <xsl:sequence select="tei:field(teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno,true())"/>
         <xsl:sequence select="tei:field(teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='zone'],true())"/>
         <xsl:sequence select="tei:field(teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='tomb'],false())"/>
