@@ -17,6 +17,37 @@
     <xsl:call-template name="pcCorpus"/>
   </xsl:template>
   <xsl:template name="pcCorpus">
+<xsl:result-document href="photos.html">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <xsl:call-template name="addLangAtt"/>
+      <head>
+        <title>
+          <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title/text()"/>
+        </title>
+        <xsl:call-template name="includeCSS"/>
+        <xsl:call-template name="make-javascript"/>
+      </head>
+      <body>
+        <xsl:call-template name="bodyHook"/>
+        <xsl:call-template name="bodyJavascriptHook"/>
+        <xsl:call-template name="stdheader">
+          <xsl:with-param name="title">
+            <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
+          </xsl:with-param>
+        </xsl:call-template>
+        <section>
+	  <h1>Miscellaneous photographs</h1>
+	  <xsl:for-each select="/teiCorpus/facsimile/surface/graphic">
+	    <span><xsl:value-of select="substring(@url,13,4)"/>:
+	    <xsl:value-of select="desc"/></span>
+	    <img src="{@url}" height="300"/><br/>
+	  </xsl:for-each>
+	</section>
+        <xsl:call-template name="stdfooter"/>
+
+      </body>
+    </html>
+</xsl:result-document>
     <html xmlns="http://www.w3.org/1999/xhtml">
       <xsl:call-template name="addLangAtt"/>
       <head>
@@ -501,6 +532,9 @@ $(document).ready(function() {
       </span>
       <span class="toc">
         <a href="index.html">Catalogue and map</a>
+      </span>
+      <span class="toc">
+        <a href="photos.html">Miscellaneous photographs</a>
       </span>
     </nav>
   </xsl:template>
