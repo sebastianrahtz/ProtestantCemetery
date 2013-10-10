@@ -6,11 +6,13 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="text" indent="yes"/>
-      <xsl:variable name="top" select="/"/>
+  <xsl:variable name="top" select="/"/>
+  <xsl:variable name="inq">"</xsl:variable>
+  <xsl:variable name="outq">\\"</xsl:variable>
 
   <xsl:template match="/">
     <xsl:message>stones</xsl:message>
-    <xsl:text>{ "stones" : </xsl:text>
+    <xsl:text>{ "stones" : [ </xsl:text>
       <xsl:for-each select="//TEI[not(@type='doc')]">
 	<xsl:text>{</xsl:text>
         <xsl:sequence
@@ -50,7 +52,7 @@
 	</xsl:if>
 	<xsl:text>&#10;</xsl:text>	
       </xsl:for-each>
-      }
+      ]}
     <xsl:message>inscrips</xsl:message>
     <xsl:result-document href="inscrips.csv" method="text">
       <xsl:text>"inscrip","condition","method","stone"&#10;</xsl:text>
@@ -99,7 +101,7 @@
     <xsl:text>"</xsl:text>
     <xsl:value-of select="$label"/>
     <xsl:text>": "</xsl:text>
-    <xsl:value-of select="$data"/>
+    <xsl:value-of select="replace(normalize-space($data),$inq,$outq)"/>
     <xsl:text>",</xsl:text>
   </xsl:function>
   <xsl:function name="tei:finalfield">
@@ -108,7 +110,7 @@
     <xsl:text>"</xsl:text>
     <xsl:value-of select="$label"/>
     <xsl:text>": "</xsl:text>
-    <xsl:value-of select="$data"/>
+    <xsl:value-of select="replace(normalize-space($data),$inq,$outq)"/>
     <xsl:text>"</xsl:text>
   </xsl:function>
 </xsl:stylesheet>
