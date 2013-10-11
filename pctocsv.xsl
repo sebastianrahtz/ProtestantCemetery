@@ -5,8 +5,10 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output method="xml" indent="yes"/>
+  <xsl:output method="text" indent="yes"/>
       <xsl:variable name="top" select="/"/>
+  <xsl:variable name="inq">"</xsl:variable>
+  <xsl:variable name="outq">""</xsl:variable>
 
   <xsl:template match="/">
     <xsl:message>persons</xsl:message>
@@ -82,7 +84,7 @@
 	<xsl:text>,</xsl:text>
 	<xsl:number/>
 	<xsl:text>,"</xsl:text>
-	<xsl:value-of select="normalize-space(.)"/>
+	<xsl:value-of select="replace(normalize-space(.),$inq,$outq)"/>
 	<xsl:text>"&#10;</xsl:text>
       </xsl:for-each>
     </xsl:result-document>
@@ -92,7 +94,7 @@
     <xsl:param name="data"/>
     <xsl:param name="text"/>
     <xsl:if test="$text">"</xsl:if>
-    <xsl:value-of select="$data"/>
+    <xsl:value-of select="replace(normalize-space($data),$inq,$outq)"/>
     <xsl:if test="$text">"</xsl:if>
     <xsl:text>,</xsl:text>
   </xsl:function>
