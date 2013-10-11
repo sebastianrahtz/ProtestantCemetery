@@ -15,7 +15,7 @@
 <table>
 <thead>
 <tr>
-  <th>Stone</th><th>Surname</th><th>Year</th><th>Tomb</th></tr>
+  <th>Stone</th><th>Surname</th><th>Forename</th><th>Year</th><th>Tomb</th></tr>
 </thead>
 <tbody>
 <xsl:for-each select=".//person" >
@@ -33,6 +33,9 @@
 </td>
 <td>
   <xsl:value-of select="$name"/>
+</td>
+<td>
+  <xsl:value-of select="persName/forename"/>
 </td>
 <td>
   <xsl:value-of select="$year"/>
