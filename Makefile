@@ -6,6 +6,9 @@ web: cemall.xml
 csv:
 	saxon cemall.xml pctocsv.xsl 
 
+json:
+	saxon -o:pc.json cemall.xml pctojson.xsl 
+
 epub: cemall.xml
 	teitoepub3 --coverimage=`pwd`/profiles/pc/epub3/cover.jpg --profiledir=`pwd`/profiles --profile=pc cemall.xml cem.epub
 
