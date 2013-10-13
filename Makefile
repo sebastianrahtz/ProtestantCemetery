@@ -3,10 +3,10 @@ all:	web
 web: cemall.xml
 	teitohtml --profile=pc --profiledir=`pwd`/profiles cemall.xml index.html
 
-csv:
+csv: cemall.xml
 	saxon cemall.xml pctocsv.xsl 
 
-json:
+json: cemall.xml
 	saxon -o:pc.json cemall.xml pctojson.xsl 
 
 epub: cemall.xml
