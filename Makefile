@@ -11,6 +11,7 @@ json: cemall.xml
 
 geojson: cemall.xml
 	saxon -o:pc.geojson cemall.xml pctogeojson.xsl 
+	python -mjson.tool pc.geojson	
 
 epub: cemall.xml
 	teitoepub3 --coverimage=`pwd`/profiles/pc/epub3/cover.jpg --profiledir=`pwd`/profiles --profile=pc cemall.xml cem.epub
