@@ -39,16 +39,18 @@ $(document).ready(function() {
 
 
 var CurrentStone="S1";
+var CurrentStroke="black";
 
 function colourstone(one) {
     var g = $('#' + CurrentStone);
     var p = g.children('polygon');
-    p.css('fill','#F5FCFF');
+    p.css('stroke',CurrentStroke);
     CurrentStone = one ;
     g = $('#' + CurrentStone);
     p = g.children('polygon');
+    CurrentStroke = p.css('stroke');
     var r= g.children('text')[0];
-    p.css('fill','red');	
+    p.css('stroke','red');	
     var c=$("#locatorcircle")[0];
     c.setAttribute("cx",r.getAttribute("x"));
     c.setAttribute("cy",r.getAttribute("y"));

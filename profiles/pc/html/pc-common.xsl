@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xmlns:xi="http://www.w3.org/2001/XInclude"
 		xmlns:tei="http://www.tei-c.org/ns/1.0"
 		xmlns:svg="http://www.w3.org/2000/svg"
@@ -17,6 +18,7 @@
     <xsl:call-template name="pcCorpus"/>
   </xsl:template>
   <xsl:template name="pcCorpus">
+
 <xsl:result-document href="photos.html">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <xsl:call-template name="addLangAtt"/>
@@ -289,6 +291,12 @@ $(document).ready(function() {
                   <text x="{@ulx -2}" y="{@uly -2}"><xsl:value-of select="$id"/></text>
                   <polygon xmlns="http://www.w3.org/2000/svg"
 			   class="{if            ($c!='' or graphic[starts-with(@url,'pictures')])            then            'gstone withpic'            else            'gstone'}">
+		    <xsl:attribute name="style">
+		      <xsl:text>fill:</xsl:text>
+		      <xsl:sequence
+			  select="tei:year-to-color(substring(ancestor::TEI/teiHeader//person[1]/death/@when,1,3))"/>
+		      <xsl:text>;</xsl:text>
+		    </xsl:attribute>
                     <xsl:copy-of select="@points"/>
                   </polygon>
                 </g>
@@ -548,6 +556,34 @@ $(document).ready(function() {
       </div>
     </xsl:if>
   </xsl:template>
+
   <xsl:template name="includeJavascript"/>
   <xsl:template name="javascriptHook"/>
+
+  <xsl:function name="tei:year-to-color" as="xs:string">
+    <xsl:param  name="year" as="xs:string"/>
+    <xsl:variable name="decade" select="$year"/>
+    <xsl:variable name="r">
+    <xsl:text>#</xsl:text>
+    <xsl:for-each
+	select="doc('../../../colorsrgb.xml')/id(concat('decade_',$decade))">
+      <xsl:for-each select="tokenize(.,',')">
+	<xsl:value-of select="tei:int-to-hex(number(.))"/>
+      </xsl:for-each>
+    </xsl:for-each>
+    </xsl:variable>
+    <xsl:value-of select="if ($r='') then '000000' else $r"/>
+  </xsl:function>
+<xsl:function name="tei:int-to-hex" as="xs:string">
+  <xsl:param name="in" as="xs:double"/>
+  <xsl:sequence
+      select="if ($in eq 0)
+	      then '00'
+	      else
+	      concat(if ($in gt 16)
+	      then tei:int-to-hex($in idiv 16)
+	      else '',
+	      substring('0123456789ABCDEF',
+	      ($in mod 16) + 1, 1))"/>
+</xsl:function>
 </xsl:stylesheet>
