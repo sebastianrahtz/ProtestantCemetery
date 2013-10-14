@@ -18,8 +18,9 @@
   <xsl:template name="makeCSV">
     <xsl:variable name="geo">
     <geo xmlns="http://www.tei-c.org/ns/1.0">
+<!--http://ckan.it.ox.ac.uk/storage/f/2013-10-12T16%3A33%3A29.506Z/countries-geojson.csv-->
       <xsl:for-each
-	  select="tokenize(unparsed-text('http://ckan.it.ox.ac.uk/storage/f/2013-10-11T17%3A48%3A51.830Z/countries-geojson.csv','utf-8'),  '&#xa;')">
+	  select="tokenize(unparsed-text('countries-geojson.csv','utf-8'),  '&#xa;')">
       <xsl:analyze-string select="." regex="([^,]+),([^,]+),([^,]+),(.*)">
 	<xsl:matching-substring>
 	  <country xml:id="{regex-group(2)}">
