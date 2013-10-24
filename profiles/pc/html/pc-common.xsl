@@ -11,6 +11,7 @@
 		version="2.0">
   <xsl:variable name="good">\\"</xsl:variable>
   <xsl:variable name="bad">"</xsl:variable>
+  <xsl:param name="JS">http://tei.oucs.ox.ac.uk/pc/</xsl:param>
   <xsl:template match="teiCorpus">
     <xsl:call-template name="pcCorpus"/>
   </xsl:template>
@@ -83,22 +84,22 @@
     <xsl:apply-templates select="TEI[not(@type='doc')]"/>
   </xsl:template>
   <xsl:template name="make-javascript">
-    <script src="jquery-1.10.2.min.js" type="text/javascript">
+    <script src="{$JS}jquery-1.10.2.min.js" type="text/javascript">
       <xsl:comment>brk</xsl:comment>
     </script>
-    <script src="jquery-ui-1.10.3.custom.js" type="text/javascript">
+    <script src="{$JS}jquery-ui-1.10.3.custom.js" type="text/javascript">
       <xsl:comment>brk</xsl:comment>
     </script>
-    <script src="jquery.dataTables.min.js" type="text/javascript">
+    <script src="{$JS}jquery.dataTables.min.js" type="text/javascript">
       <xsl:comment>brk</xsl:comment>
     </script>
-    <script src="jquery.panzoom.min.js" type="text/javascript">
+    <script src="{$JS}jquery.panzoom.min.js" type="text/javascript">
       <xsl:comment>brk</xsl:comment>
     </script>
-    <script src="jquery.svg.min.js" type="text/javascript">
+    <script src="{$JS}jquery.svg.min.js" type="text/javascript">
       <xsl:comment>brk</xsl:comment>
     </script>
-    <script type="text/javascript" src="cem.js">
+    <script type="text/javascript" src="{$JS}cem.js">
       <xsl:comment>brk</xsl:comment>
     </script>
   </xsl:template>

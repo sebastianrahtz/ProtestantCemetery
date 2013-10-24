@@ -3,9 +3,9 @@
   <xsl:import href="/usr/share/xml/tei/stylesheet/html5/html5.xsl"/>
   <xsl:import href="pc-common.xsl"/>
   <xsl:param name="cellAlign">center</xsl:param>
-  <xsl:param name="cssFile">cem.css</xsl:param>
+  <xsl:param name="cssFile"><xsl:value-of select="$JS"/>cem.css</xsl:param>
   <xsl:param name="cssPrintFile"/>
-  <xsl:param name="cssSecondaryFile">jquery-ui-1.10.3.custom.css</xsl:param>
+  <xsl:param name="cssSecondaryFile"><xsl:value-of select="$JS"/>jquery-ui-1.10.3.custom.css</xsl:param>
   <xsl:param name="institution"/>
   <xsl:param name="department"/>
   <xsl:param name="parentURL">index.html</xsl:param>
