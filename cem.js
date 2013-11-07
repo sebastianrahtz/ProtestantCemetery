@@ -1,3 +1,30 @@
+/* Custom filtering function which will filter data in column four between two values */
+$.fn.dataTableExt.afnFiltering.push(
+    function( oSettings, aData, iDataIndex ) {
+	var minYear = document.getElementById('min').value * 1;
+	var maxYear = document.getElementById('max').value * 1;
+	var deathYear = aData[4];
+	if ( minYear == "" && maxYear == "" )
+	{
+	    return true;
+	}
+	else if ( minYear == "" && deathYear < maxYear )
+	{
+	    return true;
+	}
+	else if ( minYear < deathYear && "" == maxYear )
+	{
+	    return true;
+	}
+	else if ( minYear < deathYear && deathYear < maxYear )
+	{
+	    return true;
+	}
+	return false;
+	}
+);
+
+
 $(document).ready(function() {
     var $section = $('.buttons');
     var $panzoom = $('#ProtestantCemetery').panzoom({
