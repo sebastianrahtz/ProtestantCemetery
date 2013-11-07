@@ -104,16 +104,9 @@
   </xsl:template>
   <xsl:template name="make-display">
    <div class="maindisplay">
-     <table border="0" cellspacing="5" cellpadding="5">
-       <tr>
-	 <td>Earliest date:</td>
-	 <td><input type="text" id="min" name="min"/></td>
-       </tr>
-       <tr>
-	 <td>Latest date:</td>
-	 <td><input type="text" id="max" name="max"/></td>
-       </tr>
-     </table>
+       <p>Earliest date: <input type="text" id="min" name="min"/>
+       Latest date: <input type="text" id="max" name="max"/>
+       </p>
      <table class="stones" id="stones">
        <xsl:comment>comment</xsl:comment>
      </table>
