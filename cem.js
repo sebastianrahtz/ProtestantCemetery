@@ -3,20 +3,21 @@ $.fn.dataTableExt.afnFiltering.push(
     function( oSettings, aData, iDataIndex ) {
 	var minYear = document.getElementById('min').value * 1;
 	var maxYear = document.getElementById('max').value * 1;
-	var deathYear = aData[4];
+	var deathDate = aData[4];
+	var deathYear= deathDate.substring(0,4);
 	if ( minYear == "" && maxYear == "" )
 	{
 	    return true;
 	}
-	else if ( minYear == "" && deathYear < maxYear )
+	else if ( minYear == "" && deathYear <= maxYear )
 	{
 	    return true;
 	}
-	else if ( minYear < deathYear && "" == maxYear )
+	else if ( minYear <= deathYear && "" == maxYear )
 	{
 	    return true;
 	}
-	else if ( minYear < deathYear && deathYear < maxYear )
+	else if ( minYear <= deathYear && deathYear <= maxYear )
 	{
 	    return true;
 	}
