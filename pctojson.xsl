@@ -58,8 +58,8 @@
           <xsl:sequence select="tei:json('occupation',tei:String(occupation),true())"/>
           <xsl:choose>
             <xsl:when test="not($geo/id($n))">
-              <xsl:sequence select="tei:json('lat',0.0,true())"/>
-              <xsl:sequence select="tei:json('long',0.0,true())"/>
+              <xsl:sequence select="tei:json('lat',0.0,false())"/>
+              <xsl:sequence select="tei:json('long',0.0,false())"/>
             </xsl:when>
             <xsl:otherwise>
               <xsl:for-each select="$geo/id($n)">
