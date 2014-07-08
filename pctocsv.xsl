@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+  <xsl:import href="/usr/share/xml/tei/stylesheet/common/jsonlib.xsl"/>
   <xsl:output method="xml" indent="yes"/>
   <xsl:variable name="top" select="/"/>
   <xsl:variable name="inq">"</xsl:variable>
@@ -75,6 +76,8 @@
 </xsl:text>
       </xsl:for-each>
     </xsl:result-document>
+
+
     <xsl:message>stones</xsl:message>
     <xsl:result-document href="stones.csv" method="text">
       <xsl:text>"stone","zone","tomb","form","material","ulx","uly","lrx","lry","condition"
