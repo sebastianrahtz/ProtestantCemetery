@@ -15,9 +15,28 @@
     <xsl:variable name="geo">      
       <xsl:for-each
 	    select="doc('cow.xml')//row[position()&gt;1]">
-	  <geo xmlns="http://www.tei-c.org/ns/1.0" xml:id="{@xml:id}"   lat="{cell[44]}"  long="{cell[45]}"/>
+	  <geo xmlns="http://www.tei-c.org/ns/1.0" xml:id="{@xml:id}"   lat="{cell[43]}"  long="{cell[44]}"/>
 	</xsl:for-each>
     </xsl:variable>
+    <xsl:result-document href="personsummary.json" method="text">
+      <xsl:variable name="all" as="xs:string+">
+	<xsl:for-each-group select="//person[not(nationality/@key='ZZ')]" group-by="nationality/@key">
+	    <xsl:variable name="p"  as="xs:string+">
+              <xsl:variable name="n" select="nationality/@key"/>
+	      <xsl:sequence select="tei:json('lat',$geo/id($n)/@lat,false())"/>
+	      <xsl:sequence select="tei:json('lon',$geo/id($n)/@long,false())"/>
+	      <xsl:sequence select="tei:json('value',count(current-group()),false())"/>
+	  </xsl:variable>
+	  <xsl:value-of select="tei:jsonObject(($p))"/>
+	</xsl:for-each-group>
+      </xsl:variable>
+
+      <xsl:value-of select="tei:jsonObject((
+			    tei:json('max',400,false()),
+			    tei:jsonArray('data',$all,false())
+			    ))"/>
+
+    </xsl:result-document>
     <xsl:message>persons as JSON</xsl:message>
     <xsl:result-document href="person.json" method="text">
       <xsl:variable name="all" as="xs:string+">
@@ -43,12 +62,9 @@
               <xsl:sequence select="tei:json('long',0.0,false())"/>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:for-each select="$geo/id($n)">
-		<xsl:sequence select="tei:json('lat',$geo/id($n)/@lat,false())"/>
-		<xsl:sequence
-		    select="tei:json('long',$geo/id($n)/@long,false())"/>
-		<xsl:message><xsl:value-of select="($geo/id($n)/@xml:id ,$geo/id($n)/@lat,$geo/id($n)/@long)"/></xsl:message>
-              </xsl:for-each>
+	      <xsl:sequence select="tei:json('lat',$geo/id($n)/@lat,false())"/>
+	      <xsl:sequence select="tei:json('long',$geo/id($n)/@long,false())"/>
+	      <xsl:message><xsl:value-of select="($geo/id($n)/@xml:id ,$geo/id($n)/@lat,$geo/id($n)/@long)"/></xsl:message>
             </xsl:otherwise>
           </xsl:choose>
           <xsl:sequence select="tei:json('stone',$s,true())"/>
@@ -74,8 +90,7 @@
 	  <xsl:sequence select="tei:fieldn(facsimile/surface/zone[1]/@ulx,'ulx')"/>
 	  <xsl:sequence select="tei:fieldn(facsimile/surface/zone[1]/@uly,'uly')"/>
 	  <xsl:sequence select="tei:fieldn(facsimile/surface/zone[1]/@lrx,'lrx')"/>
-	  <xsl:sequence
-	      select="tei:fieldn(facsimile/surface/zone[1]/@lry,'lry')"/>
+	  <xsl:sequence select="tei:fieldn(facsimile/surface/zone[1]/@lry,'lry')"/>
 	</xsl:if>
 	<xsl:sequence select="tei:field(.//condition,'condition')"/>
 	<xsl:text>"persons" : [</xsl:text>
@@ -94,11 +109,9 @@
 		<xsl:text>0.0,0.0</xsl:text>
               </xsl:when>
               <xsl:otherwise>
-              <xsl:for-each select="$geo/id($n)">
 		<xsl:value-of select="$geo/id($n)/@lat"/>
 		<xsl:text>,</xsl:text>
 		<xsl:value-of select="$geo/id($n)/@long"/>
-		</xsl:for-each>
               </xsl:otherwise>
             </xsl:choose>
 	  </xsl:variable>
