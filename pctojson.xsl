@@ -12,31 +12,12 @@
   <xsl:variable name="inq">"</xsl:variable>
   <xsl:variable name="outq">\\"</xsl:variable>
   <xsl:template match="/">
-    <xsl:variable name="geo">
-      <geo xmlns="http://www.tei-c.org/ns/1.0">
-        <!--http://ckan.it.ox.ac.uk/storage/f/2013-10-12T16%3A33%3A29.506Z/countries-geojson.csv-->
-        <xsl:for-each select="tokenize(unparsed-text('countries-geojson.csv','utf-8'),  '&#10;')">
-          <xsl:analyze-string select="." regex="([^,]+),([^,]+),([^,]+),(.*)">
-            <xsl:matching-substring>
-              <country xml:id="{regex-group(2)}">
-                <!--
-"Polygon","coordinates":[[31.5,-29.3],[31.3,-29.4],[30.9,-29.9],[30.6,-30.4],[30.1,-31.1],[28.9,-32.2],[28.2,-32.8],[27.5,-33.2],[26.4,-33.6],[25.9,-33.7],[25.8,-33.9],[25.2,-33.8],[24.7,-34],[23.6,-33.8],[23,-33.9],[22.6,-33.9],[21.5,-34.3],[20.7,-34.4],[20.1,-34.8],[19.6,-34.8],[19.2,-34.5],[18.9,-34.4],[18.4,-34],[18.4,-34.1],[18.2,-33.9],[18.3,-33.3],[17.9,-32.6],[18.2,-32.4],[18.2,-31.7],[17.6,-30.7],[17.1,-29.9],[17.1,-29.9],[16.3,-28.6],[16.8,-28.1],[17.2,-28.4],[17.4,-28.8],[17.8,-28.9],[18.5,-29],[19,-29],[19.9,-28.5],[19.9,-24.8],[20.2,-24.9],[20.8,-25.9],[20.7,-26.5],[20.9,-26.8],[21.6,-26.7],[22.1,-26.3],[22.6,-26],[22.8,-25.5],[23.3,-25.3]]
--->
-                <xsl:analyze-string select="replace(regex-group(4),$outq,$inq)" regex="\[([0-9\-\.]+),([0-9\-\.]+)\]">
-                  <xsl:matching-substring>
-                    <pos x="{regex-group(1)}" y="{regex-group(2)}"/>
-                  </xsl:matching-substring>
-                </xsl:analyze-string>
-              </country>
-            </xsl:matching-substring>
-            <xsl:non-matching-substring>
-              <xsl:message>bad <xsl:value-of select="."/>&gt;</xsl:message>
-            </xsl:non-matching-substring>
-          </xsl:analyze-string>
-        </xsl:for-each>
-      </geo>
+    <xsl:variable name="geo">      
+      <xsl:for-each
+	    select="doc('cow.xml')//row[position()&gt;1]">
+	  <geo xmlns="http://www.tei-c.org/ns/1.0" xml:id="{@xml:id}"   lat="{cell[44]}"  long="{cell[45]}"/>
+	</xsl:for-each>
     </xsl:variable>
-
     <xsl:message>persons as JSON</xsl:message>
     <xsl:result-document href="person.json" method="text">
       <xsl:variable name="all" as="xs:string+">
@@ -63,12 +44,10 @@
             </xsl:when>
             <xsl:otherwise>
               <xsl:for-each select="$geo/id($n)">
-		<xsl:variable name="maxx" select="max(.//pos/@x)"/>
-		<xsl:variable name="minx" select="min(.//pos/@x)"/>
-		<xsl:variable name="maxy" select="max(.//pos/@y)"/>
-		<xsl:variable name="miny" select="min(.//pos/@y)"/>
-		<xsl:sequence select="tei:json('lat',(number($maxy) + number($miny)) div 2,false())"/>
-		<xsl:sequence select="tei:json('long',(number($maxx) + number($minx)) div 2,false())"/>
+		<xsl:sequence select="tei:json('lat',$geo/id($n)/@lat,false())"/>
+		<xsl:sequence
+		    select="tei:json('long',$geo/id($n)/@long,false())"/>
+		<xsl:message><xsl:value-of select="($geo/id($n)/@xml:id ,$geo/id($n)/@lat,$geo/id($n)/@long)"/></xsl:message>
               </xsl:for-each>
             </xsl:otherwise>
           </xsl:choose>
@@ -91,10 +70,13 @@
         <xsl:sequence select="tei:field(teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='tomb'],'tomb')"/>
         <xsl:sequence select="tei:field(.//objectDesc/@form,'form')"/>
         <xsl:sequence select="tei:field(.//material,'material')"/>
-	<xsl:sequence select="tei:fieldn(facsimile/surface/zone[1]/@ulx,'ulx')"/>
-	<xsl:sequence select="tei:fieldn(facsimile/surface/zone[1]/@uly,'uly')"/>
-	<xsl:sequence select="tei:fieldn(facsimile/surface/zone[1]/@lrx,'lrx')"/>
-	<xsl:sequence select="tei:fieldn(facsimile/surface/zone[1]/@lry,'lry')"/>
+	<xsl:if test="facsimile/surface/zone">
+	  <xsl:sequence select="tei:fieldn(facsimile/surface/zone[1]/@ulx,'ulx')"/>
+	  <xsl:sequence select="tei:fieldn(facsimile/surface/zone[1]/@uly,'uly')"/>
+	  <xsl:sequence select="tei:fieldn(facsimile/surface/zone[1]/@lrx,'lrx')"/>
+	  <xsl:sequence
+	      select="tei:fieldn(facsimile/surface/zone[1]/@lry,'lry')"/>
+	</xsl:if>
 	<xsl:sequence select="tei:field(.//condition,'condition')"/>
 	<xsl:text>"persons" : [</xsl:text>
 	<xsl:for-each select=".//person">
@@ -112,14 +94,10 @@
 		<xsl:text>0.0,0.0</xsl:text>
               </xsl:when>
               <xsl:otherwise>
-		<xsl:for-each select="$geo/id($n)">
-		  <xsl:variable name="maxx" select="max(.//pos/@x)"/>
-		  <xsl:variable name="minx" select="min(.//pos/@x)"/>
-		  <xsl:variable name="maxy" select="max(.//pos/@y)"/>
-		  <xsl:variable name="miny" select="min(.//pos/@y)"/>
-		  <xsl:value-of select="(number($maxx) + number($minx)) div 2"/>
-		  <xsl:text>,</xsl:text>
-		  <xsl:value-of select="(number($maxy) + number($miny)) div 2"/>
+              <xsl:for-each select="$geo/id($n)">
+		<xsl:value-of select="$geo/id($n)/@lat"/>
+		<xsl:text>,</xsl:text>
+		<xsl:value-of select="$geo/id($n)/@long"/>
 		</xsl:for-each>
               </xsl:otherwise>
             </xsl:choose>
