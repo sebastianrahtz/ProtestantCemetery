@@ -67,8 +67,8 @@
 		<xsl:variable name="minx" select="min(.//pos/@x)"/>
 		<xsl:variable name="maxy" select="max(.//pos/@y)"/>
 		<xsl:variable name="miny" select="min(.//pos/@y)"/>
-		<xsl:sequence select="tei:json('lat',(number($maxx) + number($minx)) div 2,false())"/>
-		<xsl:sequence select="tei:json('long',(number($maxy) + number($miny)) div 2,false())"/>
+		<xsl:sequence select="tei:json('lat',(number($maxy) + number($miny)) div 2,false())"/>
+		<xsl:sequence select="tei:json('long',(number($maxx) + number($minx)) div 2,false())"/>
               </xsl:for-each>
             </xsl:otherwise>
           </xsl:choose>
