@@ -18,6 +18,22 @@
 	  <geo xmlns="http://www.tei-c.org/ns/1.0" xml:id="{@xml:id}"   lat="{cell[43]}"  long="{cell[44]}"/>
 	</xsl:for-each>
     </xsl:variable>
+    <xsl:result-document href="pics.json" method="text">
+      <xsl:variable name="all" as="xs:string+">
+	<xsl:for-each select="//graphic[ancestor::TEI//person][starts-with(@url,'webpictures')]">
+	    <xsl:variable name="p"  as="xs:string+">
+	      <xsl:sequence select="tei:json('file',substring-after(@url,'webpictures/'),true())"/>
+	      <xsl:sequence select="tei:json('label',tei:jsonString(concat(ancestor::TEI//person[1]/persName/forename,'&#160;',ancestor::TEI//person[1]/persName/surname)),true())"/>
+	      <xsl:sequence select="tei:json('value',tei:jsonString(concat(ancestor::TEI//person[1]/persName/forename,'&#160;',ancestor::TEI//person[1]/persName/surname)),true())"/>
+	  </xsl:variable>
+	  <xsl:value-of select="tei:jsonObject(($p))"/>
+	</xsl:for-each>
+      </xsl:variable>
+
+      <xsl:value-of select="tei:jsonArray('',$all,false())"/>
+
+    </xsl:result-document>
+
     <xsl:result-document href="personsummary.json" method="text">
       <xsl:variable name="all" as="xs:string+">
 	<xsl:for-each-group select="//person[not(nationality/@key='ZZ')]" group-by="nationality/@key">
@@ -53,9 +69,9 @@
           <xsl:sequence select="tei:json('birth',birth/@when,true())"/>
           <xsl:sequence select="tei:json('death',death/@when,true())"/>
           <xsl:sequence select="tei:json('nationality',$n,true())"/>
-          <xsl:sequence select="tei:json('forename',tei:String(persName/forename),true())"/>
-          <xsl:sequence select="tei:json('surname',tei:String(persName/surname),true())"/>
-          <xsl:sequence select="tei:json('occupation',tei:String(occupation),true())"/>
+          <xsl:sequence select="tei:json('forename',tei:jsonString(persName/forename),true())"/>
+          <xsl:sequence select="tei:json('surname',tei:jsonString(persName/surname),true())"/>
+          <xsl:sequence select="tei:json('occupation',tei:jsonString(occupation),true())"/>
           <xsl:choose>
             <xsl:when test="not($geo/id($n))">
               <xsl:sequence select="tei:json('lat',0.0,false())"/>
