@@ -30,6 +30,7 @@
 	  <xsl:variable name="n" select="nationality/@key"/>
 	  <xsl:variable name="id"><xsl:number level="any"/></xsl:variable>
 	  <xsl:sequence select="tei:field(age,'age')"/>
+	  <xsl:sequence select="tei:field($id,'pid')"/>
 	  <xsl:sequence select="tei:field(sex,'sex')"/>
 	  <xsl:sequence select="tei:field(birth/@when,'birth')"/>
 	  <xsl:sequence select="tei:field(death/@when,'death')"/>
