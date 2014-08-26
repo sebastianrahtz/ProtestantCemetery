@@ -7,7 +7,7 @@ csv: cemall.xml
 	saxon cemall.xml pctocsv.xsl 
 
 json: cemall.xml
-	saxon -o:pc.json cemall.xml pctojson.xsl 
+	saxon cemall.xml pctojson.xsl 
 
 geojson: cemall.xml
 	saxon -o:pc.geojson cemall.xml pctogeojson.xsl 
